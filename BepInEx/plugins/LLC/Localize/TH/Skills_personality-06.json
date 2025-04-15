@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +2 Charge Count",
+          "desc": "[WhenUse] ได้รับ +2 Charge Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             }
@@ -27,19 +27,19 @@
         {
           "level": 2,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +3 Charge Count",
+          "desc": "[WhenUse] ได้รับ +3 Charge Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             }
@@ -48,19 +48,19 @@
         {
           "level": 4,
           "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +4 Charge Count",
+          "desc": "[WhenUse] ได้รับ +4 Charge Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 Charge Count"
                 }
               ]
             }
@@ -74,13 +74,13 @@
         {
           "level": 1,
           "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +2 Charge Count\nClash Power +1 when Shielded",
+          "desc": "[WhenUse] ได้รับ +2 Charge Count\nClash Power +1 เมื่อมีโล่",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttackHead] หากมี 10+ Charge Count, ได้รับ 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -89,19 +89,19 @@
         {
           "level": 2,
           "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +3 Charge Count\nClash Power +2 when Shielded",
+          "desc": "[WhenUse] ได้รับ +3 Charge Count\nClash Power +2 เมื่อมีโล่",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 Charge Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] หากมี 10+ Charge Count, ได้รับ 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -110,19 +110,19 @@
         {
           "level": 4,
           "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +3 Charge Count\nClash Power +2 when Shielded",
+          "desc": "[WhenUse] ได้รับ +3 Charge Count\nClash Power +2 เมื่อมีโล่",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Charge Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 Charge Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Charge Count, gain 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> for every 5 Charge Count next turn (Max 4)"
+                  "desc": "[OnSucceedAttack] หากมี 5+ Charge Count, ได้รับ 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> ต่อทุกๆ 5 Charge Count ในเทิร์นถัดไป (สูงสุด 4)"
                 }
               ]
             }
@@ -136,17 +136,17 @@
         {
           "level": 3,
           "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "desc": "[WhenUse] หากมี 10+ Charge Count, ใช้ all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (ปัดเศษลง) แก่พันธมิตรที่มี %HP ต่ำสุด 2 คน",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] มอบ 3 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -155,17 +155,17 @@
         {
           "level": 4,
           "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "desc": "[WhenUse] หากมี 10+ Charge Count, ใช้ Charge Count ทั้งหมดเพื่อมอบ (Charge Count ที่เสียไป / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (ปัดเศษลง) แก่พันธมิตรที่มี %HP ต่ำสุด 2 คน",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttack] มอบ 5 Rupture"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -179,7 +179,7 @@
         {
           "level": 1,
           "name": "Guard",
-          "desc": "[WhenUse] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "desc": "[WhenUse] ได้รับ 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {}
           ]
@@ -187,7 +187,7 @@
         {
           "level": 4,
           "name": "Guard",
-          "desc": "[WhenUse] Gain <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "desc": "[WhenUse] ได้รับ <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {}
           ]
@@ -206,10 +206,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 Bleed Count"
                 }
               ]
             }
@@ -224,10 +224,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 Bleed Count"
                 }
               ]
             }
@@ -236,16 +236,16 @@
         {
           "level": 4,
           "name": "Track",
-          "desc": "At 2+ Haste, Final Power +1",
+          "desc": "หากมี 2+ Haste, Final Power +1",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 Bleed Count"
                 }
               ]
             }
@@ -259,26 +259,26 @@
         {
           "level": 1,
           "name": "Goin' First",
-          "desc": "[WhenUse] Gain 1 Haste next turn",
+          "desc": "[WhenUse] ได้รับ 1 Haste ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มีความเร็วมากกว่าเป้าหมาย, มอบ Bleed Count ตามความต่างของความเร็วนั้น (สูงสุด 2)"
                 }
               ]
             }
@@ -287,26 +287,26 @@
         {
           "level": 2,
           "name": "Goin' First",
-          "desc": "[WhenUse] Gain 2 Haste next turn",
+          "desc": "[WhenUse] ได้รับ 2 Haste ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มีความเร็วมากกว่าเป้าหมาย, มอบ Bleed Count ตามความต่างของความเร็วนั้น (สูงสุด 3)"
                 }
               ]
             }
@@ -315,26 +315,26 @@
         {
           "level": 4,
           "name": "Goin' First",
-          "desc": "At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 Haste next turn",
+          "desc": "หากมีความเร็ว 6+, Coin Power +1\n[WhenUse] ได้รับ 2 Haste ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 4)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มีความเร็วมากกว่าเป้าหมาย, มอบ Bleed Count ตามความต่างของความเร็วนั้น (สูงสุด 4)"
                 }
               ]
             }
@@ -348,12 +348,12 @@
         {
           "level": 3,
           "name": "Rampage",
-          "desc": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.3% damage per 1% missing HP)",
+          "desc": "หากมีความเร็ว 8+, Coin Power +1\nทำดาเมจแรงขึ้นตามจำนวน HP ที่หายไปของเป้าหมาย (ดาเมจ +0.3% ต่อ 1% ของ HP ที่หายไป)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 5)"
+                  "desc": "[OnSucceedAttackHead] ฟื้นฟู 1 SP ตามจำนวน Bleed บนตัวเป้าหมาย (สูงสุด 5)"
                 }
               ]
             },
@@ -361,14 +361,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttackHead] มอบ 2 Bleed"
                 }
               ]
             }
@@ -377,12 +377,12 @@
         {
           "level": 4,
           "name": "Rampage",
-          "desc": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
+          "desc": "หากมีความเร็ว 6+, Coin Power +1\nทำดาเมจแรงขึ้นตามจำนวน HP ที่หายไปของเป้าหมาย (ดาเมจ +0.3% ต่อ 1% ของ HP ที่หายไป)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 10)"
+                  "desc": "[OnSucceedAttackHead] ฟื้นฟู 1 SP ตามจำนวน Bleed บนตัวเป้าหมาย (สูงสุด 10)"
                 }
               ]
             },
@@ -390,14 +390,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttack] มอบ 2 Bleed"
                 }
               ]
             }
@@ -411,7 +411,7 @@
         {
           "level": 1,
           "name": "Quickness",
-          "desc": "[OnSucceedEvade] Gain 1 Haste next turn (3 times per turn)",
+          "desc": "[OnSucceedEvade] ได้รับ 1 Haste ในเทิร์นถัดไป (3 times per turn)",
           "coinlist": [
             {}
           ]
@@ -419,7 +419,7 @@
         {
           "level": 4,
           "name": "Quickness",
-          "desc": "If target has 7+ Bleed, gain +2 Coin Power\n[OnSucceedEvade] Gain 1 Haste next turn (3 times per turn)",
+          "desc": "หากเป้าหมายมี 7+ Bleed, ได้รับ +2 Coin Power\n[OnSucceedEvade] ได้รับ 1 Haste ในเทิร์นถัดไป (3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {}
           ]
@@ -432,12 +432,12 @@
         {
           "level": 1,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 [Sinking] Count"
                 }
               ]
             }
@@ -446,15 +446,15 @@
         {
           "level": 2,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Clash Power +1",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล\n[WhenUse] หากมี 3+ [KnowledgeExplored], Clash Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [KnowledgeExplored], reuse Coin once"
+                  "desc": "[OnSucceedAttack] หากมี 3+ [KnowledgeExplored], ใช้เหรียญนี้ซ้ำ"
                 }
               ]
             }
@@ -463,15 +463,15 @@
         {
           "level": 4,
           "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Clash Power +([KnowledgeExplored] - 1)",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล\n[WhenUse] Clash Power +([KnowledgeExplored] - 1)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reuse Coin ([KnowledgeExplored] - 1) times"
+                  "desc": "[OnSucceedAttack] ใช้เหรียญนี้ ([KnowledgeExplored] - 1) ครั้ง"
                 }
               ]
             }
@@ -485,14 +485,14 @@
         {
           "level": 1,
           "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "desc": "[WhenUse] สุ่มทิ้งสกิลตามลำดับเรียงจากน้อยไปมากจากทุกช่องสกิลของตัวละครนี้ 2 สกิล",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] มอบ 3 [Sinking]"
                 }
               ]
             }
@@ -501,14 +501,14 @@
         {
           "level": 2,
           "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Coin Power +1",
+          "desc": "[WhenUse] สุ่มทิ้งสกิลตามลำดับเรียงจากน้อยไปมากจากทุกช่องสกิลของตัวละครนี้ 2 สกิล\n[WhenUse] หากมี 3+ [KnowledgeExplored], Coin Power +1",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] มอบ 3 [Sinking]"
                 }
               ]
             }
@@ -517,14 +517,14 @@
         {
           "level": 4,
           "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Coin Power +([KnowledgeExplored] - 1)",
+          "desc": "[WhenUse] สุ่มทิ้งสกิลตามลำดับเรียงจากน้อยไปมากจากทุกช่องสกิลของตัวละครนี้ 2 สกิล\n[WhenUse] Coin Power +([KnowledgeExplored] - 1)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] มอบ 4 [Sinking]"
                 }
               ]
             }
@@ -538,17 +538,17 @@
         {
           "level": 3,
           "name": "Cyclical Knowledge",
-          "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +1.5% damage per [Sinking] on target (Max 15%)",
+          "desc": "[WhenUse] หากมี 2+ [KnowledgeExplored], ได้รับ Coin Power ตามจำนวน [KnowledgeExplored]\n[WhenUse] ดาเมจ +1.5% ตามจำนวน [Sinking] บนตัวเป้าหมาย (สูงสุด 15%)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 [Sinking] Count"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] หากเป้าหมายถูก Stagger หรือถูกจัดการ, ฟื้นฟู 10 SP"
                 }
               ]
             }
@@ -557,17 +557,17 @@
         {
           "level": 4,
           "name": "Cyclical Knowledge",
-          "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +3% damage per [Sinking] on target (Max 30%)",
+          "desc": "[WhenUse] หากมี 2+ [KnowledgeExplored], ได้รับ Coin Power ตามจำนวน [KnowledgeExplored]\n[WhenUse] ดาเมจ +3% ตามจำนวน [Sinking] บนตัวเป้าหมาย (สูงสุด 30%)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +4 [Sinking] Count"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] หากเป้าหมายถูก Stagger หรือถูกจัดการ, ฟื้นฟู 10 SP"
                 }
               ]
             }
@@ -581,7 +581,7 @@
         {
           "level": 1,
           "name": "Guiding Steps",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "desc": "[WhenUse] สุ่มทิ้งสกิลตามลำดับเรียงจากน้อยไปมากจากทุกช่องสกิลของตัวละครนี้ 2 สกิล",
           "coinlist": [
             {}
           ]
@@ -589,7 +589,7 @@
         {
           "level": 4,
           "name": "Guiding Steps",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "desc": "[WhenUse] สุ่มทิ้งสกิลตามลำดับเรียงจากน้อยไปมากจากทุกช่องสกิลของตัวละครนี้ 2 สกิล",
           "coinlist": [
             {}
           ]
@@ -602,19 +602,19 @@
         {
           "level": 1,
           "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Vibration] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] มอบ 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับ +2 [Vibration] Count"
                 }
               ]
             }
@@ -623,19 +623,19 @@
         {
           "level": 2,
           "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Vibration] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +2 [Vibration] Count"
                 }
               ]
             }
@@ -644,19 +644,19 @@
         {
           "level": 4,
           "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1</style>",
+          "desc": "[WhenUse] ได้รับ +2 [Vibration] Count\n<style=\"highlight\">หากมี 6+ [Vibration] Count, Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +2 [Vibration] Count"
                 }
               ]
             }
@@ -670,26 +670,26 @@
         {
           "level": 1,
           "name": "Morph Cane Technique",
-          "desc": "[WhenUse] Gain +3 [Vibration] Count",
+          "desc": "[WhenUse] ได้รับ +3 [Vibration] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 [Vibration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 9+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 9+ [Vibration], ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1"
                 }
               ]
             }
@@ -698,26 +698,26 @@
         {
           "level": 2,
           "name": "Morph Cane Technique",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 8+ [Vibration], Clash Power +1</style>\n[WhenUse] Gain +3 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1</style>",
+          "desc": "<style=\"highlight\">[WhenUse] หากเป้าหมายมี 8+ [Vibration], Clash Power +1</style>\n[WhenUse] ได้รับ +3 [Vibration] Count\n<style=\"highlight\">หากมี 6+ [Vibration] Count, Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 [Vibration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] มอบ <style=\"highlight\">3</style> [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has <style=\"highlight\">7</style>+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี <style=\"highlight\">7</style>+ [Vibration], ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1"
                 }
               ]
             }
@@ -726,26 +726,26 @@
         {
           "level": 4,
           "name": "Morph Cane Technique",
-          "desc": "[WhenUse] If target has <style=\"highlight\">6</style>+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\nAt <style=\"highlight\">5</style>+ [Vibration] Count, Coin Power +1",
+          "desc": "[WhenUse] หากเป้าหมายมี <style=\"highlight\">6</style>+ [Vibration], Clash Power +1\n[WhenUse] ได้รับ +3 [Vibration] Count\nหากมี <style=\"highlight\">5</style>+ [Vibration] Count, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 [Vibration] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] มอบ 3 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has <style=\"highlight\">6</style>+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี <style=\"highlight\">6</style>+ [Vibration], ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1"
                 }
               ]
             }
@@ -759,19 +759,19 @@
         {
           "level": 3,
           "name": "You're the Culprit!",
-          "desc": "[WhenUse] If target has 6+ [Vibration], Clash Power +1\n[WhenUse] Consume 10 [Vibration] Count on self to gain Coin Power +2",
+          "desc": "[WhenUse] หากเป้าหมายมี 6+ [Vibration], Clash Power +1\n[WhenUse] ใช้ 10 [Vibration] Count บนตัวเพื่อรับ Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill consumed [Vibration] Count on use, trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ [Vibration] Count, ทำการ [FusionVibration] เป็น [VibrationEcho]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1"
                 }
               ]
             },
@@ -779,7 +779,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit did not consume [Vibration] Count with Skill use, activate the above effect, then trigger [VibrationExplosion] on self"
+                  "desc": "[OnSucceedAttack] ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1\n- หากตัวละครนี้ไม่ได้ใช้ [Vibration] Count, ใช้งานเอฟเฟคข้างต้น, จากนั้นทำการ [VibrationExplosion] ใส่ตัวเอง"
                 }
               ]
             }
@@ -788,33 +788,33 @@
         {
           "level": 4,
           "name": "You're the Culprit!",
-          "desc": "[WhenUse] Clash Power +1 for every <style=\"highlight\">6</style> [Vibration] on target <style=\"highlight\">(max 2)</style>\n[WhenUse] At <style=\"highlight\"> less than 15 [Vibration] Count on self</style>, consume 10 [Vibration] Count to gain Coin Power +2\n<style=\"highlight\">[WhenUse] Consume 15 [Vibration] Count on self to gain Coin Power +3</style>",
+          "desc": "[WhenUse] Clash Power +1 ต่อทุกๆ <style=\"highlight\">6</style> [Vibration] บนตัวเป้าหมาย <style=\"highlight\">(สูงสุด 2)</style>\n[WhenUse] หากมี <style=\"highlight\"> [Vibration] Count ต่ำกว่า 15 บนตัว</style>, ใช้ 10 [Vibration] Count เพื่อได้รับ Coin Power +2\n<style=\"highlight\">[WhenUse] ใช้ 15 [Vibration] Count บนตัวเพื่อรับ Coin Power +3</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill consumed [Vibration] Count on use, trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ [Vibration] Count, ทำการ [FusionVibration] เป็น [VibrationEcho]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] หากสกิลนี้ใช้ 10+ [Vibration] Count, ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit consumed less than 15 [Vibration] Count, trigger [VibrationExplosion] on self after activating the above effect</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] หากสกิลนี้ใช้ 10+ [Vibration] Count, ทำการ [VibrationExplosion]; จากนั้น, ลด [Vibration] Count ของเป้าหมายลง 1\n- หากตัวละครนี้ใช้ต่ำกว่า 15 [Vibration] Count, ทำการ [VibrationExplosion] ใส่ตัวเองหลังจากที่ใช้งานเอฟเฟคข้างต้น</style>"
                 }
               ]
             }
@@ -828,7 +828,7 @@
         {
           "level": 1,
           "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max 7)",
+          "desc": "[WhenUse] ได้รับโล่ 2 x ([Vibration] Count บนตัวเป้าหมาย) (สูงสุด 7)",
           "coinlist": [
             {}
           ]
@@ -836,7 +836,7 @@
         {
           "level": 4,
           "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max <style=\"highlight\">13</style>)",
+          "desc": "[WhenUse] ได้รับโล่ 2 x ([Vibration] Count บนตัวเป้าหมาย) (สูงสุด <style=\"highlight\">13</style>)",
           "coinlist": [
             {}
           ]
