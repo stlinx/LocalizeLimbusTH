@@ -1,1601 +1,1930 @@
-{
-    "dataList": [{
-            "id": 1010501,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Stay Calm",
-                    "desc": "ได้รับ +3 [Vibration] อัตรา,ถ้าหากสกิลนี้ถูก[Discard]",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ +2 [Vibration] อัตรา"
-                            }]
-                        }
-                    ]
-                },
+﻿{
+  "dataList": [
+    {
+      "id": 1010501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stay Calm",
+          "desc": "ได้รับ +3 Tremor Count หากสกิลนี้ถูกทิ้ง",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
                 {
-                    "level": 2,
-                    "name": "Stay Calm",
-                    "desc": "ถ้าสกิลนี้ ถูก[Discard], ได้รับ +4 [Vibration] อัตรา\n[WhenUse] ได้รับ +2 [Vibration] อัตรา",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Vibration] อัตรา"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Stay Calm",
-                    "desc": "ถ้าสกิลนี้ ถูก[Discard], ได้รับ +4 [Vibration] อัตรา\n[WhenUse] ได้รับ +2 [Vibration] อัตรา\nเมื่อมี 5+ [Vibration] อัตรา, ได้รับ พลังของเหรียญ +1",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Vibration] อัตรา"
-                            }]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttackHead] มอบ +2 Tremor Count"
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
-            "id": 1010502,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Gamble",
-                    "desc": "ถ้าสกิลนี้ ถูก[Discard], ได้รับ +3 [Vibration] อัตรา\n[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวผม",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": "[OnSucceedAttack] เมื่อมี 5+ [Vibration] อัตรา,\n กระตุ้น [VibrationExplosion] จากนั้น\n ลด 2 [Vibration] อัตรา จากเป้าหมาย"
-                        }]
-                    }]
-                },
+          "level": 2,
+          "name": "Stay Calm",
+          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ได้รับ +2 Tremor Count",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
                 {
-                    "level": 2,
-                    "name": "Gamble",
-                    "desc": "ถ้าสกิลนี้ ถูก[Discard], ได้รับ +4 [Vibration] อัตรา\n[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวผม",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Vibration] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] เมื่อมี 5+ [Vibration] อัตรา,\n กระตุ้น [VibrationExplosion] จากนั้น\n ลด 2 [Vibration] อัตรา จากเป้าหมาย"
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Gamble",
-                    "desc": "ถ้าสกิลนี้ ถูก[Discard], ได้รับ +4 [Vibration] อัตรา\n[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวผม",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +3 [Vibration] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] เมื่อมี 5+ [Vibration] อัตรา,\n กระตุ้น [VibrationExplosion] จากนั้น \n ลด 2 [Vibration] อัตรา จากเป้าหมาย"
-                            }
-                        ]
-                    }]
+                  "desc": "[OnSucceedAttack] มอบ +2 Tremor Count"
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
-            "id": 1010503,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Grinding the Molars",
-                    "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวฉัน\n[WhenUse] จ่าย 10 [Vibration] อัตรา เพื่อ ได้รับ พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 4 [Vibration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าสกิลนี้ได้จ่าย [Vibration] อัตรา \n ทำให้ติดการกระตุ้น [VibrationExplosion]"
-                                }
-                            ]
-                        },
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttackHead] ทำสถานะ 2 [DefenseDown]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าสกิลนี้ได้จ่าย [Vibration] อัตรา \n ทำให้ติดการกระตุ้น [VibrationExplosion]"
-                                }
-                            ]
-                        }
-                    ]
-                },
+          "level": 4,
+          "name": "Stay Calm",
+          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ได้รับ +2 Tremor Count\nหากมี 5+ Tremor Count, ได้รับ Coin Power +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
                 {
-                    "level": 4,
-                    "name": "Grinding the Molars",
-                    "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวฉัน\n[WhenUse] จ่าย 10 [Vibration] อัตรา เพื่อ ได้รับ พลังของเหรียญ +2",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 4 [Vibration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าสกิลนี้ได้จ่าย [Vibration] อัตรา \n ทำให้ติดการกระตุ้น [VibrationExplosion]"
-                                }
-                            ]
-                        },
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 [DefenseDown]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าสกิลนี้ได้จ่าย [Vibration] อัตรา \n ทำให้ติดการกระตุ้น [VibrationExplosion]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] มอบ +2 Tremor Count"
                 }
-            ]
-        },
-        {
-            "id": 1010504,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Guard",
-                    "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวฉัน",
-                    "coinlist": [
-                        {}
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Guard",
-                    "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำสุด จากทุกช่องของตัวฉัน",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010601,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Dimensional Slit",
-                    "desc": "[WhenUse] ได้รับ +2 [Charge] อัตรา",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] อัตรา"
-                        }]
-                    }]
-                },
-                {
-                    "level": 2,
-                    "name": "Dimensional Slit",
-                    "desc": "[WhenUse] ได้รับ +2 [Charge] อัตรา",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 2 [Burst]"
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Dimensional Slit",
-                    "desc": "[WhenUse] ได้รับ +2 [Charge] อัตรา\nเมื่อมี 10+ [Charge] อัตรา, พลังของเหรียญ +2",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Burst]"
-                            }
-                        ]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1010602,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Energy Cycle",
-                    "desc": "[WhenUse] ได้รับ +5 [Charge] อัตรา",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 3 [Burst]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Energy Cycle",
-                    "desc": "[WhenUse] ได้รับ +6 [Charge] อัตรา\nเมื่อมี 10+ [Charge] อัตรา, พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 3 [Burst]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] เมื่อมี 10+ [Charge] อัตรา, ทำสถานะ 3 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Energy Cycle",
-                    "desc": "[WhenUse] ได้รับ +7 [Charge] อัตรา\nเมื่อมี 10+ [Charge] อัตรา, พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 3 [Burst]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] เมื่อมี 10+ [Charge] อัตรา, ทำสถานะ 3 [Burst] and +2 [Burst] อัตรา"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010603,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Dimensional Rift",
-                    "desc": "[WhenUse] เมื่อมีจำนวนน้อยกว่า 15 [Charge] อัตรา,จ่าย 10 [Charge] อัตรา เพื่อ ได้รับ +1 พลังของเหรียญ\n[WhenUse] ใช้ 15 [Charge] อัตรา เพื่อ ได้รับ +2 พลังของเหรียญ",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 [Burst] สำหรับทุก 5 [Charge] อัตรา ที่ถูกใช้จากสกิล (มากที่สุด 6)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าหากสกิลนี้ ถูกใช้ 15 [Charge] อัตรา \nเมื่อใช้งาน, ทำสถานะ 2 [DimensionRift]"
-                                },
-                                {
-                                    "desc": "[EnemyKill] ได้รับ 3 [ChargeForceField]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Dimensional Rift",
-                    "desc": "[WhenUse] เมื่อมี น้อยกว่า 15 [Charge] อัตรา, ใช้ 10 [Charge] อัตรา เพื่อ ได้รับ +1 พลังของเหรียญ\n[WhenUse] ใช้ 15 [Charge] อัตรา เพื่อ ได้รับ +2 พลังของเหรียญ\n[BeforeAttack] หากใช้ 15 [Charge] อัตรา, ทำสถานะ +3 [Burst] อัตรา",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 3 [Burst] สำหรับทุก 5 [Charge] อัตรา ที่ถูกใช้จากสกิล (มากที่สุด 9)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าหากสกิลนี้ใช้ 15 [Charge] อัตรา \nเมื่อใช้งาน, ทำสถานะ 2 [DimensionRift]"
-                                },
-                                {
-                                    "desc": "[EnemyKill] ได้รับ 5 [ChargeForceField]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010604,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Hollow Dimension",
-                    "desc": "พลังพื้นฐาน +1 ต่อ 5 [Charge] อัตรา (มากที่สุด 2)",
-                    "coinlist": [
-                        {}
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Hollow Dimension",
-                    "desc": "พลังพื้นฐาน +1 ต่อ 5 [Charge] อัตรา (มากที่สุด 2)",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": "[OnSucceedEvade] +1 โพเทนซี่ เมื่อมอบ [Burst] ครั้งแรกด้วยผลของสกิล ในเทิร์นถัดไป (มากที่สุด +3 ต่อ เทิร์น)"
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1010701,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Impale",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 2 [Laceration]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Impale",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Impale",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010702,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Relentless Stabbing",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา\nเมื่อมี 5+ [Breath], พลังตอนปะทะ +2",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ได้รับ 2 [Breath]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Laceration]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Relentless Stabbing",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา\nเมื่อมี 5+ [Breath], พลังตอนปะทะ +2",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ได้รับ 2 [Breath]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Laceration]"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ใช้เหรียญนี้อีกครั้ง (มากที่สุด 1 ครั้ง)"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Relentless Stabbing",
-                    "desc": "[WhenUse] ได้รับ +2 [Breath] อัตรา\nเมื่อมี 5+ [Breath], พลังตอนปะทะ +3",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Laceration]"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ใช้เหรียญนี้อีกครั้ง (มากที่สุด 3 ครั้ง)"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010703,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Ambush",
-                    "desc": "[WhenUse] ได้รับ 5 [Breath]",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ได้รับ +2 [Breath] อัตรา"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 4 [Laceration]"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ทำสถานะ +4 [Laceration] อัตรา"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Ambush",
-                    "desc": "[WhenUse] ได้รับ 5 [Breath]\nเมื่อมี 7+ [Breath], พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ได้รับ +2 [Breath] อัตรา"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 4 [Laceration]"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ทำสถานะ +6 [Laceration] อัตรา"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010704,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Evade",
-                    "desc": "",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Evade",
-                    "desc": "",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1010801,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Expend Knowledge",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 2% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Expend Knowledge",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 3% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Expend Knowledge",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 3% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม\n[WhenUse] ถ้าเป้าหมายมี 5+ [Sinking], พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ลดขีดค่าโซเซของผู้ใช้ ลง [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010802,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Seal Shut",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 4% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Seal Shut",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 5% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม\n[WhenUse] ได้รับ +3 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Seal Shut",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 6% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] [Discard] 1 สกิลที่มีระดับสูงสุด จากช่องทั้งหมด ของตัวผม\n[WhenUse] ถ้าเป้าหมายมี 5+ [Sinking], พลังของเหรียญ +1\n[WhenUse] ได้รับ +3 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ [Sinking] เท่ากับของ [KnowledgeExplored] หน่วย"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010803,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Grace of Knowledge",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 9% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] ได้รับ +8 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า",
-                    "coinlist": [
-                        {},
-                        {},
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Sinking] อัตรา"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Grace of Knowledge",
-                    "desc": "ได้รับเกราะ ([KnowledgeExplored] x 12% ของ HP สูงสุด) หน่วย, หากสกิลนี้ ถูก[Discard]\n[WhenUse] ได้รับ +10 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า\n[WhenUse] เมื่อมี 50%- HP, พลังของเหรียญ +1",
-                    "coinlist": [
-                        {},
-                        {},
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ +3 [Sinking] อัตรา"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010804,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Fixated Study",
-                    "desc": "[WhenUse] สุ่ม [Discard] 2 สกิลทั่งหมดจากช่องทั่งหมดของตัวผม ตามลำดับจากต่ำไปสูง\n[WhenUse] ได้รับ +3 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Fixated Study",
-                    "desc": "[WhenUse] สุ่ม [Discard] 2 สกิลทั่งหมดจากช่องทั่งหมดของตัวผม ตามลำดับจากต่ำไปสูง\n[WhenUse] ได้รับ +5 [Aggro] ให้กับช่องสกิลนี้เทิร์นหน้า",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1010901,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Paint Over",
-                    "desc": "",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำให้เกิด +2 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]."
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ [Laceration] 2 หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Paint Over",
-                    "desc": "",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำให้เกิด +2 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]."
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ [Laceration] 2 หน่วย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Paint Over",
-                    "desc": "ถ้าเป้าหมายมี [Laceration] 6+ หน่วย, พลังตอนปะทะ +1",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำให้เกิด +2 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]."
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ [Laceration] 2 หน่วย"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010902,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Sanguine Pointillism",
-                    "desc": "",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] มีโอกาส 20% ที่จะได้โยนเหรียญอีกครั้ง (มีผลครั้งเดียว). มีโอกาสเพิ่มอีก +20% ในโยนเหรียญอีกครั้ง ตามจำนวนของ สถานะผิดปกติ ที่เป้าหมายมี"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +1 [Laceration] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]."
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 2,
-                    "name": "Sanguine Pointillism",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Laceration], พลังตอนปะทะ +1",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] มีโอกาส 20% ที่จะได้โยนเหรียญอีกครั้ง (มีผลครั้งเดียว). มีโอกาสเพิ่มอีก +20% ในโยนเหรียญอีกครั้ง ตามจำนวนของ สถานะผิดปกติ ที่เป้าหมายมี"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +1 [Laceration] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +3 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]."
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Sanguine Pointillism",
-                    "desc": "เพิ่มพลังตอนปะทะ +1 สำหรับทุก [Laceration] 3 หน่วย บนตัวเป้าหมาย (มากสุด 2)\nเพิ่มพลังของเหรียญ +1 สำหรับทุก [Laceration] อัตรา 3 หน่วย ของเป้าหมาย (มากที่สุด 2)",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[OnSucceedAttack] มีโอกาส 40% ที่จะได้โยนเหรียญอีกครั้ง. มีโอกาสเพิ่มอีก +20% ในโยนเหรียญอีกครั้ง ตามจำนวนของ สถานะผิดปกติ ที่เป้าหมายมี (มากสุด 2 ครั้ง ต่อ สกิล)"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +1 [Laceration] อัตรา"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +3 อัตรา สุ่มจากสถานะอย่างใดอย่างนึ่งจากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. "
-                            }
-                        ]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1010903,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Hematic Coloring",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Laceration], พลังตอนปะทะ +1",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +1 [Laceration] อัตรา. ถ้าเป้าหมายมี 4+ types of negative effects, ทำสถานะ +2 เพิ่มเติม [Laceration] อัตรา"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +3 อัตรา สำหรับผล 1 อย่าง จากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Laceration]. ถ้าเป้าหมายมี 4+ types of negative effects, ทำสถานะ 2 เพิ่มเติม [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 โพเทนซี่ สำหรับผล 1 อย่าง จากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +15% ดาเมจเพิ่มอีก สำหรับทุก สถานะผิดปกติ ของเป้าหมาย (มากที่สุด 75%)"
-                                },
-                                {
-                                    "desc": "[EndSkill] ถ้าเป้าหมาย โยกเยก หรือ ถูกปราบ, ทำสถานะ 2 โพเทนซี่ สำหรับผล 1 อย่าง จากตัวเลือกดังนี้ แก่ศัตรู 1 คน ที่มีค่าเหล่านี้น้อยที่สุด: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Hematic Coloring",
-                    "desc": "พลังตอนปะทะ +1 สำหรับทุก 3 [Laceration] ของเป้าหมาย (มากที่สุด 2)\nพลังของเหรียญ +1 สำหรับทุก 3 [Laceration] อัตรา ของเป้าหมาย (มากที่สุด 2)",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +1 [Laceration] อัตรา. ถ้าเป้าหมายมี 3+ types of negative effects, ทำสถานะ +2 เพิ่มเติม [Laceration] อัตรา"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +3 อัตรา สำหรับผล 1 อย่าง จากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Laceration]. ถ้าเป้าหมายมี 3+ types of negative effects, ทำสถานะ 2 เพิ่มเติม [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 โพเทนซี่ สำหรับผล 1 อย่าง จากตัวเลือกดังนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +25% ดาเมจเพิ่มอีก สำหรับทุก สถานะผิดปกติ ของเป้าหมาย (มากที่สุด 125%)"
-                                },
-                                {
-                                    "desc": "[EndSkill] ถ้าเป้าหมาย โยกเยก หรือ ถูกปราบ, ทำสถานะ 2 โพเทนซี่ สำหรับผล 1 อย่าง จากตัวเลือกดังนี้ แก่ศัตรู 2 คน ที่มีค่าเหล่านี้น้อยที่สุด: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. ผลที่ได้เป็นจะการสุ่ม."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1010904,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Beat the Brush",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Laceration], พลังพื้นฐาน +5",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "Beat the Brush",
-                    "desc": "พลังพื้นฐาน +1 สำหรับทุก 1 [Laceration] ของเป้าหมาย (มากที่สุด 10)",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1011001,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Celebration for the Departed",
-                    "desc": "",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Celebration for the Departed",
-                    "desc": "ถ้าเป้าหมายมีผลรวมของ [Sinking] and both [SinkingWhite] is 6 หรือ higher, พลังของเหรียญ +1\n[WinDuel] ทำสถานะ +2 [Sinking] อัตรา",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Celebration for the Departed",
-                    "desc": "<style=\"highlight\">หากมีกระสุน [BulletLament] 10+ นัด,พลังตอนปะทะ +1</style>\nถ้าเป้าหมายมีผลรวมของ [Sinking] และ [SinkingWhite] รวมแล้วมี 6 หรือมากกว่า, เพิ่มพลังของเหรียญ +1\n[WinDuel] ทำสถานะ +2 [Sinking] อัตรา",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011002,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Solemn Lament for the Living",
-                    "desc": "",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament]  5 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Solemn Lament for the Living",
-                    "desc": "ถ้าเป้าหมายมีผลรวมของ [Sinking] and both [SinkingWhite] is 6 หรือ higher, พลังของเหรียญ +1\n[WinDuel] ทำสถานะ +1 [Sinking] อัตรา\n[EndSkill] ได้รับ (highest Reson.) of [BulletLament] (มากที่สุด 6)\n- If the said Reson. was an A-Reson., ได้รับ (highest Reson. x 2) of [BulletLament] (มากที่สุด 12)",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament]  5 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Solemn Lament for the Living",
-                    "desc": "เมื่อมี 10+ [BulletLament], พลังตอนปะทะ +1\n<style=\"highlight\">พลังของเหรียญ +1 สำหรับทุก 6 หน่วยของผลรวมของเป้าหมาย</style> [Sinking] และ [SinkingWhite] <style=\"highlight\">(มากที่สุด 2)</style>\n[WinDuel] ทำสถานะ +1 [Sinking] อัตรา\n[EndSkill] ได้รับ (highest Reson.) of [BulletLament] (มากที่สุด 6)\n- If the said Reson. was an A-Reson., ได้รับ (highest Reson. x 2) of [BulletLament] (มากที่สุด 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] แทน",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament]  5 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011003,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Goodbye Now, A Sorrow In You",
-                    "desc": "พลังพื้นฐาน +1 สำหรับทุก 10 value of [BulletLament] (มากที่สุด 2)\n[WinDuel] ทำสถานะ +3 [Sinking] อัตรา\n[EndSkill] [ReloadLament]",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament]  6 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้ all of [BulletLament] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำ +2% ดาเมจเพิ่มอีก สำหรับทุก value of [BulletLament] ถูกใช้ ด้วยสกิลนี้"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ Gloom damage เท่ากับของ \"All\" [SinkingWhite] ของเป้าหมาย\n- \"All\" = the sum of both The Living and The Departed ของเป้าหมาย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Goodbye Now, A Sorrow In You",
-                    "desc": "พลังพื้นฐาน +1 สำหรับทุก <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(มากที่สุด 4)</style>\nพลังของเหรียญ +1 สำหรับทุก 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (มากที่สุด 2)\n[WinDuel] ทำสถานะ +3 [Sinking] อัตรา\n[EndSkill] [ReloadLament]",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament] 1 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้กระสุน [BulletLament]  6 นัด "
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ใช้ all of [BulletLament] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ [SinkingWhite] เท่ากับของ [BulletLament] ที่ถูกใช้ไป"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำ +4% ดาเมจเพิ่มอีก สำหรับทุก value of [BulletLament] ถูกใช้ ด้วยสกิลนี้"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ Gloom damage เท่ากับของ \"All\" [SinkingWhite] ของเป้าหมาย\n- \"All\" = the sum of both The Living and The Departed ของเป้าหมาย"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011004,
-            "levelList": [{
-                    "level": 1,
-                    "name": "FromTheCoffinAButterflyTakesFlight",
-                    "desc": "[StartBattle] [ReloadLament] (ครั้งเดียว ต่อ เทิร์น)",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "FromTheCoffinAButterflyTakesFlight",
-                    "desc": "[StartBattle] [ReloadLament] (ครั้งเดียว ต่อ เทิร์น)\n[StartBattle] ได้รับ เกราะ เท่ากับของ (the sum of both [SinkingWhite] on the selected target)% HP. (มากที่สุด 20% ต่อ เทิร์น)",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": ""
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1011101,
-            "levelList": [{
-                    "level": 1,
-                    "name": "คงต้องกล่าวบอกไว้ก่อนว่า E.G.O นั้นเป็นอุปกรณ์ขั้นพื้นฐาน",
-                    "desc": "[WhenUse] ได้รับ +2 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] ด้วยผลของมัน",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "คงต้องกล่าวบอกไว้ก่อนว่า E.G.O นั้นเป็นอุปกรณ์ขั้นพื้นฐาน",
-                    "desc": "[StartBattle] เมื่อแพ้การปะทะ, ได้รับ พลังโดยรวม เท่ากับ สกิลที่เล็งตัวผล (มากที่สุด 2)\n[WhenUse] ได้รับ +3 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] ด้วยผลของมัน\n[DefeatDuel] [Burst] โพเทนซี่ ทำให้ติดed ด้วยสกิลนี้ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "คงต้องกล่าวบอกไว้ก่อนว่า E.G.O นั้นเป็นอุปกรณ์ขั้นพื้นฐาน",
-                    "desc": "[StartBattle] เมื่อแพ้การปะทะ, ได้รับ พลังโดยรวม เท่ากับ สกิลที่เล็งตัวผล (มากที่สุด 3)\n[WhenUse] ได้รับ +3 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] ด้วยผลของมัน\n[DefeatDuel] [Burst] โพเทนซี่ ทำให้ติดed ด้วยสกิลนี้ +2",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011102,
-            "levelList": [{
-                    "level": 1,
-                    "name": "เมื่อวางเทียบกับ E.G.O จาก L Corp. โดยขึ้นอยู่กับระดับของสิ่งผิดปกติแต่ล่ะตัวแล้วนั้น",
-                    "desc": "[WhenUse] ได้รับ +2 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] อัตรา ด้วยผลของมัน",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[SuperCoin]"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +1 [Burst] อัตรา"
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 2,
-                    "name": "เมื่อวางเทียบกับ E.G.O จาก L Corp. โดยขึ้นอยู่กับระดับของสิ่งผิดปกติแต่ล่ะตัวแล้วนั้น",
-                    "desc": "[StartBattle] เมื่อแพ้การปะทะ, ได้รับ พลังโดยรวม เท่ากับ สกิลที่เล็งตัวผม (มากที่สุด 3)\n[WhenUse] ได้รับ +3 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] อัตรา ด้วยผลของมัน\n[DefeatDuel] ทำสถานะ [Burst] อัตรา ด้วยสกิลนี้ +1",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[SuperCoin]"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Burst] อัตรา"
-                            }
-                        ]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "เมื่อวางเทียบกับ E.G.O จาก L Corp. โดยขึ้นอยู่กับระดับของสิ่งผิดปกติแต่ล่ะตัวแล้วนั้น",
-                    "desc": "[StartBattle] <style=\"highlight\">เมื่อแพ้การปะทะ, ได้รับ (# ตามจำนวนสกิลที่เล็งตัวผม x 2) พลังโดยรวม (มากที่สุด 6)</style>\n[WhenUse] ได้รับ +4 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา: สกิลนี้ไม่ ทำสถานะ [Burst] อัตรา ด้วยผลของมัน\n[DefeatDuel] ทำสถานะ [Burst] อัตรา ด้วยสกิลนี้ +2",
-                    "coinlist": [{
-                        "coindescs": [{
-                                "desc": "[SuperCoin]"
-                            },
-                            {
-                                "desc": "[OnSucceedAttack] ทำสถานะ +2 [Burst] อัตรา"
-                            }
-                        ]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1011103,
-            "levelList": [{
-                    "level": 3,
-                    "name": "จักรมีการใข้งานต่างๆที่หลากหลายและแตกต่างมากขึ้น",
-                    "desc": "ทำดาเมจเพิ่ม +0.5% สำหรับทุก 1% HP ที่หายไปจากตัวผม\n[StartBattle] พลังพื้นฐาน +1 สำหรับทุกสกิลที่เล็งมาที่ผม (มากที่สุด 2)\n[WhenUse] ได้รับ 2 [GlowingLantern] (ครั้งเดียว ต่อ เทิร์น)\n[WhenUse] ได้รับ +6 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา, สกิลนี้ไม่ ทำสถานะ [Burst] โพเทนซี่ หรือ อัตรา ด้วยผลของมัน; แต่จะได้รับ พลังพื้นฐาน +1 แทน\n[EndSkill] Heal 30 SP",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +2 [Burst] อัตรา"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Binding] เทิร์นถัดไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "จักรมีการใข้งานต่างๆที่หลากหลายและแตกต่างมากขึ้น",
-                    "desc": "ทำดาเมจเพิ่ม +0.8% สำหรับทุก 1% HP ที่หายไปจากตัวผม\n[StartBattle] พลังพื้นฐาน +1 สำหรับทุกสกิลที่เล็งมาที่ผม (มากที่สุด 3)\n[WhenUse] ได้รับ 3 [GlowingLantern] (ครั้งเดียว ต่อ เทิร์น)\n[WhenUse] ได้รับ +8 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา, สกิลนี้ไม่ ทำสถานะ [Burst] โพเทนซี่ หรือ อัตรา ด้วยผลของมัน; แต่จะได้รับ พลังพื้นฐาน +1 แทน\n[EndSkill] Heal 30 SP",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ +3 [Burst] อัตรา"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 2 [Binding] เทิร์นถัดไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Burst]"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011104,
-            "levelList": [{
-                    "level": 1,
-                    "name": "อย่างไรก็ตาม การปรับเข้าและหลอมรวมกับอุปกรณ์นั้นอาจมีผลกระทบให้ผู้ใช้ถูกกลืนกินได้",
-                    "desc": "[StartBattle] ได้รับ 2 [GlowingLantern] (ครั้งเดียว ต่อ เทิร์น)\n[WhenUse] ได้รับ +6 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา, สกิลนี้ไม่ ทำสถานะ [Burst] อัตรา ด้วยผลของมัน; แต่จะได้รับ พลังพื้นฐาน +3 แทน",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": "[OnSucceedAttack] ทำสถานะ +2 [Burst] อัตรา"
-                        }]
-                    }]
-                },
-                {
-                    "level": 4,
-                    "name": "อย่างไรก็ตาม การปรับเข้าและหลอมรวมกับอุปกรณ์นั้นอาจมีผลกระทบให้ผู้ใช้ถูกกลืนกินได้",
-                    "desc": "[StartBattle] ได้รับ 3 [GlowingLantern] (ครั้งเดียว ต่อ เทิร์น)\n[WhenUse] ได้รับ +8 [Aggro] เทิร์นถัดไป\n[WhenUse] ถ้าเป้าหมายมี 15+ [Burst] and 3+ [Burst] อัตรา, สกิลนี้ไม่ ทำสถานะ [Burst] อัตรา ด้วยผลของมัน; แต่จะได้รับ พลังพื้นฐาน +3 แทน",
-                    "coinlist": [{
-                        "coindescs": [{
-                            "desc": "[OnSucceedAttack] ทำสถานะ +2 [Burst] อัตรา"
-                        }]
-                    }]
-                }
-            ]
-        },
-        {
-            "id": 1011201,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Flame Hew",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Combustion], พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Flame Hew",
-                    "desc": "ถ้าเป้าหมายมี <style=\"highlight\">3</style>+ [Combustion], พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Flame Hew",
-                    "desc": "<style=\"highlight\">พลังของเหรียญ +1 สำหรับทุก 3 [Combustion] ของเป้าหมาย (มากที่สุด 2)</style>\n<style=\"highlight\">ทำ +10% ดาเมจเพิ่มอีก สำหรับทุก 10 [Combustion] ของเป้าหมาย (มากที่สุด 30%)</style>",
-                    "coinlist": [{
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011202,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Frontal Assault",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Combustion], พลังของเหรียญ +1",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ถ้าเป้าหมายมี 6+ [Combustion], ทำสถานะ +2 [Combustion] อัตรา ของเป้าหมาย"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 2,
-                    "name": "Frontal Assault",
-                    "desc": "พลังของเหรียญ +1 สำหรับทุก 6 [Combustion] ของเป้าหมาย (มากที่สุด 2)",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +2.5% ดาเมจเพิ่มอีก สำหรับทุก [Combustion] ของเป้าหมาย (มากที่สุด 30%)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าเป้าหมายมี 6+ [Combustion], ทำสถานะ +2 [Combustion] อัตรา ของเป้าหมาย<style=\"highlight\"></style>"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Frontal Assault",
-                    "desc": "พลังของเหรียญ +1 สำหรับทุก 6 [Combustion] ของเป้าหมาย (มากที่สุด 2)",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +<style=\"highlight\">5</style>% ดาเมจเพิ่มอีก สำหรับทุก [Combustion] ของเป้าหมาย (มากที่สุด <style=\"highlight\">60</style>%)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ถ้าเป้าหมายมี 6+ [Combustion], ทำสถานะ +2 [Combustion] อัตรา ของเป้าหมาย<style=\"highlight\"></style>"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011203,
-            "levelList": [{
-                    "level": 3,
-                    "name": "Flow of the Sword",
-                    "desc": "ถ้าเป้าหมายมี 6+ [Combustion], พลังของเหรียญ +1\nทำ +10% ดาเมจเพิ่มอีก สำหรับทุก 6 [Combustion] ของเป้าหมาย (มากที่สุด 30%)\n[EndSkill] Heal 10 SP for 1 other ally with the least SP\n- If this attack killed the target, หรือ if target had 10+ [Combustion], heal 1 more ally",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +2% ดาเมจเพิ่มอีก สำหรับทุก [Combustion] ของเป้าหมาย (มากที่สุด 60%)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ Wrath Affinity damage เท่ากับของ [Combustion] โพเทนซี่ ของเป้าหมาย. (มากที่สุด 30) Reduce Target's [Combustion] อัตรา by 2"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Flow of the Sword",
-                    "desc": "<style=\"highlight\">พลังของเหรียญ +1 สำหรับทุก 6 [Combustion] ของเป้าหมาย (มากที่สุด 2)</style>\nทำ +10% ดาเมจเพิ่มอีก สำหรับทุก 6 [Combustion] ของเป้าหมาย (มากที่สุด 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> SP for 1 other ally with the least SP\n- If this attack killed the target, หรือ if target had 10+ [Combustion], heal 1 more ally",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 1 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttack] ทำสถานะ 2 [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                    "desc": "ทำ +2% ดาเมจเพิ่มอีก สำหรับทุก [Combustion] ของเป้าหมาย (มากที่สุด 60%)"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำสถานะ Wrath Affinity damage เท่ากับของ [Combustion] โพเทนซี่ ของเป้าหมาย. (มากที่สุด 30) Reduce Target's [Combustion] อัตรา by 2"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 1011204,
-            "levelList": [{
-                    "level": 1,
-                    "name": "Flame อัตราer",
-                    "desc": "[BeforeHit] ได้รับ เกราะ เท่ากับของ [Combustion] ของเป้าหมาย (มากที่สุด 10, ครั้งเดียว ต่อ เทิร์น)",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]\n- If this unit has เกราะ, ทำสถานะ 1 เพิ่มเติม [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]\n- If this unit has เกราะ, ทำสถานะ 1 เพิ่มเติม [Combustion]"
-                            }]
-                        }
-                    ]
-                },
-                {
-                    "level": 4,
-                    "name": "Flame อัตราer",
-                    "desc": "[BeforeHit] ได้รับ เกราะ เท่ากับของ [Combustion] ของเป้าหมาย (มากที่สุด 15, ครั้งเดียว ต่อ เทิร์น)\n[WhenUse] ถ้าเป้าหมายมี 10+ [Combustion], ทำ +10% more damage",
-                    "coinlist": [{
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]\n- If this unit has เกราะ, ทำสถานะ 1 เพิ่มเติม [Combustion]"
-                            }]
-                        },
-                        {
-                            "coindescs": [{
-                                "desc": "[OnSucceedAttackHead] ทำสถานะ 1 [Combustion]\n- If this unit has เกราะ, ทำสถานะ 1 เพิ่มเติม [Combustion]"
-                            }]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 1010502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gamble",
+          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +3 Tremor Count\n[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] หากมี 5+ Tremor Count, ทำการ Tremor Burst. ลด Tremor Count ของเป้าหมายลง 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Gamble",
+          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +2 Tremor Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากมี 5+ Tremor Count, ทำการ Tremor Burst. ลด Tremot Count ของเป้าหมายลง 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gamble",
+          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 Tremor Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากมี 5+ Tremor Count, ทำการ Tremor Burst. ลด Tremot Count ของเป้าหมายลง 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Grinding the Molars",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล\n[WhenUse] ใช้ 10 Tremor Count เพื่อรับ Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 4 Tremor"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, ทำการ Tremor Burst"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 2 Defense Level Down"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, ทำการ Tremor Burst"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grinding the Molars",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล\n[WhenUse] ใช้ 10 Tremor Count เพื่อรับ Coin Power +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 4 Tremor"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, ทำการ Tremor Burst"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Defense Level Down"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, ทำการ Tremor Burst"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guard",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Guard",
+          "desc": "[WhenUse] ทิ้งสกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ 1 สกิล",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dimensional Slit",
+          "desc": "[WhenUse] ได้รับ +2 Charge Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับ +2 Charge Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dimensional Slit",
+          "desc": "[WhenUse] ได้รับ +2 Charge Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับ +2 Charge Count"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 2 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dimensional Slit",
+          "desc": "[WhenUse] ได้รับ +2 Charge Count\nหากมี 10+ Charge Count, Coin Power +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับ +2 Charge Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Rupture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Energy Cycle",
+          "desc": "[WhenUse] ได้รับ +5 Charge Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bind ในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 3 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Energy Cycle",
+          "desc": "[WhenUse] ได้รับ +6 Charge Count\nหากมี 10+ Charge Count, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bind ในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 3 Rupture"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากมี 10+ Charge Count, มอบ 3 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Energy Cycle",
+          "desc": "[WhenUse] ได้รับ +7 Charge Count\nหากมี 10+ Charge Count, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bind ในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 3 Rupture"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากมี 10+ Charge Count, มอบ 3 Rupture และ +2 Rupture Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Dimensional Rift",
+          "desc": "[WhenUse] หากมี Charge Count ต่ำกว่า 15, ใช้ 10 Charge Count เพื่อรับ +1 Coin Power\n[WhenUse] ใช้ 15 Charge Count เพื่อรับ +2 Coin Power",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Rupture ต่อ 5 Charge Count ที่ถูกใช้โดยสกิลนี้ (สูงสุด 6)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ 15 Charge Count, มอบ 2 Dimensional Rift"
+                },
+                {
+                  "desc": "[EnemyKill] ได้รับ 3 Charge Barrier"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dimensional Rift",
+          "desc": "[WhenUse] หากมี Charge Count ต่ำกว่า 15, ใช้ 10 Charge Count เพื่อรับ +1 Coin Power\n[WhenUse] ใช้ 15 Charge Count เพื่อรับ +2 Coin Power\n[BeforeAttack] หากสกิลนี้ใช้ 15 Charge Count, มอบ +3 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 3 Rupture ต่อ 5 Charge Count ที่ถูกใช้โดยสกิลนี้ (สูงสุด 9)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ 15 Charge Count, มอบ 2 Dimensional Rift"
+                },
+                {
+                  "desc": "[EnemyKill] ได้รับ 5 Charge Barrier"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hollow Dimension",
+          "desc": "Base Power +1 ต่อ 5 Charge Count (สูงสุด 2)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hollow Dimension",
+          "desc": "Base Power +1 ต่อ 5 Charge Count (สูงสุด 2)\n[OnSucceedEvade] +1 Potency เมื่อมอบ Rupture ครั้งแรกด้วยเอฟเฟคสกิลในเทิร์นถัดไป (สูงสุด +3 ต่อเทิร์น)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Impale",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 2 Bleed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Impale",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Bind ในเทิร์นถัดไป"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Bleed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Impale",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bind ในเทิร์นถัดไป"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Bleed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Relentless Stabbing",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count\nหากมี 5+ Poise, Clash Power +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ได้รับ 2 Poise"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Relentless Stabbing",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count\nหากมี 5+ Poise, Clash Power +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ได้รับ 2 Poise"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] ใช้เหรียญนี้ซ้ำ (สูงสุด 1 ครั้ง)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Relentless Stabbing",
+          "desc": "[WhenUse] ได้รับ +2 Poise Count\nหากมี 5+ Poise, Clash Power +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับ 2 Poise"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 Bleed"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] ใช้เหรียญนี้ซ้ำ (สูงสุด 3 ครั้ง)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ambush",
+          "desc": "[WhenUse] ได้รับ 5 Poise",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ได้รับ +2 Poise Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 4 Bleed"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] มอบ +4 Bleed Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ambush",
+          "desc": "[WhenUse] ได้รับ 5 Poise\nหากมี 7+ Poise, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับ +2 Poise Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 4 Bleed"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] มอบ +6 Bleed Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Evade",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Evade",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Expend Knowledge",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 2% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Expend Knowledge",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 3% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Expend Knowledge",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 3% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n[WhenUse] หากเป้าหมายมี 5+ [Sinking], Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวนของ [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Seal Shut",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 4% ของ Max HP)  หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ [Sinking] ต่อจำนวน [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ [Sinking] ตามจำนวน [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Seal Shut",
+          "desc": "ได้รับโล่่ ([KnowledgeExplored] x 5% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n[WhenUse] ได้รับ +3 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ [Sinking] ตามจำนวน [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ [Sinking] ตามจำนวน [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Seal Shut",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 6% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ทิ้ง 1 สกิลที่ระดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n[WhenUse] หากเป้าหมายมี 5+ [Sinking], Coin Power +1\n[WhenUse] ได้รับ +3 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ [Sinking] ตามจำนวน [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ [Sinking] ตามจำนวน [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Grace of Knowledge",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 9% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ได้รับ +8 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +2 [Sinking] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grace of Knowledge",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 12% ของ Max HP) หากสกิลนี้ถูกทิ้ง\n[WhenUse] ได้รับ +10 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป\n[WhenUse] หากมี 50%- HP, Coin Power +1",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 [Sinking] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fixated Study",
+          "desc": "[WhenUse] สุ่มทิ้ง 2 สกิลที่ระดับต่ำสุดไปสูงสุดจากช่องสกิลทั้งหมดของตัวละครนี้\n[WhenUse] ได้รับ +3 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fixated Study",
+          "desc": "[WhenUse] สุ่มทิ้ง 2 สกิลที่ระดับต่ำสุดไปสูงสุดจากช่องสกิลทั้งหมดของตัวละครนี้\n[WhenUse] ได้รับ +5 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Paint Over",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ +2 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Paint Over",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ +2 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Paint Over",
+          "desc": "หากเป้าหมายมี 6+ [Laceration], Clash Power +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ +2 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sanguine Pointillism",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มีโอกาส 20% ที่จะใช้เหรียญนี้ซ้ำ โอกาส +20% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +1 [Laceration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] มอบ +2 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sanguine Pointillism",
+          "desc": "หากเป้าหมายมี 6+ [Laceration], Clash Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มีโอกาส 20% ที่จะใช้เหรียญนี้ซ้ำ โอกาส +20% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +1 [Laceration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sanguine Pointillism",
+          "desc": "Clash Power +1 ต่อ 3 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\nCoin Power +1 ต่อ 3 [Laceration] Count บนตัวเป้าหมาย (สูงสุด 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มีโอกาส 40% ที่จะใช้เหรียญนี้ซ้ำ โอกาส +20% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย(ใช้ซ้ำสูงสุด 2 ครั้ง)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +1 [Laceration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Hematic Coloring",
+          "desc": "หากเป้าหมายมี 6+ [Laceration], Clash Power +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +1 [Laceration] Count. หากเป้าหมายมีสถานะผิดปกติ 4 สถานะขึ้นไป, มอบ +2 [Laceration] Count เพิ่มเติม"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 [Laceration]. หากเป้าหมายมีสถานะผิดปกติ 4 สถานะขึ้นไป, มอบ 2 [Laceration] เพิ่มเติม"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Potency ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "ดาเมจ +15% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 75%)"
+                },
+                {
+                  "desc": "[EndSkill] หากเป้าหมาย Stagger หรือถูกจัดการ, มอบ 2 Potency ให้แก่ 1 สถานะต่อไปนี้แก่ศัตรู 1 ตัวที่มีสถานะผิดปกติน้อยที่สุด: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hematic Coloring",
+          "desc": "Clash Power +1 ต่อ 3 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\nCoin Power +1 ต่อ 3 [Laceration] Count บนตัวเป้าหมาย (สูงสุด 2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ +1 [Laceration] Count. หากเป้าหมายมีสถานะผิดปกติ 3 สถานะขึ้นไป, มอบ +2 [Laceration] Count เพิ่มเติม"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ +3 Count ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] มอบ 1 [Laceration]. หากเป้าหมายมีสถานะผิดปกติ 3 สถานะขึ้นไป, มอบ 2 [Laceration] เพิ่มเติม"
+                },
+                {
+                  "desc": "[OnSucceedAttack] มอบ 2 Potency ให้แก่ 1 สถานะต่อไปนี้: [Combustion], [Laceration], [Vibration], [Burst], หรือ [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "ดาเมจ +25% ต่อจำนวนสถานะปกติบนตัวเป้าหมาย (สูงสุด 125%)"
+                },
+                {
+                  "desc": "[EndSkill] หากเป้าหมาย Stagger หรือถูกจัดการ, มอบ 2 Potency ให้แก่ 1 สถานะต่อไปนี้แก่ศัตรู 2 ตัวที่มีสถานะผิดปกติน้อยที่สุด: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. สถานะที่เลือกจะถูกสุ่ม"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Beat the Brush",
+          "desc": "หากเป้าหมายมี 6+ [Laceration], Base Power +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Beat the Brush",
+          "desc": "Base Power +1 ต่อจำนวน 1 [Laceration] บนตัวเป้าหมาย (สูงสุด 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Celebration for the Departed",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Celebration for the Departed",
+          "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Celebration for the Departed",
+          "desc": "<style=\"highlight\">At 10+ [BulletLament], Clash Power +1</style>\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ssdasdasas the Living",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 5 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equasssssl to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Solemn Lament for the Living",
+          "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 5 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Solemn Lament for the Living",
+          "desc": "At 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Coin Power +1 for every 6 value</style> of the sum of the target's [Sinking] and both [SinkingWhite] <style=\"highlight\">(max 2)</style>\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 5 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Goodbye Now, A Sorrow In You",
+          "desc": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 6 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume all of [BulletLament] on self"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Deal +2% damage for every value of [BulletLament] consumed by this Skill"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Goodbye Now, A Sorrow In You",
+          "desc": "Base Power +1 for every <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(max 4)</style>\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 1 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume 6 of [BulletLament]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Consume all of [BulletLament] on self"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Deal +4% damage for every value of [BulletLament] consumed by this Skill"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "FromTheCoffinAButterflyTakesFlight",
+          "desc": "[StartBattle] [ReloadLament] (once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "FromTheCoffinAButterflyTakesFlight",
+          "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP. (max 20% per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
+          "desc": "[WhenUse] Gain +2 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
+          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 2)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects\n[DefeatDuel] [Burst] Potency inflicted by this Skill +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
+          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] with its effects\n[DefeatDuel] [Burst] Potency inflicted by this Skill +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
+          "desc": "[WhenUse] Gain +2 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
+          "desc": "[StartBattle] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 3)\n[WhenUse] Gain +3 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
+          "desc": "[StartBattle] <style=\"highlight\">On Clash Lose, gain (# of Skills targeting this unit x 2) Final Power (max 6)</style>\n[WhenUse] Gain +4 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
+          "desc": "Deal +0.5% damage for every 1% missing HP on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 2)\n[WhenUse] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "the idiosyncrasies of the source may be utilized with greater flexibility",
+          "desc": "Deal +0.8% damage for every 1% missing HP on self\n[StartBattle] Base Power +1 for every Skill that targets this unit (max 3)\n[WhenUse] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Potency or Count with its effects; instead, gain Base Power +1\n[EndSkill] Heal 30 SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
+          "desc": "[StartBattle] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
+          "desc": "[StartBattle] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Flame Hew",
+          "desc": "If target has 6+ [Combustion], Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Flame Hew",
+          "desc": "If target has <style=\"highlight\">3</style>+ [Combustion], Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Flame Hew",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] on target (max 2)</style>\n<style=\"highlight\">Deal +10% damage for every 10 [Combustion] on target (max 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frontal Assault",
+          "desc": "If target has 6+ [Combustion], Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Frontal Assault",
+          "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +2.5% damage for every [Combustion] on target (max 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Frontal Assault",
+          "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +<style=\"highlight\">5</style>% damage for every [Combustion] on target (max <style=\"highlight\">60</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Flow of the Sword",
+          "desc": "If target has 6+ [Combustion], Coin Power +1\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +2% damage for every [Combustion] on target (max 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Flow of the Sword",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15</style> SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +2% damage for every [Combustion] on target (max 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Flame Counter",
+          "desc": "[BeforeHit] Gain Shield equal to [Combustion] on target (max 10, once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Flame Counter",
+          "desc": "[BeforeHit] Gain Shield equal to [Combustion] on target (max 15, once per turn)\n[WhenUse] If target has 10+ [Combustion], deal +10% damage",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 [Combustion]\n- If this unit has Shield, inflict 1 additional [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
