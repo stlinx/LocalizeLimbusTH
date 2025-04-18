@@ -1,0 +1,2 @@
+# LimbusCompanyTH
+Limbus Company แปลภาษาไทย
