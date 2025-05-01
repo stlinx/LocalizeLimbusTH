@@ -38,7 +38,7 @@
     },
     {
       "id": "Taunt",
-      "name": "ยั่วยุ",
+      "name": "Taunt",
       "desc": ""
     },
     {
@@ -54,12 +54,12 @@
     {
       "id": "Burn",
       "name": "Burn",
-      "desc": "เมื่อจบเทิร์น จะได้รับความเสียหายตาม Count ของเอฟเฟกต์ จากนั้นความเสียหายจะถูกลดลงครึ่งหนึ่ง"
+      "desc": "At the end of the turn, take fixed damage by the effect’s Count, then halve it."
     },
     {
       "id": "Bleeding",
       "name": "Bleed",
-      "desc": "เมื่อโจมตี จะได้รับความเสียหายคงที่เท่ากับ (Count)% ของ HP ปัจจุบัน จากนั้นความเสียหายจะถูกลดลงครึ่งหนึ่ง"
+      "desc": "When attacking, take fixed damage equal to (Count)% of current HP, then halve it."
     },
     {
       "id": "Target",
@@ -1914,6 +1914,20 @@
       "name": "Searing Birdcage",
       "desc": "Max Stack: 5\nIf this unit has Burn, Wrath Resistance +0.1 for every Stack (cannot exceed 2.0 Wrath Resistance with this effect)\nTurn End: gain Bind equal to Stack next turn\nTurn End: halve Stack (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
       "summary": "Wrath Resistance +0.1 for every Stack",
+      "undefined": "-"
+    },
+    {
+      "id": "WideAreaRampage",
+      "name": "Unfocused Volley",
+      "desc": "- When this Skill flips Coins, each Coin flips against a random enemy among its targets\n· The first Coin always targets the main target\n· All 'On Hit' effects and all damage dealt by each Coin are inflicted only against the random target the Coin selected",
+      "summary": "Attack indiscriminately among selected targets",
+      "undefined": "-"
+    },
+    {
+      "id": "ActivatedEgoPassive",
+      "name": "E.G.O Passives",
+      "desc": "Active E.G.O Passives",
+      "summary": "",
       "undefined": "-"
     }
   ]
