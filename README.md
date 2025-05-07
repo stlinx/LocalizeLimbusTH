@@ -54,12 +54,9 @@
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
 **เนื้อเรื่องหลัก**  
-✔ Canto 1  [stlinx](https://www.facebook.com/jjet.smile)
-
-✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)
-
-✔ Canto 3  JoshWaltz49
-
+✔ Canto 1  [stlinx](https://www.facebook.com/jjet.smile)  
+✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)  
+✔ Canto 3  JoshWaltz49  
 ✘ Canto 4  
 ✘ Canto 5  
 ✘ Canto 6  
@@ -82,16 +79,13 @@
 ✘ 6.5 : Murder on the WARP Express  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
-✘ 7.5 : LCB Regular Check-up
+✘ 7.5 : LCB Regular Check-up  
 ✔ 7.5 : Nocturnal Sweeping  JoshWaltz49
 
 **อื่นๆ**  
-• โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)
-
-• ชื่อตัวตน — 99%  all
-
-• สกิลตัวละคร — On Progress by [Asonakun](https://www.facebook.com/share/195Qv39ccg/)
-
+• โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
+• ชื่อตัวตน — 99%  all  
+• สกิลตัวละคร — On Progress by [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 
 ---
 
