@@ -54,9 +54,9 @@
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
 **เนื้อเรื่องหลัก**  
-✔ Canto 1  stlinx
+✔ Canto 1  [stlinx](https://www.facebook.com/jjet.smile)
 
-✔ Canto 2  stlinx
+✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)
 
 ✔ Canto 3  JoshWaltz49
 
@@ -68,8 +68,8 @@
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
-✔ พิเศษ : Dante's Notes  
-✔ 4.5 : S.E.A.  
+✔ พิเศษ : Dante's Notes  JoshWaltz49
+✔ 4.5 : S.E.A.  JoshWaltz49
 ✘ พิเศษ : Rooms Past the Backdoor  
 ✘ พิเศษ : A Notable Change  
 ✘ 5.5 : Miracle in District 20  
@@ -82,12 +82,12 @@
 ✘ 6.5 : Murder on the WARP Express  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
-✘ 7.5 : LCB Regular Check-up  
-✔ 7.5 : Nocturnal Sweeping  
+✘ 7.5 : LCB Regular Check-up
+✔ 7.5 : Nocturnal Sweeping  JoshWaltz49
 
 **อื่นๆ**  
-• โน้ตของดันเต้ — 60%  
-• ชื่อตัวตน — 99%  
+• โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)
+• ชื่อตัวตน — 99%  all
 • สกิลตัวละคร — On Progress by [Asonakun](https://www.facebook.com/share/195Qv39ccg/)
 
 ---
