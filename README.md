@@ -87,8 +87,11 @@
 
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)
+
 • ชื่อตัวตน — 99%  all
+
 • สกิลตัวละคร — On Progress by [Asonakun](https://www.facebook.com/share/195Qv39ccg/)
+
 
 ---
 
