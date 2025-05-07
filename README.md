@@ -55,8 +55,11 @@
 
 **เนื้อเรื่องหลัก**  
 ✔ Canto 1  stlinx
+
 ✔ Canto 2  stlinx
+
 ✔ Canto 3  JoshWaltz49
+
 ✘ Canto 4  
 ✘ Canto 5  
 ✘ Canto 6  
