@@ -280,12 +280,12 @@
     },
     {
       "id": "AttackUp",
-      "name": "เพิ่มเลเวลจู่โจม",
+      "name": "เลเวลจู่โจมเพิ่มขึ้น",
       "desc": "เลเวลจู่โจมเพิ่มขึ้นตามค่าของเอฟเฟกต์เป็นระยะเวลา 1 เทิร์น"
     },
     {
       "id": "AttackDown",
-      "name": "ลดเลเวลจู่โจม",
+      "name": "เลเวลจู่โจมลดลง",
       "desc": "เลเวลจู่โจมลดลงตามค่าของเอฟเฟกต์เป็นระยะเวลา 1 เทิร์น"
     },
     {
@@ -1329,7 +1329,7 @@
     {
       "id": "CoverAttack",
       "name": "สนับสนุนการโจมตี",
-      "desc": "- หากตัวละคร A มอบสถานะนี้ให้กับตัวละคร B: ตัวละคร B จะร่วมใช้สกิล 1 โจมตีฝ่ายเดียวใส่ศัตรูตัวเดียวกันกับที่ตัวละคร A โจมตีใส่ด้วยสกิลของเจ้าตัว โดยจะทำงานหลังการโจมตีของตัวละคร A จบลงแล้ว\n- สกิลที่ใช้งานไปในเอฟเฟกต์ สนับสนุนการโจมตี จะไม่ส่งผลต่อสกิลที่เตรียมขึ้นมือตัวละคร B"
+      "desc": "- หากตัวละคร A มอบสถานะนี้ให้กับตัวละคร B: ตัวละคร B จะร่วมใช้สกิล 1 เพื่อโจมตีฝ่ายเดียวใส่ศัตรูตัวเดียวกันกับที่ตัวละคร A โจมตีใส่ด้วยสกิลของเจ้าตัว โดยจะทำงานหลังการโจมตีของตัวละคร A จบลงแล้ว\n- สกิลที่ใช้งานไปในเอฟเฟกต์ สนับสนุนการโจมตี จะไม่ส่งผลต่อสกิลที่เตรียมขึ้นมือตัวละคร B"
     },
     {
       "id": "ReCompulsion",
@@ -1370,7 +1370,7 @@
     {
       "id": "VibrationCollapse",
       "name": "สั่นเทา - เสื่อมสลาย",
-      "desc": "เสีย เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ ค่า สั่นเทา 4 หน่วยบนตัวเอง\nเมื่อถูกโจมตีโดยสกิลที่ทำให้เกิด ระเบิดสั่นเทา จะดึงเกจชะงักขึ้นตามค่าของเอฟเฟกต์\nจบเทิร์ฯ: ลดจำนวนลง 1 หน่วย\n(จะมีปฏิสัมพันธ์กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวน สั่นเทา เหมือน สั่นเทา ธรรมดา)"
+      "desc": "เสีย เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ ค่า สั่นเทา 4 หน่วยบนตัวเอง\nเมื่อถูกโจมตีโดยสกิลที่ทำให้เกิด ระเบิดสั่นเทา จะดึงเกจชะงักขึ้นตามค่าของเอฟเฟกต์\nจบเทิร์น: ลดจำนวนลง 1 หน่วย\n(จะมีปฏิสัมพันธ์กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวน สั่นเทา เหมือน สั่นเทา ธรรมดา)"
     },
     {
       "id": "EchoOfMansion",
@@ -1553,380 +1553,380 @@
     {
       "id": "UninvitedGuestPersonality",
       "name": "แขกไม่ได้รับเชิญ",
-      "desc": "- ค่าสูงสุด: 2\n- เมื่อตาย ผู้โจมตีคนสุดท้ายฟื้นฟู SP 3 หน่วย จากนั้น พันธมิตรหนึ่งคนแบบสุ่มที่ไม่มีเอฟเฟกต์นี้จะได้รับจำนวนซ้อนทับของเอฟเฟกต์นี้ 2 หน่วย\n- ได้รับความเสียหาย +0.5% ตามทุก ๆ ค่า จมดิ่ง ที่ตนเองมี (สูงสุด 10% ในการเผชิญหน้าแบบเพ่งเล็ง จะนับค่า จมดิ่ง บนอวัยวะแต่ละส่วนแยกกัน)\n- จบเทิร์น: ลดลง 1 หน่วย",
+      "desc": "- ค่าสูงสุด: 2\n- เมื่อตาย ผู้โจมตีคนสุดท้ายฟื้นฟู SP 3 หน่วย จากนั้น พันธมิตรหนึ่งคนแบบสุ่มที่ไม่มีเอฟเฟกต์นี้จะได้รับจำนวนทับซ้อนของเอฟเฟกต์นี้ 2 หน่วย\n- ได้รับความเสียหาย +0.5% ตามทุก ๆ ค่า จมดิ่ง ที่ตนเองมี (สูงสุด 10% ในการเผชิญหน้าแบบเพ่งเล็ง จะนับค่า จมดิ่ง บนอวัยวะแต่ละส่วนแยกกัน)\n- จบเทิร์น: ลดลง 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DevyatDimensionalSack",
       "name": "กระเป๋าจัดส่ง - โรดิอน",
-      "desc": "- ค่าเริ่มต้น: 0\n- เริ่มเทิร์น: ได้รับจำนวนทับซ้อน 3 หน่วย\n- จำนวนทับซ้อนจะไม่หมดลงเมื่อถอยทัพ แต่จะถูกเก็บไว้แทน\n- เมื่อมีจำนวนทับซ้อน 10+ หน่วย: เพิ่มความเร็วต่ำสุดและสูงสุด 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 20+ หน่วย: ได้รับ เพิ่มแต้มแคลชสกิล 1 หน่วย และ ความเสียหายฟันเพิ่มขึ้น 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 30+ หน่วย:\n· เมื่อใช้สกิล ได้รับความเสียหายเลือด (จำนวนทับซ้อน/3)% และความเสียหาย SP (จำนวนทับซ้อน/3) หน่วย\n· เมื่อจบเทิร์น ได้รับความเสียหายเลือด (จำนวนทับซ้อน/2)% และความเสียหาย SP (จำนวนทับซ้อน/2) หน่วย (มีผลก่อนถอยทัพ)",
+      "desc": "- ค่าเริ่มต้น: 0\n- เริ่มเทิร์น: ได้รับจำนวนทับซ้อน 3 หน่วย\n- จำนวนทับซ้อนจะไม่หมดลงเมื่อถอยทัพ แต่จะถูกเก็บไว้แทน\n- เมื่อมีจำนวนทับซ้อน 10+ หน่วย: เพิ่มความเร็วต่ำสุดและสูงสุด 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 20+ หน่วย: ได้รับ เพิ่มแต้มแคลชสกิล 1 หน่วย และ ความเสียหายฟันเพิ่มขึ้น 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 30+ หน่วย:\n· เมื่อใช้สกิล ได้รับความเสียหายเลือด (จำนวนทับซ้อน/3)% และความเสียหาย SP (จำนวนทับซ้อน/3) หน่วย\n· เมื่อจบเทิร์น ได้รับความเสียหายเลือด (จำนวนทับซ้อน/2)% และความเสียหาย SP (จำนวนทับซ้อน/2) หน่วย (มีผลก่อน ล่าถอย)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Retreat",
-      "name": "Strategic R&R Mode",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+      "name": "โหมดพักฟื้นเชิงกลยุทธ์",
+      "desc": "- จบเทิร์น: ฟื้นฟูจากการชะงักและ ล่าถอย จากการเผชิญหน้า (เว้นเสียแต่จะเป็นการถูกบังคับให้ชะงัก และการกระทำนี้ไม่นับว่าตาย)\n· ในโหมดต่อสู้ลูกโซ่ จะมอบช่องสกิลของตัวละครนี้ให้กับตัวละครที่เข้ามาแทนที่ จากนั้นย้ายไปอยู่ในลำดับสุดท้ายของลำดับวางทัพของตัวละครที่อยู่ในแนวหลัง (จะหลบหนีจากการต่อสู้โดยสมบูรณ์หากไม่มีตัวละครแนวหลังตัวอื่นเหลือให้สลับที่ในเทิร์นหน้า และเมื่อกลับเข้าสู่การต่อสู้ จะกลับเข้ามาตามลำดับที่ถอยทัพไปอยู่)\n· เมื่อกลับสู่การต่อสู้ จะกลับมาพร้อมกับเลือดและ SP เท่ากับในตอนที่ตัวละครนี้มีขณะถอยทัพ และกำจัดเอฟเฟกต์บางส่วนทั้งหมดบนตนเอง\n(หากตัวละครนี้มี SP ต่ำกว่า 0 หน่วยขณะล่าถอย จะรีเซ็ต SP เป็น 0 หน่วยแทน)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DefensiveStance",
-      "name": "Defensive Stance",
-      "desc": "- Max Value: 2\n- This effect does not compound in potency; stacking it only extends its duration.\n- Reduced by 1 at Turn End\n- When a unit gains this effect, gain the following effects next turn:\n  · Fix this unit's Speed to its minimum value\n  · Gain 5 Defense Level Up\n  · Each of this unit's Slots gain +(10 / this unit's # of Slots) Aggro\n  · When chaining Skills, this unit can draw enemies' attack toward this unit regardless of Speed (Focused Encounters only)\n  · Upon Clash Win, trigger Tremor Burst\n  · Cannot be Staggered by damage",
+      "name": "ท่วงท่าตั้งรับ",
+      "desc": "- ค่าสูงสุด: 2\n- เอฟเฟกต์นี้ไม่สามารถผสมค่าเอฟเฟกต์ได้ การทับซ้อนเอฟเฟกต์จะเป็นการขยายระยะเวลาเพียงเท่านั้น\n- ลดลง 1 หน่วยเมื่อจบเทิร์น\n- เมื่อตัวละครได้รับเอฟเฟกต์นี้ จะได้รับเอฟเฟกต์ดังต่อไปนี้ในเทิร์นหน้า:\n  · บังคับให้ความเร็วของตัวละครนี้เท่ากับค่าความเร็วที่ต่ำที่สุดของตนเอง\n  · ได้รับ เลเวลตั้งรับเพิ่มขึ้น 5 หน่วย\n  · แต่ละช่องสกิลของตัวละครนี้จะได้รับ ยั่วยุ +(10 / จำนวนช่องสกิลตัวละครนี้) หน่วย\n  · เมื่อทำการลากสกิล ตัวละครนี้จะสามารถเบี่ยงทิศการโจมตีของศัตรูมาหาตนเองได้โดยไม่สนค่าความเร็ว (เฉพาะโหมดเผชิญหน้าแบบเพ่งเล็ง)\n  · เมื่อแคลชชนะ ทำให้เกิด ระเบิดสั่นเทา\n  · ไม่สามารถถูกทำให้ชะงักจากความเสียหายได้",
       "summary": ""
     },
     {
       "id": "CanDuelGuard",
-      "name": "Clashable Guard",
-      "desc": "- เมื่อชนะในการแตลช: เพิ่มขึด Stagger ของเป้าหมายตามค่าพลังการแคลชสุดท้ายของยูนิตนี้\n- เมื่อแพ้ในการแคลชและถูกโจมตี: ลดค่าพลังสุดท้ายของสกิลฝ่ายโจมตี ตามค่าพลังสุดท้ายของยูนิตนี้\n- เมื่อแพ้ในการแคลช: เหรียญนี้จะไม่ได้รับค่าพลังสุดท้ายจาก Resonance หรือส่วนต่างเลเวลกับสกิลโจมตี",
+      "name": "สกิลตั้งรับแคลชได้",
+      "desc": "- แคลชชนะ: ดึงเกจชะงักของเป้าหมายขึ้นตามแต้มจบสกิลของตัวละครนี้\n- แคลชแพ้: เมื่อถูกโจมตี ลดแต้มจบสกิลของผู้โจมตีเท่ากับแต้มจบสกิลของตัวละครนี้\n- แคลชแพ้: จะไม่ได้รับแต้มจบสกิลจากแหล่งต่อไปนี้: การสั่นพ้องสกิล และค่าความต่างเลเวลเมื่อปะทะกับสกิลโจมตี",
       "summary": ""
     },
     {
       "id": "SuperCoin",
       "name": "เหรียญทนทาน",
-      "desc": "- เหรียญนี้จะไม่แตกเมื่อแพ้ในการแคลช\n- หากสกิลโจมตีมีเหรียญนี้: เหรียญจะโจมตีกลับหลังโดนตี\n- เมื่อแพ้ในการแคลช: ปรับค่าพลังเหรียญนี้เป็น 1",
+      "desc": "- เหรียญนี้จะไม่แตกเมื่อแพ้ในการแคลช\n- หากสกิลโจมตีมีเหรียญนี้ หลังจากถูกโจมตีจะโจมตีกลับด้วยเหรียญดังกล่าว\n- เมื่อแคลชแพ้ ปรับแต้มเหรียญของเหรียญทนทานเป็น 1 แต้ม",
       "summary": ""
     },
     {
       "id": "BloodScissorPersonalityFirst",
-      "name": "Blood-tinged Scissorblades",
-      "desc": "- Max Value: 10\n- Stage 1 Blood-tinged Scissorblades\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack",
+      "name": "ดาบกรรไกรชโลมโลหิต",
+      "desc": "- ค่าสูงสุด: 10\n- นับเป็น ดาบกรรไกรชโลมโลหิต ขั้นที่หนึ่ง\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 10+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 20+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ ดาบกรรไกรชโลมโลหิต จะไม่ต่ำกว่า 1 หน่วย\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับลดลง 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorPersonalitySecond",
-      "name": "Blood-tinged Scissorblades II",
-      "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack",
+      "name": "ดาบกรรไกรชโลมโลหิตขั้นที่สอง",
+      "desc": "- ค่าสูงสุด: 20\n- นับเป็น ดาบกรรไกรชโลมโลหิต ขั้นที่สอง\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับลดลง 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 5 หน่วย\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 10+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 20+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ ดาบกรรไกรชโลมโลหิต จะไม่ต่ำกว่า 1 หน่วย\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับลดลง 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorPersonalityThird",
-      "name": "Blood-tinged Scissorblades III",
-      "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up for every 5 Stack\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack",
+      "name": "ดาบกรรไกรชโลมโลหิตขั้นที่สาม",
+      "desc": "- ค่าสูงสุด: 30\n- นับเป็น ดาบกรรไกรชโลมโลหิต ขั้นที่สาม\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 5 หน่วย\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 10+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง\n- เมื่อมี ดาบกรรไกรชโลมโลหิต 20+ หน่วย จะแปลงเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ ดาบกรรไกรชโลมโลหิต จะไม่ต่ำกว่า 1 หน่วย\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับลดลง 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น ดาบกรรไกรชโลมโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LineCuttingPersonality",
-      "name": "Sewing Target",
-      "desc": "- Max Value: 1\n- Take +0.5% damage for every Bleed on self (max 10%)\n- Turn End: reduced by 1",
+      "name": "เป้าตัดเย็บ",
+      "desc": "- ค่าสูงสุด: 1\n- ได้รับความเสียหายเพิ่มขึ้น +0.5% ตามทุก ๆ ค่า เลือดไหล บนตัวเอง (สูงสุด 10%)\n- จบเทิร์น: ลดลง 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Snare",
-      "name": "Lasso",
-      "desc": "- Max Value: 3\n- Turn End: gain Rupture Potency equal to this unit's current Speed value (max 5), and gain 1 Bind next turn\n- Turn End: reduced by 1",
+      "name": "บ่วงบาศ",
+      "desc": "- ค่าสูงสุด: 3\n- จบเทิร์น: ได้รับค่า ฉีกกระชาก เท่ากับความเร็วปัจจุบันของตัวละครนี้ (สูงสุด 5 หน่วย) จากนั้นได้รับ พันธนา 1 หน่วยในเทิร์นหน้า\n- จบเทิร์น: ลดลง 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregFirst",
-      "name": "Bloodied Hand",
-      "desc": "- Max Value: 10\n- Stage 1 Bloodied Hand\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills",
+      "name": "มืออาบโลหิต",
+      "desc": "- ค่าสูงสุด: 10\n- นับเป็น มืออาบโลหิต ขั้นที่หนึ่ง\n- เมื่อมี มืออาบโลหิต 10+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สอง\n- เมื่อมี มืออาบโลหิต 20+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ขณะเป็น มืออาบโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น มืออาบโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน และสร้างค่า ฉีกกระชาก กับ เลือดไหล เพิ่มเติมอย่างละ 1 หน่วยเมื่อโจมตีโดนด้วยสกิลพื้นฐาน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
-      "name": "Bloodied Hand II",
-      "desc": "- Max Value: 20\n- Stage 2 Bloodied Hand\n- Turn Start: gain 1 Offense Level Up for every 10 Stack\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills",
+      "name": "มืออาบโลหิตขั้นที่สอง",
+      "desc": "- ค่าสูงสุด: 20\n- นับเป็น มืออาบโลหิต ขั้นที่สอง\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 10 หน่วย\n- เมื่อมี มืออาบโลหิต 10+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สอง\n- เมื่อมี มืออาบโลหิต 20+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ขณะเป็น มืออาบโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น มืออาบโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน และสร้างค่า ฉีกกระชาก กับ เลือดไหล เพิ่มเติมอย่างละ 1 หน่วยเมื่อโจมตีโดนด้วยสกิลพื้นฐาน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
-      "name": "Bloodied Hand III",
-      "desc": "- Max Value: 30\n- Stage 3 Bloodied Hand\n- Turn Start: gain 1 Offense Level Up for every 10 Stack\n- On Hit with Base Skills: additionally inflict 1 Rupture and 1 Bleed\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills",
+      "name": "มืออาบโลหิตขั้นที่สาม",
+      "desc": "- ค่าสูงสุด: 20\n- นับเป็น มืออาบโลหิต ขั้นที่สาม\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 10 หน่วย\n- เมื่อโจมตีโดนด้วยสกิลพื้นฐาน: สร้างค่า ฉีกกระชาก และ เลือดไหล เพิ่มเติมอย่างละ 1 หน่วย\n- เมื่อมี มืออาบโลหิต 10+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สอง\n- เมื่อมี มืออาบโลหิต 20+ หน่วย จะแปลงเป็น มืออาบโลหิตขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ขณะเป็น มืออาบโลหิตขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น มืออาบโลหิตขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน และสร้างค่า ฉีกกระชาก กับ เลือดไหล เพิ่มเติมอย่างละ 1 หน่วยเมื่อโจมตีโดนด้วยสกิลพื้นฐาน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WornHeartGreg",
-      "name": "Ailing Heart",
-      "desc": "- Max Value: 10\n- Turn End: gain 1 Stack\n- Turn Start: gain 1 Defense Level Up for every 3 Stack\n- At 50%- HP, gain 1 Defense Level for every 3 Stack\n- At 40%- HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (min 1; rounded down; heal up to 30 HP per Skill)",
+      "name": "ใจทุกข์ตรม",
+      "desc": "- ค่าสูงสุด: 10\n- จบเทิร์น: ได้รับจำนวนทับซ้อน 1 หน่วย\n- เริ่มเทิร์น: ได้รับ เลเวลตั้งรับเพิ่มขึ้น 1 หน่วย ตามทุก ๆ จำนวนทับซ้อนที่มี 3 หน่วย\n- ขณะมีเลือด 50%-: ได้รับ เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ จำนวนทับซ้อนที่มี 3 หน่วย\n- ขณะมีเลือด 40%-: เมื่อโจมตีด้วยสกิลพื้นฐาน ฟื้นฟูเลือดเท่ากับ (จำนวนทับซ้อน x 5)% ของความเสียหายที่สร้าง (ต่ำสุด 1 หน่วย ปัดเลขลง และสามารถฟื้นฟูเลือดได้สูงสุดสกิลละ 30 หน่วย)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionFirst",
-      "name": "Blooming Thorn",
-      "desc": "- สูงสุด: 10\n- Blooming Thorn ขั้นที่ 1\n- ได้รับเลเวลพลังป้องกัน +1 สำหรับทุกๆ 2 สแตค (สูงสุด 5)\n- เมื่อถูกโจมตี: มอบสถานะ Bleed 1 หน่วยให้กับผู้โจมตี และลดสแตคลง 1\n\n[ใช้งานได้เฉพาะ เจ้าหญิงแห่งลามันชาแลนด์ - โรเดียน เท่านั้น]\n· เมื่อสแตคเต็ม: จะเข้าสู้สเตจถัดไปของเอฟเฟคนี้\n· เพิ่มค่าพลังของสถานะ Bleed และ Rupture +(Stage - 1) เมื่อโจมตีด้วยสกิลโจมตีพื้นฐาน\n· หาก Stack ต่ำกว่าข้อกำหนด จะลดสเตจของเอฟเฟคลง",
+      "name": "หนามแย้มผลิ",
+      "desc": "- ค่าสูงสุด: 10\n- นับเป็น หนามแย้มผลิ ขั้นที่หนึ่ง\n- ได้รับ เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ จำนวนซ้อนทับ 2 หน่วย (สูงสุด 5)\n- เมื่อถูกโจมตี สร้างค่า เลือดไหล 1 หน่วยใส่ผู้โจมตี จากนั้นเสียจำนวนซ้อนทับ 1 หน่วย\n\n[เอฟเฟกต์เฉพาะ องค์หญิงแห่งลามันชาแลนด์ โรดิอน]\n· เมื่อจำนวนทับซ้อนเต็ม เอฟเฟกต์นี้จะแปลงเป็นขั้นต่อไป\n· เอฟเฟกต์เหรียญของสกิลโจมตีพื้นฐานจะสร้างค่า เลือดไหล กับ ฉีกกระชาก เพิ่มขึ้น +(ขั้นเอฟเฟกต์ -1) หน่วย\n· จะแปลงกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนต่ำกว่าค่าที่ต้องการ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionSecond",
-      "name": "Blooming Thorn II",
-      "desc": "- สูงสุด: 20\n- Blooming Thorn ขั้นที่ 2\n- ได้รับเลเวลพลังป้องกัน +1 สำหรับทุก ๆ 2 สแตค (สูงสุด 5)\n- เมื่อถูกโจมตี: มอบสถานะ Bleed 1 หน่วยให้กับผู้โจมตี และลดสแตคลง 1\n\n[ใช้งานได้เฉพาะ เจ้าหญิงแห่งลามันชาแลนด์ - โรเดียน เท่านั้น]\n· เมื่อสแตคเต็ม: จะเข้าสู่สเตจถัดไปของเอฟเฟกต์นี้\n· เพิ่มค่าพลังของสถานะ Bleed และ Rupture +(Stage - 1) จากเหรียญของสกิลโจมตีพื้นฐาน\n· หากสแตคลดต่ำกว่าข้อกำหนด: เอฟเฟกต์จะลดสเตจลง",
+      "name": "หนามแย้มผลิขั้นที่สอง",
+      "desc": "- ค่าสูงสุด: 20\n- นับเป็น หนามแย้มผลิ ขั้นที่สอง\n- ได้รับ เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ จำนวนซ้อนทับ 2 หน่วย (สูงสุด 5)\n- เมื่อถูกโจมตี สร้างค่า เลือดไหล 1 หน่วยใส่ผู้โจมตี จากนั้นเสียจำนวนซ้อนทับ 1 หน่วย\n\n[เอฟเฟกต์เฉพาะ องค์หญิงแห่งลามันชาแลนด์ โรดิอน]\n· เมื่อจำนวนทับซ้อนเต็ม เอฟเฟกต์นี้จะแปลงเป็นขั้นต่อไป\n· เอฟเฟกต์เหรียญของสกิลโจมตีพื้นฐานจะสร้างค่า เลือดไหล กับ ฉีกกระชาก เพิ่มขึ้น +(ขั้นเอฟเฟกต์ -1) หน่วย\n· จะแปลงกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนต่ำกว่าค่าที่ต้องการ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionThird",
-      "name": "Blooming Thorn III",
-      "desc": "- สูงสุด: 30\n- Blooming Thorn ขั้นที่ 3\n- ได้รับเลเวลพลังป้องกัน +1 สำหรับทุก ๆ 2 สแตค (สูงสุด 5)\n- เมื่อถูกโจมตี: มอบสถานะ Bleed 1 หน่วยให้กับผู้โจมตี และลดสแตคลง 1\n\n[ใช้งานได้เฉพาะ เจ้าหญิงแห่งลามันชาแลนด์ - โรเดียน เท่านั้น]\n· เอฟเฟกต์นี้อยู่ที่สเตจสูงสุดแล้ว\n· เพิ่มค่าพลังของสถานะ Bleed และ Rupture +(Stage - 1) จากเหรียญของสกิลโจมตีพื้นฐาน\n· หากสแตคลดต่ำกว่าข้อกำหนด: เอฟเฟกต์จะลดสเตจลง",
+      "name": "หนามแย้มผลิขั้นที่สาม",
+      "desc": "- ค่าสูงสุด: 30\n- นับเป็น หนามแย้มผลิ ขั้นที่สาม\n- ได้รับ เลเวลตั้งรับ 1 หน่วย ตามทุก ๆ จำนวนซ้อนทับ 2 หน่วย (สูงสุด 5)\n- เมื่อถูกโจมตี สร้างค่า เลือดไหล 1 หน่วยใส่ผู้โจมตี จากนั้นเสียจำนวนซ้อนทับ 1 หน่วย\n\n[เอฟเฟกต์เฉพาะ องค์หญิงแห่งลามันชาแลนด์ โรดิอน]\n· เมื่อจำนวนทับซ้อนเต็ม เอฟเฟกต์นี้จะแปลงเป็นขั้นต่อไป\n· เอฟเฟกต์เหรียญของสกิลโจมตีพื้นฐานจะสร้างค่า เลือดไหล กับ ฉีกกระชาก เพิ่มขึ้น +(ขั้นเอฟเฟกต์ -1) หน่วย\n· จะแปลงกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนต่ำกว่าค่าที่ต้องการ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FestivalFeverRodion",
-      "name": "Festive Fever",
-      "desc": "- ค่าสูงสุด: 10\n- หมดอายุเมื่อจบเทิร์น\n- เมื่อโจมตีเป้าหมายที่มีสถานะ Bleed: สร้างความเสียหายเพิ่ม +1.5% ต่อสแตค\n- หากใช้สกิลที่ใช้หรือได้รับ Bloodfeast: ความเสียหายจะเพิ่ม +3% ต่อสแตคแทน",
+      "name": "เทศกาลเริงรมย์",
+      "desc": "- ค่าสูงสุด: 10\n- หมดลงเมื่อจบเทิร์น\n- เมื่อโจมตีศัตรูที่มี เลือดไหล: สร้างความเสียหายเพิ่มขึ้น +1.5% ตามทุก ๆ จำนวนซ้อนทับที่มี\n- สกิลที่ผลาญหรือได้รับ เทศกาลนองเลือด จะสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ จำนวนซ้อนทับที่มีแทน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationSpring",
-      "name": "Tremor - Clockwinding",
-      "desc": "- Max Speed + 2\n- Consume Tremor Count on self to inflict 1 more of Tremor Potency or Count when inflicting them with this unit's Skill or Coin effects\n- When hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\n- Turn End: reduce the Count by 1\n- (Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
+      "name": "สั่นเทา - หมุนเข็มหน้าปัด",
+      "desc": "- ความเร็วสูงสุด +2 หน่วย\n- ผลาญจำนวนครั้ง สั่นเทา บนตัวเอง เพื่อสร้างค่าหรือจำนวนครั้ง สั่นเทา เพิ่มเติม 1 หน่วยเมื่อสร้างสถานะดังกล่าวด้วยสกิลหรือเอฟเฟกต์เหรียญของตัวละครนี้\n- เมื่อถูกโจมตีโดยสกิลที่ทำให้เกิด ระเบิดสั่นเทา จะดึงเกจชะงักขึ้นตามค่าของเอฟเฟกต์\n- จบเทิร์น: ลดจำนวนครั้งลง 1 หน่วย\n(จะมีปฏิสัมพันธ์กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวน สั่นเทา เหมือน สั่นเทา ธรรมดา)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DevyatDimensionalSackSinclair",
-      "name": "Courier Trunk - Sinclair",
-      "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\n- At 30+ Stack:\n· On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n· On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)",
+      "name": "กระเป๋าจัดส่ง - ซินแคลร์",
+      "desc": "- ค่าเริ่มต้น: 0\n- เริ่มเทิร์น: ได้รับจำนวนทับซ้อน 3 หน่วย\n- จำนวนทับซ้อนจะไม่หมดลงเมื่อถอยทัพ แต่จะถูกเก็บไว้แทน\n- เมื่อมีจำนวนทับซ้อน 10+ หน่วย: เพิ่มความเร็วต่ำสุดและสูงสุด 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 20+ หน่วย: ได้รับ เพิ่มแต้มแคลชสกิล 1 หน่วย และ ความเสียหายทุบเพิ่มขึ้น 1 หน่วย\n- เมื่อมีจำนวนทับซ้อน 30+ หน่วย:\n· เมื่อใช้สกิล ได้รับความเสียหายเลือด (จำนวนทับซ้อน/3)% และความเสียหาย SP (จำนวนทับซ้อน/3) หน่วย\n· เมื่อจบเทิร์น ได้รับความเสียหายเลือด (จำนวนทับซ้อน/2)% และความเสียหาย SP (จำนวนทับซ้อน/2) หน่วย (มีผลก่อน ล่าถอย)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Zazen",
-      "name": "Dhyāna",
-      "desc": "- Max Stack: 108\n- Deal +1% damage for every Stack",
-      "summary": "Deal more damage"
+      "name": "ฌานฝึกจิต",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 108\n- สร้างความเสียหาย +1% ตามทุก ๆ จำนวนทับซ้อนที่มี",
+      "summary": "สร้างความเสียหายเพิ่มขึ้น"
     },
     {
       "id": "SwirlingBloodPersonality",
-      "name": "Shimmering【Bloodfiend】",
-      "desc": "- Max Stack: 50\n- As long as this effect exists, all Bleed damage taken by the Shield HP is converted to Bloodfeast.\n- Gain Shield HP equal to the Stack at the moment of its application\n- Expires at Turn End",
+      "name": "จรัสแสง 【อสูรเลือด】",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 50\n- ตราบใดที่ยังมีเอฟเฟกต์นี้ ความเสียหาย เลือดไหล ทั้งหมดที่โล่ได้รับจะถูกแปลงเป็น เทศกาลนองเลือด ด้วยเช่นกัน\n- ได้รับโล่เลือดเท่ากับจำนวนทับซ้อน ในจังหวะที่ทำการมอบเอฟเฟกต์นี้\n- หมดลงเมื่อจบเทิร์น",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalityFirst",
-      "name": "Hardblood",
-      "desc": "- Max Stack: 10\n- Stage 1 Hardblood\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- Raise Min & Max Speed values by 1 for every 10 Hardblood\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "name": "เลือดแข็งตัว",
+      "desc": "- ค่าสูงสุด: 10\n- นับเป็น เลือดแข็งตัว ขั้นที่หนึ่ง\n- เมื่อมี เลือดแข็งตัว 10+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สอง\n- เมื่อมี เลือดแข็งตัว 20+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ เลือดแข็งตัว จะไม่ต่ำกว่า 1 หน่วย\n- เพิ่มความเร็วต่ำสุดและสูงสุด 1 หน่วยตามทุก ๆ เลือดแข็งตัว 10 หน่วย\n- ขณะเป็น เลือดแข็งตัวขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น เลือดแข็งตัวขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalitySecond",
-      "name": "Hardblood II",
-      "desc": "- Max Stack: 20\n- Stage 2 Hardblood\n- Turn Start: gain 1 Offense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 1\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "name": "เลือดแข็งตัวขั้นที่สอง",
+      "desc": "- ค่าสูงสุด: 20\n- นับเป็น เลือดแข็งตัว ขั้นที่สอง\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 5 หน่วย\n- เพิ่มความเร็วต่ำสุดและสูงสุด 1 หน่วย\n- เมื่อมี เลือดแข็งตัว 10+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สอง\n- เมื่อมี เลือดแข็งตัว 20+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ เลือดแข็งตัว จะไม่ต่ำกว่า 1 หน่วย\n- ขณะเป็น เลือดแข็งตัวขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น เลือดแข็งตัวขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": ""
     },
     {
       "id": "BloodArmorPersonalityThird",
-      "name": "Hardblood III",
-      "desc": "- Max Stack: 30\n- Stage 3 Hardblood\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 2\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "name": "เลือดแข็งตัวขั้นที่สาม",
+      "desc": "- ค่าสูงสุด: 30\n- นับเป็น เลือดแข็งตัว ขั้นที่สาม\n- เริ่มเทิร์น: ได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับเพิ่มขึ้น 1 หน่วยตามทุก ๆ จำนวนทับซ้อน 5 หน่วย\n- เพิ่มความเร็วต่ำสุดและสูงสุด 2 หน่วย\n- เมื่อมี เลือดแข็งตัว 10+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สอง\n- เมื่อมี เลือดแข็งตัว 20+ หน่วย จะแปลงเป็น เลือดแข็งตัวขั้นที่สาม\n- จะเปลี่ยนกลับเป็นขั้นก่อนเมื่อจำนวนทับซ้อนน้อยกว่าค่าที่ต้องการ\n- ค่าของ เลือดแข็งตัว จะไม่ต่ำกว่า 1 หน่วย\n- ขณะเป็น เลือดแข็งตัวขั้นที่สอง จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน\n- ขณะเป็น เลือดแข็งตัวขั้นที่สาม จะได้รับ เลเวลจู่โจมเพิ่มขึ้น 1 หน่วย และ เลเวลตั้งรับเพิ่มขึ้น 1 หน่วยตามจำนวนทับซ้อน",
       "summary": ""
     },
     {
       "id": "SadLamanchaland",
-      "name": "Responsibility",
-      "desc": "- Max Value: 1\n- Clash Power +1\n- Deal +20% damage\n- Take +20% damage",
+      "name": "ภาระรับผิดชอบ",
+      "desc": "- ค่าสูงสุด: 1\n- แต้มแคลช +1 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +20%\n- ได้รับความเสียหายเพิ่มขึ้น +20%",
       "summary": ""
     },
     {
       "id": "FreishutzOutisEgoBullet_1st",
-      "name": "The First Magic Bullet",
-      "desc": "- Deals +20% damage\n- Raise the target's Stagger Threshold by damage dealt (max 30)"
+      "name": "กระสุนอาคมนัดแรก",
+      "desc": "- สร้างความเสียหาย +20%\n- ดึงเกจชะงักของเป้าหมายขึ้นตามความเสียหายที่ทำได้ (สูงสุด 30)"
     },
     {
       "id": "FreishutzOutisEgoBullet_2nd",
-      "name": "The Second Magic Bullet",
-      "desc": "- Deal +10% damage\n- Deal damage to targets other than the main target (max targets: 4); the main target takes 0 damage\n- On Hit, inflict 3 Paralyze"
+      "name": "กระสุนอาคมนัดที่สอง",
+      "desc": "- สร้างความเสียหาย +10%\n- สร้างความเสียหายใส่เป้าหมายอื่นนอกจากเป้าหมายหลัก (เป้าหมายสูงสุด: 4 ตัว) โดยที่เป้าหมายหลักจะได้รับความเสียหาย 0 หน่วย\n- เมื่อโจมตีโดนจะสร้าง อัมพาต 3 หน่วย"
     },
     {
       "id": "FreishutzOutisEgoBullet_3rd",
-      "name": "The Third Magic Bullet",
-      "desc": "- Deal +20% damage\n- Before Attack: gain +2 Atk Weight\n- On Hit, inflict 2 Attack Power Down and 10 Burn"
+      "name": "กระสุนอาคมนัดที่สาม",
+      "desc": "- สร้างความเสียหาย +20%\n- ก่อนโจมตี: ได้รับน้ำหนักโจมตี +2\n- เมื่อโจมตีโดน สร้าง ลดแต้มสกิลโจมตี 2 หน่วย และค่า เผาไหม้ 10 หน่วย"
     },
     {
       "id": "FreishutzOutisEgoBullet_4th",
-      "name": "The Fourth Magic Bullet",
-      "desc": "- Deal +30% damage\n- Before Attack: gain +3 Atk Weight\n- On Hit, raise the target's Stagger Threshold by damage dealt (max 20); then, inflict 3 Fragility next turn"
+      "name": "กระสุนอาคมนัดที่สี่",
+      "desc": "- สร้างความเสียหาย +30%\n- ก่อนโจมตี: ได้รับน้ำหนักโจมตี +3\n- เมื่อโจมตีโดน ดึงเกจชะงักของเป้าหมายขึ้นตามความเสียหายที่สร้าง (สูงสุด 20) จากนั้น สร้าง เปราะบาง 3 หน่วยในเทิร์นหน้า"
     },
     {
       "id": "FreishutzOutisEgoBullet_5th",
-      "name": "The Fifth Magic Bullet",
-      "desc": "- Deal +30% damage\n- Before Attack: gain +4 Atk Weight\n- On Hit, inflict 10 Burn; then, inflict 4 Offense Level down and 4 Defense Level Down next turn"
+      "name": "กระสุนอาคมนัดที่ห้า",
+      "desc": "- สร้างความเสียหาย +30%\n- ก่อนโจมตี: ได้รับน้ำหนักโจมตี +4\n- เมื่อโจมตีโดน สร้างค่า เผาไหม้ 10 หน่วย จากนั้นสร้าง เลเวลจู่โจมลดลง 4 หน่วย และ เลเวลตั้งรับลดลง 4 หน่วยในเทิร์นหน้า"
     },
     {
       "id": "FreishutzOutisEgoBullet_6th",
-      "name": "The Sixth Magic Bullet",
-      "desc": "- Before Attack: gain +6 Atk Weight\n- On Hit, raise the target's Stagger Threshold by damage dealt (max 30)\n- Reuse the Coin for every 7 Burn on the main target (2 times max)\n- Plus Coin Skill Base Power -16\n- Minus Coin Skill Base Power -22\n - Plus Coin Power -8\n - Minus Coin Power -12"
+      "name": "กระสุนอาคมนัดที่หก",
+      "desc": "- ก่อนโจมตี: ได้รับน้ำหนักโจมตี +6\n- เมื่อโจมตีโดน ดึงเกจชะงักของเป้าหมายขึ้นตามความเสียหายที่สร้าง (สูงสุด 30)\n- ใช้เหรียญซ้ำตามทุก ๆ ค่า เผาไหม้ 7 หน่วยที่เป้าหมายหลักมี (มีผลสูงสุด 2 ครั้ง)\n- แต้มเริ่มต้นของสกิลที่ใช้เหรียญบวกจะมีแต้ม -16 หน่วย\n- แต้มเริ่มต้นของสกิลที่ใช้เหรียญลบจะมีแต้ม -22 หน่วย\n- แต้มเหรียญบวก -8 หน่วย\n- แต้มเหรียญลบ -12 หน่วย"
     },
     {
       "id": "FreishutzOutisEgoBullet_7th",
-      "name": "The Seventh Magic Bullet",
-      "desc": "- Deal +200% damage\n- Deal +2.5% damage for every 1% missing HP on target (max 200%)\n- Before Attack: for this attack, if the Pierce Damage Res. on target or on self are less than 2.0, change them to Fatal(x2.0)\n- After Attack: kills this unit"
+      "name": "กระสุนอาคมนัดที่เจ็ด",
+      "desc": "- สร้างความเสียหายเพิ่มขึ้น +200%\n- สร้างความเสียหายเพิ่มขึ้น +2.5% ตามทุก ๆ เลือด 1% ที่หายไปบนตัวเป้าหมาย (สูงสุด 200%)\n- ก่อนโจมตี: ในการโจมตีนี้ หากค่าต้านทานความเสียหายแทงบนตัวเป้าหมายหรือบนตัวเองมีน้อยกว่า 2.0 จะเปลี่ยนค่าต้านทานพวกนั้นเป็น \"ร้ายแรง (x2.0)\"\n- หลังโจมตี: ฆ่าตัวละครนี้"
     },
     {
       "id": "FreishutzOutisEgoBulletCnt",
-      "name": "Marksman's Bullet",
-      "desc": "Uses a different Ammo depending on Marksman's Bullet"
+      "name": "กระสุนพลแม่นปืน",
+      "desc": "ใช้ กระสุน ที่ต่างกันไป โดยจะขึ้นกับ กระสุนพลแม่นปืน"
     },
     {
       "id": "CoveringFire",
-      "name": "Target Spotted",
-      "desc": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End.\n- The Skill used due to this effect does not affect Unit B's upcoming Skills list."
+      "name": "ตรวจพบเป้าหมาย",
+      "desc": "หากตัวละคร A มอบเอฟเฟกต์นี้ให้กับตัวละคร B: ตัวละคร B จะร่วมใช้สกิล 2 เพื่อโจมตีฝ่ายเดียวใส่ศัตรูตัวเดียวกันกับที่ตัวละคร A โจมตีใส่ด้วยสกิลของเจ้าตัว โดยจะทำงานหลังการโจมตีของตัวละคร A จบลงแล้ว\n- สกิลที่ใช้งานไปเนื่องจากเอฟเฟกต์นี้ จะไม่ส่งผลต่อสกิลที่เตรียมขึ้นมือตัวละคร B"
     },
     {
       "id": "FullReload",
-      "name": "Reload",
-      "desc": "Lose all currently owned Ammo, and reload it back to full"
+      "name": "รีโหลด",
+      "desc": "เสีย กระสุน ทั้งหมดที่ถือครองอยู่ จากนั้นรีโหลดทั้งหมดจนเต็ม"
     },
     {
       "id": "Bullet_LogicAtelier",
-      "name": "Ammo - Atelier Logic",
-      "desc": "Unique Ammo\nAtelier Logic Workshop Special Ammo\n- This Ammo's count cannot be gained or lost due to external effects"
+      "name": "กระสุน - อเทลีเอร์ โลจิก",
+      "desc": "กระสุน พิเศษ\nกระสุนพิเศษจากเวิร์คชอปของอเทลีเอร์ โลจิก\n- จำนวนของ กระสุน นี้จะไม่สามารถถูกเอฟเฟกต์ภายนอกทำให้ได้รับเพิ่มหรือเสียได้"
     },
     {
       "id": "Retreat_FullStop",
-      "name": "Overwatch Assignment",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)"
+      "name": "มอบหมายเฝ้าระวัง",
+      "desc": "- จบเทิร์น: ฟื้นฟูจากการชะงักและ ล่าถอย จากการเผชิญหน้า (เว้นเสียแต่จะเป็นการถูกบังคับให้ชะงัก และการกระทำนี้ไม่นับว่าตาย)\n· ในโหมดต่อสู้ลูกโซ่ จะมอบช่องสกิลของตัวละครนี้ให้กับตัวละครที่เข้ามาแทนที่ จากนั้นย้ายไปอยู่ในลำดับสุดท้ายของลำดับวางทัพของตัวละครที่อยู่ในแนวหลัง (จะหลบหนีจากการต่อสู้โดยสมบูรณ์หากไม่มีตัวละครแนวหลังตัวอื่นเหลือให้สลับที่ในเทิร์นหน้า และเมื่อกลับเข้าสู่การต่อสู้ จะกลับเข้ามาตามลำดับที่ถอยทัพไปอยู่)\n· เมื่อกลับสู่การต่อสู้ จะกลับมาพร้อมกับเลือดและ SP เท่ากับในตอนที่ตัวละครนี้มีขณะถอยทัพ และกำจัดเอฟเฟกต์บางส่วนทั้งหมดบนตนเอง\n(หากตัวละครนี้มี SP ต่ำกว่า 0 หน่วยขณะล่าถอย จะรีเซ็ต SP เป็น 0 หน่วยแทน)"
     },
     {
       "id": "LogicAtelierAM",
       "name": "Concentration【Sniper】",
-      "desc": "- Max Stack: 4\n- Turn End: gain 1 Stack"
+      "desc": "- ค่าสูงสุด: 4\n- จบเทิร์น: ได้รับจำนวนทับซ้อน 1 หน่วย"
     },
     {
       "id": "MeleeCover",
-      "name": "Melee Support",
-      "desc": "- If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with the 'Melee Support' Skill against the same enemy that attacked Unit A. Activates at Unit A's Skill End.\n- The Skill used due to the 'Melee Support' effect does not affect Unit B's upcoming Skills list."
+      "name": "สนับสนุนระยะประชิด",
+      "desc": "- หากตัวละคร A มอบสถานะนี้ให้กับตัวละคร B: ตัวละคร B จะร่วมใช้สกิล \"สนับสนุนระยะประชิด\" เพื่อโจมตีฝ่ายเดียวใส่ศัตรูตัวเดียวกันกับที่ตัวละคร A โจมตีใส่ด้วยสกิลของเจ้าตัว โดยจะทำงานหลังการโจมตีของตัวละคร A จบลงแล้ว\n- สกิลที่ใช้งานไปในเอฟเฟกต์ สนับสนุนการโจมตี จะไม่ส่งผลต่อสกิลที่เตรียมขึ้นมือตัวละคร B"
     },
     {
       "id": "RequestedTarget",
-      "name": "Requested Target",
-      "desc": "+0.2 Resistance to Attack Types with 1.5 or less Resistance. If the target with this effect is defeated, gain 1 E.G.O resource for all Affinities, and the unit that defeated the target heals 10 SP"
+      "name": "เป้าหมายในคำขอ",
+      "desc": "ประเภทการโจมตีที่มีตัวคูณความเสียหาย 1.5 หรือน้อยกว่า จะได้รับตัวคูณ +0.2 หน่วย หากเป้าหมายที่มีเอฟเฟกต์นี้ถูกจัดการ จะได้รับทรัพยากร E.G.O ของทุกธาตุอย่างละ 1 หน่วย และตัวละครที่สังหารศัตรูจะฟื้นฟู SP 10 หน่วย"
     },
     {
       "id": "GlowingLantern",
-      "name": "Fairy Lure",
-      "desc": "- Max Stack: 5\n- Turn Start: leftmost Slot on the Dashboard gains +10 Aggro\n- Take +50% damage\n- When hit, inflict 1 Rupture against the Attacker (3 times per target's Skill)\n· At less than 50% HP, inflict 1 additional Rupture\n· If the target has 15+ Rupture, this effect does not inflict Rupture\n- Reduced by 1 at Turn End"
+      "name": "การล่อลวงของนางฟ้า",
+      "desc": "- ค่าทับซ้อนสูงสุด: 5\n- เริ่มเทิร์น: ช่องสกิลซ้ายสุดบนกระดานจะได้รับ ยั่วยุ +10 หน่วย\n- ได้รับความเสียหายเพิ่มขึ้น +50%\n- เมื่อถูกโจมตี สร้างค่า ฉีกกระชาก 1 หน่วยใส่ผู้โจมตี (สูงสุด 3 ครั้งต่อสกิลของเป้าหมาย)\n· ขณะมีเลือดน้อยกว่า 50% จะสร้างค่า ฉีกกระชาก เพิ่มเติม 1 หน่วย\n· เมื่อเป้าหมายมีค่า ฉีกกระชาก 15+ หน่วย เอฟเฟกต์นี้จะไม่สร้างค่า ฉีกกระชาก\n- ลดลง 1 หน่วยเมื่อจบเทิร์น "
     },
     {
       "id": "HoldingBreath",
-      "name": "Deep Inhale",
-      "desc": "- Max Stack: 20\n- On Crit, at 15+ Poise Potency and 5+ Poise Count, consume (Poise Potency on self / 5) Poise Potency to deal +(Poise Potency consumed x 4)% damage on Critical Hit and lose 1 Stack",
-      "summary": "Deal more Damage on Critical Hit"
+      "name": "สูดหายใจลึก",
+      "desc": "- ค่าทับซ้อนสูงสุด: 20\n- เมื่อโจมตีคริติคอล ขณะมีค่า ตั้งท่า 15+ หน่วยและจำนวนครั้ง ตั้งท่า 5+ หน่วย จะผลาญค่า ตั้งท่า (ค่า ตั้งท่า บนตัวเอง / 5) หน่วยเพื่อสร้างความเสียหายคริติคอลเพิ่มขึ้น +(ค่า ตั้งท่า ที่ผลาญ x 4)% และเสียจำนวนทับซ้อน 1 หน่วย",
+      "summary": "สร้างความเสียหายคริติคอลเพิ่มขึ้น"
     },
     {
       "id": "NebulizerInhale",
-      "name": "Nebulizer β",
-      "desc": "- Max Stack: 5\n- This effect persists throughout the Encounter\n- When activating Pride A-Reson.: on Combat Start, apply 3 Poise and +3 Poise Count on self and (Stack) allies (prioritizes allies that gain or use Poise or Poise Count; among them, prioritize allies with the least Poise Potency)",
-      "summary": "Gain Poise and Poise Count"
+      "name": "เครื่องพ่นละออง β",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 5\n- เอฟเฟกต์นี้จะมีผลตลอดทั้งการเผชิญหน้า\n- เมื่อทำให้เกิดการสั่นพ้องสมบูรณ์ของธาตุอัตตา: เมื่อเริ่มการต่อสู้ มอบค่า ตั้งท่า 3 หน่วยและจำนวนครั้ง ตั้งท่า +3 หน่วยให้กับตนเองและพันธมิตร (จำนวนทับซ้อน) คน (ให้ความสำคัญกับพันธมิตรที่สามารถได้รับหรือใช้งานค่า ตั้งท่า หรือจำนวนครั้ง ตั้งท่า ก่อน และในหมู่ตัวละครเหล่านั้นจะให้ความสำคัญกับพันธมิตรที่มีค่า ตั้งท่า น้อยที่สุดก่อน)",
+      "summary": "ได้รับค่า ตั้งท่า และจำนวนครั้ง ตั้งท่า"
     },
     {
       "id": "Hohenheim_LowMorale",
-      "name": "Anguish",
-      "desc": "Turn Start: gain 1 Fragile and 2 SP Heal Efficiency Down"
+      "name": "ปวดร้าวรุนแรง",
+      "desc": "เริ่มเทิร์น: ได้รับ เปราะบาง 1 หน่วย และ ประสิทธิภาพสูญเสีย SP 2 หน่วย"
     },
     {
       "id": "Hohenheim_Panic",
-      "name": "Anguish",
-      "desc": "Turn Start: gain 2 Fragile and 3 SP Heal Efficiency Down"
+      "name": "ปวดร้าวรุนแรง",
+      "desc": "เริ่มเทิร์น: ได้รับ เปราะบาง 2 หน่วย และ ประสิทธิภาพสูญเสีย SP 3 หน่วย"
     },
     {
       "id": "BlackCloud",
-      "name": "Dark Cloud",
-      "desc": "Max Stack: 1\nConverts all of this unit's Base Attack Skill Coins used this turn to [Unbreakable Coins], prevents damage from Staggering this unit until Skill End, and inflict +1 more of Bleed effects\nOn Clash Lose: gain Final Power +3\nTurn End: this effect expires"
+      "name": "เมฆาทมิฬ",
+      "desc": "จำนวนทับซ้อนสูงสุด: 1\nเปลี่ยนเหรียญทั้งหมดของสกิลโจมตีพื้นฐานที่ตัวละครนี้ใช้ในเทิร์นนี้เป็น [เหรียญทนทาน] พร้อมต้านไม่ให้ตัวละครนี้ชะงักจากความเสียหายที่ได้รับจนกว่าสกิลจะจบลง และสร้างค่า เลือดไหล เพิ่มเติม +1 หน่วย\nเมื่อแคลชแพ้: ได้รับแต้มจบสกิล +3 แต้ม\nจบเทิร์น: เอฟเฟกต์นี้หมดลง"
     },
     {
       "id": "BlackCloudBlade",
-      "name": "Dark Cloud Blade",
-      "desc": "Max Stack: 1\nGain 1 Slash Power\nInflict 1 Bleed On Hit with Slash Skills"
+      "name": "ดาบเมฆาทมิฬ",
+      "desc": "จำนวนทับซ้อนสูงสุด: 1\nได้รับแต้มฟัน 1 แต้ม\nการโจมตีโดนด้วยสกิลประเภทฟันจะสร้างค่า เลือดไหล 1 หน่วย"
     },
     {
       "id": "EngageToBattle",
-      "name": "Battle Ready",
-      "desc": "Max Value: 1\nBleed Potency and Count inflicted with this unit's Skill or Coin effects: +1\nGain 1 Slash Power Up and 3 Slash DMG Up for the duration of this Encounter"
+      "name": "พร้อมรบ",
+      "desc": "ค่าสูงสุด: 1\nเอฟเฟกต์สกิลหรือเอฟเฟกต์เหรียญของตัวละครนี้จะสร้างค่าและจำนวนครั้ง เลือดไหล เพิ่มเติม +1 หน่วย\nได้รับ เพิ่มแต้มสกิลฟัน 1 หน่วย และ ความเสียหายฟันเพิ่มขึ้น 3 หน่วยตลอดทั้งการเผชิญหน้านี้"
     },
     {
       "id": "CloudWall",
-      "name": "Cumulus Wall",
-      "desc": "Max Stack: 1\nDefense Skill Final Power +1\nThis effect expires at Turn End or after attack of the following: 'Rules of the Backstreets'"
+      "name": "กำแพงเมฆาซ้อน",
+      "desc": "จำนวนทับซ้อนสูงสุด: 1\nแต้มจบสกิลของสกิลตั้งรับ +1 แต้ม\nเอฟเฟกต์นี้จะหมดลงเมื่อจบเทิร์น หรือหลังใช้การโจมตีต่อไปนี้: 'กฎแห่งแบ็คสตรีท'"
     },
     {
       "id": "ScarletResultUp",
-      "name": "Lust Power Up",
-      "desc": "Lust Skills gain Final Power by the effect’s Count for one turn."
+      "name": "เพิ่มแต้มสกิลธาตุราคะ",
+      "desc": "สกิลความเสียหายธาตุราคะได้รับแต้มจบสกิลเพิ่มขึ้นตามจำนวนเอฟเฟกต์เป็นระยะเวลา 1 เทิร์น"
     },
     {
       "id": "NebulizerExhale",
-      "name": "Nebulizer α",
-      "desc": "- Max Stack: 5\n- This effect persists throughout the Encounter\n- Combat Start: on all allies, including this unit, apply 1 Poise Potency and +1 Poise Count"
+      "name": "เครื่องพ่นละออง α",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 5\n- เอฟเฟกต์นี้จะมีผลตลอดทั้งการเผชิญหน้า\n- เริ่มการต่อสู้: พันธมิตรทั้งหมดรวมถึงตัวละครนี้ จะได้รับค่า ตั้งท่า 1 หน่วยและจำนวนครั้ง ตั้งท่า +1 หน่วย"
     },
     {
       "id": "ReleaseBreath",
-      "name": "Shallow Exhale",
-      "desc": "- Max Value: 1\n- At 20+ Poise Potency, gain +1 Count as well whenever this unit gains Poise Potency with Skill and Coin effects\n- Expires at Turn End"
+      "name": "ลมหายใจออกแผ่วเบา",
+      "desc": "- ค่าสูงสุด: 1\n- ขณะมีค่า ตั้งท่า 20+ หน่วย ทุกครั้งที่ตัวละครนี้ได้รับค่า ตั้งท่า ด้วยเอฟเฟกต์สกิลหรือเอฟเฟกต์เหรียญ จะได้รับจำนวนครั้ง ตั้งท่า +1 ด้วยเช่นกัน\n- หมดลงเมื่อจบเทิร์น"
     },
     {
       "id": "FirePunchFuel",
-      "name": "District 12 Fuel",
-      "desc": "Max Stack: 100\nConsumed by certain Skills.\nAt 50- Stack, become Overheated Fuel",
+      "name": "เชื้อเพลิงจากเขต 12",
+      "desc": "จำนวนทับซ้อนสูงสุด: 100\nใช้ผลาญในบางสกิล\nขณะมีจำนวนทับซ้อน 50- หน่วย จะกลายเป็น เชื้อเพลิงร้อนทะลุ แทน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FirePunchFuelOverheated",
-      "name": "Overheated Fuel",
-      "desc": "Max Stack: 100\nConsuming District 12 Fuel in Overheated Fuel State consumes Overheated Fuel instead\nConsuming Overheated Fuel counts as consuming District 12 Fuel\nAt over 50 Stack, become District 12 Fuel",
+      "name": "เชื้อเพลิงร้อนทะลุ",
+      "desc": "จำนวนทับซ้อนสูงสุด: 100\nการผลาญ เชื้อเพลิงจากเขต 12 ในระหว่างสถานะ เชื้อเพลิงร้อนทะลุขีด จะผลาญ เชื้อเพลิงร้อนทะลุขีด แทน\nการผลาญ เชื้อเพลิงร้อนทะลุขีด จะนับว่าเป็นการผลาญ เชื้อเพลิงจากเขต 12\n· เมื่อมีจำนวนทับซ้อนมากกว่า 50 หน่วย จะกลายเป็น เชื้อเพลิงจากเขต 12 แทน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DianxueDonQuixote",
-      "name": "Nerve Strike - Don Quixote",
-      "desc": "- Max Stack: 3\n- The unit that inflicted this Nerve Strike gains the following effects based on target's(or targeted Part's) Nerve Strike Stack\n· 1x Stack: Gain Clash Power +1\n· 2x Stack: Gain Base Power +1\n· 3x Stack: Gain Clash Power +1 and Base Power +1\n- Expires if the unit that inflicted it inflicts this effect against a different target(or a different Part)\n- Replaced when another unit inflicts Nerve Strike",
+      "name": "กดจุดเส้นประสาท - ดอน กิโฮเต้",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 3\n- ตัวละครที่สร้างสถานะ กดจุดเส้นประสาท นี้ จะได้รับเอฟเฟกต์ดังต่อไปนี้ โดยขึ้นกับจำนวนทับซ้อนของ กดจุดเส้นประสาท บนตัวเป้าหมาย (หรือบนอวัยวะของเป้าหมาย)\n· จำนวนทับซ้อน 1x: ได้รับ แต้มแคลชสกิล +1\n· จำนวนทับซ้อน 2x: ได้รับ แต้มเริ่มต้นสกิล +1\n· จำนวนทับซ้อน 3x: ได้รับ แต้มแคลชสกิล +1 และ แต้มเริ่มต้นสกิล +1\n- จะหมดลงหากตัวละครที่สร้างสถานะนี้ สร้างสถานะเดิมใส่เป้าหมายอื่น (หรืออวัยวะส่วนอื่น)\n- จะถูกแทนที่หากตัวละครอื่นสร้าง กดจุดเส้นประสาท",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSinclair",
-      "name": "Book of Vengeance [Sinclair]",
-      "desc": "- Max Stack: 30\n- Deal more damage equal to (Stack)% (max 30%)\n- Gain the following effects next turn based on Stack:\n· At 10+ Stack: gain 1 Blunt DMG Up\n· At 20+ Stack: Max Speed +1, gain 1 Power Up\n· At 30 Stack: gain 2 Blunt DMG Up",
+      "name": "สมุดสะสางแค้น [ซินแคลร์]",
+      "desc": "- จำนวนทับซ้อน: 30\n- สร้างความเสียหายเพิ่มขึ้น (จำนวนทับซ้อน)% (สูงสุด 30%)\n- ได้รับเอฟเฟกต์ดังต่อไปนี้ในเทิร์นหน้าตามจำนวนทับซ้อนที่มี:\n· ขณะมีจำนวนทับซ้อน 10+ หน่วย: ได้รับ ความเสียหายทุบเพิ่มขึ้น 1 หน่วย\n· ขณะมีจำนวนทับซ้อน 20+ หน่วย: ความเร็วสูงสุด +1 และได้รับ เพิ่มแต้มสกิล 1 แต้ม\n· ขณะมีจำนวนทับซ้อน 30+ หน่วย: ได้รับ ความเสียหายทุบเพิ่มขึ้น 2 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VendettaMark",
-      "name": "Vendetta Mark",
-      "desc": "- Max Stack: 10\n- Consumed by certain Skills or Passives\n- Take +2% damage from The Middle enemies for every Stack (max 20%)\n- Turn End: the unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
+      "name": "รอยอาฆาต",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 10\n- ผลาญด้วยบางสกิลหรือบางพาสซีพ\n- ทุก ๆ จำนวนทับซ้อนที่มี จะทำให้ได้รับความเสียหายจากศัตรูที่เป็น เดอะมิดเดิล มากขึ้น +2% (สูงสุด 20%)\n- จบเทิร์น: ตัวละครที่มีจำนวนทับซ้อนนี้สูงสุด จะได้รับ รอยสะสางแค้นของพี่น้อง 1 หน่วยในเทิร์นหน้า\n(นับแยกกับ รอยสะสางแค้น หากมีตัวละครมากกว่าหนึ่งตัวที่มีจำนวนทับซ้อนสูงสุดของเอฟเฟกต์นี้ จะเล็งเป้าหมายที่มีเปอร์เซนต์เลือดสูงกว่า)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RetaliationBookFamily",
-      "name": "Sibling Vengeance Mark",
-      "desc": "- Max Stack: 1\n- Expires at Turn End\n- Every Identity treats this unit as having their Vengeance Mark",
+      "name": "รอยสะสางแค้นของพี่น้อง",
+      "desc": "- จำนวนทับซ้อนสูงสุด: 1\n- จบลงเมื่อหมดเทิร์น\n- ตัวตนทุกร่างจะนับว่าตัวละครนี้มี รอยสะสางแค้น ของตนเองอยู่",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BirdCage",
-      "name": "Searing Birdcage",
-      "desc": "Max Stack: 5\nIf this unit has Burn, Wrath Resistance +0.1 for every Stack (cannot exceed 2.0 Wrath Resistance with this effect)\nTurn End: gain Bind equal to Stack next turn\nTurn End: halve Stack (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
-      "summary": "Wrath Resistance +0.1 for every Stack",
+      "name": "กรงนกโหมเพลิง",
+      "desc": "จำนวนทับซ้อนสูงสุด: 5\nหากตัวละครนี้มี เผาไหม้ อยู่ ตัวคูณความเสียหายธาตุโกรธาจะ +0.1 ตามทุก ๆ จำนวนทับซ้อนที่มี (ตัวคูณความเสียหายธาตุโกรธาจากเอฟเฟกต์นี้จะไม่สามารถเกิน 2.0 ได้)\nจบเทิร์น: ได้รับ พันธนา เท่ากับจำนวนทับซ้อนในเทิร์นหน้า\nจบเทิร์น: จำนวนทับซ้อนหารครึ่ง (ปัดลง)\n※ ไม่สามารถได้รับจำนวนทับซ้อนของเอฟเฟกต์นี้เพิ่มได้ ในขณะที่มันกำลังทำงานอยู่",
+      "summary": "ตัวคูณความเสียหายธาตุโกรธา +0.1 ตามทุก ๆ จำนวนทับซ้อนที่มี",
       "undefined": "-"
     },
     {
       "id": "WideAreaRampage",
-      "name": "Unfocused Volley",
-      "desc": "- When this Skill flips Coins, each Coin flips against a random enemy among its targets\n· The first Coin always targets the main target\n· All 'On Hit' effects and all damage dealt by each Coin are inflicted only against the random target the Coin selected",
-      "summary": "Attack indiscriminately among selected targets",
+      "name": "ระดมยิงไม่สนเป้า",
+      "desc": "- เมื่อตัวละครนี้ทอยเหรียญ แต่ละเหรียญที่ทอยจะสุ่มโจมตีหนึ่งในเป้าหมายทั้งหมดของสกิลแบบสุ่ม\n· เหรียญแรกจะเล็งเป้าหมายหลักแน่นอน\n· เอฟเฟกต์ 'โจมตีโดน' และความเสียหายทั้งหมดที่สร้างในแต่ละเหรียญจะมีผลเฉพาะกับเป้าหมายแบบสุ่มที่เหรียญเลือกไว้",
+      "summary": "โจมตีไม่เลือกหน้าใส่กลุ่มเป้าหมาย",
       "undefined": "-"
     },
     {
       "id": "ActivatedEgoPassive",
       "name": "E.G.O Passives",
-      "desc": "Active E.G.O Passives",
+      "desc": "พาสซีพ E.G.O ที่กำลังทำงานอยู่",
       "summary": "",
       "undefined": "-"
     }
