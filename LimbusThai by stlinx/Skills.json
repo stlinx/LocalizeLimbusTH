@@ -1,12 +1,12 @@
-{
+﻿{
   "dataList": [
     {
       "id": 0,
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "เมื่อแคลชนะ, ดันขีด Stagger ของศัตรูขึ้น"
+          "name": "ตั้งรับ",
+          "desc": "เมื่อแคลชชนะ ดึงเกจชะงักของศัตรูขึ้น"
         }
       ]
     },
@@ -15,8 +15,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "เมื่อแคลชนะ, ลดขีด Stagger ของผู้ใช้ลง"
+          "name": "หลบหลีก",
+          "desc": "เมื่อแคลชชนะ ลดเกจชะงักของผู้ใช้ลง"
         }
       ]
     },
@@ -25,8 +25,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "ใช้การโจมตีโดยที่ไม่ต้องแคลช"
+          "name": "สวนกลับ",
+          "desc": "ใช้งานเพื่อปะทะกับการโจมตีโดยตรง"
         }
       ]
     },
@@ -35,9 +35,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Deflect",
-          "desc": "",
+          "name": "ปัดป้อง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -50,14 +50,14 @@
         },
         {
           "level": 2,
-          "name": "Deflect",
-          "desc": "",
+          "name": "ปัดป้อง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
@@ -65,14 +65,14 @@
         },
         {
           "level": 4,
-          "name": "Deflect",
-          "desc": "",
+          "name": "ปัดป้อง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
@@ -85,15 +85,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "End-stop Stab",
-          "desc": "",
+          "name": "แทงมิดด้าม",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             }
@@ -101,15 +101,15 @@
         },
         {
           "level": 2,
-          "name": "End-stop Stab",
-          "desc": "",
+          "name": "แทงมิดด้าม",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Sinking]; มอบ +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย และสร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             }
@@ -117,15 +117,15 @@
         },
         {
           "level": 4,
-          "name": "End-stop Stab",
-          "desc": "",
+          "name": "แทงมิดด้าม",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Sinking]; มอบ +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย และสร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             }
@@ -138,16 +138,16 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Enjamb",
-          "desc": "",
+          "name": "ขีดเขียนต่อเนื่อง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หาก SP ของเป้าหมายเหลือต่ำกว่า 0, มอบ 1 Fragile ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หาก SP ของเป้าหมายเหลือต่ำกว่า 0 หน่วย จะสร้าง [Vulnerable] 1 หน่วย ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -155,28 +155,28 @@
         },
         {
           "level": 4,
-          "name": "Enjamb",
-          "desc": "",
+          "name": "ขีดเขียนต่อเนื่อง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หาก SP ของเป้าหมายเหลือต่ำกว่า 0, มอบ 1 Fragile ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หาก SP ของเป้าหมายเหลือต่ำกว่า 0 หน่วย จะสร้าง [Vulnerable] 1 หน่วย ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -189,7 +189,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -202,14 +202,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flèche",
-          "desc": "",
+          "name": "จ้วง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -217,14 +217,14 @@
         },
         {
           "level": 2,
-          "name": "Flèche",
-          "desc": "",
+          "name": "จ้วง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -237,30 +237,30 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Moulinet",
-          "desc": "",
+          "name": "โจมตีทรงกลม",
           "keywords": [
             "Vulnerable"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 สถานะที่จะถูกมอบโดยเหรียญสุดท้าย"
+                  "desc": "[OnSucceedAttack] สถานะที่เหรียญสุดท้ายสร้าง +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 สถานะที่จะถูกมอบโดยเหรียญสุดท้าย"
+                  "desc": "[OnSucceedAttack] สถานะที่เหรียญสุดท้ายสร้าง +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Pierce Fragility ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [PenetrateTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -268,33 +268,33 @@
         },
         {
           "level": 4,
-          "name": "Moulinet",
-          "desc": "",
+          "name": "โจมตีทรงกลม",
           "keywords": [
             "Vulnerable"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to สถานะที่จะถูกมอบโดยเหรียญสุดท้าย"
+                  "desc": "[OnSucceedAttack] สถานะที่เหรียญสุดท้ายสร้าง +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to สถานะที่จะถูกมอบโดยเหรียญสุดท้าย"
+                  "desc": "[OnSucceedAttack] สถานะที่เหรียญสุดท้ายสร้าง +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Pierce Fragility ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [PenetrateTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -307,11 +307,11 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Riposte",
-          "desc": "[WinDuel] มอบ 3 [Paralysis] ในเทิร์นถัดไป",
+          "name": "สวนกลับทันควัน",
           "keywords": [
             "Paralysis"
           ],
+          "desc": "[WinDuel] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -331,11 +331,11 @@
         },
         {
           "level": 2,
-          "name": "Riposte",
-          "desc": "[WinDuel] มอบ 3 [Paralysis] ในเทิร์นถัดไป",
+          "name": "สวนกลับทันควัน",
           "keywords": [
             "Paralysis"
           ],
+          "desc": "[WinDuel] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -347,7 +347,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Fragile ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -355,11 +355,11 @@
         },
         {
           "level": 4,
-          "name": "Riposte",
-          "desc": "[WinDuel] มอบ 3 [Paralysis] ในเทิร์นถัดไป\n[WinDuel] มอบ 1 [Burst] Count",
+          "name": "สวนกลับทันควัน",
           "keywords": [
             "Paralysis"
           ],
+          "desc": "[WinDuel] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป\n[WinDuel] สร้างจำนวนครั้ง [Burst] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -371,10 +371,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Fragile ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -387,7 +387,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -400,14 +400,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Striker’s Stance",
-          "desc": "",
+          "name": "ท่วงท่าผู้จู่โจม",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -415,14 +415,14 @@
         },
         {
           "level": 2,
-          "name": "Striker’s Stance",
-          "desc": "",
+          "name": "ท่วงท่าผู้จู่โจม",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -430,14 +430,14 @@
         },
         {
           "level": 4,
-          "name": "Striker’s Stance",
-          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
+          "name": "ท่วงท่าผู้จู่โจม",
           "keywords": [],
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -450,9 +450,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Heel Turn",
-          "desc": "[WinDuel] ได้รับ +1 [Breath] Count ในเทิร์นถัดไป",
+          "name": "ฝักฟาด",
           "keywords": [],
+          "desc": "[WinDuel] ได้รับจำนวนครั้ง [Breath] +1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {},
             {}
@@ -460,9 +460,9 @@
         },
         {
           "level": 2,
-          "name": "Heel Turn",
-          "desc": "[WinDuel] ได้รับ +2 [Breath] Count ในเทิร์นถัดไป",
+          "name": "ฝักฟาด",
           "keywords": [],
+          "desc": "[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {},
             {}
@@ -470,9 +470,9 @@
         },
         {
           "level": 4,
-          "name": "Heel Turn",
-          "desc": "[WinDuel] ได้รับ +2 [Breath] Count ในเทิร์นถัดไป",
+          "name": "ฝักฟาด",
           "keywords": [],
+          "desc": "[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {},
             {}
@@ -485,14 +485,14 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Flank Thrust",
-          "desc": "",
+          "name": "บุกขนาบข้าง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -500,7 +500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "ดาเมจ +50% เมื่อคริ"
+                  "desc": "ความเสียหายคริติคอลเพิ่มขึ้น +50%"
                 }
               ]
             }
@@ -508,14 +508,14 @@
         },
         {
           "level": 4,
-          "name": "Flank Thrust",
-          "desc": "[WhenUse] ได้รับ 2 [Breath]",
+          "name": "บุกขนาบข้าง",
           "keywords": [],
+          "desc": "[WhenUse] ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -523,7 +523,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "ดาเมจ +70% เมื่อคริ"
+                  "desc": "ความเสียหายคริติคอลเพิ่มขึ้น +70%"
                 }
               ]
             }
@@ -536,23 +536,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "",
+          "name": "สวนกลับ",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Counter",
-          "desc": "",
+          "name": "สวนกลับ",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "ดาเมจ +70% เมื่อคริ"
+                  "desc": "ความเสียหายคริติคอลเพิ่มขึ้น +70%"
                 }
               ]
             }
@@ -565,14 +565,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Downward Slash",
-          "desc": "",
+          "name": "ฟันลง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] 1 หน่วย"
                 }
               ]
             }
@@ -580,14 +580,14 @@
         },
         {
           "level": 2,
-          "name": "Downward Slash",
-          "desc": "",
+          "name": "ฟันลง",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 1 หน่วย"
                 }
               ]
             }
@@ -600,15 +600,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Upward Slash",
-          "desc": "",
+          "name": "ฟันขึ้น",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Offense Level Down ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [AttackDown] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -616,15 +616,15 @@
         },
         {
           "level": 2,
-          "name": "Upward Slash",
-          "desc": "",
+          "name": "ฟันขึ้น",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 Offense Level Down ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDown] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -637,21 +637,21 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Drilling Stab",
-          "desc": "",
+          "name": "แทงสว่าน",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 Attack Power Down ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] มอบ [Reduction] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Attack Power Down ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] มอบ [Reduction] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -664,7 +664,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -677,13 +677,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Energy Cycle",
+          "name": "วงจรพลังงาน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +1 หน่วย"
                 }
               ]
             }
@@ -691,13 +691,13 @@
         },
         {
           "level": 2,
-          "name": "Energy Cycle",
+          "name": "วงจรพลังงาน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +2 หน่วย"
                 }
               ]
             }
@@ -705,13 +705,13 @@
         },
         {
           "level": 4,
-          "name": "Energy Cycle",
-          "desc": "[WhenUse] ได้รับ +2 [ฺCharge] Count",
+          "name": "วงจรพลังงาน",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +2 หน่วย"
                 }
               ]
             }
@@ -724,14 +724,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leap",
+          "name": "กระโจน",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 3 [ฺCharge] Count เพื่อมอบ 4 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 3 หน่วย เพื่อสร้าง [Binding] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -739,14 +739,14 @@
         },
         {
           "level": 2,
-          "name": "Leap",
+          "name": "กระโจน",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 3 [ฺCharge] Count เพื่อมอบ 4 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 3 หน่วย เพื่อสร้าง [Binding] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -754,20 +754,20 @@
         },
         {
           "level": 4,
-          "name": "Leap",
-          "desc": "[WhenUse] ได้รับ +3 [ฺCharge] Count",
+          "name": "กระโจน",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 3 [ฺCharge] Count เพื่อมอบ 4 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 3 หน่วย เพื่อสร้าง [Binding] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -788,7 +788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 5 [ฺCharge] Count เพื่อมอบ 2 Attack Power Down และ 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 5 หน่วย เพื่อสร้าง [Reduction] 2 หน่วย และ [Paralysis] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -797,14 +797,14 @@
         {
           "level": 4,
           "name": "Overcharge",
-          "desc": "หากมี 5+ [ฺCharge] Count, Clash Power +2",
+          "desc": "หากมีจำนวน [Charge] 5+ หน่วย ได้รับแต้มแคลชสกิล +2 แต้ม",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 5 [ฺCharge] Count เพื่อมอบ 2 Attack Power Down และ 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 5 หน่วย เพื่อสร้าง [Reduction] 2 หน่วย และ [Paralysis] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -817,7 +817,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -830,13 +830,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sole Strike",
+          "name": "ฟาดหนเดียว",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -844,13 +844,13 @@
         },
         {
           "level": 2,
-          "name": "Sole Strike",
+          "name": "ฟาดหนเดียว",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -858,13 +858,13 @@
         },
         {
           "level": 4,
-          "name": "Sole Strike",
-          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
+          "name": "ฟาดหนเดียว",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -877,27 +877,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Deep Cuts",
+          "name": "รอยตัดลึก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 2 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -905,27 +905,27 @@
         },
         {
           "level": 2,
-          "name": "Deep Cuts",
+          "name": "รอยตัดลึก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [Agility] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -933,30 +933,30 @@
         },
         {
           "level": 4,
-          "name": "Deep Cuts",
+          "name": "รอยตัดลึก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [Agility] 4 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -969,14 +969,14 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Opportunistic Slash",
-          "desc": "หากผู้ใช้ไม่ได้รับดาเมจในเทิร์นล่าสุด, Coin Power +3",
+          "name": "ฉวยโอกาสฟาดฟัน",
+          "desc": "หากผู้ใช้ไม่ได้รับความเสียหายในเทิร์นก่อนหน้า ได้รับแต้มเหรียญเพิ่มขึ้น +3 แต้ม",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 5 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 5 หน่วย"
                 }
               ]
             }
@@ -989,7 +989,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -1002,16 +1002,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Joust",
-          "desc": "[WinDuel] ได้รับ 1 Haste ในเทิร์นถัดไป",
+          "name": "ประลองหอก",
+          "desc": "[WinDuel] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 2,
-          "name": "Joust",
-          "desc": "[WinDuel] ได้รับ 2 Haste ในเทิร์นถัดไป",
+          "name": "ประลองหอก",
+          "desc": "[WinDuel] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -1023,29 +1023,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Galloping Tilt",
-          "desc": "[WinDuel] ได้รับ 1 Attack Power Up ในเทิร์นถัดไป",
+          "name": "ควบม้ากระดก",
+          "desc": "[WinDuel] ได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 2,
-          "name": "Galloping Tilt",
-          "desc": "[WinDuel] ได้รับ 2 Attack Power Up ในเทิร์นถัดไป",
+          "name": "ควบม้ากระดก",
+          "desc": "[WinDuel] ได้รับ [Enhancement] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Galloping Tilt",
-          "desc": "[WinDuel] ได้รับ 2 Attack Power Up ในเทิร์นถัดไป",
+          "name": "ควบม้ากระดก",
+          "desc": "[WinDuel] ได้รับ [Enhancement] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -1058,8 +1058,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "For Justice!",
-          "desc": "หากมีความเร็ว 10+, Coin Power +2",
+          "name": "เพื่อความยุติธรรม!",
+          "desc": "หากมีความเร็ว 10+ หน่วย ได้รับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {},
             {},
@@ -1068,27 +1068,27 @@
         },
         {
           "level": 4,
-          "name": "For Justice!",
-          "desc": "หากมีความเร็ว 10+, Coin Power +2",
+          "name": "เพื่อความยุติธรรม!",
+          "desc": "หากมีความเร็ว 10+ หน่วย ได้รับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +2 [Laceration] count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -1101,7 +1101,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -1114,13 +1114,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip",
+          "name": "ฉีก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -1128,16 +1128,16 @@
         },
         {
           "level": 2,
-          "name": "Rip",
+          "name": "ฉีก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ +2 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับจำนวน [Charge] +2 หน่วย"
                 }
               ]
             }
@@ -1145,16 +1145,16 @@
         },
         {
           "level": 4,
-          "name": "Rip",
-          "desc": "หากมี 5+ [ฺCharge] Count, Coin Power +2",
+          "name": "ฉีก",
+          "desc": "หากมีจำนวน [Charge] 5+ หน่วย ได้รับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ +4 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับจำนวน [Charge] +4 หน่วย"
                 }
               ]
             }
@@ -1167,7 +1167,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leap",
+          "name": "พุ่งใส่",
           "desc": "",
           "coinlist": [
             {},
@@ -1175,7 +1175,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 Fragile"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Vulnerable] 1 หน่วย"
                 }
               ]
             }
@@ -1183,27 +1183,27 @@
         },
         {
           "level": 2,
-          "name": "Leap",
+          "name": "พุ่งใส่",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +4 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +4 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Fragile"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Vulnerable] 2 หน่วย"
                 }
               ]
             }
@@ -1211,27 +1211,27 @@
         },
         {
           "level": 4,
-          "name": "Leap",
-          "desc": "หากมี 7+ [ฺCharge] Count, Coin Power +1",
+          "name": "พุ่งใส่",
+          "desc": "หากมีจำนวน [Charge] 7+ หน่วย จะทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +4 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +4 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Fragile"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Vulnerable] 2 หน่วย"
                 }
               ]
             }
@@ -1244,8 +1244,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Rip Space",
-          "desc": "[WhenUse] ใช้ 10 [ฺCharge] Count เพื่อรับ +4 Coin Power\nหากมีต่ำกว่า 10 [ฺCharge] Count, สูญเสีย 20% HP",
+          "name": "ฉีกกระชากพื้นที่",
+          "desc": "[WhenUse] ใช้จำนวน [Charge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +4 แต้ม\nหากมีจำนวน [Charge] ต่ำกว่า 10 หน่วย จะสูญเสียเลือด 20%",
           "coinlist": [
             {
               "coindescs": [
@@ -1272,7 +1272,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 5 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 5 หน่วย"
                 }
               ]
             }
@@ -1285,7 +1285,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -1298,13 +1298,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Catch Breath",
+          "name": "พักหายใจ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1312,13 +1312,13 @@
         },
         {
           "level": 2,
-          "name": "Catch Breath",
+          "name": "พักหายใจ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1326,13 +1326,13 @@
         },
         {
           "level": 4,
-          "name": "Catch Breath",
-          "desc": "[WhenUse] ได้รับ 2 Haste ในเทิร์นถัดไป",
+          "name": "พักหายใจ",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1345,20 +1345,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dual Strike",
+          "name": "โจมตีดาบคู่",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1366,20 +1366,20 @@
         },
         {
           "level": 2,
-          "name": "Dual Strike",
-          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ได้รับ 2 Haste ในเทิร์นถัดไป",
+          "name": "โจมตีดาบคู่",
+          "desc": "[WhenUse] หากมีเลือด ต่ำกว่า 50% จะได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1387,20 +1387,20 @@
         },
         {
           "level": 4,
-          "name": "Dual Strike",
-          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ได้รับ 4 Haste ในเทิร์นถัดไป",
+          "name": "โจมตีดาบคู่",
+          "desc": "[WhenUse] หากมีเลือด ต่ำกว่า 50% จะได้รับ [Agility] 4 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 Haste ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [Agility] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1413,16 +1413,16 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Overbreathe",
-          "desc": "หากมีความเร็ว 10+, Skill Power +3",
+          "name": "หายใจเกิน",
+          "desc": "หากมีความเร็ว 10+ หน่วย จะทำให้แต้มสกิลเพิ่มขึ้น +3 แต้ม",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Overbreathe",
-          "desc": "หากมีความเร็ว 10+, Skill Power +5",
+          "name": "หายใจเกิน",
+          "desc": "หากมีความเร็ว 10+ หน่วย จะทำให้แต้มสกิลเพิ่มขึ้น +5 แต้ม",
           "coinlist": [
             {}
           ]
@@ -1434,7 +1434,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -1447,13 +1447,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Paint",
+          "name": "แต่งแต้ม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1461,13 +1461,13 @@
         },
         {
           "level": 2,
-          "name": "Paint",
+          "name": "แต่งแต้ม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1480,20 +1480,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Splatter",
+          "name": "สาดกระเซ็น",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "หากเป้าหมายได้รับดาเมจในเทิร์นนี้, ดาเมจ +10%"
+                  "desc": "หากเป้าหมายเคยได้รับความเสียหายอยู่ก่อนแล้วในเทิร์นนี้ สร้างความเสียหายเพิ่มขึ้น +10%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "หากเป้าหมายได้รับดาเมจในเทิร์นนี้, ดาเมจ +10%"
+                  "desc": "หากเป้าหมายเคยได้รับความเสียหายอยู่ก่อนแล้วในเทิร์นนี้ สร้างความเสียหายเพิ่มขึ้น +10%"
                 }
               ]
             }
@@ -1501,20 +1501,20 @@
         },
         {
           "level": 2,
-          "name": "Splatter",
+          "name": "สาดกระเซ็น",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "หากเป้าหมายได้รับดาเมจในเทิร์นนี้, ดาเมจ +30%"
+                  "desc": "หากเป้าหมายเคยได้รับความเสียหายอยู่ก่อนแล้วในเทิร์นนี้ สร้างความเสียหายเพิ่มขึ้น +30%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "หากเป้าหมายได้รับดาเมจในเทิร์นนี้, ดาเมจ +30%"
+                  "desc": "หากเป้าหมายเคยได้รับความเสียหายอยู่ก่อนแล้วในเทิร์นนี้ สร้างความเสียหายเพิ่มขึ้น +30%"
                 }
               ]
             }
@@ -1527,8 +1527,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Brushstroke",
-          "desc": "[StartBattle] ได้รับ 2 Slash DMG Up",
+          "name": "สะบัดพู่กัน",
+          "desc": "[StartBattle] ได้รับ [SlashDamageUp] 2 หน่วย",
           "coinlist": [
             {},
             {},
@@ -1537,14 +1537,14 @@
         },
         {
           "level": 4,
-          "name": "Brushstroke",
-          "desc": "[StartBattle] ได้รับ 2 Slash DMG Up",
+          "name": "สะบัดพู่กัน",
+          "desc": "[StartBattle] ได้รับ [SlashDamageUp] 2 หน่วย",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1558,7 +1558,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -1571,13 +1571,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slash",
+          "name": "ฟัน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1585,13 +1585,13 @@
         },
         {
           "level": 2,
-          "name": "Slash",
+          "name": "ฟัน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1604,13 +1604,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Upper Slash",
-          "desc": "[WinDuel] ได้รับ 1 Attack Power Up ในเทิร์นถัดไป",
+          "name": "ปาดฉับท่อนบน",
+          "desc": "[WinDuel] ได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttackHead] สร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             }
@@ -1618,13 +1618,13 @@
         },
         {
           "level": 2,
-          "name": "Upper Slash",
-          "desc": "Skill Power +2 เมื่อใช้กับตัวละครที่มี Slash Fragility\n[WinDuel] ได้รับ 1 Attack Power Up ในเทิร์นถัดไป",
+          "name": "ปาดฉับท่อนบน",
+          "desc": "แต้มสกิลเพิ่มขึ้น +2 แต้ม เมื่อใช้สกิลนี้กับตัวละครที่มีสถานะ [SlashTakeDamageUp]\n[WinDuel] ได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] สร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             }
@@ -1637,13 +1637,13 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Swash",
-          "desc": "[WinDuel] สกิลนี้มอบ 2 Slash Fragility เพิ่มเติม",
+          "name": "ซัดสาด",
+          "desc": "[WinDuel] สกิลนี้สร้าง [SlashTakeDamageUp] เพิ่มเติม 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 Slash Fragility ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashTakeDamageUp] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1658,19 +1658,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": []
         },
         {
           "level": 4,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Slash Fragility"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashTakeDamageUp] 1 หน่วย"
                 }
               ]
             }
@@ -1683,13 +1683,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Focus Strike",
+          "name": "โจมตีเพ่งเล็ง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] 1 หน่วย"
                 }
               ]
             }
@@ -1697,13 +1697,13 @@
         },
         {
           "level": 2,
-          "name": "Focus Strike",
+          "name": "โจมตีเพ่งเล็ง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -1711,13 +1711,13 @@
         },
         {
           "level": 4,
-          "name": "Focus Strike",
-          "desc": "หากเป้าหมายมี 2+ [Laceration] Count, ดาเมจ +20%",
+          "name": "โจมตีเพ่งเล็ง",
+          "desc": "หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย ความเสียหายจะเพิ่มขึ้น +20%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -1730,20 +1730,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Clean Up",
+          "name": "เก็บกวาด",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             }
@@ -1751,23 +1751,23 @@
         },
         {
           "level": 2,
-          "name": "Clean Up",
+          "name": "เก็บกวาด",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Damage Down"
+                  "desc": "[OnSucceedAttackHead] สร้าง [AttackDmgDown] 2 หน่วย"
                 }
               ]
             }
@@ -1775,23 +1775,23 @@
         },
         {
           "level": 4,
-          "name": "Clean Up",
-          "desc": "หากเป้าหมายมี 5+ [Laceration] Count, ดาเมจ +20%",
+          "name": "เก็บกวาด",
+          "desc": "หากเป้าหมายมีจำนวนครั้ง [Laceration] 5+ หน่วย ความเสียหายจะเพิ่มขึ้น +20%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +3 [Laceration] Count "
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 Damage Down"
+                  "desc": "[OnSucceedAttackHead] สร้าง [AttackDmgDown] 2 หน่วย"
                 }
               ]
             }
@@ -1804,23 +1804,23 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Lenticular Swirl",
+          "name": "กวัดแกว่งทรงเลนส์ตา",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 5 Offense Level Down"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDown] 5 หน่วย"
                 }
               ]
             }
@@ -1828,23 +1828,23 @@
         },
         {
           "level": 4,
-          "name": "Lenticular Swirl",
-          "desc": "หากเป้าหมายมี 9+ [Laceration] Count, ดาเมจ +40%",
+          "name": "กวัดแกว่งทรงเลนส์ตา",
+          "desc": "หากเป้าหมายมีจำนวนครั้ง [Laceration] 9+ หน่วย ความเสียหายจะเพิ่มขึ้น +40%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 5 Offense Level Down"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDown] 5 หน่วย"
                 }
               ]
             }
@@ -1857,7 +1857,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -1870,20 +1870,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Un, Deux",
+          "name": "หนึ่ง สอง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             }
@@ -1891,20 +1891,20 @@
         },
         {
           "level": 2,
-          "name": "Un, Deux",
+          "name": "หนึ่ง สอง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             }
@@ -1917,13 +1917,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nailing Fist",
+          "name": "หมัดตอกตะปู",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -1931,13 +1931,13 @@
         },
         {
           "level": 2,
-          "name": "Nailing Fist",
-          "desc": "[WhenUse] ได้รับ 3 Defense Power Up ในเทิร์นถัดไป",
+          "name": "หมัดตอกตะปู",
+          "desc": "[WhenUse] ได้รับ [Endurance] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -1950,8 +1950,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Des Coups",
-          "desc": "[WhenUse] ได้รับ 3 Protection ในเทิร์นถัดไป",
+          "name": "หมัดต่อย",
+          "desc": "[WhenUse] ได้รับ [Protection] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {},
             {},
@@ -1959,7 +1959,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 }
               ]
             }
@@ -1967,34 +1967,34 @@
         },
         {
           "level": 4,
-          "name": "Des Coups",
-          "desc": "[WhenUse] ได้รับ 3 Protection ในเทิร์นถัดไป",
+          "name": "หมัดต่อย",
+          "desc": "[WhenUse] ได้รับ [Protection] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 }
               ]
             }
@@ -2007,7 +2007,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -2020,20 +2020,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Assault",
+          "name": "จู่โจม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -2041,20 +2041,20 @@
         },
         {
           "level": 2,
-          "name": "Assault",
+          "name": "จู่โจม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -2062,20 +2062,20 @@
         },
         {
           "level": 4,
-          "name": "Assault",
+          "name": "จู่โจม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 }
               ]
             }
@@ -2088,20 +2088,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stalwart Stance",
+          "name": "ท่วงท่ากำยำ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -2109,23 +2109,23 @@
         },
         {
           "level": 2,
-          "name": "Stalwart Stance",
+          "name": "ท่วงท่ากำยำ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 6+ [Combustion], สุ่มมอบ 2 [Combustion] แก่ศัตรู 2 ตัว"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Combustion] 6+ หน่วย จะสุ่มมอบค่า [Combustion] 2 หน่วยแก่ศัตรู 2 ตัว"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -2133,23 +2133,23 @@
         },
         {
           "level": 4,
-          "name": "Stalwart Stance",
+          "name": "ท่วงท่ากำยำ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 6+ [Combustion], สุ่มมอบ 3 [Combustion] แก่ศัตรู 2 ตัว"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Combustion] 6+ หน่วย จะสุ่มมอบค่า [Combustion] 3 หน่วยแก่ศัตรู 2 ตัว"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -2162,13 +2162,13 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Perfected Death Fist",
+          "name": "หมัดสังหารสมบูรณ์",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 3 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             },
@@ -2182,10 +2182,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 6+ [Combustion], สุ่มมอบ 3 [Combustion] แก่ศัตรู 2 ตัว"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Combustion] 6+ หน่วย จะสุ่มมอบค่า [Combustion] 3 หน่วยแก่ศัตรู 2 ตัว"
                 }
               ]
             }
@@ -2193,13 +2193,13 @@
         },
         {
           "level": 4,
-          "name": "Perfected Death Fist",
-          "desc": "หากเป้าหมายมี 5+ [Combustion], Coin Power +1",
+          "name": "หมัดสังหารสมบูรณ์",
+          "desc": "หากเป้าหมายมีค่า [Combustion] 5+ จะทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 3 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             },
@@ -2213,10 +2213,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 6+ [Combustion], สุ่มมอบ 3 [Combustion] แก่ศัตรู 2 ตัว"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Combustion] 6+ หน่วย จะสุ่มมอบค่า [Combustion] 3 หน่วยแก่ศัตรู 2 ตัว"
                 }
               ]
             }
@@ -2229,7 +2229,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -2242,8 +2242,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip",
-          "desc": "[WhenUse] ได้รับ 1 Slash Protection",
+          "name": "ฉีก",
+          "desc": "[WhenUse] ได้รับ [SlashTakeDamageDown] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -2256,13 +2256,13 @@
         },
         {
           "level": 2,
-          "name": "Rip",
-          "desc": "[WhenUse] ได้รับ 2 Slash Protection",
+          "name": "ฉีก",
+          "desc": "[WhenUse] ได้รับ [SlashTakeDamageDown] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +3 หน่วย"
                 }
               ]
             }
@@ -2270,13 +2270,13 @@
         },
         {
           "level": 4,
-          "name": "Rip",
-          "desc": "[WhenUse] ได้รับ 2 Slash Protection\nได้รับ +3 [ฺCharge] Count",
+          "name": "ฉีก",
+          "desc": "[WhenUse] ได้รับ [SlashTakeDamageDown] 2 หน่วย\nได้รับจำนวน [Charge] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [ฺCharge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +3 หน่วย"
                 }
               ]
             }
@@ -2289,27 +2289,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Energy Cycle",
+          "name": "วงจรพลังงาน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -2317,30 +2317,30 @@
         },
         {
           "level": 2,
-          "name": "Energy Cycle",
+          "name": "วงจรพลังงาน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 3 [ฺCharge] Count เพื่อมอบ 2 Slash Fragility"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 3 หน่วยเพื่อสร้าง [SlashTakeDamageUp] 2 หน่วย"
                 }
               ]
             }
@@ -2348,30 +2348,30 @@
         },
         {
           "level": 4,
-          "name": "Energy Cycle",
-          "desc": "หากมี 5+ [ฺCharge] Count, Coin Power +1",
+          "name": "วงจรพลังงาน",
+          "desc": "หากมีจำนวน [Charge] 5+ หน่วย จะทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 3 [ฺCharge] Count เพื่อมอบ 2 Slash Fragility"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 3 หน่วยเพื่อสร้าง [SlashTakeDamageUp] 2 หน่วย"
                 }
               ]
             }
@@ -2384,34 +2384,34 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Energy Current",
+          "name": "กระแสพลังงาน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             }
@@ -2419,34 +2419,34 @@
         },
         {
           "level": 4,
-          "name": "Energy Current",
-          "desc": "หากมี 5+ [ฺCharge] Count, Coin Power +1",
+          "name": "กระแสพลังงาน",
+          "desc": "หากมีจำนวน [Charge] 5+ หน่วย จะทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ใช้ 2 [ฺCharge] Count เพื่อมอบ 2 Defense Level Down"
+                  "desc": "[OnSucceedAttack] ใช้จำนวน [Charge] 2 หน่วย เพื่อสร้าง [DefenseDown] 2 หน่วย"
                 }
               ]
             }
@@ -2459,7 +2459,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -2467,8 +2467,8 @@
         },
         {
           "level": 4,
-          "name": "Guard",
-          "desc": "[StartBattle] ได้รับ +2 [ฺCharge] Count",
+          "name": "ตั้งรับ",
+          "desc": "[StartBattle] ได้รับจำนวน [Charge] +2 หน่วย",
           "coinlist": [
             {}
           ]
@@ -2622,7 +2622,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -2636,8 +2636,8 @@
         {
           "level": 1,
           "name": "Cleave",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2651,8 +2651,8 @@
         {
           "level": 2,
           "name": "Cleave",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2666,8 +2666,8 @@
         {
           "level": 4,
           "name": "Hack",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2686,8 +2686,8 @@
         {
           "level": 1,
           "name": "Cloud Cutter",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2708,8 +2708,8 @@
         {
           "level": 2,
           "name": "Cloud Cutter",
-          "desc": "[BeforeAttack] หากเป้าหมายมี [Laceration] Count ต่ำกว่า 4, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "keywords": [],
+          "desc": "[BeforeAttack] หากเป้าหมายมี [Laceration] Count ต่ำกว่า 4, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -2730,8 +2730,8 @@
         {
           "level": 4,
           "name": "Cloud Cutter",
-          "desc": "[BeforeAttack] หากเป้าหมายมี [Laceration] Count ต่ำกว่า 4, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "keywords": [],
+          "desc": "[BeforeAttack] หากเป้าหมายมี [Laceration] Count ต่ำกว่า 4, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -2789,7 +2789,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -2966,7 +2966,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -2974,7 +2974,7 @@
         },
         {
           "level": 4,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "หากเป้าหมายมี 5+ [Laceration], Coin Power +2\n[OnSucceedEvade] ฟื้นฟู 3 SP",
           "coinlist": [
             {}
@@ -3093,7 +3093,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": [
             {}
@@ -3211,7 +3211,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": [
             {}
@@ -3219,7 +3219,7 @@
         },
         {
           "level": 4,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "[WhenUse] สูญเสีย 5 HP\nหากมี 3+ [Breath] Count, ดาเมจ +50%",
           "coinlist": [
             {}
@@ -3406,7 +3406,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -3414,7 +3414,7 @@
         },
         {
           "level": 4,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "[WhenUse] ได้รับ +1 [ฺCharge] Count",
           "coinlist": [
             {}
@@ -3514,7 +3514,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -3753,7 +3753,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -3761,7 +3761,7 @@
         },
         {
           "level": 4,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "[OnSucceedEvade] ได้รับ +1 [ฺCharge] Count",
           "coinlist": [
             {}
@@ -3775,8 +3775,8 @@
         {
           "level": 1,
           "name": "Flying Sword",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -3797,8 +3797,8 @@
         {
           "level": 2,
           "name": "Flying Sword",
-          "desc": "หากมี HP ต่ำกว่า 50%, สกิลนี้จะมอบ 1 [Breath] เพิ่มเติม",
           "keywords": [],
+          "desc": "หากมี HP ต่ำกว่า 50%, สกิลนี้จะมอบ 1 [Breath] เพิ่มเติม",
           "coinlist": [
             {
               "coindescs": [
@@ -3819,8 +3819,8 @@
         {
           "level": 4,
           "name": "Flying Sword",
-          "desc": "หากมี HP ต่ำกว่า 50%, สกิลนี้จะมอบ 3 [Breath] เพิ่มเติม",
           "keywords": [],
+          "desc": "หากมี HP ต่ำกว่า 50%, สกิลนี้จะมอบ 3 [Breath] เพิ่มเติม",
           "coinlist": [
             {
               "coindescs": [
@@ -3846,8 +3846,8 @@
         {
           "level": 1,
           "name": "Flashing Strike",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -3868,8 +3868,8 @@
         {
           "level": 2,
           "name": "Flashing Strike",
-          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "keywords": [],
+          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -3890,8 +3890,8 @@
         {
           "level": 4,
           "name": "Flashing Strike",
-          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "keywords": [],
+          "desc": "[WhenUse] หากมี HP ต่ำกว่า 50%, ใช้เหรียญ 1 และเหรียญ 2 อีกครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -3917,8 +3917,8 @@
         {
           "level": 3,
           "name": "Catch Breath",
-          "desc": "",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -3939,8 +3939,8 @@
         {
           "level": 4,
           "name": "Catch Breath",
-          "desc": "หากมี 5+ [Breath] Count, ดาเมจคริติคอล +50%",
           "keywords": [],
+          "desc": "หากมี 5+ [Breath] Count, ดาเมจคริติคอล +50%",
           "coinlist": [
             {
               "coindescs": [
@@ -3965,9 +3965,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "",
+          "name": "สวนกลับ",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -3975,9 +3975,9 @@
         },
         {
           "level": 4,
-          "name": "Counter",
-          "desc": "หากมี 5+ [Breath] Count, ดาเมจคริติคอล +50%",
+          "name": "สวนกลับ",
           "keywords": [],
+          "desc": "หากมี 5+ [Breath] Count, ดาเมจคริติคอล +50%",
           "coinlist": [
             {
               "coindescs": [
@@ -4178,7 +4178,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -4186,7 +4186,7 @@
         },
         {
           "level": 4,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "[WhenUse] ได้รับ +4 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป\nหากมี 0 Ammo, ได้รับ 2 Aggro เพิ่มเติม",
           "coinlist": [
             {}
@@ -4360,7 +4360,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": [
             {}
@@ -4506,7 +4506,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Sky-clearing Cut",
+          "name": "ดาบตัดผ่านภา",
           "desc": "หากเป้าหมายมี 6+ [Laceration], อัตราคริ x2",
           "coinlist": [
             {
@@ -4520,7 +4520,7 @@
         },
         {
           "level": 4,
-          "name": "Sky-clearing Cut",
+          "name": "ดาบตัดผ่านภา",
           "desc": "หากเป้าหมายมี 6+ [Laceration], อัตราคริ x2\nหากมี 10+ [Breath], ดาเมจคริติคอล +100%",
           "coinlist": [
             {
@@ -4539,7 +4539,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "[WhenUse] ได้รับ 1 Protection",
           "coinlist": [
             {}
@@ -4547,7 +4547,7 @@
         },
         {
           "level": 4,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "[WhenUse] ได้รับ 1 Protection\n[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {}
@@ -4560,7 +4560,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Sky-clearing Cut",
+          "name": "ดาบตัดผ่านภา",
           "desc": "หากเป้าหมายมี 6+ [Laceration], อัตราคริ x2",
           "coinlist": [
             {
@@ -4574,7 +4574,7 @@
         },
         {
           "level": 4,
-          "name": "Sky-clearing Cut",
+          "name": "ดาบตัดผ่านภา",
           "desc": "หากเป้าหมายมี 6+ [Laceration], อัตราคริ x2\nหากมี 10+ [Breath], ดาเมจคริติคอล +100%",
           "coinlist": [
             {
@@ -4743,7 +4743,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -4857,7 +4857,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": "",
           "coinlist": [
             {}
@@ -5048,7 +5048,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Newsprung Counter",
+          "name": "เด็กใหม่สวนกลับ",
           "desc": "[WhenUse] ได้รับ 1 Damage Up ในเทิร์นถัดไป",
           "coinlist": [
             {}
@@ -5056,7 +5056,7 @@
         },
         {
           "level": 4,
-          "name": "Newsprung Counter",
+          "name": "เด็กใหม่สวนกลับ",
           "desc": "[WhenUse] ได้รับ 1 Damage Up ในเทิร์นถัดไป\n[WhenUse] ได้รับ +3 [Breath] Count",
           "coinlist": [
             {}
@@ -5217,7 +5217,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -5225,7 +5225,7 @@
         },
         {
           "level": 4,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "[WhenUse] ได้รับ +4 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป",
           "coinlist": [
             {}
@@ -5422,7 +5422,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -5430,7 +5430,7 @@
         },
         {
           "level": 4,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "[OnSucceedEvade] ได้รับ +1 [Breath] Count",
           "coinlist": [
             {}
@@ -5576,7 +5576,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -5721,7 +5721,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "",
           "coinlist": [
             {}
@@ -5729,7 +5729,7 @@
         },
         {
           "level": 4,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": "หากมี 6+ [Breath], Coin Power +3",
           "coinlist": [
             {}
@@ -5878,7 +5878,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -6009,7 +6009,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -6254,7 +6254,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -6445,7 +6445,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": "",
           "coinlist": [
             {}
@@ -6458,7 +6458,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งรับ",
           "desc": ""
         }
       ]
@@ -6468,7 +6468,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "หลบหลีก",
           "desc": ""
         }
       ]
@@ -6478,7 +6478,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "สวนกลับ",
           "desc": ""
         }
       ]
@@ -6562,8 +6562,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 Nails",
-                  "summary": "[OnSucceedAttack] มอบ 3 Nails"
+                  "desc": "[OnSucceedAttack] มอบ 3 Nails"
                 }
               ]
             },
@@ -6584,8 +6583,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 Nails",
-                  "summary": "[OnSucceedAttack] มอบ 3 Nails"
+                  "desc": "[OnSucceedAttack] มอบ 3 Nails"
                 }
               ]
             },
@@ -6772,8 +6770,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป",
-                  "summary": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -6794,8 +6791,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป",
-                  "summary": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] มอบ 1 Nails ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -8551,8 +8547,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1",
-                  "summary": "[OnSucceedAttack] ทำการ [Vibration] Burst.\nใช้เหรียญนี้ซ้ำหากทำครบเงื่อนไข; มอบ +2 [Vibration] หากใช้ซ้ำ.\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, ทำการ [Vibration] Burst, แล้วลด [Vibration] Count"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1"
                 }
               ]
             }
@@ -8573,8 +8568,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nมอบ 2 [Vibration] เพิ่มเติมทุกครั้งที่เหรียญถูกใช้ซ้ำ\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1",
-                  "summary": "[OnSucceedAttack] ทำการ [Vibration] Burst.\nใช้เหรียญนี้ซ้ำหากทำครบเงื่อนไข; มอบ +2 [Vibration] หากใช้ซ้ำ.\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, ทำการ [Vibration] Burst, แล้วลด [Vibration] Count"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nมอบ 2 [Vibration] เพิ่มเติมทุกครั้งที่เหรียญถูกใช้ซ้ำ\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1"
                 }
               ]
             }
@@ -8595,8 +8589,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nมอบ 2 [Vibration] เพิ่มเติมทุกครั้งที่เหรียญถูกใช้ซ้ำ\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1",
-                  "summary": "[OnSucceedAttack] ทำการ [Vibration] Burst.\nใช้เหรียญนี้ซ้ำหากทำครบเงื่อนไข; มอบ +2 [Vibration] หากใช้ซ้ำ.\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, ทำการ [Vibration] Burst, แล้วลด [Vibration] Count"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Vibration]\nหากมี 3+ [ฺCharge] Count, ใช้เหรียญนี้ซ้ำหากทอยได้หัว (สูงสุด 2 ครั้ง)\nมอบ 2 [Vibration] เพิ่มเติมทุกครั้งที่เหรียญถูกใช้ซ้ำ\nหากเหรียญนี้ถูกใช้ซ้ำสองรอบ, มอบ [Vibration], หลังจากนั้นทำการ [Vibration] Burst\nหลังจาก [Vibration] Burst, ลด [Vibration] Count ลง 1"
                 }
               ]
             }
@@ -8824,8 +8817,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst\nเมื่อทำการ [Vibration] Burst, ลด [Vibration] Count ลง 3, แล้วใช้ [ฺCharge] Count ทั้งหมดเพื่อเสริมการดึงขีด Stagger ขึ้นตามดาเมจ ([ฺCharge] Count x 5)% (สูงสุด 50%)",
-                  "summary": "[OnSucceedAttack] ทำการ [Vibration] Burst, แล้วลด [Vibration] Count ลง 3; ใช้ [ฺCharge] Count เพื่อเสริมการดึงขีด Stagger ขึ้น"
+                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst\nเมื่อทำการ [Vibration] Burst, ลด [Vibration] Count ลง 3, แล้วใช้ [ฺCharge] Count ทั้งหมดเพื่อเสริมการดึงขีด Stagger ขึ้นตามดาเมจ ([ฺCharge] Count x 5)% (สูงสุด 50%)"
                 }
               ]
             }
@@ -8869,8 +8861,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst\nเมื่อทำการ [Vibration] Burst, ลด [Vibration] Count ลง 3, แล้วใช้ [ฺCharge] Count ทั้งหมดเพื่อเสริมการดึงขีด Stagger ขึ้นตามดาเมจ ([ฺCharge] Count x 5)% (สูงสุด 50%)",
-                  "summary": "[OnSucceedAttack] ทำการ [Vibration] Burst, แล้วลด [Vibration] Count ลง 3; ใช้ [ฺCharge] Count เพื่อเสริมการดึงขีด Stagger ขึ้น"
+                  "desc": "[OnSucceedAttack] ทำการ [Vibration] Burst\nเมื่อทำการ [Vibration] Burst, ลด [Vibration] Count ลง 3, แล้วใช้ [ฺCharge] Count ทั้งหมดเพื่อเสริมการดึงขีด Stagger ขึ้นตามดาเมจ ([ฺCharge] Count x 5)% (สูงสุด 50%)"
                 }
               ]
             }
