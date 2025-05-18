@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": "RedEyeFirst",
@@ -44,8 +44,8 @@
     },
     {
       "id": "SinkingWhite",
-      "name": "Butterfly",
-      "desc": "- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets without SP.)\n- Turn End: Reset The Departed of this effect to 0; then, gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0.",
+      "name": "ผีเสื้อ",
+      "desc": "- จมดิ่ง แบบพิเศษ\n- ค่าเริ่มต้น: 0, ค่าสูงสุด: 15\n- ค่าและจำนวนของเอฟเฟกต์นี้จะเรียกว่า \"ผู้คงอยู่\" และ \"ผู้วายชนม์\" ตามลำดับ\n- เมื่อถูกโจมตี ผู้โจมตีจะฟื้นฟู SP ('ผู้คงอยู่'/4) หน่วย (ต่ำสุด 1 หน่วย ปัดลง)\n- เมื่อถูกโจมตีและ SP ของตัวละครนี้นั้นต่ำกว่า 0 หน่วย ทุก ๆ จำนวน 'ผู้วายชนม์' ที่มีจะทำให้ได้รับความเสียหายธาตุโศกาเท่ากับ (ค่า จมดิ่ง/5) (ความเสียหายโศกาสูงสุด 30 หน่วย ปัดลง และสร้างความเสียหายใส่เป้าหมายที่ไม่มี SP เพียงครึ่งเดียว)\n- จบเทิร์น: รีเซ็ตจำนวน 'ผู้วายชนม์' ของเอฟเฟกต์นี้ให้เป็น 0 หน่วย จากนั้นได้รับค่า จมดิ่ง เท่ากับค่า 'ผู้คงอยู่' และแปลง 'ผู้คงอยู่' ให้กลายเป็น 'ผู้วายชนม์'\n- ไม่มีเอฟเฟกต์ภายนอกใดสามารถเพิ่มปริมาณ 'ผีเสื้อ' ที่สามารถสร้างได้ โดยเอฟเฟกต์ \"สร้างค่า จมดิ่ง เพิ่มเติม' จะมีผลกับค่าจมดิ่ง แทนที่จะเป็นการเพิ่มผีเสื้อ\n- เอฟเฟกต์นี้จะหมดลงเมื่อทั้ง 'ผู้คงอยู่' และ 'ผู้วายชนม์' ถึง 0 หน่วยทั้งคู่",
       "summary": ""
     },
     {
@@ -56,8 +56,8 @@
     },
     {
       "id": "BulletLament",
-      "name": "The Living & The Departed",
-      "desc": "- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills.\n- Whether The Living(Potency) or The Departed(Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo.",
+      "name": "ผู้คงอยู่ & ผู้วายชนม์",
+      "desc": "- กระสุน แบบพิเศษ\n- ผลรวมค่าและจำนวนจะสูงสุดที่ 20 หน่วย\n- ผลาญโดยบางสกิล\n- การผลาญค่า 'ผู้คงอยู่ (เลขซ้าย)' หรือจำนวน 'ผู้วายชนม์ (เลขขวา)' ที่ใช้ในการยิงแต่ละนัดนั้นจะถูกกำหนดแบบสุ่ม\n- บางการโจมตีจะถูกยกเลิกหากตัวละครนี้ขาดกระสุน",
       "summary": ""
     },
     {
@@ -86,8 +86,8 @@
     },
     {
       "id": "ReloadLament",
-      "name": "Reload",
-      "desc": "- Effect applied to The Living & The Departed(Unique Ammo)\n- Consume (30 - (The Living + The Departed))/2 SP. (rounded down)\n- Reset both The Living and The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly.'\n- On Reload, gain at least 1 of The Living and The Departed.",
+      "name": "รีโหลด",
+      "desc": "- เอฟเฟกต์ที่มีผลกับ ผู้คงอยู่ & ผู้วายชนม์ (กระสุนแบบพิเศษ)\n- ผลาญ SP (30 - (ผู้คงอยู่ + ผู้วายชนม์))/2 หน่วย (ปัดลง)\n- รีเซ็ตทั้ง 'ผู้คงอยู่' และ 'ผู้วายชนม์' ที่มีอยู่บนตัวให้เท่ากับ 0 หน่วย จากนั้นจะได้รับเอฟเฟกต์ดังกล่าวคืนมาเท่ากับผลรวมสูงสุด โดยอัตราการได้รับนั้นจะอิงตามที่ระบุไว้ในพาสซีพ 'กระผมเห็นผีเสื้อที่กำลังสิ้นใจ'\n- เมื่อ รีโหลด จะได้รับ 'ผู้คงอยู่' และ 'ผู้วายชนม์' ขั้นต่ำอย่างละ 1 หน่วย",
       "summary": ""
     }
   ]
