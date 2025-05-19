@@ -1,17 +1,17 @@
-{
+﻿{
   "dataList": [
     {
       "id": 1110501,
       "levelList": [
         {
           "level": 1,
-          "name": "Wait Up!",
-          "desc": "ได้รับ +3 Tremor Count หากสกิลนี้ถูกทิ้ง",
+          "name": "รอเดี๋ยว!",
+          "desc": "ได้รับจำนวนครั้ง [Vibration] +3 หน่วยหากสกิลนี้ถูกทิ้งจากมือ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ดันขีด Stagger ของผู้ใช้ลงตามจำนวน Tremor Count บนตัว (สูงสุด 10) "
+                  "desc": "[OnSucceedAttackHead] ลดเกจชะงักของผู้ใช้ลงตามทุก ๆ จำนวนครั้ง [Vibration] ที่มีอยู่บนตัว (สูงสุด 10) "
                 }
               ]
             }
@@ -19,13 +19,13 @@
         },
         {
           "level": 2,
-          "name": "Wait Up!",
-          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ได้รับ +2 Tremor Count\nหาก 6+ Tremor Count, ได้รับ Final Power +1",
+          "name": "รอเดี๋ยว!",
+          "desc": "ได้รับจำนวนครั้ง [Vibration] +4 หน่วยหากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะได้รับแต้มจบสกิล +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวน Tremor Count บนตัว (สูงสุด 10) "
+                  "desc": "[OnSucceedAttack] ลดเกจชะงักของผู้ใช้ลงตามทุก ๆ จำนวนครั้ง [Vibration] ที่มีอยู่บนตัว (สูงสุด 10)"
                 }
               ]
             }
@@ -33,13 +33,13 @@
         },
         {
           "level": 4,
-          "name": "Wait Up!",
-          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ +4 Tremor Count\n[WhenUse] ได้รับ +2 Tremor Count\nAt 6+ Tremor Count, ได้รับ Final Power +2",
+          "name": "รอเดี๋ยว!",
+          "desc": "ได้รับจำนวนครั้ง [Vibration] +4 หน่วยหากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะได้รับแต้มจบสกิล +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ดันขีด Stagger ของผู้ใช้ลงตามจำนวน Tremor Count บนตัว (สูงสุด 10) "
+                  "desc": "[OnSucceedAttack] ลดเกจชะงักของผู้ใช้ลงตามทุก ๆ จำนวนครั้ง [Vibration] ที่มีอยู่บนตัว (สูงสุด 10)"
                 }
               ]
             }
@@ -52,27 +52,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slice",
-          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "name": "ผ่า",
+          "desc": "[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี 6+ Tremor Count, ทำการ Tremor Burst. จากนั้นลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] หากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะทำให้เกิด [VibrationExplosion] จากนั้นลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -80,27 +80,27 @@
         },
         {
           "level": 2,
-          "name": "Slice",
-          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ 1 Offense Level Up\n[WhenUse] ทิ้งสกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "name": "ผ่า",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี 6+ Tremor Count, ทำการ Tremor Burst. จากนั้นลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] หากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะทำให้เกิด [VibrationExplosion] จากนั้นลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -108,27 +108,27 @@
         },
         {
           "level": 4,
-          "name": "Slice",
-          "desc": "หากสกิลนี้ถูกทิ้ง, ได้รับ 1 Offense Level Up\n[WhenUse] ทิ้งสกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "name": "ผ่า",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี 6+ Tremor Count, ทำการ Tremor Burst. จากนั้นลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] หากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะทำให้เกิด [VibrationExplosion] จากนั้นลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -141,37 +141,37 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Daring Decision",
-          "desc": "[WhenUse] ทิ้งสกิลของตัวละครนี้ตามลำดับเรียงจากมากไปน้อยจากทุกช่องสกิลของตัวละครนี้\nใช้ 10 Tremor Count เพื่อรับ Coin Power +1",
+          "name": "การตัดสินใจหาญกล้า",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากทุกช่องสกิลของตัวละครนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 4 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, มอบ +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้จำนวนครั้ง [Vibration] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttackHead] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttackHead] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttackHead] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -179,37 +179,37 @@
         },
         {
           "level": 4,
-          "name": "Daring Decision",
-          "desc": "[WhenUse] ทิ้งสกิลของตัวละครนี้ตามลำดับเรียงจากมากไปน้อยจากทุกช่องสกิลของตัวละครนี้\nใช้ 10 Tremor Count เพื่อรับ Coin Power +2",
+          "name": "การตัดสินใจหาญกล้า",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากทุกช่องสกิลของตัวละครนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 4 Tremor"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้ Tremor Count, มอบ +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] หากสกิลนี้ใช้จำนวนครั้ง [Vibration] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst; หลังจาก Tremor Burst, ลด Tremor Count ของเป้าหมายลง 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] โดยหลังจากเกิด [VibrationExplosion] แล้ว จะลดจำนวนครั้ง [Vibration] ของเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -222,16 +222,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hangover Cure",
-          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "name": "รักษาอาการเมาค้าง",
+          "desc": "[WhenUse] [Discard] สกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Hangover Cure",
-          "desc": "[WhenUse] ทิ้งสกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "name": "รักษาอาการเมาค้าง",
+          "desc": "[WhenUse] [Discard] สกิลที่มีลำดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
           "coinlist": [
             {}
           ]
