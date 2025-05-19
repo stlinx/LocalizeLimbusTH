@@ -11219,7 +11219,7 @@
         {
           "level": 4,
           "name": "วิเคราะห์คาดการณ์",
-          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้มตามทุก ๆ ค่า [Burst] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -11267,7 +11267,7 @@
         {
           "level": 2,
           "name": "ผ่าชำแหละเป้าหมาย",
-          "desc": "หากเป้าหมายมี 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1\n[WinDuel] มอบ +3 [Burst] Count",
+          "desc": "หากเป้าหมายมีค่า [Burst] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] สร้างจำนวนครั้ง [Burst] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -11289,7 +11289,7 @@
         {
           "level": 4,
           "name": "ผ่าชำแหละเป้าหมาย",
-          "desc": "Coin Power +1 ต่อทุกๆ 6 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WinDuel] มอบ +3 [Burst] Count",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -11316,7 +11316,7 @@
         {
           "level": 3,
           "name": "ซักทอดประวัติ",
-          "desc": "[WhenUse] ดาเมจ +10% ต่อทุกๆ 3 [Burst] บนตัวเป้าหมาย (สูงสุด 20%)",
+          "desc": "[WhenUse] ความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Burst] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -11328,14 +11328,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] หากเป้าหมาย Stagger หรือถูกจัดการ, ได้รับ 1 Haste, 1 Slash Power Up ในเทิร์นถัดไป"
+                  "desc": "[EndSkill] หากเป้าหมายติดชะงักหรือถูกจัดการ จะได้รับ [Agility] และ [SlashResultUp] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -11344,7 +11344,7 @@
         {
           "level": 4,
           "name": "ซักทอดประวัติ",
-          "desc": "[WhenUse] ดาเมจ +10% ต่อทุกๆ 3 [Burst] บนตัวเป้าหมาย (สูงสุด 50%)\n[WinDuel] มอบ +2 [Burst] Count",
+          "desc": "[WhenUse] ความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Burst] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 50%)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -11356,14 +11356,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] หากเป้าหมาย Stagger หรือถูกจัดการ, ได้รับ 1 Haste, 1 Slash Power Up ในเทิร์นถัดไป"
+                  "desc": "[EndSkill] หากเป้าหมายติดชะงักหรือถูกจัดการ จะได้รับ [Agility] และ [SlashResultUp] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -11376,8 +11376,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let's Wrap It Up",
-          "desc": "[WhenUse] ได้รับ 1 Haste ในเทิร์นถัดไป (3 ครั้งต่อเทิร์น)",
+          "name": "จบงานกันเถอะค่ะ",
+          "desc": "[WhenUse] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผล 3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {
               "coindescs": [
@@ -11390,8 +11390,8 @@
         },
         {
           "level": 4,
-          "name": "Let's Wrap It Up",
-          "desc": "[WhenUse] ได้รับ 1 Haste ในเทิร์นถัดไป (3 ครั้งต่อเทิร์น)",
+          "name": "จบงานกันเถอะค่ะ",
+          "desc": "[WhenUse] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผล 3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {
               "coindescs": [
