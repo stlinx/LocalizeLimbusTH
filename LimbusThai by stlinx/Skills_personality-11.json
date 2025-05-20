@@ -53,7 +53,7 @@
         {
           "level": 1,
           "name": "ผ่า",
-          "desc": "[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "desc": "[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -81,7 +81,7 @@
         {
           "level": 2,
           "name": "ผ่า",
-          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -109,7 +109,7 @@
         {
           "level": 4,
           "name": "ผ่า",
-          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้ ",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับ [AttackUp] 1 หน่วย\n[WhenUse] [Discard] สกิลที่มีลำดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
         {
           "level": 3,
           "name": "การตัดสินใจหาญกล้า",
-          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากทุกช่องสกิลของตัวละครนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +1 แต้ม",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "การตัดสินใจหาญกล้า",
-          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากทุกช่องสกิลของตัวละครนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nใช้จำนวนครั้ง [Vibration] 10 หน่วย เพื่อรับแต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -243,20 +243,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Marche",
-          "desc": "[WhenUse] ได้รับ 2 [Agility] ในเทิร์นถัดไป",
+          "name": "เท้าหน้ารุกคืบ",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             }
@@ -264,20 +264,20 @@
         },
         {
           "level": 2,
-          "name": "Marche",
-          "desc": "[WhenUse] ได้รับ 2 [Agility] ในเทิร์นถัดไป\n[WhenUse] ช่องสกิลนี้ได้รับ 1 Aggro ในเทิร์นถัดไป",
+          "name": "เท้าหน้ารุกคืบ",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             }
@@ -285,20 +285,20 @@
         },
         {
           "level": 4,
-          "name": "Marche",
-          "desc": "[WhenUse] ได้รับ 2 [Agility] ในเทิร์นถัดไป\n[WhenUse] ช่องสกิลนี้ได้รับ 3 Aggro ในเทิร์นถัดไป",
+          "name": "เท้าหน้ารุกคืบ",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             }
@@ -311,20 +311,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punition",
-          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
+          "name": "ลงทัณฑ์",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -332,20 +332,20 @@
         },
         {
           "level": 2,
-          "name": "Punition",
-          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู, Coin Power +1\n[WhenUse] ได้รับ +2 [Breath] Count\n[WhenUse] ช่องสกิลนี้ได้รับ 2 Aggro ในเทิร์นถัดไป",
+          "name": "ลงทัณฑ์",
+          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -353,20 +353,20 @@
         },
         {
           "level": 4,
-          "name": "Punition",
-          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู, Coin Power +2\n[WhenUse] ได้รับ +2 [Breath] Count\n[WhenUse] ช่องสกิลนี้ได้รับ 4 Aggro ในเทิร์นถัดไป",
+          "name": "ลงทัณฑ์",
+          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] 4 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -379,19 +379,19 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Balestra Fente",
-          "desc": "หากมี 7+ [Breath], Final Power +2\n[WinDuel] ได้รับ Poise ตามจำนวนการปะทะ (สูงสุด 10)",
+          "name": "เปลี่ยนวิถีการแทงดาบ",
+          "desc": "หากมีค่า [Breath] 7+ หน่วย แต้มจบสกิลจะเพิ่มขึ้น +2 แต้ม\n[WinDuel] ได้รับค่า [Breath] ตามจำนวนครั้งการแคลชสกิล (สูงสุด 10 หน่วย)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [DuelDeclaration_Outis]"
+                  "desc": "[OnSucceedAttack] สร้าง [DuelDeclaration_Outis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 Haste แก่พันธมิตรที่มีความเร็วช้าที่สุด 2 คนในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] มอบ [Agility] 1 หน่วยแก่พันธมิตรที่มีความเร็วช้าที่สุด 2 คนในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ดาเมจ +50% เมื่อคริ"
+                  "desc": "[CriticalOnSucceedAttack] ความเสียหายคริติคอลเพิ่มขึ้น +50%"
                 }
               ]
             }
@@ -399,19 +399,19 @@
         },
         {
           "level": 4,
-          "name": "Balestra Fente",
-          "desc": "หากมี 7+ [Breath], Final Power +4\n[WinDuel] ได้รับ Poise ตามจำนวนการปะทะ (สูงสุด 10)",
+          "name": "เปลี่ยนวิถีการแทงดาบ",
+          "desc": "หากมีค่า [Breath] 7+ หน่วย แต้มจบสกิลจะเพิ่มขึ้น +4 แต้ม\n[WinDuel] ได้รับค่า [Breath] ตามจำนวนครั้งการแคลชสกิล (สูงสุด 10 หน่วย)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [DuelDeclaration_Outis]"
+                  "desc": "[OnSucceedAttack] สร้าง [DuelDeclaration_Outis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 Haste แก่พันธมิตรที่มีความเร็วช้าที่สุด 2 คนในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] มอบ [Agility] 2 หน่วยแก่พันธมิตรที่มีความเร็วช้าที่สุด 2 คนในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ดาเมจ +70% เมื่อคริ"
+                  "desc": "[CriticalOnSucceedAttack] ความเสียหายคริติคอลเพิ่มขึ้น +70%"
                 }
               ]
             }
@@ -424,16 +424,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Retraite",
-          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู, Coin Power +1\n[OnSucceedEvade] ได้รับ 1 [Breath] (สูงสุด 5)",
+          "name": "ก้าวถอย",
+          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[OnSucceedEvade] ได้รับค่า [Breath] 1 หน่วย (สูงสุด 5 หน่วย)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Retraite",
-          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู, Coin Power +1 ต่อทุกๆ ความเร็วที่ต่างกัน (Coin Power +1 ต่อทุกๆ ความเร็วที่ต่างกัน 1 ; สูงสุด 3)\n[OnSucceedEvade] ได้รับ 1 [Breath] (สูงสุด 10)",
+          "name": "ก้าวถอย",
+          "desc": "หากความเร็วของตัวละครนี้มากกว่าของศัตรู แต้มเหรียญจะเพิ่มขึ้น +1 แต้มตามทุก ๆ ค่าความเร็วที่ต่างกัน (ทุก ๆ ค่าความเร็วที่ต่างกันจะทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม; สูงสุด 3 แต้ม)\n[OnSucceedEvade] ได้รับค่า [Breath] 1 หน่วย (สูงสุด 10 หน่วย)",
           "coinlist": [
             {}
           ]
@@ -445,20 +445,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ignition",
+          "name": "จุดไฟ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [DarkFlame] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [DarkFlame] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -466,20 +466,20 @@
         },
         {
           "level": 2,
-          "name": "Ignition",
-          "desc": "Coin Power +1 ต่อทุกๆ 3 [Combustion] บนเป้าหมาย (สูงสุด 2)",
+          "name": "จุดไฟ",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ 1 [DarkFlame] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [DarkFlame] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -487,20 +487,20 @@
         },
         {
           "level": 4,
-          "name": "Ignition",
-          "desc": "Coin Power +1 ต่อทุกๆ 3 [Combustion] บนเป้าหมาย (สูงสุด 3)",
+          "name": "จุดไฟ",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [DarkFlame] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [DarkFlame] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -513,20 +513,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Detonate Magic Bullet",
-          "desc": "หากเป้าหมายมี 6+ [Combustion], Coin Power +1",
+          "name": "สั่งจุดกระสุนอาคม",
+          "desc": "หากเป้าหมายมีค่า [Combustion] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4, ได้รับ 1 [FreischutzShotCount]; จากนั้น, มอบ [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4 หน่วย จะได้รับ 1 [FreischutzShotCount]; จากนั้นสร้าง [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -534,20 +534,20 @@
         },
         {
           "level": 2,
-          "name": "Detonate Magic Bullet",
-          "desc": "Coin Power +1 ต่อทุกๆ 6 [Combustion] บนเป้าหมาย (สูงสุด 2)",
+          "name": "สั่งจุดกระสุนอาคม",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4, ได้รับ 1 [FreischutzShotCount]; จากนั้น, มอบ [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4 หน่วย จะได้รับ 1 [FreischutzShotCount]; จากนั้นสร้าง [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -555,20 +555,20 @@
         },
         {
           "level": 4,
-          "name": "Detonate Magic Bullet",
-          "desc": "Coin Power +1 ต่อทุกๆ 6 [Combustion] บนเป้าหมาย (สูงสุด 3)",
+          "name": "สั่งจุดกระสุนอาคม",
+          "desc": "แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4, ได้รับ 1 [FreischutzShotCount]; จากนั้น, มอบ [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากมี [FreischutzShotCount] ต่ำกว่า 4 หน่วย จะได้รับ 1 [FreischutzShotCount]; จากนั้นสร้าง [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Combustion] เท่ากับจำนวน [DarkFlame] บนเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวน [DarkFlame] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -581,13 +581,13 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Magic Bullet Fire",
-          "desc": "ดาเมจ +0.5% ต่อทุกๆ [Combustion] บนเป้าหมาย (สูงสุด 15%)\n\n[BeforeAttack] ได้รับ 1 [FreischutzShotCount]\n- สูญเสีย (([FreischutzShotCount] -1)x5) SP\n- Atk Weight เท่ากับจำนวน [FreischutzShotCount]\n- หากมี 10 SP หรือต่ำกว่า,  มีโอกาส 50% ที่จะโจมตีไม่สนเป้าหมาย\n\n[EndSkill] หากมี 7 [FreischutzShotCount], ย้อนกลับเหลือ 0 (นับว่าใช้ Ammo นัดสุดท้าย)",
+          "name": "ยิงกระสุนอาคม",
+          "desc": "ความเสียหายเพิ่มขึ้น +0.5% ตามทุก ๆ ค่า [Combustion] บนเป้าหมาย (สูงสุด 15%)\n\n[BeforeAttack] ได้รับ [FreischutzShotCount] 1 หน่วย\n- สูญเสีย SP (([FreischutzShotCount] -1)x5) หน่วย\n- น้ำหนักการโจมตีจะเท่ากับจำนวน [FreischutzShotCount] ที่มี\n- หากมี SP 10 หน่วยหรือต่ำกว่า มีโอกาส 50% ที่จะโจมตีไม่เลือกหน้า\n\n[EndSkill] หากมี [FreischutzShotCount] อยู่ 7 หน่วย จะรีเซ็ตเหลือ 0 หน่วย (นับว่าใช้ [Bullet] นัดสุดท้าย)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ที่มีในเทิร์นถัดไป"
                 }
               ]
             }
@@ -595,13 +595,13 @@
         },
         {
           "level": 4,
-          "name": "Magic Bullet Fire",
-          "desc": "<style=\"highlight\">ดาเมจ +1% ต่อทุกๆ [Combustion] บนเป้าหมาย (สูงสุด 30%)</style>\n\n[BeforeAttack] ได้รับ 1 [FreischutzShotCount]\n- สูญเสีย (([FreischutzShotCount] -1)x5) SP\n- Atk Weight เท่ากับจำนวน [FreischutzShotCount]\n- หากมี 10 SP หรือต่ำกว่า,  มีโอกาส 50% ที่จะโจมตีไม่สนเป้าหมาย\n\n[EndSkill] หากมี 7 [FreischutzShotCount], ย้อนกลับเหลือ 0 (นับว่าใช้ Ammo นัดสุดท้าย)",
+          "name": "ยิงกระสุนอาคม",
+          "desc": "ความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Combustion] บนเป้าหมาย (สูงสุด 30%)\n\n[BeforeAttack] ได้รับ [FreischutzShotCount] 1 หน่วย\n- สูญเสีย SP (([FreischutzShotCount] -1)x5) หน่วย\n- น้ำหนักการโจมตีจะเท่ากับจำนวน [FreischutzShotCount] ที่มี\n- หากมี SP 10 หน่วยหรือต่ำกว่า มีโอกาส 50% ที่จะโจมตีไม่เลือกหน้า\n\n[EndSkill] หากมี [FreischutzShotCount] อยู่ 7 หน่วย จะรีเซ็ตเหลือ 0 หน่วย (นับว่าใช้ [Bullet] นัดสุดท้าย)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [DarkFlame] เท่ากับจำนวน [FreischutzShotCount] ที่มีในเทิร์นถัดไป"
                 }
               ]
             }
@@ -614,16 +614,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Price of a Bullet",
-          "desc": "[WhenUse] ได้รับ 1 [FreischutzShotCount] (เทิร์นละครั้ง)\n[EndSkillAll] เสีย SP เท่ากับจำนวน [FreischutzShotCount]",
+          "name": "ราคากระสุนที่ต้องจ่าย",
+          "desc": "[WhenUse] ได้รับ [FreischutzShotCount] 1 หน่วย (มีผลเทิร์นละครั้ง)\n[EndSkillAll] เสีย SP เท่ากับจำนวน [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "The Price of a Bullet",
-          "desc": "[WhenUse] ได้รับ 1 [FreischutzShotCount] (เทิร์นละครั้ง)\n[WhenUse] ได้รับ Final Power เท่ากับจำนวน ([FreischutzShotCount] x2)\n[EndSkillAll] เสีย SP เท่ากับจำนวน [FreischutzShotCount]",
+          "name": "ราคากระสุนที่ต้องจ่าย",
+          "desc": "[WhenUse] ได้รับ [FreischutzShotCount] 1 หน่วย (มีผลเทิร์นละครั้ง)\n[WhenUse] ได้รับแต้มจบสกิลเท่ากับ ([FreischutzShotCount] x2)\n[EndSkillAll] เสีย SP เท่ากับจำนวน [FreischutzShotCount]",
           "coinlist": [
             {}
           ]
