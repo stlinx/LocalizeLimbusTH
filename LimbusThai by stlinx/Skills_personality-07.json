@@ -865,13 +865,13 @@
         {
           "level": 3,
           "name": "ดูลลาฮาน...!",
-          "desc": "[DuelCounter]\n[BeforeUse] หากตัวละครนี้มี [NightPathfinding] และมี SP 15+ หน่วย จะใช้สกิล 'โศกา อาลัย ไร้หวัง' เป็นสกิลสวนกลับแทน (มีผลเทิร์นละครั้ง)\n[StartBattle] หากตัวละครนี้ไม่มี [NightPathfinding] จะได้รับ [NightPathfinding] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n<style=\"highlight\">[WhenUse] If target has 6+ [Sinking], Coin Power +1</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] หากตัวละครนี้มี [NightPathfinding] และมี SP 15+ หน่วย จะใช้สกิล 'โศกา อาลัย ไร้หวัง' เป็นสกิลสวนกลับแทน (มีผลเทิร์นละครั้ง)\n[StartBattle] หากตัวละครนี้ไม่มี [NightPathfinding] จะได้รับ [NightPathfinding] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n[WhenUse] หากเป้าหมายมีค่า [Sinking] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[EndBattle] หากตัวละครนี้มี [NightPathfinding] จะเสีย [NightPathfinding]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
@@ -880,13 +880,13 @@
         {
           "level": 4,
           "name": "ดูลลาฮาน...!",
-          "desc": "[DuelCounter]\n[BeforeUse] If this unit has [NightPathfinding] and has 15+ SP, use Lament, Mourn, and Despair as Counter (once per turn)\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 3 [Sinking] on target (max 2)</style>\n<style=\"highlight\">[WinDuel] Gain [AttackUp] next turn equal to (# of Clashes/3) (max 3, once per turn)</style>\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+          "desc": "[DuelCounter]\n[BeforeUse] หากตัวละครนี้มี [NightPathfinding] และมี SP 15+ หน่วย จะใช้สกิล 'โศกา อาลัย ไร้หวัง' เป็นสกิลสวนกลับแทน (มีผลเทิร์นละครั้ง)\n[StartBattle] หากตัวละครนี้ไม่มี [NightPathfinding] จะได้รับ [NightPathfinding] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับ [AttackUp] ในเทิร์นถัดไปเท่ากับ (จำนวนครั้งการแคลชสกิล/3) หน่วย (สูงสุด 3 หน่วย มีผลเทิร์นละครั้ง)\n[EndBattle] หากตัวละครนี้มี [NightPathfinding] จะเสีย [NightPathfinding]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] <style=\"highlight\">and +1 [Sinking] Count</style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย และจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             }
@@ -900,28 +900,28 @@
         {
           "level": 3,
           "name": "โศกา อาลัย ไร้หวัง",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal 1 additional SP for every missing SP; max 25)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] เสีย SP 15 หน่วย\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ยิ่ง SP ของตัวละครนี้ไกลจาก 45 หน่วยมากเท่าไร ความเสียหายก็จะเพิ่มขึ้นมากเท่านั้น (ความเสียหายเพิ่มขึ้น +0.3% ตามทุก ๆ SP ที่หายไป; สูงสุด 21%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +7% ตามทุก ๆ [Coffin] ที่ตนเองมี (สูงสุด 70%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [NightPathfinding] ที่ตนเองมี (สูงสุด 30%)\n[WhenUse] ได้รับ [Coffin] 1 หน่วย\n[EndSkill] หากการโจมตีนี้สังหารเป้าหมายได้ จะได้รับ [Coffin] 2 หน่วย\n[EndSkill] เมื่อมี SP ต่ำกว่า 0 หน่วย จะฟื้นฟู SP 10 หน่วย; และเมื่อมี SP ต่ำกว่า 0 หน่วย ยิ่ง SP ของตัวละครนี้น้อยกว่า 0 หน่วยมากเท่าไร จะยิ่งฟื้นฟู SP มากขึ้นเท่านั้น (ฟื้นฟู SP เพิ่มเติม 1 หน่วย ตามทุก ๆ SP ที่หายไป; สูงสุด 25 หน่วย)\n[EndBattle] สูญเสีย [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 20% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 20% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [Sinking] on target (max 15)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุโศกาเท่ากับค่า [Sinking] บนตัวเป้าหมาย (สูงสุด 15 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Inflict ([Sinking] on killed target/3) Sinking on 2 random enemies (max 4)"
+                  "desc": "[EnemyKill] สร้างค่า [Sinking] (ค่า [Sinking] บนตัวศัตรูที่ถูกกำจัด/3) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 4 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] ฟื้นฟู SP 15 หน่วย"
                 }
               ]
             }
@@ -930,28 +930,28 @@
         {
           "level": 4,
           "name": "โศกา อาลัย ไร้หวัง",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal <style=\"highlight\">2</style> additional SP for every missing SP; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] เสีย SP 15 หน่วย\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)\n[WhenUse] ยิ่ง SP ของตัวละครนี้ไกลจาก 45 หน่วยมากเท่าไร ความเสียหายก็จะเพิ่มขึ้นมากเท่านั้น (ความเสียหายเพิ่มขึ้น +0.3% ตามทุก ๆ SP ที่หายไป; สูงสุด 21%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [Coffin] ที่ตนเองมี (สูงสุด 100%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ [NightPathfinding] ที่ตนเองมี (สูงสุด 60%)\n[WhenUse] ได้รับ [Coffin] 2 หน่วย\n[EndSkill] หากการโจมตีนี้สังหารเป้าหมายได้ จะได้รับ [Coffin] 3 หน่วย\n[EndSkill] เมื่อมี SP ต่ำกว่า 0 หน่วย จะฟื้นฟู SP 10 หน่วย; และเมื่อมี SP ต่ำกว่า 0 หน่วย ยิ่ง SP ของตัวละครนี้น้อยกว่า 0 หน่วยมากเท่าไร จะยิ่งฟื้นฟู SP มากขึ้นเท่านั้น (ฟื้นฟู SP เพิ่มเติม 2 หน่วย ตามทุก ๆ SP ที่หายไป; สูงสุด 50 หน่วย)\n[EndBattle] สูญเสีย [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">5</style> [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 5 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">30</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 30% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [Sinking] on target (max <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุโศกาเท่ากับค่า [Sinking] บนตัวเป้าหมาย (สูงสุด 30 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Inflict ([Sinking] on killed target/<style=\"highlight\">2</style>) Sinking on 2 random enemies (max <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] สร้างค่า [Sinking] (ค่า [Sinking] บนตัวศัตรูที่ถูกกำจัด/2) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 8 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] ฟื้นฟู SP 15 หน่วย"
                 }
               ]
             }
@@ -965,28 +965,28 @@
         {
           "level": 3,
           "name": "โศกา อาลัย ไร้หวัง",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max 2)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +7% damage for every Coffin on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [Coffin]\n[EndSkill] If this Skill attack kills the target, gain 2 [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal 1 additional SP for every missing SP; max 25)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] เสีย SP 15 หน่วย\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ยิ่ง SP ของตัวละครนี้ไกลจาก 45 หน่วยมากเท่าไร ความเสียหายก็จะเพิ่มขึ้นมากเท่านั้น (ความเสียหายเพิ่มขึ้น +0.3% ตามทุก ๆ SP ที่หายไป; สูงสุด 21%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +7% ตามทุก ๆ [Coffin] ที่ตนเองมี (สูงสุด 70%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [NightPathfinding] ที่ตนเองมี (สูงสุด 30%)\n[WhenUse] ได้รับ [Coffin] 1 หน่วย\n[EndSkill] หากการโจมตีนี้สังหารเป้าหมายได้ จะได้รับ [Coffin] 2 หน่วย\n[EndSkill] เมื่อมี SP ต่ำกว่า 0 หน่วย จะฟื้นฟู SP 10 หน่วย; และเมื่อมี SP ต่ำกว่า 0 หน่วย ยิ่ง SP ของตัวละครนี้น้อยกว่า 0 หน่วยมากเท่าไร จะยิ่งฟื้นฟู SP มากขึ้นเท่านั้น (ฟื้นฟู SP เพิ่มเติม 1 หน่วย ตามทุก ๆ SP ที่หายไป; สูงสุด 25 หน่วย)\n[EndBattle] สูญเสีย [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 20% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 20% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [Sinking] on target (max 15)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุโศกาเท่ากับค่า [Sinking] บนตัวเป้าหมาย (สูงสุด 15 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Inflict ([Sinking] on killed target/3) Sinking on 2 random enemies (max 4)"
+                  "desc": "[EnemyKill] สร้างค่า [Sinking] (ค่า [Sinking] บนตัวศัตรูที่ถูกกำจัด/3) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 4 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] ฟื้นฟู SP 15 หน่วย"
                 }
               ]
             }
@@ -995,28 +995,28 @@
         {
           "level": 4,
           "name": "โศกา อาลัย ไร้หวัง",
-          "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [Sinking] on target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10</style>% damage for every Coffin on self (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +<style=\"highlight\">20</style>% damage for every [NightPathfinding] on self (max <style=\"highlight\">60</style>%)\n[WhenUse] Gain <style=\"highlight\">2</style> [Coffin]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3</style> [Coffin]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal <style=\"highlight\">2</style> additional SP for every missing SP; max <style=\"highlight\">50</style>)\n[EndBattle] Lose [NightPathfinding]",
+          "desc": "[WhenUse] เสีย SP 15 หน่วย\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)\n[WhenUse] ยิ่ง SP ของตัวละครนี้ไกลจาก 45 หน่วยมากเท่าไร ความเสียหายก็จะเพิ่มขึ้นมากเท่านั้น (ความเสียหายเพิ่มขึ้น +0.3% ตามทุก ๆ SP ที่หายไป; สูงสุด 21%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [Coffin] ที่ตนเองมี (สูงสุด 100%)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ [NightPathfinding] ที่ตนเองมี (สูงสุด 60%)\n[WhenUse] ได้รับ [Coffin] 2 หน่วย\n[EndSkill] หากการโจมตีนี้สังหารเป้าหมายได้ จะได้รับ [Coffin] 3 หน่วย\n[EndSkill] เมื่อมี SP ต่ำกว่า 0 หน่วย จะฟื้นฟู SP 10 หน่วย; และเมื่อมี SP ต่ำกว่า 0 หน่วย ยิ่ง SP ของตัวละครนี้น้อยกว่า 0 หน่วยมากเท่าไร จะยิ่งฟื้นฟู SP มากขึ้นเท่านั้น (ฟื้นฟู SP เพิ่มเติม 2 หน่วย ตามทุก ๆ SP ที่หายไป; สูงสุด 50 หน่วย)\n[EndBattle] สูญเสีย [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">5</style> [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 5 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">30</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 30% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [Sinking] on target (max <style=\"highlight\">30</style>)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุโศกาเท่ากับค่า [Sinking] บนตัวเป้าหมาย (สูงสุด 30 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Inflict ([Sinking] on killed target/<style=\"highlight\">2</style>) Sinking on 2 random enemies (max <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] สร้างค่า [Sinking] (ค่า [Sinking] บนตัวศัตรูที่ถูกกำจัด/2) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 8 หน่วย)"
                 },
                 {
-                  "desc": "[EnemyKill] Heal 15 SP"
+                  "desc": "[EnemyKill] ฟื้นฟู SP 15 หน่วย"
                 }
               ]
             }
