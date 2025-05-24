@@ -711,13 +711,13 @@
         {
           "level": 1,
           "name": "อุทิศตนใฝ่เล่าเรียน",
-          "desc": "ได้รับโล่ ([KnowledgeExplored] x 3% ของ Max HP)หากสกิลนี้ถูกทิ้ง\n[WhenUse] [Discard] 1 สกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 3% ของเลือดสูงสุด) หน่วย หากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] [Discard] 1 สกิลที่มีระดับสกิลสูงที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -726,13 +726,13 @@
         {
           "level": 2,
           "name": "อุทิศตนใฝ่เล่าเรียน",
-          "desc": "ได้รับโล่ ([KnowledgeExplored] x <style=\"highlight\">4%</style> ของ Max HP)หากสกิลนี้ถูกทิ้ง\n[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n<style=\"highlight\">[WhenUse] หากมี 2+ [KnowledgeExplored], Clash Power +1\n[WinDuel] ได้รับโล่ 2 [KnowledgeTraining] (เทิร์นละครั้ง)</style>",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 4% ของเลือดสูงสุด) หน่วย หากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] [Discard] 1 สกิลที่มีระดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้\n[WhenUse] หากมี [KnowledgeExplored] 2+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับ [KnowledgeTraining] 2 หน่วย (มีผลเทิร์นละครั้ง)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ +2 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -741,13 +741,13 @@
         {
           "level": 4,
           "name": "อุทิศตนใฝ่เล่าเรียน",
-          "desc": "ได้รับโล่ ([KnowledgeExplored] x <style=\"highlight\">5%</style> ของ Max HP)หากสกิลนี้ถูกทิ้ง\n[WhenUse] [Discard] 1 สกิลที่มีระดับต่ำที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n<style=\"highlight\">[WhenUse] ได้รับโล่ ([KnowledgeExplored] - 1) Clash Power (สูงสุด 2)</style>\n[WinDuel] ได้รับโล่ 2 [KnowledgeTraining] (เทิร์นละครั้ง)",
+          "desc": "ได้รับโล่ ([KnowledgeExplored] x 5% ของเลือดสูงสุด) หน่วย หากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] [Discard] 1 สกิลที่มีระดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้\n[WhenUse] ได้รับแต้มแคลชสกิล ([KnowledgeExplored] - 1) แต้ม (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับ [KnowledgeTraining] 2 หน่วย (มีผลเทิร์นละครั้ง)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -761,13 +761,13 @@
         {
           "level": 1,
           "name": "ช่วงเวลาแห่งปัญญา",
-          "desc": "[StartBattle] ได้รับโล่ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] บนตัว\n[WhenUse] [Discard] 2 สกิลตามลำดับเรียงจากมากไปน้อยจากทุกช่องสกิลของตัวละครนี้",
+          "desc": "[StartBattle] ได้รับ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] ที่ตนเองมี\n[WhenUse] [Discard] 2 สกิลที่มีระดับสกิลจากต่ำสุดไปสูงสุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Sinking] เท่ากับจำนวน [KnowledgeExplored]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] เท่ากับจำนวน [KnowledgeExplored]"
                 }
               ]
             }
@@ -776,13 +776,13 @@
         {
           "level": 2,
           "name": "ช่วงเวลาแห่งปัญญา",
-          "desc": "<style=\"highlight\">ดาเมจ +3% ต่อทุกๆ [KnowledgeExplored] บนตัว (สูงสุด 9%)</style>\n[StartBattle] มอบ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] บนตัว <style=\"highlight\"> แก่พันธมิตรแบบสุ่ม</style> และตัวเอง <style=\"highlight\">(เล็งที่พันธมิตรที่มี [Discard] ที่มีค่า [KnowledgeTraining] ต่ำที่สุด)</style>\n[WhenUse] [Discard] 2 สกิลตามลำดับเรียงจากมากไปน้อยจากทุกช่องสกิลของตัวละครนี้\n<style=\"highlight\">[WhenUse] หากเป้าหมายมี 6+ [Sinking], Coin Power +1</style>",
+          "desc": "ความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ [KnowledgeExplored] ที่ตนเองมี (สูงสุด 9%)\n[StartBattle] มอบ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] ที่ตนเองมีให้แก่พันธมิตรแบบสุ่มและตัวเอง (ให้ความสำคัญกับพันธมิตรที่มีสกิล [Discard] และมีค่า [KnowledgeTraining] ต่ำที่สุดก่อน)\n[WhenUse] [Discard] 2 สกิลที่มีระดับสกิลจากต่ำสุดไปสูงสุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้\n[WhenUse] หากเป้าหมายมีค่า [Sinking] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Sinking] เท่ากับจำนวน [KnowledgeExplored]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] เท่ากับจำนวน [KnowledgeExplored]"
                 }
               ]
             }
@@ -791,13 +791,13 @@
         {
           "level": 4,
           "name": "ช่วงเวลาแห่งปัญญา",
-          "desc": "ดาเมจ <style=\"highlight\">+5%</style> ต่อทุกๆ [KnowledgeExplored] บนตัว (สูงสุด <style=\"highlight\">15%</style>)\n[StartBattle] มอบ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] บนตัว <style=\"highlight\">แก่พันธมิตร 2 คนแบบสุ่ม</style> และตัวเอง (เล็งที่พันธมิตรที่มี [Discard] ที่มีค่า [KnowledgeTraining] ต่ำที่สุด)\n[WhenUse] [Discard] 2 สกิลตามลำดับเรียงจากมากไปน้อยจากทุกช่องสกิลของตัวละครนี้\n<style=\"highlight\">[WhenUse] Coin Power +1 ต่อทุกๆ 6 [Sinking] บนตัวเป้าหมาย (สูงสุด 2)</style>",
+          "desc": "ความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ [KnowledgeExplored] ที่ตนเองมี (สูงสุด 15%)\n[StartBattle] มอบ [KnowledgeTraining] เท่ากับจำนวน [KnowledgeExplored] ที่ตนเองมีให้แก่พันธมิตร 2 คนแบบสุ่มและตัวเอง (ให้ความสำคัญกับพันธมิตรที่มีสกิล [Discard] และมีค่า [KnowledgeTraining] ต่ำที่สุดก่อน)\n[WhenUse] [Discard] 2 สกิลที่มีระดับสกิลจากต่ำสุดไปสูงสุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Sinking] เท่ากับจำนวน <style=\"highlight\">([KnowledgeExplored] x 2)</style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] เท่ากับ ([KnowledgeExplored] x 2) หน่วย"
                 }
               ]
             }
@@ -811,14 +811,14 @@
         {
           "level": 3,
           "name": "ความรู้อันมอดไหม้",
-          "desc": "ดาเมจ +3% ต่อทุกๆ [KnowledgeExplored] บนตัว (สูงสุด 18%)\n[WhenUse] หากเป้าหมายมี 6+ [Sinking], Coin Power +1\n[BeforeAttack] ใช้ [KnowledgeTraining] ทั้งหมดบนตัวและรับ [KnowledgeExplored] ครึ่งหนึ่งของค่าที่เสียไป(ปัดเศษลง)\n[EndSkill] หากมี 4+ [KnowledgeExplored], รีเซ็ตค่าเป็น 1 (หากสกิลนี้จัดการศัตรูได้, รีเซ็ตค่าเป็น 3 แทน)",
+          "desc": "ความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ [KnowledgeExplored] ที่ตนเองมี (สูงสุด 18%)\n[WhenUse] หากเป้าหมายมีค่า [Sinking] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] ผลาญ [KnowledgeTraining] ทั้งหมดที่ตนเองมี และจะได้รับ [KnowledgeExplored] เพิ่มเติมเท่ากับครึ่งหนึ่งของปริมาณที่ผลาญไป (ปัดเศษลง)\n[EndSkill] หากมี [KnowledgeExplored] 4+ หน่วย รีเซ็ตปริมาณเป็น 1 หน่วย (หากสกิลนี้จัดการศัตรูได้ จะรีเซ็ตปริมาณเป็น 3 หน่วยแทน)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Sinking] Potency/Count เท่ากับจำนวน [KnowledgeExplored] แก่เป้าหมาย (จำนวนของ [Sinking] Potency หรือ Count ที่มอบจะสุ่ม)"
+                  "desc": "[OnSucceedAttack] สร้างค่าหรือจำนวนครั้ง [Sinking] เท่ากับปริมาณ [KnowledgeExplored] แก่เป้าหมาย (การจะเป็นค่าหรือจำนวนครั้ง [Sinking] นั้นจะถูกกำหนดแบบสุ่ม)"
                 }
               ]
             }
@@ -827,14 +827,14 @@
         {
           "level": 4,
           "name": "ความรู้อันมอดไหม้",
-          "desc": "ดาเมจ <style=\"highlight\">+5%</style> ต่อทุกๆ [KnowledgeExplored] (สูงสุด <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Coin Power +1 ต่อทุกๆ 6 [Sinking] บนตัวเป้าหมาย (สูงสุด 2)</style>\n[BeforeAttack] ใช้ [KnowledgeTraining] ทั้งหมดบนตัวและรับ [KnowledgeExplored]<style=\"highlight\"> เท่ากับจำนวนที่เสียไป</style>\n[EndSkill] หากมี 4+ [KnowledgeExplored], รีเซ็ตค่าเป็น 1 (หากสกิลนี้จัดการศัตรูได้, รีเซ็ตค่าเป็น 3 แทน)",
+          "desc": "ความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ [KnowledgeExplored] ที่ตนเองมี (สูงสุด 45%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[BeforeAttack] ผลาญ [KnowledgeTraining] ทั้งหมดที่ตนเองมี และจะได้รับ [KnowledgeExplored] เพิ่มเติมเท่ากับปริมาณที่ผลาญไป\n[EndSkill] หากมี [KnowledgeExplored] 4+ หน่วย รีเซ็ตปริมาณเป็น 1 หน่วย (หากสกิลนี้จัดการศัตรูได้ จะรีเซ็ตปริมาณเป็น 3 หน่วยแทน)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ [Sinking] Potency/Count เท่ากับจำนวน [KnowledgeExplored] แก่เป้าหมาย (จำนวนของ [Sinking] Potency หรือ Count ที่มอบจะสุ่ม)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่าหรือจำนวนครั้ง [Sinking] เท่ากับปริมาณ [KnowledgeExplored] แก่เป้าหมาย (การจะเป็นค่าหรือจำนวนครั้ง [Sinking] นั้นจะถูกกำหนดแบบสุ่ม)"
                 }
               ]
             }
@@ -848,7 +848,7 @@
         {
           "level": 1,
           "name": "ยึดมั่นใฝ่ศึกษา",
-          "desc": "[WhenUse] [Discard] 1 สกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้",
+          "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับสกิลสูงที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -862,7 +862,7 @@
         {
           "level": 4,
           "name": "ยึดมั่นใฝ่ศึกษา",
-          "desc": "[WhenUse] [Discard] 1 สกิลที่มีลำดับสูงที่สุดในช่องสกิลทั้งหมดของตัวละครนี้\n<style=\"highlight\">[WhenUse] ได้รับโล่ +6 Aggro แก่ช่องสกิลนี้ในเทิร์นถัดไป</style>",
+          "desc": "[WhenUse] [Discard] 1 สกิลที่มีระดับสกิลสูงที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้\n[WhenUse] ได้รับ [Aggro] +6 หน่วยแก่ช่องสกิลนี้ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
