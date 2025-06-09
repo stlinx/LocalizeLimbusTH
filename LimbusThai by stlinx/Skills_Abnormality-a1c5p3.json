@@ -1,24 +1,24 @@
-{
+﻿{
   "dataList": [
     {
       "id": 810001,
       "levelList": [
         {
           "level": 1,
-          "name": "All Shall Scatter",
-          "desc": "Prioritizes enemies with Marked",
+          "name": "ทุกสิ่งจักกระจายจากกัน",
+          "desc": "ให้ความสำคัญกับศัตรูที่มี [AaCePcBa] ก่อน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal SP damage by the number of lit Candles"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP เท่ากับจำนวนเทียนที่จุดแล้ว"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal SP damage by the number of lit Candles"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP เท่ากับจำนวนเทียนที่จุดแล้ว"
                 }
               ]
             }
@@ -31,26 +31,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Longing...",
-          "desc": "Prioritizes enemies with Marked",
+          "name": "เฝ้ารอ...",
+          "desc": "ให้ความสำคัญกับศัตรูที่มี [AaCePcBa] ก่อน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Wrath Fragility next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [CrimsonTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Combustion], inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Combustion] จะสร้างค่า [Combustion] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Wrath Fragility next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [CrimsonTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Combustion], inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Combustion] จะสร้างค่า [Combustion] 4 หน่วย"
                 }
               ]
             }
@@ -64,25 +64,25 @@
         {
           "level": 1,
           "name": "9:2",
-          "desc": "Snuffs out all Candles next turn.\nUpon hitting targets with [AaCePcBa], target loses additional 5% of its max HP.\n[DefeatDuel] Inflict 10 Burn. Inflict target with Marked next turn.\n[EndBattle] All Candles heal to max HP.",
+          "desc": "ดับเทียนทั้งหมดในเทิร์นถัดไป\nเมื่อโจมตีถูกเป้าหมายที่มี [AaCePcBa] จะทำห้เป้าหมายเสียเลือดเพิ่มเติม 5% ของเลือดสูงสุดเป้าหมาย\n[DefeatDuel] สร้าง [Combustion] 10 หน่วย จะสร้าง [AaCePcBa] แก่เป้าหมายในเทิร์นถัดไป\n[EndBattle] เทียนทั้งหมดฟื้นฟูเลือดถึงจำนวนสูงสุด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] เลือดสูงสุดของเป้าหมายลดลง 10%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Burn and +2 Burn Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 5 หน่วย และจำนวนครั้ง [Combustion] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] เลือดสูงสุดของเป้าหมายลดลง 10%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Burn and +2 Burn Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 5 หน่วย และจำนวนครั้ง [Combustion] +2 หน่วย"
                 }
               ]
             }
@@ -96,25 +96,25 @@
         {
           "level": 1,
           "name": "6:5",
-          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered next turn.\nInflict Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to max HP",
+          "desc": "[CantDuel][CantChangeTarget]\nรับความเสียหายแทนที่เป้าหมาย และติดชะงักในเทิร์นถัดไป\nสร้าง [AaCePcBa] แก่ศัตรู 1 ตัวที่ไม่มี [AaCePcBa] แบบสุ่ม\n[EndBattle] เทียนทั้งหมดฟื้นฟูเลือดถึงจำนวนสูงสุด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] เลือดสูงสุดของตัวละครนี้ลดลง 10%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
+                  "desc": "[OnSucceedAttack] ตนเองได้รับค่า [Combustion] 10 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 10%."
+                  "desc": "[OnSucceedAttack] เลือดสูงสุดของตัวละครนี้ลดลง 10%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Burn on self"
+                  "desc": "[OnSucceedAttack] ตนเองได้รับค่า [Combustion] 10 หน่วย"
                 }
               ]
             }
@@ -127,13 +127,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "All Shall be Revealed",
+          "name": "ทุกสิ่งจักถูกเปิดเผย",
           "desc": "[CantDuel]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Wrath Fragility"
+                  "desc": "[OnSucceedAttack] สร้าง [CrimsonTakeDamageUp] 1 หน่วย"
                 }
               ]
             }
@@ -146,13 +146,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "All Shall Burn",
+          "name": "ทุกสิ่งจักถูกมอดไหม้",
           "desc": "[CantDuel]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Combustion], inflict 3 Burn."
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Combustion] จะสร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             }
@@ -165,13 +165,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sparked Flame",
-          "desc": "Prioritizes targets with [AaCePcBa]",
+          "name": "เพลิงประกาย",
+          "desc": "ให้ความสำคัญกับศัตรูที่มี [AaCePcBa] ก่อน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 Burn and +2 Burn Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 6 หน่วย และจำนวนครั้ง [Combustion] +2 หน่วย"
                 }
               ]
             }
@@ -184,13 +184,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "So That It Will Burn",
-          "desc": "[StartBattle] Gain 20 Shield\nSnuff out the lights next turn when out of Shield",
+          "name": "เพื่อที่มันจะได้ถูกแผดเผา",
+          "desc": "[StartBattle] ได้รับโล่ 20 หน่วย\nดับแสงทั้งหมดในเทิร์นถัดไปหากไม่มีโล่",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Burn and +1 Burn Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
                 }
               ]
             }
@@ -203,20 +203,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Toxic Fluid",
-          "desc": "[StartBattle] Consume 1 Green Slime",
+          "name": "ของไหลเป็นพิษ",
+          "desc": "[StartBattle] ผลาญ [AaCePcBh] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Poison"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Poison"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             }
@@ -229,26 +229,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Corrosive Fluid",
-          "desc": "[StartBattle] Consume 1 Green Slime",
+          "name": "ของไหลกัดกร่อน",
+          "desc": "[StartBattle] ผลาญ [AaCePcBh] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Defense Level Down by [Poison] on target"
+                  "desc": "[OnSucceedAttack] สร้าง [DefenseDown] เท่ากับจำนวน [Poison] บนตัวเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Larva"
+                  "desc": "[OnSucceedAttack] สร้าง [AaCePcBg] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Defense Level Down by [Poison] on target"
+                  "desc": "[OnSucceedAttack] สร้าง [DefenseDown] เท่ากับจำนวน [Poison] บนตัวเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Larva"
+                  "desc": "[OnSucceedAttack] สร้าง [AaCePcBg] 1 หน่วย"
                 }
               ]
             }
@@ -261,26 +261,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Paralytic Fluid",
-          "desc": "[StartBattle] Consume 1 Green Slime",
+          "name": "ของไหลฤทธิ์อัมพาต",
+          "desc": "[StartBattle] ผลาญ [AaCePcBh] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Poison], inflict 1 Paralyze"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Poison] จะสร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Larva"
+                  "desc": "[OnSucceedAttack] สร้าง [AaCePcBg] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has [Poison], inflict 1 Paralyze"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Poison] จะสร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Larva"
+                  "desc": "[OnSucceedAttack] สร้าง [AaCePcBg] 2 หน่วย"
                 }
               ]
             }
@@ -293,26 +293,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Devouring Fluid",
-          "desc": "[StartBattle] Consume 2 Green Slime\n[WhenUse] Inflict 3 Larva",
+          "name": "ของไหลกลืนกิน",
+          "desc": "[StartBattle] ผลาญ [AaCePcBh] 2 หน่วย\n[WhenUse] สร้าง [AaCePcBg] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Poison"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Poison"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -325,22 +325,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Effervescent Green Slime",
-          "desc": "[StartBattle] Gain Atk Weight by [AaCePcBh]\n[StartBattle] Gain 10 [AaCePcBh]",
+          "name": "เมือกเขียวฟองฟ่อง",
+          "desc": "[StartBattle] ได้รับน้ำหนักการโจมตีเพิ่มขึ้นตาม [AaCePcBh]\n[StartBattle] ได้รับ [AaCePcBh] 10หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Poison"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 10 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 7 SP"
+                  "desc": "[OnSucceedAttack] ทำให้เสีย SP 7 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Larva"
+                  "desc": "[OnSucceedAttack] สร้าง [AaCePcBg] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze and 3 Defense Level Down next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] 1 หน่วย และ [DefenseDown] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -353,13 +353,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Predation",
-          "desc": "[CantDuel][CantChangeTarget]\nTargets Green Slime primarily\nDefeats Green Slime upon attacking",
+          "name": "ออกล่า",
+          "desc": "[CantDuel][CantChangeTarget]\nเล็ง 'เมือกเขียว' เป็นหลัก\nเมื่อโจมตี 'เมือกเขียว' จะกำจัดมันทิ้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TargetKill] Gain 3 [AaCePcBh]."
+                  "desc": "[TargetKill] ได้รับ [AaCePcBh] 3 หน่วย"
                 }
               ]
             }
@@ -372,8 +372,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overflowing Poison",
-          "desc": "[OnSucceedEvade] Inflict 5 Poison",
+          "name": "พิษล้นเอ่อ",
+          "desc": "[OnSucceedEvade] สร้าง [Poison] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -391,7 +391,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Headbutt",
+          "name": "หัวโหม่ง",
           "desc": "",
           "coinlist": [
             {
