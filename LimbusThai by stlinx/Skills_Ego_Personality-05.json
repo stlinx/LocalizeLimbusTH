@@ -7,15 +7,15 @@
           "level": 1,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "desc": "[BeforeAttack] สุ่มล้างสถานะผิดปกติบนตัวเอง 1 ประเภทที่สามารถล้างได้",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย และสร้างจำนวนครั้ง [Vibration] เพิ่มเติม +(สั่นพ้องสมบูรณ์ธาตุโกรธา /3) หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -25,15 +25,15 @@
           "level": 3,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "desc": "[BeforeAttack] สุ่มล้างสถานะผิดปกติบนตัวเอง 1 ประเภทที่สามารถล้างได้",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย และสร้างจำนวนครั้ง [Vibration] เพิ่มเติม +(สั่นพ้องสมบูรณ์ธาตุโกรธา /3) หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]\nหากเป้าหมายไม่มีเกจชะงักเหลืออยู่แล้วในตอนที่ทำให้เกิด [VibrationExplosion]\nจะสร้างความเสียหายธาตุโกรธาเท่ากับ (6 + 2x(สั่นพ้องสมบูรณ์ธาตุโกรธา))% ของเกจชะงักที่ดึงขึ้นมา"
                 }
               ]
             }
@@ -43,15 +43,15 @@
           "level": 4,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self",
+          "desc": "[BeforeAttack] สุ่มล้างสถานะผิดปกติบนตัวเอง 2 ประเภทที่สามารถล้างได้",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย และสร้างจำนวนครั้ง [Vibration] เพิ่มเติม +(สั่นพ้องสมบูรณ์ธาตุโกรธา /3) หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised."
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]\nหากเป้าหมายไม่มีเกจชะงักเหลืออยู่แล้วในตอนที่ทำให้เกิด [VibrationExplosion]\nจะสร้างความเสียหายธาตุโกรธาเท่ากับ (12 + 3x(สั่นพ้องสมบูรณ์ธาตุโกรธา))% ของเกจชะงักที่ดึงขึ้นมา"
                 }
               ]
             }
@@ -66,15 +66,15 @@
           "level": 1,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] หากตัวละครนี้มีสถานะผิดปกติ น้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst.\nAmount of Stagger Threshold raised by Tremor Burst increases by 30% of Tremor on target.\nReduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]\nปริมาณเกจชะงักที่เพิ่มขึ้นจากการเกิด [VibrationExplosion] จะเพิ่มขึ้นอีก 30% ของค่า [Vibration] บนตัวเป้าหมาย\nลดจำนวนครั้ง [Vibration] เป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn."
+                  "desc": "[EndSkill] ได้รับ [Binding] 3 หน่วย และ [HitResultUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -84,15 +84,15 @@
           "level": 3,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] หากตัวละครนี้มีสถานะผิดปกติ น้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAmount of Stagger Threshold raised by Tremor Burst increases by 40% of Tremor on target.\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]\nปริมาณเกจชะงักที่เพิ่มขึ้นจากการเกิด [VibrationExplosion] จะเพิ่มขึ้นอีก 40% ของค่า [Vibration] บนตัวเป้าหมาย\nหากเป้าหมายไม่มีเกจชะงักเหลืออยู่แล้วในตอนที่ทำให้เกิด [VibrationExplosion]\nจะสร้างความเสียหายธาตุโกรธาเท่ากับ (6 + 2x(สั่นพ้องสมบูรณ์ธาตุโกรธา))% ของเกจชะงักที่ดึงขึ้นมา\nลดจำนวนครั้ง [Vibration] เป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn."
+                  "desc": "[EndSkill] ได้รับ [Binding] 3 หน่วย และ [HitResultUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -102,15 +102,15 @@
           "level": 4,
           "name": "โทมนัส",
           "abName": "Forsaken Murderer",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] หากตัวละครนี้มีสถานะผิดปกติ น้ำหนักการโจมตีจะเพิ่มขึ้น +2 ช่อง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAmount of Stagger Threshold raised by Tremor Burst increases by 50% of Tremor on target.\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]\nปริมาณเกจชะงักที่เพิ่มขึ้นจากการเกิด [VibrationExplosion] จะเพิ่มขึ้นอีก 50% ของค่า [Vibration] บนตัวเป้าหมาย\nหากเป้าหมายไม่มีเกจชะงักเหลืออยู่แล้วในตอนที่ทำให้เกิด [VibrationExplosion]\nจะสร้างความเสียหายธาตุโกรธาเท่ากับ (12 + 3x(สั่นพ้องสมบูรณ์ธาตุโกรธา))% ของเกจชะงักที่ดึงขึ้นมา\nลดจำนวนครั้ง [Vibration] เป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn."
+                  "desc": "[EndSkill] ได้รับ [Binding] 3 หน่วย และ [HitResultUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -123,14 +123,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[BeforeAttack] Gain +8 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 3)",
+          "desc": "[BeforeAttack] ได้รับจำนวน [Charge] +8 หน่วย\n[EndSkill] มอบจำนวน [Charge] +8 หน่วยให้กับพันธมิตรอื่น 1 คนที่มีจำนวน [Charge] ต่ำที่สุด\n- จำนวนพันธมิตรที่ได้รับผลจะเพิ่มขึ้นได้อีก (สั่นพ้องสูงสุดธาตุริษยา - 2) คน (สูงสุด 3 คน)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -138,14 +138,14 @@
         },
         {
           "level": 3,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[BeforeAttack] Gain +8 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 4)\n- At 4+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies",
+          "desc": "[BeforeAttack] ได้รับจำนวน [Charge] +8 หน่วย\n[EndSkill] มอบจำนวน [Charge] +8 หน่วยให้กับพันธมิตรอื่น 1 คนที่มีจำนวน [Charge] ต่ำที่สุด\n- จำนวนพันธมิตรที่ได้รับผลจะเพิ่มขึ้นได้อีก (สั่นพ้องสูงสุดธาตุริษยา - 2) คน (สูงสุด 4 คน)\n- ขณะที่มี (สั่นพ้องสูงสุดธาตุริษยา) 4+ สกิล จะมอบ [VioletDamageUp] 1 หน่วยให้กับตนเองและพันธมิตรที่ได้รับผลทั้งหมดด้วยเช่นกัน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -153,14 +153,14 @@
         },
         {
           "level": 4,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[BeforeAttack] Gain +12 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max <style=\"highlight\">5</style>)\n- At 4+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies\n<style=\"highlight\">- At 6+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies</style>",
+          "desc": "[BeforeAttack] ได้รับจำนวน [Charge] +12 หน่วย\n[EndSkill] มอบจำนวน [Charge] +8 หน่วยให้กับพันธมิตรอื่น 1 คนที่มีจำนวน [Charge] ต่ำที่สุด\n- จำนวนพันธมิตรที่ได้รับผลจะเพิ่มขึ้นได้อีก (สั่นพ้องสูงสุดธาตุริษยา - 2) คน (สูงสุด 5 คน)\n- ขณะที่มี (สั่นพ้องสูงสุดธาตุริษยา) 4+ สกิล จะมอบ [VioletDamageUp] 1 หน่วยให้กับตนเองและพันธมิตรที่ได้รับผลทั้งหมดด้วยเช่นกัน\n- ขณะที่มี (สั่นพ้องสูงสุดธาตุริษยา) 6+ สกิล จะมอบ [VioletDamageUp] 1 หน่วยให้กับตนเองและพันธมิตรที่ได้รับผลทั้งหมดด้วยเช่นกัน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -173,17 +173,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 2)\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +2% damage for every [Charge] Count consumed (max 40%)",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] สกิลนี้ได้รับน้ำหนักการโจมตีเพิ่มขึ้น (สั่นพ้องสูงสุดธาตุริษยา - 2) ช่อง (สูงสุด 2 ช่อง)\n[BeforeAttack] หากตัวละครนี้มีจำนวน [Charge] 10+ หน่วย จะผลาญจำนวน [Charge] สูงสุด 20 หน่วย เพื่อสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ จำนวน [Charge] ที่ผลาญไป (สูงสุด 40%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -191,17 +191,17 @@
         },
         {
           "level": 3,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max <style=\"highlight\">3</style>)\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +<style=\"highlight\">2.5</style>% damage for every [Charge] Count consumed (max <style=\"highlight\">50</style>%)",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] สกิลนี้ได้รับน้ำหนักการโจมตีเพิ่มขึ้น (สั่นพ้องสูงสุดธาตุริษยา - 2) ช่อง (สูงสุด 3 ช่อง)\n[BeforeAttack] หากตัวละครนี้มีจำนวน [Charge] 10+ หน่วย จะผลาญจำนวน [Charge] สูงสุด 20 หน่วย เพื่อสร้างความเสียหายเพิ่มขึ้น +2.5% ตามทุก ๆ จำนวน [Charge] ที่ผลาญไป (สูงสุด 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -209,17 +209,17 @@
         },
         {
           "level": 4,
-          "name": "สายฟ้าคำรามสนั่น",
+          "name": "อัสนีคำรามสนั่น",
           "abName": "Dreaming Electric Sheep",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 3)\n<style=\"highlight\">[BeforeAttack] At 10+ [Charge] Count, apply the effects applied from 'On Hit' twice</style>\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +<style=\"highlight\">3</style>% damage for every [Charge] Count consumed (max <style=\"highlight\">60</style>%)",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[BeforeAttack] สกิลนี้ได้รับน้ำหนักการโจมตีเพิ่มขึ้น (สั่นพ้องสูงสุดธาตุริษยา - 2) ช่อง (สูงสุด 3 ช่อง)\n[BeforeAttack] ขณะที่มีจำนวน [Charge] 10+ หน่วย เอฟเฟกต์ [โจมตีโดน] จะมีผลสองครั้ง\n[BeforeAttack] หากตัวละครนี้มีจำนวน [Charge] 10+ หน่วย จะผลาญจำนวน [Charge] สูงสุด 20 หน่วย เพื่อสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ จำนวน [Charge] ที่ผลาญไป (สูงสุด 60%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -234,32 +234,19 @@
           "level": 1,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์นเป็นระยะเวลา 3 เทิร์น",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +1 [RoseWedge] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
@@ -269,7 +256,20 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             }
@@ -279,38 +279,25 @@
           "level": 3,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์นเป็นระยะเวลา 3 เทิร์น",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)</style>"
+                  "desc": "[OnSucceedAttack] ขณะที่มีสั่นพ้องสูงสุด 4+ สกิล จะทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)</style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +1 [RoseWedge] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ขณะที่มีสั่นพ้องสูงสุด 4+ สกิล จะทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             },
@@ -320,7 +307,20 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] <style=\"highlight\">(1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน (1 + (สั่นพ้องสูงสุด/2)) ครั้ง (สูงสุด 3 ครั้ง และลดจำนวนครั้ง [Laceration] ของเป้าหมายลงเท่ากับจำนวนครั้งที่มันทำงาน)"
                 }
               ]
             }
@@ -330,38 +330,25 @@
           "level": 4,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์นเป็นระยะเวลา 3 เทิร์น",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ขณะที่มีสั่นพ้องสูงสุด 4+ สกิล จะทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [RoseWedge] Count"
+                  "desc": "[OnSucceedAttack] ขณะที่มีสั่นพ้องสูงสุด 4+ สกิล จะทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             },
@@ -371,10 +358,23 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)</style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน (1 + (สั่นพ้องสูงสุด/2)) ครั้ง (สูงสุด 3 ครั้ง และลดจำนวนครั้ง [Laceration] ของเป้าหมายลงเท่ากับจำนวนครั้งที่มันทำงาน)"
+                },
+                {
+                  "desc": "[EnemyKill] เมื่อสร้างความเสียหายเกินเลือดที่เหลืออยู่ของศัตรู ความเสียหายที่เกินมาจะกลายเป็นดาเมจตายตัวที่สร้างกระจายแก่ศัตรูทั้งหมด (ต่ำสุด 1 หน่วย)"
                 }
               ]
             }
@@ -389,35 +389,19 @@
           "level": 1,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies once instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[WhenUse] ผลาญเลือดมากสุด 10% ของเลือดสูงสุดตัวละครนี้ และสร้างความเสียหายเท่ากับ (เลือดที่ผลาญ / 2) หน่วยแก่ศัตรูและพันธมิตรทั้งหมด\n- เมื่อตัวละครนี้มีเลือดต่ำกว่า 50% ของเลือดสูงสุด จะสร้างค่า [Laceration] 5 หน่วยแก่พันธมิตรทั้งหมด และทำให้ค่า [Laceration] 5 หน่วยบนตัวพันธมิตรทั้งหมดทำงานทันทีหนึ่งครั้ง (เสียจำนวนครั้ง [Laceration] 1 หน่วย)\nจากนั้นฟื้นฟูเลือดตนเองเท่ากับความเสียหาย [Laceration] ที่สร้างต่อพันธมิตร",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] on self and the target"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วยแก่ตนเองและเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] on self and the target"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +1 [RoseWedge] Count"
-                },
-                {
-                  "desc": "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วยแก่ตนเองและเป้าหมาย"
                 }
               ]
             },
@@ -427,7 +411,23 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +1 หน่วย"
+                },
+                {
+                  "desc": "- หากเป้าหมายไม่มี [RoseWedge] จะสร้างค่า [RoseWedge] เพิ่มเติม 4 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 1 หน่วย)"
                 }
               ]
             }
@@ -437,35 +437,19 @@
           "level": 3,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 6+ (sum of [Laceration] on self and the target), Coin Power +1</style>\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies once instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\nขณะที่มี (ผลรวมของค่า [Laceration] ที่ตนเองและเป้าหมายมี) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ผลาญเลือดมากสุด 10% ของเลือดสูงสุดตัวละครนี้ และสร้างความเสียหายเท่ากับ (เลือดที่ผลาญ / 2) หน่วยแก่ศัตรูและพันธมิตรทั้งหมด\n- เมื่อตัวละครนี้มีเลือดต่ำกว่า 50% ของเลือดสูงสุด จะสร้างค่า [Laceration] 5 หน่วยแก่พันธมิตรทั้งหมด และทำให้ค่า [Laceration] 5 หน่วยบนตัวพันธมิตรทั้งหมดทำงานทันทีหนึ่งครั้ง (เสียจำนวนครั้ง [Laceration] 1 หน่วย)\nจากนั้นฟื้นฟูเลือดตนเองเท่ากับความเสียหาย [Laceration] ที่สร้างต่อพันธมิตร",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Laceration] on self and the target"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วยแก่ตนเองและเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Laceration] on self and the target"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +1 [RoseWedge] Count<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วยแก่ตนเองและเป้าหมาย"
                 }
               ]
             },
@@ -475,7 +459,23 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] <style=\"highlight\">(1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)</style>"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +1 หน่วย"
+                },
+                {
+                  "desc": "- หากเป้าหมายไม่มี [RoseWedge] จะสร้างค่า [RoseWedge] เพิ่มเติม 4 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน (1 + (สั่นพ้องสูงสุด/2)) ครั้ง (สูงสุด 3 ครั้ง และลดจำนวนครั้ง [Laceration] ของเป้าหมายลงเท่ากับจำนวนครั้งที่มันทำงาน)"
                 }
               ]
             }
@@ -485,41 +485,25 @@
           "level": 4,
           "name": "โหยหา - เมอร์คาลลา",
           "abName": "Four-hundred Roses",
-          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 6 (sum of [Laceration] on self and the target) <style=\"highlight\">(max 3)</style>\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมของค่า [Laceration] ที่ตนเองและเป้าหมายมี) 6 หน่วย (สูงสุด 3 แต้ม)\n[WhenUse] ผลาญเลือดมากสุด 10% ของเลือดสูงสุดตัวละครนี้ และสร้างความเสียหายเท่ากับ (เลือดที่ผลาญ / 2) หน่วยแก่ศัตรูและพันธมิตรทั้งหมด\n- เมื่อตัวละครนี้มีเลือดต่ำกว่า 50% ของเลือดสูงสุด จะสร้างค่า [Laceration] 5 หน่วยแก่พันธมิตรทั้งหมด และทำให้ค่า [Laceration] 5 หน่วยบนตัวพันธมิตรทั้งหมดทำงานทันทีหนึ่งครั้ง (เสียจำนวนครั้ง [Laceration] 1 หน่วย)\nจากนั้นฟื้นฟูเลือดตนเองเท่ากับความเสียหาย [Laceration] ที่สร้างต่อพันธมิตร",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วยแก่ตนเองและเป้าหมาย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Activate [Laceration] on self and the target once (both lose 1 [Laceration] Count)</style>"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] ที่ตนเองและเป้าหมายมีทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของทั้งสองฝั่งลง 1 หน่วย)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วยแก่ตนเองและเป้าหมาย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Activate [Laceration] on self and the target once (both lose 1 [Laceration] Count)</style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflict +2 [RoseWedge] Count<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [RoseWedge] Count"
-                },
-                {
-                  "desc": "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] ที่ตนเองและเป้าหมายมีทำงานหนึ่งครั้ง (ลดจำนวนครั้ง [Laceration] ของทั้งสองฝั่งลง 1 หน่วย)"
                 }
               ]
             },
@@ -529,10 +513,26 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)</style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [RoseWedge] +2 หน่วย"
+                },
+                {
+                  "desc": "- หากเป้าหมายไม่มี [RoseWedge] จะสร้างค่า [RoseWedge] เพิ่มเติม 4 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน (1 + (สั่นพ้องสูงสุด/2)) ครั้ง (สูงสุด 3 ครั้ง และลดจำนวนครั้ง [Laceration] ของเป้าหมายลงเท่ากับจำนวนครั้งที่มันทำงาน)"
+                },
+                {
+                  "desc": "[EnemyKill] เมื่อสร้างความเสียหายเกินเลือดที่เหลืออยู่ของศัตรู ความเสียหายที่เกินมาจะกลายเป็นดาเมจตายตัวที่สร้างกระจายแก่ศัตรูทั้งหมด (ต่ำสุด 1 หน่วย)"
                 }
               ]
             }
