@@ -2690,7 +2690,7 @@
     {
       "id": 9100,
       "name": "จักรกลเคลื่อนไหวตราบนิรันดร์ T-1",
-      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถรับจำนวนครั้ง [Charge] หรือ 'ชาร์จพิเศษ' ได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเริ่มเทิร์นแรกของเวฟต่อสู้: พันธมิตรทั้งหมดได้รับ [ChargeForceField] 7 หน่วย\n\nเริ่มเทิร์น: พันธมิตรทั้งหมดจะได้รับ [AttackDmgUp] ((จำนวน [Charge] + 'ชาร์จพิเศษ')/5 + 1) หน่วย (สูงสุด 9 หน่วย ปัดเศษขึ้น)\n\nตัวตนแต่ละตัวจะได้รับ [AttackUp] (จำนวน [Charge] ที่สกิลโจมตีผลาญไปทั้งหมดในการเผชิญหน้านี้ / 4) หน่วยเมื่อเริ่มเทิร์น (ใช้จำนวน [Charge] สูงสุด 40 หน่วยในการคำนวณ)\n\nตัวตนแต่ละตัวจะได้รับค่า [Charge] 1 หน่วยทุกครั้งที่ผลาญจำนวน [Charge] ตนเอง 20 หน่วย (สูงสุด 2 ครั้ง/ตัวตน/การเผชิญหน้า โดย 'ชาร์จพิเศษ' จะไม่มีปฏิสัมพันธ์กับเอฟเฟกต์นี้)\n\nหลังจากการโจมตีของสกิลที่ผลาญจำนวน [Charge] ของตนเอง: สร้าง [DefenseDown] (ค่า [Charge] - 1) หน่วย (มีผล 5 ครั้ง/ศัตรู/เทิร์น และสร้าง [DefenseDown] ได้สูงสุดครั้งละ 3 หน่วย)",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถรับจำนวน [Charge] หรือ 'ชาร์จพิเศษ' ได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเริ่มเทิร์นแรกของเวฟต่อสู้: พันธมิตรทั้งหมดได้รับ [ChargeForceField] 7 หน่วย\n\nเริ่มเทิร์น: พันธมิตรทั้งหมดจะได้รับ [AttackDmgUp] ((จำนวน [Charge] + 'ชาร์จพิเศษ')/5 + 1) หน่วย (สูงสุด 9 หน่วย ปัดเศษขึ้น)\n\nตัวตนแต่ละตัวจะได้รับ [AttackUp] (จำนวน [Charge] ที่สกิลโจมตีผลาญไปทั้งหมดในการเผชิญหน้านี้ / 4) หน่วยเมื่อเริ่มเทิร์น (ใช้จำนวน [Charge] สูงสุด 40 หน่วยในการคำนวณ)\n\nตัวตนแต่ละตัวจะได้รับค่า [Charge] 1 หน่วยทุกครั้งที่ผลาญจำนวน [Charge] ตนเอง 20 หน่วย (สูงสุด 2 ครั้ง/ตัวตน/การเผชิญหน้า โดย 'ชาร์จพิเศษ' จะไม่มีปฏิสัมพันธ์กับเอฟเฟกต์นี้)\n\nหลังจากการโจมตีของสกิลที่ผลาญจำนวน [Charge] ของตนเอง: สร้าง [DefenseDown] (ค่า [Charge] - 1) หน่วย (มีผล 5 ครั้ง/ศัตรู/เทิร์น และสร้าง [DefenseDown] ได้สูงสุดครั้งละ 3 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 9100,
@@ -3869,647 +3869,647 @@
       "simpleDesc": [
         {
           "abilityID": 29141,
-          "simpleDesc": "Slash Skills deal +12.5% damage"
+          "simpleDesc": "สกิลประเภทฟันสร้างความเสียหายเพิ่มขึ้น +12.5%"
         },
         {
           "abilityID": 291411,
-          "simpleDesc": "Slash Skills deal +(50/# of remaining Coins)% damage"
+          "simpleDesc": "สกิลประเภทฟันสร้างความเสียหายเพิ่มขึ้น +(50/จำนวนเหรียญที่เหลือ)%"
         }
       ]
     },
     {
       "id": 9142,
       "name": "ความทรงจำที่แตกหัก",
-      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nSlash Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Slash Attack Skill(except E.G.O Skills), deal +30% damage with that Skill; On Hit with that Skill, deal +5% damage for every 5% missing HP on self (max 20%)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1, #2]\n\nสกิลโจมตีประเภทฟัน (รวมถึงสกิล E.G.O) จะมี:\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 แต้ม\n- แต้มเหรียญบวกเพิ่มขึ้น +1 แต้ม\n- แต้มเหรียญลบลดลง -1 แต้ม\n\nเมื่อแคลชสกิลชนะด้วยสกิลโจมตีประเภทฟัน (ยกเว้นสกิล E.G.O):\n- สกิลดังกล่าวสร้างความเสียหายเพิ่มขึ้น +30%\n- สกิลดังกล่าวสร้างความเสียหายเพิ่มขึ้นอีก +5% ตามทุก ๆ เลือด 5% ของตนเองที่หายไป (สูงสุด +20%)",
       "simpleDesc": [
         {
           "abilityID": 9142,
-          "simpleDesc": "Slash Skill Power Up"
+          "simpleDesc": "แต้มสกิลประเภทฟันเพิ่มขึ้น"
         },
         {
           "abilityID": 91421,
-          "simpleDesc": "Slash Skills deal more damage; deal more damage based on missing HP"
+          "simpleDesc": "สกิลประเภทฟันสร้างความเสียหายเพิ่มขึ้น และยิ่งเลือดน้อยความเสียหายจะยิ่งมาก"
         }
       ]
     },
     {
       "id": 9143,
       "name": "ตะปูช่างไม้",
-      "desc": "[Effects apply only to #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain 1 [PenetrateDamageUp] at Turn Start.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #4]\n\nหากตัวละครนี้มีสกิลโจมตีประเภทแทง 2+ สกิล จะได้รับ [PenetrateDamageUp] 1 หน่วยเมื่อเริ่มเทิร์น",
       "simpleDesc": [
         {
           "abilityID": 9143,
-          "simpleDesc": "Gain 1 [PenetrateDamageUp]"
+          "simpleDesc": "ได้รับ [PenetrateDamageUp] 1 หน่วย"
         }
       ]
     },
     {
       "id": 19143,
       "name": "ตะปูช่างไม้+",
-      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain <style=\"upgradeHighlight\">2</style> [PenetrateDamageUp] at Turn Start.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #4]\n\nหากตัวละครนี้มีสกิลโจมตีประเภทแทง 2+ สกิล จะได้รับ [PenetrateDamageUp] <style=\"upgradeHighlight\">2 หน่วย</style>เมื่อเริ่มเทิร์น",
       "simpleDesc": [
         {
           "abilityID": 19143,
-          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+          "simpleDesc": "ได้รับ [PenetrateDamageUp] 2 หน่วย"
         }
       ]
     },
     {
       "id": 29143,
       "name": "ตะปูช่างไม้++",
-      "desc": "[Effects apply only to #4, <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nIf this unit has 2+ Pierce Attack Skills, gain 2 [PenetrateDamageUp] at Turn Start.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #4, <style=\"upgradeHighlight\">#5</style>]\n\nหากตัวละครนี้มีสกิลโจมตีประเภทแทง 2+ สกิล จะได้รับ [PenetrateDamageUp] 2 หน่วยเมื่อเริ่มเทิร์น",
       "simpleDesc": [
         {
           "abilityID": 29143,
-          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+          "simpleDesc": "ได้รับ [PenetrateDamageUp] 2 หน่วย"
         }
       ]
     },
     {
       "id": 9144,
       "name": "มงคลในครั้งหนึ่ง",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] next turn. (once per turn)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภทแทง จะได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n\nเมื่อกำจัดศัตรูด้วยสกิลดังกล่าว จะได้รับ [Agility] เพิ่มเติมอีก 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 9144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 91441,
-          "simpleDesc": "Gain 1 additional [Agility] next turn"
+          "simpleDesc": "ได้รับ [Agility] เพิ่มเติม 1 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 19144,
       "name": "มงคลในครั้งหนึ่ง+",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#5</style>, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">1 additional [PenetrateDamageUp]</style> next turn. (once per turn)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ <style=\"upgradeHighlight\">#5</style>, #6]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภทแทง จะได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n\nเมื่อกำจัดศัตรูด้วยสกิลดังกล่าว จะได้รับ [Agility] 1 หน่วย <style=\"upgradeHighlight\">และ [PenetrateDamageUp] 1 หน่วย</style> เพิ่มเติมในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 19144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 191441,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 29144,
       "name": "มงคลในครั้งหนึ่ง++",
-      "desc": "[Effects apply only to #5, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">2</style> additional [PenetrateDamageUp] next turn. (once per turn)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #5, #6]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภทแทง จะได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป <style=\"upgradeHighlight\">(มีผล 2 ครั้งต่อเทิร์น)</style>\n\nเมื่อกำจัดศัตรูด้วยสกิลดังกล่าว จะได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] <style=\"upgradeHighlight\">2 หน่วย</style> เพิ่มเติมในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 29144,
-          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 291441,
-          "simpleDesc": "Gain 1 [Agility] and 2 [PenetrateDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [PenetrateDamageUp] 2 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 9145,
       "name": "สะพายกระสุนฉีกขาด",
-      "desc": "Pierce Skills gain Clash Power +1\n\nSkills that consume [Bullet] deal +(40/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "desc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n\nสกิลที่ผลาญ [Bullet] จะสร้างความเสียหายเพิ่มขึ้น +(40/จำนวนเหรียญ)%\n\nหากตัวละครใด [Bullet] หมด จะได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป (มีผลหนึ่งครั้ง/การเผชิญหน้า/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 9145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1"
+          "simpleDesc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม"
         },
         {
           "abilityID": 91451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "สกิลสร้างความเสียหายเพิ่มขึ้น +(40/จำนวนเหรียญ)%"
         },
         {
           "abilityID": 91452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "ได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 19145,
       "name": "สะพายกระสุนฉีกขาด+",
-      "desc": "Pierce Skills gain Clash Power +1 <style=\"upgradeHighlight\">and deal +5% damage</style>\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">50</style>/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "desc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม <style=\"upgradeHighlight\">และสร้างความเสียหายเพิ่มขึ้น +5%</style>\n\nสกิลที่ผลาญ [Bullet] จะสร้างความเสียหายเพิ่มขึ้น +(<style=\"upgradeHighlight\">50</style>/จำนวนเหรียญ)%\n\nหากตัวละครใด [Bullet] หมด จะได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป (มีผลหนึ่งครั้ง/การเผชิญหน้า/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 19145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +5% damage"
+          "simpleDesc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +5%"
         },
         {
           "abilityID": 191451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "สกิลสร้างความเสียหายเพิ่มขึ้น +(50/จำนวนเหรียญ)%"
         },
         {
           "abilityID": 191452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "ได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 29145,
       "name": "สะพายกระสุนฉีกขาด++",
-      "desc": "Pierce Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+10%</style> damage\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">60</style>/# of Coins)% damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter per Identity)",
+      "desc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น <style=\"upgradeHighlight\">+10%</style>\n\nสกิลที่ผลาญ [Bullet] จะสร้างความเสียหายเพิ่มขึ้น +(<style=\"upgradeHighlight\">60</style>/จำนวนเหรียญ)%\n\nหากตัวละครใด [Bullet] หมด จะได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป (มีผลหนึ่งครั้ง/การเผชิญหน้า/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 29145,
-          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +10% damage"
+          "simpleDesc": "สกิลประเภทแทงได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10%"
         },
         {
           "abilityID": 291451,
-          "simpleDesc": "Skills deal +(40/# of Coins)% damage"
+          "simpleDesc": "สกิลสร้างความเสียหายเพิ่มขึ้น +(60/จำนวนเหรียญ)%"
         },
         {
           "abilityID": 291452,
-          "simpleDesc": "Next Turn Start: gain 2 [Bullet]"
+          "simpleDesc": "ได้รับ [Bullet] 2 นัดเมื่อเริ่มเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 9146,
       "name": "กิ่งก้านเฉียบคม",
-      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal +20% damage.\n\nIn an unopposed attack, Pierce Skills deal +10% damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4]\n\nในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +20%\n\nในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
         {
           "abilityID": 9146,
-          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +20% damage"
+          "simpleDesc": "ในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +20%"
         },
         {
           "abilityID": 91461,
-          "simpleDesc": "In an unopposed attack, Pierce Skills deal +10% damage."
+          "simpleDesc": "ในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +10%"
         }
       ]
     },
     {
       "id": 19146,
       "name": "กิ่งก้านเฉียบคม+",
-      "desc": "[Effects apply only to #3, #4, <style=\"upgradeHighlight\">and #5</style> Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal +20% damage.\n\nIn an unopposed attack, Pierce Skills deal +10% damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4, <style=\"upgradeHighlight\">#5</style>]\n\nในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +20%\n\nในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
         {
           "abilityID": 19146,
-          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +20% damage"
+          "simpleDesc": "ในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +20%"
         },
         {
           "abilityID": 191461,
-          "simpleDesc": "In an unopposed attack, Pierce Skills deal +10% damage."
+          "simpleDesc": "ในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +10%"
         }
       ]
     },
     {
       "id": 29146,
       "name": "กิ่งก้านเฉียบคม++",
-      "desc": "[Effects apply only to #3, #4, #5, <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal <style=\"upgradeHighlight\">+25%</style> damage.\n\nIn an unopposed attack, Pierce Skills deal <style=\"upgradeHighlight\">+12.5%</style> damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4, #5, <style=\"upgradeHighlight\">#6</style>]\n\nในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น <style=\"upgradeHighlight\">+25%</style>\n\nในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น <style=\"upgradeHighlight\">+12.5%</style>",
       "simpleDesc": [
         {
           "abilityID": 29146,
-          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +25% damage"
+          "simpleDesc": "ในการแคลชสกิล แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +25%"
         },
         {
           "abilityID": 291461,
-          "simpleDesc": "In an unopposed attack, Pierce Skills deal +12.5% damage."
+          "simpleDesc": "ในการโจมตีโดยตรง สกิลประเภทแทงสร้างความเสียหายเพิ่มขึ้น +12.5%"
         }
       ]
     },
     {
       "id": 9147,
       "name": "ความทรงจำที่ถูกแทงทะลวง",
-      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nPierce Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Pierce Attack Skill(except E.G.O Skills), deal +15% damage with that Skill; On Hit with that Skill, if faster than the main target, deal +(Speed difference with the main target x 2.5)% damage(35% max)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1, #2]\n\nสกิลโจมตีประเภทแทง (รวมถึงสกิล E.G.O) จะมี:\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 แต้ม\n- แต้มเหรียญบวกเพิ่มขึ้น +1 แต้ม\n- แต้มเหรียญลบลดลง -1 แต้ม\n\nเมื่อแคลชสกิลชนะด้วยสกิลโจมตีประเภทแทง (ยกเว้นสกิล E.G.O):\n- สกิลดังกล่าวสร้างความเสียหายเพิ่มขึ้น +30%\n- หากมีค่าความเร็วสูงกว่าเป้าหมายหลัก จะสร้างความเสียหายเพิ่มขึ้นอีก +(ค่าความเร็วที่ต่างกันกับเป้าหมายหลัก x 2.5)% (สูงสุด +35%)",
       "simpleDesc": [
         {
           "abilityID": 9147,
-          "simpleDesc": "Pierce Attack Skill Power Up"
+          "simpleDesc": "แต้มสกิลประเภทแทงเพิ่มขึ้น"
         },
         {
           "abilityID": 91471,
-          "simpleDesc": "Pierce Attack Skills deal more damage; deal more damage based on the Speed difference"
+          "simpleDesc": "สกิลประเภทสร้างความเสียหายเพิ่มขึ้น +30% และจะสร้างความเสียหายเพิ่มขึ้นอีกตามค่าความเร็วที่ต่างกันกับเป้าหมายหลัก"
         }
       ]
     },
     {
       "id": 9148,
       "name": "คำสาปผู้ถูกฝัง",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen winning a Clash with a Blunt Skill, gain 1 [Agility] next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] next turn instead.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อแคลชสกิลชนะด้วยสกิลประเภททุบ จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (สูงสุด 2 ครั้ง)\n\nจบเทิร์น: หากตัวละครนี้ไม่สามารถสร้างความเสียหายแก่ศัตรูได้เลยในเทิร์นนี้ จะได้รับ [Agility] 3 หน่วยในเทิร์นถัดไปแทน",
       "simpleDesc": [
         {
           "abilityID": 9148,
-          "simpleDesc": "Gain 1 [Agility] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 91481,
-          "simpleDesc": "Gain 3 [Agility] next turn"
+          "simpleDesc": "ได้รับ [Agility] 3 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 19148,
       "name": "คำสาปผู้ถูกฝัง+",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen <style=\"upgradeHighlight\">using</style> a Blunt Skill, gain 1 [Agility] next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] next turn instead.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อ<style=\"upgradeHighlight\">ใช้งาน</style>สกิลประเภททุบ จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (สูงสุด 2 ครั้ง)\n\nจบเทิร์น: หากตัวละครนี้ไม่สามารถสร้างความเสียหายแก่ศัตรูได้เลยในเทิร์นนี้ จะได้รับ [Agility] 3 หน่วยในเทิร์นถัดไปแทน",
       "simpleDesc": [
         {
           "abilityID": 19148,
-          "simpleDesc": "Gain 1 [Agility] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 191481,
-          "simpleDesc": "Gain 3 [Agility] next turn"
+          "simpleDesc": "ได้รับ [Agility] 3 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 29148,
       "name": "คำสาปผู้ถูกฝัง++",
-      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#4</style>, #6 Deployed Identities]\n\nWhen using a Blunt Skill, gain 1 [Agility] and <style=\"upgradeHighlight\">1 [HitDamageUp]</style> next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] and <style=\"upgradeHighlight\">2 [HitDamageUp]</style> next turn instead.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ <style=\"upgradeHighlight\">#4</style>, #6]\n\nเมื่อใช้งานสกิลประเภททุบ จะได้รับ [Agility] 1 หน่วย <style=\"upgradeHighlight\">และ [HitDamageUp] 1 หน่วย</style>ในเทิร์นถัดไป (สูงสุด 2 ครั้ง)\n\nจบเทิร์น: หากตัวละครนี้ไม่สามารถสร้างความเสียหายแก่ศัตรูได้เลยในเทิร์นนี้ จะได้รับ [Agility] 3 หน่วย <style=\"upgradeHighlight\">และ [HitDamageUp] 2 หน่วย</style>ในเทิร์นถัดไปแทน",
       "simpleDesc": [
         {
           "abilityID": 29148,
-          "simpleDesc": "Gain 1 [Agility] and 1 [HitDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 1 หน่วย และ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 291481,
-          "simpleDesc": "Gain 3 [Agility] and 2 [HitDamageUp] next turn"
+          "simpleDesc": "ได้รับ [Agility] 3 หน่วย และ [HitDamageUp] 2 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 9149,
       "name": "ผ้าพันแผลบีบอัด",
-      "desc": "[Effects apply only to #5 Deployed Identity]\n\nWhen hitting an enemy with a Blunt Skill, deal 3 bonus Blunt damage.\n\nGloom Affinity Attack Skill: heal an additional 3 HP as well.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #5]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภททุบ จะสร้างโบนัสความเสียหายทุบ 3 หน่วย\n\nสำหรับสกิลโจมตีธาตุโศกา: จะฟื้นฟูเลือดเพิ่มเติม 3 หน่วยด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9149,
-          "simpleDesc": "Inflict 3 bonus Blunt damage"
+          "simpleDesc": "สร้างโบนัสความเสียหายทุบ 3 หน่วย"
         },
         {
           "abilityID": 91491,
-          "simpleDesc": "Heal additional 3 HP"
+          "simpleDesc": "ฟื้นฟูเลือดเพิ่มเติม 3 หน่วย"
         }
       ]
     },
     {
       "id": 19149,
       "name": "ผ้าพันแผลบีบอัด+",
-      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~5</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">4</style> HP as well.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #5, <style=\"upgradeHighlight\">#6</style>]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภททุบ จะสร้างโบนัสความเสียหายทุบ <style=\"upgradeHighlight\">3~5 หน่วย</style>\n\nสำหรับสกิลโจมตีธาตุโศกา: จะฟื้นฟูเลือดเพิ่มเติม <style=\"upgradeHighlight\">4 หน่วย</style>ด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 19149,
-          "simpleDesc": "Inflict 3~5 bonus Blunt damage"
+          "simpleDesc": "สร้างโบนัสความเสียหายทุบ 3~5 หน่วย"
         },
         {
           "abilityID": 191491,
-          "simpleDesc": "Heal additional 4 HP"
+          "simpleDesc": "ฟื้นฟูเลือดเพิ่มเติม 4 หน่วย"
         }
       ]
     },
     {
       "id": 29149,
       "name": "ผ้าพันแผลบีบอัด++",
-      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~7</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">6</style> HP as well.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #5, #6]\n\nเมื่อโจมตีศัตรูด้วยสกิลประเภททุบ จะสร้างโบนัสความเสียหายทุบ <style=\"upgradeHighlight\">3~7 หน่วย</style>\n\nสำหรับสกิลโจมตีธาตุโศกา: จะฟื้นฟูเลือดเพิ่มเติม <style=\"upgradeHighlight\">6 หน่วย</style>ด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 29149,
-          "simpleDesc": "Inflict 3~7 bonus Blunt damage"
+          "simpleDesc": "สร้างโบนัสความเสียหายทุบ 3~7 หน่วย"
         },
         {
           "abilityID": 291491,
-          "simpleDesc": "Heal additional 6 HP."
+          "simpleDesc": "ฟื้นฟูเลือดเพิ่มเติม 6 หน่วย"
         }
       ]
     },
     {
       "id": 9150,
       "name": "บังเหียนเวลา",
-      "desc": "Turn Start: units with a Blunt Attack Skill(except E.G.O Skills) gain 1 [AttackUp].\n\nUnits with 2+ Blunt Attack Skills gain 1 [AttackUp] and 1 [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain 2 [AttackUp] and 2 [HitDamageUp] instead.",
+      "desc": "เริ่มเทิร์น: ตัวละครที่มีสกิลโจมตีประเภททุบ (ยกเว้นสกิล E.G.O) จะได้รับ [AttackUp] 1 หน่วยเมื่อเริ่มเทิร์น\n\nตัวละครที่มีสกิลโจมตีประเภททุบ 2+ สกิล: ได้รับ [AttackUp] 1 หน่วย และ [HitDamageUp] 1 หน่วยแทน\n\nตัวละครที่มีสกิลโจมตีประเภททุบที่ใช้เหรียญลบ 2+ สกิล: ได้รับ [AttackUp] 2 หน่วย และ [HitDamageUp] 2 หน่วยแทน",
       "simpleDesc": [
         {
           "abilityID": 9150,
-          "simpleDesc": "Gain 1 [AttackUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 1 หน่วย"
         },
         {
           "abilityID": 91501,
-          "simpleDesc": "Gain 1 [AttackUp] and 1 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 1 หน่วย และ [HitDamageUp] 1 หน่วย"
         },
         {
           "abilityID": 91502,
-          "simpleDesc": "Gain 2 [AttackUp] and 2 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 2 หน่วย และ [HitDamageUp] 2 หน่วย"
         }
       ]
     },
     {
       "id": 19150,
       "name": "บังเหียนเวลา+",
-      "desc": "Turn Start: Units with Blunt Attack Skills(except E.G.O Skills) gain <style=\"upgradeHighlight\">2</style> [AttackUp] at Turn Start.\n\nUnits with 2+ Blunt Attack Skills gain <style=\"upgradeHighlight\">2</style> [AttackUp] and 1 [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain <style=\"upgradeHighlight\">3</style> [AttackUp] and 2 [HitDamageUp] instead.",
+      "desc": "เริ่มเทิร์น: ตัวละครที่มีสกิลโจมตีประเภททุบ (ยกเว้นสกิล E.G.O) จะได้รับ [AttackUp] <style=\"upgradeHighlight\">2 หน่วย</style> เมื่อเริ่มเทิร์น\n\nตัวละครที่มีสกิลโจมตีประเภททุบ 2+ สกิล: ได้รับ [AttackUp] <style=\"upgradeHighlight\">2 หน่วย</style> และ [HitDamageUp] 1 หน่วยแทน\n\nตัวละครที่มีสกิลโจมตีประเภททุบที่ใช้เหรียญลบ 2+ สกิล: ได้รับ [AttackUp] <style=\"upgradeHighlight\">3 หน่วย</style> และ [HitDamageUp] 2 หน่วยแทน",
       "simpleDesc": [
         {
           "abilityID": 19150,
-          "simpleDesc": "Gain 2 [AttackUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 2 หน่วย"
         },
         {
           "abilityID": 191501,
-          "simpleDesc": "Gain 2 [AttackUp] and 1 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 2 หน่วย และ [HitDamageUp] 1 หน่วย"
         },
         {
           "abilityID": 191502,
-          "simpleDesc": "Gain 3 [AttackUp] and 2 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 3 หน่วย และ [HitDamageUp] 2 หน่วย"
         }
       ]
     },
     {
       "id": 29150,
       "name": "บังเหียนเวลา++",
-      "desc": "Turn Start: Units with Blunt Attack Skills(except E.G.O Skills) gain 2 [AttackUp] and <style=\"upgradeHighlight\">1 [HitDamageUp]</style> at Turn Start.\n\nUnits with 2+ Blunt Attack Skills gain 2 [AttackUp] and <style=\"upgradeHighlight\">2</style> [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain 3 [AttackUp] and <style=\"upgradeHighlight\">3</style> [HitDamageUp] instead.",
+      "desc": "เริ่มเทิร์น: ตัวละครที่มีสกิลโจมตีประเภททุบ (ยกเว้นสกิล E.G.O) จะได้รับ [AttackUp] 2 หน่วย <style=\"upgradeHighlight\">และ [HitDamageUp] 1 หน่วย</style> เมื่อเริ่มเทิร์น\n\nตัวละครที่มีสกิลโจมตีประเภททุบ 2+ สกิล: ได้รับ [AttackUp] 1 หน่วย และ [HitDamageUp] <style=\"upgradeHighlight\">2 หน่วย</style>แทน\n\nตัวละครที่มีสกิลโจมตีประเภททุบที่ใช้เหรียญลบ 2+ สกิล: ได้รับ [AttackUp] <style=\"upgradeHighlight\">3 หน่วย</style> และ [HitDamageUp] <style=\"upgradeHighlight\">3 หน่วย</style>แทน",
       "simpleDesc": [
         {
           "abilityID": 29150,
-          "simpleDesc": "Gain 2 [AttackUp] and 1 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 2 หน่วย และ [HitDamageUp] 1 หน่วย"
         },
         {
           "abilityID": 291501,
-          "simpleDesc": "Gain 2 [AttackUp] and 2 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 2 หน่วย และ [HitDamageUp] 2 หน่วย"
         },
         {
           "abilityID": 291502,
-          "simpleDesc": "Gain 3 [AttackUp] and 3 [HitDamageUp]"
+          "simpleDesc": "ได้รับ [AttackUp] 3 หน่วย และ [HitDamageUp] 3 หน่วย"
         }
       ]
     },
     {
       "id": 9151,
       "name": "ประติมากรรมสอดประสาน",
-      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal +10% damage; if there are 3+ remaining Coins, deal +20% damage; if there are 4+ remaining Coins, deal +40% damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4]\n\nหลังจากแคลชสกิลด้วยสกิลประเภททุบ:\n- หากยังเหลือเหรียญอยู่ 2+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +10%\n- หากยังเหลือเหรียญอยู่ 3+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +20%\n- หากยังเหลือเหรียญอยู่ 4+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +40%",
       "simpleDesc": [
         {
           "abilityID": 9151,
-          "simpleDesc": "Conditional damage increase"
+          "simpleDesc": "เพิ่มความเสียหายแบบมีเงื่อนไข"
         }
       ]
     },
     {
       "id": 19151,
       "name": "ประติมากรรมสอดประสาน+",
-      "desc": "[Effects apply only to #3, #4, and <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal +10% damage; if there are 3+ remaining Coins, deal +20% damage; if there are 4+ remaining Coins, deal +40% damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4, <style=\"upgradeHighlight\">#5</style>]\n\nหลังจากแคลชสกิลด้วยสกิลประเภททุบ:\n- หากยังเหลือเหรียญอยู่ 2+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +10%\n- หากยังเหลือเหรียญอยู่ 3+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +20%\n- หากยังเหลือเหรียญอยู่ 4+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +40%",
       "simpleDesc": [
         {
           "abilityID": 19151,
-          "simpleDesc": "Conditional damage increase"
+          "simpleDesc": "เพิ่มความเสียหายแบบมีเงื่อนไข"
         }
       ]
     },
     {
       "id": 29151,
       "name": "ประติมากรรมสอดประสาน++",
-      "desc": "[Effects apply only to #3, #4, #5, and <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal <style=\"upgradeHighlight\">+12.5%</style> damage; if there are 3+ remaining Coins, deal <style=\"upgradeHighlight\">+25%</style> damage; if there are 4+ remaining Coins, deal <style=\"upgradeHighlight\">+50%</style> damage.",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3, #4, #5, <style=\"upgradeHighlight\">#6</style>]\n\nหลังจากแคลชสกิลด้วยสกิลประเภททุบ:\n- หากยังเหลือเหรียญอยู่ 2+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +12.5%\n- หากยังเหลือเหรียญอยู่ 3+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +25%\n- หากยังเหลือเหรียญอยู่ 4+ เหรียญ จะสร้างความเสียหายเพิ่มขึ้น +50%",
       "simpleDesc": [
         {
           "abilityID": 29151,
-          "simpleDesc": "Conditional damage increase"
+          "simpleDesc": "เพิ่มความเสียหายแบบมีเงื่อนไข"
         }
       ]
     },
     {
       "id": 9152,
       "name": "ความทรงจำที่ถูกบดขยี้",
-      "desc": "[Effects apply only to #1 and #2 Deployed Identities]\n\nBlunt Attack Skills(including E.G.O Skills) gain Base Power +2, Plus Coin Power +1, and Minus Coin Power -1\n\nOn Clash Win with a Blunt Attack Skill(except E.G.O Skills), deal +20% damage with that Skill; On Hit with that Skill, deal +(30 / # of Coins)% damage (min 10%)",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1, #2]\n\nสกิลโจมตีประเภททุบ (รวมถึงสกิล E.G.O) จะมี:\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 แต้ม\n- แต้มเหรียญบวกเพิ่มขึ้น +1 แต้ม\n- แต้มเหรียญลบลดลง -1 แต้ม\n\nเมื่อแคลชสกิลชนะด้วยสกิลโจมตีประเภททุบ (ยกเว้นสกิล E.G.O):\n- สกิลดังกล่าวสร้างความเสียหายเพิ่มขึ้น +20%\n- สร้างความเสียหายเพิ่มขึ้นอีก +(30/จำนวนเหรียญ)% (ต่ำสุด +10%)",
       "simpleDesc": [
         {
           "abilityID": 9152,
-          "simpleDesc": "Blunt Skill Power Up"
+          "simpleDesc": "แต้มสกิลประเภททุบเพิ่มขึ้น"
         },
         {
           "abilityID": 91521,
-          "simpleDesc": "Blunt Skills deal more damage; the fewer coins they have, the more damage they deal"
+          "simpleDesc": "สกิลทุบสร้างความเสียหายเพิ่มขึ้น และยิ่งมีเหรียญน้อย ความเสียหายยิ่งมาก"
         }
       ]
     },
     {
       "id": 9153,
-      "name": "Oracle",
-      "desc": "Turn End: convert 1 most-owned random E.G.O resource into 1 least-owned random E.G.O resource.",
+      "name": "เทพยากรณ์",
+      "desc": "จบเทิร์น: แปลงทรัพยากร E.G.O ของธาตุที่มีอยู่มากที่สุด 1 หน่วย ให้กลายเป็นทรัพยากร E.G.O +1 หน่วยแก่ธาตุที่มีทรัพยากรอยู่น้อยที่สุดแบบสุ่ม",
       "simpleDesc": [
         {
           "abilityID": 9153,
-          "simpleDesc": "Convert to 1 random E.G.O resource"
+          "simpleDesc": "แปลงทรัพยากร E.G.O ที่มีมากที่สุดเป็นอีก 1 ธาตุแบบสุ่ม"
         }
       ]
     },
     {
       "id": 9154,
-      "name": "Imposed Weight",
-      "desc": "If there are no other allies remaining at Turn End, consume 5% of the remaining HP next turn to gain 2 [Enhancement]. (does not activate at 25%- HP)\n\nIf this unit has 50%- HP, gain 3 [Enhancement] instead.",
+      "name": "แบกรับการยัดเยียด",
+      "desc": "หากไม่มีพันธมิตรใดเหลืออยู่เลยเมื่อจบเทิร์น จะผลาญเลือด 5% ของเลือดที่เหลืออยู่ในเทิร์นถัดไป เพื่อรับ [Enhancement] 2 หน่วย (ไม่ทำงานหากมีเลือดต่ำกว่า 25%-)\n\nหากตัวละครนี้มีเลือด 50%- จะได้รับ [Enhancement] 3 หน่วย",
       "simpleDesc": [
         {
           "abilityID": 9154,
-          "simpleDesc": "Consume 5% of the remaining HP next turn to gain 2 [Enhancement]"
+          "simpleDesc": "ผลาญเลือด 5% ของเลือดที่เหลืออยู่ในเทิร์นถัดไป เพื่อรับ [Enhancement] 2 หน่วย"
         }
       ]
     },
     {
       "id": 19086,
-      "name": "Reverberation+",
-      "desc": "Turn End: Inflict 2 [Binding] and <style=\"upgradeHighlight\">2 [DefenseDown]</style> to enemies (for Abnormalities, their Parts) with <style=\"upgradeHighlight\">8</style>+ [Vibration] Potency.\n\nIf the target has <style=\"upgradeHighlight\">15</style>+ [Vibration] Potency, apply 2 [Binding], 1 [Paralysis], <style=\"upgradeHighlight\">and 2 [DefenseDown]</style> instead.",
+      "name": "ก้องกังวาน+",
+      "desc": "จบเทิร์น: สร้าง [Binding] 2 หน่วย <style=\"upgradeHighlight\">และ [DefenseDown] 2 หน่วย</style>แก่ศัตรูทั้งหมด (สำหรับสิ่งผิดปกติจะส่งผลต่ออวัยวะทุกส่วน) ที่มีค่า [Vibration] <style=\"upgradeHighlight\">8+ หน่วย</style>\n\nหากเป้าหมายมีค่า [Vibration] <style=\"upgradeHighlight\">15+ หน่วย</style> จะสร้าง [Binding] 2 หน่วย, [Paralysis] 1 หน่วย, <style=\"upgradeHighlight\">และ [DefenseDown] 2 หน่วย</style>แทน",
       "simpleDesc": [
         {
           "abilityID": 19086,
-          "simpleDesc": "Inflict 2 [Binding] and 2 [DefenseDown]."
+          "simpleDesc": "สร้าง [Binding] 2 หน่วย และ [DefenseDown] 2 หน่วย"
         },
         {
           "abilityID": 190861,
-          "simpleDesc": "Inflict 2 [Binding], 1 [Paralysis], and 2 [DefenseDown]."
+          "simpleDesc": "สร้าง [Binding] 2 หน่วย, [Paralysis] 1 หน่วย, และ [DefenseDown] 2 หน่วย"
         }
       ]
     },
     {
       "id": 29086,
-      "name": "Reverberation++",
-      "desc": "Turn End: Inflict 2 [Binding] and <style=\"upgradeHighlight\">3</style> [DefenseDown] to enemies (for Abnormalities, their Parts) with <style=\"upgradeHighlight\">5</style>+ [Vibration] Potency.\n\nIf the target has <style=\"upgradeHighlight\">10</style>+ [Vibration] Potency, apply 2 [Binding], 1 [Paralysis], and <style=\"upgradeHighlight\">4</style> [DefenseDown] instead.",
+      "name": "ก้องกังวาน++",
+      "desc": "จบเทิร์น: สร้าง [Binding] 2 หน่วย และ [DefenseDown] <style=\"upgradeHighlight\">3 หน่วย</style>แก่ศัตรูทั้งหมด (สำหรับสิ่งผิดปกติจะส่งผลต่ออวัยวะทุกส่วน) ที่มีค่า [Vibration] <style=\"upgradeHighlight\">5+ หน่วย</style>\n\nหากเป้าหมายมีค่า [Vibration] <style=\"upgradeHighlight\">10+ หน่วย</style> จะสร้าง [Binding] 2 หน่วย, [Paralysis] 1 หน่วย, และ [DefenseDown] <style=\"upgradeHighlight\">4 หน่วย</style>แทน",
       "simpleDesc": [
         {
           "abilityID": 29086,
-          "simpleDesc": "Inflict 2 [Binding] and 3 [DefenseDown]."
+          "simpleDesc": "สร้าง [Binding] 2 หน่วย และ [DefenseDown] 3 หน่วย"
         },
         {
           "abilityID": 290861,
-          "simpleDesc": "Inflict 2 [Binding], 1 [Paralysis], and 4 [DefenseDown]."
+          "simpleDesc": "สร้าง [Binding] 2 หน่วย, [Paralysis] 1 หน่วย, และ [DefenseDown] 4 หน่วย"
         }
       ]
     },
     {
       "id": 19117,
-      "name": "Smoking Gunpowder+",
-      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nTurn End: If an Attack Skill inflicting [Burst] Potency or Count has been used at least once this turn, gain 1 [Agility] next turn.\n\nIf this unit's Speed is at <style=\"upgradeHighlight\">5</style>+, Attack Skills inflicting [Burst] Potency or Count deal <style=\"upgradeHighlight\">+15%</style> damage.",
+      "name": "ดินปืนควันโขมง+",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1, #2, <style=\"upgradeHighlight\">#3</style>]\n\nจบเทิร์น: หากใช้สกิลโจมตีที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้อย่างน้อยหนึ่งสกิลในเทิร์นนี้ จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป\n\nหากค่าความเร็วของตัวละครนี้อยู่ที่ <style=\"upgradeHighlight\">5+ หน่วย</style> สกิลโจมตีที่สร้างค่าหรือจำนวนครั้ง [Burst] ได้จะสร้างความเสียหายเพิ่มขึ้น <style=\"upgradeHighlight\">+15%</style>",
       "simpleDesc": [
         {
           "abilityID": 19117,
-          "simpleDesc": "If conditions are met: gain 1 [Agility] next turn."
+          "simpleDesc": "หากเงื่อนไขครบ: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 191171,
-          "simpleDesc": "If conditions are met: deal +15% damage"
+          "simpleDesc": "หากเงื่อนไขครบ: สร้างความเสียหายเพิ่มขึ้น +15%"
         }
       ]
     },
     {
       "id": 29117,
-      "name": "Smoking Gunpowder++",
-      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nTurn End: If an Attack Skill inflicting [Burst] Potency or Count has been used at least once this turn, gain <style=\"upgradeHighlight\">1~2</style> [Agility] next turn.\n\nIf this unit's Speed is at <style=\"upgradeHighlight\">4</style>+, Attack Skills inflicting [Burst] Potency or Count deal <style=\"upgradeHighlight\">+20%</style> damage.",
+      "name": "ดินปืนควันโขมง++",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1, #2, #3]\n\nจบเทิร์น: หากใช้สกิลโจมตีที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้อย่างน้อยหนึ่งสกิลในเทิร์นนี้ จะได้รับ [Agility] <style=\"upgradeHighlight\">1~2 หน่วย</style>ในเทิร์นถัดไป\n\nหากค่าความเร็วของตัวละครนี้อยู่ที่ <style=\"upgradeHighlight\">4+ หน่วย</style> สกิลโจมตีที่สร้างค่าหรือจำนวนครั้ง [Burst] ได้จะสร้างความเสียหายเพิ่มขึ้น <style=\"upgradeHighlight\">+20%</style>",
       "simpleDesc": [
         {
           "abilityID": 29117,
-          "simpleDesc": "If conditions are met: gain 1~2 [Agility] next turn."
+          "simpleDesc": "หากเงื่อนไขครบ: ได้รับ [Agility] 1~2 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 291171,
-          "simpleDesc": "If conditions are met: deal +20% damage"
+          "simpleDesc": "หากเงื่อนไขครบ: สร้างความเสียหายเพิ่มขึ้น +20%"
         }
       ]
     },
     {
       "id": 9155,
-      "name": "Decamillennial Stewpot",
-      "desc": "Skills that inflict [Combustion] Potency, Count, or 'Unique Burn' gain Clash Power +1.",
+      "name": "หม้อสตูว์หมื่นปี",
+      "desc": "สกิลที่สามารถสร้างค่า, จำนวนครั้ง, หรือ [Combustion] แบบพิเศษได้ จะได้รับแต้มแคลชสกิลเพิ่มขึ้น +1  แต้ม",
       "simpleDesc": [
         {
           "abilityID": 9155,
-          "simpleDesc": "Clash Power +1"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น +1  แต้ม"
         }
       ]
     },
     {
       "id": 9157,
-      "name": "Secret Cookbook",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Combustion] Potency, Count, or 'Unique Burn' effects. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nSkills that inflict [Combustion] Potency, Count, or 'Unique Burn': Final Power +1\n\nOn Clash Win with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn': inflict ((# of remaining Coins / 2) +1) [Combustion] Potency on the target",
+      "name": "สูตรลับความอร่อย",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Combustion] แบบพิเศษได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Combustion] แบบพิเศษได้:\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n\nเมื่อแคลชสกิลชนะด้วยสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Combustion] แบบพิเศษได้:\nสร้างค่า [Combustion] ((เหรียญที่เหลือ/2) + 1) หน่วยแก่เป้าหมาย",
       "simpleDesc": [
         {
           "abilityID": 9157,
-          "simpleDesc": "Skill Final Power +1"
+          "simpleDesc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม"
         },
         {
           "abilityID": 91571,
-          "simpleDesc": "Inflict ((# of remaining Coins / 2) +1) [Combustion] Potency"
+          "simpleDesc": "สร้างค่า [Combustion] ((เหรียญที่เหลือ/2) + 1) หน่วย"
         }
       ]
     },
     {
       "id": 9159,
-      "name": "Millarca",
-      "desc": "Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed' gain Clash Power +1.",
+      "name": "มิลลาร์คา",
+      "desc": "สกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Laceration] แบบพิเศษได้ จะได้รับแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม",
       "simpleDesc": [
         {
           "abilityID": 9159,
-          "simpleDesc": "Clash Power +1"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม"
         }
       ]
     },
     {
       "id": 9161,
-      "name": "Devotion",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Laceration] Potency, Count, or 'Unique Bleed' effects. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\n1 ally with the fastest Speed) Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed': Coin Power +1, damage dealt +50%\n\nFinal Power +1 to all Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed'.",
+      "name": "อุทิศตน",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Laceration] แบบพิเศษได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\n(พันธมิตรที่เร็วที่สุด 1 คน)\nสำหรับสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Laceration] แบบพิเศษได้:\n- แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +50%\n\nทุกสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Laceration] แบบพิเศษได้:\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม",
       "simpleDesc": [
         {
           "abilityID": 9161,
-          "simpleDesc": "Coin Power +1, deal +50% damage"
+          "simpleDesc": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +50%"
         },
         {
           "abilityID": 91611,
-          "simpleDesc": "Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed' gain Final Power +1."
+          "simpleDesc": "สกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Laceration] แบบพิเศษได้ จะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม"
         }
       ]
     },
     {
       "id": 9165,
-      "name": "Interlocked Cogs",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen [VibrationExplosion] triggers on a target for the 6th time this turn, add an additional Stagger Threshold at 0% mark of their current HP (once per Encounter)\n\nInflict 1 [Vulnerable] when triggering [Switch_Vibration] or [FusionVibration] (once per turn)",
+      "name": "ฟันเฟืองเชื่อมประสาน",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Vibration] แบบพิเศษได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเมื่อทำให้เกิด [VibrationExplosion] บนตัวเป้าหมายเป็นครั้งที่ 6 ในเทิร์นนี้ จะสร้างเกจชะงักเพิ่มเติมที่จุด 0% ของเลือดปัจจุบันเป้าหมาย (มีผลหนึ่งครั้ง/การเผชิญหน้า)\n\nสร้าง [Vulnerable] 1 หน่วย เมื่อทำให้เกิด [Switch_Vibration] หรือ [FusionVibration] (มีผลเทิร์นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 9165,
-          "simpleDesc": "Add a new Stagger Threshold"
+          "simpleDesc": "สร้างเกจชะงักใหม่"
         },
         {
           "abilityID": 91651,
-          "simpleDesc": "Inflict 1 [Vulnerable]"
+          "simpleDesc": "สร้าง [Vulnerable] 1 หน่วย"
         }
       ]
     },
     {
       "id": 9169,
-      "name": "Thorny Rope Cuffs",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen an enemy's [Burst] Count drops below 1 in combat, consume 20 [Burst] Potency instead of [Burst] Count (at less than 20 [Burst] Potency, however, the effect ends)\n\nOn Hit, when the target has 1 [Burst] Count in combat, inflict +1 more [Burst] Count (2 times per Encounter)",
+      "name": "เชือกหนามมัดมือ",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Burst] แบบพิเศษได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเมื่อจำนวนครั้ง [Burst] ของศัตรูลดต่ำกว่า 1 หน่วยในการต่อสู้ จะผลาญค่า [Burst] 20 หน่วยแทนจำนวนครั้ง [Burst] แทน (หากมีค่า [Burst] ต่ำกว่า 20 หน่วย เอฟเฟกต์นี้จะหมดลง)\n\nเมื่อโจมตีโดน หากเป้าหมายมีจำนวนครั้ง [Burst] เพียง 1 หน่วยในการต่อสู้ จะสร้างจำนวนครั้ง [Burst] เพิ่มเติม +1 หน่วย (2 ครั้ง/การเผชิญหน้า)",
       "simpleDesc": [
         {
           "abilityID": 9169,
-          "simpleDesc": "Consume Rupture Potency in place of Count"
+          "simpleDesc": "ผลาญค่า [Burst] แทนจำนวนครั้ง"
         },
         {
           "abilityID": 91691,
-          "simpleDesc": "Inflict +1 more Rupture Count"
+          "simpleDesc": "สร้างจำนวนครั้ง [Burst] เพิ่มขึ้น +1 หน่วย"
         }
       ]
     },
     {
       "id": 9174,
-      "name": "Tangled Bones",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: enemies with [Sinking](for Abnormalities, all Parts) regain ([Sinking] Count lost on hit last turn / 3) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 SP(for enemies without SP, if they have 1.5+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, 10 times per turn for this effect)",
+      "name": "ซากกระดูกยุ่งเหยิง",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ [Sinking] แบบพิเศษได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเริ่มเทิร์น: ศัตรูทั้งหมดที่มี [Sinking] (สำหรับสิ่งผิดปกติจะมีผลกับทุกอวัยวะ) จะได้รับจำนวนครั้ง [Sinking] คืน (จำนวนครั้ง [Sinking] ที่เสียไปจากการถูกโจมตีในเทิร์นก่อน / 3) หน่วย\n\nหากสกิลโจมตีพื้นฐานโจมตีโดนเป้าหมายที่มีค่า SP ต่ำกว่า 0 หน่วย (สำหรับศัตรูที่ไม่มีค่าสติ จะมีผลหากมีตัวคูณธาตุโศกา x1.5+) จะสร้างความเสียหายธาตุโศกา (ค่า [Sinking] / 10) หน่วย (ต่ำสุด 1 หน่วย เอฟเฟกต์นี้มีผลสูงสุด 10 ครั้ง/เทิร์น)",
       "simpleDesc": [
         {
           "abilityID": 9174,
-          "simpleDesc": "Inflict [Sinking] Count"
+          "simpleDesc": "สร้างจำนวนครั้ง [Sinking]"
         },
         {
           "abilityID": 91741,
-          "simpleDesc": "Inflict Gloom Affinity damage"
+          "simpleDesc": "สร้างความเสียหายธาตุโศกา"
         }
       ]
     },
     {
       "id": 9177,
-      "name": "Recollection of a Certain Day",
-      "desc": "Skill 3 for Identities that can gain [Breath] Potency or Count through Skills(except E.G.O Skills): Final Power +2",
+      "name": "ความทรงจำในวันนั้น",
+      "desc": "สกิล 3 ของตัวตนที่สามารถรับค่าหรือจำนวนครั้ง [Breath] ผ่านสกิลได้ (ยกเว้นสกิล E.G.O):\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม",
       "simpleDesc": [
         {
           "abilityID": 9177,
-          "simpleDesc": "Final Power +2"
+          "simpleDesc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม"
         }
       ]
     },
     {
       "id": 9179,
-      "name": "Reminiscence",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\nSkill 3 of Identities with Skills(except E.G.O Skills) that gain [Breath] Potency or Count: Coin Power +1\n\nCombat Start: a random ally gains 3 [Breath] Potency. (prioritizes Identities that gain [Breath] Potency or Count with their Attack Skills) Prioritizes allies with Gloom Affinity Attack Skills; they gain 3 [Breath] Potency and +2 [Breath] Count instead.",
+      "name": "หวนระลึก",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถมอบหรือรับค่า/จำนวนครั้ง [Breath] ได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nสกิล 3 ของตัวตนที่สามารถรับค่าหรือจำนวนครั้ง [Breath] ผ่านสกิลได้ (ยกเว้นสกิล E.G.O):\n- แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n\nเริ่มการต่อสู้: พันธมิตรหนึ่งคนแบบสุ่ม จะได้รับค่า [Breath] 3 หน่วย\n(ให้ความสำคัญกับตัวตนที่สามารถรับค่าหรือจำนวนครั้ง [Breath] ผ่านสกิลโจมตีของตนได้ก่อน)\n(ให้ความสำคัญกับพันธมิตรที่มีสกิลโจมตีธาตุโศกาก่อน โดยพันธมิตรคนดังกล่าวจะได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วยแทน)",
       "simpleDesc": [
         {
           "abilityID": 9179,
-          "simpleDesc": "Coin Power +1"
+          "simpleDesc": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม"
         },
         {
           "abilityID": 91791,
-          "simpleDesc": "Gain 3 [Breath] Potency. Allies with Gloom Affinity Attack Skills gain an additional +2 [Breath] Count"
+          "simpleDesc": "ได้รับค่า [Breath] 3 หน่วย\nโดยพันธมิตรที่มีสกิลโจมตีธาตุโศกาจะได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วยแทน"
         }
       ]
     },
     {
       "id": 9182,
-      "name": "T-1B Octagonal Bolt",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: all allies gain (([Charge] Count + 'Unique Charge') / 10) [AttackDmgUp]. (max 2, rounded up)\n\nTurn End: allies without [ChargeForceField] gain 1 [ChargeForceField].\n\nEach Identity gains 1 [Charge] Potency every time they consume 20 [Charge] Count. (2 times per Identity per Encounter; Unique Charge does not interact with this effect)",
+      "name": "น็อตแปดเหลี่ยม T-1B ",
+      "desc": "เริ่มการเผชิญหน้า: ของขวัญชิ้นนี้จะทำงานต่อเมื่อมีตัวตน 5 คนหรือมากกว่านั้นที่มีสกิลโจมตีซึ่งสามารถรับจำนวน [Charge] หรือ 'ชาร์จพิเศษ' ได้ (ยกเว้นสกิล E.G.O และจะนับเฉพาะตัวตนที่ยืนบนสนามเมื่อเริ่มการเผชิญหน้า)\n\nเริ่มเทิร์น: พันธมิตรทั้งหมดจะได้รับ [AttackDmgUp] ((จำนวน [Charge] + 'ชาร์จแบบพิเศษ)/ 10) หน่วย (สูงสุด 2 หน่วย ปัดเศษขึ้น)\n\nจบเทิร์น: พันธมิตรที่ไม่มี [ChargeForceField] จะได้รับ [ChargeForceField] 1 หน่วย\n\nตัวตนแต่ละร่างจะได้รับค่า [Charge] 1 หน่วย ตามทุก ๆ ครั้งที่ตัวตนดังกล่าวผลาญจำนวน [Charge] 20 หน่วย (มีผล 2 ครั้ง/ตัวตน/การเผชิญหน้า โดย 'ชาร์จแบบพิเศษ' จะไม่มีปฏิสัมพันธ์กับเอฟเฟกต์นี้)",
       "simpleDesc": [
         {
           "abilityID": 9182,
-          "simpleDesc": "Gain ([Charge] Count / 10) [AttackDmgUp]"
+          "simpleDesc": "ได้รับ [AttackDmgUp] (จำนวน [Charge])/ 10) หน่วย"
         },
         {
           "abilityID": 91821,
-          "simpleDesc": "Gain 1 [ChargeForceField]"
+          "simpleDesc": "ได้รับ [ChargeForceField] 1 หน่วย"
         },
         {
           "abilityID": 91822,
-          "simpleDesc": "Gain 1 [Charge] Potency"
+          "simpleDesc": "ได้รับค่า [Charge] 1 หน่วย"
         }
       ]
     },
     {
       "id": 9185,
-      "name": "Rebate Token",
-      "desc": "20% chance to get the Cost refunded when Enhancing in a Shop.",
+      "name": "เหรียญส่วนลด",
+      "desc": "มีโอกาส 20% ที่จะได้รับทุนใช้จ่ายคืน เมื่อทำการเสริมของขวัญ E.G.O ในร้าน",
       "simpleDesc": [
         {
           "abilityID": 9185,
@@ -4519,8 +4519,8 @@
     },
     {
       "id": 9186,
-      "name": "New Release Pamphlet",
-      "desc": "20% chance to get the Cost refunded when Refreshing in a Shop.",
+      "name": "ใบปลิวของปล่อยใหม่",
+      "desc": "มีโอกาส 20% ที่จะได้รับทุนใช้จ่ายคืน เมื่อทำการรีเฟรชของขวัญ E.G.O ที่ขายในร้าน",
       "simpleDesc": [
         {
           "abilityID": 9186,
@@ -4530,8 +4530,8 @@
     },
     {
       "id": 9187,
-      "name": "Special Catalogue",
-      "desc": "Number of Encounter Reward Card Choices +1",
+      "name": "แคตาล็อกพิเศษ",
+      "desc": "จำนวนการ์ดรางวัลเผชิญหน้าที่เลือกได้จะเพิ่มขึ้น +1 ใบ",
       "simpleDesc": [
         {
           "abilityID": 9187,
@@ -4541,8 +4541,8 @@
     },
     {
       "id": 9188,
-      "name": "Pre-order Discount",
-      "desc": "Shop Regular Refresh Cost -30%",
+      "name": "ส่วนลดพรีออเดอร์",
+      "desc": "ค่ารีเฟรชทั่วไปในร้าน -30%",
       "simpleDesc": [
         {
           "abilityID": 19188,
@@ -4552,8 +4552,8 @@
     },
     {
       "id": 9189,
-      "name": "Renewed Merch",
-      "desc": "Shop E.G.O Gift Enhance Cost -30%",
+      "name": "สินค้าเปลี่ยนใหม่",
+      "desc": "ค่าเสริมของขวัญ E.G.O ในร้าน -30%",
       "simpleDesc": [
         {
           "abilityID": 19189,
@@ -4563,8 +4563,8 @@
     },
     {
       "id": 9190,
-      "name": "Trial Plan Guide",
-      "desc": "Shop Skill Replacement Cost -30%",
+      "name": "ไกด์วางแผนลองเล่น",
+      "desc": "ค่าแทนที่สกิลตัวตนในร้าน -30%",
       "simpleDesc": [
         {
           "abilityID": 29190,
@@ -4574,8 +4574,8 @@
     },
     {
       "id": 9191,
-      "name": "Prestige Card",
-      "desc": "Shop E.G.O Gift Purchase Cost -30%",
+      "name": "บัตรกิตติคุณ",
+      "desc": "ค่าซื้อของขวัญ E.G.O ในร้าน -30%",
       "simpleDesc": [
         {
           "abilityID": 29191,
@@ -4585,8 +4585,8 @@
     },
     {
       "id": 9991,
-      "name": "Dark Vestige",
-      "desc": "Counts as a Tier 1 E.G.O Gift. Can be sold at a Shop or be used as an ingredient for Fusion.",
+      "name": "ซากทมิฬ",
+      "desc": "นับเป็นของขวัญ E.G.O ระดับ 1\nสามารถขายหรือใช้ผสมของขวัญ E.G.O ได้ที่ร้าน",
       "simpleDesc": [
         {
           "abilityID": 9991,
@@ -4596,8 +4596,8 @@
     },
     {
       "id": 9992,
-      "name": "Faint Vestige",
-      "desc": "Counts as a Tier 2 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "name": "ซากจาง",
+      "desc": "นับเป็นของขวัญ E.G.O ระดับ 2\nสามารถขายหรือใช้ผสมของขวัญ E.G.O ได้ที่ร้าน",
       "simpleDesc": [
         {
           "abilityID": 9992,
@@ -4607,8 +4607,8 @@
     },
     {
       "id": 9993,
-      "name": "Twinkling Vestige",
-      "desc": "Counts as a Tier 3 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "name": "ซากประกาย",
+      "desc": "นับเป็นของขวัญ E.G.O ระดับ 3\nสามารถขายหรือใช้ผสมของขวัญ E.G.O ได้ที่ร้าน",
       "simpleDesc": [
         {
           "abilityID": 9993,
@@ -4618,8 +4618,8 @@
     },
     {
       "id": 9994,
-      "name": "Brilliant Vestige",
-      "desc": "Counts as a Tier 4 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "name": "ซากจรัส",
+      "desc": "นับเป็นของขวัญ E.G.O ระดับ 4\nสามารถขายหรือใช้ผสมของขวัญ E.G.O ได้ที่ร้าน",
       "simpleDesc": [
         {
           "abilityID": 9994,
@@ -4629,8 +4629,8 @@
     },
     {
       "id": 9995,
-      "name": "Lunar Vestige",
-      "desc": "Counts as a Tier 5 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "name": "ซากดวงเดือน",
+      "desc": "นับเป็นของขวัญ E.G.O ระดับ 5\nสามารถขายหรือใช้ผสมของขวัญ E.G.O ได้ที่ร้าน",
       "simpleDesc": [
         {
           "abilityID": 9995,
@@ -4640,373 +4640,373 @@
     },
     {
       "id": 9192,
-      "name": "Layered Bandages",
-      "desc": "Turn End: among allies with Bleed, the Identity with the least HP heals 5% of their max HP.",
+      "name": "ผ้าพันแผลทับซ้อน",
+      "desc": "จบเทิร์น: ท่ามกลางพันธมิตรที่มี [Laceration] ตัวตนที่มีเลือดต่ำที่สุดจะฟื้นฟูเลือด 5% ของเลือดสูงสุดตนเอง",
       "simpleDesc": [
         {
           "abilityID": 9192,
-          "simpleDesc": "Heal 1 ally with Bleed"
+          "simpleDesc": "ฟื้นฟูเลือดพันธมิตรที่มี [Laceration]"
         }
       ]
     },
     {
       "id": 19192,
-      "name": "Layered Bandages+",
-      "desc": "Turn End: among allies with Bleed, <style=\"upgradeHighlight\">two</style> Identities with the least HP heal 5% of their max HP.",
+      "name": "ผ้าพันแผลทับซ้อน+",
+      "desc": "จบเทิร์น: ท่ามกลางพันธมิตรที่มี [Laceration] <style=\"upgradeHighlight\">ตัวตนสองคน</style>ที่มีเลือดต่ำที่สุดจะฟื้นฟูเลือด 5% ของเลือดสูงสุดตนเอง",
       "simpleDesc": [
         {
           "abilityID": 19192,
-          "simpleDesc": "Heal 2 allies with Bleed"
+          "simpleDesc": "ฟื้นฟูเลือดพันธมิตรสองคนที่มี [Laceration]"
         }
       ]
     },
     {
       "id": 9193,
-      "name": "Overused Whetstone",
-      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nSlash Skills gain +(# of Slash Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nWhen attacking enemies Weak(greater than 1.0 Resist.; Staggered states don't count), to Slash, deal +(5 + (target's Slash Resist. x 10))% damage. (max 25%)",
+      "name": "หินลับมีดใช้ซ้ำ",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3]\n\nสกิลประเภทฟันจะได้รับเลเวลจู่โจม +(จำนวนสกิลพื้นฐานประเภทฟัน) หน่วย (สกิลเดียวกันจะไม่นับซ้ำ สูงสุด 3 หน่วย)\n\nเมื่อโจมตีศัตรูที่มีความต้านทาน 'อ่อนแอ (x1.0+) (ไม่นับที่เพิ่มจากการติดชะงัก)' ด้วยสกิลประเภทฟัน จะสร้างความเสียหายเพิ่มขึ้น +(5 + (ตัวคูณต้านทานการฟันของเป้าหมาย x 10))% (สูงสุด 25%)",
       "simpleDesc": [
         {
           "abilityID": 9193,
-          "simpleDesc": "Slash Skills gain Offense Level"
+          "simpleDesc": "สกิลประเภทฟันได้รับเลเวลจู่โจม"
         },
         {
           "abilityID": 91931,
-          "simpleDesc": "Deal more Slash damage"
+          "simpleDesc": "สกิลประเภทฟันสร้างความเสียหายเพิ่มขึ้น"
         }
       ]
     },
     {
       "id": 9194,
-      "name": "Short Cane Sword",
-      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well\n\nEncounter Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (rounded down; max 2)",
+      "name": "ดาบไม้เท้าสั้น",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภทฟัน: สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไปแก่เป้าหมาย (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\n- สำหรับตัวตนจาก <สมาคมเซเว่น>: เอฟเฟกต์ข้างต้นมีผลกับสกิลโจมตีพื้นฐานประเภทแทงและทุบด้วยเช่นกัน\n\nเริ่มการเผชิญหน้า: ตัวตนจาก <สมาคมเซเว่น> จะได้รับ [ParryingResultUp] (จำนวนตัวตนจาก <สมาคมเซเว่น> / 2) หน่วย (ปัดเศษลง สูงสุด 2 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 9193,
-          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power"
+          "simpleDesc": "สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป"
         },
         {
           "abilityID": 91931,
-          "simpleDesc": "Clash Power Up"
+          "simpleDesc": "แต้มแคลชสกิลของตัวตนจาก <สมาคมเซเว่น> เพิ่มขึ้น"
         }
       ]
     },
     {
       "id": 19194,
-      "name": "Short Cane Sword+",
-      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well, <style=\"upgradeHighlight\">and inflict Weakness Analyzed as well</style>\n\n<style=\"upgradeHighlight\">Odd-numbered Turn Start</style>: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (rounded down; max 2)",
+      "name": "ดาบไม้เท้าสั้น+",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภทฟัน: สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไปแก่เป้าหมาย (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\n- สำหรับตัวตนจาก <สมาคมเซเว่น>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทแทงและทุบ <style=\"upgradeHighlight\">พร้อมทั้งสร้าง [WeaknessAnalysis]</style> ด้วยเช่นกัน\n\n<style=\"upgradeHighlight\">เริ่มเทิร์นเลขคี่</style>: ตัวตนจาก <สมาคมเซเว่น> จะได้รับ [ParryingResultUp] (จำนวนตัวตนจาก <สมาคมเซเว่น> / 2) หน่วย (ปัดเศษลง สูงสุด 2 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 19193,
-          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power and inflict Weakness Analyzed as well"
+          "simpleDesc": "สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป โดยตัวตนจาก <สมาคมเซเว่น> จะสร้าง [WeaknessAnalysis] ด้วยเช่นกัน"
         },
         {
           "abilityID": 191931,
-          "simpleDesc": "Clash Power Up"
+          "simpleDesc": "แต้มแคลชสกิลของตัวตนจาก <สมาคมเซเว่น> เพิ่มขึ้น"
         }
       ]
     },
     {
       "id": 29194,
-      "name": "Short Cane Sword++",
-      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well, and inflict Weakness Analyzed and 1<style=\"upgradeHighlight\"> Clash Power Down</style> as well\n\n<style=\"upgradeHighlight\">Turn Start</style>: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up. (rounded down; max 2) <style=\"upgradeHighlight\">On Clash Win, deal +20% damage with the Skill.</style>",
+      "name": "ดาบไม้เท้าสั้น++",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภทฟัน: สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไปแก่เป้าหมาย (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\n- สำหรับตัวตนจาก <สมาคมเซเว่น>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทแทงและทุบ พร้อมทั้งสร้าง [WeaknessAnalysis] <style=\"upgradeHighlight\">และ [ParryingResultDown] 1 หน่วย</style>ด้วยเช่นกัน\n\nเริ่มเทิร์น: ตัวตนจาก <สมาคมเซเว่น> จะได้รับ [ParryingResultUp] (จำนวนตัวตนจาก <สมาคมเซเว่น> / 2) หน่วย (ปัดเศษลง สูงสุด 2 หน่วย) <style=\"upgradeHighlight\">และเมื่อแคลชสกิลชนะ สกิลจะสร้างความเสียหายเพิ่มขึ้น +20%</style>",
       "simpleDesc": [
         {
           "abilityID": 29193,
-          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power and inflict Weakness Analyzed as well"
+          "simpleDesc": "สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป โดยตัวตนจาก <สมาคมเซเว่น> จะสร้าง [WeaknessAnalysis] และ [ParryingResultDown] 1 หน่วยด้วยเช่นกัน"
         },
         {
           "abilityID": 291931,
-          "simpleDesc": "Clash Power Up, deal +20% damage"
+          "simpleDesc": "แต้มแคลชสกิลของตัวตนจาก <สมาคมเซเว่น> เพิ่มขึ้น และสร้างความเสียหายเพิ่มขึ้น +20%"
         }
       ]
     },
     {
       "id": 9195,
-      "name": "Cloudpattern Gourd Bottle",
-      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to all Slash Attack Type Skills instead\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain 1 Poise Potency (4 times per turn per Identity)",
+      "name": "ขวดน้ำเต้าลายสลักเมฆา",
+      "desc": "สกิล 1 ที่เป็นสกิลประเภทฟัน:\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- เมื่อโจมตีโดนจะสร้าง [AttackDown] 2 หน่วย\nสำหรับตัวตนจาก <แก๊งคุโระคุโมะ>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลประเภทฟันทั้งหมดแทน\n\nเริ่มเทิร์น: ตัวตนจาก <แก๊งคุโระคุโมะ> จะได้รับ [ResultEnhancement] 1 หน่วย และเมื่อสร้างค่าหรือจำนวนครั้ง [Laceration] ขณะโจมตีโดนด้วยสกิลโจมตีพื้นฐาน จะได้รับค่า [Breath] 1 หน่วย (4 ครั้ง/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 9195,
-          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และเมื่อโจมตีโดนจะสร้าง [AttackDown]"
         },
         {
           "abilityID": 91951,
-          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+          "simpleDesc": "ได้รับ [ResultEnhancement] 1 หน่วย และได้รับค่า [Breath] เมื่อสร้าง [Laceration]"
         }
       ]
     },
     {
       "id": 19195,
-      "name": "Cloudpattern Gourd Bottle+",
-      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to all Slash Attack Type <style=\"upgradeHighlight\">or Lust Affinity</style> Base Attack Skills instead\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain 1 Poise Potency (<style=\"upgradeHighlight\">6</style> times per turn per Identity)",
+      "name": "ขวดน้ำเต้าลายสลักเมฆา+",
+      "desc": "สกิล 1 ที่เป็นสกิลประเภทฟัน:\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- เมื่อโจมตีโดนจะสร้าง [AttackDown] 2 หน่วย\nสำหรับตัวตนจาก <แก๊งคุโระคุโมะ>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลประเภทฟันทั้งหมด <style=\"upgradeHighlight\">หรือกับสกิลธาตุราคะ</style>แทน\n\nเริ่มเทิร์น: ตัวตนจาก <แก๊งคุโระคุโมะ> จะได้รับ [ResultEnhancement] 1 หน่วย และเมื่อสร้างค่าหรือจำนวนครั้ง [Laceration] ขณะโจมตีโดนด้วยสกิลโจมตีพื้นฐาน จะได้รับค่า [Breath] 1 หน่วย (<style=\"upgradeHighlight\">6 ครั้ง</style>/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 19195,
-          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และเมื่อโจมตีโดนจะสร้าง [AttackDown]"
         },
         {
           "abilityID": 191951,
-          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+          "simpleDesc": "ได้รับ [ResultEnhancement] 1 หน่วย และได้รับค่า [Breath] เมื่อสร้าง [Laceration]"
         }
       ]
     },
     {
       "id": 29195,
-      "name": "Cloudpattern Gourd Bottle++",
-      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to <style=\"upgradeHighlight\">all</style> Base Attack Skills instead\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain <style=\"upgradeHighlight\">1~2</style> Poise Potency (<style=\"upgradeHighlight\">8</style> times per turn per Identity)",
+      "name": "ขวดน้ำเต้าลายสลักเมฆา++",
+      "desc": "สกิล 1 ที่เป็นสกิลประเภทฟัน:\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- เมื่อโจมตีโดนจะสร้าง [AttackDown] 2 หน่วย\nสำหรับตัวตนจาก <แก๊งคุโระคุโมะ>: เอฟเฟกต์ข้างต้นจะมีผลกับ<style=\"upgradeHighlight\">สกิลโจมตีพื้นฐานทั้งหมด</style>แทน\n\nเริ่มเทิร์น: ตัวตนจาก <แก๊งคุโระคุโมะ> จะได้รับ [ResultEnhancement] 1 หน่วย และเมื่อสร้างค่าหรือจำนวนครั้ง [Laceration] ขณะโจมตีโดนด้วยสกิลโจมตีพื้นฐาน จะได้รับค่า [Breath] <style=\"upgradeHighlight\">1~2 หน่วย</style> (<style=\"upgradeHighlight\">8 ครั้ง</style>/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 29195,
-          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และเมื่อโจมตีโดนจะสร้าง [AttackDown]"
         },
         {
           "abilityID": 291951,
-          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+          "simpleDesc": "ได้รับ [ResultEnhancement] 1 หน่วย และได้รับค่า [Breath] เมื่อสร้าง [Laceration]"
         }
       ]
     },
     {
       "id": 9196,
-      "name": "Broken Greatsword",
-      "desc": "Slash Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Slash base Attack Skills this turn. (max 3)\n\nAllies with Slash Attack Type for all of their base Attack Skills gain 2 [SlashDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using Guard(except Power Guard), gain 1 [Protection] and 3 [DefenseUp] (once per Identity per turn). When, in a single turn, an allied Identity takes 2 instances of HP or Shield HP damage by getting attacked by enemy's single-target Attack Skill, gain 1 [DefenseUp] next turn (max 3)\n\nAt Turn Start, Zwei Association Identities gain 2 [Enhancement] and 1 [SlashResultUp]; then, gain 2 [DefenseUp] for every other Zwei Association Identity (max 8)",
+      "name": "ดาบใหญ่ผุพัง",
+      "desc": "สกิลโจมตีพื้นฐานประเภทฟัน: จะได้รับแต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม\nเมื่อเริ่มการต่อสู้ จะได้รับ [AttackUp] เท่ากับจำนวนตัวตนที่ใช้สกิลโจมตีพื้นฐานประเภทฟันในเทิร์นนี้ (สูงสุด 3 หน่วย)\n\nพันธมิตรที่มีสกิลโจมตีพื้นฐานทั้งหมดของตนเองเป็นการโจมตีประเภทฟัน: จะได้รับ [SlashDamageUp] 2 หน่วยเมื่อเริ่มเทิร์น (ยกเว้นสกิลแบบเสริมพลัง หรือสกิลที่มีเงื่อนไขพิเศษ)\n\nเมื่อใช้สกิลตั้งโล่ (ยกเว้นสกิลตั้งโล่แบบแคลชได้): จะได้รับ [Protection] 1 หน่วย และ [DefenseUp] 3 หน่วย (มีผลหนึ่งครั้ง/ตัวตน/เทิร์น)\n\nเมื่อตัวตนพันธมิตรได้รับความเสียหายเลือดหรือความเสียหายโล่เลือด จากการถูกโจมตีโดยสกิลโจมตีเป้าเดี่ยวของศัตรู 2 ครั้งภายในเทิร์นเดียว: จะได้รับ [DefenseUp] 1 หน่วยในเทิร์นถัดไป (สูงสุด 3 หน่วย)\n\nเมื่อเริ่มเทิร์น: ตัวตนจาก <สมาคมซไว> จะได้รับ [Enhancement] 2 หน่วย และ [SlashResultUp] 1 หน่วย จากนั้นจะได้รับ [DefenseUp] 2 หน่วย ตามทุก ๆ ตัวตนจาก <สมาคมซไว> คนอื่นในทีม (สูงสุด 8 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 9196,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp]"
         },
         {
           "abilityID": 91961,
-          "simpleDesc": "Gain Defense Level Up"
+          "simpleDesc": "ได้รับ [DefenseUp]"
         },
         {
           "abilityID": 91962,
-          "simpleDesc": "Gain Attack Power Up & Defense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp] & [DefenseUp]"
         }
       ]
     },
     {
       "id": 9197,
-      "name": "High-tensility Shoes",
-      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nPierce Skills gain +(# of Pierce Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nAt 3+ [Agility]: when attacking an enemy, deal +(10 + ([Agility] on self x 3))% more Pierce damage (max 25%).",
+      "name": "รองเท้ายืดหยุ่นสูง",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3]\n\nสกิลประเภทฟันจะได้รับเลเวลจู่โจม +(จำนวนสกิลโจมตีพื้นฐานประเภทฟัน) หน่วย (สกิลเดียวกันจะไม่นับซ้ำ สูงสุด 3 หน่วย)\n\nขณะมี [Agility] 3+ หน่วย: เมื่อโจมตีศัตรู จะสร้างความเสียหายแทงเพิ่มขึ้น +(10 + ([Agility] ที่ตนเองมี x 3))% (สูงสุด 25%)",
       "simpleDesc": [
         {
           "abilityID": 9197,
-          "simpleDesc": "Pierce Skills gain +(# of Pierce Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)"
+          "simpleDesc": "สกิลประเภทฟันจะได้รับเลเวลจู่โจม +(จำนวนสกิลโจมตีพื้นฐานประเภทฟัน) หน่วย (สกิลเดียวกันจะไม่นับซ้ำ สูงสุด 3 หน่วย)"
         },
         {
           "abilityID": 91971,
-          "simpleDesc": "At 3+ Haste: when attacking an enemy, deal +(10 + (Haste on self x 3))% more Pierce damage (max 25%)."
+          "simpleDesc": "ขณะมี [Agility] 3+ หน่วย: เมื่อโจมตีศัตรู จะสร้างความเสียหายแทงเพิ่มขึ้น +(10 + ([Agility] ที่ตนเองมี x 3))% (สูงสุด 25%)"
         }
       ]
     },
     {
       "id": 9198,
-      "name": "Plume of Proof",
-      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn per Identity; does not stack against the same enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well.\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel', 'Nerve Strike', or 'Focused Attack', gain 2 Poise Potency On Hit (once per turn per Identity)",
+      "name": "ขนนกพิสูจน์",
+      "desc": "เมื่อโจมตีโดนหลังจากสกิลโจมตีพื้นฐานประเภทแทงแคลชสกิลชนะ: สร้าง [Binding] 1 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\n- สำหรับตัวตนจาก <สมาคมแซ็งก์>: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน\n\nเมื่อตัวตนจาก <สมาคมแซ็งก์> ใช้สกิลโจมตีพื้นฐานแคลชสกิลชนะเป้าหมาย (หรืออวัยวะสิ่งผิดปกติ) ที่มี 'ประกาศท้าดวล', 'กดจุดเส้นประสาท', หรือ 'โจมตีเพ่งเล็ง' จะได้รับค่า [Breath] 2 หน่วยเมื่อโจมตีโดน (มีผล 1 ครั้ง/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 9198,
-          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+          "simpleDesc": "สร้าง [Binding]; ตัวตนจาก <สมาคมแซ็งก์> ได้รับ [Agility] ในเทิร์นถัดไปด้วยเช่นกัน"
         },
         {
           "abilityID": 91981,
-          "simpleDesc": "Gain Poise Potency"
+          "simpleDesc": "ได้รับค่า [Breath]"
         }
       ]
     },
     {
       "id": 19198,
-      "name": "Plume of Proof+",
-      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn per Identity; <style=\"upgradeHighlight\">max 2</style> per enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well. (once per turn per Identity)\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel', 'Nerve Strike', or 'Focused Attack', gain <style=\"upgradeHighlight\">4</style> Poise Potency On Hit (once per turn per Identity)",
+      "name": "ขนนกพิสูจน์+",
+      "desc": "เมื่อโจมตีโดนหลังจากสกิลโจมตีพื้นฐานประเภทแทงแคลชสกิลชนะ: สร้าง [Binding] 1 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน <style=\"upgradeHighlight\">มีผลสูงสุด 2 ครั้งต่อศัตรู</style>)\n- สำหรับตัวตนจาก <สมาคมแซ็งก์>: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน\n\nเมื่อตัวตนจาก <สมาคมแซ็งก์> ใช้สกิลโจมตีพื้นฐานแคลชสกิลชนะเป้าหมาย (หรืออวัยวะสิ่งผิดปกติ) ที่มี 'ประกาศท้าดวล', 'กดจุดเส้นประสาท', หรือ 'โจมตีเพ่งเล็ง' จะได้รับค่า [Breath] <style=\"upgradeHighlight\">4 หน่วย</style>เมื่อโจมตีโดน (มีผล 1 ครั้ง/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 19198,
-          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+          "simpleDesc": "สร้าง [Binding]; ตัวตนจาก <สมาคมแซ็งก์> ได้รับ [Agility] ในเทิร์นถัดไปด้วยเช่นกัน"
         },
         {
           "abilityID": 191981,
-          "simpleDesc": "Gain Poise Potency"
+          "simpleDesc": "ได้รับค่า [Breath]"
         }
       ]
     },
     {
       "id": 29198,
-      "name": "Plume of Proof++",
-      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn per Identity; max 2 per enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well. (<style=\"upgradeHighlight\">2</style> times per turn per Identity)\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel', 'Nerve Strike', or 'Focused Attack', gain 4 Poise Potency On Hit (<style=\"upgradeHighlight\">2</style> times per turn per Identity)",
+      "name": "ขนนกพิสูจน์++",
+      "desc": "เมื่อโจมตีโดนหลังจากสกิลโจมตีพื้นฐานประเภทแทงแคลชสกิลชนะ: สร้าง [Binding] 1 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผลหนึ่งครั้ง/เทิร์น/ตัวตน มีผลสูงสุด 2 ครั้งต่อศัตรู)\n- สำหรับตัวตนจาก <สมาคมแซ็งก์>: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน <style=\"upgradeHighlight\">(มีผล 2 ครั้ง/เทิร์น/ตัวตน)</style>\n\nเมื่อตัวตนจาก <สมาคมแซ็งก์> ใช้สกิลโจมตีพื้นฐานแคลชสกิลชนะเป้าหมาย (หรืออวัยวะสิ่งผิดปกติ) ที่มี 'ประกาศท้าดวล', 'กดจุดเส้นประสาท', หรือ 'โจมตีเพ่งเล็ง' จะได้รับค่า [Breath] 4 หน่วยเมื่อโจมตีโดน (มีผล <style=\"upgradeHighlight\">2 ครั้ง</style>/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 29198,
-          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+          "simpleDesc": "สร้าง [Binding]; ตัวตนจาก <สมาคมแซ็งก์> ได้รับ [Agility] ในเทิร์นถัดไปด้วยเช่นกัน"
         },
         {
           "abilityID": 291981,
-          "simpleDesc": "Gain Poise Potency"
+          "simpleDesc": "ได้รับค่า [Breath]"
         }
       ]
     },
     {
       "id": 9199,
-      "name": "Torn Hems",
-      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to all Pierce Attack Type Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain (# of negative effects on self) [AttackUp]. (max 3)",
+      "name": "ชายเสื้อฉีกขาด",
+      "desc": "สกิล 2 ที่เป็นสกิลประเภทแทง:\n- เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย\n- หากสกิลดังกล่าวมีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้น เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย และแต้มแคลชสกิลจะเพิ่มขึ้น +(2/จำนวนเหรียญ) แต้มแทน\nสำหรับตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทแทงทั้งหมด\n\nเริ่มเทิร์น: ตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี> จะได้รับ [AttackUp] (จำนวนสถานะผิดปกติที่ตนเองมี) หน่วย (สูงสุด 3 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 9199,
-          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+          "simpleDesc": "เลเวลจู่โจมจะเพิ่มขึ้น และสกิลที่มีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้นจะได้รับแต้มแคลชสกิลเพิ่มขึ้น"
         },
         {
           "abilityID": 91991,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp]"
         }
       ]
     },
     {
       "id": 19199,
-      "name": "Torn Hems+",
-      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to all Pierce Attack Type <style=\"upgradeHighlight\">or Gluttony Affinity</style> Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain <style=\"upgradeHighlight\">(# of negative effects on self + 1)</style> [AttackUp]. (max <style=\"upgradeHighlight\">4</style>)",
+      "name": "ชายเสื้อฉีกขาด+",
+      "desc": "สกิล 2 ที่เป็นสกิลประเภทแทง:\n- เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย\n- หากสกิลดังกล่าวมีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้น เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย และแต้มแคลชสกิลจะเพิ่มขึ้น +(2/จำนวนเหรียญ) แต้มแทน\nสำหรับตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทแทง<style=\"upgradeHighlight\">หรือสกิลธาตุตะกละ</style>ทั้งหมดแทน\n\nเริ่มเทิร์น: ตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี> จะได้รับ [AttackUp] (จำนวนสถานะผิดปกติที่ตนเองมี <style=\"upgradeHighlight\">+ 1</style>) หน่วย (สูงสุด <style=\"upgradeHighlight\">4 หน่วย</style>)",
       "simpleDesc": [
         {
           "abilityID": 19199,
-          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+          "simpleDesc": "เลเวลจู่โจมจะเพิ่มขึ้น และสกิลที่มีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้นจะได้รับแต้มแคลชสกิลเพิ่มขึ้น"
         },
         {
           "abilityID": 191991,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp]"
         }
       ]
     },
     {
       "id": 29199,
-      "name": "Torn Hems++",
-      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to <style=\"upgradeHighlight\">all</style> Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain <style=\"upgradeHighlight\">1 Clash Power Up</style> and (value of highest Stack among negative effects on self + 1) [AttackUp]. (max <style=\"upgradeHighlight\">5</style>)",
+      "name": "ชายเสื้อฉีกขาด++",
+      "desc": "สกิล 2 ที่เป็นสกิลประเภทแทง:\n- เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย\n- หากสกิลดังกล่าวมีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้น เลเวลจู่โจมจะเพิ่มขึ้น +2 หน่วย และแต้มแคลชสกิลจะเพิ่มขึ้น +(2/จำนวนเหรียญ) แต้มแทน\nสำหรับตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี>: เอฟเฟกต์ข้างต้นจะมีผลกับ<style=\"upgradeHighlight\">สกิลโจมตีพื้นฐานทั้งหมด</style>\n\nเริ่มเทิร์น: ตัวตนจาก <พันธมิตรปลดแอกเทคโนโลยี> จะได้รับ <style=\"upgradeHighlight\">[ParryingResultUp] 1 หน่วย</style> และ [AttackUp] (ปริมาณจำนวนทับซ้อนสูงสุดของสถานะผิดปกติที่ตนเองมี + 1) หน่วย (สูงสุด 5 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 29199,
-          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+          "simpleDesc": "เลเวลจู่โจมจะเพิ่มขึ้น และสกิลที่มีเหรียญอยู่ 2 เหรียญหรือต่ำกว่านั้นจะได้รับแต้มแคลชสกิลเพิ่มขึ้น"
         },
         {
           "abilityID": 291991,
-          "simpleDesc": "Gain Clash Power and Offense Level Up"
+          "simpleDesc": "ได้รับ [ParryingResultUp] และ [AttackUp]"
         }
       ]
     },
     {
       "id": 9200,
-      "name": "Dueling Manual Book 3",
-      "desc": "Pierce Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Pierce base Attack Skills this turn. (max 3)\n\nAllies with Pierce Attack Type for all of their base Attack Skills gain 2 [PenetrateDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nEvade Skill Power +2. Every time an allied Identity successfully Evades 2 times within a single turn, they gain 1 [AttackDmgUp] next turn (max 3)\n\nAt Turn Start, Cinq Association Identities gain 1 [PenetrateResultUp] and 2 [PenetrateDamageUp]; if a Cinq Association Identity dealt damage On Hit against an enemy inflicted by their 'Declared Duel', 'Nerve Strike', or 'Focused Attack', gain 2 [PenetrateDamageUp] and 1 [Agility] next turn. (once per Identity per turn)",
+      "name": "หนังสือคู่มือท้าดวลเล่ม 3",
+      "desc": "สกิลโจมตีพื้นฐานประเภทแทง: จะได้รับแต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม\nเมื่อเริ่มการต่อสู้ จะได้รับ [AttackUp] เท่ากับจำนวนตัวตนที่ใช้สกิลโจมตีพื้นฐานประเภทแทงในเทิร์นนี้ (สูงสุด 3 หน่วย)\n\nพันธมิตรที่มีสกิลโจมตีพื้นฐานทั้งหมดของตนเองเป็นการโจมตีประเภทแทง: จะได้รับ [PenetrateDamageUp] 2 หน่วยเมื่อเริ่มเทิร์น (ยกเว้นสกิลแบบเสริมพลัง หรือสกิลที่มีเงื่อนไขพิเศษ)\n\nแต้มสกิลหลบหลีกเพิ่มขึ้น +2 แต้ม\n\nทุกครั้งที่ตัวตนพันธมิตรหลบหลีกสำเร็จ 2 ครั้งภายในเทิร์นเดียว พันธมิตรคนดังกล่าวจะได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป (สูงสุด 3 หน่วย)\n\nเมื่อเริ่มเทิร์น: ตัวตนจาก <สมาคมแซ็งก์> จะได้รับ [PenetrateResultUp] 1 หน่วย และ [PenetrateDamageUp] 2 หน่วย; โดยหากตัวตนจาก <สมาคมแซ็งก์> สร้างความเสียหายเมื่อโจมตีโดนแก่เป้าหมายที่มี 'ประกาศท้าดวล', 'กดจุดเส้นประสาท', หรือ 'โจมตีเพ่งเล็ง' ของตนเองอยู่ จะได้รับ [PenetrateDamageUp] 2 หน่วย และ [Agility] 1 หน่วยในเทิร์นถัดไป (สูงสุด 1 ครั้ง/ตัวตน/เทิร์น)",
       "simpleDesc": [
         {
           "abilityID": 9200,
-          "simpleDesc": "Clash Power Up"
+          "simpleDesc": "แต้มแคลชสกิลเพิ่มขึ้น"
         },
         {
           "abilityID": 92001,
-          "simpleDesc": "Pierce DMG Up"
+          "simpleDesc": "ความเสียหายแทงเพิ่มขึ้น"
         },
         {
           "abilityID": 92002,
-          "simpleDesc": "Gain Evade Skill Power. Gain Pierce DMG Up after every 3 successful Evade"
+          "simpleDesc": "แต้มสกิลหลบหลีก โดยทุกครั้งที่หลบหลีกสำเร็จ 2 ครั้งจะได้รับ [AttackDmgUp]"
         },
         {
           "abilityID": 92003,
-          "simpleDesc": "Gain Pierce Power Up and deal more Pierce damage"
+          "simpleDesc": "ได้รับ [PenetrateResultUp] และสร้างความเสียหายแทงเพิ่มขึ้น"
         }
       ]
     },
     {
       "id": 9201,
-      "name": "Dimensional Recycle Bin",
-      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nBlunt Skills gain (# of Blunt Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nWhen using a Skill to attack an enemy, if a different Skill was [Discard]ed, deal +(10 + (rank of the Discarded Skill x 5))% more Blunt damage. (if multiple were discarded, take the highest value; max 25%)",
+      "name": "ถังขยะรีไซเคิลในมิติปิด",
+      "desc": "[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #3]\n\nสกิลประเภททุบจะได้รับเลเวลจู่โจม +(จำนวนสกิลโจมตีพื้นฐานประเภททุบ) หน่วย (สกิลเดียวกันจะไม่นับซ้ำ สูงสุด 3 หน่วย)\n\nเมื่อใช้สกิลโจมตีศัตรู หากมีสกิลอื่นถูกทิ้งจากมือ จะสร้างความเสียหายทุบเพิ่มขึ้น +(10 + (ระดับของสกิลที่ถูกทิ้งจากมือ x 5))% (หากถูกทิ้งหลายสกิล จะเลือกจากที่มีระดับสกิลสูงที่สุด; สูงสุด 25%)",
       "simpleDesc": [
         {
           "abilityID": 9201,
-          "simpleDesc": "Blunt Skills gain Offense Level"
+          "simpleDesc": "สกิลประเภททุบจะได้รับเลเวลจู่โจม"
         },
         {
           "abilityID": 92011,
-          "simpleDesc": "Deal more Blunt damage"
+          "simpleDesc": "สร้างความเสียหายทุบเพิ่มขึ้น"
         }
       ]
     },
     {
       "id": 9202,
-      "name": "Pocket Flashcards",
-      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain (rank of the Discarded Skill) Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max 3)",
+      "name": "บัตรคำพกพา",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภททุบ:\n- สร้าง [DefenseDown] 2 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\nสำหรับตัวตนจาก <สมาคมเดียชี>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทฟันและแทงด้วยเช่นกัน พร้อมทั้งสร้าง [DefenseDown] เพิ่มเติม 1 หน่วย\n\nหากตัวตนจาก <สมาคมเดียชี> ทำการ [Discard] สกิลตนเองผ่านสกิลที่มีเอฟเฟกต์ [Discard] จะได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ) หน่วยเมื่อเริ่มเทิร์นถัดไป (หากถูกทิ้งหลายสกิล จะเลือกจากที่มีระดับสกิลสูงที่สุด; สูงสุด 3 หน่วย)",
       "simpleDesc": [
         {
           "abilityID": 9202,
-          "simpleDesc": "Inflict Defense Level Down next turn"
+          "simpleDesc": "สร้าง [DefenseDown] ในเทิร์นถัดไป"
         },
         {
           "abilityID": 92021,
-          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ) หน่วย"
         }
       ]
     },
     {
       "id": 19202,
-      "name": "Pocket Flashcards+",
-      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain <style=\"upgradeHighlight\">(rank of the Discarded Skill + 1)</style> Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max <style=\"upgradeHighlight\">4</style>)",
+      "name": "บัตรคำพกพา+",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภททุบ:\n- สร้าง [DefenseDown] 2 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\nสำหรับตัวตนจาก <สมาคมเดียชี>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทฟันและแทงด้วยเช่นกัน พร้อมทั้งสร้าง [DefenseDown] เพิ่มเติม 1 หน่วย\n\nหากตัวตนจาก <สมาคมเดียชี> ทำการ [Discard] สกิลตนเองผ่านสกิลที่มีเอฟเฟกต์ [Discard] จะได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ <style=\"upgradeHighlight\">+ 1</style>) หน่วยเมื่อเริ่มเทิร์นถัดไป (หากถูกทิ้งหลายสกิล จะเลือกจากที่มีระดับสกิลสูงที่สุด; สูงสุด <style=\"upgradeHighlight\">4 หน่วย</style>)",
       "simpleDesc": [
         {
           "abilityID": 19202,
-          "simpleDesc": "Inflict Defense Level Down next turn"
+          "simpleDesc": "สร้าง [DefenseDown] ในเทิร์นถัดไป"
         },
         {
           "abilityID": 192021,
-          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ) หน่วย"
         }
       ]
     },
     {
       "id": 29202,
-      "name": "Pocket Flashcards++",
-      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn per Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain <style=\"upgradeHighlight\">(rank of the Discarded Skill + 2)</style> Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max <style=\"upgradeHighlight\">5</style>)",
+      "name": "บัตรคำพกพา++",
+      "desc": "เมื่อแคลชสกิลชนะด้วยสกิลโจมตีพื้นฐานประเภททุบ:\n- สร้าง [DefenseDown] 2 หน่วยแก่เป้าหมายในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน เอฟเฟกต์จะไม่ทับซ้อนกันบนเป้าหมายตัวเดียวกัน)\nสำหรับตัวตนจาก <สมาคมเดียชี>: เอฟเฟกต์ข้างต้นจะมีผลกับสกิลโจมตีพื้นฐานประเภทฟันและแทงด้วยเช่นกัน พร้อมทั้งสร้าง [DefenseDown] เพิ่มเติม 1 หน่วย\n\nหากตัวตนจาก <สมาคมเดียชี> ทำการ [Discard] สกิลตนเองผ่านสกิลที่มีเอฟเฟกต์ [Discard] จะได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ <style=\"upgradeHighlight\">+ 2</style>) หน่วยเมื่อเริ่มเทิร์นถัดไป (หากถูกทิ้งหลายสกิล จะเลือกจากที่มีระดับสกิลสูงที่สุด; สูงสุด <style=\"upgradeHighlight\">5 หน่วย</style>)",
       "simpleDesc": [
         {
           "abilityID": 29202,
-          "simpleDesc": "Inflict Defense Level Down next turn"
+          "simpleDesc": "สร้าง [DefenseDown] ในเทิร์นถัดไป"
         },
         {
           "abilityID": 292021,
-          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+          "simpleDesc": "ได้รับ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ) หน่วย"
         }
       ]
     },
     {
       "id": 9203,
-      "name": "Dimensional Perception Modifier",
-      "desc": "Blunt Attack Type Skill 1 & 2: Offense Level +(# of Coins - 1) (max 2)\n- Skills with Discard effects gain Offense Level +(# of Coins) instead (max 4)\n\nIf a unit used a Discard Skill to discard their Skill, gain 1 Damage Up and (rank of the Discarded Skill) Offense Level Up. (once per turn per Identity; if multiple were discarded, take the highest value; max 3)\n- If a Blunt Attack Type Skill was Discarded, gain 1 Blunt DMG Up as well",
+      "name": "ตัวปรับการรับรู้ระดับมิติ",
+      "desc": "สกิล 1&2 ที่เป็นสกิลประเภททุบ:\n- เลเวลจู่โจมจะเพิ่มขึ้น +(จำนวนเหรียญ - 1) หน่วย (สูงสุด 2 หน่วย)\n- สกิลที่มีเอฟเฟกต์ [Discard] จะมีเลเวลจู่โจม +(จำนวนเหรียญ) หน่วยแทน (สูงสุด 4 หน่วย)\n\nหากตัวตนใดใช้สกิล [Discard] เพื่อทำการทิ้งสกิลตนเอง จะได้รับ [AttackDmgUp] 1 หน่วย และ [AttackUp] (ระดับสกิลที่ถูกทิ้งจากมือ) หน่วย (มีผล 1 ครั้ง/เทิร์น/ตัวตน; หากถูกทิ้งหลายสกิล จะเลือกจากที่มีระดับสกิลสูงที่สุด; สูงสุด 3 หน่วย)\n- หากสกิลโจมตีประเภททุบถูกทิ้งจากมือ จะได้รับ [HitDamageUp] 1 หน่วยด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9203,
-          "simpleDesc": "Gain Offense Level"
+          "simpleDesc": "เลเวลจู่โจมเพิ่มขึ้น"
         },
         {
           "abilityID": 92031,
-          "simpleDesc": "Gain Damage Up and Offense Level Up. If a Blunt Skill was Discarded, gain Blunt DMG Up as well"
+          "simpleDesc": "ได้รับ [AttackDmgUp] และ [AttackUp] โดยหากสกิลโจมตีประเภททุบถูกทิ้งจากมือ จะได้รับ [HitDamageUp] ด้วยเช่นกัน"
         }
       ]
     },
     {
       "id": 9204,
-      "name": "The Book of Vengeance",
-      "desc": "Blunt Base Attack Skills gain Clash Power +2. On Combat Start, gain [AttackUp] equal to the number of Identities who are using Blunt base Attack Skills this turn. (max 3)\n\nAllies with Blunt Attack Type for all of their base Attack Skills gain 2 [HitDamageUp] at Turn Start. (except for Empowered Skills or Skills that need unique conditionals)\n\nWhen using a Counter Skill(except Power Counters), gain 7.5% of this unit's max HP as Shield HP and deal +20% damage. Cannot be Staggered by damage when using a Counter Skill (once per Identity per Encounter)\n\nAt Turn Start, The Middle Identities gain 1 [HitResultUp] and 2 [Endurance]; when The Middle Identity uses a Counter Skill, the above Counter Skill enhancement activates twice per Encounter and deals +40% damage instead.",
+      "name": "สมุดสะสางแค้น",
+      "desc": "สกิลโจมตีพื้นฐานประเภททุบ: จะได้รับแต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม\nเมื่อเริ่มการต่อสู้ จะได้รับ [AttackUp] เท่ากับจำนวนตัวตนที่ใช้สกิลโจมตีพื้นฐานประเภททุบในเทิร์นนี้ (สูงสุด 3 หน่วย)\n\nพันธมิตรที่มีสกิลโจมตีพื้นฐานทั้งหมดของตนเองเป็นการโจมตีประเภททุบ: จะได้รับ [HitDamageUp] 2 หน่วยเมื่อเริ่มเทิร์น (ยกเว้นสกิลแบบเสริมพลัง หรือสกิลที่มีเงื่อนไขพิเศษ)\n\nเมื่อใช้สกิลสวนกลับ (ยกเว้นสกิลสวนกลับแคลชได้) จะได้รับโล่เลือดเท่ากับ 7.5% ของเลือดสูงสุดตัวละครดังกล่าว และสร้างความเสียหายเพิ่มขึ้น +20% โดยจะไม่สามารถติดชะงักเพราะความเสียหายใดได้เมื่อใช้สกิลสวนกลับ (มีผล 1 ครั้ง/ตัวตน/การเผชิญหน้า)\n\nเมื่อเริ่มเทิร์น: ตัวตนจาก <เดอะมิดเดิล> จะได้รับ [HitResultUp] 1 หน่วย และ [Endurance] 2 หน่วย; เมื่อตัวตนจาก <เดอะมิดเดิล> ใช้สกิลสวนกลับ เอฟเฟกต์เสริมสกิลสวนกลับข้างต้นจะมีผล 2 ครั้งต่อการเผชิญหน้า และสร้างความเสียหายเพิ่มขึ้น +40% แทน",
       "simpleDesc": [
         {
           "abilityID": 9204,
-          "simpleDesc": "Gain Clash Power and Offense Level Up"
+          "simpleDesc": "ได้รับแต้มแคลชสกิลและ [AttackUp]"
         },
         {
           "abilityID": 92041,
-          "simpleDesc": "Gain Blunt DMG Up"
+          "simpleDesc": "ได้รับ [HitDamageUp]"
         },
         {
           "abilityID": 92042,
-          "simpleDesc": "Cannot be Staggered from damage when counterattacking"
+          "simpleDesc": "ไม่สามารถติดชะงักเพราะความเสียหายใดได้เมื่อใช้สกิลสวนกลับ"
         },
         {
           "abilityID": 92042,
-          "simpleDesc": "Gain Blunt DMG Up, Defense Power Up, and deal more damage with Counterattacks"
+          "simpleDesc": "ได้รับ [HitDamageUp], [Endurance], และสร้างความเสียหายสวนกลับเพิ่มขึ้น"
         }
       ]
     }
