@@ -855,7 +855,7 @@
     {
       "id": 1120702,
       "name": "กระสุนมันราคาแพงนะเออ",
-      "desc": "ทำงานอยู่ตลอด: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\n- เมื่อโจมตีทอยหัวโดนศัตรูที่มี [Laceration] จะได้รับ [Unjust_Enrichment] (สูงสุด 4 หน่วย)\n- หากเหรียญที่จ่าย [Bullet] โจมตีโดน จะผลาญ [Unjust_Enrichment] ทั้งหมด และสร้างโบนัสความเสียหายเพิ่มเติมเท่ากับ (25 x [Unjust_Enrichment] ที่ผลาญไป)% ของความเสียหายที่สร้าง\n- หากตัวละครนี้โจมตีติดคริติคอลในตอนที่ [Bullet] หมดแล้ว จะใช้ [Unjust_Enrichment] ทั้งหมด และสร้างโบนัสความเสียหายเพิ่มเติมเท่ากับ (5 x [Unjust_Enrichment] ที่ผลาญไป)% ของความเสียหายที่สร้าง"
+      "desc": "ทำงานอยู่เสมอ: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\n- เมื่อโจมตีทอยหัวโดนศัตรูที่มี [Laceration] จะได้รับ [Unjust_Enrichment] (สูงสุด 4 หน่วย)\n- หากเหรียญที่จ่าย [Bullet] โจมตีโดน จะผลาญ [Unjust_Enrichment] ทั้งหมด และสร้างโบนัสความเสียหายเพิ่มเติมเท่ากับ (25 x [Unjust_Enrichment] ที่ผลาญไป)% ของความเสียหายที่สร้าง\n- หากตัวละครนี้โจมตีติดคริติคอลในตอนที่ [Bullet] หมดแล้ว จะใช้ [Unjust_Enrichment] ทั้งหมด และสร้างโบนัสความเสียหายเพิ่มเติมเท่ากับ (5 x [Unjust_Enrichment] ที่ผลาญไป)% ของความเสียหายที่สร้าง"
     },
     {
       "id": 1120721,
@@ -870,12 +870,12 @@
     {
       "id": 1040602,
       "name": "ช่วงเวลา พ.ส.บ.ร.",
-      "desc": "ทำงานอยู่ตลอด: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\nหากตัวละครนี้มีค่า [Breath] 7+ หน่วยในตอนจบเทิร์น จะฟื้นฟู SP 8 หน่วย"
+      "desc": "ทำงานอยู่เสมอ: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\nหากตัวละครนี้มีค่า [Breath] 7+ หน่วยในตอนจบเทิร์น จะฟื้นฟู SP 8 หน่วย"
     },
     {
       "id": 1040611,
       "name": "ช่วงเวลา พ.ส.บ.ร.",
-      "desc": "ทำงานอยู่ตลอด: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\nหากตัวละครนี้มีค่า [Breath] 7+ หน่วยในตอนจบเทิร์น จะฟื้นฟู SP 8 หน่วย\n- หากตัวละครนี้มี SP เต็มอยู่แล้วในตอนที่เงื่อนไขข้างต้นทำงาน จะได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
+      "desc": "ทำงานอยู่เสมอ: เริ่มการเผชิญหน้าด้วย [Bullet] 7 นัด\n\nหากตัวละครนี้มีค่า [Breath] 7+ หน่วยในตอนจบเทิร์น จะฟื้นฟู SP 8 หน่วย\n- หากตัวละครนี้มี SP เต็มอยู่แล้วในตอนที่เงื่อนไขข้างต้นทำงาน จะได้รับค่า [Breath] 1 หน่วยในเทิร์นถัดไป"
     },
     {
       "id": 1040621,
@@ -2160,56 +2160,56 @@
     },
     {
       "id": 1101301,
-      "name": "Ammunition Tribute",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. (can spend up to 3 ammunition) (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+      "name": "บรรณาการกระสุน",
+      "desc": "เมื่อตัวตนพันธมิตร 1 คนที่มีลำดับวางทัพหน้าสุดในกลุ่มผู้มี [Bullet] โจมตีเรียบร้อย: หากจำนวน [Bullet] พันธมิตรคนดังกล่าวนั้นมีอยู่น้อยกว่าครึ่ง (ปัดเศษขึ้น) จะจ่าย [FireBulletPropellant] ที่ตนเองมีเท่ากับจำนวน [Bullet] ทั้งหมดที่ตัวละครซึ่งได้รับผลจ่ายไป และเติมเสบียง [Bullet] ให้ในปริมาณเท่ากับ [FireBulletPropellant] ที่ตัวละครนี้พึ่งจะจ่ายไป (จ่ายได้สูงสุด 3 นัด) (มีผลหนึ่งครั้งต่อการเผชิญหน้า)\n\n- หากตัวตนที่ได้รับ [Bullet] เป็นตัวตนจาก <เดอะธัมป์> ที่มีระดับสูง จะมอบ [Bullet] ที่พวกเขาใช้ให้เพิ่มเติมอีก 1 นัด\n- หากตัวตนที่ได้รับ [Bullet] มีปริมาณค่าและจำนวนแยกกัน จะทำการเติมเสบียงให้แบบสุ่ม\n- หากมีปริมาณค่าหรือจำนวน [Bullet] ฝั่งใดฝั่งหนึ่งครบอยู่แล้ว จะเติมเสบียงให้ฝั่งที่มีไม่ครบ",
       "summary": ""
     },
     {
       "id": 1101311,
-      "name": "Ammunition Tribute",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. <style=\"highlight\">(can spend up to 5 ammunition)</style> (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+      "name": "บรรณาการกระสุน",
+      "desc": "เมื่อตัวตนพันธมิตร 1 คนที่มีลำดับวางทัพหน้าสุดในกลุ่มผู้มี [Bullet] โจมตีเรียบร้อย: หากจำนวน [Bullet] พันธมิตรคนดังกล่าวนั้นมีอยู่น้อยกว่าครึ่ง (ปัดเศษขึ้น) จะจ่าย [FireBulletPropellant] ที่ตนเองมีเท่ากับจำนวน [Bullet] ทั้งหมดที่ตัวละครซึ่งได้รับผลจ่ายไป และเติมเสบียง [Bullet] ให้ในปริมาณเท่ากับ [FireBulletPropellant] ที่ตัวละครนี้พึ่งจะจ่ายไป (จ่ายได้สูงสุด <style=\"highlight\">5 นัด</style>) (มีผลหนึ่งครั้งต่อการเผชิญหน้า)\n\n- หากตัวตนที่ได้รับ [Bullet] เป็นตัวตนจาก <เดอะธัมป์> ที่มีระดับสูง จะมอบ [Bullet] ที่พวกเขาใช้ให้เพิ่มเติมอีก 1 นัด\n- หากตัวตนที่ได้รับ [Bullet] มีปริมาณค่าและจำนวนแยกกัน จะทำการเติมเสบียงให้แบบสุ่ม\n- หากมีปริมาณค่าหรือจำนวน [Bullet] ฝั่งใดฝั่งหนึ่งครบอยู่แล้ว จะเติมเสบียงให้ฝั่งที่มีไม่ครบ",
       "summary": ""
     },
     {
       "id": 1101312,
-      "name": "Bayonets",
-      "desc": "Always Active: begin Encounters with 15 [FireBulletPropellant]\n\nIf this unit spent [FireBulletPropellant] with Skills or Passives, gain [AttackDmgUp] equal to the amount spent next turn (max 3)\n\nWhen flipping a Coin that spends [FireBulletPropellant]: while not having [FireBulletPropellant] does not cancel this unit's attacks, the Coin's On Hit \"inflict [Combustion]\" and \"inflict [Combustion] Count\" effects do not activate",
+      "name": "แทงดาบปลายปืน",
+      "desc": "ทำงานอยู่เสมอ: เริ่มการเผชิญหน้าด้วย [FireBulletPropellant] 15 นัด\n\nหากตัวละครจ่าย [FireBulletPropellant] ผ่านสกิลหรือสกิลติดตัว จะได้รับ [AttackDmgUp] ในเทิร์นถัดไปเท่ากับปริมาณที่จ่ายไป (สูงสุด 3 หน่วย)\n\nเมื่อทอยเหรียญที่จ่าย [FireBulletPropellant]: แม้ว่าการไม่มี [FireBulletPropellant] จะไม่ยกเลิกการโจมตีของสกิล แต่เอฟเฟกต์โจมตีโดนของเหรียญที่จะ \"สร้างค่า [Combustion]\" และ \"สร้างจำนวนครั้ง [Combustion]\" ก็จะไม่ทำงานเช่นกัน",
       "summary": ""
     },
     {
       "id": 1101321,
-      "name": "Reloader",
-      "desc": "When the 1 ally Identity with the fastest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), regain half of the maximum [Bullet] capacity (rounded up; once per Encounter; max [Bullet] regained: 5)\n\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will gain them at random\n- If either Potency or Count of [Bullet] is maxed out, gain whichever is not maxed\n- This effect does not activate if there are no Identities that use [Bullet]",
+      "name": "ผู้รีโหลด",
+      "desc": "เมื่อตัวตนพันธมิตร 1 คนที่มีลำดับวางทัพหน้าสุดในกลุ่มผู้มี [Bullet] โจมตีเรียบร้อย: หากจำนวน [Bullet] พันธมิตรคนดังกล่าวนั้นมีอยู่น้อยกว่าครึ่ง (ปัดเศษขึ้น) จะได้รับ [Bullet] คืนครึ่งหนึ่งของความจุสูงสุด (ปัดเศษขึ้น; มีผลหนึ่งครั้งต่อการเผชิญหน้า; ได้รับ [Bullet] คืนสูงสุด: 5 นัด)\n\n- หากตัวตนที่ได้รับ [Bullet] มีปริมาณค่าและจำนวนแยกกัน จะทำการเติมเสบียงให้แบบสุ่ม\n- หากมีปริมาณค่าหรือจำนวน [Bullet] ฝั่งใดฝั่งหนึ่งครบอยู่แล้ว จะเติมเสบียงให้ฝั่งที่มีไม่ครบ\n- เอฟเฟกต์นี้จะไม่ทำงานหากไม่มีตัวตนใดเลยที่ใช้ [Bullet]",
       "summary": ""
     },
     {
       "id": 1051202,
-      "name": "Chachihu [揷翅虎]",
-      "desc": "Always Active: begin Encounters with 12 [BulletPropellantAlly]\n\nWhen flipping a Coin that consumes [BulletPropellantAlly] or [BulletPropellantSpecialAlly]: while not having those 'Unique Ammo' does not cancel this unit's attacks, the Coin's On Hit \"inflict [Combustion]\" and \"inflict [Combustion] Count\" effects do not activate\n\nIf this unit equipped Defense Skills for the first time in this Encounter, or if this unit spent all of his [BulletPropellantAlly], or if this unit is Staggered: at the end of that turn, reload 8 [BulletPropellantSpecialAlly] and gain 1 [IrritationAlly] (once per Encounter)\n- If this effect activates while this unit is Staggered, recover from Stagger (unless it's a forced Stagger)\n- Remove all [BulletPropellantAlly] if this unit has any leftover [BulletPropellantAlly]\n- At 8+ (sum of [BulletPropellantAlly] and [BulletPropellantSpecialAlly] spent), convert [IrritationAlly] to [HugeIrritationAlly]\n\nWhen this unit uses a Base Attack Skill that spends the final Round of [BulletPropellantSpecialAlly]...\n- Gain Atk Weight +2 before attacking\n- Gain 1 [BeastEyesAlly] next turn",
+      "name": "พยัคฆ์เหิน [揷翅虎]",
+      "desc": "ทำงานอยู่เสมอ: เริ่มการเผชิญหน้าด้วย [BulletPropellantAlly] 12 นัด\n\nเมื่อทอยเหรียญที่ผลาญ [BulletPropellantAlly] หรือ [BulletPropellantSpecialAlly]: แม้ว่าการไม่มี 'กระสุนพิเศษ' ดังกล่าวจะไม่ยกเลิกการโจมตีของสกิล แต่เอฟเฟกต์โจมตีโดนของเหรียญที่จะ \"สร้างค่า [Combustion]\" และ \"สร้างจำนวนครั้ง [Combustion]\" ก็จะไม่ทำงานเช่นกัน\n\nหากตัวละครนี้สวมใส่สกิลตั้งรับเป็นครั้งแรกในการเผชิญหน้านี้ หรือหากตัวละครนี้ผลาญ [BulletPropellantAlly] ทั้งหมดที่ตนเองมี หรือหากตัวละครนี้ติดชะงัก: เมื่อจบเทิร์นดังกล่าวจะรีโหลด [BulletPropellantSpecialAlly] 8 นัด และได้รับ [IrritationAlly] 1 หน่วย (มีผลหนึ่งครั้งต่อการเผชิญหน้า)\n- หากเอฟเฟกต์นี้ทำงานเพราะติดชะงัก จะฟื้นตัวจากการชะงัก (ยกเว้นว่าเป็นการบังคับชะงัก)\n- ล้าง [BulletPropellantAlly] ทั้งหมดที่ตนเองมี หากตัวละครนี้ยังมี [BulletPropellantAlly] เหลืออยู่\n- ขณะที่มี (ผลรวม [BulletPropellantAlly] และ [BulletPropellantSpecialAlly] ที่จ่ายไปสะสม) 8+ นัด จะแปลง [IrritationAlly] เป็น [HugeIrritationAlly]\n\nเมื่อตัวละครนี้ใช้สกิลโจมตีพื้นฐานที่จะจ่ายกระสุน [BulletPropellantSpecialAlly] นัดสุดท้าย...\n- ก่อนโจมตี: น้ำหนักการโจมตีเพิ่มขึ้น +2 ช่อง\n- ได้รับ [BeastEyesAlly] 1 หน่วยในเทิร์นถัดไป",
       "summary": ""
     },
     {
       "id": 1051201,
-      "name": "Tiantui Star's Blade [天退星刀]",
-      "desc": "When this unit has [BulletPropellantAlly]:\n- At 1+ [BulletPropellantAlly], convert all Coins of 'Tanglecleaver' into [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +1 Power (activates only as long as the Coin has Rounds left to spend)\n\nWhen this unit has [BulletPropellantSpecialAlly]:\n- At 1+ [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills to [SuperCoin]s\n- At 0 [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills that spend 'Unique Ammo' to [SuperCoin]s\n- Skill Coins that spend [BulletPropellantSpecialAlly] gain +2 Power (activates only as long as the Coin has Rounds left to spend)",
+      "name": "ดาวดาวเทียนทุ้ย [天退星刀]",
+      "desc": "เมื่อตัวละครนี้มี [BulletPropellantAlly]:\n- ขณะมี [BulletPropellantAlly] 1+ นัด: แปลงเหรียญสกิล 'ศัสตราห้วงมายาโกลาหล (สกิล 3)' ทั้งหมดให้เป็น [SuperCoin]\n- เหรียญสกิลที่ผลาญ [BulletPropellantAlly] จะได้รับแต้มเพิ่มขึ้น +1 แต้ม (จะทำงานตราบเท่าที่เหรียญดังกล่าวยังมีกระสุนเหลือให้จ่าย)\n\nเมื่อตัวละครนี้มี [BulletPropellantSpecialAlly]:\n- ขณะมี [BulletPropellantSpecialAlly] 1+ นัด: แปลงเหรียญทั้งหมดของทุกสกิลโจมตีพื้นฐานตัวละครนี้ให้กลายเป็น [SuperCoin]\n- ขณะมี [BulletPropellantSpecialAlly] 0 นัด: แปลงเหรียญทั้งหมดของสกิลโจมตีพื้นฐานตัวละครนี้ที่ผลาญ 'กระสุนพิเศษ' ให้กลายเป็น [SuperCoin]\n- เหรียญสกิลที่ผลาญ [BulletPropellantSpecialAlly] จะได้รับแต้มเพิ่มขึ้น +2 แต้ม (จะทำงานตราบเท่าที่เหรียญดังกล่าวยังมีกระสุนเหลือให้จ่าย)",
       "summary": ""
     },
     {
       "id": 1051211,
-      "name": "Tiantui Star's Blade [天退星刀]",
-      "desc": "When this unit has [BulletPropellantAlly]:\n- At 1+ [BulletPropellantAlly], convert all Coins of 'Tanglecleaver' into [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +1 Power <style=\"highlight\">and deal +10% damage</style> (activates only as long as the Coin has Rounds left to spend)\n\nWhen this unit has [BulletPropellantSpecialAlly]:\n- At 1+ [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills to [SuperCoin]s\n- At 0 [BulletPropellantSpecialAlly], convert all Coins of this unit's Base Attack Skills that spend 'Unique Ammo' to [SuperCoin]s\n- Skill Coins that spend [BulletPropellantAlly] gain +2 Power, <style=\"highlight\">deal +30% damage, and inflict +2 more [Combustion] Potency and [Combustion] Count On Hit with those Coins</style> (activates only as long as the Coin has Rounds left to spend)",
+      "name": "ดาวดาวเทียนทุ้ย [天退星刀]",
+      "desc": "เมื่อตัวละครนี้มี [BulletPropellantAlly]:\n- ขณะมี [BulletPropellantAlly] 1+ นัด: แปลงเหรียญสกิล 'ศัสตราห้วงมายาโกลาหล (สกิล 3)' ทั้งหมดให้เป็น [SuperCoin]\n- - เหรียญสกิลที่ผลาญ [BulletPropellantAlly] จะได้รับแต้มเพิ่มขึ้น +1 แต้ม <style=\"highlight\">และสร้างความเสียหายเพิ่มขึ้น +10%</style> (จะทำงานตราบเท่าที่เหรียญดังกล่าวยังมีกระสุนเหลือให้จ่าย)\n\nเมื่อตัวละครนี้มี [BulletPropellantSpecialAlly]:\n- ขณะมี [BulletPropellantSpecialAlly] 1+ นัด: แปลงเหรียญทั้งหมดของทุกสกิลโจมตีพื้นฐานตัวละครนี้ให้กลายเป็น [SuperCoin]\n- ขณะมี [BulletPropellantSpecialAlly] 0 นัด: แปลงเหรียญทั้งหมดของสกิลโจมตีพื้นฐานตัวละครนี้ที่ผลาญ 'กระสุนพิเศษ' ให้กลายเป็น [SuperCoin]\n- เหรียญสกิลที่ผลาญ [BulletPropellantSpecialAlly] จะได้รับ\n· แต้มเพิ่มขึ้น +2 แต้ม\n<style=\"highlight\">· สร้างความเสียหายเพิ่มขึ้น +30%\n· เมื่อโจมตีโดน เหรียญเหล่านั้นจะสร้างค่าและจำนวนครั้ง [Combustion] เพิ่มขึ้น +2 หน่วย</style>\n(จะทำงานตราบเท่าที่เหรียญดังกล่าวยังมีกระสุนเหลือให้จ่าย)",
       "summary": ""
     },
     {
       "id": 1051221,
-      "name": "Savage Tiger's Lunge",
-      "desc": "When 1 ally with the fastest Speed uses a Skill that spends [Bullet], if their Speed is faster than the target's by 3 or more, deal +(Speed difference × 2)% more damage (max 10%).\n(This effect does not activate if the affected unit lacks the [Bullet] buff entirely. However, it will activate if they have the [Bullet] buff, even if they have 0 rounds left)",
+      "name": "พยัคฆ์อนารยะพุ่งตะครุบ",
+      "desc": "เมื่อพันธมิตร 1 คนที่มีความเร็วสูงที่สุดใช้สกิลที่จ่าย [Bullet]: หากความเร็วพันธมิตรคนดังกล่าวสูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า จะสร้างความเสียหายเพิ่มขึ้น +(ค่าความเร็วที่ต่างกัน x 2)% (สูงสุด 10%)\n\n(เอฟเฟกต์นี้จะไม่ทำงานหากตัวละครที่ได้รับผลไม่มีเอฟเฟกต์ [Bullet] โดยสิ้นเชิง; แต่ถึงกระนั้นก็จะยังทำงานหากพันธมิตรที่ได้รับผลมีเอฟเฟกต์ [Bullet] แม้ว่าจะเหลืออยู่ 0 นัดก็ตาม)",
       "summary": ""
     },
     {
       "id": 1051231,
-      "name": "Savage Tiger's Lunge",
-      "desc": "When 1 ally with the fastest Speed uses a Skill that spends [Bullet], if their Speed is faster than the target's by 3 or more, deal +(Speed difference × <style=\"highlight\">3</style>)% more damage (max <style=\"highlight\">15%</style>).\n(This effect does not activate if the affected unit lacks the [Bullet] buff entirely. However, it will activate if they have the [Bullet] buff, even if they have 0 rounds left)",
+      "name": "พยัคฆ์อนารยะพุ่งตะครุบ",
+      "desc": "เมื่อพันธมิตร 1 คนที่มีความเร็วสูงที่สุดใช้สกิลที่จ่าย [Bullet]: หากความเร็วพันธมิตรคนดังกล่าวสูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า จะสร้างความเสียหายเพิ่มขึ้น +(ค่าความเร็วที่ต่างกัน x 3)% (สูงสุด 15%)\n\n(เอฟเฟกต์นี้จะไม่ทำงานหากตัวละครที่ได้รับผลไม่มีเอฟเฟกต์ [Bullet] โดยสิ้นเชิง; แต่ถึงกระนั้นก็จะยังทำงานหากพันธมิตรที่ได้รับผลมีเอฟเฟกต์ [Bullet] แม้ว่าจะเหลืออยู่ 0 นัดก็ตาม)",
       "summary": ""
     }
   ]
