@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "รอเดี๋ยว!",
-          "desc": "ได้รับจำนวนครั้ง [Vibration] +3 หน่วยหากสกิลนี้ถูกทิ้งจากมือ",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับจำนวนครั้ง [Vibration] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -20,7 +20,7 @@
         {
           "level": 2,
           "name": "รอเดี๋ยว!",
-          "desc": "ได้รับจำนวนครั้ง [Vibration] +4 หน่วยหากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะได้รับแต้มปิดท้ายสกิล +1 แต้ม",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับจำนวนครั้ง [Vibration] +4 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -34,7 +34,7 @@
         {
           "level": 4,
           "name": "รอเดี๋ยว!",
-          "desc": "ได้รับจำนวนครั้ง [Vibration] +4 หน่วยหากสกิลนี้ถูกทิ้งจากมือ\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย จะได้รับแต้มปิดท้ายสกิล +2 แต้ม",
+          "desc": "หากสกิลนี้ถูกทิ้งจากมือ จะได้รับจำนวนครั้ง [Vibration] +4 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\nหากมีจำนวนครั้ง [Vibration] 6+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
         {
           "level": 3,
           "name": "การตัดสินใจหาญกล้า",
-          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nผลาญจำนวนครั้ง [Vibration] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nผลาญจำนวนครั้ง [Vibration] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "การตัดสินใจหาญกล้า",
-          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nผลาญจำนวนครั้ง [Vibration] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +2 แต้ม",
+          "desc": "[WhenUse] [Discard] สกิลของตัวละครนี้ ตามลำดับจากสูงไปต่ำจากช่องสกิลทั้งหมดของตัวละครตัวนี้\nผลาญจำนวนครั้ง [Vibration] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -1810,20 +1810,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prepare To Collect",
-          "desc": "[WhenUse] Gain +1 [Vibration] Count",
+          "name": "เตรียมเก็บรวบรวม",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             }
@@ -1831,20 +1831,20 @@
         },
         {
           "level": 2,
-          "name": "Prepare To Collect",
-          "desc": "[WhenUse] Gain +<style=\"highlight\">2</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+          "name": "เตรียมเก็บรวบรวม",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             }
@@ -1852,20 +1852,20 @@
         },
         {
           "level": 4,
-          "name": "Prepare To Collect",
-          "desc": "[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Coin Power +1",
+          "name": "เตรียมเก็บรวบรวม",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +3 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
                 }
               ]
             }
@@ -1878,27 +1878,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "T Corp. Microcavity Module",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "name": "โมดูลไมโครคาวิตี T คอร์ป.",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 3+ หน่วย จะทำให้เกิด [VibrationExplosion] หนึ่งครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1906,33 +1906,33 @@
         },
         {
           "level": 2,
-          "name": "T Corp. Microcavity Module",
-          "desc": "[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+          "name": "โมดูลไมโครคาวิตี T คอร์ป.",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +3 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [Vibration], consume 4 [Vibration] on target to apply +2 [Vibration] Count to both the target and self</style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Vibration] 10+ หน่วย จะผลาญค่า [Vibration] 4 หน่วยบนตัวเป้าหมาย เพื่อสร้างจำนวนครั้ง [Vibration] +2 หน่วย แก่ทั้งเป้าหมายและตนเอง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]</style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายไม่ได้อยู่ในสภาวะ [Switch_Vibration] หรือ [FusionVibration] จะผลาญจำนวนครั้ง [Vibration] 3 หน่วยที่ตนเองมี เพื่อทำให้เกิด [Switch_Vibration] และเปลี่ยนเป็น[VibrationChainPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 3+ หน่วย จะทำให้เกิด [VibrationExplosion] หนึ่งครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1940,36 +1940,36 @@
         },
         {
           "level": 4,
-          "name": "T Corp. Microcavity Module",
-          "desc": "[WhenUse] Gain +<style=\"highlight\">4</style> [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Coin Power +1",
+          "name": "โมดูลไมโครคาวิตี T คอร์ป.",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +4 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 10+ [Vibration], consume 4 [Vibration] on target to apply +2 [Vibration] Count to both the target and self<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีค่า [Vibration] 10+ หน่วย จะผลาญค่า [Vibration] 4 หน่วยบนตัวเป้าหมาย เพื่อสร้างจำนวนครั้ง [Vibration] +2 หน่วย แก่ทั้งเป้าหมายและตนเอง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\"> If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +60% damage</style>"
+                  "desc": "หากเป้าหมายอยู่ในสภาวะ [Switch_Vibration] หรือ [FusionVibration] เหรียญนี้จะสร้างความเสียหายเพิ่มขึ้น +60%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายไม่ได้อยู่ในสภาวะ [Switch_Vibration] หรือ [FusionVibration] จะผลาญจำนวนครั้ง [Vibration] 3 หน่วยที่ตนเองมี เพื่อทำให้เกิด [Switch_Vibration] และเปลี่ยนเป็น[VibrationChainPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 3+ หน่วย จะทำให้เกิด [VibrationExplosion] หนึ่งครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1982,39 +1982,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "T-3 Collector Mace Max Activation",
-          "desc": "If target has [TimeSuspend], deal +30% damage\n[WhenUse] If target has 6+ [Vibration], Coin Power +1\n[EndSkill] Lose [TimeRentalTwoPersonality] on self\n[EndSkill] Gain [OutisNoHat] (once per Encounter)",
+          "name": "เปิดใช้คทาศึกเจ้าหน้าที่เก็บภาษี T-3 เต็มพิกัด",
+          "desc": "หากเป้าหมายมี [TimeSuspend] จะสร้างความเสียหายเพิ่มขึ้น +30%\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[EndSkill] เสีย [TimeRentalTwoPersonality] ที่ตนเองมี\n[EndSkill] ได้รับ [OutisNoHat] (มีผลหนึ่งครั้งต่อการเผชิญหน้า)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume up to 3 [Vibration] on target\n- Gain +([Vibration] consumed x 2) [Vibration] Count\n- Inflict ([Vibration] consumed - 1) [Binding] next turn"
+                  "desc": "[OnSucceedAttack] ผลาญค่า [Vibration] บนตัวเป้าหมายสูงสุด 3 หน่วย\n- ได้รับจำนวนครั้ง [Vibration] (ค่า [Vibration] ที่ผลาญไป x 2) หน่วย\n- สร้าง [Binding] (ค่า [Vibration] ที่ผลาญไป - 1) หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 3+ หน่วย จะทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume all [Vibration] Count on self\n- Coin Power +1 for every 5 [Vibration] Count consumed (max 5)\n- Deal +1% damage for every 1 [Vibration] Count consumed (max 50%)"
+                  "desc": "[OnStartCoin] ผลาญจำนวนครั้ง [Vibration] ทั้งหมดที่ตนเองมี\n- แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Vibration] 5 หน่วย ที่ผลาญไป (สูงสุด 5 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ จำนวนครั้ง [Vibration] 1 หน่วย ที่ผลาญไป (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [TimeRentalTwoPersonality] จะทำให้เกิด [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], inflict 2 [TimeSuspend]"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [TimeRentalTwoPersonality] จะสร้าง [TimeSuspend] 2 หน่วย"
                 }
               ]
             }
@@ -2022,39 +2022,39 @@
         },
         {
           "level": 4,
-          "name": "T-3 Collector Mace Max Activation",
-          "desc": "<style=\"highlight\">If target is in either [Switch_Vibration] or [FusionVibration] states, deal +30% damage</style>\nIf target has [TimeSuspend], deal +30% damage\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] on target (max 2)</style>\n<style=\"highlight\">[WhenUse] If target has [Binding] Clash Power +1</style>\n[EndSkill] Lose [TimeRentalTwoPersonality] on self\n[EndSkill] Gain [OutisNoHat] (once per Encounter)",
+          "name": "เปิดใช้คทาศึกเจ้าหน้าที่เก็บภาษี T-3 เต็มพิกัด",
+          "desc": "หากเป้าหมายอยู่ในสภาวะ [Switch_Vibration] หรือ [FusionVibration] จะสร้างความเสียหายเพิ่มขึ้น +30%\nหากเป้าหมายมี [TimeSuspend] จะสร้างความเสียหายเพิ่มขึ้น +30%\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Vibration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] หากเป้าหมายมี [Binding] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[EndSkill] เสีย [TimeRentalTwoPersonality] ที่ตนเองมี\n[EndSkill] ได้รับ [OutisNoHat] (มีผลหนึ่งครั้งต่อการเผชิญหน้า)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume up to 3 [Vibration] on target<style=\"highlight\"></style>\n- Gain +([Vibration] consumed x 2) [Vibration] Count<style=\"highlight\"></style>\n- Inflict ([Vibration] consumed - 1) [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ผลาญค่า [Vibration] บนตัวเป้าหมายสูงสุด 3 หน่วย\n- ได้รับจำนวนครั้ง [Vibration] (ค่า [Vibration] ที่ผลาญไป x 2) หน่วย\n- สร้าง [Binding] (ค่า [Vibration] ที่ผลาญไป - 1) หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 3+ หน่วย จะทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consume all [Vibration] Count on self<style=\"highlight\"></style>\n- Coin Power +1 for every <style=\"highlight\">4</style> [Vibration] Count consumed (max 5)\n- Deal +<style=\"highlight\">2</style>% damage for every 1 [Vibration] Count consumed (max 100%)"
+                  "desc": "[OnStartCoin] ผลาญจำนวนครั้ง [Vibration] ทั้งหมดที่ตนเองมี\n- แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Vibration] 4 หน่วย ที่ผลาญไป (สูงสุด 5 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ จำนวนครั้ง [Vibration] 1 หน่วย ที่ผลาญไป (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], trigger [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [TimeRentalTwoPersonality] จะทำให้เกิด [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], inflict 2 [TimeSuspend]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [TimeRentalTwoPersonality] จะสร้าง [TimeSuspend] 2 หน่วย"
                 }
               ]
             }
@@ -2067,8 +2067,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Borrowed Time - Microcavity",
-          "desc": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count",
+          "name": "เวลาที่หยิบยืม - ไมโครคาวิตี",
+          "desc": "[CanDuelGuard]\n[StartBattle] หากตัวละครนี้ไม่ได้อยู่ในสภาวะ [TimeRentalTwoPersonality] จะได้รับ [TimeRentalTwoPersonality] 4 หน่วยเมื่อจบเทิร์น (มีผลเทิร์นละครั้ง)\n[WinDuel] สร้างจำนวนครั้ง [Vibration] +2 หน่วยแก่ทั้งเป้าหมายและตนเอง\n[DefeatDuel] ได้รับจำนวนครั้ง [Vibration] +4 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -2081,8 +2081,8 @@
         },
         {
           "level": 4,
-          "name": "Borrowed Time - Microcavity",
-          "desc": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count<style=\"highlight\"></style>",
+          "name": "เวลาที่หยิบยืม - ไมโครคาวิตี",
+          "desc": "[CanDuelGuard]\n[StartBattle] หากตัวละครนี้ไม่ได้อยู่ในสภาวะ [TimeRentalTwoPersonality] จะได้รับ [TimeRentalTwoPersonality] 4 หน่วยเมื่อจบเทิร์น (มีผลเทิร์นละครั้ง)\n[WinDuel] สร้างจำนวนครั้ง [Vibration] +2 หน่วยแก่ทั้งเป้าหมายและตนเอง\n[DefeatDuel] ได้รับจำนวนครั้ง [Vibration] +4 หน่วย",
           "coinlist": [
             {
               "coindescs": [

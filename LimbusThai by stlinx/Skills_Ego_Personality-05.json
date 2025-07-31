@@ -545,47 +545,47 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์น เป็นระยะเวลา 3 เทิร์น\n[EndSkill] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคู่ จะฟื้นฟู SP 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน/2) หน่วย (สูงสุด 3 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Vibration] บนตัวเป้าหมายหลัก (สูงสุด 50%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -593,47 +593,47 @@
         },
         {
           "level": 3,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "<style=\"highlight\">[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +1 Atk Weight</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[BeforeAttack] หากเป้าหมายหลักมี (ผลรวมค่าและจำนวนครั้ง [Vibration]) \n30+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง\n[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์น เป็นระยะเวลา 3 เทิร์น\n[EndSkill] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคู่ จะฟื้นฟู SP 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน/2) หน่วย (สูงสุด 3 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Vibration] บนตัวเป้าหมายหลัก (สูงสุด 50%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -641,50 +641,50 @@
         },
         {
           "level": 4,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +1 Atk Weight\n<style=\"highlight\">- At 100+, gain +3 Atk Weight instead</style>\n<style=\"highlight\">[BeforeAttack] For every 2 highest Reson., inflict 1 [Vibration] against all targets this unit attacks (max 3)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 2)% HP</style>\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[BeforeAttack] หากเป้าหมายหลักมี (ผลรวมค่าและจำนวนครั้ง [Vibration]) \n30+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง\n- หากมี 100+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +3 ช่องแทน\n[BeforeAttack] สร้างค่า [Vibration] 1 หน่วย แก่เป้าหมายทั้งหมดที่ตัวละครนี้โจมตี ตามทุก ๆ สั่นพ้องธาตุสูงสุด 2 สกิล (สูงสุด 3 หน่วย)\n[EndSkill] เสีย SP 10 หน่วยเมื่อจบเทิร์น เป็นระยะเวลา 3 เทิร์น\n[EndSkill] ฟื้นฟูเลือด ([AccumulatedPastSinner] x 2)%\n[EndSkill] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคู่ จะฟื้นฟู SP 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน/2) หน่วย (สูงสุด 3 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Vibration] บนตัวเป้าหมายหลัก (สูงสุด 50%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Coin's effects raised the damage dealt by +50% or more, trigger [VibrationExplosion] once.</style>"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +50% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] หนึ่งครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -697,29 +697,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สั่นพ้องธาตุสูงสุด (สูงสุด 100%)\n- หากสั่นพ้องธาตุสูงสุดคือสั่นพ้องธาตุเกียจคร้าน จะสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ สั่นพ้องธาตุสูงสุดแทน (สูงสุด 100%)\n[BeforeAttack] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคู่ จะสร้างความเสียหายเพิ่มขึ้น +12%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count "
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย และจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน) หน่วย (สูงสุด 6 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -727,29 +727,29 @@
         },
         {
           "level": 3,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n<style=\"highlight\">[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +2 Atk Weight</style>\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สั่นพ้องธาตุสูงสุด (สูงสุด 100%)\n- หากสั่นพ้องธาตุสูงสุดคือสั่นพ้องธาตุเกียจคร้าน จะสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ สั่นพ้องธาตุสูงสุดแทน (สูงสุด 100%)\n[BeforeAttack] หากเป้าหมายหลักมี (ผลรวมค่าและจำนวนครั้ง [Vibration]) \n30+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +2 ช่อง\n[BeforeAttack] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคู่ จะสร้างความเสียหายเพิ่มขึ้น +12%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย และจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน) หน่วย (สูงสุด 6 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -757,29 +757,29 @@
         },
         {
           "level": 4,
-          "name": "Crushbound Past",
-          "abName": "Steam Transport Machine",
-          "desc": "[CantIdentify]\nTargets randomly\nDeal +10% damage for every highest Reson. (max 100%)\n- If the highest Reson. was a Sloth Reson., deal +20% damage for every highest Reson. instead (max 100%)\n[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +2 Atk Weight\n[BeforeAttack] When activating even-numbered (Sloth Reson.) in odd-numbered turns, or when activating odd-numbered (Sloth Reson.) in even-numbered turns, deal +12% damage\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 3)% HP</style>",
+          "name": "อดีตผูกมัดพังทลาย",
+          "abName": "เครื่องจักรไอน้ำเคลื่อนย้ายสิ่งของ",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สั่นพ้องธาตุสูงสุด (สูงสุด 100%)\n- หากสั่นพ้องธาตุสูงสุดคือสั่นพ้องธาตุเกียจคร้าน จะสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ สั่นพ้องธาตุสูงสุดแทน (สูงสุด 100%)\n[BeforeAttack] หากเป้าหมายหลักมี (ผลรวมค่าและจำนวนครั้ง [Vibration]) \n30+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +2 ช่อง\n[BeforeAttack] เมื่อทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคู่ในเทิร์นเลขคี่ หรือทำให้เกิด (สั่นพ้องธาตุเกียจคร้าน) เลขคี่ในเทิร์นเลขคู่ จะสร้างความเสียหายเพิ่มขึ้น +12%\n[EndSkill] ฟื้นฟูเลือด ([AccumulatedPastSinner] x 3)%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals <style=\"highlight\">+2%</style> damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)"
+                  "desc": "[OnStartCoin] เหรียญนี้สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ (ผลรวมค่าและจำนวนครั้ง [Vibration] บนตัวเป้าหมายหลัก) (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย และจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson.) [Vibration] Count (max 6)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +(สั่นพ้องธาตุเกียจคร้าน) หน่วย (สูงสุด 6 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] สำหรับเป้าหมายหลัก จะทำให้เกิด [FusionVibration] เข้าไปยังประเภท [Vibration] ปัจจุบันของเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากเอฟเฟกต์เหรียญนี้เพิ่มความเสียหายที่สร้างได้ขึ้นถึง +100% หรือมากกว่า จะทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
