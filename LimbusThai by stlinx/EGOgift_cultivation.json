@@ -3,7 +3,7 @@
     {
       "id": 9819,
       "name": "ดาบโลหิตเพลิง",
-      "desc": "เริ่มเทิร์นแรกของการเผชิญหน้า: ตัวตนต่าง ๆ ที่มีสกิลโจมตีพื้นฐานที่สามารถรับ [Combustion] ได้ จะได้รับค่า [Combustion] 5 หน่วย และฟื้นฟู SP 8 หน่วย\n\nสำหรับตัวตนจาก <ฝูงเดรัจฉานทมิฬ - ฝูงระกา>:\nมีเลือดได้มากสุดที่ 49% ของเลือดสูงสุด แต่จะได้รับความเสียหายลดลง -50% และได้รับการฟื้นฟูเลือดลดลง -50% ด้วยเช่นกัน",
+      "desc": "\nเริ่มเทิร์นแรกของการเผชิญหน้า: ตัวตนต่าง ๆ ที่มีสกิลโจมตีพื้นฐานที่สามารถรับ [Combustion] ได้ จะได้รับค่า [Combustion] 5 หน่วย และฟื้นฟู SP 8 หน่วย\n\nสำหรับตัวตนจาก <ฝูงเดรัจฉานทมิฬ - ฝูงระกา>:\nมีเลือดได้มากสุดที่ 49% ของเลือดสูงสุด แต่จะได้รับความเสียหายลดลง -50% และได้รับการฟื้นฟูเลือดลดลง -50% ด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9819,
@@ -17,75 +17,75 @@
     },
     {
       "id": 9820,
-      "name": "Blackiron Barding",
-      "desc": "Turn Start: apply (Defense Level / 3) Shield to 1 ally with the highest Defense Level (prioritizes Heishou - Wu Identities; max Shield 15)\n\nWhen allies with Shield win a Clash, inflict (Speed / 2) [Vibration] Potency; then, gain 2 [Agility] and 2 [DefenseUp] next turn (once per turn per Identity)",
+      "name": "สนับเหล็กสีดำ",
+      "desc": "\nเริ่มเทิร์น: มอบโล่ (เลเวลตั้งรับ / 3) หน่วย\nแก่พันธมิตร 1 คนที่มีเลเวลตั้งรับสูงสุด\n(ให้ความสำคัญจากตัวตน <ฝูงเดรัจฉานทมิฬ - ฝูงมะเมีย> ก่อน; ได้รับโล่สูงสุด 15 หน่วย)\n\nเมื่อเหล่าพันธมิตรที่มีโล่แคลชสกิลชนะ จะสร้างค่า [Vibration] (ค่าความเร็ว / 2) หน่วย; จากนั้นจะได้รับ [Agility] 2 หน่วย และ [DefenseUp] 2 หน่วยในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน)",
       "simpleDesc": [
         {
           "abilityID": 9820,
-          "simpleDesc": "Apply Shield & [Agility] to an ally"
+          "simpleDesc": "มอบโล่ & [Agility] ให้พันธมิตรหนึ่งคน"
         },
         {
           "abilityID": 98201,
-          "simpleDesc": "Inflict Tremor Potency based on Speed; gain Defense Level next turn"
+          "simpleDesc": "สร้างค่า [Vibration] ตามความเร็ว; ได้รับ [Agility] และ [DefenseUp] ในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 9821,
-      "name": "Red Cloth that Closes the Heart",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\nWhen other allies use an Unopposed Attack to hit an enemy, gain 1 [AttackUp] next turn (they can activate this only once per turn per Identity; effect itself activates up to 6 times per turn)\n\nWhen other allies [RetreatForCommon], gain 1 [SlashResultUp] and 1 [SlashDamageUp] next turn (once per turn)\n\nWhen all above conditions are met, gain 1 [ResultEnhancement] next turn (once per turn)",
+      "name": "ผ้าแดงปิดดวงใจ",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #1]\n\nเมื่อพันธมิตรคนอื่นใช้การโจมตีโดยตรงโดนศัตรู จะได้รับ [AttackUp] 1 หน่วยในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน; โดยเอฟเฟกต์นี้ทำงานได้สูงสุด 6 ครั้ง/เทิร์น)\n\nเมื่อพันธมิตรคนอื่นใช้ [RetreatForCommon] จะได้รับ\n- [SlashResultUp] 1 หน่วย\n- [SlashDamageUp] 1 หน่วย\nในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n\nเมื่อเกิดเงื่อนไขข้างต้นทั้งหมด จะได้รับ [ResultEnhancement] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 9821,
-          "simpleDesc": "Gain Offense Level next turn"
+          "simpleDesc": "ได้รับ [AttackUp] ในเทิร์นถัดไป"
         },
         {
           "abilityID": 98211,
-          "simpleDesc": "Gain Slash Power Up and Slash DMG Up next turn"
+          "simpleDesc": "ได้รับ [SlashResultUp] และ [SlashDamageUp]"
         },
         {
           "abilityID": 98212,
-          "simpleDesc": "Gain Power Up next turn"
+          "simpleDesc": "ได้รับ [ResultEnhancement]"
         }
       ]
     },
     {
       "id": 9822,
       "name": "คุณธรรม - จื้อ (智)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, gain 2 [DefenseUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 1 [Agility] next turn",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อสกิลโจมตี (รวมถึงสกิล E.G.O) ที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้แคลชสกิลชนะ: ได้รับ [DefenseUp] 2 หน่วย\nในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- หากตัวละครนี้เป็น <ผู้ท้าชิงประมุขตระกูล>: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9822,
-          "simpleDesc": "Gain Defense Level Up. Family Hierarch Candidate Faction gains [Agility] next turn as well"
+          "simpleDesc": "ได้รับ [DefenseUp] ในเทิร์นถัดไป\nหากเป็น <ผู้ท้าชิงประมุขตระกูล> จะได้รับ [Agility] ในเทิร์นถัดไปด้วยเช่นกัน"
         }
       ]
     },
     {
       "id": 9823,
       "name": "คุณธรรม - ย่ง (勇)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, gain 2 [AttackUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 3 [AttackUp] next turn",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อสกิลโจมตี (รวมถึงสกิล E.G.O) ที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้แคลชสกิลชนะ: ได้รับ [AttackUp] 2 หน่วย\nในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- หากตัวละครนี้เป็น <ผู้ท้าชิงประมุขตระกูล>: ได้รับ [AttackUp] 3 หน่วยในเทิร์นถัดไปด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9823,
-          "simpleDesc": "Gain Offense Level Up. Family Hierarch Candidate Faction gains [AttackUp] next turn as well"
+          "simpleDesc": "ได้รับ [AttackUp] ในเทิร์นถัดไป\nหากเป็น <ผู้ท้าชิงประมุขตระกูล> จะได้รับ [AttackUp] ในเทิร์นถัดไปด้วยเช่นกัน"
         }
       ]
     },
     {
       "id": 9824,
       "name": "คุณธรรม - เหริน (仁)",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, heal 15 HP (once per turn)\n- If this unit is a Family Hierarch Candidate: also gain 1 [Protection] next turn",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อสกิลโจมตี (รวมถึงสกิล E.G.O) ที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้แคลชสกิลชนะ: ฟื้นฟูเลือด 15 หน่วย (มีผลเทิร์นละครั้ง)\n- หากตัวละครนี้เป็น <ผู้ท้าชิงประมุขตระกูล>: ได้รับ [Protection] 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9824,
-          "simpleDesc": "Heal HP. Family Hierarch Candidate Faction gains [Protection] next turn as well"
+          "simpleDesc": "ฟื้นฟูเลือด\nหากเป็น <ผู้ท้าชิงประมุขตระกูล> จะได้รับ [Protection] ในเทิร์นถัดไปด้วยเช่นกัน"
         }
       ]
     },
     {
       "id": 9825,
-      "name": "Cultivation: Cut, File, Carve, Polish",
-      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen using an Attack Skill(including E.G.O Skills) that inflicts [Burst] Potency or [Burst] Count to win a clash, heal 20 HP, gain 3 [AttackUp], and gain 3 [DefenseUp] next turn (once per turn)\n- If this unit is a Family Hierarch Candidate: apply 1 [Agility], 1 [Protection], and 3 [AttackUp] to all allies, including this unit",
+      "name": "อบรม: ตัด ฝน สลัก ขัดเกลา",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #6]\n\nเมื่อสกิลโจมตี (รวมถึงสกิล E.G.O) ที่สามารถสร้างค่าหรือจำนวนครั้ง [Burst] ได้แคลชสกิลชนะ:\n- ฟื้นฟูเลือด 20 หน่วย\n- ได้รับ [AttackUp] 3 หน่วยในเทิร์นถัดไป\n- ได้รับ [DefenseUp] 3 หน่วยในเทิร์นถัดไป\n(มีผลเทิร์นละครั้ง)\n\nหากตัวละครนี้เป็น <ผู้ท้าชิงประมุขตระกูล>: จะมอบ\n- [Agility] 1 หน่วย\n- [Protection] 1 หน่วย\n- [AttackUp] 3 หน่วย\nให้แก่พันธมิตรทั้งหมดรวมตัวละครนี้ด้วยเช่นกัน",
       "simpleDesc": [
         {
           "abilityID": 9825,
@@ -95,34 +95,34 @@
     },
     {
       "id": 9826,
-      "name": "Shaoxing Wine",
-      "desc": "[Effects apply only to #2 Deployed Identity]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "ไวน์เช่าซิง",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #2]\n\nสร้างความเสียหายเพิ่มขึ้น +1%\nตามทุก ๆ เลือด 1% ของตนเองที่หายไป (สูงสุด 10%)",
       "simpleDesc": [
         {
           "abilityID": 9826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "ยิ่งเลือดน้อยความเสียหายยิ่งมาก"
         }
       ]
     },
     {
       "id": 19826,
-      "name": "Shaoxing Wine+",
-      "desc": "[Effects apply only to #2 <style=\"upgradeHighlight\">and #4 Deployed Identities</style>]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "ไวน์เช่าซิง+",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #2, <style=\"upgradeHighlight\">#4</style>]\n\nสร้างความเสียหายเพิ่มขึ้น +1%\nตามทุก ๆ เลือด 1% ของตนเองที่หายไป (สูงสุด 10%)",
       "simpleDesc": [
         {
           "abilityID": 19826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "ยิ่งเลือดน้อยความเสียหายยิ่งมาก"
         }
       ]
     },
     {
       "id": 29826,
-      "name": "Shaoxing Wine++",
-      "desc": "[Effects apply only to #2 ,#4, <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nDeal +1% damage for every 1% missing HP on self (max 10%)",
+      "name": "ไวน์เช่าซิง++",
+      "desc": "\n[เอฟเฟกต์มีผลเฉพาะตัวตนที่วางทัพเป็นลำดับ #2, #4, <style=\"upgradeHighlight\">#6</style>]\n\nสร้างความเสียหายเพิ่มขึ้น +1%\nตามทุก ๆ เลือด 1% ของตนเองที่หายไป (สูงสุด 10%)",
       "simpleDesc": [
         {
           "abilityID": 29826,
-          "simpleDesc": "Deal more damage based on missing HP"
+          "simpleDesc": "ยิ่งเลือดน้อยความเสียหายยิ่งมาก"
         }
       ]
     }
