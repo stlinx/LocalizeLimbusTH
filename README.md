@@ -80,9 +80,9 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
 ✘ 7.5-1 : LCB Regular Check-up  
-✔ 7.5-2 : Nocturnal Sweeping  JoshWaltz49 
-✘ พิเศษ : The 6th Walpurgis Night
-✘ 8.5 : Spring Cultivation
+✔ 7.5-2 : Nocturnal Sweeping  JoshWaltz49  
+✘ พิเศษ : The 6th Walpurgis Night  
+✘ 8.5 : Spring Cultivation  
 
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
