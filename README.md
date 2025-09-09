@@ -47,8 +47,7 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ
-• แปลกิจกรรมใหม่ (ไม่มีแปลเนื้อเรื่อง)
-• แปลตัวตนใหม่
+• แปลระบบดันกระจกใหม่
 
 ---
 
@@ -70,18 +69,20 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ 4.5 : S.E.A.  JoshWaltz49  
 ✘ พิเศษ : Rooms Past the Backdoor  
 ✘ พิเศษ : A Notable Change  
-✘ 5.5 : Miracle in District 20  
+✘ 5.5-1 : Miracle in District 20  
 ✘ พิเศษ : Back to the Bus  
-✘ 5.5 : Yield My Flesh to Claim Their Bones  
+✘ 5.5-2 : Yield My Flesh to Claim Their Bones  
 ✘ พิเศษ : Risk Levels & Classifications  
 ✘ พิเศษ : The 3rd Walpurgis Night  
-✘ 6.5 : Timekilling Time  
+✘ 6.5-1 : Timekilling Time  
 ✘ พิเศษ : A Familiar Siren  
-✘ 6.5 : Murder on the WARP Express  
+✘ 6.5-2 : Murder on the WARP Express  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
-✘ 7.5 : LCB Regular Check-up  
-✔ 7.5 : Nocturnal Sweeping  JoshWaltz49  
+✘ 7.5-1 : LCB Regular Check-up  
+✔ 7.5-2 : Nocturnal Sweeping  JoshWaltz49  
+✘ พิเศษ : The 6th Walpurgis Night  
+✘ 8.5 : Spring Cultivation  
 
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
