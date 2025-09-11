@@ -2763,49 +2763,49 @@
     },
     {
       "id": "DarkHongluQiuAndHonglu",
-      "name": "One Who Walks The Way of the Hegemon",
+      "name": "ผู้ก้าวย่างบนเส้นทางแห่งมุขยภาพ",
       "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least SP heals 5 SP\n- When an ally dies, next turn, this unit gains 2 Attack Power Up and remaining allies gain 1 Attack Power Up (once per turn)",
       "summary": ""
     },
     {
       "id": "DarkHongluTeaching",
-      "name": "Uncompromising Imposition",
+      "name": "ท่องแท้",
       "desc": "Max Stack: 3\n- Turn End: heal 5 SP\n- When HP drops to 0 during the Encounter, heal up to max HP (activates as many times as this unit has Stacks)\n- When healed by this effect, gain 1 Final Power Up next turn\n- Activated: {0} times",
       "summary": ""
     },
     {
       "id": "DarkHongluParryGahwan",
-      "name": "You're Ridiculous, Big Brother.",
+      "name": "ช่างไร้ยางอายเสียจริง ท่านพี่",
       "desc": "In Clashes against Jia Huan, Clash Power +2",
       "summary": ""
     },
     {
       "id": "DarkHonglu_EGOResourceup",
-      "name": "No Matter How Many Must Bleed...",
+      "name": "แม้จำต้องมีผู้ที่หลั่งเลือดอีกเท่าไหร่...",
       "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, gain 2 additional E.G.O resources of the Skill's Affinity (once per turn)\n- When this unit takes damage, it gains 2 Slash DMG Up next turn (once per turn)",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Xi",
-      "name": "Happiness",
+      "name": "สุขสันต์",
       "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Le",
-      "name": "Happiness, Joy",
+      "name": "สุขสันต์, เพลิดเพลิน",
       "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Ai",
-      "name": "Happiness, Joy, Sorrow",
+      "name": "สุขสันต์, เพลิดเพลิน, โศกา",
       "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
-      "name": "Happiness, Joy, Sorrow, Wrath",
+      "name": "สุขสันต์, เพลิดเพลิน, โศกา, โกรธา",
       "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 SP at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources",
       "summary": ""
     },
@@ -2838,6 +2838,27 @@
       "name": "คำรามสั่งการ",
       "desc": "- ได้รับแต้มแคลชสกิล 1 แต้มและเลเวลตั้งรับ 2 หน่วย\n- หมดลงเมื่อจบเทิร์น",
       "summary": ""
+    },
+    {
+      "id": "VibrationBleeding",
+      "name": "Tremor - Hemorrhage",
+      "desc": "- On Tremor Burst, take Lust Damage equal to (sum of Tremor Potency and Bleed Potency / 2), and lose 1 Bleed Count\n- When hit by Skills that trigger Tremor Burst, raise this unit's Stagger Threshold by the effect's Potency\n- Turn End: reduce the Count by 1\n(Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GazeRyoshu",
+      "name": "Gaze",
+      "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Ryōshū for every 1 Stack of Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: at 7 Stacks, convert this effect into Contempt next turn",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ContemptRyoshu",
+      "name": "Contempt",
+      "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Ryōshū\n- Targets with Contempt cannot gain Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: expires; then, this unit gains 7 Gaze next turn",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }
