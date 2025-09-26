@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "물어뜯기",
+          "name": "Bite",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
                 }
               ]
             }
@@ -31,13 +31,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "강습",
-          "desc": "대상의 [Sinking]이 6 이상이면, 합 위력 +1",
+          "name": "Assault",
+          "desc": "If target has 6+ [Sinking], Clash Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 2 부여, [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +2 [Sinking] Count"
                 }
               ]
             }
@@ -50,16 +50,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "내려치기",
-          "desc": "대상의 [Sinking]이 6 이상이면, 합 위력 +1\n[StartBattle] 체력이 33% 이하면, 이 스킬의 코인이 [SuperCoin]으로 변경됨",
+          "name": "Slam Down",
+          "desc": "If target has 6+ [Sinking], Clash Power +1\n[StartBattle] At 33%- HP, convert all Coins on this Skill to [SuperCoin]s",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             }
@@ -72,26 +72,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "찢어 발기기",
-          "desc": "대상의 [Sinking]이 6 이상이면, 합 위력 +1\n[StartBattle] 체력이 33% 이하면, 이 스킬의 마지막 코인이 [SuperCoin]으로 변경됨",
+          "name": "Ripping Mutilation",
+          "desc": "If target has 6+ [Sinking], Clash Power +1\n[StartBattle] At 33%- HP, convert the final Coin on this Skill to [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             }
@@ -104,16 +104,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "생명 절삭",
-          "desc": "대상의 [Sinking] 6당, 최종 위력 +1 (최대 3)\n[StartBattle] 체력이 50% 이하면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨",
+          "name": "Incision of Life",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 3)\n[StartBattle] At 50%- HP, convert all Coins on this Skill to [SuperCoin]s",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -123,11 +123,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 4 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -139,27 +139,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "광란",
-          "desc": "대상의 [Sinking] 6당, 최종 위력 +1 (최대 3)\n[StartBattle] 체력이 50% 이하면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨",
+          "name": "Frenzy",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 3)\n[StartBattle] At 50%- HP, convert all Coins on this Skill to [SuperCoin]s",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                }
               ]
             },
             {
@@ -168,11 +168,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 6 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 6 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -184,21 +184,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "영양분 수확",
+          "name": "Reap Nutrients",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -210,16 +210,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "베어물기",
-          "desc": "대상의 [Sinking] 6당, 최종 위력 +1 (최대 2)",
+          "name": "Lacerating Bite",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             },
@@ -229,11 +229,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -245,26 +245,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "연속 포식",
-          "desc": "대상의 [Sinking] 6당, 최종 위력 +1 (최대 2)",
+          "name": "Persistent Devouring",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -274,11 +274,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 3 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 3 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 3 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -290,37 +290,37 @@
       "levelList": [
         {
           "level": 1,
-          "name": "생명 관통",
-          "desc": "메인 타겟 대상의 [Sinking] 6당, 최종 위력 +1 (최대 2)",
+          "name": "Puncturing of Life",
+          "desc": "Final Power +1 for every 6 [Sinking] on the main target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 3 부여, [Sinking] 횟수 2 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                }
               ]
             }
           ]
@@ -332,37 +332,37 @@
       "levelList": [
         {
           "level": 1,
-          "name": "분출",
-          "desc": "메인 타겟 대상의 [Sinking] 6당, 최종 위력 +1 (최대 2)",
+          "name": "Discharge",
+          "desc": "Final Power +1 for every 6 [Sinking] on the main target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 1 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 1 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [NervousImpairment]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 2 부여, [Sinking] 횟수 3 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking] and +3 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
-                } 
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
+                }
               ]
             }
           ]

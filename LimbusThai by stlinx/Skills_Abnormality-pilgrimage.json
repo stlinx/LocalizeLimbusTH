@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "파도를 꿰뚫는 창",
-          "desc": "[WhenUse] [ColdAirDOQ]를 보유한 적 2명 당, 합 위력 +1 (최대 2)\n[WhenUse] 대상의 [ColdAirDOQ] 1당 최종 위력 +1 (최대 2)",
+          "name": "Tidepiercer Lance",
+          "desc": "[WhenUse] Clash Power +1 for every 2 enemies with [ColdAirDOQ] (max 2)\n[WhenUse] Final Power +1 for every [ColdAirDOQ] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "파도를 부수는 창",
-          "desc": "[WhenUse] [ColdAirDOQ]를 보유한 적 2명 당, 기본 위력 +1 (최대 2)\n[WhenUse] 메인 타겟에게 [ColdAirDOQ]가 존재할 시 가중치 + 1\n[WhenUse] 메인 타겟의 [ColdAirDOQ] 1당 최종 위력 +1 (최대 2)\n[DefeatDuel] 피해량이 50% 감소하고 이 스킬의 피해로 대상이 흐트러지지 않음",
+          "name": "Tidebreaker Lance",
+          "desc": "[WhenUse] Base Power +1 for every 2 enemies with [ColdAirDOQ] (max 2)\n[WhenUse] If the main target has [ColdAirDOQ], gain +1 Atk Weight\n[WhenUse] Final Power +1 for every [ColdAirDOQ] on the main target (max 2)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가\n- 대상이 [ColdAirDOQ]를 보유하고 있으면 [Sinking] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count\n- If target has [ColdAirDOQ], inflict 1 [Sinking]"
                 }
               ]
             },
@@ -40,7 +40,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
                 }
               ]
             }
@@ -53,20 +53,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "파도 사냥",
-          "desc": "[FreezingDOQ]을 보유한 대상을 우선으로 지정\n속도에 상관없이 이 스킬과 합을 할 수 있음\n[WhenUse] [FreezingDOQ]을 보유한 대상을 공격할 시 공격 가중치 + 2\n[WhenUse] [ColdAirDOQ]를 보유한 적 2명당, 코인 위력 +1 (최대 2)\n[DefeatDuel] 피해량이 50% 감소하고 이 스킬의 피해로 대상이 흐트러지지 않음",
+          "name": "Tide-Hunt",
+          "desc": "Prioritizes targets with [FreezingDOQ]\nCan Clash with this Skill regardless of Speed\n[WhenUse] When attacking targets with [FreezingDOQ], gain +2 Atk Weight\n[WhenUse] Coin Power +1 for every 2 enemies with [ColdAirDOQ] (max 2)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] [AttackUp] 3 얻음 (턴 당 1회)"
+                  "desc": "[OnSucceedAttackHead] Gain 3 [AttackUp] (once per turn)"
                 }
               ]
             },
@@ -76,7 +76,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[EnemyKill] 대상이 [FreezingDOQ]을 보유한 상태라면 정신력 20 회복"
+                  "desc": "[EnemyKill] If target has [FreezingDOQ], heal 20 SP"
                 }
               ]
             }
@@ -89,33 +89,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "바다를 죽여라, 바다를 죽여!!",
-          "desc": "[CantDuel]\n[WhenUse] [ColdAirDOQ]를 보유한 적 1명 당, 피해량 +5% (최대 30%)",
+          "name": "Slay the Ocean, Slay the Ocean!!",
+          "desc": "[CantDuel]\n[WhenUse] Deal +5% damage for every enemy with [ColdAirDOQ] (max 30%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 5 부여"
+                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 1 증가"
+                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] [AttackUp] 3 얻음 (턴 당 1회)"
+                  "desc": "[OnSucceedAttackHead] Gain 3 [AttackUp] (once per turn)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] (1 + 대상의 [ColdAirDOQ] 수치) x 10 만큼 추가 우울 피해"
+                  "desc": "[OnSucceedAttack] Inflict 10(1 + [ColdAirDOQ] on target) bonus Gloom damage"
                 },
                 {
-                  "desc": "[EnemyKill] 대상이 [FreezingDOQ]을 보유한 상태라면 정신력 20 회복"
+                  "desc": "[EnemyKill] If target has [FreezingDOQ], heal 20 SP"
                 }
               ]
             }
@@ -128,8 +128,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "바다를 죽여라, 바다를 죽여!!",
-          "desc": "[FreezingDOQ]을 보유한 대상을 우선으로 지정\n속도에 상관없이 이 스킬과 합을 할 수 있음\n[WhenUse] [ColdAirDOQ]를 보유한 걸린 적 1명 당, 피해량 +5% (최대 30%)\n[WhenUse] [ColdAirDOQ]를 보유한 적 2명 당, 코인 위력 +1 (최대 3)\n[DefeatDuel] 피해량이 80% 감소하고 이 스킬의 피해로 대상이 흐트러지지 않음",
+          "name": "Slay the Ocean, Slay the Ocean!!",
+          "desc": "Prioritizes targets with [FreezingDOQ]\nCan Clash with this Skill regardless of Speed\n[WhenUse] Deal +5% damage for every enemy with [ColdAirDOQ] (max 30%)\n[WhenUse] Coin Power +1 for every 2 enemies with [ColdAirDOQ] (max 3)\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
           "coinlist": [
             {
               "coindescs": [
@@ -137,7 +137,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 5 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Sinking]"
                 }
               ]
             },
@@ -147,10 +147,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 1 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +1 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] [AttackUp] 3 얻음 (턴 당 1회)"
+                  "desc": "[OnSucceedAttackHead] Gain 3 [AttackUp] (once per turn)"
                 }
               ]
             },
@@ -160,10 +160,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] (1 + 대상의 [ColdAirDOQ] 수치) x 10 만큼 추가 우울 피해"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10(1 + [ColdAirDOQ] on target) bonus Gloom damage"
                 },
                 {
-                  "desc": "[EnemyKill] 대상이 [FreezingDOQ]을 보유한 상태라면 정신력 20 회복"
+                  "desc": "[EnemyKill] If target has [FreezingDOQ], heal 20 SP"
                 }
               ]
             }
@@ -176,8 +176,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "굴복하지 않는 기사",
-          "desc": "[CanDuelGuard]\n[WhenUse] 다음 턴에 [Agility] 2 얻음 (턴 당 1회)\n[WinDuel] 정신력 15 회복\n[DefeatDuel] 정신력 10 감소",
+          "name": "The Indomitable Knight",
+          "desc": "[CanDuelGuard]\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Heal 15 SP\n[DefeatDuel] Lose 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -195,8 +195,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "세포 주입",
-          "desc": "[OnDirectAttack] 이 스킬 코인 위력 +2",
+          "name": "Cell Injection",
+          "desc": "[OnDirectAttack] Coin Power +2 for this Skill",
           "coinlist": [
             {
               "coindescs": [
@@ -204,10 +204,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [NervousImpairment] 5 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [NervousImpairment]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [SeaTerrorCell] 1 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [SeaTerrorCell]"
                 }
               ]
             }
@@ -220,20 +220,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "찢어베기",
-          "desc": "대상의 [Sinking] 6 당, 최종 위력 +1 (최대 2)",
+          "name": "Ripping Slice",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 1 증가"
+                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 다음 턴에 [Binding] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
                 }
               ]
             }
@@ -246,27 +246,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "휘둘러 베기",
-          "desc": "[WhenUse] 대상의 [Binding] 1 당, 코인 위력 +1 (최대 2)",
+          "name": "Swinging Slice",
+          "desc": "[WhenUse] Coin Power +1 for every 1 [Binding] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Paralysis] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
                 }
               ]
             }
@@ -279,20 +279,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "연속 찌르기",
-          "desc": "대상의 [Sinking] 6 당, 최종 위력 +1 (최대 2)",
+          "name": "Multiple Jabs",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 대상의 [NervousImpairment]만큼 우울 피해"
+                  "desc": "[OnSucceedAttack] Inflict Gloom damage equal to [NervousImpairment] on target"
                 }
               ]
             }
@@ -305,23 +305,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "하나된 의지",
-          "desc": "대상의 [Sinking] 6 당 코인 위력 +1 (최대 2)\n[StartBattle] 속도가 가장 느린 아군 심해신도에게 다음 턴에 [Agility] 2 부여",
+          "name": "United Will",
+          "desc": "Coin Power +1 for every 6 [Sinking] on target (max 2)\n[StartBattle] Apply 2 [Agility] next turn to the allied Cultist of the Deep with the slowest Speed",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [NervousImpairment]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 다음 턴에 [Binding] 1 부여"
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
                 }
               ]
             }
@@ -334,20 +334,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "퍼지는 환희",
-          "desc": "대상의 [Sinking] 6 당 코인 위력 +1 (최대 2)\n[StartBattle] 속도가 가장 빠른 아군 심해신도에게 [Enhancement] 2 부여",
+          "name": "Propagating Bliss",
+          "desc": "Coin Power +1 for every 6 [Sinking] on target (max 2)\n[StartBattle] Apply 2 [Enhancement] next turn to the allied Cultist of the Deep with the fastest Speed",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 횟수 2 증가"
+                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             }
@@ -360,8 +360,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "해방의 의식",
-          "desc": "대상의 [Sinking] 6 당 코인 위력 +1 (최대 2)\n[WhenUse] 대상에게 [Binding]이 있으면, 최종 위력 +2\n[WinDuel] [Sinking] 6 부여",
+          "name": "Rite of Liberation",
+          "desc": "Coin Power +1 for every 6 [Sinking] on target (max 2)\n[WhenUse] If target has [Binding], Final Power +2\n[WinDuel] Inflict 6 [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -369,10 +369,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 다음 턴에 [Binding] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
                 }
               ]
             },
@@ -382,10 +382,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 3 부여"
+                  "desc": "[OnSucceedAttack] Inflict 3 [NervousImpairment]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             }
@@ -398,8 +398,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "환경 적응",
-          "desc": "대상의 [Sinking] 6 당 최종 위력 +1 (최대 2)\n[StartBattle] 보호막 50 얻음\n[EndBattle] 자신에게 보호막이 남아있으면, 다음 턴에 [Enhancement] 2 얻음",
+          "name": "Environmental Adaptation",
+          "desc": "Final Power +1 for every 6 [Sinking] on target (max 2)\n[StartBattle] Gain 50 Shield\n[EndBattle] If this unit has remaining Shield, gain 2 [Enhancement] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -424,8 +424,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "육지의 동포를 위하여",
-          "desc": "[WhenUse] 현재 맵에 [NetherseaBrandUnit]이 활성화되어있으면, 최종 위력 +3\n- [NetherseaBrandUnit] 단계 1 당 추가로 최종 위력 +1\n\n[WhenUse] 메인 대상의 [Sinking] 6 당 코인 위력 +1 (최대 2)\n[NetherseaBrandUnit]이 2단계 이상이면. 이 스킬에서 부여하는 [NervousImpairment] +1",
+          "name": "For the Landbound Kins",
+          "desc": "[WhenUse] If [NetherseaBrandUnit] is activated here, Final Power +3\n- Gain additional 1 Final Power for every 1 Stage of [NetherseaBrandUnit]\n\n[WhenUse] Coin Power +1 for every 6 [Sinking] on the main target (max 2)\nAt Stage 2 or higher [NetherseaBrandUnit], inflict +1 more [NervousImpairment] with this Skill",
           "coinlist": [
             {
               "coindescs": [
@@ -433,10 +433,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [SeaTerrorCell] 1 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [SeaTerrorCell]"
                 }
               ]
             },
@@ -446,10 +446,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [SeaTerrorCell] 1 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [SeaTerrorCell]"
                 }
               ]
             },
@@ -459,10 +459,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [SeaTerrorCell] 1 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [SeaTerrorCell]"
                 }
               ]
             }
@@ -470,15 +470,13 @@
         }
       ]
     },
-       
-
     {
       "id": 129701,
       "levelList": [
         {
           "level": 1,
-          "name": "조급한 자아의 샛길",
-          "desc": "[CantDuel]\n이 스킬로 대상에게 피해를 입히지 않음\n[EndSkill] [AbyssalVitality] 100 얻음",
+          "name": "The Impatient Ego's Byway",
+          "desc": "[CantDuel]\nThis Skill does not deal damage against targets\n[EndSkill] Gain 100 [AbyssalVitality]",
           "coinlist": [
             {}
           ]
@@ -490,16 +488,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "안식의 메아리",
-          "desc": "[CantIdentify]\n아군을 우선으로 지정하며, 그 중 현재 체력이 가장 낮은 아군을 메인 타겟으로 지정\n대상이 아군이면 피해량이 0으로 고정\n대상의 [Sinking] 3당 합 위력 +1 (최대 4)\n[StartBattle] 대상이 아군이면, 대상의 최대 체력 20%만큼 체력 회복",
+          "name": "Echoes of Respite",
+          "desc": "[CantIdentify]\nPrioritizes allies; among them, prioritize allies with the least current HP\nWhen targeting allies, deal 0 damage\nClash Power +1 for every 3 [Sinking] on target (max 4)\n[StartBattle] When targeting allies, heal (20% of target's max HP) HP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 대상이 아군이면, 대상 소환 시 소모한 [AbyssalVitality] 4당, 이번 턴과 다음 턴에 [DefenseUp] 1 부여 (최대 5)"
+                  "desc": "[OnSucceedAttack] When targeting an ally, apply 1 [DefenseUp] this turn and next turn for every 4 [AbyssalVitality] consumed to summon the target (max 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 적이면, [Sinking] 3, [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 3 [Sinking] and 2 [NervousImpairment]"
                 }
               ]
             }
@@ -512,16 +510,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "상승의 메아리",
-          "desc": "[CantIdentify]\n현재 체력이 가장 높은 아군을 우선으로 지정\n대상이 아군이면 피해량이 0으로 고정\n대상의 [Sinking] 3당 합 위력 +1 (최대 4)",
+          "name": "Echoes of Ascending",
+          "desc": "[CantIdentify]\nPrioritize allies with the most current HP\nWhen targeting an ally, deal 0 damage\nClash Power +1 for every 3 [Sinking] on target (max 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 대상이 아군이면, 대상 소환 시 소모한 [AbyssalVitality] 4당, 이번 턴과 다음 턴에 [AttackUp] 1 부여 (최대 5)"
+                  "desc": "[OnSucceedAttack] When targeting an ally, apply 1 [AttackUp] this turn and next turn for every 4 [AbyssalVitality] consumed to summon the target (max 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 적이면, [Sinking] 3, [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 3 [Sinking] and 2 [NervousImpairment]"
                 }
               ]
             }
@@ -534,8 +532,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "순환하는 생태계",
-          "desc": "[CanDuelGuard]\n[EndBattle] 생존한 아군 수만큼 [AbyssalVitality]을 소모하는 대신, 모든 아군에게 대상이 생존한 턴 수만큼 다음 턴에 [AttackDmgUp] 부여 (최대 3)\n- [DefeatDuel] 다음 턴에 [AttackDmgUp]를 부여하지 않음",
+          "name": "Cyclical Ecosystem",
+          "desc": "[CanDuelGuard]\n[EndBattle] Consume [AbyssalVitality] for every surviving ally; however, apply (# of turns target survived) [AttackDmgUp] next turn to all allies (max 3)\n- [DefeatDuel] Does not apply [AttackDmgUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -553,8 +551,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "짙푸른 온정으로.",
-          "desc": "[CantIdentify]\n메인 타겟 대상의 [NervousImpairment] 3당 기본 위력 +1 (최대 9)\n대상이 아군이면 피해량이 0으로 고정\n속도에 상관없이 이 스킬과 합을 할 수 있음\n[DefeatDuel]\n- [ResultReduction] 3, [Paralysis] 3 얻음\n- 피해량이 80%만큼 감소하고 이 스킬의 피해로 대상이 흐트러지지 않음\n- 이 스킬로 부여하는 [NervousImpairment] 부여량이 절반으로 감소하고 [Sinking], [Sinking] 횟수를 부여하지 않음\n- 이 스킬로 얻는 [AbyssalVitality]이 절반으로 감소\n[EndSkill] [AbyssalVitality] 100 얻음\n[EndBattle] 다음 턴 시작 시 아군 전장에 [NetherseaBrandUnit] 생성",
+          "name": "With Deep Blue Charity.",
+          "desc": "[CantIdentify]\nBase Power +1 for every 3 [NervousImpairment] on the main target (max 9)\nWhen targeting allies, deal 0 damage\nCan Clash with this Skill regardless of Speed\n\n[DefeatDuel]\n- Gain 3 [ResultReduction] and 3 [Paralysis]\n- Deal -80% damage, and damage dealt by this Skill cannot Stagger the target\n- Halve the amount of [NervousImpairment] inflicted by this Skill, and does not inflict [Sinking] or [Sinking] Count\n- Halve the amount of [AbyssalVitality] gained from this Skill\n[EndSkill] Gain 100 [AbyssalVitality]\n[EndBattle] At the start of the next turn, generate [NetherseaBrandUnit] in the ally territory",
           "coinlist": [
             {
               "coindescs": [
@@ -562,10 +560,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 아군이면, 대상의 최대 체력 10% 회복"
+                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 적이면, [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -575,10 +573,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 아군이면, 대상의 최대 체력 10% 회복"
+                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 적이면, [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -588,10 +586,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 아군이면, 대상의 최대 체력 10% 회복"
+                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 대상이 적이면, [Sinking] 4, [Sinking] 횟수 4, [NervousImpairment] 4 부여"
+                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 4 [Sinking], +4 [Sinking] Count, and 4 [NervousImpairment]"
                 }
               ]
             }
@@ -604,16 +602,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "파도의 궤적",
-          "desc": "[WhenUse] [AbyssalVitality]이 50 이상이면, 수치를 5 소모하여 이 스킬에서 부여하는 신경 손상 부여값 +2\n[WhenUse] 대상의 [NervousImpairment] 5당, [AbyssalVitality]을 1 소모하여 합 위력 +1 (최대 5)",
+          "name": "Tidal Arc",
+          "desc": "[WhenUse] At 50+ [AbyssalVitality], consume 5 [AbyssalVitality] to inflict +2 more [NervousImpairment] with this Skill's effects\n[WhenUse] For every 5 [NervousImpairment] on target, consume 1 [AbyssalVitality] to gain Clash Power +1 (max 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -623,10 +621,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 4 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
                 }
               ]
             }
@@ -639,16 +637,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "거센 난류",
-          "desc": "[WhenUse] [AbyssalVitality]이 50 이상이면, 수치를 4 소모하여 코인 위력 +1\n[WhenUse] 대상의 [NervousImpairment] 10당, [AbyssalVitality]을 3 소모하여 코인 위력 +1 (최대 2)",
+          "name": "Fierce Currents",
+          "desc": "[WhenUse] At 50+ [AbyssalVitality], consume 4 [AbyssalVitality] to gain Coin Power +1\n[WhenUse] For every 10 [NervousImpairment] on target, consume 3 [AbyssalVitality] to gain Coin Power +1 (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Sinking] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -658,10 +656,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 3 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
                 }
               ]
             }
@@ -674,8 +672,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "일렁이는 파도",
-          "desc": "[WhenUse] 메인 타겟의 [NervousImpairment] 3당 코인 위력 +1 (최대 9)\n[EndBattle] [AbyssalVitality]을 최대 10만큼 소모하는 대신, 소모한 수치의 절반 만큼 다음 턴에 [AttackUp] 얻음 (최대 5, 소수점 올림)\n- [DefeatDuel] 다음 턴에 [AttackUp]를 얻지 않음",
+          "name": "Undulating Waves",
+          "desc": "[WhenUse] Coin Power +1 for every 3 [NervousImpairment] on the main target (max 9)\n[EndBattle] Consume up to 10 [AbyssalVitality] and gain half of consumed Stack as [AttackUp] next turn (max 5, rounded up)\n- [DefeatDuel] Does not gain [AttackUp] next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -683,10 +681,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 3, [Sinking] 횟수 2 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 6 부여"
+                  "desc": "[OnSucceedAttack] Inflict 6 [NervousImpairment]"
                 }
               ]
             }
@@ -699,8 +697,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "저들이 믿는 선의가 가치를 잃기 전에.",
-          "desc": "[NervousImpairment]이 제일 높은 대상을 우선으로 지정\n메인 타겟 대상의 [NervousImpairment] 3당 기본 위력 +1 (최대 9)\n속도에 상관없이 이 스킬과 합을 할 수 있음\n[DefeatDuel] \n- [ResultReduction] 3, [Paralysis] 3 얻음\n- 피해량이 80%만큼 감소하고 이 스킬의 피해로 대상이 흐트러지지 않음\n- 이 스킬로 부여하는 [NervousImpairment] 부여량이 절반으로 감소하고 [Sinking], [Sinking] 횟수를 부여하지 않음\n- 이 스킬로 얻는 [AbyssalVitality], 보호막이 절반으로 감소\n[EndSkill]\n- [AbyssalVitality] 100 얻음\n- 최대 체력의 20%만큼 보호막 얻음\n- 이번 턴 종료\n[EndBattle] 다음 턴 시작 시 전장 전체에 [NetherseaBrandUnit] 생성",
+          "name": "Before the compassion they believe in loses its worth.",
+          "desc": "Prioritizes targets with the most [NervousImpairment]\nBase Power +1 for every 3 [NervousImpairment] on the main target (max 9)\nCan Clash with this Skill regardless of Speed\n\n[DefeatDuel]\n- Gain 3 [ResultReduction] and 3 [Paralysis]\n- Deal -80% damage, and damage dealt by this Skill cannot Stagger the target\n- Halve the amount of [NervousImpairment] inflicted by this Skill, and does not inflict [Sinking] or [Sinking] Count\n- Halve the amount of [AbyssalVitality] and Shield gained from this Skill\n[EndSkill]\n- Gain 100 [AbyssalVitality]\n- Gain Shield equal to 20% of this unit's max HP\n- Ends this turn\n[EndBattle] At the start of the next turn, generate [NetherseaBrandUnit] in the ally territory",
           "coinlist": [
             {
               "coindescs": [
@@ -708,10 +706,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 4 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 2 부여"
+                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
                 }
               ]
             },
@@ -721,10 +719,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 횟수 4 증가"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +4 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 4 부여"
+                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
                 }
               ]
             },
@@ -734,10 +732,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Sinking] 4, [Sinking] 횟수 4 부여"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Sinking] and +4 [Sinking] Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [NervousImpairment] 6 부여"
+                  "desc": "[OnSucceedAttack] Inflict 6 [NervousImpairment]"
                 }
               ]
             }
