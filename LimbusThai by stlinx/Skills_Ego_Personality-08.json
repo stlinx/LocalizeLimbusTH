@@ -819,7 +819,7 @@
           "level": 1,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +2% damage for every 0.1 excess Resist. (max 10%)\n[BeforeAttack] At 2+ Gloom Reson., deal +5% damage for every Gloom Reson. (max 20%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "เมื่อโจมตีเป้าหมายเพียงตัวเดียว (ในการเผชิญหน้าเพ่งเล็ง แกนหลักและอวัยวะส่วนต่าง ๆ ที่เชื่อมกับมันจะนับว่าเป็นเป้าหมายเดี่ยว)\n- แต้มเหรียญเพิ่มขึ้น +2 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +100%\n[WhenUse] หากเป้าหมายหลักมีค่า [Sinking] 4+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] หากเป้าหมายหลักมีตัวคูณธาตุโศกาสูงกว่า x1.0 หน่วย จะสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ตัวคูณธาตุโศกา x0.1 หน่วยที่เกินมา (สูงสุด 10%)\n[BeforeAttack] ขณะที่มีสั่นพ้องธาตุโศกา 2+ สกิล\nจะสร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ สั่นพ้องธาตุโศกา (สูงสุด 20%)\n[EndSkill] หากเป้าหมาย 1 ตัวหรือมากกว่าถูกกำจัด จะสร้างความเสียหายธาตุโศกา (ค่า [Sinking] ที่เป้าหมายแต่ละตัวมี / 2) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 15 หน่วย; เน้นเป้าหมายที่เคยถูกสกิลเล็งและมีค่า [Sinking] สูงที่สุดเป็นหลัก)",
           "coinlist": [
             {
               "coindescs": [
@@ -827,10 +827,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
@@ -840,7 +840,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 1 หน่วย\nในเทิร์นถัดไป"
                 }
               ]
             },
@@ -850,13 +850,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)"
+                  "desc": "[OnSucceedAttack] หากในกลุ่มเป้าหมายมีตัวที่ติดชะงัก อวัยวะเสียหาย หรือถูกกำจัด จะสร้างค่า [Sinking] 2 หน่วย แก่ศัตรูหนึ่งตัวที่ไม่ได้ถูกสกิลเล็งแบบสุ่ม (มีผลเทิร์นละครั้ง; ในการเผชิญหน้าเพ่งเล็ง อวัยวะแต่ละส่วนจะนับเป็นเป้าหมายหนึ่งตัว)"
                 },
                 {
-                  "desc": "- If there is just a single target, apply it to 3 targets instead"
+                  "desc": "- หากมีเป้าหมายเพียงตัวเดียว จะสร้างค่าสถานะดังกล่าวแก่เป้าหมาย 3 ตัวแทน"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -866,7 +866,7 @@
           "level": 3,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">3</style>% damage for every 0.1 excess Resist. (max <style=\"highlight\">15</style>%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">8</style>% damage for every Gloom Reson. (max <style=\"highlight\">32</style>%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "เมื่อโจมตีเป้าหมายเพียงตัวเดียว (ในการเผชิญหน้าเพ่งเล็ง แกนหลักและอวัยวะส่วนต่าง ๆ ที่เชื่อมกับมันจะนับว่าเป็นเป้าหมายเดี่ยว)\n- แต้มเหรียญเพิ่มขึ้น +2 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +100%\n[WhenUse] หากเป้าหมายหลักมีค่า [Sinking] 4+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] หากเป้าหมายหลักมีตัวคูณธาตุโศกาสูงกว่า x1.0 หน่วย จะสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ ตัวคูณธาตุโศกา x0.1 หน่วยที่เกินมา (สูงสุด 15%)\n[BeforeAttack] ขณะที่มีสั่นพ้องธาตุโศกา 2+ สกิล\nจะสร้างความเสียหายเพิ่มขึ้น +8% ตามทุก ๆ สั่นพ้องธาตุโศกา (สูงสุด 32%)\n[EndSkill] หากเป้าหมาย 1 ตัวหรือมากกว่าถูกกำจัด จะสร้างความเสียหายธาตุโศกา (ค่า [Sinking] ที่เป้าหมายแต่ละตัวมี / 2) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 15 หน่วย; เน้นเป้าหมายที่เคยถูกสกิลเล็งและมีค่า [Sinking] สูงที่สุดเป็นหลัก)",
           "coinlist": [
             {
               "coindescs": [
@@ -874,10 +874,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
@@ -887,7 +887,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 1 หน่วย\nในเทิร์นถัดไป"
                 }
               ]
             },
@@ -897,13 +897,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; for Focused Encounters, each Part count as 1 target)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากในกลุ่มเป้าหมายมีตัวที่ติดชะงัก อวัยวะเสียหาย หรือถูกกำจัด จะสร้างค่า [Sinking] 2 หน่วย แก่ศัตรูหนึ่งตัวที่ไม่ได้ถูกสกิลเล็งแบบสุ่ม (มีผลเทิร์นละครั้ง; ในการเผชิญหน้าเพ่งเล็ง อวัยวะแต่ละส่วนจะนับเป็นเป้าหมายหนึ่งตัว)"
                 },
                 {
-                  "desc": "- When attacking just a single target, apply it to 3 targets instead<style=\"highlight\"></style>"
+                  "desc": "- หากมีเป้าหมายเพียงตัวเดียว จะสร้างค่าสถานะดังกล่าวแก่เป้าหมาย 3 ตัวแทน"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -913,7 +913,7 @@
           "level": 4,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 4 [Sinking] on the main target (max 2)</style>\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">5</style>% damage for every 0.1 excess Resist. (max <style=\"highlight\">20</style>%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">10</style>% damage for every Gloom Reson. (max <style=\"highlight\">40</style>%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "เมื่อโจมตีเป้าหมายเพียงตัวเดียว (ในการเผชิญหน้าเพ่งเล็ง แกนหลักและอวัยวะส่วนต่าง ๆ ที่เชื่อมกับมันจะนับว่าเป็นเป้าหมายเดี่ยว)\n- แต้มเหรียญเพิ่มขึ้น +2 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +100%\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ ค่า [Sinking] 4 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[BeforeAttack] หากเป้าหมายหลักมีตัวคูณธาตุโศกาสูงกว่า x1.0 หน่วย จะสร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ตัวคูณธาตุโศกา x0.1 หน่วยที่เกินมา (สูงสุด 20%)\n[BeforeAttack] ขณะที่มีสั่นพ้องธาตุโศกา 2+ สกิล\nจะสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สั่นพ้องธาตุโศกา (สูงสุด 40%)\n[EndSkill] หากเป้าหมาย 1 ตัวหรือมากกว่าถูกกำจัด จะสร้างความเสียหายธาตุโศกา (ค่า [Sinking] ที่เป้าหมายแต่ละตัวมี / 2) หน่วยแก่ศัตรู 2 ตัวแบบสุ่ม (สูงสุด 15 หน่วย; เน้นเป้าหมายที่เคยถูกสกิลเล็งและมีค่า [Sinking] สูงที่สุดเป็นหลัก)",
           "coinlist": [
             {
               "coindescs": [
@@ -921,10 +921,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             },
@@ -934,7 +934,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">2</style> [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 2 หน่วย\nในเทิร์นถัดไป"
                 }
               ]
             },
@@ -944,13 +944,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากในกลุ่มเป้าหมายมีตัวที่ติดชะงัก อวัยวะเสียหาย หรือถูกกำจัด จะสร้างค่า [Sinking] 2 หน่วย แก่ศัตรูหนึ่งตัวที่ไม่ได้ถูกสกิลเล็งแบบสุ่ม (มีผลเทิร์นละครั้ง; ในการเผชิญหน้าเพ่งเล็ง อวัยวะแต่ละส่วนจะนับเป็นเป้าหมายหนึ่งตัว)"
                 },
                 {
-                  "desc": "- When attacking just a single target, apply it to 3 targets instead<style=\"highlight\"></style>"
+                  "desc": "- หากมีเป้าหมายเพียงตัวเดียว จะสร้างค่าสถานะดังกล่าวแก่เป้าหมาย 3 ตัวแทน"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -965,36 +965,36 @@
           "level": 1,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] If main target has 5+ [Sinking], Clash Power +1\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[WhenUse] หากเป้าหมายหลักมีค่า [Sinking] 5+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] ได้รับเอฟเฟกต์ดังต่อไปนี้ ตามทุก ๆ สั่นพ้องสูงสุด 3 สกิล\n- น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง (สูงสุด 2 ช่อง)\n- สร้างความเสียหายเพิ่มขึ้น +15% (สูงสุด 30%)\n[EndSkill] มอบ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป ให้กับพันธมิตร (สั่นพ้องสูงสุด) คนแบบสุ่ม (รวมตัวละครนี้; พันธมิตรสูงสุด 4 คน; มีผลเทิร์นละครั้ง)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1004,39 +1004,39 @@
           "level": 3,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 5 [Sinking] on the main target (max 2)</style>\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n<style=\"highlight\">- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well</style>",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วย บนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[BeforeAttack] ได้รับเอฟเฟกต์ดังต่อไปนี้ ตามทุก ๆ สั่นพ้องสูงสุด 3 สกิล\n- น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง (สูงสุด 2 ช่อง)\n- สร้างความเสียหายเพิ่มขึ้น +15% (สูงสุด 30%)\n[EndSkill] มอบ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป ให้กับพันธมิตร (สั่นพ้องสูงสุด) คนแบบสุ่ม (รวมตัวละครนี้; พันธมิตรสูงสุด 4 คน; มีผลเทิร์นละครั้ง)\n- หากการสั่นพ้องดังกล่าวเป็นการสั่นพ้องธาตุโศกา หรือเป็นการสั่นพ้องสมบูรณ์\nจะมอบ [AzureDamageUp] 1 หน่วยให้ด้วยเช่นกัน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)</style>"
+                  "desc": "[OnSucceedAttack] หากในกลุ่มเป้าหมายมีตัวที่ติดชะงัก อวัยวะเสียหาย หรือถูกกำจัด จะสร้าง [AzureTakeDamageUp] 1 หน่วย ในเทิร์นถัดไปแก่ศัตรูหนึ่งตัวที่ไม่ได้ถูกเล็งแบบสุ่ม (มีผลเทิร์นละครั้ง; ในการเผชิญหน้าเพ่งเล็ง อวัยวะแต่ละส่วนจะนับเป็นเป้าหมายหนึ่งตัว)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1046,39 +1046,39 @@
           "level": 4,
           "name": "กวีโศกเกลียวคลื่น",
           "abName": "Skadi",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Clash Power +1 for every 5 [Sinking] on the main target (max <style=\"highlight\">3</style>)\n[BeforeAttack] Gain the following effects for every 3 highest Reson. <style=\"highlight\">(if it was a Gloom Reson., for every 2 highest Reson.)</style>\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
+          "desc": "[CantIdentify]\nเล็งเป้าหมายแบบสุ่ม\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 5 หน่วย บนตัวเป้าหมายหลัก (สูงสุด 3 แต้ม)\n[BeforeAttack] ได้รับเอฟเฟกต์ดังต่อไปนี้ ตามทุก ๆ สั่นพ้องสูงสุด X สกิล (หากเป็นการสั่นพ้องธาตุโศกา จะเป็นตามทุก ๆ สั่นพ้องสูงสุด 2 สกิลแทน)\n- น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง (สูงสุด 2 ช่อง)\n- สร้างความเสียหายเพิ่มขึ้น +15% (สูงสุด 30%)\n[EndSkill] มอบ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป ให้กับพันธมิตร (สั่นพ้องสูงสุด) คนแบบสุ่ม (รวมตัวละครนี้; พันธมิตรสูงสุด 4 คน; มีผลเทิร์นละครั้ง)\n- หากการสั่นพ้องดังกล่าวเป็นการสั่นพ้องธาตุโศกา หรือเป็นการสั่นพ้องสมบูรณ์\nจะมอบ [AzureDamageUp] 1 หน่วยให้ด้วยเช่นกัน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] หากในกลุ่มเป้าหมายมีตัวที่ติดชะงัก อวัยวะเสียหาย หรือถูกกำจัด จะสร้าง [AzureTakeDamageUp] 1 หน่วย ในเทิร์นถัดไปแก่ศัตรูหนึ่งตัวที่ไม่ได้ถูกเล็งแบบสุ่ม (มีผลเทิร์นละครั้ง; ในการเผชิญหน้าเพ่งเล็ง อวัยวะแต่ละส่วนจะนับเป็นเป้าหมายหนึ่งตัว)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
