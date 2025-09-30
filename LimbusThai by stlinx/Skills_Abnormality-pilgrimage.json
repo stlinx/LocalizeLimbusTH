@@ -603,7 +603,7 @@
         {
           "level": 1,
           "name": "เกลียวคลื่นโค้ง",
-          "desc": "[WhenUse] หากมี [AbyssalVitality] 50+ หน่วย จะผลาญ [AbyssalVitality] 5 หน่วยเพื่อทำให้เอฟเฟกต์สกิลนี้สร้าง [NervousImpairment] เพิ่มขึ้นอีก +2 หน่วย\n[WhenUse] ผลาญ [AbyssalVitality] 1 หน่วย ตามทุก ๆ [NervousImpairment] 10 หน่วยบนตัวเป้าหมาย เพื่อทำให้แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)",
+          "desc": "[WhenUse] หากมี [AbyssalVitality] 50+ หน่วย\nจะผลาญ [AbyssalVitality] 5 หน่วยเพื่อทำให้เอฟเฟกต์สกิลนี้สร้าง [NervousImpairment] เพิ่มขึ้นอีก +2 หน่วย\n[WhenUse] ผลาญ [AbyssalVitality] 1 หน่วย ตามทุก ๆ [NervousImpairment] 5 หน่วยบนตัวเป้าหมาย เพื่อทำให้แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม (สูงสุด 5 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -618,13 +618,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย"
+                  "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย"
                 },
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 4 หน่วย"
                 }
               ]
             }
@@ -659,7 +659,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 4 หน่วย"
                 }
               ]
             }
@@ -673,7 +673,7 @@
         {
           "level": 1,
           "name": "คลื่นหลากระลอก",
-          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [NervousImpairment] 5 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 5 แต้ม)\n[EndBattle] ผลาญ [AbyssalVitality] สูงสุด 10 หน่วย และได้รับ [AttackUp]  ในเทิร์นถัดไปเท่ากับครึ่งหนึ่งของปริมาณที่ผลาญไป (สูงสุด 5 หน่วย; ปัดเศษขึ้น)\n- [DefeatDuel] ไม่ได้รับ [AttackUp] ในเทิร์นถัดไป",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [NervousImpairment] 3 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 9 แต้ม)\n[EndBattle] ผลาญ [AbyssalVitality] สูงสุด 10 หน่วย และได้รับ [AttackUp]  ในเทิร์นถัดไปเท่ากับครึ่งหนึ่งของปริมาณที่ผลาญไป (สูงสุด 5 หน่วย; ปัดเศษขึ้น)\n- [DefeatDuel] ไม่ได้รับ [AttackUp] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -684,7 +684,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 4 หน่วย"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 6 หน่วย"
                 }
               ]
             }
@@ -743,14 +743,13 @@
         }
       ]
     },
-
     {
       "id": 130301,
       "levelList": [
         {
           "level": 1,
-          "name": "The Impatient Ego's Byway",
-          "desc": "[CantDuel]\nThis Skill does not deal damage against targets\n[EndSkill] Gain 100 [AbyssalVitality]",
+          "name": "หนทางเปล่าเปลี่ยวของอัตตรีบร้อน",
+          "desc": "[CantDuel]\nสกิลนี้จะไม่สามารถสร้างความเสียหายแก่เป้าหมายต่าง ๆ ได้\n[EndSkill] ได้รับ [AbyssalVitality] 100 หน่วย",
           "coinlist": [
             {}
           ]
@@ -762,16 +761,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Echoes of Respite",
-          "desc": "[CantIdentify]\nPrioritizes allies; among them, prioritize allies with the least current HP\nWhen targeting allies, deal 0 damage\nClash Power +1 for every 3 [Sinking] on target (max 4)\n[StartBattle] When targeting allies, heal (20% of target's max HP) HP",
+          "name": "เสียงก้องแห่งความผ่อนปรน",
+          "desc": "[CantIdentify]\nเล็งพันธมิตรเป็นหลัก; ในหมู่พันธมิตร จะเล็งพันธมิตรที่มี HP ปัจจุบันน้อยที่สุดเป็นหลัก\nเมื่อเล็งพันธมิตรจะสร้างความเสียหาย 0 หน่วย\nแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)\n[StartBattle] เมื่อเล็งพันธมิตร จะฟื้นฟู HP (20% ของ HP สูงสุดเป้าหมาย) หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] When targeting an ally, apply 1 [DefenseUp] this turn and next turn for every 4 [AbyssalVitality] consumed to summon the target (max 5)"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งพันธมิตร\nจะมอบ [DefenseUp] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป\nตามทุก ๆ [AbyssalVitality] 4 หน่วยที่ผลาญไปเพื่ออัญเชิญเป้าหมาย (สูงสุด 5 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 3 [Sinking] and 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งศัตรู จะสร้างค่า [Sinking] 3 หน่วย และ [NervousImpairment] 2 หน่วย"
                 }
               ]
             }
@@ -784,16 +783,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Echoes of Ascending",
-          "desc": "[CantIdentify]\nPrioritize allies with the most current HP\nWhen targeting an ally, deal 0 damage\nClash Power +1 for every 3 [Sinking] on target (max 4)",
+          "name": "เสียงก้องแห่งการบรรลุ",
+          "desc": "[CantIdentify]\nเล็งพันธมิตรที่มี HP ปัจจุบันมากที่สุดเป็นหลัก\nเมื่อเล็งพันธมิตรจะสร้างความเสียหาย 0 หน่วย\nแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] When targeting an ally, apply 1 [AttackUp] this turn and next turn for every 4 [AbyssalVitality] consumed to summon the target (max 5)"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งพันธมิตร\nจะมอบ [AttackUp] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป\nตามทุก ๆ [AbyssalVitality] 4 หน่วยที่ผลาญไปเพื่ออัญเชิญเป้าหมาย (สูงสุด 5 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 3 [Sinking] and 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งศัตรู จะสร้างค่า [Sinking] 3 หน่วย และ [NervousImpairment] 2 หน่วย"
                 }
               ]
             }
@@ -806,8 +805,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cyclical Ecosystem",
-          "desc": "[CanDuelGuard]\n[EndBattle] Consume [AbyssalVitality] for every surviving ally; however, apply (# of turns target survived) [AttackDmgUp] next turn to all allies (max 3)\n- [DefeatDuel] Does not apply [AttackDmgUp] next turn",
+          "name": "วัฏจักรแห่งระบบนิเวศ",
+          "desc": "[CanDuelGuard]\n[EndBattle] ผลาญ [AbyssalVitality] ตามทุก ๆ พันธมิตรที่ยังมีชีวิตอยู่; อย่างไรก็ตามแต่ จะมอบ [AttackDmgUp] (จำนวนเทิร์นที่เป้าหมายยังมีชีวิตรอดอยู่) หน่วยในเทิร์นถัดไปให้กับพันธมิตรทั้งหมด (สูงสุด 3 หน่วย)\n- [DefeatDuel] ไม่ทำการมอบ [AttackDmgUp] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -825,8 +824,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "With Deep Blue Charity.",
-          "desc": "[CantIdentify]\nBase Power +1 for every 3 [NervousImpairment] on the main target (max 9)\nWhen targeting allies, deal 0 damage\nCan Clash with this Skill regardless of Speed\n\n[DefeatDuel]\n- Gain 3 [ResultReduction] and 3 [Paralysis]\n- Deal -80% damage, and damage dealt by this Skill cannot Stagger the target\n- Halve the amount of [NervousImpairment] inflicted by this Skill, and does not inflict [Sinking] or [Sinking] Count\n- Halve the amount of [AbyssalVitality] gained from this Skill\n[EndSkill] Gain 100 [AbyssalVitality]\n[EndBattle] At the start of the next turn, generate [NetherseaBrandUnit] in the ally territory",
+          "name": "ด้วยความกรุณาสีน้ำเงินเข้ม",
+          "desc": "[CantIdentify]\nแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [NervousImpairment] 3 หน่วย บนตัวเป้าหมายหลัก (สูงสุด 9 แต้ม)\nเมื่อเล็งพันธมิตรจะสร้างความเสียหาย 0 หน่วย\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n\n[DefeatDuel]\n- ได้รับ [ResultReduction] 3 หน่วย และ [Paralysis] 3 หน่วย\n- สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะทำให้เป้าหมายติดชะงักไม่ได้\n- ปริมาณ [NervousImpairment] ที่สกิลนี้สร้างจะลดลงครึ่งหนึ่ง\nและจะไม่สร้างค่า [Sinking] หรือจำนวนครั้ง [Sinking]\n- ปริมาณ [AbyssalVitality] ที่ได้รับจากสกิลนี้จะลดลงครึ่งหนึ่ง\n[EndSkill] ได้รับ [AbyssalVitality] 100 หน่วย\n[EndBattle] เมื่อเริ่มเทิร์นถัดไป จะสร้าง [NetherseaBrandUnit] ในเขตแดนพันธมิตร",
           "coinlist": [
             {
               "coindescs": [
@@ -834,10 +833,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งพันธมิตร จะฟื้นฟู HP เท่ากับ 10% ของ HP สูงสุดแต่ละตัว"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งศัตรู จะสร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             },
@@ -847,10 +846,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งพันธมิตร จะฟื้นฟู HP เท่ากับ 10% ของ HP สูงสุดแต่ละตัว"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งศัตรู จะสร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             },
@@ -860,10 +859,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an ally, heal 10% of their max HP"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งพันธมิตร จะฟื้นฟู HP เท่ากับ 10% ของ HP สูงสุดแต่ละตัว"
                 },
                 {
-                  "desc": "[OnSucceedAttack] When targeting an enemy, inflict 4 [Sinking], +4 [Sinking] Count, and 4 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] เมื่อเล็งศัตรู จะสร้างค่า [Sinking] 4 หน่วย, จำนวนครั้ง [Sinking] +4 หน่วย, และ [NervousImpairment] 4 หน่วย"
                 }
               ]
             }
@@ -876,26 +875,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tidal Arc",
-          "desc": "[WhenUse] At 50+ [AbyssalVitality], consume 5 [AbyssalVitality] to inflict +2 more [NervousImpairment] with this Skill's effects\n[WhenUse] For every 10 [NervousImpairment] on target, consume 1 [AbyssalVitality] to gain Clash Power +1 (max 2)",
+          "name": "เกลียวคลื่นโค้ง",
+          "desc": "[WhenUse] หากมี [AbyssalVitality] 50+ หน่วย\nจะผลาญ [AbyssalVitality] 5 หน่วย เพื่อทำให้เอฟเฟกต์สกิลนี้สร้าง [NervousImpairment] เพิ่มขึ้นอีก +2 หน่วย\n[WhenUse] ผลาญ [AbyssalVitality] 1 หน่วย ตามทุก ๆ [NervousImpairment] 10 หน่วยบนตัวเป้าหมาย เพื่อทำให้แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             }
@@ -908,16 +907,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fierce Currents",
-          "desc": "[WhenUse] At 50+ [AbyssalVitality], consume 4 [AbyssalVitality] to gain Coin Power +1\n[WhenUse] For every 10 [NervousImpairment] on target, consume 3 [AbyssalVitality] to gain Coin Power +1 (max 2)",
+          "name": "กระแสเสียดรุนแรง",
+          "desc": "[WhenUse] หากมี [AbyssalVitality] 50+ หน่วย\nจะผลาญ [AbyssalVitality] 4 หน่วยเพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n[WhenUse] ผลาญ [AbyssalVitality] 3 หน่วย\nตามทุก ๆ [NervousImpairment] 10 หน่วยบนตัวเป้าหมาย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             },
@@ -927,10 +926,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 2 หน่วย"
                 }
               ]
             }
@@ -943,8 +942,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undulating Waves",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [NervousImpairment] on the main target (max 5)\n[EndBattle] Consume up to 10 [AbyssalVitality] and gain half of consumed Stack as [AttackUp] next turn (max 5, rounded up)\n- [DefeatDuel] Does not gain [AttackUp] next turn",
+          "name": "คลื่นหลากระลอก",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ [NervousImpairment] 5 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 5 แต้ม)\n[EndBattle] ผลาญ [AbyssalVitality] สูงสุด 10 หน่วย และได้รับ [AttackUp]  ในเทิร์นถัดไปเท่ากับครึ่งหนึ่งของปริมาณที่ผลาญไป (สูงสุด 5 หน่วย; ปัดเศษขึ้น)\n- [DefeatDuel] ไม่ได้รับ [AttackUp] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -952,10 +951,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] สร้าง [NervousImpairment] 4 หน่วย"
                 }
               ]
             }
