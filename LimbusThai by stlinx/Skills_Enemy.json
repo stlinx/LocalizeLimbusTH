@@ -257,9 +257,6 @@
         {
           "level": 1,
           "name": "เก็บกวาด",
-          "keywords": [
-            "Bleeding"
-          ],
           "desc": "",
           "coinlist": [
             {},
@@ -270,6 +267,9 @@
                 }
               ]
             }
+          ],
+          "keywords": [
+            "Bleeding"
           ]
         }
       ]
@@ -316,12 +316,12 @@
         {
           "level": 1,
           "name": "ปัด",
-          "keywords": [
-            "Bleeding"
-          ],
           "desc": "",
           "coinlist": [
             {}
+          ],
+          "keywords": [
+            "Bleeding"
           ]
         }
       ]
@@ -1701,8 +1701,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cover",
-          "desc": "[WinDuel] Apply 2 Protection to a random other ally next turn",
+          "name": "กำบัง",
+          "desc": "[WinDuel] มอบ [Protection] 2 หน่วยแก่พันธมิตรหนึ่งคนแบบสุ่มในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -1714,7 +1714,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Plunge In",
+          "name": "จ้วงเข้าไป",
           "desc": "",
           "coinlist": [
             {},
@@ -1722,7 +1722,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1735,20 +1735,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nail Pin",
+          "name": "ฝังตะปู",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1774,14 +1774,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Knock",
+          "name": "น็อค",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze and Defense Power Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] และ [Disarming] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1794,13 +1794,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hammer",
+          "name": "ค้อน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1813,20 +1813,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Inquisition",
+          "name": "ขั้นตอนไตร่สวน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 N Corp’s Nails"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1854,27 +1854,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rough Nailing",
+          "name": "ตอกตะปูอย่างกระด้าง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails and Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] และ [Nail] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails and Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] และ [Nail] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails and Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] และ [Nail] อย่างละ 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1887,14 +1887,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Aggressive Preaching",
-          "desc": "[DefeatDuel] Gain 2 Fragile next turn",
+          "name": "แพร่คำสวนอย่างหนักหน่วง",
+          "desc": "[DefeatDuel] ได้รับ [Vulnerable] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1907,13 +1907,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Dare!",
+          "name": "กล้านักนะ!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1940,14 +1940,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vigorous Hammering",
+          "name": "เหวี่ยงค้อนกระฉับกระเฉง",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Bind and 2 Paralyze next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 3 หน่วย และ [Paralysis] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1960,13 +1960,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oppressive Preaching",
-          "desc": "[DefeatDuel] Gain 2 Attack Power Down next turn",
+          "name": "แพร่คำสวนอย่างกดขี่",
+          "desc": "[DefeatDuel] ได้รับ [Reduction] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Reduction] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1979,21 +1979,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Assertive Inquisition",
+          "name": "วิธีไตร่สวนเชิงรุก",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 N Corp’s Nails"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, inflict 10 Bind next turn"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Nail] 5+ หน่วย จะสร้าง [Binding] 10 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2006,13 +2006,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thrusting Nail",
+          "name": "ตะปูเสียบทะลวง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2038,13 +2038,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Congregate",
-          "desc": "[WinDuel] Apply 1 Fanatic to 2 random allies next turn",
+          "name": "ชุมนุมรุมล้อม",
+          "desc": "[WinDuel] มอบ [Assemble] 1 หน่วยให้กับพันธมิตร 2 คนแบบสุ่มในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -2058,8 +2058,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardy Faith",
-          "desc": "[WhenUse] Gain 1 Protection",
+          "name": "ศรัทธาอันมั่นคง",
+          "desc": "[WhenUse] ได้รับ [Protection] 1 หน่วย",
           "coinlist": [
             {}
           ]
@@ -2071,13 +2071,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ruling Hammer",
+          "name": "ค้อนปกครอง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Bind and 2 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Binding] 3 หน่วย และ [Reduction] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2109,13 +2109,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unite",
-          "desc": "[WinDuel] Heal 15 SP for 2 allies with the least SP",
+          "name": "สมานสามัคคี",
+          "desc": "[WinDuel] ฟื้นฟู SP 15 หน่วยให้แก่พันธมิตรสองคนที่มี SP ต่ำที่สุด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -2129,13 +2129,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ponderous Inquisition",
+          "name": "การไตร่สวนอันเทอะทะ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 N Corp’s Nails"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 2 หน่วย"
                 }
               ]
             },
@@ -2143,7 +2143,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, inflict 10 Attack Power Down and Paralyze next turn"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Nail] 5+ หน่วย จะสร้าง [Reduction] และ [Paralysis] อย่างละ 10 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2156,27 +2156,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spike Drive",
+          "name": "เคลื่อนคมแหลม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2189,13 +2189,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drive",
+          "name": "แรงขับเคลื่อน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Bleed and 2 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และ [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -2209,13 +2209,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hammers, Heed Me…!",
-          "desc": "[WinDuel] Apply 1 Fanatic to all allies next turn",
+          "name": "เหล่าค้อน จงขานรับข้า…!",
+          "desc": "[WinDuel] มอบ [Assemble] 1 หน่วยให้แก่พันธมิตรทั้งหมดในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP for 2 allies with the least SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP พันธมิตรอื่นสองคนที่มี SP ต่ำที่สุดเป็นจำนวน 10 หน่วย"
                 }
               ]
             }
@@ -2228,20 +2228,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Are Cleansed of Sin",
+          "name": "เจ้านั้นถูกชำระซึ่งบาปแล้ว",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 N Corp’s Nails"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, Stagger them"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Nail] 5+ หน่วย จะทำให้เป้าหมายติดชะงัก"
                 }
               ]
             }
@@ -2254,8 +2254,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stalwart Faith",
-          "desc": "[WhenUse] Gain 2 Protection",
+          "name": "ศรัทธาแข็งกล้า",
+          "desc": "[WhenUse] ได้รับ [Protection] 2 หน่วย",
           "coinlist": [
             {}
           ]
@@ -2267,27 +2267,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spike Drive",
-          "desc": "At less than 50% HP, inflict +1 N Corp’s Nails",
+          "name": "เคลื่อนคมแหลม",
+          "desc": "เมื่อมี HP ต่ำกว่า 50% จะสร้าง [Nail] เพิ่มขึ้น +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2300,13 +2300,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drive",
+          "name": "แรงขับเคลื่อน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Bleed next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2319,8 +2319,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Great Task Will Be Done…!",
-          "desc": "[WhenUse] Apply 1 Fanatic to all allies next turn",
+          "name": "ภารกิจอันยิ่งใหญ่จักสำเร็จสิ้น…!",
+          "desc": "[WhenUse] มอบ [Assemble] 1 หน่วยให้แก่พันธมิตรทั้งหมดในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -2332,20 +2332,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Be Cleansed… of Sin!",
+          "name": "ถูกชำระ… จากบาปเสีย!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 N Corp’s Nails"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Nail] 5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, Stagger them"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Nail] 5+ หน่วย จะทำให้เป้าหมายติดชะงัก"
                 }
               ]
             }
@@ -2358,20 +2358,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Annihilate Heretics",
-          "desc": "If target has N Corp’s Nails, +100% Damage",
+          "name": "ทำลายสิ้นพวกนอกรีต",
+          "desc": "หากเป้าหมายมี [Nail] จะสร้างความเสียหายเพิ่มขึ้น +100%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Rupture next turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 10 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 5 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2384,13 +2384,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Foolishness…!",
+          "name": "โง่เขลานัก…!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Nail] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2403,7 +2403,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Strike Down",
+          "name": "จัดการทุบ",
           "desc": "",
           "coinlist": [
             {}
@@ -2416,7 +2416,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Line of Death",
+          "name": "เส้นแบ่งความตาย",
           "desc": "",
           "coinlist": [
             {}
@@ -2429,13 +2429,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kii",
+          "name": "กึ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -2448,20 +2448,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kiih",
+          "name": "กึก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -2474,7 +2474,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งโล่",
           "desc": "",
           "coinlist": [
             {}
@@ -2487,13 +2487,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kiih",
+          "name": "กี้",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -2506,13 +2506,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kiieeh",
+          "name": "กีกี้",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
@@ -2526,7 +2526,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งโล่",
           "desc": "",
           "coinlist": [
             {}
@@ -2539,13 +2539,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kigik!",
+          "name": "กี้กี้!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Bleed"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -2558,20 +2558,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kieek!",
+          "name": "กี้กกก!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Bleed"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Reduce target's Defense Level by 2 and inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] ลดเลเวลตั้งรับของเป้าหมายลง -2 หน่วย และสร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             }
@@ -2584,7 +2584,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งโล่",
           "desc": "",
           "coinlist": [
             {}
@@ -2597,13 +2597,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kigigiik",
-          "desc": "If user took no damage last turn, Coin Power +1",
+          "name": "กีกี้คิคิคิ",
+          "desc": "หากผู้ใช้ไม่ได้รับความเสียหายใดในเทิร์นก่อนหน้า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Vibration] 5 หน่วย"
                 }
               ]
             }
@@ -2616,13 +2616,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kigigiik",
+          "name": "คิกี้กี้คิคิ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind and reduce target's Defense Level by 2 next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วย และลดเลเวลตั้งรับของเป้าหมายลง -2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2635,13 +2635,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kieegikhik",
-          "desc": "[WhenUse] Gain 2 Protection",
+          "name": "กี้กี้คิคิกี้",
+          "desc": "[WhenUse] ได้รับ [Protection] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -2654,7 +2654,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "ตั้งโล่",
           "desc": "",
           "coinlist": [
             {}
@@ -2738,7 +2738,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2757,7 +2757,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Paralyze next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Paralysis] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2776,7 +2776,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] Count"
                 }
               ]
             }
@@ -2795,10 +2795,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Fragile next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Defense Level Down next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 5 [DefenseDown] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2817,7 +2817,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
                 }
               ]
             }
@@ -2836,10 +2836,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Attack Power Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Reduction] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttackHead] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -2858,14 +2858,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +5 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -2885,10 +2885,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Defense Level Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [DefenseDown] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Fragile next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2907,21 +2907,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +5 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 5 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2935,7 +2935,7 @@
         {
           "level": 1,
           "name": "Enter Defensive Mode",
-          "desc": "[WhenUse] Gain 2 Protection",
+          "desc": "[WhenUse] ได้รับ 2 [Protection]",
           "coinlist": [
             {}
           ]
@@ -2953,10 +2953,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] สร้าง +2 [Vibration] Count"
                 }
               ]
             }
@@ -2975,7 +2975,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [AttackDown] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -2994,14 +2994,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [AttackDown] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3015,7 +3015,7 @@
         {
           "level": 1,
           "name": "Enter Defensive Mode",
-          "desc": "[WhenUse] Gain 2 Protection",
+          "desc": "[WhenUse] ได้รับ 2 [Protection]",
           "coinlist": [
             {}
           ]
@@ -3033,10 +3033,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +5 Rupture Count"
+                  "desc": "[OnSucceedAttackHead] สร้าง +5 [Burst] Count"
                 }
               ]
             }
@@ -3050,12 +3050,12 @@
         {
           "level": 1,
           "name": "SPOTTED, SPOTTED: Injury",
-          "desc": "Prioritizes enemies with Rupture",
+          "desc": "Prioritizes enemies with [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal fixed damage equal to target's Rupture Count"
+                  "desc": "[OnSucceedAttack] Deal fixed damage equal to target's [Burst] Count"
                 }
               ]
             }
@@ -3074,10 +3074,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] สร้าง +3 [Vibration] Count"
                 }
               ]
             }
@@ -3091,15 +3091,15 @@
         {
           "level": 1,
           "name": "Breaking down.",
-          "desc": "Prioritizes enemies with Tremor",
+          "desc": "Prioritizes enemies with [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Paralyze next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 5 [Paralysis] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3113,12 +3113,12 @@
         {
           "level": 1,
           "name": "WARNING, WARNING: Shaking",
-          "desc": "Prioritizes enemies with Tremor",
+          "desc": "Prioritizes enemies with [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 10 [Vibration]"
                 }
               ]
             }
@@ -3151,7 +3151,7 @@
         {
           "level": 1,
           "name": "Enter Defensive Mode",
-          "desc": "[StartBattle] Gain 3 Protection",
+          "desc": "[StartBattle] ได้รับ 3 [Protection]",
           "coinlist": [
             {}
           ]
@@ -3169,10 +3169,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Tremor by the number of Coins that hit last turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Vibration] by the number of Coins that hit last turn"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3191,7 +3191,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
                 }
               ]
             }
@@ -3210,7 +3210,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Double target’s Tremor Count"
+                  "desc": "[OnSucceedAttack] Double target’s [Vibration] Count"
                 }
               ]
             }
@@ -3229,14 +3229,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3250,7 +3250,7 @@
         {
           "level": 1,
           "name": "Rev Up",
-          "desc": "[WhenUse] Gain 1 Tremor Sync next turn",
+          "desc": "[WhenUse] ได้รับ 1 [Vibration] Sync ในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -3268,7 +3268,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 }
               ]
             }
@@ -3287,7 +3287,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Tremor by target's Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง [Vibration] by target's [Vibration]"
                 }
               ]
             }
@@ -3306,21 +3306,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3334,7 +3334,7 @@
         {
           "level": 1,
           "name": "Rev Up",
-          "desc": "[WhenUse] Gain 1 Tremor Sync next turn",
+          "desc": "[WhenUse] ได้รับ 1 [Vibration] Sync ในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -3352,30 +3352,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -3394,10 +3394,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -3418,14 +3418,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If Coins 1 & 2 land Heads, inflict Tremor by target's Tremor"
+                  "desc": "[OnSucceedAttack] If Coins 1 & 2 land Heads, inflict [Vibration] by target's [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If Coins 1 & 2 land Heads, inflict Tremor by the number of Heads this skill lands"
+                  "desc": "[OnSucceedAttack] If Coins 1 & 2 land Heads, inflict [Vibration] by the number of Heads this skill lands"
                 }
               ]
             }
@@ -3439,7 +3439,7 @@
         {
           "level": 1,
           "name": "Rev Up",
-          "desc": "[WhenUse] Gain 1 Tremor Sync next turn",
+          "desc": "[WhenUse] ได้รับ 1 [Vibration] Sync ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -3457,13 +3457,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stand Back!",
+          "name": "Stและ Back!",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 }
               ]
             }
@@ -3483,14 +3483,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict Paralyze by target's Tremor next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] by target's [Vibration] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3509,7 +3509,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Tremor by target's Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง [Vibration] by target's [Vibration]"
                 }
               ]
             }
@@ -3529,17 +3529,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Tremor by target's Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง [Vibration] by target's [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict Paralyze by target's Tremor next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Paralysis] by target's [Vibration] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3558,21 +3558,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3608,7 +3608,7 @@
         {
           "level": 1,
           "name": "Final Warmup",
-          "desc": "[StartBattle] Gain 4 Protection\nHeal 15 SP",
+          "desc": "[StartBattle] ได้รับ 4 [Protection]\nHeal 15 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -3632,7 +3632,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] Count"
                 }
               ]
             }
@@ -3651,7 +3651,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Rupture"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
                 }
               ]
             }
@@ -3671,7 +3671,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Fragile next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3703,7 +3703,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 }
               ]
             }
@@ -3723,10 +3723,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Tremor"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 [Vibration]"
                 }
               ]
             }
@@ -3740,12 +3740,12 @@
         {
           "level": 1,
           "name": "Arresting!",
-          "desc": "Prioritizes enemies with Tremor",
+          "desc": "Prioritizes enemies with [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -3791,7 +3791,7 @@
         {
           "level": 1,
           "name": "Administering Resister Ampule",
-          "desc": "[CantDuel][WhenUse] Targets allies\nGive 1 Protection against a random affinity\nDeals no damage",
+          "desc": "[CantDuel][WhenUse] Targets allies\nGive 1 [Protection] against a rและom affinity\nDeals no damage",
           "coinlist": [
             {
               "coindescs": [
@@ -3815,7 +3815,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Decay Ampule\nInflict 1 Paralyze next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 Decay Ampule\nสร้าง 1 [Paralysis] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3853,10 +3853,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Paralyze next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Paralysis] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Decay Ampule"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 Decay Ampule"
                 }
               ]
             }
@@ -3876,21 +3876,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Fragile next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Decay Ampule"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 Decay Ampule"
                 }
               ]
             }
@@ -3909,7 +3909,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Give 2 Damage Up next turn"
+                  "desc": "[OnSucceedAttack] Give 2 Damage Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3928,10 +3928,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Give 2 Attack Power Up next turn"
+                  "desc": "[OnSucceedAttack] Give 2 Attack Power Up ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Fragile next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -3963,7 +3963,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] Count"
                 }
               ]
             }
@@ -3982,14 +3982,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             }
@@ -4009,7 +4009,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -4047,7 +4047,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -4066,7 +4066,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -4085,14 +4085,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Vibration] Count"
                 }
               ]
             }
@@ -4125,12 +4125,12 @@
         {
           "level": 1,
           "name": "Harming Curse",
-          "desc": "[WhenUse] Gain 1 Entangled Curse Talisman",
+          "desc": "[WhenUse] ได้รับ 1 Entangled Curse Talisman",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] Count"
                 }
               ]
             }
@@ -4144,19 +4144,19 @@
         {
           "level": 1,
           "name": "Proliferating Curse",
-          "desc": "[WhenUse] Gain 2 Entangled Curse Talisman",
+          "desc": "[WhenUse] ได้รับ 2 Entangled Curse Talisman",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             }
@@ -4170,13 +4170,13 @@
         {
           "level": 1,
           "name": "Restraining Curse",
-          "desc": "[WhenUse] Gain 2 Entangled Curse Talisman",
+          "desc": "[WhenUse] ได้รับ 2 Entangled Curse Talisman",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -4195,24 +4195,24 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 5 [Burst]"
                 }
               ]
             }
@@ -4250,7 +4250,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -4264,12 +4264,12 @@
         {
           "level": 1,
           "name": "Explosive Fluid",
-          "desc": "[WhenUse] Gain 1 Morale Boost",
+          "desc": "[WhenUse] ได้รับ 1 Morale Boost",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 }
               ]
             }
@@ -4283,19 +4283,19 @@
         {
           "level": 1,
           "name": "Wobbling Fluid",
-          "desc": "[WhenUse] Gain 1 Morale Boost",
+          "desc": "[WhenUse] ได้รับ 1 Morale Boost",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Tremor"
+                  "desc": "[OnSucceedAttack] สร้าง 4 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 Tremor Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Vibration] Count"
                 }
               ]
             }
@@ -4309,7 +4309,7 @@
         {
           "level": 1,
           "name": "Fluid Guard",
-          "desc": "[WhenUse] Heal 5% of Max HP\nGain 2 Fragile next turn\n[EndBattle] Remove all Tipsy",
+          "desc": "[WhenUse] Heal 5% of Max HP\nได้รับ 2 [Vulnerable] ในเทิร์นถัดไป\n[EndBattle] Remove all Tipsy",
           "coinlist": [
             {
               "coindescs": [
@@ -4333,7 +4333,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -4347,13 +4347,13 @@
         {
           "level": 1,
           "name": "Blunt Curse",
-          "desc": "[WhenUse] Inflict 1 Reattached Curse Talisman",
+          "desc": "[WhenUse] สร้าง 1 Reattached Curse Talisman",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Blunt Fragility"
+                  "desc": "[OnSucceedAttack] สร้าง 3 Blunt Fragility"
                 }
               ]
             }
@@ -4367,13 +4367,13 @@
         {
           "level": 1,
           "name": "Multiplying Talismans",
-          "desc": "Targets the enemy with the most Rupture",
+          "desc": "Targets the enemy with the most [Burst]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Rupture by the amount of Reattached Curse Talisman on target"
+                  "desc": "[OnSucceedAttack] สร้าง [Burst] by the amount of Reattached Curse Talisman on target"
                 }
               ]
             }
@@ -4393,14 +4393,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Paralyze by the amount of Reattached Curse Talisman on target"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] by the amount of Reattached Curse Talisman on target"
                 }
               ]
             }
@@ -4419,7 +4419,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Reattached Curse Talisman"
+                  "desc": "[OnSucceedAttack] สร้าง 5 Reattached Curse Talisman"
                 }
               ]
             }
@@ -4438,14 +4438,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Reattached Curse Talisman"
+                  "desc": "[OnSucceedAttack] สร้าง 2 Reattached Curse Talisman"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] If target has 9+ Reattached Curse Talisman, inflict 5 Paralyze\nDeal fixed damage by 50% of damage dealt"
+                  "desc": "[OnSucceedAttackHead] If target has 9+ Reattached Curse Talisman, inflict 5 [Paralysis]\nDeal fixed damage by 50% of damage dealt"
                 }
               ]
             }
@@ -4459,7 +4459,7 @@
         {
           "level": 1,
           "name": "Spreading Curse Talisman",
-          "desc": "[WhenUse] Inflict 2 Reattached Curse Talisman",
+          "desc": "[WhenUse] สร้าง 2 Reattached Curse Talisman",
           "coinlist": [
             {
               "coindescs": [
@@ -4483,14 +4483,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Reattached Curse Talisman"
+                  "desc": "[OnSucceedAttack] สร้าง 2 Reattached Curse Talisman"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 9+ Reattached Curse Talisman, inflict 5 Paralyze\nDeal fixed damage by 50% of damage dealt"
+                  "desc": "[OnSucceedAttackTail] If target has 9+ Reattached Curse Talisman, inflict 5 [Paralysis]\nDeal fixed damage by 50% of damage dealt"
                 }
               ]
             }
@@ -4509,7 +4509,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackTail] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -4528,7 +4528,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackTail] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -4576,15 +4576,15 @@
         {
           "level": 1,
           "name": "Interlocking Moment",
-          "desc": "[WhenUse] Gain +1 Charge Count",
+          "desc": "[WhenUse] ได้รับ +1 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Interlocking Time"
+                  "desc": "[OnSucceedAttack] สร้าง 1 Interlocking Time"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge Count to inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 3 [Paralysis]"
                 }
               ]
             }
@@ -4598,12 +4598,12 @@
         {
           "level": 1,
           "name": "Siphon Time",
-          "desc": "[WhenUse] Gain +1 Charge Count",
+          "desc": "[WhenUse] ได้รับ +1 [Charge] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Haste; Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Haste; สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -4617,22 +4617,22 @@
         {
           "level": 1,
           "name": "Accelerating Moment",
-          "desc": "[StartBattle] Gain +3 Charge Count\n[WhenUse] At 5+ Charge Count, Clash Power +2\nBecome immobilized next turn",
+          "desc": "[StartBattle] ได้รับ +3 [Charge] Count\n[WhenUse] At 5+ [Charge] Count, Clash Power +2\nBecome immobilized ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Charge Count, spend all Charge Count to deal +10% damage for each Count"
+                  "desc": "[OnSucceedAttack] At 5+ [Charge] Count, spend all [Charge] Count to deal +10% damage for each Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Interlocking Time"
+                  "desc": "[OnSucceedAttack] สร้าง 1 Interlocking Time"
                 }
               ]
             }
@@ -4646,7 +4646,7 @@
         {
           "level": 1,
           "name": "Borrow Time",
-          "desc": "[StartBattle] Gain 3 [TimeRental] and +1 Charge Count",
+          "desc": "[StartBattle] ได้รับ 3 [TimeRental] และ +1 [Charge] Count",
           "coinlist": [
             {}
           ]
@@ -4712,7 +4712,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bind and 3 Paralyze next turn."
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] และ 3 [Paralysis] ในเทิร์นถัดไป."
                 }
               ]
             }
@@ -4731,7 +4731,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -4751,7 +4751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้าง 3 [Burst]"
                 }
               ]
             }
