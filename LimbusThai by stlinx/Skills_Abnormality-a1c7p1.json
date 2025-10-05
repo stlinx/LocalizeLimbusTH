@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Allez",
-          "desc": "[WhenUse] Inflict [DuelDeclaration_Camille]\n[WhenUse] Gain 5 [Breath]\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] สร้าง [DuelDeclaration_Camille]\n[WhenUse] ได้รับ 5 [Breath]\n[WinDuel] ได้รับ +2 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -25,25 +25,25 @@
         {
           "level": 1,
           "name": "Coup Droit",
-          "desc": "[WhenUse] Gain 2 [Breath]",
+          "desc": "[WhenUse] ได้รับ 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +2 [Breath] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst]"
                 }
               ]
             }
@@ -57,15 +57,15 @@
         {
           "level": 1,
           "name": "Fente",
-          "desc": "[WhenUse] At 7+ [Breath], Coin Power +2\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] At 7+ [Breath], Coin Power +2\n[WinDuel] ได้รับ +2 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] จำนวนครั้ง"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] +50% Damage on Critical Hit"
@@ -87,30 +87,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +4 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +4 [Breath] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst] and +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst] and +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, inflict 3 [Burst] and +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
                 }
               ]
             },
@@ -134,12 +134,12 @@
         {
           "level": 1,
           "name": "Parry",
-          "desc": "[WinDuel] Deal more damage based on number of Clashes (+10% damage for every Clash, max 50%)\n[WinDuel] Gain 2 [Agility] next turn\n[DefeatDuel] Gain 2 [Binding] next turn",
+          "desc": "[WinDuel] Deal more damage based on number of Clashes (+10% damage for every Clash, max 50%)\n[WinDuel] ได้รับ 2 [Agility] ในเทิร์นถัดไป\n[DefeatDuel] ได้รับ 2 [Binding] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -153,7 +153,7 @@
         {
           "level": 1,
           "name": "Défensive",
-          "desc": "[OnSucceedEvade] Gain 1 [Agility] next turn",
+          "desc": "[OnSucceedEvade] ได้รับ 1 [Agility] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -177,7 +177,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Reuse Coin ([BloodScissor] Stage - 1) times (max 2)"
@@ -199,14 +199,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -225,21 +225,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -261,10 +261,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BloodScissorScars] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodScissorScars] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 5 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] สร้าง 5 [Laceration] and +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -287,10 +287,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BloodScissorScars] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodScissorScars] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [LineCutting] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [LineCutting] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -312,10 +312,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] Count"
+                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -325,10 +325,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] Count"
+                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -338,10 +338,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] Count"
+                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (max 10). The target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -370,7 +370,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +4 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -395,7 +395,7 @@
                   "desc": "[EnemyKill] Increase [BloodDinner] by 30% of the defeated enemy's max HP"
                 },
                 {
-                  "desc": "[EnemyKill] gain 4 [Vulnerable] next turn"
+                  "desc": "[EnemyKill] gain 4 [Vulnerable] ในเทิร์นถัดไป"
                 }
               ]
             }
