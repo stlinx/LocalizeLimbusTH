@@ -2400,6 +2400,26 @@
       "name": "มันไหลหลั่งและร่ำไห้",
       "desc": "หากพันธมิตรที่มีลำดับวางทัพหน้าสุดโจมตีโดนศัตรูด้วยการโจมตีของตนเอง จะสร้างค่า [Laceration] 1 หน่วย (มีผลหนึ่งครั้ง/ศัตรู/เทิร์น)\n- หากเป้าหมายมี [Laceration] ก็จะสร้างจำนวนครั้ง [Laceration] +1 หน่วยด้วยเช่นกัน\n\nหากพันธมิตรที่มีลำดับวางทัพหน้าสุดถูกศัตรูโจมตี จะสร้างค่า [Vibration] 1 หน่วย แก่ผู้โจมตี (มีผล 3 ครั้ง/เทิร์น)\n- หากผู้โจมตีมี [Vibration] ก็จะสร้างจำนวนครั้ง [Vibration] +1 หน่วยด้วยเช่นกัน",
       "summary": "โจมตีโดนศัตรู จะสร้างค่า [Laceration]; หากมีเอฟเฟกต์อยู่แล้วจะสร้างจำนวนครั้งแถมไปด้วย\n\nถูกศัตรูโจมตี จะสร้างค่า [Vibration]; หากมีเอฟเฟกต์อยู่แล้วจะสร้างจำนวนครั้งแถมไปด้วย"
+    },
+    {
+      "id": 1021301,
+      "name": "Shi-no-Yumi",
+      "desc": "At 4 [ArrowShiFau] Stack: when this unit gains [Breath] Potency from Base Attack Skill effects, gain +1 [Breath] Count (2 times per Encounter; per-Encounter cap resets when [ArrowShiFau] drops to 3)\nIf this unit used \"Bow's Glimmer\" Skill at 2+ [AimForTheGoal], gain 1 [SlashDamageUp] next turn"
+    },
+    {
+      "id": 1021311,
+      "name": "Shi-no-Yumi",
+      "desc": "At 4 [ArrowShiFau] Stack: when this unit gains [Breath] Potency from Base Attack Skill effects, gain +1 [Breath] Count (<style=\"highlight\">3</style> times per Encounter; per-Encounter cap resets when [ArrowShiFau] drops to 3)\nIf this unit used \"Bow's Glimmer\" Skill at 2+ [AimForTheGoal], gain <style=\"highlight\">2</style> [SlashDamageUp] next turn"
+    },
+    {
+      "id": 1021302,
+      "name": "Snipe - Archery",
+      "desc": "If this unit is in [SnipingArrowMode] state, convert the leftmost Base Attack Skill equipped on the Dashboard to \"Bow's Glimmer\", then use it at Combat Start\n- If, at max [AimForTheGoal] Stack, this unit's Skill 3 is on neither the Dashboard nor the upcoming list of Skills when this effect activates, the Defense Skill equipped on the leftmost Skill Slot counts as a Skill 3, and will be used to activate \"Bow's Glimmer\"\n\nGain the following effects based on which Base Attack Skill was converted (Sin Affinity carries over from the converted Skill)\n- Skill 1: Base Power +1, deal +11% damage\n- Skill 2: Base Power +1, Coin Power +1, deal +22% damage\n- Skill 3: Base Power +4, Coin Power +4, deal +44% damage\n\n※ If an E.G.O Skill was equipped at Combat Start, remove [SnipingArrowMode] and this unit does not use \"Bow's Glimmer\""
+    },
+    {
+      "id": 1021321,
+      "name": "Aiming for the Bullseye",
+      "desc": "Turn End: apply 1 [PenetrateDamageUp] next turn to the ally who inflicted the most [Laceration] Potency to enemies with its Skills and Passives (includes those from E.G.O Skills; if multiple Identities share the highest [Laceration] inflicted record for the turn, select the Identity earliest in the Deployment order. Does not activate if no one inflicted [Laceration] Potency that turn)"
     }
   ]
 }
