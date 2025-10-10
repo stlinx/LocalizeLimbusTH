@@ -750,13 +750,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bite",
-          "desc": "[WhenUse] ได้รับ 2 Self-charge\n[DefeatDuel] Lose 1 Self-charge",
+          "name": "กัด",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 2 หน่วย\n[DefeatDuel] เสีย [SelfCharge] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Bleed and +2 Bleed จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -769,20 +769,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tail Poke",
-          "desc": "[WhenUse] ได้รับ 2 Self-charge\n[DefeatDuel] Lose 1 Self-charge",
+          "name": "กระทุ้งหาง",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 2 หน่วย\n[DefeatDuel] เสีย [SelfCharge] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Bleed and +2 Bleed จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -795,16 +795,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wrapping Coil",
-          "desc": "[WhenUse] ได้รับ 2 Self-charge\n[DefeatDuel] Lose 1 Self-charge",
+          "name": "ม้วนขด",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 2 หน่วย\n[DefeatDuel] เสีย [SelfCharge] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Fragile"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 2 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -817,14 +817,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Load",
-          "desc": "[WhenUse] ได้รับ 1 Self-charge\nDeal +10% damage to targets with Paralyze",
+          "name": "โหลดไฟฟ้า",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 1 หน่วย\nสร้างความเสียหายแก่เป้าหมายที่มี [Paralysis] เพิ่มขึ้น +10%",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Paralyze"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -837,15 +837,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Release",
-          "desc": "[WhenUse] ได้รับ 1 Self-charge\nDeal +10% damage to targets with Paralyze",
+          "name": "ปล่อยไฟฟ้า",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 1 หน่วย\nสร้างความเสียหายแก่เป้าหมายที่มี [Paralysis] เพิ่มขึ้น +10%",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Paralyze"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -858,20 +858,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Discharge",
-          "desc": "[WhenUse] ได้รับ 1 Self-charge\nDeal +20% damage to targets with Paralyze",
+          "name": "ปลดปล่อยไฟฟ้า",
+          "desc": "[WhenUse] ได้รับ [SelfCharge] 1 หน่วย\nสร้างความเสียหายแก่เป้าหมายที่มี [Paralysis] เพิ่มขึ้น +20%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Fragile"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 Paralyze"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 5 หน่วย"
                 }
               ]
             }
@@ -884,23 +884,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-voltage Electric Discharge",
-          "desc": "At 11+ Self-charge, deal +10% Damage for each จำนวนครั้ง of Self-charge over 10\nSpend all Self-charge",
+          "name": "ปลดปล่อยไฟฟ้าแรงดันสูง",
+          "desc": "เมื่อมี [SelfCharge] 11+ หน่วย ทุก ๆ [SelfCharge] 1 หน่วยที่เกินมาจาก 10 หน่วย จะทำให้สร้างความเสียหายเพิ่มขึ้น +10%\nผลาญ [SelfCharge] ทั้งหมด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Fragile"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has Capacitor, deal 40% of damage dealt as fixed damage"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [ElectricStorage] จะสร้างความเสียหายตายตัวเท่ากับ 40% ของความเสียหายที่สร้าง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Paralyze and 1 Capacitor"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย และ [ElectricStorage] 1 หน่วย"
                 }
               ]
             }
@@ -913,8 +913,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coil Up",
-          "desc": "If this skill is on a slot, gain Shield by the head's current HP",
+          "name": "ม้วนตัว",
+          "desc": "หากมีสกิลนี้อยู่บนช่องสกิล จะได้รับโล่เท่ากับ HP ปัจจุบันของอวัยวะส่วน 'หัว'",
           "coinlist": [
             {}
           ]
@@ -926,14 +926,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Head",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 2 Self-charge",
+          "name": "หัวดิ้น",
+          "desc": "เล็งศัตรูที่มี HP น้อยที่สุด\n[WhenUse] ผลาญ [SelfCharge] 2 หน่วย\n[DefeatDuel] เสีย [SelfCharge] 2 หน่วย",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Paralyze"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -946,15 +946,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Tail",
-          "desc": "Targets the enemy with the least HP\n[WhenUse] Spend 2 Self-charge\n[DefeatDuel] Lose 3 Self-charge",
+          "name": "หางดิ้น",
+          "desc": "เล็งศัตรูที่มี HP น้อยที่สุด\n[WhenUse] ผลาญ [SelfCharge] 2 หน่วย\n[DefeatDuel] เสีย [SelfCharge] 3 หน่วย",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Paralyze"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
                 }
               ]
             }
@@ -967,13 +967,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gloomy Moan",
+          "name": "เสียงครวญระทมทุกข์",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Sinking"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 }
               ]
             }
@@ -986,20 +986,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Raging Withdrawal",
-          "desc": "",
+          "name": "ถอนไถ่ความโกรธ",
+          "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 Sinking จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Sinking"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 }
               ]
             }
@@ -1012,20 +1012,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sorrowful Recoil",
+          "name": "ความโศกเศร้าหดตัว",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 Rupture จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Rupture"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1038,23 +1038,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sorrowful Torrent",
+          "name": "กระแสโศก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 Rupture จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Rupture"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 2 Rupture"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1067,16 +1067,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cries Seeking Something",
-          "desc": "[WhenUse] Spawn an Old Umbrella ในเทิร์นถัดไป",
+          "name": "ร่ำไห้ควานหาบางสิ่ง",
+          "desc": "[WhenUse] อัญเชิญ 'ร่มเก่า' ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 Sinking"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Deal +15% damage for each Old Umbrella"
+                  "desc": "[OnSucceedAttackHead] สร้างความเสียหายเพิ่มขึ้น +15% ตามทุก ๆ 'ร่มเก่า' บนสนาม"
                 }
               ]
             }
@@ -1089,8 +1089,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Waiting",
-          "desc": "[StartBattle] All enemies lose 20 SP",
+          "name": "เฝ้ารอ",
+          "desc": "[StartBattle] ศัตรูทั้งหมดเสีย SP 20 หน่วย",
           "coinlist": [
             {}
           ]
@@ -1102,8 +1102,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Sorrow",
-          "desc": "[EndSkill] สร้าง +2 Rupture จำนวนครั้ง and +2 Sinking จำนวนครั้ง to all enemies",
+          "name": "ความโศกกระจายตัว",
+          "desc": "[EndSkill] สร้างจำนวนครั้ง [Burst] +2 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วยแก่ศัตรูทั้งหมด",
           "coinlist": [
             {}
           ]
@@ -1115,13 +1115,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Entangling Talisman",
-          "desc": "[WhenUse] สร้าง 2 Entangled Curse Talisman",
+          "name": "ยันต์พัวพัน",
+          "desc": "[WhenUse] สร้าง [WrappedCurseTag] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Rupture and +2 Rupture จำนวนครั้ง ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย และจำนวนครั้ง [Burst] +2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1134,27 +1134,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cumulating Curse",
-          "desc": "[WhenUse] สร้าง 1 Entangled Curse Talisman",
+          "name": "คำสาปทับซ้อน",
+          "desc": "[WhenUse] สร้าง [WrappedCurseTag] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง Entangled Curse Talisman by target's Entangled Curse Talisman"
+                  "desc": "[OnSucceedAttack] สร้าง [WrappedCurseTag] เท่ากับปริมาณ [WrappedCurseTag] บนตัวเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 5 Rupture ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 5 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 2 Rupture and +2 Rupture จำนวนครั้ง ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Burst] 2 หน่วย และจำนวนครั้ง [Burst] +2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1168,7 +1168,7 @@
         {
           "level": 1,
           "name": "เพื่อที่จะได้ไม่มีผู้ใดร่ำไห้",
-          "desc": "[EndBattle] Remove all Reattached Curse Talisman",
+          "desc": "[EndBattle] ล้าง [ReattachedCurseTag] ทั้งหมด",
           "coinlist": [
             {},
             {},
@@ -1177,10 +1177,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 Paralyze ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 5 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 5 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Binding] 5 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1193,8 +1193,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Transferring Talisman",
-          "desc": "[WhenUse] Remove all Entangled Curse Talisman from target; ได้รับ the same amount of Reattached Curse Talisman",
+          "name": "โอนย้ายยันต์",
+          "desc": "[WhenUse] ล้าง [WrappedCurseTag] ทั้งหมดบนตัวเป้าหมาย; ได้รับ [ReattachedCurseTag] ในปริมาณเท่ากันกับที่ล้างไป",
           "coinlist": [
             {}
           ]
@@ -1206,8 +1206,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Proliferating Curse",
-          "desc": "[WhenUse] สร้าง Entangled Curse Talisman by target's Entangled Curse Talisman",
+          "name": "กระจายคำสาป",
+          "desc": "[WhenUse] สร้าง [WrappedCurseTag] เท่ากับ [WrappedCurseTag] บนตัวเป้าหมาย",
           "coinlist": [
             {}
           ]
@@ -1219,13 +1219,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wanna Get Drunk?",
-          "desc": "In a clash, give 1 Morale Boost",
+          "name": "อยากเมาเปล่า?",
+          "desc": "เมื่อแคลชสกิล จะมอบ [Exalted] ให้เป้าหมาย 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 Tremor and +2 Tremor จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย และจำนวนครั้ง [Vibration] +2 หน่วย"
                 }
               ]
             }
@@ -1238,13 +1238,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let's Share the Drink!",
-          "desc": "In a clash, give 2 Morale Boost\n[WhenUse] Heal 5% HP",
+          "name": "มาแบ่งกันก๊งดีกว่า!",
+          "desc": "เมื่อแคลชสกิล จะมอบ [Exalted] ให้เป้าหมาย 1 หน่วย\n[WhenUse] ฟื้นฟู HP 5%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1257,14 +1257,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "This is All I Got!",
-          "desc": "In a clash, give 2 Morale Boost\nPrioritizes enemies with Tremor",
+          "name": "ฉันมีอยู่เท่านี้นี่ล่ะ!",
+          "desc": "เมื่อแคลชสกิล จะมอบ [Exalted] ให้เป้าหมาย 2 หน่วย\nเล็งศัตรูที่มี [Vibration] เป็นหลัก",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst by target's Tremor จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] ตามจำนวนครั้ง [Vibration] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -1277,19 +1277,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Have This!",
-          "desc": "[CantDuel]\nCannot be redirected\nPrioritizes enemies with Morale Boost\nIf target has no Tipsy, Clash Power +5",
+          "name": "ฉันขอนี่ล่ะนะ!",
+          "desc": "[CantDuel]\nไม่สามารถเบี่ยงทิศสกิลได้\nเล็งศัตรูที่มี [Exalted] เป็นหลัก\nหากเป้าหมายไม่มี [Tipsiness] แต้มแคลชสกิลจะเพิ่มขึ้น +5 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has Morale Boost, deal +10% damage for each จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Exalted] จะสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ จำนวนที่มี"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 HP"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Tipsiness] จะสร้างความเสียหาย 0 หน่วย และผู้ใช้จะเสีย HP 50 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
+                  "desc": "[OnSucceedAttack] ล้าง [Exalted] หรือ [Tipsiness] ทั้งหมด"
                 }
               ]
             }
@@ -1302,19 +1302,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Have This!",
-          "desc": "Prioritizes enemies with Morale Boost\nIf target has no Tipsy, Clash Power +5",
+          "name": "ฉันขอนี่ล่ะนะ!",
+          "desc": "เล็งศัตรูที่มี [Exalted] เป็นหลัก\nหากเป้าหมายไม่มี [Tipsiness] แต้มแคลชสกิลจะเพิ่มขึ้น +5 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has Morale Boost, deal +100% damage for each จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Exalted] จะสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ จำนวนที่มี"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Tipsy, deal 0 damage, and user loses 50 HP"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Tipsiness] จะสร้างความเสียหาย 0 หน่วย และผู้ใช้จะเสีย HP 50 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all Morale Boost or Tipsy"
+                  "desc": "[OnSucceedAttack] ล้าง [Exalted] หรือ [Tipsiness] ทั้งหมด"
                 }
               ]
             }
@@ -1327,13 +1327,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Not This Time!",
-          "desc": "Prioritizes Fairy Wine",
+          "name": "ไม่ใช่ตอนนี้!",
+          "desc": "เล็ง 'ไวน์ภูต' เป็นหลัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this attacks Fairy Wine, heal 10% HP ในเทิร์นถัดไป, and gain 2 Attack Power Up, 2 Haste, and 2 Protection"
+                  "desc": "[OnSucceedAttack] หากโจมตี 'ไวน์ภูต' จะฟื้นฟู HP 10% ในเทิร์นถัดไป และได้รับ [Enhancement], [Agility], และ [Protection] อย่างละ 2 หน่วย"
                 }
               ]
             }
@@ -1346,8 +1346,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Like This Brew?",
-          "desc": "[WhenUse] ได้รับ 1 Bind ในเทิร์นถัดไป",
+          "name": "ชอบวิธีบ่มแบบนี้ไหม?",
+          "desc": "[WhenUse] ได้รับ [Binding] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -1360,7 +1360,7 @@
         {
           "level": 1,
           "name": "Fairy Wine",
-          "desc": "[WhenUse] Convert opponent's Morale Boost into Tipsy",
+          "desc": "[WhenUse] แปลง [Exalted] บนตัวเป้าหมายให้เป็น [Tipsiness]",
           "coinlist": [
             {}
           ]
@@ -1372,19 +1372,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skim Wounds",
+          "name": "แฉลบแผล",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has Bleed, สร้าง 1 Paralyze"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Laceration] จะสร้าง [Paralysis] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 Bleed จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ Bleed จำนวนครั้ง, สร้าง 5 Bleed"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย จะสร้างค่า [Laceration] 5 หน่วย"
                 }
               ]
             }
@@ -1397,16 +1397,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Entangled Injury",
+          "name": "บาดเจ็บพัวพัน",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has Bleed, สร้าง 1 Bind ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Laceration] จะสร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Bleed"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -1419,23 +1419,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Smeared Flesh",
+          "name": "ละเลงกายเนื้อ",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Bleed"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has Bleed, heal 20 HP"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Laceration] จะฟื้นฟู HP 20 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ Bleed จำนวนครั้ง, สร้าง 5 Bleed"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย จะสร้างค่า [Laceration] 5 หน่วย"
                 }
               ]
             }
@@ -1448,13 +1448,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Casting Shade",
-          "desc": "[WhenUse] Spawn a Giant Clover ในเทิร์นถัดไป\n[WhenUse] Deal +5% damage per Bleed จำนวนครั้ง\n[DefeatDuel] The Giant Clover spawns with 70% HP",
+          "name": "แผ่ร่มเงา",
+          "desc": "[WhenUse] อัญเชิญ 'โคลเวอร์ยักษ์' ในเทิร์นถัดไป\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ จำนวนครั้ง [Laceration]\n[DefeatDuel] 'โคลเวอร์ยักษ์' จะถูกอัญเชิญโดยมี HP เพียง 70%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove all Bleed จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ล้างจำนวนครั้ง [Laceration] ทั้งหมด"
                 }
               ]
             }
@@ -1467,13 +1467,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Churning",
+          "name": "ฟัด",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by 1% of Max HP per target's Bleed\nRemove all Bleed จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP เท่ากับ 1% ของ HP สูงสุด ตามทุก ๆ ค่า [Laceration] บนตัวเป้าหมาย\nล้างจำนวนครั้ง [Laceration] ทั้งหมด"
                 }
               ]
             }
@@ -1486,7 +1486,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sprout",
+          "name": "งอก",
           "desc": ""
         }
       ]
@@ -1496,16 +1496,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Golden Fruit",
+          "name": "ผลทอง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[DefeatDuel] Take 20 damage"
+                  "desc": "[DefeatDuel] ได้รับความเสียหาย 20 หน่วย"
                 },
                 {
-                  "desc": "[DefeatDuel] Lose 1 Golden Sheen"
+                  "desc": "[DefeatDuel] เสีย [BeingGolden] 1 หน่วย"
                 }
               ]
             }
@@ -1518,7 +1518,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Solid Gold",
+          "name": "ทองแข็ง",
           "desc": "",
           "coinlist": [
             {}
@@ -1531,14 +1531,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Absorb Nutrients",
+          "name": "ดูดสารอาหาร",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 3 HP"
+                  "desc": "[OnSucceedAttack] ลำตัวฟื้นฟู HP 3 หน่วย"
                 }
               ]
             },
@@ -1552,16 +1552,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Deteriorating Flesh",
+          "name": "กายเนื้อเสื่อมโทรม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 Bleed จำนวนครั้ง ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Fragile ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1574,17 +1574,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Entangle",
+          "name": "พัวพัน",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Core heals 10 HP"
+                  "desc": "[OnSucceedAttack] ลำตัวฟื้นฟู HP 10 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 Bleed ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1597,20 +1597,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ram",
+          "name": "พุ่งกระแทก",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Burn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 Burn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             }
@@ -1623,13 +1623,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pin Down",
+          "name": "ปักลง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 Burn จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +3 หน่วย"
                 }
               ]
             }
@@ -1642,36 +1642,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge In",
+          "name": "พุ่งเข้าใส่",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Burn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 20% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 20% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Burn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 20% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 20% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Burn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 20% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 20% ของความเสียหายที่สร้าง"
                 }
               ]
             }
@@ -1684,16 +1684,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overflowing Sorrow",
-          "desc": "[DefeatDuel] ได้รับ 1 Unresolved Sorrow",
+          "name": "โศกท่วมล้น",
+          "desc": "[DefeatDuel] ได้รับ [Bull_Sadness] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 15 SP"
+                  "desc": "[OnSucceedAttack] เป้าหมายเสีย SP 15 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 50% ของความเสียหายที่สร้าง"
                 }
               ]
             }
@@ -1706,16 +1706,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Heated Cries",
-          "desc": "[WinDuel] ได้รับ 1 Haste and 1 Attack Power Up ในเทิร์นถัดไป",
+          "name": "น้ำตาแสบร้อน",
+          "desc": "[WinDuel] ได้รับ [Agility] 1 หน่วย และ [Enhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 Wavering Emotions"
+                  "desc": "[OnSucceedAttack] สร้าง [Bull_BuzzingEmotion] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 Sinking จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +3 หน่วย"
                 }
               ]
             }
@@ -1728,26 +1728,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Heated Screams",
-          "desc": "[WinDuel] ได้รับ 1 Haste and 1 Attack Power Up ในเทิร์นถัดไป",
+          "name": "เสียงกรีดร้องแผดเผา",
+          "desc": "[WinDuel] ได้รับ [Agility] 1 หน่วย และ [Enhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 Wavering Emotions"
+                  "desc": "[OnSucceedAttack] สร้าง [Bull_BuzzingEmotion] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Sinking"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 Wavering Emotions"
+                  "desc": "[OnSucceedAttack] สร้าง [Bull_BuzzingEmotion] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 Sinking"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
