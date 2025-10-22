@@ -1,141 +1,141 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "id": 811301,
+      "levelList": [
         {
-            "id": 811301,
-            "levelList": [
+          "level": 1,
+          "name": "จงเป็นสุข",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Be The Joy",
-                    "desc": "[WhenUse] ได้รับ +2 [Charge] จำนวนครั้ง",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 3 [Binding] on target ในเทิร์นถัดไป"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 811302,
-            "levelList": [
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 3 หน่วยแก่เป้าหมายในเทิร์นถัดไป"
+                },
                 {
-                    "level": 1,
-                    "name": "Be The Comfort",
-                    "desc": "[WhenUse] ได้รับ +2 [Charge] จำนวนครั้ง",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ +3 [Breath] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ได้รับ [Breath] equal to [Breath] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ +3 [Breath] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 }
-            ]
-        },
-        {
-            "id": 811303,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Here's a Gift",
-                    "desc": "If target has [Binding], and if this unit has a faster Speed, gain Clash Power equal to the Speed difference",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Lose 5 SP"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ 2 [Breath] and +3 [Breath] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] สร้าง 3 [Paralysis] ในเทิร์นถัดไป"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 811304,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Let's Get Packing",
-                    "desc": "If this unit has [AaCeSeBa], add 'สร้าง 1 [Paralysis] ในเทิร์นถัดไป' to Coin effects\nTargets the unit with the slowest Speed\n[EndBattle] Spend all [Charge] จำนวนครั้ง",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Deal bonus damage equal to [Breath] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ได้รับ 1 [Breath] and +3 [Breath] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Randomly select 1 of 4 effects ([Protection], [Enhancement], [Vulnerable], [Paralysis]). สร้าง or มอบ 3 of the selected effect."
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Target loses SP equal to [Charge] จำนวนครั้ง on this unit"
-                                },
-                                {
-                                    "desc": "[EnemyKill] All enemies lose 10 Sp."
-                                },
-                                {
-                                    "desc": "[EnemyKillFail] ได้รับ 2 [Paralysis] ในเทิร์นถัดไป."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 811305,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Time to Get Boxed",
-                    "desc": "If Shield HP is completely depleted, get Staggered ในเทิร์นถัดไป.\nIf there is remaining Shield HP, gain 2 [Enhancement] ในเทิร์นถัดไป",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 811302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "จงเป็นความสบายใจ",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] ได้รับค่า [Breath] เท่ากับค่า [Breath] ที่ตนเองมี"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เอ้านี่ ของขวัญ",
+          "desc": "หากเป้าหมายมี [Binding] และหากตัวละครนี้มีค่าความเร็วสูงกว่า แต้มแคลชสกิลจะเพิ่มขึ้นตามค่าความเร็วที่ต่างกัน",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] เสีย SP 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "จัดการแพ็กของกันดีกว่า",
+          "desc": "หากตัวละครนี้มี [AaCeSeBa]\nจะเพิ่มเอฟเฟกต์ 'สร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป' ลงไปยังเอฟเฟกต์เหรียญ\nเล็งตัวละครที่มีความเร็วต่ำที่สุด\n[EndBattle] ผลาญจำนวน [Charge] ทั้งหมด",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายเท่ากับค่า [Breath] ที่ตนเองมี"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สุ่มเลือก 1 ใน 4 เอฟเฟกต์ต่อไปนี้ ([Protection], [Enhancement], [Vulnerable], [Paralysis]) จากนั้นสร้างหรือมอบเอฟเฟกต์ที่เลือก 3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] เป้าหมายเสีย SP เท่ากับจำนวน [Charge] ที่ตัวละครนี้มี"
+                },
+                {
+                  "desc": "[EnemyKill] ศัตรูทั้งหมดเสีย SP 10 หน่วย"
+                },
+                {
+                  "desc": "[EnemyKillFail] ได้รับ [Paralysis] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ถึงเวลาโดนยัดลงกล่องแล้ว",
+          "desc": "หากโล่ HP ถูกกำจัดจนหมด จะติดชะงักในเทิร์นถัดไป\nหากเหลือโล่ HP จะได้รับ [Enhancement] 2 หน่วยในเทิร์นถัดไป",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
 }
