@@ -2423,46 +2423,47 @@
     },
     {
       "id": 1071301,
-      "name": "Defence-Oriented Charge",
-      "desc": "- Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n- Turn Start: Gain [DefenseUp] equal to [Charge] Potency on self (max 6)"
+      "name": "ประจุชาร์จสำหรับการตั้งรับโดยเฉพาะ",
+      "desc": "ได้รับค่า [Charge] 1 หน่วย ทุก ๆ ครั้งที่ตัวละครนี้ผลาญจำนวน [Charge] สะสมรวม 10 หน่วย ในการเผชิญหน้าครั้งนี้\n- เริ่มเทิร์น: ได้รับ [DefenseUp] เท่ากับค่า [Charge] ที่ตนเองมี (สูงสุด 6 หน่วย)"
     },
     {
       "id": 1071311,
-      "name": "Congestion Cleaning Armour",
-      "desc": "- Combat Start: If this unit has less than 50% HP, gain Shield equal to ([Charge] Potency x 5) (max 25)\n- Immediately before getting hit, gain Shield equal to ([Charge] Potency on self) (max 5, 3 times per turn)\n- If this unit gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the Skill deals +3% damage for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 15%)"
+      "name": "เกราะทำความสะอาดพื้นที่แออัด (CCA)",
+      "desc": "- เริ่มการต่อสู้: หากตัวละครนี้มี HP ต่ำกว่า 50% จะได้รับโล่เท่ากับ (ค่า [Charge] x 5) หน่วย (สูงสุด 25 หน่วย)\n- ก่อนถูกโจมตี จะได้รับโล่เท่ากับ (ค่า [Charge] ที่ตนเองมี) โดยทันที (สูงสุด 5 หน่วย; มีผล 3 ครั้งต่อเทิร์น)\n- หากตัวละครนี้ได้รับจำนวน [Charge] เกินเพดานจำนวน [Charge] สูงสุดผ่านการใช้สกิล สกิลดังกล่าวจะสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ จำนวน [Charge] ที่เกินมาจากเพดานจำนวน [Charge] สูงสุด (สูงสุด 15%)"
     },
     {
       "id": 1071321,
-      "name": "One day I'll wear me Armour for Cancelled Trains",
-      "desc": "- Combat Start: If the unit with the earliest Deployment Order gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the unit gains 1 [ChargeForceField] next turn for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 3, including E.G.O Skills)"
+      "name": "'สักวันตูจะหาเกราะสำหรับเที่ยวเดินทางที่ถูกยกเลิกให้ได้'",
+      "desc": "เริ่มการต่อสู้: หากตัวละครที่มีลำดับวางทัพลำดับหน้าสุดได้รับจำนวน [Charge] เกินเพดานจำนวน [Charge] สูงสุดผ่านการใช้สกิล ตัวละครดังกล่าวจะได้รับ [ChargeForceField] 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ จำนวน [Charge] ที่เกินมาจากเพดานจำนวน [Charge] สูงสุด (สูงสุด 3 หน่วย; รวมถึงสกิล E.G.O)"
     },
     {
       "id": 1051301,
-      "name": "'Bloodied, Masked, and as Blood Commands'",
-      "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain 1 [AttackUp] and 1 [DefenseUp]\n- At 4+ Stack: gain 1 [Agility] next turn\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)",
-      "summary": "If conditions are met, heal 30% HP"
+      "name": "'นองเลือด สวมหน้ากาก และตามบัญชาโลหิต'",
+      "desc": "เริ่มการต่อสู้: หากตัวละครนี้มี [BloodArmorMeursault] จะได้รับเอฟเฟกต์ดังต่อไปนี้ตามปริมาณทับซ้อน:\n- เมื่อมีปริมาณทับซ้อน 3+ หน่วย: ได้รับ [AttackUp] 1 หน่วย และ [DefenseUp] 1 หน่วย\n- เมื่อมีปริมาณทับซ้อน 4+ หน่วย: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป\n\nเมื่อโจมตีโดนเหล่าศัตรูที่มี [Laceration]:\nหากตัวละครนี้มี HP ต่ำกว่า 30% จะฟื้นฟู HP 30% (มีผล 1 ครั้ง/การเผชิญหน้า; ปัดเศษลง)",
+      "summary": "หากเข้าเงื่อนไข จะฟื้นฟู HP 30%"
     },
     {
       "id": 1051311,
-      "name": "'Bloodied, Masked, and as Blood Commands'",
-      "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain <style=\"highlight\">2</style> [AttackUp] and <style=\"highlight\">2</style> [DefenseUp]\n- At 4+ Stack: gain <style=\"highlight\">2</style> [Agility] next turn\n\n<style=\"highlight\">Combat Start: if this unit has [FocusOnActing], inflict 1 [ParadeConcentration] On Hit against enemies (2 times per turn; including E.G.O Skills)</style>\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)",
-      "summary": "If conditions are met: inflict 1 [ParadeConcentration]\nIf conditions are met: heal 30% HP"
+      "name": "'นองเลือด สวมหน้ากาก และตามบัญชาโลหิต'",
+      "desc": "เริ่มการต่อสู้: หากตัวละครนี้มี [BloodArmorMeursault] จะได้รับเอฟเฟกต์ดังต่อไปนี้ตามปริมาณทับซ้อน:\n- เมื่อมีปริมาณทับซ้อน 3+ หน่วย: ได้รับ [AttackUp] 2 หน่วย และ [DefenseUp] 2 หน่วย\n- เมื่อมีปริมาณทับซ้อน 4+ หน่วย: ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป\n\nเริ่มการต่อสู้: หากตัวละครนี้ [FocusOnActing] จะสร้าง [ParadeConcentration] 1 หน่วยเมื่อโจมตีโดนเหล่าศัตรู (มีผล 2 ครั้ง/เทิร์น; รวมถึงสกิล E.G.O)\n\nเมื่อโจมตีโดนเหล่าศัตรูที่มี [Laceration]:\nหากตัวละครนี้มี HP ต่ำกว่า 30% จะฟื้นฟู HP 30% (มีผล 1 ครั้ง/การเผชิญหน้า; ปัดเศษลง)",
+      "summary": "หากเข้าเงื่อนไข จะสร้าง [ParadeConcentration] และฟื้นฟู HP 30%"
     },
     {
       "id": 1051302,
-      "name": "Bloodfeast",
-      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface."
+      "name": "งานเลี้ยงนองเลือด",
+      "desc": "หากตัวละครนี้อยู่บนสนาม หรือเป็นหนึ่งในตัวละครที่สามารถปรากฏกายบนสนามนี้ได้ จะเพิ่มปริมาณ [BloodDinner] ตามจำนวนความเสียหาย [Laceration] ที่ตัวละครทั้งหมดได้รับสะสม\n\nเมื่อตัวละครนี้เข้าสู่สนาม บ่อเลือดที่หลับใหลและปกคลุมทั่วทั้งพื้นสนามจะปรากฏขึ้นมา"
     },
     {
       "id": 1051303,
-      "name": "Responsibility of a Former Prince",
-      "desc": "Turn Start: the following effects activate for La Manchaland Identities with max [BloodArmorMeursault] Stack\n· Gain 1 [FocusOnActing]\n· When Staggered due to damage, recover from Stagger; then, consume all [BloodArmorMeursault] on self (once per Stage per Identity; unless it's a forced Stagger)\n\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
-      "summary": "Meursault & Rodion deal +15% damage with their Skill 3"
+      "name": "ภาระรับผิดชอบในฐานะอดีตองค์ชาย",
+      "desc": "เริ่มเทิร์น: เอฟเฟกต์ดังต่อไปนี้จะทำงานให้กับตัวตน <ลา มันชาแลนด์> ที่มีปริมาณทับซ้อน [BloodArmorMeursault] สูงสุด\n· ได้รับ [FocusOnActing] 1 หน่วย\n· เมื่อติดชะงักจากความเสียหาย จะฟื้นตัวจากการชะงัก; จากนั้น ผลาญ [BloodArmorMeursault] ทั้งหมดที่ตนเองมี (มีผล 1 ครั้ง/ด่าน/ตัวตน; ยกเว้นว่าเป็นการบังคับติดชะงัก)\n\nหาก \"องค์หญิงแห่งลา มันชาแลนด์ - โรเดียน\" อยู่บนสนาม\n- ทั้งเธอและ \"องค์ชายแห่งลา มันชาแลนด์ - เมอร์โซ\" จะสร้างความเสียหาย\nด้วยสกิล 3 เพิ่มขึ้น +15% (รวมถึงสกิลเวอร์ชั่นเสริมพลัง)",
+      "summary": "เมอร์โซ & โรเดียนสร้างความเสียหายด้วยสกิล 3 เพิ่มขึ้น +15%"
     },
     {
       "id": 1051321,
-      "name": "Flood the Chalice",
-      "desc": "For the turn, multiply the amount of [BloodDinner] generated by 1.5 (2 times per Encounter; rounded down)"
+      "name": "จอกท่วมท้น",
+      "desc": "ในเทิร์นนี้ คูณปริมาณ [BloodDinner] ที่สร้างขึ้น 1.5 เท่า\n(มีผล 2 ครั้ง/การเผชิญหน้า; ปัดเศษลง)",
+      "summary": "คูณปริมาณ [BloodDinner] ในเทิร์นนี้ขึ้น 1.5 เท่า"
     }
   ]
 }
