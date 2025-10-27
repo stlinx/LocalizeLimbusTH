@@ -1,75 +1,75 @@
 {
-    "dataList": [
-        {
-            "id": 837101,
-            "name": "Casual Opportunity",
-            "desc": "เริ่มเทิร์น: if this unit's Speed is faster than the target's, ได้รับ 1 [PenetrateDamageUp]"
-        },
-        {
-            "id": 837102,
-            "name": "Leisurely Breathing",
-            "desc": "จบเทิร์น: Heal 7 SP\nจบเทิร์น: ได้รับ [Agility] เท่ากับ ([Breath] on self/4) ในเทิร์นถัดไป (สูงสุด 3)"
-        },
-        {
-            "id": 837103,
-            "name": "Single Combat",
-            "desc": "Use Salut if the target is Staggered"
-        },
-        {
-            "id": 837104,
-            "name": "Focused Attack",
-            "desc": "When using a Skill against the same Slot this unit successfully hit last turn, ได้รับ the following effects based on the number of consecutive turns it successfully hit the Slot\nResets if this unit failed to attack last turn.\n- 1 Consecutive hit: แต้มแคลชสกิล +1\n- 2 Consecutive hits: แต้มเริ่มต้นสกิล +1\n- 3 Consecutive hits: แต้มเริ่มต้นสกิล +1, แต้มเหรียญ +1"
-        },
-        {
-            "id": 837201,
-            "name": "I'll Cut You First!",
-            "desc": "Prioritizes [LineCutting]."
-        },
-        {
-            "id": 837202,
-            "name": "Hardblood Scissor",
-            "desc": "On Clash Win, if the target has [Laceration], heal this unit's Part & Core by 40% of the HP damage dealt.\nAfter Attack, if this unit healed at least 100 HP, heal 10 SP\nThis effect does not activate On Hit with an Unbreakable Coin Skill if it loses the Clash.",
-            "summary": "Heal when attacking enemies with Bleed. When this unit heals 100 HP, heal SP as well."
-        },
-        {
-            "id": 837203,
-            "name": "I Don't Need Ugly Things!!",
-            "desc": "If there are any enemies with 30% or less HP, use 'I Don't Need Ugly Things!!' Skill."
-        },
-        {
-            "id": 837204,
-            "name": "It's Not Over Yet",
-            "desc": "Gains a new pattern at 40% of this unit's max HP\nUpon pattern change, ได้รับ 10 [Laceration] and 2 [BloodScissor]."
-        },
-        {
-            "id": 837205,
-            "name": "Bloodfeast",
-            "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface."
-        },
-        {
-            "id": 837206,
-            "name": "Bloodsteeped Scissors",
-            "desc": "Combat Start: ได้รับ 10 [BloodScissor]\n- [BloodScissor] cannot drop below 1\n- At 10+ [BloodScissor], convert them to [BloodScissorTwo].\n- At 20+ [BloodScissor], convert them to [BloodScissorThree].\nIf this unit consumes [BloodScissor] and drops below the above thresholds, convert them accordingly."
-        },
-        {
-            "id": 837207,
-            "name": "Starved and Withered",
-            "desc": "Combat Start: ได้รับ [StarvingBarberTwo]"
-        },
-        {
-            "id": 837208,
-            "name": "Blood... Blood... Blood...!",
-            "desc": "จบเทิร์น: If Panicked, recover from Panic at the ในเทิร์นถัดไป Start and reset SP to 0.\nWhen recovering from Panic:\n- ผลาญ 30 [BloodDinner] to ได้รับ 2 [Enhancement] and 1 [BloodScissor] ในเทิร์นถัดไป, and heal 20 SP.\n- If this unit failed to ผลาญ [BloodDinner], ได้รับ 30 [Laceration], immediately take the damage from [Laceration], then lose 3 [Laceration] Count. Then, ได้รับ 2 [Enhancement], 2 [AttackDmgUp], and heal 20 SP ในเทิร์นถัดไป."
-        },
-        {
-            "id": 9999997,
-            "name": "ฟื้นตัวจากการแตกตื่น",
-            "desc": "จบเทิร์น: หากอยู่ในสภาวะแตกตื่น จะรีเซ็ต SP เป็น 0 หน่วย"
-        },
-        {
-            "id": 9999996,
-            "name": "แตกตื่นตายตัว",
-            "desc": "ประเภทการแตกตื่นของตัวละครนี้ จะไม่สามารถถูกเปลี่ยนโดยเอฟเฟกต์ที่สามารถเปลี่ยนประเภทแตกตื่นได้ แต่ว่าตัวละครจะได้รับเอฟเฟกต์ที่ส่งผลต่อเป้าหมายที่ไม่มีค่าสติแทน"
-        }
-    ]
+  "dataList": [
+    {
+      "id": 837101,
+      "name": "โอกาสสุดแคชวล",
+      "desc": "เริ่มเทิร์น: หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะได้รับ [PenetrateDamageUp] 1 หน่วย"
+    },
+    {
+      "id": 837102,
+      "name": "หายใจอย่างผ่อนคลาย",
+      "desc": "จบเทิร์น: ฟื้นฟู SP 7 หน่วย\nจบเทิร์น: ได้รับ [Agility] เท่ากับ (ค่า [Breath] ที่ตนเองมี/4) หน่วยในเทิร์นถัดไป (สูงสุด 3 หน่วย)"
+    },
+    {
+      "id": 837103,
+      "name": "การต่อสู้ครั้งเดียว",
+      "desc": "ใช้สกิล 'คารวะ' หากเป้าหมายติดชะงัก"
+    },
+    {
+      "id": 837104,
+      "name": "โจมตีเพ่งเล็ง",
+      "desc": "เมื่อใช้สกิลใส่ช่องสกิลเดียวกับที่ตัวละครนี้โจมตีสำเร็จในเทิร์นก่อนหน้า จะได้รับเอฟเฟกต์ดังต่อไปนี้ตามจำนวนเทิร์นที่สกิลโจมตีโดนช่องดังกล่าวซ้ำ ๆ ติดกัน (รีเซ็ตหากตัวละครนี้ไม่ได้โจมตีในเทิร์นก่อนหน้า)\n- โจมตีติดต่อกัน 1 ครั้ง: แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- โจมตีติดต่อกัน 2 ครั้ง: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม\n- โจมตีติดต่อกัน 3 ครั้ง: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม, แต้มเหรียญเพิ่มขึ้น +1 แต้ม"
+    },
+    {
+      "id": 837201,
+      "name": "ฉันจะตัดเย็บแกก่อนเป็นคนแรก!",
+      "desc": "เล็งเป้าหมายที่มี [LineCutting] เป็นหลัก"
+    },
+    {
+      "id": 837202,
+      "name": "กรรไกรเลือดแข็งตัว",
+      "desc": "เมื่อแคลชชนะ หากเป้าหมายมี [Laceration] จะฟื้นฟู HP อวัยวะและแกนหลักของตัวละครนี้เท่ากับ 40% ของความเสียหาย HP ที่สร้าง\n- หลังโจมตี หากตัวละครนี้ฟื้นฟู HP อย่างน้อย 100 หน่วย จะฟื้นฟู SP 10 หน่วย\n\nเอฟเฟกต์นี้จะไม่ทำงานเมื่อโจมตีโดนด้วย [SuperCoin] หากสกิลดังกล่าวแพ้การแคลช",
+      "summary": "ฟื้น HP เมื่อตีศัตรูที่มี [Laceration] และถ้าฟื้นฟูเยอะจะฟื้น SP ด้วย"
+    },
+    {
+      "id": 837203,
+      "name": "ฉันไม่ต้องการพวกของน่าเกลียด!!",
+      "desc": "หากศัตรูใดมี HP อยู่ที่ 30% หรือต่ำกว่า จะใช้สกิล 'ฉันไม่ต้องการพวกของน่าเกลียด!!'"
+    },
+    {
+      "id": 837204,
+      "name": "ยังไม่จบหรอกน่า",
+      "desc": "ได้รับรูปแบบการโจมตีใหม่เมื่อมี HP อยู่ที่ 40% ของ HP สูงสุดตัวละครนี้\n- เมื่อเปลี่ยนรูปแบบ จะได้รับค่า [Laceration] 10 หน่วย และ [BloodScissor] 2 หน่วย"
+    },
+    {
+      "id": 837205,
+      "name": "งานเลี้ยงนองเลือด",
+      "desc": "หากตัวละครนี้อยู่บนสนาม หรือเป็นหนึ่งในตัวละครที่สามารถปรากฏกายบนสนามนี้ได้ จะเพิ่มปริมาณ [BloodDinner] ตามจำนวนความเสียหาย [Laceration] ที่ตัวละครทั้งหมดได้รับสะสม\n\nเมื่อตัวละครนี้เข้าสู่สนาม บ่อเลือดที่หลับใหลและปกคลุมทั่วทั้งพื้นสนามจะปรากฏขึ้นมา"
+    },
+    {
+      "id": 837206,
+      "name": "กรรไกรโลหิตท่วมท้น",
+      "desc": "เริ่มการเผชิญหน้า: ได้รับ [BloodScissor] 10 หน่วย\n- [BloodScissor] จะไม่สามารถลดต่ำกว่า 1 หน่วยได้\n- เมื่อมี [BloodScissor] 10+ หน่วย จะแปลงมันให้เป็น [BloodScissorTwo]\n- เมื่อมี [BloodScissor] 20+ หน่วย จะแปลงมันให้เป็น [BloodScissorThree]\nหากตัวละครนี้ผลาญ [BloodScissor] หรือมันลดต่ำกว่าเกณฑ์ จะแปลงมันกลับตามลำดับ"
+    },
+    {
+      "id": 837207,
+      "name": "หิวโหยและโรยรา",
+      "desc": "เริ่มการเผชิญหน้า: ได้รับ [StarvingBarberTwo]"
+    },
+    {
+      "id": 837208,
+      "name": "เลือด... เลือด... เลือด...!",
+      "desc": "จบเทิร์น: หากอยู่ในสภาวะแตกตื่น จะฟื้นตัวจากการแตกตื่นเมื่อเริ่มเทิร์นถัดไป และรีเซ็ต SP กลับเป็น 0 หน่วย\n\nเมื่อฟื้นตัวจากสภาวะแตกตื่น:\n- ผลาญ [BloodDinner] 30 หน่วย เพื่อทำให้ได้รับ [Enhancement] 2 หน่วย และ [BloodScissor] 1 หน่วยในเทิร์นถัดไป พร้อมทั้งฟื้นฟู SP 20 หน่วย\n- หากตัวละครนี้ไม่สามารถผลาญ [BloodDinner] ได้ จะได้รับค่า [Laceration] 30 หน่วย จากนั้นได้รับความเสียหายจากเอฟเฟกต์ [Laceration] โดยทันที และเสียจำนวนครั้ง [Laceration] 3 หน่วย; นับจากนั้น จะได้รับ [Enhancement] 2 หน่วย, [AttackDmgUp] 2 หน่วย, และฟื้นฟู SP 20 หน่วยในเทิร์นถัดไป"
+    },
+    {
+      "id": 9999997,
+      "name": "ฟื้นตัวจากการแตกตื่น",
+      "desc": "จบเทิร์น: หากอยู่ในสภาวะแตกตื่น จะรีเซ็ต SP เป็น 0 หน่วย"
+    },
+    {
+      "id": 9999996,
+      "name": "แตกตื่นตายตัว",
+      "desc": "ประเภทการแตกตื่นของตัวละครนี้ จะไม่สามารถถูกเปลี่ยนโดยเอฟเฟกต์ที่สามารถเปลี่ยนประเภทแตกตื่นได้ แต่ว่าตัวละครจะได้รับเอฟเฟกต์ที่ส่งผลต่อเป้าหมายที่ไม่มีค่าสติแทน"
+    }
+  ]
 }

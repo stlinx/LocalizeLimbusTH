@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Allez",
-          "desc": "[WhenUse] สร้าง [DuelDeclaration_Camille]\n[WhenUse] ได้รับ 5 [Breath]\n[WinDuel] ได้รับ +2 [Breath] จำนวนครั้ง",
+          "name": "เริ่มประลอง",
+          "desc": "[WhenUse] สร้าง [DuelDeclaration_Camille]\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -24,26 +24,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coup Droit",
-          "desc": "[WhenUse] ได้รับ 2 [Breath]",
+          "name": "จ้วงแทง",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [Breath] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -56,19 +56,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fente",
-          "desc": "[WhenUse] At 7+ [Breath], แต้มเหรียญ +2\n[WinDuel] ได้รับ +2 [Breath] จำนวนครั้ง",
+          "name": "ทิ่มแทง",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 7+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] +50% Damage on Critical Hit"
+                  "desc": "[CriticalOnSucceedAttack] สร้างความเสียหายคริติคอลเพิ่มขึ้น +50%"
                 }
               ]
             }
@@ -81,46 +81,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Salut",
-          "desc": "[WhenUse] If this unit's Speed is faster than the target's, แต้มเหรียญ +1 (แต้มเหรียญ +1 ตามทุก ๆ 2 Speed difference; max 3)",
+          "name": "คารวะ",
+          "desc": "[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน; สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +4 [Breath] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 7+ Speed, สร้าง 3 [Burst] and +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] เมื่อมีความเร็ว 7+ หน่วย จะสร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] +100% Damage on Critical Hit"
+                  "desc": "[CriticalOnSucceedAttack] สร้างความเสียหายคริติคอลเพิ่มขึ้น +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +5% damage ตามทุก ๆ [Burst] on the target (สูงสุด 50%)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ค่า [Burst] บนตัวเป้าหมาย (สูงสุด 50%)"
                 }
               ]
             }
@@ -133,13 +133,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Parry",
-          "desc": "[WinDuel] Deal more damage based on number of Clashes (+10% damage ตามทุก ๆ Clash, max 50%)\n[WinDuel] ได้รับ 2 [Agility] ในเทิร์นถัดไป\n[DefeatDuel] ได้รับ 2 [Binding] ในเทิร์นถัดไป",
+          "name": "แพรี่",
+          "desc": "[WinDuel] สร้างความเสียหายเพิ่มขึ้นตามจำนวนครั้งที่แคลช (+10% ตามทุก ๆ จำนวนแคลช; สูงสุด 50%)\n[WinDuel] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป\n[DefeatDuel] ได้รับ [Binding] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -152,8 +152,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Défensive",
-          "desc": "[OnSucceedEvade] ได้รับ 1 [Agility] ในเทิร์นถัดไป",
+          "name": "ตั้งรับ",
+          "desc": "[OnSucceedEvade] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -171,16 +171,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Cut You Up All Pretty!",
-          "desc": "[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มแคลชสกิล +1\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Laceration] on self (สูงสุด 3)",
+          "name": "ฉันจะตัดให้สวยวับเลย!",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 5 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reuse Coin ([BloodScissor] Stage - 1) times (สูงสุด 2)"
+                  "desc": "[OnSucceedAttack] ใช้เหรียญนี้ซ้ำ (ขั้น [BloodScissor] - 1) ครั้ง (สูงสุด 2 ครั้ง)"
                 }
               ]
             }
@@ -193,20 +193,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Even Sharper",
-          "desc": "[WhenUse] ผลาญ up to 20 [BloodDinner]; ได้รับ 1 [BloodScissor] and heal 3 SP ตามทุก ๆ 10 [BloodDinner] consumed\n- If this unit failed to ผลาญ [BloodDinner] with this Skill, ได้รับ 30 [Laceration]\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มแคลชสกิล +1\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Laceration] on self (สูงสุด 2)",
+          "name": "คมยิ่งกว่าเดิมอีก",
+          "desc": "[WhenUse] ผลาญ [BloodDinner] สูงสุด 20 หน่วย; ได้รับ [BloodScissor] 1 หน่วย และฟื้นฟู SP 3 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n- หากตัวละครนี้ไม่สามารถผลาญ [BloodDinner] ได้ด้วยสกิลนี้ จะได้รับค่า [Laceration] 30 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 5 หน่วยที่ตนเองมี (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -219,27 +219,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "SNIP!!",
-          "desc": "[WhenUse] ผลาญ up to 30 [BloodDinner]; ได้รับ 1 [BloodScissor] and heal 3 SP ตามทุก ๆ 10 [BloodDinner] consumed\n[WhenUse] หากเป้าหมายมี [LineCutting], แต้มแคลชสกิล +5\nHeal 5 SP on every hit against [LineCutting]",
+          "name": "ตัดฉับ!!",
+          "desc": "[WhenUse] ผลาญ [BloodDinner] สูงสุด 30 หน่วย; ได้รับ [BloodScissor] 1 หน่วย และฟื้นฟู SP 3 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n[WhenUse] หากเป้าหมายมี [LineCutting] แต้มแคลชสกิลจะเพิ่มขึ้น +5 แต้ม\nฟื้นฟู SP 5 หน่วย ทุกครั้งที่โจมตีโดน [LineCutting]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -252,8 +252,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Cut You Up Too!",
-          "desc": "[BeforeAttack] Atk Weight +1 ตามทุก ๆ Stage of [BloodScissor] (สูงสุด 2)\n[WhenUse] ผลาญ up to 30 [BloodDinner]; ได้รับ 1 [BloodScissor] and heal 3 SP ตามทุก ๆ 10 [BloodDinner] consumed\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มแคลชสกิล +2",
+          "name": "ฉันจะตัดแกด้วยเหมือนกัน!",
+          "desc": "[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ขั้นของเอฟเฟกต์ [BloodScissor] (สูงสุด 2 ช่อง)\n[WhenUse] ผลาญ [BloodDinner] สูงสุด 30 หน่วย; ได้รับ [BloodScissor] 1 หน่วย และฟื้นฟู SP 3 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -261,10 +261,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodScissorScars] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [BloodScissorScars] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 5 [Laceration] and +2 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Now, It's Your Turn",
-          "desc": "[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1",
+          "name": "เอาล่ะ ถึงตาแกแล้ว",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {},
             {
@@ -287,7 +287,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodScissorScars] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [BloodScissorScars] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [LineCutting] ในเทิร์นถัดไป"
@@ -303,8 +303,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Cut You Together!",
-          "desc": "[BeforeAttack] Atk Weight +1 ตามทุก ๆ Stage of [BloodScissor]\n[WhenUse] ผลาญ up to 100 [BloodDinner]; ได้รับ 1 [BloodScissor] and heal 3 SP ตามทุก ๆ 10 [BloodDinner] consumed\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มแคลชสกิล +2\n[EndSkill] ผลาญ 10 [BloodScissor]",
+          "name": "ฉันจะตัดพวกแกเข้าไว้ด้วยกันเอง!",
+          "desc": "[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ขั้นของเอฟเฟกต์ [BloodScissor]\n[WhenUse] ผลาญ [BloodDinner] สูงสุด 100 หน่วย; ได้รับ [BloodScissor] 1 หน่วย และฟื้นฟู SP 3 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม\n[EndSkill] ผลาญ [BloodScissor] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -312,10 +312,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (สูงสุด 10). The target loses 1 [Laceration] จำนวนครั้ง"
+                  "desc": "[WinDuelAttack] ทำให้ค่า [Laceration] บนตัวเป้าหมายทำงาน (สูงสุด 10 หน่วย); เป้าหมายเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             },
@@ -325,10 +325,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (สูงสุด 10). The target loses 1 [Laceration] จำนวนครั้ง"
+                  "desc": "[WinDuelAttack] ทำให้ค่า [Laceration] บนตัวเป้าหมายทำงาน (สูงสุด 10 หน่วย); เป้าหมายเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             },
@@ -338,20 +338,20 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's [Laceration] (สูงสุด 10). The target loses 1 [Laceration] จำนวนครั้ง"
+                  "desc": "[WinDuelAttack] ทำให้ค่า [Laceration] บนตัวเป้าหมายทำงาน (สูงสุด 10 หน่วย); เป้าหมายเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +40% damage ตามทุก ๆ [BloodScissor] Stage (สูงสุด 120%)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +40% ตามทุก ๆ ขั้นของเอฟเฟกต์ [BloodScissor] (สูงสุด 120%)"
                 },
                 {
-                  "desc": "[EnemyKill] If this Coin effect killed the target, heal by 50% of the damage dealt against the killed target."
+                  "desc": "[EnemyKill] หากเอฟเฟกต์เหรียญนี้กำจัดเป้าหมายได้ จะฟื้นฟู HP 50% ของความเสียหายที่สร้างแก่เป้าหมายที่ถูกกำจัด"
                 }
               ]
             }
@@ -364,13 +364,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "How Discourteous!",
-          "desc": "[DuelCounter]\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ [BloodScissor] Stage (สูงสุด 3)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Laceration] on self (สูงสุด 3)",
+          "name": "หยาบคายเสียจริง!",
+          "desc": "[DuelCounter]\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ขั้นของเอฟเฟกต์ [BloodScissor] (สูงสุด 3 แต้ม)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 5 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +4 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 }
               ]
             }
@@ -383,19 +383,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Don't Need Ugly Things!!",
-          "desc": "[CantChangeTarget]\nPrioritizes targets with the least HP percentage",
+          "name": "ฉันไม่ต้องการพวกของน่าเกลียด!!",
+          "desc": "[CantChangeTarget]\nเล็งเป้าหมายที่มีเปอร์เซ็นต์ HP ต่ำที่สุดเป็นหลัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target is at 30%- HP, kill the target"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี HP ต่ำกว่า 30%- จะกำจัดเป้าหมายทันที"
                 },
                 {
-                  "desc": "[EnemyKill] Increase [BloodDinner] by 30% of the defeated enemy's max HP"
+                  "desc": "[EnemyKill] เพิ่มปริมาณ [BloodDinner] ขึ้นเท่ากับ 30% ของ HP สูงสุดของศัตรูที่ถูกกำจัด"
                 },
                 {
-                  "desc": "[EnemyKill] ได้รับ 4 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[EnemyKill] ได้รับ [Vulnerable] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
