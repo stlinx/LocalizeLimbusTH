@@ -50,7 +50,7 @@
         {
           "level": 1,
           "name": "Punch Through",
-          "desc": "[WhenUse] ได้รับ 2 [Breath]\n[WhenUse] At 10+ [Breath], แต้มเริ่มต้นสกิล +1\n[WhenUse] แต้มเหรียญ +1 for every 5 [Breath] จำนวนครั้ง on self (max 2)\n[WinDuel] This Attack Skill deals +50% damage on Critical Hit",
+          "desc": "[WhenUse] ได้รับ 2 [Breath]\n[WhenUse] At 10+ [Breath], แต้มเริ่มต้นสกิล +1\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Breath] จำนวนครั้ง on self (สูงสุด 2)\n[WinDuel] This Attack Skill deals +50% damage on Critical Hit",
           "coinlist": [
             {
               "coindescs": [
@@ -91,7 +91,7 @@
         {
           "level": 1,
           "name": "Reload, Fire",
-          "desc": "This Skill deals +50% damage on Critical Hit\n[WhenUse] แต้มเหรียญ +1 for every 5 [Breath] จำนวนครั้ง on self (max 3)\n[WhenUse] ได้รับ 3 [Breath]",
+          "desc": "This Skill deals +50% damage on Critical Hit\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Breath] จำนวนครั้ง on self (สูงสุด 3)\n[WhenUse] ได้รับ 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -132,7 +132,7 @@
         {
           "level": 1,
           "name": "Designated Target Fire",
-          "desc": "Attacks the target with [FellBulletMark]\nแต้มเหรียญ +1 for every 5 [Breath] on self (max 2)\nแต้มเริ่มต้นสกิล +1 for every 3 [Breath] จำนวนครั้ง on self (max 3)\n[WhenUse] If the main target does not have [FellBulletMark], gain 1 [Paralysis] and 3 [Vulnerable]\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's SP by 15",
+          "desc": "Attacks the target with [FellBulletMark]\nแต้มเหรียญ +1 ตามทุก ๆ 5 [Breath] on self (สูงสุด 2)\nแต้มเริ่มต้นสกิล +1 ตามทุก ๆ 3 [Breath] จำนวนครั้ง on self (สูงสุด 3)\n[WhenUse] If the main target does not have [FellBulletMark], ได้รับ 1 [Paralysis] and 3 [Vulnerable]\n[EndSkill] If the target is defeated, ได้รับ 10 [Breath] and lower every enemy's SP by 15",
           "coinlist": [
             {
               "coindescs": [
@@ -146,7 +146,7 @@
                   "desc": "หากเป้าหมายมี [FellBulletMark], deal +100% damage"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [FellBulletMark], gain 10 [Breath] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [FellBulletMark], ได้รับ 10 [Breath] ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Target Readjustment Fire",
-          "desc": "[CantIdentify]\n[CantChangeTarget]\nPrioritizes the target with [FellBulletMark]\nIf this unit failed to attack the Stigmatized target, cancel this Skill.\nแต้มเหรียญ +1 for every 5 [Breath] on self (max 2)\nแต้มเริ่มต้นสกิล +1 for every 3 [Breath] จำนวนครั้ง on self (max 3)\n[EndSkill] If the target is defeated, gain 10 [Breath] and lower every enemy's SP by 15",
+          "desc": "[CantIdentify]\n[CantChangeTarget]\nPrioritizes the target with [FellBulletMark]\nIf this unit failed to attack the Stigmatized target, cancel this Skill.\nแต้มเหรียญ +1 ตามทุก ๆ 5 [Breath] on self (สูงสุด 2)\nแต้มเริ่มต้นสกิล +1 ตามทุก ๆ 3 [Breath] จำนวนครั้ง on self (สูงสุด 3)\n[EndSkill] If the target is defeated, ได้รับ 10 [Breath] and lower every enemy's SP by 15",
           "coinlist": [
             {
               "coindescs": [
@@ -214,7 +214,7 @@
         {
           "level": 1,
           "name": "Maul",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for every 4 [Breath] Potency on self (max 5)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Breath] Potency on self (สูงสุด 5)",
           "coinlist": [
             {
               "coindescs": [
@@ -236,7 +236,7 @@
         {
           "level": 1,
           "name": "Devastate",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for every 4 [Breath] Potency on self (max 5)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Breath] Potency on self (สูงสุด 5)",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Labored Breathing",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for every 8 [Breath] Potency on self (max 5)\n[WhenUse] แต้มเหรียญ +1 for every 8 [Breath] จำนวนครั้ง on self (max 5)\n[DefeatDuel] Halve [Breath] Potency on self\n[EndSkill] Halve [Breath] Potency and จำนวนครั้ง on self",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 8 [Breath] Potency on self (สูงสุด 5)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 [Breath] จำนวนครั้ง on self (สูงสุด 5)\n[DefeatDuel] Halve [Breath] Potency on self\n[EndSkill] Halve [Breath] Potency and จำนวนครั้ง on self",
           "coinlist": [
             {},
             {},
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Prone",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for every 4 [Breath] Potency on self (max 5)\n[WhenUse] ได้รับ 4 [Breath] Potency\n- At 50%- HP, also gain +4 [Breath] จำนวนครั้ง",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Breath] Potency on self (สูงสุด 5)\n[WhenUse] ได้รับ 4 [Breath] Potency\n- At 50%- HP, also ได้รับ +4 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -311,7 +311,7 @@
         {
           "level": 1,
           "name": "That's... MINE!",
-          "desc": "[CantChangeTarget]\n[WhenUse] แต้มแคลชสกิล +1 for every 4 [Breath] Potency on self (max 3)\n[WhenUse] แต้มแคลชสกิล +1 for every 4 [Breath] จำนวนครั้ง on self (max 3)",
+          "desc": "[CantChangeTarget]\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 4 [Breath] Potency on self (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 4 [Breath] จำนวนครั้ง on self (สูงสุด 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -319,10 +319,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Siphons [Breath] Potency and [Breath] จำนวนครั้ง from the target (max 6 each)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Siphons [Breath] Potency and [Breath] จำนวนครั้ง from the target (สูงสุด 6 each)"
                 },
                 {
-                  "desc": "[DefeatDuelAttack] Siphons 1/3 of the [Breath] Potency and [Breath] จำนวนครั้ง on the target (max 2 each)"
+                  "desc": "[DefeatDuelAttack] Siphons 1/3 of the [Breath] Potency and [Breath] จำนวนครั้ง on the target (สูงสุด 2 each)"
                 }
               ]
             }
@@ -336,7 +336,7 @@
         {
           "level": 1,
           "name": "Share the Pain",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for every 8 [Breath] Potency on self (max 5)\n[WhenUse] แต้มเหรียญ +1 for every 8 [Breath] จำนวนครั้ง on self (max 5)\n[DefeatDuel] Deal -75% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Halve [Breath] Potency and จำนวนครั้ง on self",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 8 [Breath] Potency on self (สูงสุด 5)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 [Breath] จำนวนครั้ง on self (สูงสุด 5)\n[DefeatDuel] Deal -75% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Halve [Breath] Potency and จำนวนครั้ง on self",
           "coinlist": [
             {
               "coindescs": [
@@ -610,7 +610,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately consume [BloodDinner] generated by the [Laceration] damage"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately ผลาญ [BloodDinner] generated by the [Laceration] damage"
                 }
               ]
             },
@@ -620,7 +620,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately consume [BloodDinner] generated by the [Laceration] damage"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately ผลาญ [BloodDinner] generated by the [Laceration] damage"
                 }
               ]
             },
@@ -630,7 +630,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately consume [BloodDinner] generated by the [Laceration] damage"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] on the target once, and immediately ผลาญ [BloodDinner] generated by the [Laceration] damage"
                 }
               ]
             }
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Nutrient Craving",
-          "desc": "Activates at 100+ [BloodDinner]\n[EndBattle] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- ได้รับ 1 [AttackUp] ในเทิร์นถัดไป for every 20 [BloodDinner] consumed",
+          "desc": "Activates at 100+ [BloodDinner]\n[EndBattle] ผลาญ up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- ได้รับ 1 [AttackUp] ในเทิร์นถัดไป ตามทุก ๆ 20 [BloodDinner] consumed",
           "coinlist": [
             {
               "coindescs": [
@@ -663,7 +663,7 @@
         {
           "level": 1,
           "name": "Brambles that Yearn",
-          "desc": "[WhenUse] Consume up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- This Skill gains แต้มปิดท้ายสกิล +1 for every 20 [BloodDinner] consumed\n[DefeatDuel] แต้มปิดท้ายสกิล -5\n[EndSkill] If this Skill consumed less than 30 [BloodDinner], gain 2 [Vulnerable] ในเทิร์นถัดไป",
+          "desc": "[WhenUse] ผลาญ up to 100 [BloodDinner] to activate the following effects:\n- Heal the Core and the Body Parts' HP by [BloodDinner] consumed\n- This Skill gains แต้มปิดท้ายสกิล +1 ตามทุก ๆ 20 [BloodDinner] consumed\n[DefeatDuel] แต้มปิดท้ายสกิล -5\n[EndSkill] If this Skill consumed less than 30 [BloodDinner], ได้รับ 2 [Vulnerable] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [

@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "จากตัวแก",
-          "desc": "[WhenUse] ได้รับ +2 [Vibration] จำนวนครั้ง",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Vibration] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] จำนวนครั้ง equal to [Vibration] จำนวนครั้ง on target"
+                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] จำนวนครั้ง เท่ากับ [Vibration] จำนวนครั้ง บนตัวเป้าหมาย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] จำนวนครั้ง"
@@ -71,19 +71,19 @@
         {
           "level": 1,
           "name": "โซ่นาฬิกาสกปรก!",
-          "desc": "แต้มแคลชสกิล +1 for every 5 [Vibration] จำนวนครั้ง on self (max 2)\n[WhenUse] Trigger [Switch_Vibration] to convert [Vibration] on self to [VibrationDistribution]",
+          "desc": "แต้มแคลชสกิล +1 ตามทุก ๆ 5 [Vibration] จำนวนครั้ง on self (สูงสุด 2)\n[WhenUse] Trigger [Switch_Vibration] to convert [Vibration] on self to [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [Vibration] จำนวนครั้ง equal to [Vibration] จำนวนครั้ง on self"
+                  "desc": "[OnSucceedAttack] สร้าง [Vibration] จำนวนครั้ง เท่ากับ [Vibration] จำนวนครั้ง on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             }
@@ -97,7 +97,7 @@
         {
           "level": 1,
           "name": "ตั้งป้องกัน",
-          "desc": "[StartBattle] ได้รับ 2 x ([Vibration] จำนวนครั้ง on self) Shield HP (max 20)",
+          "desc": "[StartBattle] ได้รับ 2 x ([Vibration] จำนวนครั้ง on self) Shield HP (สูงสุด 20)",
           "coinlist": [
             {
               "coindescs": [
@@ -121,7 +121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] equal to [Vibration] on target"
+                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] เท่ากับ [Vibration] บนตัวเป้าหมาย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง 6 [Vibration]"
@@ -181,19 +181,19 @@
         {
           "level": 1,
           "name": "โซ่นาฬิกาไม่สะอาด!",
-          "desc": "แต้มแคลชสกิล +1 for every 5 [Vibration] จำนวนครั้ง on self (max 2)\n[WhenUse] Trigger [Switch_Vibration] to convert [Vibration] on self to [VibrationDistribution]",
+          "desc": "แต้มแคลชสกิล +1 ตามทุก ๆ 5 [Vibration] จำนวนครั้ง on self (สูงสุด 2)\n[WhenUse] Trigger [Switch_Vibration] to convert [Vibration] on self to [VibrationDistribution]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] equal to [Vibration] on target"
+                  "desc": "[OnSucceedAttack] ได้รับ [Vibration] เท่ากับ [Vibration] บนตัวเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             }
@@ -207,7 +207,7 @@
         {
           "level": 1,
           "name": "ตั้งป้องกัน",
-          "desc": "[StartBattle] ได้รับ 2 x ([Vibration] จำนวนครั้ง on self) Shield HP (max 20)",
+          "desc": "[StartBattle] ได้รับ 2 x ([Vibration] จำนวนครั้ง on self) Shield HP (สูงสุด 20)",
           "coinlist": [
             {
               "coindescs": [
@@ -290,10 +290,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ [Vibration] จำนวนครั้ง on self, trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] At 10+ [Vibration] จำนวนครั้ง on self, ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 15+ [Vibration] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 15+ [Vibration] Potency, ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             }
@@ -340,7 +340,7 @@
         {
           "level": 1,
           "name": "พร้อมโดนตื๊บรึยัง?",
-          "desc": "Prioritizes targets with [VibrationCollapse]\n[WhenUse] มอบ [Vibration] จำนวนครั้ง equal to [Vibration] จำนวนครั้ง on self to all other allies\n[WhenUse] Trigger [Switch_Vibration] on all allies(including this unit) to convert their [Vibration] to [VibrationDistribution]",
+          "desc": "Prioritizes targets with [VibrationCollapse]\n[WhenUse] มอบ [Vibration] จำนวนครั้ง เท่ากับ [Vibration] จำนวนครั้ง on self to all other allies\n[WhenUse] Trigger [Switch_Vibration] on all allies(รวมถึงตัวละครนี้) to convert their [Vibration] to [VibrationDistribution]",
           "coinlist": [
             {},
             {},
@@ -354,7 +354,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [FusionVibration] into [VibrationEcho]"
                 }
               ]
             }
@@ -368,7 +368,7 @@
         {
           "level": 1,
           "name": "ตั้งป้องกัน",
-          "desc": "[StartBattle] ได้รับ 3 x ([Vibration] จำนวนครั้ง on self) Shield HP (max 30)",
+          "desc": "[StartBattle] ได้รับ 3 x ([Vibration] จำนวนครั้ง on self) Shield HP (สูงสุด 30)",
           "coinlist": [
             {
               "coindescs": [
@@ -387,7 +387,7 @@
         {
           "level": 1,
           "name": "เพื่อประโยชน์ส่วนรวม",
-          "desc": "[CantDuel]\n[StartBattle] Draw all other allies' [Vibration] จำนวนครั้ง to self; [Vibration] on all allies expire\n[StartBattle] ได้รับ 1 [AttackUp] for every 3 [Vibration] จำนวนครั้ง on self\n[WhenUse] ได้รับ 9 [Vibration] จำนวนครั้ง",
+          "desc": "[CantDuel]\n[StartBattle] Draw all other allies' [Vibration] จำนวนครั้ง to self; [Vibration] on all allies expire\n[StartBattle] ได้รับ 1 [AttackUp] ตามทุก ๆ 3 [Vibration] จำนวนครั้ง on self\n[WhenUse] ได้รับ 9 [Vibration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -395,7 +395,7 @@
                   "desc": "[OnSucceedAttack] สร้าง 10 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10% bonus Sloth damage for every [Vibration] จำนวนครั้ง on self"
+                  "desc": "[OnSucceedAttack] Deal 10% bonus Sloth damage ตามทุก ๆ [Vibration] จำนวนครั้ง on self"
                 }
               ]
             },
@@ -405,20 +405,20 @@
                   "desc": "[OnSucceedAttack] สร้าง +4 [Vibration] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10% bonus Sloth damage for every [Vibration] จำนวนครั้ง on self"
+                  "desc": "[OnSucceedAttack] Deal 10% bonus Sloth damage ตามทุก ๆ [Vibration] จำนวนครั้ง on self"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 3 [Vibration] จำนวนครั้ง on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] ผลาญ 3 [Vibration] จำนวนครั้ง on self, และทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 3 [Vibration] จำนวนครั้ง on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] ผลาญ 3 [Vibration] จำนวนครั้ง on self, และทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 3 [Vibration] จำนวนครั้ง on self, and trigger [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
+                  "desc": "[OnSucceedAttack] ผลาญ 3 [Vibration] จำนวนครั้ง on self, และทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             }
@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "Enforcing Collections.",
-          "desc": "[WhenUse] แต้มแคลชสกิล +1 for every 5 [Vibration] จำนวนครั้ง on self (max 2)\n[WhenUse] At 5+ [Vibration] จำนวนครั้ง, deal +10% damage for every [Vibration] จำนวนครั้ง. (max 100%)\n[EndSkill] Consume all [Vibration] จำนวนครั้ง on self",
+          "desc": "[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 5 [Vibration] จำนวนครั้ง on self (สูงสุด 2)\n[WhenUse] At 5+ [Vibration] จำนวนครั้ง, deal +10% damage ตามทุก ๆ [Vibration] จำนวนครั้ง. (สูงสุด 100%)\n[EndSkill] ผลาญ all [Vibration] จำนวนครั้ง on self",
           "coinlist": [
             {
               "coindescs": [
@@ -530,7 +530,7 @@
                   "desc": "[OnSucceedAttack] At 7+ [Vibration] จำนวนครั้ง, สร้าง 1 [InterlockingTime]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] At 4+ [Vibration] จำนวนครั้ง, trigger [Switch_Vibration] into [VibrationChain]"
@@ -547,7 +547,7 @@
         {
           "level": 1,
           "name": "Borrow Time",
-          "desc": "[StartBattle] Consume 5 [Vibration] จำนวนครั้ง and gain +3 [TimeRentalTwo] จำนวนครั้ง",
+          "desc": "[StartBattle] ผลาญ 5 [Vibration] จำนวนครั้ง และได้รับ +3 [TimeRentalTwo] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -623,7 +623,7 @@
         {
           "level": 1,
           "name": "Your Timepiece, If You Will.",
-          "desc": "[WhenUse] At 5+ [Vibration] จำนวนครั้ง, แต้มแคลชสกิล +1\n[WhenUse] ได้รับ +2 [Vibration] จำนวนครั้ง\n[WinDuel] Consume 3 [Vibration] จำนวนครั้ง on self and gain +1 [TimeRentalTwo] จำนวนครั้ง",
+          "desc": "[WhenUse] At 5+ [Vibration] จำนวนครั้ง, แต้มแคลชสกิล +1\n[WhenUse] ได้รับ +2 [Vibration] จำนวนครั้ง\n[WinDuel] ผลาญ 3 [Vibration] จำนวนครั้ง on self และได้รับ +1 [TimeRentalTwo] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -652,36 +652,36 @@
         {
           "level": 1,
           "name": "Enforcing Collections.",
-          "desc": "[WhenUse] ได้รับ +3 [Vibration] จำนวนครั้ง\n[WhenUse] แต้มเริ่มต้นสกิล +1 for every 4 [Vibration] จำนวนครั้ง on self (max 3)\n[WinDuel] Consume 5 [Vibration] จำนวนครั้ง on self and gain +3 [TimeRentalTwo] จำนวนครั้ง",
+          "desc": "[WhenUse] ได้รับ +3 [Vibration] จำนวนครั้ง\n[WhenUse] แต้มเริ่มต้นสกิล +1 ตามทุก ๆ 4 [Vibration] จำนวนครั้ง on self (สูงสุด 3)\n[WinDuel] ผลาญ 5 [Vibration] จำนวนครั้ง on self และได้รับ +3 [TimeRentalTwo] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 1 Fragile"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 1 Fragile"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง +3 [Vibration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง +3 [Vibration] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 8 [Vibration]"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 8 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] จำนวนครั้ง on self to trigger [VibrationExplosion]; then, reuse this Coin (1 time max)"
+                  "desc": "[OnSucceedAttack] ผลาญ 2 [Vibration] จำนวนครั้ง on self to ทำให้เกิด [VibrationExplosion]; then, reuse this Coin (1 time max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [Vibration] จำนวนครั้ง on self to สร้าง 2 [TimeAccumulation]"
+                  "desc": "[OnSucceedAttack] ผลาญ 5 [Vibration] จำนวนครั้ง on self to สร้าง 2 [TimeAccumulation]"
                 }
               ]
             }
@@ -695,7 +695,7 @@
         {
           "level": 1,
           "name": "Borrow Time",
-          "desc": "[StartBattle] Consume 4 [Vibration] จำนวนครั้ง and gain +3 [TimeRentalTwo] จำนวนครั้ง\n[StartBattle] ได้รับ +2 [Vibration] จำนวนครั้ง",
+          "desc": "[StartBattle] ผลาญ 4 [Vibration] จำนวนครั้ง และได้รับ +3 [TimeRentalTwo] จำนวนครั้ง\n[StartBattle] ได้รับ +2 [Vibration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Paralysis] ในเทิร์นถัดไป. สร้าง 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Paralysis] ในเทิร์นถัดไป. สร้าง 2 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] ได้รับ +2 [Vibration] จำนวนครั้ง"
@@ -751,7 +751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Paralysis] ในเทิร์นถัดไป. สร้าง 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Paralysis] ในเทิร์นถัดไป. สร้าง 2 [Vibration]"
                 }
               ]
             }
@@ -765,19 +765,19 @@
         {
           "level": 1,
           "name": "Stand Still.",
-          "desc": "[WhenUse] At 5+ [Vibration] จำนวนครั้ง, แต้มแคลชสกิล +1\n[WhenUse] ได้รับ +2 [Vibration] จำนวนครั้ง\n[WinDuel] Consume 3 [Vibration] จำนวนครั้ง on self and gain +1 [TimeRentalTwo] จำนวนครั้ง",
+          "desc": "[WhenUse] At 5+ [Vibration] จำนวนครั้ง, แต้มแคลชสกิล +1\n[WhenUse] ได้รับ +2 [Vibration] จำนวนครั้ง\n[WinDuel] ผลาญ 3 [Vibration] จำนวนครั้ง on self และได้รับ +1 [TimeRentalTwo] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ผลาญ 2 [Vibration] จำนวนครั้ง on self to สร้าง 2 [Binding] ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] จำนวนครั้ง on self to สร้าง 2 [ParryingResultDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ผลาญ 2 [Vibration] จำนวนครั้ง on self to สร้าง 2 [ParryingResultDown] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -791,36 +791,36 @@
         {
           "level": 1,
           "name": "Enforcing Collections.",
-          "desc": "[WhenUse] ได้รับ +3 [Vibration] จำนวนครั้ง\n[WhenUse] แต้มเริ่มต้นสกิล +1 for every 4 [Vibration] จำนวนครั้ง on self (max 3)\n[WinDuel] Consume 5 [Vibration] จำนวนครั้ง on self and gain +3 [TimeRentalTwo] จำนวนครั้ง",
+          "desc": "[WhenUse] ได้รับ +3 [Vibration] จำนวนครั้ง\n[WhenUse] แต้มเริ่มต้นสกิล +1 ตามทุก ๆ 4 [Vibration] จำนวนครั้ง on self (สูงสุด 3)\n[WinDuel] ผลาญ 5 [Vibration] จำนวนครั้ง on self และได้รับ +3 [TimeRentalTwo] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 1 Fragile"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 1 Fragile"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง +3 [Vibration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง +3 [Vibration] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 1 [Vibration] จำนวนครั้ง on self to สร้าง 8 [Vibration]"
+                  "desc": "[OnSucceedAttack] ผลาญ 1 [Vibration] จำนวนครั้ง on self to สร้าง 8 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume 2 [Vibration] จำนวนครั้ง on self to trigger [VibrationExplosion]; then, reuse this Coin (1 time max)"
+                  "desc": "[OnSucceedAttack] ผลาญ 2 [Vibration] จำนวนครั้ง on self to ทำให้เกิด [VibrationExplosion]; then, reuse this Coin (1 time max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [Vibration] จำนวนครั้ง on self to สร้าง 2 [TimeAccumulation]"
+                  "desc": "[OnSucceedAttack] ผลาญ 5 [Vibration] จำนวนครั้ง on self to สร้าง 2 [TimeAccumulation]"
                 }
               ]
             }
@@ -834,7 +834,7 @@
         {
           "level": 1,
           "name": "Borrow Time",
-          "desc": "[StartBattle] Consume 4 [Vibration] จำนวนครั้ง and gain +3 [TimeRentalTwo] จำนวนครั้ง\n[StartBattle] ได้รับ +2 [Vibration] จำนวนครั้ง",
+          "desc": "[StartBattle] ผลาญ 4 [Vibration] จำนวนครั้ง และได้รับ +3 [TimeRentalTwo] จำนวนครั้ง\n[StartBattle] ได้รับ +2 [Vibration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
