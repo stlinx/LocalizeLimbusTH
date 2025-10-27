@@ -356,7 +356,7 @@
     {
       "id": 1050,
       "name": "ตะปู",
-      "desc": "\nเมื่อสร้างค่า [Laceration] ผ่านเอฟเฟกต์สกิล จะมีโอกาส 50% ที่จะสร้างเพิ่มอีก 1 หน่วย",
+      "desc": "\nเมื่อสร้างค่า [Laceration] ผ่านเอฟเฟกต์สกิล มีโอกาส 50% ที่จะสร้างเพิ่มอีก 1 หน่วย",
       "simpleDesc": [
         {
           "abilityID": 1050,
@@ -381,8 +381,8 @@
     },
     {
       "id": 1052,
-      "name": "Hot ‘n Juicy Drumstick",
-      "desc": "When inflicting Burn with skill effects against enemies, inflict +5 Burn Count.",
+      "name": "น่องไก่เผ็ดแซ่บชุ่มฉ่ำ",
+      "desc": "\nเมื่อสกิลสร้าง [Combustion] แก่ศัตรู จะสร้างจำนวนครั้ง [Combustion] +5 หน่วย",
       "simpleDesc": [
         {
           "abilityID": 1052,
@@ -392,8 +392,8 @@
     },
     {
       "id": 1053,
-      "name": "Dry-to-the-Bone Breast",
-      "desc": "When inflicting Rupture with skill effects against enemies, inflict +5 Rupture Count.",
+      "name": "อกไก่แห้งติดกระดูก",
+      "desc": "\nเมื่อสกิลสร้าง [Burst] แก่ศัตรู จะสร้างจำนวนครั้ง [Burst] +5 หน่วย",
       "simpleDesc": [
         {
           "abilityID": 1053,
@@ -403,8 +403,8 @@
     },
     {
       "id": 1054,
-      "name": "Tango Marinade",
-      "desc": "Allies ได้รับ แต้มแคลชสกิล by half their Speed against opponents with lower Speed.",
+      "name": "น้ำจิ้มออกมาเต้น",
+      "desc": "\nแต้มแคลชสกิลพันธมิตรทั้งหมดจะเพิ่มขึ้น เท่ากับครึ่งหนึ่งของค่าความเร็วตนเอง เมื่อแคลชสกิลกับพันธมิตรที่มีความเร็วต่ำกว่า",
       "simpleDesc": [
         {
           "abilityID": 1054,
@@ -414,8 +414,8 @@
     },
     {
       "id": 1055,
-      "name": "Contaminated Needle & Thread",
-      "desc": "Each turn, the first skill to deal damage to an enemy inflicts Bleed by 1/3 of the damage dealt.",
+      "name": "เข็มกับด้ายเปื้อนเชื้อ",
+      "desc": "\nเอฟเฟกต์ดังต่อไปนี้มีผลกับสกิลแรกที่สร้างความเสียหายแก่ศัตรู\n\nสร้างค่า [Laceration] (ความเสียหายที่สร้าง/3) หน่วย",
       "simpleDesc": [
         {
           "abilityID": 1055,
@@ -425,8 +425,8 @@
     },
     {
       "id": 1056,
-      "name": "Sharp Needle & Thread",
-      "desc": "Each turn, the first skill to deal damage to an enemy deals bonus fixed damage by half of the damage dealt.",
+      "name": "เข็มกับด้ายแหลมคม",
+      "desc": "\nในแต่ละเทิร์น สกิลแรกที่สร้างความเสียหายแก่ศัตรู จะสร้างโบนัสความเสียหายตายตัว เท่ากับครึ่งหนึ่งของความเสียหายที่สร้าง",
       "simpleDesc": [
         {
           "abilityID": 1056,
@@ -436,170 +436,170 @@
     },
     {
       "id": 2001,
-      "name": "Small Ampule",
-      "desc": "At the start of the turn, allies under 40% HP heal 100% of Max HP. (Once per floor)",
+      "name": "หลอดยาขนาดเล็ก",
+      "desc": "\nเมื่อเริ่มเทิร์น พันธมิตรที่มี HP ต่ำกว่า 40%- จะฟื้นฟู HP 100% ของ HP สูงสุด (มีผลชั้นละครั้ง)",
       "simpleDesc": [
         {
           "abilityID": 2001,
-          "simpleDesc": "Conditional full heal"
+          "simpleDesc": "ฟื้นฟูแบบมีเงื่อนไข"
         }
       ]
     },
     {
       "id": 2002,
-      "name": "Piece of Crumbled Egg",
-      "desc": "On the first turn of each encounter, ได้รับ 2 E.G.O resources of a random affinity in possession",
+      "name": "ซากไข่แตกสลาย",
+      "desc": "\nในเทิร์นแรกของแต่ละการเผชิญหน้า จะได้รับทรัพยากร E.G.O ของหนึ่งธาตุบาปที่ครอบครองอยู่ 2 หน่วยแบบสุ่ม",
       "simpleDesc": [
         {
           "abilityID": 2002,
-          "simpleDesc": "Gain 2 E.G.O resources for a random affinity owned"
+          "simpleDesc": "ได้รับทรัพยากร E.G.O ของหนึ่งธาตุบาปที่ครอบครองอยู่ 2 หน่วยแบบสุ่ม"
         }
       ]
     },
     {
       "id": 2003,
-      "name": "Cold Illusion",
-      "desc": "Gluttony skills deal +10% damage",
+      "name": "มายาหนาวเหน็บ",
+      "desc": "\nสกิลธาตุตะกละสร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
         {
           "abilityID": 2003,
-          "simpleDesc": "Gluttony skill damage +10%"
+          "simpleDesc": "สกิลธาตุตะกละสร้างความเสียหายเพิ่มขึ้น +10%"
         }
       ]
     },
     {
       "id": 2004,
-      "name": "Sharp Illusion",
-      "desc": "Pride skills deal +10% damage",
+      "name": "มายาเฉียบคม",
+      "desc": "\nสกิลธาตุอัตตาสร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
         {
           "abilityID": 2004,
-          "simpleDesc": "Pride skill damage +10%"
+          "simpleDesc": "สกิลธาตุอัตตาสร้างความเสียหายเพิ่มขึ้น +10%"
         }
       ]
     },
     {
       "id": 2005,
-      "name": "Fragrant Illusion",
-      "desc": "Sloth skills deal +10% damage",
+      "name": "มายากลิ่นหอม",
+      "desc": "\nสกิลธาตุเกียจคร้านสร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
         {
           "abilityID": 2005,
-          "simpleDesc": "Sloth skill damage +10%"
+          "simpleDesc": "สกิลธาตุเกียจคร้านสร้างความเสียหายเพิ่มขึ้น +10%"
         }
       ]
     },
     {
       "id": 2006,
-      "name": "Trace of Stars",
-      "desc": "When below 0 SP, Gloom and Sloth skills have +1 แต้มปิดท้ายสกิล",
+      "name": "ร่องรอยเจ้าดารา",
+      "desc": "\nเมื่อมี SP ต่ำกว่า 0 หน่วย สกิลธาตุโศกาและเกียจคร้านจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม",
       "simpleDesc": [
         {
           "abilityID": 2006,
-          "simpleDesc": "Gloom and Sloth skill แต้มปิดท้ายสกิล +1 when SP is below 0"
+          "simpleDesc": "เมื่อมี SP ต่ำกว่า 0 หน่วย สกิลธาตุโศกาและเกียจคร้านจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม"
         }
       ]
     },
     {
       "id": 2007,
-      "name": "Pungent Bud",
-      "desc": "When inflicting Sinking with skill effects, apply 1 more Sinking with a 50% chance",
+      "name": "ก้านฉุน",
+      "desc": "\nเมื่อสร้างค่า [Sinking] ด้วยเอฟเฟกต์สกิล มีโอกาส 50% ที่จะสร้างค่า [Sinking] เพิ่มอีก +1 หน่วย",
       "simpleDesc": [
         {
           "abilityID": 2007,
-          "simpleDesc": "When inflicting Sinking with skill effects, apply 1 more Sinking with a 50% chance"
+          "simpleDesc": "เมื่อสร้างค่า [Sinking] ด้วยเอฟเฟกต์สกิล มีโอกาส 50% ที่จะสร้างค่า [Sinking] เพิ่มอีก +1 หน่วย"
         }
       ]
     },
     {
       "id": 2008,
-      "name": "Hot Tears",
-      "desc": "Take -10% Wrath-affinity damage\nWhen hit, ได้รับ 1 Attack Power Up ในเทิร์นถัดไป (Once per turn per Sinner)",
+      "name": "น้ำตาโศกร้อนรุ่ม",
+      "desc": "\nได้รับความเสียหายธาตุโทสะลดลง -10%\nเมื่อถูกโจมตี จะได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ซินเนอร์)",
       "simpleDesc": [
         {
           "abilityID": 2009,
-          "simpleDesc": "Wrath damage taken -20%"
+          "simpleDesc": "ได้รับความเสียหายธาตุโทสะลดลง"
         },
         {
           "abilityID": 200901,
-          "simpleDesc": "When hit, ได้รับ 1 Attack Power Up ในเทิร์นถัดไป"
+          "simpleDesc": "เมื่อถูกโจมตี จะได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 2009,
-      "name": "Cooled Tear",
-      "desc": "When attacked, ได้รับ 1 Protection ในเทิร์นถัดไป (Once per turn per Sinner)",
+      "name": "น้ำตาโศกเย็นลง",
+      "desc": "เมื่อถูกโจมตี จะได้รับ [Protection] 1 หน่วยในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ซินเนอร์)",
       "simpleDesc": [
         {
           "abilityID": 2009,
-          "simpleDesc": "When hit, ได้รับ 1 Protection ในเทิร์นถัดไป"
+          "simpleDesc": "เมื่อถูกโจมตี จะได้รับ [Protection] 1 หน่วยในเทิร์นถัดไป"
         }
       ]
     },
     {
       "id": 2010,
-      "name": "Memories of Fragments",
-      "desc": "In a clash, Pride and Envy skills have +1 แต้มแคลชสกิล",
+      "name": "ความทรงจำของเศษชิ้นส่วน",
+      "desc": "ในการแคลชสกิล สกิลธาตุอัตตาและริษยาจะมีแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม",
       "simpleDesc": [
         {
           "abilityID": 2010,
-          "simpleDesc": "Pride and Envy skill แต้มแคลชสกิล +1 in a clash"
+          "simpleDesc": "สกิลธาตุอัตตาและริษยาจะมีแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม"
         }
       ]
     },
     {
       "id": 2011,
-      "name": "Piece of a Torn Spring",
-      "desc": "Take -10% Pride-affinity damage\n\n<i>\"I would feel a desire to scatter into the winds in lush blue, sensing the sway of seeds plunging into my scrawling mind.\"</i>",
+      "name": "เศษเสี้ยววัสสานฤดูฉีกขาด",
+      "desc": "\nได้รับความเสียหายธาตุอัตตาลดลง -10%\n\n<i>\"กระผมนั้นรู้สึกอยากพัดพาตนเองไปตามสายลมจนสุดหล้าฟ้าเขียว สัมผัสถึงเมล็ดพันธุ์ที่สั่นไหวฝังรากในใจที่ยุ่งเหยิง\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2011,
-          "simpleDesc": "Pride damage taken -10%"
+          "simpleDesc": "ได้รับความเสียหายธาตุอัตตาลดลง -10%"
         }
       ]
     },
     {
       "id": 2012,
-      "name": "Piece of a Torn Summer",
-      "desc": "Take -10% Gluttony-affinity damage\n\n<i>\"I saw no meaning in attempting to fathom the caprices of the weather. I would simply wait for things to calm, looking out for the day's arrival.\"</i>",
+      "name": "เศษเสี้ยวคิมหันตฤดูฉีกขาด",
+      "desc": "\nได้รับความเสียหายธาตุตะกละลดลง -10%\n\n<i>\"กระผมไม่เห็นความหมายในการพยายามหยั่ง ถึงการเปลี่ยนแปลงของสภาพอากาศเลย กระผมนั้นเพียงเฝ้ารอให้ทุกสิ่งสงบลงอย่างใจเย็น คอยเฝ้ารอให้วันนั้นมาถึง\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2012,
-          "simpleDesc": "Take -10% Gluttony-affinity damage\n\n<i>\"Alas, I was careless in my assumption that I could simply observe slantwise as it comes to pass until it has seeped... Realization comes too late.\"</i>"
+          "simpleDesc": "ได้รับความเสียหายธาตุตะกละลดลง -10%"
         }
       ]
     },
     {
       "id": 2013,
-      "name": "Piece of a Torn Autumn",
-      "desc": "Take -10% Gloom-affinity damage\n\n<i>\"Alas, I was careless in my assumption that I could simply observe slantwise as it comes to pass until it has seeped... Realization comes too late.\"</i>",
+      "name": "เศษเสี้ยวสารทฤดูฉีกขาด",
+      "desc": "\nได้รับความเสียหายธาตุโศกาลดลง -10%\n\n<i>\"อนิจจา กระผมเองก็เลินเล่อ ปล่อยให้ตนคิดว่าจะสามารถเฝ้ามองอยู่เพียงนั้นได้ ในตอนที่มันนั้นมาถึงจนฝังรากลึกลงไป... ความตระหนักรู้นั้นมาช้าเกินไป\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2013,
-          "simpleDesc": "Gloom damage taken -10%"
+          "simpleDesc": "ได้รับความเสียหายธาตุโศกาลดลง -10%"
         }
       ]
     },
     {
       "id": 2014,
-      "name": "Piece of a Torn Winter",
-      "desc": "Take -10% Sloth-affinity damage\n\n<i>\"The explosion of the League of Nine shattered everything there was, and everything came to a halt for me as well.\"</i>",
+      "name": "เศษเสี้ยวเหมันตฤดูฉีกขาด",
+      "desc": "\nได้รับความเสียหายธาตุเกียจคร้านลดลง -10%\n\n<i>\"การแตกตัวของกลุ่มนวประพันธ์ ก็ทำให้ทุกสิ่งที่เคยมีอยู่แตกกระจายออก และสำหรับกระผมแล้ว ทุกสิ่งมันก็หยุดลงที่ตรงนี้ด้วยเช่นกัน\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2014,
-          "simpleDesc": "Sloth damage taken -10%"
+          "simpleDesc": "ได้รับความเสียหายธาตุเกียจคร้านลดลง -10%"
         }
       ]
     },
     {
       "id": 2015,
-      "name": "Piece of a Broken Bond",
-      "desc": "Yi Sang's skills ได้รับ +2 แต้มปิดท้ายสกิล\nWhen an ally dies, remaining allies ได้รับ 1 Haste and 1 Attack Power Up ในเทิร์นถัดไป (Once per turn)\n\n<i>\"Taking a backward glance at our trails... all of us have been suffering great losses.\"</i>",
+      "name": "เศษเสี้ยวสายสัมพันธ์แตกสลาย",
+      "desc": "\nสกิลของอีซังจะได้รับแต้มปิดท้ายสกิล +2 แต้ม\nเมื่อพันธมิตรตาย พันธมิตรที่เหลืออยู่จะได้รับ [Agility] 1 หน่วย และ [Enhancement] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n\n<i>\"เมื่อคราได้ย้อนกลับมองเส้นทางเดินของพวกเรา... พวกเราทุกคนก็ต่างสูญเสียกันไปอย่างมากมาย\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2015,
-          "simpleDesc": "Yi Sang's Skill แต้มปิดท้ายสกิล +2"
+          "simpleDesc": "สกิลของอีซังจะได้รับแต้มปิดท้ายสกิล +2 แต้ม"
         },
         {
           "abilityID": 201501,
@@ -609,16 +609,16 @@
     },
     {
       "id": 2016,
-      "name": "Piece of Reversing Memories",
-      "desc": "Yi Sang's level rises to 35.\nYi Sang's Uptie and Threadspin Tiers rise to Tier 3.\n\n<i>\"We were neither highfliers nor greedy vultures; we were merely children who loved technology.\"</i>",
+      "name": "เศษเสี้ยวความทรงจำหวนย้อน",
+      "desc": "\nเลเวลของอีซังจะเพิ่มขึ้นเป็น 35\nระดับผูกมัดและถักทอด้ายของอีซังจะขึ้นเป็นระดับ 3\n\n<i>\"พวกเราไม่ใช่ทั้งผู้มักใหญ่ใฝ่สูงฤๅแร้งมักมาก\"\n\n\"พวกเราเป็นเพียงเหล่าบุตรผู้หลงรักในเทคโนโลยีเพียงเท่านั้น\"</i>",
       "simpleDesc": [
         {
           "abilityID": 2016,
-          "simpleDesc": "Yi Sang's level rises to 35."
+          "simpleDesc": "เลเวลของอีซังจะเพิ่มขึ้นเป็น 35"
         },
         {
           "abilityID": 201601,
-          "simpleDesc": "Yi Sang's Uptie and Threadspin Tiers rise to Tier 3"
+          "simpleDesc": "ระดับผูกมัดและถักทอด้ายของอีซังจะขึ้นเป็นระดับ 3"
         }
       ]
     }
