@@ -1,567 +1,567 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "id": 108001,
+      "levelList": [
         {
-            "id": 108001,
-            "levelList": [
+          "level": 1,
+          "name": "อาบไล้หินร่วงหล่น",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Vibration] 5+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Stoneshower",
-                    "desc": "[WhenUse] หากเป้าหมายมี 5+ [Vibration], แต้มเริ่มต้นสกิล +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 8 [Vibration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 8 หน่วย"
                 }
-            ]
-        },
-        {
-            "id": 108002,
-            "levelList": [
+              ]
+            },
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Gather Stones",
-                    "desc": "[WinDuel] หากเป้าหมายมี [Vibration], แต้มเริ่มต้นสกิล +2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 8 [Vibration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
-            ]
-        },
-        {
-            "id": 108003,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Rising Sloth",
-                    "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 3 [Vibration] บนตัวเป้าหมาย (สูงสุด 3)\n[WinDuel] This Skill gains Atk Weight +1 ตามทุก ๆ 5 [Vibration] บนตัวเป้าหมาย (สูงสุด 2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] ทำให้เกิด [Switch_Vibration] และเปลี่ยนเป็น [VibrationEcho]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] once ตามทุก ๆ [Vibration] จำนวนครั้ง บนตัวเป้าหมาย (สูงสุด 2); then, reduce target's [Vibration] จำนวนครั้ง by 2"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +4 [Vibration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108004,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "ตั้งการ์ด",
-                    "desc": "สร้าง 2 [Vibration] against the Attacker when hit as long as there is remaining Shield HP\n[WhenUse] ได้รับ 3 Protection",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108101,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Decay Collission",
-                    "desc": "[WhenUse] หากเป้าหมายมี 5+ [Sinking], แต้มเหรียญ +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 2 [Sinking] and +2 [Sinking] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108102,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Torrent",
-                    "desc": "[WhenUse] หากเป้าหมายมี [Sinking], แต้มเริ่มต้นสกิล +2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 8 [Sinking] and +2 [Sinking] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 4 [Sinking] and +2 [Sinking] จำนวนครั้ง against 2 random targets"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108103,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Cascading Gloom",
-                    "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 3 [Sinking] บนตัวเป้าหมาย (สูงสุด 3)\n[WinDuel] This Skill gains Atk Weight +1 ตามทุก ๆ 5 [Sinking] บนตัวเป้าหมาย (สูงสุด 2)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Sinking] and +4 [Sinking] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Next แต้มเหรียญ +1 ตามทุก ๆ 3 [Sinking] บนตัวเป้าหมาย (3 times max)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Cause [SinkingSurge]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108104,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "หลบหลีก",
-                    "desc": "[OnSucceedEvade] Target loses 5 SP",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107901,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Topple",
-                    "desc": "[WhenUse] ผลาญ 20 [BloodDinner]: ได้รับ 1 [BloodArmor] ตามทุก ๆ 10 [BloodDinner] consumed\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 10 [BloodArmor] (สูงสุด 2)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 15 [Laceration] on self (สูงสุด 3)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107902,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Wound",
-                    "desc": "[WhenUse] ผลาญ 20 [BloodDinner]: ได้รับ 1 [BloodArmor] ตามทุก ๆ 10 [BloodDinner] consumed\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 10 [BloodArmor] (สูงสุด 2)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 15 [Laceration] on self (สูงสุด 3)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107903,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Don Quixote Hardblood Arts 4 - Sundering",
-                    "desc": "[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1\n[WinDuel] With this Skill, deal +20% damage with every Stage of [BloodArmor] (สูงสุด 60%)\n[DefeatDuel] ผลาญ 4 [BloodArmor]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107904,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Don Quixote Hardblood Arts 11 - Impaling",
-                    "desc": "[WhenUse] ตามทุก ๆ 3 [Laceration] บนตัวเป้าหมาย, แต้มเริ่มต้นสกิล +1 (สูงสุด 3)\n[WinDuel] With this Skill, deal +20% damage with every Stage of [BloodArmor] (สูงสุด 60%)\n[DefeatDuel] ผลาญ 4 [BloodArmor]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย เท่ากับ its จำนวนครั้ง. Use up the target's [Laceration] จำนวนครั้ง down to 1"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107905,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Variant Don Quixote Style: Sancho Arts 4 - Track",
-                    "desc": "Prioritizes targets with the most [Laceration]\n[BeforeAttack] Atk Weight +1 ตามทุก ๆ 10 [BloodArmor] on self (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 5 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] ผลาญ up to 30 [BloodDinner]: ได้รับ 1 [BloodArmor] and แต้มเหรียญ +1 ตามทุก ๆ 15 [BloodDinner] consumed (สูงสุด 2)\n- If this unit failed to ผลาญ [BloodDinner], ได้รับ 10 [Laceration], and activate [Laceration] immediately. Lose 1 [Laceration] จำนวนครั้ง\n[EndSkill] Increase [BloodDinner] เท่ากับ the damage this Skill dealt",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 8 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป\n- If this Skill consumed 30 [BloodDinner], สร้าง 2 additional [Binding]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107906,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Variant Don Quixote Style: Sancho Arts 3 - Ambush",
-                    "desc": "Prioritizes targets with the most [Laceration]\n[BeforeAttack] Atk Weight +1 ตามทุก ๆ 10 [BloodArmor] on self (สูงสุด 2)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 5 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] ผลาญ up to 30 [BloodDinner]: ได้รับ 1 [BloodArmor] and แต้มเหรียญ +1 ตามทุก ๆ 15 [BloodDinner] consumed (สูงสุด 2)\n- If this unit failed to ผลาญ [BloodDinner], ได้รับ 10 [Laceration], and activate [Laceration] immediately. Lose 1 [Laceration] จำนวนครั้ง\n[EndSkill] Increase [BloodDinner] เท่ากับ the damage this Skill dealt",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 1 [Paralysis] ในเทิร์นถัดไป\n- If this Skill consumed 50 [BloodDinner], สร้าง 2 additional [Paralysis]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107907,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Don Quixote Hardblood Arts 2 - Hardblood",
-                    "desc": "Can Clash with this Skill regardless of Speed\n[StartBattle] ได้รับ 1 [SwirlingBlood]\n[StartBattle] ผลาญ 100 [BloodDinner]; ได้รับ 1 [BloodArmor] and 20 Shield HP ตามทุก ๆ 10 [BloodDinner] consumed\n- If this unit doesn't have enough [BloodDinner], ได้รับ 50 [Laceration], and activate it immediately. Lose 2 [Laceration] จำนวนครั้ง. ได้รับ 200 Shield HP (this damage does not reduce this unit's HP to 0)\n[DefeatDuel] As long as the Shield HP from this Skill remains, ได้รับ 3 [Vulnerable]\n[DefeatDuel] This Skill deals -50% damage\n[EndSkill] End Combat Phase",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration] and +3 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107908,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "La Aventura Ha Terminado",
-                    "desc": "Deal +10% damage ตามทุก ๆ [Laceration] บนตัวเป้าหมาย (สูงสุด 200%)\nDeal +10% damage ตามทุก ๆ 3 [BloodArmor] (สูงสุด 100%)\n[StartBattle] ผลาญ (45 - current SP) [BloodDinner] and heal up to 45 SP\n- If there isn't enough [BloodDinner], ได้รับ 20 [Laceration] and heal up to 45 SP\n- ได้รับ Shield HP เท่ากับ remaining [BloodDinner] (สูงสุด 100)\n[WinDuel] สร้าง 10 [Laceration]\n[EndSkill] Increase [BloodDinner] by HP damage dealt against the target\n[EndSkill] If the target is defeated, increase [BloodDinner] by the target's max HP",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 10 [Laceration] and +3 [Laceration] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Laceration] and +3 [Laceration] จำนวนครั้ง to all enemies except for the target"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 107909,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "La Aventura Ha Terminado...",
-                    "desc": "Deal +40% damage ตามทุก ๆ 10 (sum of [Laceration] on all targets]) (สูงสุด 200%)\nDeal +10% damage ตามทุก ๆ cumulative [BloodDinner] this unit consumed (สูงสุด 100%)\n[StartBattle] ผลาญ (45 - current SP) [BloodDinner] and heal up to 45 SP\n- If there isn't enough [BloodDinner], ได้รับ 20 [Laceration] and heal up to 45 SP\n- ได้รับ Shield HP เท่ากับ remaining [BloodDinner] (สูงสุด 100)\n[WinDuel] สร้าง 10 [Laceration]\n[EndSkill] Increase [BloodDinner] by HP damage dealt against the target\n[EndSkill] If the target is defeated, increase [BloodDinner] by the target's max HP",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "สร้าง 10 [Laceration] and +3 [Laceration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108201,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Compression",
-                    "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 5 [Breath] Potency on self (สูงสุด 3)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 2 [Vibration] Potency"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] สร้าง 3 [Vibration] Potency and +2 [Vibration] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108202,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Dismantle",
-                    "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 3 [Breath] Potency on self (สูงสุด 5)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 3 [Vibration] Potency"
-                                },
-                                {
-                                    "desc": "[WinDuelAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108203,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Conduct Analysis",
-                    "desc": "[WhenUse] At 10+ [Breath] Potency, ผลาญ [Breath] Potency to ได้รับ +2 แต้มปิดท้ายสกิล ตามทุก ๆ 3 [Breath] Potency consumed (สูงสุด 4)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] หากเป้าหมายมี 5+ [Vibration] จำนวนครั้ง, ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
-                                },
-                                {
-                                    "desc": "[WinDuelAttack] สร้าง 5 [Vibration] Potency and +3 [Vibration] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion] twice; then, reduce target's [Vibration] จำนวนครั้ง by 2"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108204,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Trigger Extinction Sequence",
-                    "desc": "[WhenUse] ผลาญ half of [Breath] Potency and จำนวนครั้ง on self\n- ได้รับ (sum of consumed [Breath] Potency and จำนวนครั้ง / 2) แต้มปิดท้ายสกิล (สูงสุด 20)\n- Deal +(sum of consumed [Breath] Potency and จำนวนครั้ง x 2)% damage (สูงสุด 50%)\n- +(sum of consumed [Breath] Potency and จำนวนครั้ง x 4)% damage on Critical Hit (สูงสุด 100%)\n[DefeatDuel] Reduce remaining [Breath] จำนวนครั้ง by half",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "If user took no HP damage last turn, guarantee a Crit"
-                                },
-                                {
-                                    "desc": "If user took HP damage last turn, does not Crit; instead, deal -80% damage"
-                                },
-                                {
-                                    "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion] thrice; then, reduce target's [Vibration] จำนวนครั้ง by 3"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 108205,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Contemplation",
-                    "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 for [Breath] Potency on self (สูงสุด 5)\n[WhenUse] ได้รับ 4 [Breath] Potency\n- If this unit has Shield, ได้รับ +2 [Breath] จำนวนครั้ง as well",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 108002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "รวบรวมหิน",
+          "desc": "[WinDuel] หากเป้าหมายมี [Vibration] แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 8 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เกียจคร้านเพิ่มพูน",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Vibration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WinDuel] น้ำหนักการโจมตีของสกิลนี้เพิ่มขึ้น +1 ช่อง ตามทุก ๆ ค่า [Vibration] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 ช่อง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [Switch_Vibration] และเปลี่ยนเป็น [VibrationEcho]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] หนึ่งครั้ง ตามทุก ๆ จำนวนครั้ง [Vibration] บนตัวเป้าหมาย (สูงสุด 2 ครั้ง); จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +4 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ตั้งการ์ด",
+          "desc": "สร้างค่า [Vibration] 2 หน่วยแก่ผู้โจมตีเมื่อถูกโจมตี ตราบใดที่ยังมีโล่ HP เหลืออยู่\n[WhenUse] ได้รับ [Protection] 3 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "การปะทะเสื่อมสลาย",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Sinking] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "น้ำเชี่ยวกราก",
+          "desc": "[WhenUse] หากเป้าหมายมี [Sinking] แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 8 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วยแก่เป้าหมาย 2 ตัวแบบสุ่ม"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "โศกาหลั่งไหลโหมตก",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WinDuel] น้ำหนักการโจมตีของสกิลนี้เพิ่มขึ้น +1 ช่อง ตามทุก ๆ ค่า [Sinking] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 ช่อง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 5 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] แต้มเหรียญของเหรียญถัดไปเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Sinking] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "หลบหลีก",
+          "desc": "[OnSucceedEvade] เป้าหมายเสีย SP 5 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "โค่นล้ม",
+          "desc": "[WhenUse] ผลาญ [BloodDinner] 20 หน่วย: ได้รับ [BloodArmor] 1 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [BloodArmor] 10 หน่วย(สูงสุด 2 แต้ม)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 15 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "แผลเหวอะ",
+          "desc": "[WhenUse] ผลาญ [BloodDinner] สูงสุด 20 หน่วย: ได้รับ [BloodArmor] 1 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [BloodArmor] 10 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 15 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ศาสตร์จับเลือดแข็งตัวของดอนกิโฮเต้ ลำดับที่ 4 - แตกสลาย",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] สกิลนี้สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ขั้นของ [BloodArmor] (สูงสุด 60%)\n[DefeatDuel] ผลาญ [BloodArmor] 4 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ศาสตร์จับเลือดแข็งตัวของดอนกิโฮเต้ ลำดับที่ 11 - แทงทะลวง",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WinDuel] สกิลนี้สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ขั้นของ [BloodArmor] (สูงสุด 60%)\n[DefeatDuel] ผลาญ [BloodArmor] 4 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานเท่ากับจำนวนครั้งที่มี; เกิดเอฟเฟกต์นี้จนกว่าจำนวนครั้ง [Laceration] ของเป้าหมายจะลดเหลือ 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "สไตล์ดอนกิโฮเต้แบบผันแปร: ศาสตร์ของซานโช ลำดับที่ 4 - ติดตาม",
+          "desc": "เล็งเป้าหมายที่มีค่า [Laceration] สูงที่สุดเป็นหลัก\n[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ [BloodArmor] 10 หน่วยที่ตนเองมี (สูงสุด 3 ช่อง)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] ผลาญ [BloodDinner] สูงสุด 30 หน่วย: ได้รับ [BloodArmor] 1 หน่วย และแต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [BloodDinner] 15 หน่วยที่ผลาญไป (สูงสุด 2 แต้ม)\n- หากตัวละครนี้ไม่สามารถผลาญ [BloodDinner] ได้ จะได้รับค่า [Laceration] 10 หน่วย และเปิดใช้งาน [Laceration] โดยทันที จากนั้นเสียจำนวนครั้ง [Laceration] 1 หน่วย\n[EndSkill] เพิ่มปริมาณ [BloodDinner] เท่ากับความเสียหายที่สกิลนี้สร้าง",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป\n- หากสกิลนี้ผลาญ [BloodDinner] 30 หน่วย จะสร้าง [Binding] เพิ่มเติมอีก 2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "สไตล์ดอนกิโฮเต้แบบผันแปร: ศาสตร์ของซานโช ลำดับที่ 3 - ซุ่มโจมตี",
+          "desc": "เล็งเป้าหมายที่มีค่า [Laceration] สูงที่สุดเป็นหลัก\n[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ [BloodArmor] 10 หน่วยที่ตนเองมี (สูงสุด 2 ช่อง)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] ผลาญ [BloodDinner] สูงสุด 30 หน่วย: ได้รับ [BloodArmor] 1 หน่วย และแต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [BloodDinner] 15 หน่วยที่ผลาญไป (สูงสุด 2 แต้ม)\n- หากตัวละครนี้ไม่สามารถผลาญ [BloodDinner] ได้ จะได้รับค่า [Laceration] 10 หน่วย และเปิดใช้งาน [Laceration] โดยทันที จากนั้นเสียจำนวนครั้ง [Laceration] 1 หน่วย\n[EndSkill] เพิ่มปริมาณ [BloodDinner] เท่ากับความเสียหายที่สกิลนี้สร้าง",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป\n- หากสกิลนี้ผลาญ [BloodDinner] 30 หน่วย จะสร้าง [Paralysis] เพิ่มเติมอีก 2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ศาสตร์จับเลือดแข็งตัวของดอนกิโฮเต้ ลำดับที่ 2 - เลือดแข็งตัว",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[StartBattle] ได้รับ [SwirlingBlood] 1 หน่วย\n[StartBattle] ผลาญ [BloodDinner] 100 หน่วย; ได้รับ [BloodArmor] 1 หน่วย และโล่ HP 20 หน่วย ตามทุก ๆ [BloodDinner] 10 หน่วยที่ผลาญไป\n- หากตัวละครนี้มี [BloodDinner] ไม่เพียงพอ จะได้รับค่า [Laceration] 50 หน่วยและเปิดใช้งาน [Laceration] ทันที จากนั้นเสียจำนวนครั้ง [Laceration] 2 หน่วย; ได้รับโล่ HP 200 หน่วย (ความเสียหายนี้จะไม่ลด HP ของตัวละครนี้เหลือ 0 หน่วย)\n[DefeatDuel] ได้รับ [Vulnerable] 3 หน่วย ตราบใดที่โล่จากเอฟเฟกต์สกิลนี้ยังมีอยู่\n[DefeatDuel] สกิลนี้สร้างความเสียหายลดลง -50%\n[EndSkill] จบเฟสต่อสู้",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ลา อาเวนตูรา อา เตอร์มินาโด (การผจญภัยนั้นกำลังจะจบลง)",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Laceration] บนตัวเป้าหมาย (สูงสุด 200%)\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [BloodArmor] 3 หน่วย (สูงสุด 100%)\n[StartBattle] ผลาญ [BloodDinner] (45 - SP ปัจจุบัน) หน่วย และฟื้นฟู SP ขึ้นสูงสุด 45 หน่วย\n- หากมี [BloodDinner] ไม่เพียงพอ จะได้รับค่า [Laceration] 20 หน่วย และฟื้นฟู SP ขึ้นสูงสุด 45 หน่วย\n- ได้รับโล่ HP เท่ากับปริมาณ [BloodDinner] คงเหลือ (สูงสุด 100 หน่วย)\n[WinDuel] สร้างค่า [Laceration] 10 หน่วย\n[EndSkill] เพิ่มปริมาณ [BloodDinner] เท่ากับความเสียหาย HP ที่สร้างต่อเป้าหมาย\n[EndSkill] หากเป้าหมายถูกกำจัด จะเพิ่มปริมาณ [BloodDinner] ตามปริมาณ HP สูงสุดของเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 10 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วยแก่ศัตรูทั้งหมดยกเว้นเป้าหมาย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ลา อาเวนตูรา อา เตอร์มินาโด...",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +40% ตามทุก ๆ (ผลรวมค่า [Laceration] บนตัวเป้าหมายทั้งหมด) 10 หน่วย (สูงสุด 200%)\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ปริมาณ [BloodDinner] ที่ตัวละครนี้ผลาญไปสะสม (สูงสุด 100%)\n[StartBattle] ผลาญ [BloodDinner] (45 - SP ปัจจุบัน) หน่วย และฟื้นฟู SP ขึ้นสูงสุด 45 หน่วย\n- หากมี [BloodDinner] ไม่เพียงพอ จะได้รับค่า [Laceration] 20 หน่วย และฟื้นฟู SP ขึ้นสูงสุด 45 หน่วย\n- ได้รับโล่ HP เท่ากับปริมาณ [BloodDinner] คงเหลือ (สูงสุด 100 หน่วย)\n[WinDuel] สร้างค่า [Laceration] 10 หน่วย\n[EndSkill] เพิ่มปริมาณ [BloodDinner] เท่ากับความเสียหาย HP ที่สร้างต่อเป้าหมาย\n[EndSkill] หากเป้าหมายถูกกำจัด จะเพิ่มปริมาณ [BloodDinner] ตามปริมาณ HP สูงสุดของเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "สร้างค่า [Laceration] 10 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "บีบอัด",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] 5 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย และจำนวนครั้ง [Vibration] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "รื้อปลด",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] 3 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+                },
+                {
+                  "desc": "[WinDuelAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ดำเนินการวิเคราะห์",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 10+ หน่วย จะผลาญ [Breath] เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม ตามทุก ๆ ค่า [Breath] 3 หน่วยที่ผลาญไป (สูงสุด 4 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Vibration] 5+ หน่วย จะทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                },
+                {
+                  "desc": "[WinDuelAttack] สร้างค่า [Vibration] 5 หน่วย และจำนวนครั้ง [Vibration] +3 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion] สองครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เปิดใช้อนุกรมสูญพันธุ์",
+          "desc": "[WhenUse] ผลาญค่าและจำนวนครั้ง [Breath] ครึ่งหนึ่งที่ตนเองมี\n- แต้มปิดท้ายสกิลเพิ่มขึ้น (ผลรวมค่าและจำนวนครั้ง [Breath] ที่ผลาญไป / 2) แต้ม (สูงสุด 20 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +(ผลรวมค่าและจำนวนครั้ง [Breath] ที่ผลาญไป x 2)% (สูงสุด 50%)\n- สร้างความเสียหายคริติคอลเพิ่มขึ้น +(ผลรวมค่าและจำนวนครั้ง [Breath] ที่ผลาญไป x 4)% (สูงสุด 100%)\n[DefeatDuel] ลดจำนวนครั้ง [Breath] ที่เหลืออยู่ลงครึ่งหนึ่ง",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "- หากผู้ใช้สกิลไม่ได้รับความเสียหาย HP ในเทิร์นก่อนหน้า จะทำให้ติดคริติคอลแน่นอน"
+                },
+                {
+                  "desc": "- หากผู้ใช้สกิลได้รับความเสียหาย HP ในเทิร์นก่อนหน้า จะไม่ติดคริติคอล; แต่จะสร้างความเสียหายลดลง -80%"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] ทำให้เกิด [VibrationExplosion] สามครั้ง; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เพ่งพินิจ",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] ที่ตนเองมี (สูงสุด 5 แต้ม)\n[WhenUse] ได้รับค่า [Breath] 4 หน่วย\n- หากตัวละครนี้มีโล่ จะได้รับจำนวนครั้ง [Breath] +2 หน่วยด้วยเช่นกัน",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
 }
