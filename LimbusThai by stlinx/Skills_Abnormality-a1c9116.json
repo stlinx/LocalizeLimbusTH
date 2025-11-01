@@ -1,249 +1,249 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "id": 112701,
+      "levelList": [
         {
-            "id": 112701,
-            "levelList": [
+          "level": 1,
+          "name": "ไม่มีทดส่งทดสอบอะไรแล้ว",
+          "desc": "[WhenUse] ได้รับ [HitDamageUp] 3 หน่วยในเทิร์นถัดไป\n[WhenUse] หากเป้าหมายหลักมี [MiddleFingerBook] 3+ หน่วย จะแปลงเหรียญทั้งหมดบนสกิลนี้ให้เป็น [SuperCoin]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "No More Tests",
-                    "desc": "[WhenUse] ได้รับ 3 [HitDamageUp] ในเทิร์นถัดไป\n[WhenUse] If the main target has 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
-            ]
-        },
-        {
-            "id": 112702,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Promised Suffering",
-                    "desc": "Prioritizes targets with the highest [MiddleFingerBook] Stack\n[WhenUse] หากเป้าหมายมี 3+ [MiddleFingerBook], convert all Coins on this Skill to [SuperCoin]s",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] this turn and ในเทิร์นถัดไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] this turn and ในเทิร์นถัดไป"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง ([MiddleFingerBook] บนตัวเป้าหมาย x 3) Blunt bonus damage"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Remove all [MiddleFingerBook] บนตัวเป้าหมาย"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112703,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Enough games",
-                    "desc": "[StartBattle] Heal all allies' SP by 10\n[EndBattle] If there are Panicked allies, recover them from Panic at the ในเทิร์นถัดไป Start and reset their SP to 0\n[EndBattle] มอบ 1 [HitResultUp] to all allies, รวมถึงตัวละครนี้",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112704,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "COMPLETE AND TOTAL EXTERMINATION!!!",
-                    "desc": "Can Clash with this Skill regardless of Speed\nIf the main target has 5+ [MiddleFingerBook], แต้มปิดท้ายสกิล +5\n[EndSkill] Remove [MiddleFingerBook] from all targets that were hit",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง ([MiddleFingerBook] บนตัวเป้าหมาย x 10) Blunt bonus damage"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112601,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Startling Strike",
-                    "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มแคลชสกิล +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112602,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Perforating Kill",
-                    "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มแคลชสกิล +1\n[WhenUse] ได้รับ 3 [LegStrength]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstAgility], ได้รับ 1 [Agility] ในเทิร์นถัดไป"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112603,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Etching Strike",
-                    "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มเหรียญ +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง [BurstAgility]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112604,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Cursewrit Butcherblade - Blinkstep",
-                    "desc": "Prioritizes targets with [BurstAgility]\nDeal +15% damage ตามทุก ๆ 2 Speed difference between this unit and the target (สูงสุด 60%)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] แต้มเริ่มต้นสกิล +1 ตามทุก ๆ 2 [Burst] จำนวนครั้ง บนตัวเป้าหมาย (สูงสุด 3)\n[EndSkill] At 10+ Speed, and if the target is defeated, Reuse this Skill against a random enemy (once per turn)",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +3 [Burst] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "หากเป้าหมายมี [BurstAgility], deal +50% damage"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง 5 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 112605,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Cursewrit",
-                    "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [BurstAgility], สร้าง +1 more [Burst] จำนวนครั้ง with this Skill",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 112702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ความทุกข์ทรมาณที่สัญญาไว้",
+          "desc": "เล็.เป้าหมายที่มีปริมาณทับซ้อน [MiddleFingerBook] สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมี [MiddleFingerBook] 3+ หน่วย จะแปลงเหรียญทั้งหมดบนสกิลนี้ให้เป็น [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบเท่ากับ ([MiddleFingerBook] บนตัวเป้าหมาย x 3) หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ล้าง [MiddleFingerBook] ทั้งหมดบนตัวเป้าหมาย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เล่นเกมกันพอแล้ว",
+          "desc": "[StartBattle] ฟื้นฟู SP พันธมิตรทั้งหมดเท่ากับ 10 หน่วย\n[EndBattle] หากมีพันธมิตรที่กำลังแตกตื่นอยู่ จะทำให้พวกเขาฟื้นตัวจากอาการแตกตื่นเมื่อเริ่มเทิร์นถัดไป และรีเซ็ต SP พวกเขาเป็น 0 หน่วย\n[EndBattle] มอบ [HitResultUp] 1 หน่วยให้แก่พันธมิตรทั้งหมด (รวมถึงตัวละครนี้)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "กำจัดสิ้นไม่เหลือซาก!!!",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากเป้าหมายหลักมี [MiddleFingerBook] 5+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +5 แต้ม\n[EndSkill] ล้าง [MiddleFingerBook] จากตัวเป้าหมายทั้งหมดที่ถูกโจมตี",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบเท่ากับ ([MiddleFingerBook] บนตัวเป้าหมาย x 10) หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "การโจมตีชวนสะดุ้ง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ปลิดชีพทะลวงร่าง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับ [LegStrength] 3 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstAgility] จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "จู่โจมสลักกัดกร่อน",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [BurstAgility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "มีดชำแหละสลักอาคม - ก้าวพริบตา",
+          "desc": "เล็งเป้าหมายที่มี [BurstAgility] เป็นหลัก\nสร้างความเสียหายเพิ่มขึ้น +15% ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกันระหว่างตัวละครนี้และเป้าหมาย (สูงสุด 60%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Burst] 2 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[EndSkill] เมื่อมีความเร็ว 10+ หน่วยและหากเป้าหมายถูกกำจัด จะใช้สกิลนี้ซ้ำใส่ศัตรูหนึ่งตัวแบบสุ่ม (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "หากเป้าหมายมี [BurstAgility] จะสร้างความเสียหายเพิ่มขึ้น +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "สลักอาคม",
+          "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [BurstAgility] สกิลนี้จะสร้างจำนวนครั้ง [Burst] เพิ่มขึ้น +1 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
