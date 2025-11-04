@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Startling Strike",
-          "desc": "[WhenUse] หากเป้าหมายมี 3+ [Burst], แต้มแคลชสกิล +1",
+          "name": "การโจมตีชวนสะดุ้ง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 3+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Restraint",
-          "desc": "[WhenUse] หากเป้าหมายมี 4+ [Burst], แต้มเริ่มต้นสกิล +1",
+          "name": "ยับยั้ง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 4+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
@@ -40,10 +40,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reuse this Coin (this unit's Speed / 3) times (สูงสุด 2)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ใช้เหรียญนี้ซ้ำ (ความเร็วตัวละครนี้ / 3) ครั้ง (สูงสุด 2 ครั้ง)"
                 }
               ]
             }
@@ -56,20 +56,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Feather Strike",
-          "desc": "If this unit's Speed is faster than the main target's ได้รับ แต้มเหรียญ based on Speed difference (แต้มเหรียญ +1 ตามทุก ๆ 2 Speed difference; max 3)\n[WhenUse] หากเป้าหมายมี 4+ [Burst], แต้มเหรียญ +1\n[WinDuel] สร้าง +3 [Burst] จำนวนครั้ง",
+          "name": "โจมตีดุจขนนก",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายหลัก แต้มเหรียญจะเพิ่มขึ้นตามความเร็วที่ต่างกัน (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน; สูงสุด 3 แต้ม)\n[WhenUse] หากเป้าหมายมีค่า [Burst] 4+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] สร้างจำนวนครั้ง [Burst] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [BurstAgility]"
@@ -82,13 +82,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "หากเป้าหมายมี [BurstAgility], deal +50% damage"
+                  "desc": "หากเป้าหมายมี [BurstAgility] จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับ 3 [LegStrength]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับ [LegStrength] 3 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] Reuse this Coin once (once per Skill)"
+                  "desc": "[WinDuelAttack] ใช้เหรียญนี้ซ้ำอีกครั้ง (มีผล 1 ครั้งต่อสกิล)"
                 }
               ]
             }
@@ -101,8 +101,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Windup",
-          "desc": "[WhenUse] ได้รับ 3 [Agility] ในเทิร์นถัดไป",
+          "name": "เตรียมตัว",
+          "desc": "[WhenUse] ได้รับ [Agility] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -120,13 +120,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pursuit",
-          "desc": "[WhenUse] หากเป้าหมายมี 3+ [Burst], แต้มแคลชสกิล +1",
+          "name": "ไล่ตาม",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 3+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -139,13 +139,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overwhelm",
-          "desc": "[WhenUse] หากเป้าหมายมี 4+ [Burst], แต้มเริ่มต้นสกิล +1",
+          "name": "ประเดใส่",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 4+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
@@ -155,10 +155,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reuse this Coin (this unit's Speed / 3) times (สูงสุด 2)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ใช้เหรียญนี้ซ้ำ (ความเร็วตัวละครนี้ / 3) ครั้ง (สูงสุด 2 ครั้ง)"
                 }
               ]
             }
@@ -171,20 +171,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Umbra Strike",
-          "desc": "If this unit's Speed is faster than the main target's ได้รับ แต้มเหรียญ based on Speed difference (แต้มเหรียญ +1 ตามทุก ๆ 2 Speed difference; max 3)\n[WhenUse] หากเป้าหมายมี 4+ [Burst], แต้มเหรียญ +1\n[WinDuel] สร้าง +3 [Burst] จำนวนครั้ง",
+          "name": "โจมตีจากเงามืด",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้นตามความเร็วที่ต่างกัน (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน; สูงสุด 3 แต้ม)\n[WhenUse] หากเป้าหมายมีค่า [Burst] 4+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] สร้างจำนวนครั้ง [Burst] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [BurstAgility]"
@@ -197,13 +197,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "หากเป้าหมายมี [BurstAgility], deal +50% damage"
+                  "desc": "หากเป้าหมายมี [BurstAgility] จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับ 3 [LegStrength]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับ [LegStrength] 3 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] Reuse this Coin once (once per Skill)"
+                  "desc": "[WinDuelAttack] ใช้เหรียญนี้ซ้ำอีกครั้ง (มีผล 1 ครั้งต่อสกิล)"
                 }
               ]
             }
@@ -216,8 +216,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Windup",
-          "desc": "[WhenUse] ได้รับ 3 [Agility] ในเทิร์นถัดไป",
+          "name": "เตรียมตัว",
+          "desc": "[WhenUse] ได้รับ [Agility] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -459,13 +459,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Startling Strike",
-          "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มแคลชสกิล +1",
+          "name": "การโจมตีชวนสะดุ้ง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -478,16 +478,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Perforating Kill",
-          "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มเหรียญ +1\n[WhenUse] ได้รับ 3 [LegStrength]",
+          "name": "ปลิดชีพทะลวงร่าง",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับ [LegStrength] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstAgility], ได้รับ 1 [Agility] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstAgility] จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -500,20 +500,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Etching Strike",
-          "desc": "[WhenUse] หากเป้าหมายมี 5+ [Burst], แต้มเหรียญ +1",
+          "name": "จู่โจมสลักกัดกร่อน",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Burst] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [BurstAgility]"
@@ -529,8 +529,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cursewrit Butcherblade - Blinkstep",
-          "desc": "Prioritizes targets with [BurstAgility]\n[StartBattle] ได้รับ 1 [SupportProtect]\nDeal +15% damage ตามทุก ๆ 2 Speed difference between this unit and the target (สูงสุด 60%)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] แต้มเริ่มต้นสกิล +1 ตามทุก ๆ 2 [Burst] จำนวนครั้ง บนตัวเป้าหมาย (สูงสุด 3)\n[WinDuel] สร้าง +2 [Burst] จำนวนครั้ง",
+          "name": "มีดชำแหละสลักอาคม - ก้าวพริบตา",
+          "desc": "เล็งเป้าหมายที่มี [BurstAgility] เป็นหลัก\n[StartBattle] ได้รับ [SupportProtect] 1 หน่วย\nสร้างความเสียหายเพิ่มขึ้น +15% ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกันระหว่างตัวละครนี้และเป้าหมาย (สูงสุด 60%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Burst] 2 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -538,7 +538,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             },
@@ -548,7 +548,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
                 }
               ]
             },
@@ -558,13 +558,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "หากเป้าหมายมี [BurstAgility], deal +50% damage"
+                  "desc": "หากเป้าหมายมี [BurstAgility] จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reuse this Coin once (once per Skill)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ใช้เหรียญนี้ซ้ำอีกครั้ง (มีผล 1 ครั้งต่อสกิล)"
                 }
               ]
             }
@@ -577,27 +577,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cursewrit",
-          "desc": "[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย by 3 or more, แต้มแคลชสกิล +1\n[WhenUse] หากเป้าหมายมี [BurstAgility], สร้าง +1 more [Burst] จำนวนครั้ง with this Skill",
+          "name": "สลักอาคม",
+          "desc": "[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี [BurstAgility] สกิลนี้จะสร้างจำนวนครั้ง [Burst] เพิ่มขึ้นอีก +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             }
@@ -610,8 +610,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Incomplete Seal Release: <Tianjiu Star's Blade>",
-          "desc": "+20% damage ตามทุก ๆ 2 Speed difference between this unit and the target (สูงสุด 60%)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Burst] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 2 [Burst] จำนวนครั้ง บนตัวเป้าหมาย (สูงสุด 3)",
+          "name": "ปลดผนึกบกพร่อง: <ดาบดาวเทียนจิว>",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกันระหว่างตัวละครนี้และเป้าหมาย (สูงสุด 60%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Burst] 2 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -619,7 +619,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst] จำนวนครั้ง"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
@@ -629,7 +629,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 5 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
                 }
               ]
             },
@@ -733,7 +733,7 @@
         {
           "level": 1,
           "name": "อัสนีกระแทก - ฉีกผ่า (波)",
-          "desc": "ให้ความสำคัญกับเป้าหมายที่มีประเภท 'พิธีมรณา' มากที่สุดก่อน\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 2 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 4 แต้ม)",
+          "desc": "เล็งเป้าหมายที่มีประเภท 'พิธีมรณา' มากที่สุดเป็นหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 2 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 4 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -859,7 +859,7 @@
         {
           "level": 1,
           "name": "พิธีมรณาท่วมท้น",
-          "desc": "[CantChangeTarget]\nให้ความสำคัญกับเป้าหมายที่มีประเภท 'พิธีมรณา' มากที่สุดก่อน\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ประเภทพิธีมรณาที่เป้าหมายมี (สูงสุด 3 แต้ม)",
+          "desc": "[CantChangeTarget]\nเล็งเป้าหมายที่มีประเภท 'พิธีมรณา' มากที่สุดเป็นหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ประเภทพิธีมรณาที่เป้าหมายมี (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -881,7 +881,7 @@
         {
           "level": 1,
           "name": "ตอบข้ามา เจี่ยเป่าอี้",
-          "desc": "[CantChangeTarget]\nให้ความสำคัญกับ 'หงลู่' ก่อน\n[WinDuel] สร้างจำนวนครั้ง [Burst] +4 หน่วย\n[DefeatDuel] หากเป้าหมายคือหงลู่ จะสร้าง [Teaching] 1 หน่วย",
+          "desc": "[CantChangeTarget]\nเล็ง 'หงลู่' เป็นหลัก\n[WinDuel] สร้างจำนวนครั้ง [Burst] +4 หน่วย\n[DefeatDuel] หากเป้าหมายคือหงลู่ จะสร้าง [Teaching] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -933,7 +933,7 @@
         {
           "level": 1,
           "name": "ดาวเทียนกัง - แปรขบวน (格)",
-          "desc": "ให้ความสำคัญกับ 'หงลู่' ก่อน\nแต้มเหรียญลดลง -2 แต้ม ตามทุก ๆ [Teaching] ที่เป้าหมายมี\n[DefeatDuel] การโจมตีนี้ทำให้ชะงักไม่ได้ และได้รับ [DefenseDown] 24 หน่วยตลอดทั้งการเผชิญหน้านี้\n[DefeatDuel] สร้างความเสียหายลดลง -50%",
+          "desc": "เล็ง 'หงลู่' เป็นหลัก\nแต้มเหรียญลดลง -2 แต้ม ตามทุก ๆ [Teaching] ที่เป้าหมายมี\n[DefeatDuel] การโจมตีนี้ทำให้ชะงักไม่ได้ และได้รับ [DefenseDown] 24 หน่วยตลอดทั้งการเผชิญหน้านี้\n[DefeatDuel] สร้างความเสียหายลดลง -50%",
           "coinlist": [
             {
               "coindescs": [
@@ -984,20 +984,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weaklings...",
-          "desc": "[StartBattle] มอบ 2 [AttackDmgUp] to the fastest ally",
+          "name": "ไอ้พวกอ่อนแอ...",
+          "desc": "[StartBattle] มอบ [AttackDmgUp] 2 หน่วยให้พันธมิตรที่เร็วที่สุด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -1010,20 +1010,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dolts...",
-          "desc": "[StartBattle] มอบ 2 [Agility] to the slowest ally ในเทิร์นถัดไป",
+          "name": "เจ้าพวกงี่เง่า...",
+          "desc": "[StartBattle] มอบ [Agility] 2 หน่วยให้แก่พันธมิตรที่ช้าที่สุดในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1036,8 +1036,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'm Gonna Kill You!",
-          "desc": "[WhenUse] หากเป้าหมายมี 3+ types of negative effects, แต้มเริ่มต้นสกิล +1\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 6 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[DefeatDuel] ได้รับ 1 [Vulnerable]",
+          "name": "ฉันจะฆ่าแก!",
+          "desc": "[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[DefeatDuel] ได้รับ [Vulnerable] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -1045,10 +1045,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 }
               ]
             },
@@ -1058,10 +1058,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 }
               ]
             }
@@ -1074,8 +1074,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Jump In!!",
-          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] หากเป้าหมายมี 3+ types of negative effects, แต้มเริ่มต้นสกิล +1\n[EndSkill] 1 Jar with the least current HP uses the Skill 'Leaping Cracked Jar' at the target (ignores Stagger)",
+          "name": "โดดเข้าไป!!",
+          "desc": "[WhenUse] ฟื้นฟู SP 15 หน่วย\n[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[EndSkill] 'ไห' 1 ใบที่มี HP ปัจจุบันต่ำที่สุดจะใช้ 'ไหแตกโดดเข้าใส่' ใส่เป้าหมาย (เมินสภาพชะงัก)",
           "coinlist": [
             {
               "coindescs": [
@@ -1083,10 +1083,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             }
@@ -1099,8 +1099,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let's Watch This Spectacle, All Together!",
-          "desc": "[StartBattle] Summon 2 Jars ในเทิร์นถัดไป\n[WhenUse] หากเป้าหมายมี 3+ negative effects, แต้มเริ่มต้นสกิล +1",
+          "name": "มาดูการแสดงอันแสนตื่นตานี่กันเลย ทุกคนนี่ล่ะ!",
+          "desc": "[StartBattle] อัญเชิญ 'ไห' 2 ใบในเทิร์นถัดไป\n[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -1108,10 +1108,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             }
@@ -1124,16 +1124,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spirit Talisman School - Talisman Strike",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 30% missing HP on self (สูงสุด 2)",
+          "name": "สำนักยันต์วิญญาณ - ยันต์ฟาดฟัน",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ HP 30% ของตนเองที่หายไป (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst] and +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] สร้าง [OminousTalisman] 10 หน่วย"
                 }
               ]
             }
@@ -1146,23 +1146,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spirit Talisman School - Trigger Effect",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 30% missing HP on self (สูงสุด 2)",
+          "name": "สำนักยันต์วิญญาณ - บังเกิดผล",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ HP 30% ของตนเองที่หายไป (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst] and +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] สร้าง [OminousTalisman] 10 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Reduce [OminousTalisman] บนตัวเป้าหมาย by 2"
+                  "desc": "[OnSucceedAttack] ลด [OminousTalisman] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -1175,8 +1175,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spirit Talisman School - Deathrite Doll",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 4)",
+          "name": "สำนักยันต์วิญญาณ - ตุ๊กตาแห่งพิธีมรณา",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -1184,10 +1184,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst] and +3 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reduce [OminousTalisman] บนตัวเป้าหมาย by 5"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ลด [OminousTalisman] บนตัวเป้าหมายลง 5 หน่วย"
                 }
               ]
             }
@@ -1200,8 +1200,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spirit Talisman School - Vilerage",
-          "desc": "[StartBattle] Atk Weight +1 ตามทุก ๆ 20% missing HP on self (สูงสุด 4)\n[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 4\n[DefeatDuel] Deal -50% damage; this Skill cannot Stagger the target with damage or effect\n[EndSkill] If this Skill has defeated an enemy, มอบ 2 [ResultEnhancement] and 2 [AttackDmgUp] to all allies, รวมถึงตัวละครนี้, ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+          "name": "สำนักยันต์วิญญาณ - โทสะไม่น่าพิสมัย",
+          "desc": "[StartBattle] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ HP 20% ของตนเองที่หายไป (สูงสุด 4 ช่อง)\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 4 แต้ม)\n[DefeatDuel] สร้างความเสียหายลดลง -50%; ความเสียหายและเอฟเฟกต์ของสกิลนี้จะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] หากสกิลนี้กำจัดศัตรูได้ จะมอบ [ResultEnhancement] 2 หน่วย และ [AttackDmgUp] 2 หน่วยให้แก่พันธมิตรทั้งหมด (รวมถึงตัวละครนี้) ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
           "coinlist": [
             {
               "coindescs": [
@@ -1209,10 +1209,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] สร้าง [OminousTalisman] 10 หน่วย"
                 }
               ]
             },
@@ -1222,10 +1222,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] สร้าง [OminousTalisman] 10 หน่วย"
                 }
               ]
             },
@@ -1235,7 +1235,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Remove all [OminousTalisman] บนตัวเป้าหมาย"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ล้าง [OminousTalisman] ทั้งหมดบนตัวเป้าหมาย"
                 }
               ]
             }
@@ -1248,26 +1248,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Take This!",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 2 types of negative effect บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "เอานี่ไปกิน!",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ สถานะผิดปกติ 2 ประเภทบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1280,8 +1280,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "KNEEL!",
-          "desc": "[CantIdentify]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 2 types of negative effect บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "คุกเข่าซะ!",
+          "desc": "[CantIdentify]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ สถานะผิดปกติ 2 ประเภทบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -1289,10 +1289,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
@@ -1302,10 +1302,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1318,26 +1318,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Look at You Flaming Idiots!",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 2 types of negative effect บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "ดูแกสิ ไอ้พวกโง่โกรธจนดิ้นใหญ่!",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ สถานะผิดปกติ 2 ประเภทบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Activate [Burst] บนตัวเป้าหมาย once. Target loses 1 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ทำให้ [Burst] บนตัวเป้าหมายทำงานหนึ่งครั้ง; เป้าหมายเสียจำนวนครั้ง [Burst] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [Laceration] and [Burst] Potency เท่ากับ [MadFeather] Stack"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] และค่า [Burst] เท่ากับปริมาณ [MadFeather]"
                 }
               ]
             }
@@ -1350,8 +1350,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Know Your Place!",
-          "desc": "[WideAreaRampage]\n[WhenUse] ผลาญ 3% HP on self (this damage does not kill this unit)",
+          "name": "รู้ที่ต่ำที่สูงด้วย!",
+          "desc": "[WideAreaRampage]\n[WhenUse] ผลาญ HP ตนเอง 3% (ความเสียหายนี้จะไม่สามารถสังหารตัวละครนี้ได้)",
           "coinlist": [
             {
               "coindescs": [
@@ -1359,13 +1359,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ShamrockTakeDamageUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ShamrockTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1375,13 +1375,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ShamrockTakeDamageUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ShamrockTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1391,13 +1391,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ShamrockTakeDamageUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ShamrockTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1410,8 +1410,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kowtow Before Me!",
-          "desc": "[CantIdentify]\n[WhenUse] ผลาญ 5% HP on self (this damage does not kill this unit)",
+          "name": "หมอบคลานต่อหน้าข้า!",
+          "desc": "[CantIdentify]\n[WhenUse] ผลาญ HP ตนเอง 5% (ความเสียหายนี้จะไม่สามารถสังหารตัวละครนี้ได้)",
           "coinlist": [
             {
               "coindescs": [
@@ -1419,14 +1419,14 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง ([MadFeather] บนตัวเป้าหมาย x 10) [Burst]; all [MadFeather] บนตัวเป้าหมาย expires"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] ([MadFeather] บนตัวเป้าหมาย x 10) หน่วย; [MadFeather] ทั้งหมดบนตัวเป้าหมายจะหมดลง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Activate [Burst] บนตัวเป้าหมาย 2 times. Target loses 2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ทำให้ [Burst] บนตัวเป้าหมายทำงาน 2 ครั้ง; เป้าหมายเสียจำนวนครั้ง [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1439,23 +1439,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Give You a Chance",
-          "desc": "[DuelCounter] \n[DefeatDuel] All [MadFeather] บนตัวเป้าหมาย expires",
+          "name": "ฉันจะให้โอกาสแก",
+          "desc": "[DuelCounter] \n[DefeatDuel] [MadFeather] ทั้งหมดบนตัวเป้าหมายหมดลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [MadFeather]"
+                  "desc": "[OnSucceedAttack] สร้าง [MadFeather] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1468,16 +1468,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Blade Style - Downward Cleave",
-          "desc": "[WhenUse] ผลาญ 5 [Charge] จำนวนครั้ง to ได้รับ แต้มปิดท้ายสกิล +1 (สูงสุด 2)\n[WhenUse] ได้รับ +2 [Charge] จำนวนครั้ง",
+          "name": "วิชาดาบไฟฟ้า - สับผ่า",
+          "desc": "[WhenUse] ผลาญจำนวน [Charge] 5 หน่วย เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
                 }
               ]
             }
@@ -1490,26 +1490,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Blade Style - Windup Slash",
-          "desc": "[WhenUse] ผลาญ 5 [Charge] จำนวนครั้ง to ได้รับ แต้มแคลชสกิล +1 (สูงสุด 2)\n[WhenUse] ได้รับ +5 [Charge] จำนวนครั้ง",
+          "name": "วิชาดาบไฟฟ้า - เตรียมพร้อมฟาดฟัน",
+          "desc": "[WhenUse] ผลาญจำนวน [Charge] 5 หน่วย เพื่อทำให้แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวน [Charge] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -1522,8 +1522,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Blade Style - Crushing Slice",
-          "desc": "[WhenUse] ผลาญ 5 [Charge] จำนวนครั้ง to ได้รับ แต้มเหรียญ +1 (สูงสุด 2)\n[WhenUse] If this unit consumed 5+ [Charge] จำนวนครั้ง, สร้าง +2 more [Burst]\n[WhenUse] If this unit consumed 10+ [Charge] จำนวนครั้ง, สร้าง +3 [Burst] จำนวนครั้ง\n[WhenUse] At 5~9 [Charge] จำนวนครั้ง, ได้รับ 2(13 - current [Charge] จำนวนครั้ง) [Burst] to raise this unit's [Charge] จำนวนครั้ง to 10\n[DefeatDuel] Deal -75% damage; damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาดาบไฟฟ้า - แล่และบดขยี้",
+          "desc": "[WhenUse] ผลาญจำนวน [Charge] 5 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)\n[WhenUse] หากตัวละครนี้ผลาญจำนวน [Charge] 5+ หน่วย จะสร้างค่า [Burst] เพิ่มขึ้นอีก +2 หน่วย\n[WhenUse] หากตัวละครนี้ผลาญจำนวน [Charge] 10+ หน่วย จะสร้างจำนวนครั้ง [Burst] +3 หน่วย\n[WhenUse] เมื่อมีจำนวน [Charge] 5~9 หน่วย จะได้รับค่า [Burst] เท่ากับ (2 x (13 - จำนวน [Charge] ปัจจุบัน) หน่วย เพื่อทำให้จำนวน [Charge] ของตัวละครนี้เพิ่มขึ้นเป็น 10 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -75%; ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1531,10 +1531,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
@@ -1544,10 +1544,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst] จำนวนครั้ง"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
@@ -1557,10 +1557,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง Gluttony damage เท่ากับ [Burst] Potency บนตัวเป้าหมาย; then, reduce [Burst] จำนวนครั้ง by 1 (สูงสุด 30)"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุตะกละเท่ากับค่า [Burst] บนตัวเป้าหมาย; จากนั้นลดจำนวนครั้ง [Burst] ลง 1 หน่วย (สูงสุด 30 หน่วย)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง ตามทุก ๆ 5 [Charge] จำนวนครั้ง consumed On Use (สูงสุด 4)"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst]  +2 หน่วย ตามทุก ๆ จำนวน [Charge] 5 หน่วยที่ผลาญไปเมื่อใช้สกิล (สูงสุด 4 หน่วย)"
                 }
               ]
             }
@@ -1573,20 +1573,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Blade Style - Flowing Slash",
-          "desc": "[WhenUse] ได้รับ +5 [Charge] จำนวนครั้ง",
+          "name": "วิชาดาบไฟฟ้า - คลื่นกระแสฟาดฟัน",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -1599,16 +1599,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Fist Style - Faceoff",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] ได้รับ +3 [Charge] จำนวนครั้ง",
+          "name": "วิชาหมัดไฟฟ้า - เผชิญหน้า",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -1621,23 +1621,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Fist Style - Roundhouse Punch",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 5 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] ผลาญ 5 [Charge] จำนวนครั้ง to ได้รับ แต้มปิดท้ายสกิล +1\n[WhenUse] At 5~9 [Charge] จำนวนครั้ง, ได้รับ 2(13 - current [Charge] จำนวนครั้ง) [Burst] Potency to raise [Charge] จำนวนครั้ง to 10 (มีผลเทิร์นละครั้ง)\n[WhenUse] ได้รับ +5 [Charge] จำนวนครั้ง",
+          "name": "วิชาหมัดไฟฟ้า - หมัดวงเดือน",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ผลาญจำนวน [Charge] 5 หน่วย เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมีจำนวน [Charge] 5~9 หน่วย จะได้รับค่า [Burst] เท่ากับ (2 x (13 - จำนวน [Charge] ปัจจุบัน) หน่วย เพื่อทำให้จำนวน [Charge] ของตัวละครนี้เพิ่มขึ้นเป็น 10 หน่วย\n[WhenUse] ได้รับจำนวน [Charge] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +5 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 2+ [Charge], สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] เมื่อมีค่า [Charge] 2+ หน่วย จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -1650,8 +1650,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Fist Style - Destroy",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิล +1 ตามทุก ๆ 6 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] ผลาญ 5 [Charge] จำนวนครั้ง to ได้รับ แต้มเหรียญ +1 (สูงสุด 3)\n[WhenUse] If this unit consumed 5+ [Charge] จำนวนครั้ง, สร้าง +2 more [Burst]\n[WhenUse] If this unit consumed 10+ [Charge] จำนวนครั้ง, สร้าง +3 [Burst] จำนวนครั้ง\n[DefeatDuel] Deal -80% damage; damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาหมัดไฟฟ้า - ทำลาย",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ผลาญจำนวน [Charge] 5 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม (สูงสุด 3 แต้ม)\n[WhenUse] หากตัวละครนี้ผลาญจำนวน [Charge] 5+ หน่วย จะสร้างค่า [Burst] เพิ่มขึ้นอีก +2 หน่วย\n[WhenUse] หากตัวละครนี้ผลาญจำนวน [Charge] 10+ หน่วย จะสร้างจำนวนครั้ง [Burst] +3 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80%; ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1659,23 +1659,23 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +5 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit consumed [Charge] จำนวนครั้ง, สร้าง 10 [OminousTalisman]\n- If this unit consumed 10+ [Charge] จำนวนครั้ง, สร้าง ([Charge] จำนวนครั้ง consumed - 10) [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้ผลาญจำนวน [Charge] จะสร้าง [OminousTalisman] 10 หน่วย\n- หากตัวละครนี้ผลาญจำนวน [Charge] 10+ หน่วย จะสร้างจำนวนครั้ง [Burst] (จำนวน [Charge] ที่ผลาญไป - 10) หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +5 [Charge] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [Charge] +5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove all [OminousTalisman] บนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] ล้าง [OminousTalisman] ทั้งหมดบนตัวเป้าหมาย"
                 }
               ]
             },
@@ -1685,10 +1685,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit consumed 5+ [Charge] จำนวนครั้ง On Use, สร้าง 10 [OminousTalisman]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] หากตัวละครนี้ผลาญจำนวน [Charge] 5+ หน่วยเมื่อใช้สกิล จะสร้าง [OminousTalisman] 10 หน่วย"
                 },
                 {
-                  "desc": "[WinDuelAttack] If this unit consumed 10+ [Charge] จำนวนครั้ง On Use, ผลาญ all [OminousTalisman] บนตัวเป้าหมาย"
+                  "desc": "[WinDuelAttack] หากตัวละครนี้ผลาญจำนวน [Charge] 10+ หน่วยเมื่อใช้สกิล จะผลาญ [OminousTalisman] ทั้งหมดบนตัวเป้าหมาย"
                 }
               ]
             }
@@ -1701,20 +1701,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charge Fist Style - Rhythm Matching",
-          "desc": "[WhenUse] ได้รับ +5 [Charge] จำนวนครั้ง",
+          "name": "วิชาหมัดไฟฟ้า - ปรับตัวให้เข้าจังหวะ",
+          "desc": "[WhenUse] ได้รับจำนวน [Charge] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Reduce [OminousTalisman] บนตัวเป้าหมาย by 3"
+                  "desc": "[OnSucceedAttack] ลด [OminousTalisman] บนตัวเป้าหมายลง 3 หน่วย"
                 }
               ]
             }
@@ -1727,8 +1727,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\n[BeforeUse] At 2+ [SupportProtect], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] ได้รับ 1 Defense Level ตามทุก ๆ 5% HP this unit cumulatively lost in this Encounter (สูงสุด 10)\n[WhenUse] Cannot be Staggered by damage until this Skill ends",
+          "name": "ฝีเท้าเร็วว่องป้องกันภัย",
+          "desc": "[CanDuelGuard]\n[BeforeUse] เมื่อมี [SupportProtect] 2+ หน่วย จะเปิดใช้สกิล 'เดรัจฉานทมิฬชั้นสูง - เคล็ดวิชาเถาะ: ประจักษ์ซึ่งวิชาผ่าสะบั้นเมฆา' แทน\n[WhenUse] ได้รับเลเวลตั้งรับ 1 หน่วย ตามทุก ๆ HP 5% ที่ตัวละครนี้ได้เสียสะสมตลอดการเผชิญหน้านี้ (สูงสุด 10 หน่วย)\n[WhenUse] ไม่สามารถติดชะงักจากความเสียหายได้จนกว่าสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
@@ -1746,8 +1746,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-          "desc": "+20% damage ตามทุก ๆ 2 Speed difference between this unit and the target (สูงสุด 60%)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 [Burst] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] แต้มแคลชสกิล +1 ตามทุก ๆ 2 [Burst] จำนวนครั้ง บนตัวเป้าหมาย (สูงสุด 3)",
+          "name": "เดรัจฉานทมิฬชั้นสูง - เคล็ดวิชาเถาะ: ประจักษ์ซึ่งวิชาผ่าสะบั้นเมฆา",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกันระหว่างตัวละครนี้และเป้าหมาย (สูงสุด 60%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 5 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวนครั้ง [Burst] 2 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -1755,7 +1755,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst] จำนวนครั้ง"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
@@ -1765,7 +1765,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 5 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 5 หน่วย"
                 }
               ]
             },
@@ -1788,13 +1788,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Like a Roaring Storm",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nThis Skill attacks targets that aren't Hong Lu\nUses the Heishou Pack - Mao Branch to Stagger every Identity except for Hong Lu ในเทิร์นถัดไป; this unit recovers from Stagger\n[EndSkill] Ends turn",
+          "name": "ดั่งพายุคำรามสนั่น",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nสกิลนี้จะเล็งเป้าหมายที่ไม่ใช่ 'หงลู่'\nใช้ <ฝูงเดรัจฉานทมิฬ - ฝูงเถาะ> เพื่อทำให้ตัวตนทั้งหมด (ยกเว้นหงลู่) ติดชะงักในเทิร์นถัดไป; ตัวละครนี้ฟื้นตัวจากการชะงัก\n[EndSkill] จบเทิร์น",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
