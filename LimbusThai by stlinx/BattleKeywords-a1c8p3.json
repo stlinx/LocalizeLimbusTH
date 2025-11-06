@@ -3,13 +3,13 @@
     {
       "id": "Bothersome",
       "name": "ผ่าสะบั้น [切斬]",
-      "desc": "- ค่าความต้านทานประเภทฟันของเป้าหมายจะนับเป็น 'อ่อนแอ (x1.5)' (จะไม่ทำงานหากเป้าหมายมีค่าความต้านทานประเภทฟันสูงกว่า x1.5)\n- หมดลงเมื่อจบเทิร์น",
+      "desc": "- ค่าความต้านทานประเภทฟันของเป้าหมาย จะนับเป็น 'อ่อนแอ(x1.5)'\n(จะไม่ทำงานหากเป้าหมายมีค่าความต้านทาน ประเภทฟันสูงกว่า x1.5)\n- หมดลงเมื่อจบเทิร์น",
       "summary": ""
     },
     {
       "id": "VibrationIgnition",
       "name": "สั่นเทา - เผาเกรียม",
-      "desc": "- เมื่อทำให้เกิด '<color=#ff0000>ระเบิดสั่นเทา</color>' จะได้รับความเสียหายธาตุโทสะเท่ากับ (ผลรวมค่า '<color=#ff0000>สั่นเทา</color>' และค่า '<color=#ff0000>เผาไหม้</color>'/2) หน่วย จากนั้นจะเสียจำนวนครั้ง<color=#ff0000>เผาไหม้</color> 1 หน่วย\n- เมื่อถูกโจมตีโดยสกิลที่ทำให้เกิด<color=#ff0000>ระเบิดสั่นเทา</color> จะดึงเกจชะงักขึ้นตามค่าของเอฟเฟกต์\n- จบเทิร์น: ลดจำนวนครั้งลง 1 หน่วย\n(จะตอบโต้กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวนครั้ง<color=#ff0000>สั่นเทา</color>เหมือนกับ<color=#ff0000>สั่นเทา</color>ธรรมดา)",
+      "desc": "- เมื่อทำให้เกิด '<color=#ff0000>ระเบิดสั่นเทา</color>' จะได้รับความเสียหายธาตุโทสะเท่ากับ (ผลรวมค่า '<color=#ff0000>สั่นเทา</color>' และค่า '<color=#ff0000>เผาไหม้</color>'/2) หน่วย จากนั้นจะเสียจำนวนครั้ง<color=#ff0000>เผาไหม้</color> 1 หน่วย\n- เมื่อถูกโจมตีโดยสกิลที่ทำให้เกิด<color=#ff0000>ระเบิดสั่นเทา</color> จะดึงเกจชะงักขึ้นตามค่าของเอฟเฟกต์\n- จบเทิร์น: ลดจำนวนครั้งลง 1 หน่วย\n\n(จะตอบโต้กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวนครั้ง<color=#ff0000>สั่นเทา</color>เหมือนกับ<color=#ff0000>สั่นเทา</color>ธรรมดา)",
       "summary": ""
     },
     {
@@ -21,19 +21,19 @@
     {
       "id": "BulletPropellantSpecial",
       "name": "กระสุนพยัคฆ์ร้ายข่วน",
-      "desc": "นับเป็น 'กระสุน' แบบพิเศษ\n- จ่ายโดยบางสกิล (จะทำงานเหมือนกับ 'กระสุนพยัคฆ์ข่วน')\n- ค่าและจำนวนของเอฟเฟกต์นี้จะเรียกว่า \"กระสุนบรรจุ\" และ \"กระสุนคงเหลือ\" ตามลำดับ\n· ค่า (กระสุนบรรจุ) สูงสุด: 6 นัด\n- เหรียญที่จ่าย 'กระสุน' นี้จะสร้างความเสียหายเพิ่มขึ้น 30% และสร้างค่ากับจำนวนครั้ง '<color=#ff0000>เผาไหม้</color>' เพิ่มเป็นสองเท่า\n- เมื่อ 'กระสุนบรรจุ' และ 'กระสุนคงเหลือ' ถูกจ่ายไปหมดแล้ว จะแปลงกลับสู่ 'กระสุนพยัคฆ์ข่วน'",
+      "desc": "นับเป็น 'กระสุน' แบบพิเศษ\n- จ่ายโดยบางสกิล (จะทำงานเหมือนกับ <sprite name=\"BulletPropellant\"><color=#f8c200><link=\"BulletPropellant\">'กระสุนพยัคฆ์ข่วน'</link></color>)\n- ค่าและจำนวนของเอฟเฟกต์นี้จะเรียกว่า \"กระสุนบรรจุ\" และ \"กระสุนคงเหลือ\" ตามลำดับ\n· ค่า (กระสุนบรรจุ) สูงสุด: 6 นัด\n- เหรียญที่จ่าย 'กระสุน' นี้จะสร้างความเสียหายเพิ่มขึ้น 30% และสร้างค่ากับจำนวนครั้ง '<color=#ff0000>เผาไหม้</color>' เพิ่มเป็นสองเท่า\n- เมื่อ 'กระสุนบรรจุ' และ 'กระสุนคงเหลือ' ถูกจ่ายไปหมดแล้ว จะแปลงกลับสู่ <sprite name=\"BulletPropellant\"><color=#f8c200><link=\"BulletPropellant\">'กระสุนพยัคฆ์ข่วน'</link></color>",
       "summary": ""
     },
     {
       "id": "Prey",
       "name": "เหยื่อ",
-      "desc": "- เมื่อแคลชกับศัตรู แต้มแคลชสกิลจะลดลง -5 แต้ม\n- เริ่มการต่อสู้:\n· หากตัวละครนี้สวมใส่สกิลโจมตี: สกิลโจมตีสร้างความเสียหายแก่ 'เหลยเหิง' ลดลง -50%\n· หากตัวละครนี้สวมใส่สกิลตั้งรับ: ได้รับความเสียหายจาก 'เหลยเหิง' ลดลง -75%\n- หากตัวละครนี้แคลชสกิลชนะเหลยเหิงขณะยังอยู่ใต้เอฟเฟกต์นี้ จะได้รับทรัพยากร E.G.O ของธาตุที่มีปริมาณถือครองน้อยที่สุด +3 หน่วย\n- หมดลงเมื่อจบเทิร์น; ตัวละครนี้ฟื้นฟู SP 10 หน่วย",
+      "desc": "- เมื่อแคลชกับศัตรู แต้มแคลชสกิลจะลดลง -5 แต้ม\n- เริ่มการต่อสู้:\n· หากตัวละครนี้สวมใส่สกิลโจมตี: สกิลโจมตีสร้างความเสียหายแก่ 'เหลยเหิง' ลดลง -50%\n· หากตัวละครนี้สวมใส่สกิลตั้งรับ: ได้รับความเสียหายจาก 'เหลยเหิง' ลดลง -75%\n- หากตัวละครนี้แคลชสกิลชนะเหลยเหิง ขณะยังอยู่ใต้เอฟเฟกต์นี้ จะได้รับทรัพยากร E.G.O ของธาตุที่มีปริมาณถือครองน้อยที่สุด +3 หน่วย\n- หมดลงเมื่อจบเทิร์น; ตัวละครนี้ฟื้นฟู SP 10 หน่วย",
       "summary": ""
     },
     {
       "id": "Complacency",
       "name": "ร้อนเกินพิกัด",
-      "desc": "ทับซ้อนสูงสุด: 5 หน่วย\n- เริ่มเทิร์น: ได้รับ 'ลดแต้มแคลชสกิล' และ '<color=#ff0000>เปราะบาง</color>' เท่ากับปริมาณทับซ้อน\n- หมดลงเมื่อจบเทิร์น",
+      "desc": "ทับซ้อนสูงสุด: 5 หน่วย\n- เริ่มเทิร์น: ได้รับ <color=#e30000>'ลดแต้มแคลชสกิล'</color> และ '<color=#ff0000>เปราะบาง</color>' เท่ากับปริมาณทับซ้อน\n- หมดลงเมื่อจบเทิร์น",
       "summary": ""
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "Chesed_Mercy",
       "name": "เมตตาจากเคเสด",
-      "desc": "- เฉลี่ยเลเวลจู่โจมและเลเวลตั้งรับของตัวละครทั้งหมดให้ใกล้เคียงกัน\n- หลังจากเอฟเฟกต์ของเคเสดทำงาน ตัวตนพันธมิตรจะได้รับเลเวลจู่โจม 3 หน่วย และเลเวลตั้งรับ 6 หน่วย\n- เอฟเฟกต์ปลดปล่อยครั้งแรก: \"เมตตาจากเคเสด\" จะมีผลตลอดการเผชิญหน้า",
+      "desc": "- เฉลี่ยเลเวลจู่โจมและเลเวลตั้งรับ ของตัวละครทั้งหมดให้ใกล้เคียงกัน\n- หลังจากเอฟเฟกต์ของเคเสดทำงาน ตัวตนพันธมิตรจะได้รับเลเวลจู่โจม 3 หน่วย และเลเวลตั้งรับ 6 หน่วย\n- เอฟเฟกต์ปลดปล่อยครั้งแรก: \"เมตตาจากเคเสด\" จะมีผลตลอดการเผชิญหน้า",
       "summary": ""
     },
     {
@@ -134,188 +134,188 @@
     },
     {
       "id": "GazeReplica",
-      "name": "Gaze",
-      "desc": "- ปริมาณทับซ้อนสูงสุด: 7\n- Take and deal +10% damage from and against Jia Huan\n- At 7 Stack, converts to Contempt",
+      "name": "จับจ้อง",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 7 หน่วย\n- ได้รับและสร้างความเสียหายจาก/ต่อ 'เจี่ยฮวน' เพิ่มขึ้น +10%\n- เมื่อมีปริมาณทับซ้อน 7 หน่วย จะแปลงเอฟเฟกต์เป็น <sprite name=\"ContemptReplica\"><color=#e30000><link=\"ContemptReplica\">'ปรามาส'</link></color>",
       "summary": ""
     },
     {
       "id": "ContemptReplica",
-      "name": "Contempt",
-      "desc": "- ปริมาณทับซ้อนสูงสุด: 1\n- Take and deal -50% damage from and against Jia Huan\n- Targets with Contempt cannot ได้รับ Gaze\n- Expires at จบเทิร์น",
+      "name": "ปรามาส",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 1\n- ได้รับและสร้างความเสียหายจาก/ต่อ 'เจี่ยฮวน' ลดลง -50%\n- เป้าหมายที่มี <sprite name=\"ContemptReplica\"><color=#e30000><link=\"ContemptReplica\">'ปรามาส'</link></color> จะไม่สามารถรับเอฟเฟกต์ <sprite name=\"GazeReplica\"><color=#e30000><link=\"GazeReplica\">'จับจ้อง'</link></color> ได้\n- หมดลงเมื่อจบเทิร์น",
       "summary": ""
     },
     {
       "id": "GraspReplica",
-      "name": "Grasp",
-      "desc": "- ปริมาณทับซ้อนสูงสุด: 4\n- จบเทิร์น: ได้รับ 10 Bind ในเทิร์นถัดไป\n- จบเทิร์น: lose 1 Stack",
+      "name": "ไขว่คว้า",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 4 หน่วย\n- จบเทิร์น: ได้รับ <color=#e30000>'พันธนา'</color> 10 หน่วยในเทิร์นถัดไป\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": ""
     },
     {
       "id": "EgoErodeReplica",
-      "name": "E.G.O Corrosion - N Corp.",
-      "desc": "- ปริมาณทับซ้อนสูงสุด: 10\n- The following effects activate at ทุกครั้งที่เริ่มเทิร์น:\n· Lose SP by the effect's Stack\n· ได้รับ 1 Attack Power Up ตามทุก ๆ 3 Stack\n- เมื่อมีปริมาณทับซ้อนสูงสุด, take 5% HP damage at จบเทิร์น",
+      "name": "E.G.O กัดกร่อน - N คอร์ป.",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 10 หน่วย\n- เอฟเฟกต์ดังต่อไปนี้ทำงานทุกครั้งที่เริ่มเทิร์น:\n· เสีย SP ตามปริมาณทับซ้อนของเอฟเฟกต์นี้\n· ได้รับ <color=#f8c200><link=\"Enhancement\">เพิ่มแต้มสกิลโจมตี</link></color> 1 หน่วย ตามทุก ๆ ปริมาณทับซ้อน 3 หน่วย\n- เมื่อมีปริมาณทับซ้อนสูงสุด จะได้รับความเสียหาย HP 5% เมื่อจบเทิร์น",
       "summary": ""
     },
     {
       "id": "BoseProjektilReplica",
-      "name": "Torn Memory",
+      "name": "ความทรงจำฉีกขาด",
       "desc": "ปริมาณทับซ้อนสูงสุด: 7",
       "summary": ""
     },
     {
       "id": "EgoErodeContempt_LowMorale",
-      "name": "Soft Goldcasted Heart",
-      "desc": "- ขวัญอ่อน\n- เริ่มเทิร์น: ได้รับ 1 Attack Power Up and 1 Fragile",
+      "name": "หัวใจอ่อนโยนเคลือบทอง",
+      "desc": "- ขวัญอ่อน\n- เริ่มเทิร์น: ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 1 หน่วย และ <color=#e30000>'เปราะบาง'</color> 1 หน่วย",
       "summary": ""
     },
     {
       "id": "EgoErodeContempt_Panic",
-      "name": "Soft Goldcasted Heart",
-      "desc": "- แตกตื่น\n- เริ่มเทิร์น: ได้รับ 2 Attack Power Up and 2 Fragile",
+      "name": "หัวใจอ่อนโยนเคลือบทอง",
+      "desc": "- แตกตื่น\n- เริ่มเทิร์น: ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <color=#e30000>'เปราะบาง'</color> 2 หน่วย",
       "summary": ""
     },
     {
       "id": "EgoErodeMemory_LowMorale",
-      "name": "Heart Toward the New Era",
-      "desc": "- ขวัญอ่อน\n- On Hit, ผลาญ 3 SP on self to inflict 2 Sinking",
+      "name": "หัวใจสู่ยุคสมัยใหม่",
+      "desc": "- ขวัญอ่อน\n- เมื่อโจมตีโดน จะผลาญ SP ตนเอง 3 หน่วย เพื่อสร้างค่า <color=#e30000>'จมดิ่ง'</color> 2 หน่วย",
       "summary": ""
     },
     {
       "id": "EgoErodeMemory_Panic",
-      "name": "Heart Toward the New Era",
-      "desc": "- ขวัญอ่อน\n- On Hit, inflict 3 Sinking และได้รับ 1 Sinking",
+      "name": "หัวใจสู่ยุคสมัยใหม่",
+      "desc": "- แตกตื่น\n- เมื่อโจมตีโดน จะสร้างค่า <color=#e30000>'จมดิ่ง'</color> 3 หน่วย และจำนวนครั้ง <color=#e30000>'จมดิ่ง'</color> +1 หน่วย",
       "summary": ""
     },
     {
       "id": "PileObedient",
-      "name": "Heaping Obedience",
-      "desc": "- จบเทิร์น: at 3 Stack, convert this effect to Hollow Obedience ในเทิร์นถัดไป",
+      "name": "การเชื่อฟังที่พอกพูน",
+      "desc": "- จบเทิร์น: เมื่อมีปริมาณทับซ้อน 3 หน่วย จะแปลงเอฟเฟกต์นี้ให้เป็น <sprite name=\"Obedient\"><color=#e30000><link=\"Obedient\">'การเชื่อฟังอันว่างเปล่า'</link></color> ในเทิร์นถัดไป",
       "summary": ""
     },
     {
       "id": "Obedient",
-      "name": "Hollow Obedience",
-      "desc": "- แต้มแคลชสกิล -2 in Clashes against Jia Mu\n- Expires when this unit's SP reaches 45, or when the Stack drops to 0\n- จบเทิร์น: lose 1 Stack",
+      "name": "การเชื่อฟังอันว่างเปล่า",
+      "desc": "- แต้มแคลชสกิลลดลง -2 แต้ม เมื่อแคลชสกิลกับ 'เจี่ยมู่'\n- หมดลงเมื่อ SP ของตัวละครนี้เพิ่มขึ้นถึง 45 หน่วย หรือเมื่อปริมาณทับซ้อนของเอฟเฟกต์นี้ เหลือ 0 หน่วย\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": ""
     },
     {
       "id": "ExpensiveJade",
-      "name": "Precious Jade's Cradle",
-      "desc": "- Enter an 'Immobilized' state where this unit's buffs, HP, and SP cannot be changed. Forms a Precious Jade connected to this unit",
+      "name": "เปลเจ้าหยกล้ำค่า",
+      "desc": "- เข้าสู่สภาวะ 'ไม่สามารถขยับได้' โดยที่บัพ, HP, และ SP ของตัวละครนี้จะไม่สามารถถูกเปลี่ยนได้\nจากนั้นสร้าง 'หยกเม็ดงาม' เพื่อเชื่อมกับตัวละครนี้",
       "summary": ""
     },
     {
       "id": "FamilyTreasure",
-      "name": "Explosive Amusement",
-      "desc": "- On จบเทิร์น:\n· Base Stack: 1\n· The unit connected to this unit heals 25% HP and loses 20 SP\n· ได้รับ 1 Stack\n· At 3 Stack, use a self-detonation Skill. If this unit is killed by self-detonation, inflict the caged character with 3 Hollow Obedience ในเทิร์นถัดไป",
+      "name": "ความสนุกสนานปะทุทะลัก",
+      "desc": "- เมื่อจบเทิร์น:\n· ปริมาณทับซ้อนเริ่มต้น: 1 หน่วย\n· ตัวละครที่เชื่อมกับตัวละครนี้จะฟื้นฟู HP 25% และเสีย SP 20 หน่วย\n· ได้รับปริมาณทับซ้อน 1 หน่วย\n· เมื่อมีปริมาณทับซ้อน 3 หน่วย จะใช้สกิลระเบิดตัวเอง; หากตัวละครนี้ตายเพราะสกิลระเบิดตัวเอง จะทำให้ตัวละครที่ถูกกักขังไว้ได้รับ <sprite name=\"Obedient\"><color=#e30000><link=\"Obedient\">'การเชื่อฟังอันว่างเปล่า'</link></color> 3 หน่วยในเทิร์นถัดไป",
       "summary": ""
     },
     {
       "id": "OutpouringAnger",
-      "name": "Rampage",
-      "desc": "- If the 'You do not know the fathoms of the eye's powers, its special nature' Skill's main target is Hong Lu, ignore all Skill effects and convert all Coins on that Skill to Unbreakable Coins",
+      "name": "อาละวาด",
+      "desc": "- หากว่าเป้าหมายหลักของสกิล 'เจ้ายังมิเข้าใจถึงขุมพลังและความสามารถของเจ้าตาดวงนั้น' คือ 'หงลู่' จะเมินเอฟเฟกต์สกิลทั้งหมด และแปลงเหรียญทั้งหมดของสกิลดังกล่าวให้เป็น <sprite name=\"SuperCoin\"><color=#9f6a3a><link=\"SuperCoin\">'เหรียญทนทาน'</link></color>",
       "summary": ""
     },
     {
       "id": "Honglu_Xi",
-      "name": "Happiness",
-      "desc": "- Hong Lu's แต้มแคลชสกิล +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, แต้มแคลชสกิล +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, ได้รับ 1 random ทรัพยากร E.G.O each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "สุขสันต์",
+      "desc": "- แต้มแคลชสกิลของ 'หงลู่' เพิ่มขึ้น +1 แต้ม\n- หากมีพันธมิตรรอดชีวิตอยู่ 1 คนหรือมากกว่า ในการเผชิญหน้านี้: เมื่อได้รับความเสียหายสาหัส หงลู่จะไม่ตายและฟื้นฟู HP 50% แทน\n- ทำให้เอฟเฟกต์ที่จะเปลี่ยนตัวละครนี้เป็น 'หยกเม็ดงาม' ไม่มีผล 1 ครั้ง โดยแต้มแคลชสกิลจะเพิ่มขึ้น +5 แต้ม เมื่อแคลชกับสกิลที่จะเปลี่ยนตัวละครนี้ให้เป็น 'หยกเม็ดงาม'; หากตัวละครนี้ชนะการแคลชดังกล่าว ตัวละครนี้จะไม่กลายเป็น 'หยกเม็ดงาม' พร้อมทั้งฟื้นตัวจากการชะงัก, ลด SP 'เจี่ยมู่' ลง 10 หน่วย, พร้อมสร้าง <color=#e30000>'เปราะบาง'</color> 2 หน่วยแก่เจี่ยมู่\n- เมื่อแคลชชนะเจี่ยมู่ จะได้รับทรัพยากร E.G.O 1 หน่วยแบบสุ่ม จากธาตุบาปที่มีทรัพยากร E.G.O น้อยที่สุด 3 ธาตุ",
       "summary": ""
     },
     {
       "id": "Honglu_Le",
-      "name": "Happiness, Joy",
-      "desc": "- Hong Lu's แต้มปิดท้ายสกิล +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (รวมถึงตัวละครนี้)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, ได้รับ 1 random ทรัพยากร E.G.O each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "สุขสันต์ เพลิดเพลิน",
+      "desc": "- แต้มปิดท้ายสกิลของ 'หงลู่' เพิ่มขึ้น +1 แต้ม\n- เมื่อแคลชชนะ จะฟื้นฟู SP 5 หน่วยให้กับพันธมิตร 1 คนที่มี SP ต่ำที่สุด (รวมถึงตัวละครนี้)\n- หากมีพันธมิตรรอดชีวิตอยู่ 1 คนหรือมากกว่า ในการเผชิญหน้านี้: เมื่อได้รับความเสียหายสาหัส หงลู่จะไม่ตายและฟื้นฟู HP 50% แทน\n- เมื่อแคลชชนะเจี่ยมู่ จะได้รับทรัพยากร E.G.O 1 หน่วยแบบสุ่ม จากธาตุบาปที่มีทรัพยากร E.G.O น้อยที่สุด 3 ธาตุ",
       "summary": ""
     },
     {
       "id": "Honglu_Ai",
-      "name": "Happiness, Joy, Sorrow",
-      "desc": "- Hong Lu's แต้มปิดท้ายสกิล +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (รวมถึงตัวละครนี้)\n- When an ally is killed, the remaining allies at จบเทิร์น ได้รับ 1 Attack Power Up ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, ได้รับ 1 random ทรัพยากร E.G.O each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "สุขสันต์ เพลิดเพลิน โศกา",
+      "desc": "- แต้มปิดท้ายสกิลของ 'หงลู่' เพิ่มขึ้น +3 แต้ม\n- เมื่อแคลชชนะ จะฟื้นฟู SP 5 หน่วยให้กับพันธมิตร 1 คนที่มี SP ต่ำที่สุด (รวมถึงตัวละครนี้)\n- เมื่อพันธมิตรถูกกำจัด พันธมิตรที่เหลืออยู่ในตอนจบเทิร์นจะได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรรอดชีวิตอยู่ 1 คนหรือมากกว่า ในการเผชิญหน้านี้: เมื่อได้รับความเสียหายสาหัส หงลู่จะไม่ตายและฟื้นฟู HP 50% แทน\n- เมื่อแคลชชนะเจี่ยมู่ จะได้รับทรัพยากร E.G.O 1 หน่วยแบบสุ่ม จากธาตุบาปที่มีทรัพยากร E.G.O น้อยที่สุด 3 ธาตุ",
       "summary": ""
     },
     {
       "id": "Honglu_Nu",
-      "name": "Happiness, Joy, Sorrow, Wrath",
-      "desc": "- Hong Lu's แต้มปิดท้ายสกิล +5\n- Allies heal 5 SP at ทุกครั้งที่เริ่มเทิร์น (รวมถึงตัวละครนี้)\n- When an ally is killed, the remaining allies at จบเทิร์น ได้รับ 1 Attack Power Up ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (สูงสุด 100%)\nOn Clash Win against Jia Mu, ได้รับ 1 random ทรัพยากร E.G.O each from 3 of the E.G.O Affinities with the least amount of resources",
+      "name": "สุขสันต์ เพลิดเพลิน โศกา โกรธา",
+      "desc": "- แต้มปิดท้ายสกิลของ 'หงลู่' เพิ่มขึ้น +5 แต้ม\n- เมื่อแคลชชนะ จะฟื้นฟู SP 5 หน่วยให้กับพันธมิตร 1 คนที่มี SP ต่ำที่สุด (รวมถึงตัวละครนี้)\n- เมื่อพันธมิตรถูกกำจัด พันธมิตรที่เหลืออยู่ในตอนจบเทิร์นจะได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรรอดชีวิตอยู่ 1 คนหรือมากกว่า ในการเผชิญหน้านี้: เมื่อได้รับความเสียหายสาหัส หงลู่จะไม่ตายและฟื้นฟู HP 50% แทน\n- เพิ่มความเสียหายที่สร้างขึ้นเท่ากับ 30% ของเปอร์เซ็นต์ HP ทั้งหมดที่ตัวละครนี้เสียไปสะสมตลอดการเผชิญหน้านี้ (สูงสุด 100%)\n- เมื่อแคลชชนะเจี่ยมู่ จะได้รับทรัพยากร E.G.O 1 หน่วยแบบสุ่ม จากธาตุบาปที่มีทรัพยากร E.G.O น้อยที่สุด 3 ธาตุ",
       "summary": ""
     },
     {
       "id": "SupremeEternalLife",
-      "name": "Sublime Immortality",
-      "desc": "- เริ่มเทิร์น: Jia Mu's Core and every Part ได้รับ 5% of each of their สูงสุด HP as Shield",
+      "name": "อมรประเสริฐ",
+      "desc": "- เริ่มเทิร์น: แกนหลักและอวัยวะทุกส่วนของ 'เจี่ยมู่' จะได้รับโล่เท่ากับ 5% ของ HP สูงสุดแต่ละส่วน",
       "summary": ""
     },
     {
       "id": "ImperfectEternalLife",
-      "name": "Imperfect Immortality",
-      "desc": "- Absorbed when struck by certain Skills of Jia Mu\n- If this effect was inflicted against Jia Mu, ได้รับ 1 Fragile per Stack; at 5 Stack, become Staggered",
+      "name": "อมรไร้สมบูรณ์",
+      "desc": "- ถูกดูดซับเมื่อถูกบางสกิลของ 'เจี่ยมู่' โจมตี\n- เมื่อเอฟเฟกต์นี้ถูกสร้างแก่เจี่ยมู่ จะทำให้ได้รับ <color=#e30000>'เปราะบาง'</color> 1 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี; เมื่อมีปริมาณทับซ้อน 5 หน่วย จะติดชะงัก",
       "summary": ""
     },
     {
       "id": "GoldenBoughSync",
-      "name": "Malattunement",
-      "desc": "- Base Offense Level +2, Base Defense Level +2",
+      "name": "ไม่ตอบสนองต่อการปรับจูน",
+      "desc": "เลเวลจู่โจมพื้นฐานเพิ่มขึ้น +2 หน่วย, เลเวลตั้งรับพื้นฐานเพิ่มขึ้น +2 หน่วย",
       "summary": ""
     },
     {
       "id": "GoldenBoughSyncDistorted",
-      "name": "Supernatural, Strength, Chaos, and Spirits",
-      "desc": "- Base Offense Level +4, Base Defense Level +4",
+      "name": "เหนือธรรมชาติ อำนาจ โกลาหล สิ่งลี้ลับ",
+      "desc": "เลเวลจู่โจมพื้นฐานเพิ่มขึ้น +4 หน่วย, เลเวลตั้งรับพื้นฐานเพิ่มขึ้น +4 หน่วย",
       "summary": ""
     },
     {
       "id": "LastingHongwonWill_LowMorale",
-      "name": "Inherited Will of Hongyuan",
-      "desc": "- ขวัญอ่อน\n- ได้รับ 2 Attack Power Up and 1 Bind\n- When the Body Part loses a Clash against Hong Lu: the Body Part gains 1 Damage Up and 1 Fragile ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "name": "ความปรารถนาร่วมของหงหยวน",
+      "desc": "- ขวัญอ่อน\n- ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <color=#e30000>'พันธนา'</color> 1 หน่วย\n- เมื่ออวัยวะ 'ลำตัว' แพ้แคลชกับ 'หงลู่': ลำตัวจะได้รับ <color=#f8c200>'เพิ่มความเสียหาย'</color> 1 หน่วย และ <color=#e30000>'เปราะบาง'</color> 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "summary": ""
     },
     {
       "id": "LastingHongwonWill_Panic",
-      "name": "Inherited Will of Hongyuan",
-      "desc": "- แตกตื่น\n- ได้รับ 2 Attack Power Up and 2 Bind\n- When the Body Part loses a Clash against Hong Lu: the Body Part gains 2 Damage Up and 2 Fragile ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "name": "ความปรารถนาร่วมของหงหยวน",
+      "desc": "- แตกตื่น\n- ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <color=#e30000>'พันธนา'</color> 2 หน่วย\n- เมื่ออวัยวะ 'ลำตัว' แพ้แคลชกับ 'หงลู่': ลำตัวจะได้รับ <color=#f8c200>'เพิ่มความเสียหาย'</color> 2 หน่วย และ <color=#e30000>'เปราะบาง'</color> 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
       "summary": ""
     },
     {
       "id": "LongLastingHongwonWill_LowMorale",
-      "name": "Infinitely Bequeathing Will of Hongyuan",
-      "desc": "- ขวัญอ่อน\n- ได้รับ 2 Attack Power Up and 1 Fragile\n- Units generated by this unit ได้รับ 3 Defense Level Down\n- Deal +20% damage. If the Palanquin Part's HP drops to 0, deal -10% damage instead",
+      "name": "ความปรารถนาส่งมอบสืบต่อไปของหงหยวน",
+      "desc": "- ขวัญอ่อน\n- ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <color=#e30000>'เปราะบาง'</color> 1 หน่วย\n- ตัวละครที่ถูกสร้างโดยตัวละครนี้จะได้รับ <color=#e30000>'เลเวลตั้งรับลดลง'</color> 3 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +20%; หาก HP ของอวัยวะ 'ราชรถ' ลดเหลือ 0 หน่วย จะสร้างความเสียหายลดลง -10% แทน ",
       "summary": ""
     },
     {
       "id": "LongLastingHongwonWill_Panic",
-      "name": "Infinitely Bequeathing Will of Hongyuan",
-      "desc": "- แตกตื่น\n- ได้รับ 2 Attack Power Up and 2 Fragile\n- Units generated by this unit ได้รับ 6 Defense Level Down\n- Deal +30% damage. If the Palanquin Part's HP drops to 0, deal -15% damage instead",
+      "name": "ความปรารถนาส่งมอบสืบต่อไปของหงหยวน",
+      "desc": "- แตกตื่น\n- ได้รับ <color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <color=#e30000>'เปราะบาง'</color> 2 หน่วย\n- ตัวละครที่ถูกสร้างโดยตัวละครนี้จะได้รับ <color=#e30000>'เลเวลตั้งรับลดลง'</color> 3 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +30%; หาก HP ของอวัยวะ 'ราชรถ' ลดเหลือ 0 หน่วย จะสร้างความเสียหายลดลง -15% แทน",
       "summary": ""
     },
     {
       "id": "YisangParryGubo",
-      "name": "Responsibility",
-      "desc": "In Clashes against Gubo, แต้มแคลชสกิล +2",
+      "name": "ความรับผิดชอบ",
+      "desc": "เมื่อแคลชสกิลกับ 'กูโบ' แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม",
       "summary": ""
     },
     {
       "id": "HongluParryGahwan",
-      "name": "The Will to Confront",
-      "desc": "In Clashes against Jia Huan, แต้มแคลชสกิล +2",
+      "name": "ปณิธานในการเผชิญหน้า",
+      "desc": "เมื่อแคลชสกิลกับ 'เจี่ยฮวน' แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม",
       "summary": ""
     },
     {
       "id": "GahwanEgoContempt",
-      "name": "Volatile E.G.O Attunement - Contempt",
-      "desc": "- E.G.O Gear extracted by N Corp. While the user meets the aptitude requirements, the lack of experience may cause issues.\n- ปริมาณทับซ้อนสูงสุด: 5\n- Offense Level, Defense Level -7\n- On Clash Win, ได้รับ 1 Stack\n- Lose 1 Offense Level และได้รับ 1 Defense Level ตามทุก ๆ Stack\n- เมื่อมีปริมาณทับซ้อนสูงสุด: ในเทิร์นถัดไป, ได้รับ 2 Protection and reset the Stack to 0",
+      "name": "ปรับจูน E.G.O ไม่มั่นคง - ปรามาส",
+      "desc": "อุปกรณ์ E.G.O ที่สกัดขึ้นโดย N คอร์ป. แม้ผู้ใช้จะมีความสามารถถึงเกณฑ์สมรรถนะที่ต้องการ แต่การที่ขาดประสบการณ์ก็อาจก่อปัญหาได้\n\nปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- เลเวลจู่โจมและเลเวลตั้งรับลดลง -7 หน่วย\n- เมื่อแคลชชนะ จะได้รับปริมาณทับซ้อน 1 หน่วย\n- เสียเลเวลจู่โจม -1 หน่วย และได้รับเลเวลตั้งรับ +1 หน่วย ตามทุก ๆ ปริมาณทับซ้อน\n- เมื่อมีปริมาณทับซ้อนสูงสุด: ในเทิร์นถัดไป จะได้รับ <color=#f8c200>'คุ้มกัน'</color> 2 หน่วย และรีเซ็ตปริมาณทับซ้อนเป็น 0 หน่วย",
       "summary": ""
     },
     {
       "id": "GuboEgoShooter",
-      "name": "Volatile E.G.O Attunement - Fell Bullet",
-      "desc": "- E.G.O Gear extracted by N Corp. While the user meets the aptitude requirements, the lack of experience may cause issues.\n- ปริมาณทับซ้อนสูงสุด: 5\n- Offense Level, Defense Level -2\n- On Clash Lose, ได้รับ 1 Stack\n- ได้รับ 1 Offense Level and lose 1 Defense Level ตามทุก ๆ Stack\n- เมื่อมีปริมาณทับซ้อนสูงสุด: ในเทิร์นถัดไป, ได้รับ 2 Damage Up and reset the Stack to 0",
+      "name": "ปรับจูน E.G.O ไม่มั่นคง - กระสุนร่วงหล่น",
+      "desc": "อุปกรณ์ E.G.O ที่สกัดขึ้นโดย N คอร์ป. แม้ผู้ใช้จะมีความสามารถถึงเกณฑ์สมรรถนะที่ต้องการ แต่การที่ขาดประสบการณ์ก็อาจก่อปัญหาได้\n\nปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- เลเวลจู่โจมและเลเวลตั้งรับลดลง -2 หน่วย\n- เมื่อแคลชแพ้ จะได้รับปริมาณทับซ้อน 1 หน่วย\n- ได้รับเลเวลจู่โจม +1 หน่วย และเสียเลเวลตั้งรับ -1 หน่วย ตามทุก ๆ ปริมาณทับซ้อน\n- เมื่อมีปริมาณทับซ้อนสูงสุด: ในเทิร์นถัดไป จะได้รับ <color=#f8c200>'เพิ่มความเสียหาย'</color> 2 หน่วย และรีเซ็ตปริมาณทับซ้อนเป็น 0 หน่วย",
       "summary": ""
     },
     {
       "id": "FellBulletMarkReplica",
-      "name": "Stigmatized",
-      "desc": "- Tageted by Gubo\n- Expires at จบเทิร์น",
+      "name": "ตีตรา",
+      "desc": "- ถูกเล็งโดย 'กูโบ'\n- หมดลงเมื่อจบเทิร์นจบเทิร์น",
       "summary": ""
     }
   ]

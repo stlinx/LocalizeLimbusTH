@@ -6,15 +6,15 @@
         {
           "level": 1,
           "name": "ทะลวงจุดอ่อน",
-          "desc": "[WhenUse] หากเป้าหมายมี 3+ types of negative effects, แต้มเริ่มต้นสกิล +1\n[WhenUse] ได้รับ +1 จำนวนครั้ง [Breath]\n[OnDirectAttack] สร้าง +1 จำนวนครั้ง [Burst]",
+          "desc": "[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย\n[OnDirectAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายเพิ่มขึ้น +30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -28,29 +28,29 @@
         {
           "level": 1,
           "name": "กระบี่คู่ทะลวงทดแทน",
-          "desc": "[StartBattle] ได้รับ 1 [Protection]\n[WhenUse] หากเป้าหมายมี 3+ types of negative effects, แต้มเหรียญ +1\n[WhenUse] ได้รับ 3 [Breath] Potency",
+          "desc": "[StartBattle] ได้รับ [Protection] 1 หน่วย\n[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 จำนวนครั้ง [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -64,36 +64,36 @@
         {
           "level": 1,
           "name": "โจมตีช่วยประคอง",
-          "desc": "[WhenUse] หากเป้าหมายมี 3+ types of negative effects, แต้มเหรียญ +1\n[WhenUse] ได้รับ +3 จำนวนครั้ง [Breath]\n[WhenUse] ได้รับ 6 [Breath] Potency",
+          "desc": "[WhenUse] หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] ได้รับค่า [Breath] 6 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +1 จำนวนครั้ง [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +100%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 5 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -107,7 +107,7 @@
         {
           "level": 1,
           "name": "ป้องกัน",
-          "desc": "[CanDuelGuard]\n[StartBattle] Remove 1 random removable negative effect applied to self\n[StartBattle] Heal 10 SP\n[WhenUse] ได้รับ 2 [ProtectStance]",
+          "desc": "[CanDuelGuard]\n[StartBattle] ล้างสถานะผิดปกติ 1 ประเภทที่สามารถล้างได้ออกจากตัวเอง\n[StartBattle] ฟื้นฟู SP 10 หน่วย\n[WhenUse] ได้รับ [ProtectStance] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [

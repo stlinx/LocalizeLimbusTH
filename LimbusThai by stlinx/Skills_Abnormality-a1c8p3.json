@@ -377,19 +377,19 @@
         {
           "level": 1,
           "name": "ปรามาส",
-          "desc": "หากเป้าหมายมี 3+ [GazeReplica], double the amount of negative effects สร้างed with this Skill\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1",
+          "desc": "หากเป้าหมายมี [GazeReplica] 3+ หน่วย สกิลนี้จะสร้างสถานะผิดปกติเพิ่มขึ้นเป็นสองเท่า\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 4 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 4 หน่วย"
                 }
               ]
             }
@@ -403,7 +403,7 @@
         {
           "level": 1,
           "name": "หวาดหวั่น",
-          "desc": "หากเป้าหมายมี 3+ [GazeReplica], double the amount of negative effects สร้างed with this Skill\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1",
+          "desc": "หากเป้าหมายมี [GazeReplica] 3+ หน่วย สกิลนี้จะสร้างสถานะผิดปกติเพิ่มขึ้นเป็นสองเท่า\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -411,10 +411,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 3 [DefenseDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [DefenseDown] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -424,10 +424,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -446,14 +446,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 10 หน่วย"
                 }
               ]
             },
@@ -463,10 +463,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold เท่ากับ ([GazeReplica] บนตัวเป้าหมาย x 5)"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ ([GazeReplica] บนตัวเป้าหมาย x 5) หน่วย"
                 },
                 {
-                  "desc": "[EndSkill] Remove [GazeReplica] บนตัวเป้าหมาย"
+                  "desc": "[EndSkill] ล้าง [GazeReplica] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -480,7 +480,7 @@
         {
           "level": 1,
           "name": "เจ้าสิ่งน่าปรามาสเอ้ย",
-          "desc": "Prioritizes Hong Lu\n[WhenUse] สร้าง 4 [GraspReplica]\n[WhenUse] ได้รับ 2 [AttackDmgUp] ในเทิร์นถัดไป",
+          "desc": "เล็ง 'หงลู่' เป็นหลัก\n[WhenUse] สร้าง [GraspReplica] 4 หน่วย\n[WhenUse] ได้รับ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -499,19 +499,19 @@
         {
           "level": 1,
           "name": "จงหวาดหวั่นซะ",
-          "desc": "Prioritizes targets with [GraspReplica]",
+          "desc": "เล็งเป้าหมายที่มี [GraspReplica] เป็นหลัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 6 หน่วย"
                 }
               ]
             }
@@ -525,12 +525,12 @@
         {
           "level": 1,
           "name": "แกต้องเผชิญหน้ามัน",
-          "desc": "[DuelCounter]\n[DefeatDuel] Reduce target's [GazeReplica] by 2\n[DefeatDuel] Reduce target's [GraspReplica] by 1",
+          "desc": "[DuelCounter]\n[DefeatDuel] ลด [GazeReplica] บนตัวเป้าหมายลง 2 หน่วย\n[DefeatDuel] ลด [GraspReplica] บนตัวเป้าหมายลง 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -544,7 +544,7 @@
         {
           "level": 1,
           "name": "หวาดหวั่น ปรามาส【ปลดปล่อย】",
-          "desc": "[BeforeAttack] ได้รับ Atk Weight by the number of Sinners with 4+ [GazeReplica]",
+          "desc": "[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น ตามจำนวนซินเนอร์ที่มี [GazeReplica] 4+ หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -552,10 +552,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 4+ [GazeReplica], สร้าง 1 [GazeReplica]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [GazeReplica] 4+ หน่วย จะสร้าง [GazeReplica] 1 หน่วย"
                 }
               ]
             }
@@ -569,7 +569,7 @@
         {
           "level": 1,
           "name": "สนามพลังบิดเกลียวบิดเบี้ยว",
-          "desc": "[CanDuelGuard]\n[StartBattle] Jia Huan and Gubo ได้รับ 30 Shield\n[WinDuel] Jia Huan and Gubo ได้รับ 30 Shield",
+          "desc": "[CanDuelGuard]\n[StartBattle] 'เจี่ยฮวน' และ 'กูโบ' ได้รับโล่ 30 หน่วย\n[WinDuel] 'เจี่ยฮวน' และ 'กูโบ' ได้รับโล่ 30 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -588,15 +588,15 @@
         {
           "level": 1,
           "name": "ยิงแนวหน้า",
-          "desc": "Targets the frontmost target\n[WhenUse] ได้รับ 1 [BoseProjektilReplica]\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1\n[WhenUse] ได้รับ +1 จำนวนครั้ง [Breath]",
+          "desc": "เล็งเป้าหมายที่อยู่แถวหน้าสุด\n[WhenUse] ได้รับ [BoseProjektilReplica] 1 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "+50% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -610,15 +610,15 @@
         {
           "level": 1,
           "name": "ยิงขนาบข้าง",
-          "desc": "Targets the rearmost target\n[WhenUse] ได้รับ 1 [BoseProjektilReplica]\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญ +1\n[WhenUse] ได้รับ +2 จำนวนครั้ง [Breath]",
+          "desc": "เล็งเป้าหมายที่อยู่แถวหลังสุด\n[WhenUse] ได้รับ [BoseProjektilReplica] 1 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "+70% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +70%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -631,29 +631,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "กระสุนวงเวทย์กระจาย",
-          "desc": "Targets the frontmost target\n[WhenUse] ได้รับ 3 [Breath] and +2 จำนวนครั้ง [Breath]",
+          "name": "กระสุนวงเวทกระจาย",
+          "desc": "เล็งเป้าหมายที่อยู่แถวหน้าสุด\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the main target"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายหลักเท่านั้น"
                 },
                 {
-                  "desc": "[EnemyKill] The final Coin deals +100% damage"
+                  "desc": "[EnemyKill] เหรียญสุดท้ายสร้างความเสียหายเพิ่มขึ้น +100%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the sub-targets"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายรองเท่านั้น"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -667,34 +667,34 @@
         {
           "level": 1,
           "name": "กระสุนอาบด้วยเลือดของเพื่อนพ้อง",
-          "desc": "[CantChangeTarget]\nPrioritizes N Corp. Employees\n- If this unit failed to attack the targeted unit, cancel this Skill\n[WhenUse] ได้รับ 5 [Breath]\n[EndBattle] Heal 20 SP",
+          "desc": "[CantChangeTarget]\nเล็ง 'พนักงาน N คอร์ป.' เป็นหลัก\n- หากตัวละครนี้ไม่สามารถโจมตีเป้าหมายที่เล็งได้ จะยกเลิกสกิลนี้\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[EndBattle] ฟื้นฟู SP 20 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the main target"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายหลักเท่านั้น"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง (target's HP at the \"On Hit' timing) Pride bonus damage with the final Coin"
+                  "desc": "[OnSucceedAttack] เหรียญสุดท้ายจะสร้างโบนัสความเสียหายธาตุอัตตาเท่ากับ (HP เป้าหมายในจังหวะ 'โจมตีโดน')"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kills the target"
+                  "desc": "[OnSucceedAttack] กำจัดเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "This Coin deals damage only against the sub-targets"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายรองเท่านั้น"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Sinking] and +2 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -708,7 +708,7 @@
         {
           "level": 1,
           "name": "กระสุนป่นปี้ภาพจำอดีต",
-          "desc": "[WideAreaRampage]\nDeal +10% damage ตามทุก ๆ [BoseProjektilReplica] on self\n[WhenUse] Lose 10 SP\n[EndSkill] Spend all [BoseProjektilReplica] on self",
+          "desc": "[WideAreaRampage]\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [BoseProjektilReplica] ที่ตนเองมี\n[WhenUse] เสีย SP 10 หน่วย\n[EndSkill] ผลาญ [BoseProjektilReplica] ทั้งหมดที่ตนเองมี",
           "coinlist": [
             {
               "coindescs": [
@@ -716,13 +716,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] เสีย SP 5 หน่วย"
                 }
               ]
             },
@@ -732,13 +732,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] เสีย SP 5 หน่วย"
                 }
               ]
             },
@@ -748,13 +748,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] เสีย SP 5 หน่วย"
                 }
               ]
             },
@@ -764,13 +764,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lose 5 SP"
+                  "desc": "[OnSucceedAttack] เสีย SP 5 หน่วย"
                 }
               ]
             }
@@ -789,14 +789,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 จำนวนครั้ง [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 2 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 }
               ]
             }
@@ -810,19 +810,19 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - มะแม [未]",
-          "desc": "[WhenUse] หากเป้าหมายมี 5+ (sum of [Laceration] and [Burst]), แต้มแคลชสกิล +1\n[WhenUse] หากเป้าหมายมี 7+ (sum of [Laceration] and [Burst]), ได้รับ 5 [Breath] and +2 จำนวนครั้ง [Breath]",
+          "desc": "[WhenUse] หากเป้าหมายมี (ผลรวมค่า [Laceration] และค่า [Burst]) 5+ หน่วย แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ผลรวมค่า [Laceration] และค่า [Burst]) 7+ หน่วย จะได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -836,18 +836,18 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - ขาล [寅]",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 (sum of [Laceration] and [Burst] บนตัวเป้าหมาย) (สูงสุด 3)",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Laceration] และค่า [Burst] บนตัวเป้าหมาย) 5 หน่วย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [DefenseDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
                 }
               ]
             }
@@ -861,12 +861,12 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - มะเส็ง [巳]",
-          "desc": "[WhenUse] If the main target has 10+ (sum of [Laceration] and [Burst]), Atk Weight +1",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี (ผลรวมค่า [Laceration] และค่า [Burst]) 10+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Poison]"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             },
@@ -876,7 +876,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Poison]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             }
@@ -890,7 +890,7 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - ระกา [酉]",
-          "desc": "[WhenUse] หากเป้าหมายมี 10+ (sum of [Laceration] and [Burst]), แต้มเหรียญ +1\nสร้าง 1 [Laceration] and [DefenseDown] with every Critical Hit",
+          "desc": "[WhenUse] หากเป้าหมายมี (ผลรวมค่า [Laceration] และค่า [Burst]) 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\nทุกครั้งที่โจมตีติดคริติคอล จะสร้างค่า [Laceration] และ [DefenseDown] อย่างละ 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -898,10 +898,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 จำนวนครั้ง [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 2 หน่วย"
                 }
               ]
             },
@@ -911,10 +911,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 2 หน่วย"
                 }
               ]
             },
@@ -924,10 +924,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 2 หน่วย"
                 }
               ]
             }
@@ -941,7 +941,7 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - อลหม่าน [混]",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ type of negative effect on the main target (สูงสุด 2)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] ได้รับ 2 [Binding] and 6 [DefenseDown] ในเทิร์นถัดไป",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] ได้รับ [Binding] 2 หน่วย และ [DefenseDown] 6 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -949,10 +949,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 5 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 5 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
@@ -962,7 +962,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Poison]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             },
@@ -972,7 +972,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง +3 จำนวนครั้ง [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             }
@@ -986,7 +986,7 @@
         {
           "level": 1,
           "name": "ยาเทวดาเซียนอีกาขั้นสมบูรณ์ - ระกา [酉] - ปัดป้อง",
-          "desc": "[CanDuelGuard]\n[WhenUse] หากเป้าหมายมี 5+ (sum of [Laceration] + [Burst]), แต้มเหรียญ +2\n[WhenUse] Heal 8 SP\n[WhenUse] ได้รับ 3 [Breath] and +2 จำนวนครั้ง [Breath]",
+          "desc": "[CanDuelGuard]\n[WhenUse] หากเป้าหมายมี (ผลรวมค่า [Laceration] + ค่า [Burst]) 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ฟื้นฟู SP 8 หน่วย\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -1005,7 +1005,7 @@
         {
           "level": 1,
           "name": "เปลเจ้าหยกล้ำค่า [寶玉搖籃]",
-          "desc": "[CantChangeTarget]\nPrioritizes Hong Lu\nWhen this Skill targets Hong Lu, deal 0 damage\n[EndSkill] When this Skill targets Hong Lu, Stagger him, then turn him into [ExpensiveJade] ในเทิร์นถัดไป; then, end the turn",
+          "desc": "[CantChangeTarget]\nเล็ง 'หงลู่' เป็นหลัก\nเมื่อสกิลนี้เล็งหงลู่ จะสร้างความเสียหาย 0 หน่วย\n[EndSkill] เมื่อสกิลนี้เล็งหงลู่ จะทำให้หงลู่ติดชะงักและถูกเปลี่ยนเป็น [ExpensiveJade] ในเทิร์นถัดไป; จากนั้น จบเทิร์นนี้ทันที",
           "coinlist": [
             {
               "coindescs": [
@@ -1024,19 +1024,19 @@
         {
           "level": 1,
           "name": "เหนือธรรมชาติ อำนาจ โกลาหล สิ่งลี้ลับ - ขาล มะเส็ง ระกา [寅巳酉]",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 (sum of [Laceration] and [Burst] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Laceration] และค่า [Burst] บนตัวเป้าหมาย) 5 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] and 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] and 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1050,26 +1050,26 @@
         {
           "level": 1,
           "name": "เจ้ายังมิเข้าใจถึงขุมพลังและความสามารถของเจ้าตาดวงนั้น",
-          "desc": "Prioritizes Hong Lu\n[WhenUse] When there is Baoyu, the Precious Jade, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 (sum of [Laceration] and [Burst] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "desc": "เล็ง 'หงลู่' เป็นหลัก\n[WhenUse] เมื่อมี 'เป่าอี้ หยกเม็ดงาม' จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Laceration] และค่า [Burst] บนตัวเป้าหมาย) 5 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Laceration] and +3 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย และจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย และค่า [Burst] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration] and 1 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย และค่า [Burst] 1 หน่วย"
                 }
               ]
             }
@@ -1083,15 +1083,15 @@
         {
           "level": 1,
           "name": "โปรดมองมาที่ข้า ท่านเซียน...!",
-          "desc": "Prioritizes Hong Lu\n[WinDuel] ได้รับ 5 [Breath] and +2 จำนวนครั้ง [Breath]\n[DefeatDuel] ได้รับ 2 [AttackUp] and 2 [DefenseDown] ในเทิร์นถัดไป",
+          "desc": "เล็ง 'หงลู่' เป็นหลัก\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] ได้รับ [AttackUp] 2 หน่วย และ [DefenseDown] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] and 2 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วย และ [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration] and +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -1105,7 +1105,7 @@
         {
           "level": 1,
           "name": "เจ้ามิอาจเข้าใจถึงชะตาของประมุขที่ไร้ซึ่งการดูแลของท่านเซียน! ",
-          "desc": "[WhenUse] Heal 25 SP\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] ฟื้นฟู SP 25 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1113,10 +1113,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage ตามทุก ๆ (sum of [Burst] and [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +2.5% ตามทุก ๆ (ผลรวมค่า [Burst] และค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Poison]"
+                  "desc": "[OnSucceedAttack] สร้าง [Poison] 3 หน่วย"
                 }
               ]
             },
@@ -1126,10 +1126,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage ตามทุก ๆ (sum of [Burst] and [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +2.5% ตามทุก ๆ (ผลรวมค่า [Burst] และค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
@@ -1139,10 +1139,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +2.5% damage ตามทุก ๆ (sum of [Burst] and [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +2.5% ตามทุก ๆ (ผลรวมค่า [Burst] และค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst] and +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "เป็นแค่การดิ้นรนที่เปล่าประโยชน์...!",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 SP. At 0 SP, heal 30 SP instead.",
+          "desc": "[CanDuelGuard]\n[WinDuel] 'เจี่ยมู่' ฟื้นฟู SP 15 หน่วย; เมื่อมี SP 0 หน่วย จะฟื้นฟู SP 30 หน่วยแทน",
           "coinlist": [
             {
               "coindescs": [
@@ -1175,24 +1175,24 @@
         {
           "level": 1,
           "name": "ถึงอย่างไร เจ้าก็มิอาจทำสิ่งอันใดได้",
-          "desc": "[WhenUse] ได้รับ [OutpouringAnger]\n[WhenUse] Heal 8 SP\n[WhenUse] If the main target has less than 50% HP, or if the main target has 10+ (sum of [Burst] and [Laceration]), convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] ได้รับ 1 [Vulnerable]\n- When losing a clash against Hong Lu, ได้รับ 2 [Vulnerable] instead",
+          "desc": "[WhenUse] ได้รับ [OutpouringAnger]\n[WhenUse] ฟื้นฟู SP 8 หน่วย\n[WhenUse] หากเป้าหมายหลักมี HP ต่ำกว่า 50% หรือหากเป้าหมายหลักมี (ผลรวมค่า [Burst] และค่า [Laceration]) 10+ หน่วย จะแปลงเหรียญของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel] ได้รับ [Vulnerable] 1 หน่วย\n- เมื่อแคลชแพ้ 'หงลู่' จะได้รับ [Vulnerable] 2 หน่วยแทน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and 4 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และค่า [Burst] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage and raise target's Stagger Threshold by 50% ของความเสียหายที่สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 10 หน่วย และดึงเกจชะงักของเป้าหมายขึ้นเท่ากับ 50% ของความเสียหายที่สร้าง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 8 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 8 หน่วย"
                 }
               ]
             }
@@ -1206,37 +1206,37 @@
         {
           "level": 1,
           "name": "ประมุขที่ไร้ซึ่งการปกป้องจากท่านเซียนเป็นได้แค่ประมุขในนามและจักต้องจบชีวิตอย่างน่าอนาจเชกเช่นหนอนแมลง!!!",
-          "desc": "[WhenUse] At 30% or less Core HP: แต้มเหรียญ +3, deal +30% damage\n[WhenUse] At less than 50% Core HP: convert this Skill's Coins to [SuperCoin]s\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] เมื่อมี HP แกนหลัก 30% หรือต่ำกว่า: แต้มเหรียญเพิ่มขึ้น +3 แต้ม และสร้างความเสียหายเพิ่มขึ้น +30%\n[WhenUse] เมื่อมี HP แกนหลัก 50% หรือต่ำกว่า: แปลงเหรียญของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 Heaping Obedience"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [PileObedient] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [PileObedient]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [PileObedient] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 5 หน่วย"
                 }
               ]
             }
@@ -1250,7 +1250,7 @@
         {
           "level": 1,
           "name": "จงเป็นเกียรติที่ได้เคารพท่านผู้นี้ซะ",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] ได้รับ 2 [Enhancement], 2 [Endurance], and 2 [AttackDmgUp] to the Body Part ในเทิร์นถัดไป\n[WhenUse] Heal this unit's SP up to 30 SP\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว; ไม่สามารถติดชะงักได้จนกว่าจะใช้สกิลนี้\n[WhenUse] อวัยวะ 'ลำตัว' ได้รับ [Enhancement] 2 หน่วย, [Endurance] 2 หน่วย, และ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไป\n[WhenUse] ฟื้นฟู SP ของตัวละครนี้ขึ้นถึง 30 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1258,7 +1258,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 10 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 10 หน่วย"
                 }
               ]
             }
@@ -1272,7 +1272,7 @@
         {
           "level": 1,
           "name": "ท่านเซียน โปรดอยู่กับเด็กน้อยผู้นี้ด้วยเถิด",
-          "desc": "[StartBattle] Body and Core Parts ได้รับ Shield เท่ากับ 10% of their max HP, respectively\n[WhenUse] Body Part gains 1 [Enhancement], 1 [Endurance], and 2 [AttackDmgUp] ในเทิร์นถัดไป\n[WhenUse] Heal 15 SP",
+          "desc": "[StartBattle] แกนหลักและอวัยวะ 'ลำตัว' ได้รับโล่เท่ากับ 10% ของ HP สูงสุดแต่ละส่วน\n[WhenUse] อวัยวะ 'ลำตัว' จะได้รับ [Enhancement] 1 หน่วย, [Endurance] 1 หน่วย, และ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไป\n[WhenUse] ฟื้นฟู SP 15 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking] and +2 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -1294,7 +1294,7 @@
         {
           "level": 1,
           "name": "ท่านเซียน...!",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[StartBattle] Generate 5 Elder Trees ในเทิร์นถัดไป\n[DefeatDuel] Deal -50% damage and this damage dealt by this Skill cannot Stagger the target\n[EndSkill] Ends turn",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว; ไม่สามารถติดชะงักได้จนกว่าจะใช้สกิลนี้\n[StartBattle] อัญเชิญ 'ต้นผู้อาวุโส' 5 ตัวในเทิร์นถัดไป\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] จบเทิร์น",
           "coinlist": [
             {
               "coindescs": [
@@ -1313,25 +1313,25 @@
         {
           "level": 1,
           "name": "โปรดมอบกำลังของท่านให้แก่ชื่อมี้หยินผู้นี้ด้วย!",
-          "desc": "หากเป้าหมายมี 50%+ HP, แต้มเหรียญ +1",
+          "desc": "หากเป้าหมายมี HP 50%+ แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% HP for the ally with the least HP"
+                  "desc": "[OnSucceedAttack] ท่ามกลางเหล่าเป้าหมายที่ไม่มี [ImperfectEternalLife] จะเลือกฟื้นฟู HP 15% ให้แก่พันธมิตรที่มี HP ต่ำที่สุด"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Among targets without [ImperfectEternalLife], choose and heal 15% HP for the ally with the least HP"
+                  "desc": "[OnSucceedAttack] ท่ามกลางเหล่าเป้าหมายที่ไม่มี [ImperfectEternalLife] จะเลือกฟื้นฟู HP 15% ให้แก่พันธมิตรที่มี HP ต่ำที่สุด"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -1345,7 +1345,7 @@
         {
           "level": 1,
           "name": "ของเซ่นถวายสิ่งสกัดความเป็นอมตะสุดขั่ว [極仙榨滴供養]",
-          "desc": "[CantIdentify]\nThis Skill cannot deal damage to allies\nCan Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[WhenUse] แต้มเหรียญ +2 and deal +20% damage ตามทุก ๆ 1 ally with [SupremeEternalLife]\n[WhenUse] If there aren't any allies with [SupremeEternalLife], มอบ 200 Shield to all targets\n[EndSkill] Ends turn",
+          "desc": "[CantIdentify]\nสกิลนี้ไม่สามารถสร้างความเสียหายแก่พันธมิตรได้\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว; ไม่สามารถติดชะงักได้จนกว่าจะใช้สกิลนี้\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ พันธมิตร 1 ตัวที่มี [SupremeEternalLife]\n[WhenUse] หากไม่มีพันธมิตรคนใดเลยที่มี [SupremeEternalLife] จะมอบโล่ 200 หน่วยให้แก่เป้าหมายทั้งหมด\n[EndSkill] จบเทิร์น",
           "coinlist": [
             {
               "coindescs": [
@@ -1353,10 +1353,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target is an ally, siphon their remaining HP and their [ImperfectEternalLife]. Then, มอบ the same amount of [ImperfectEternalLife] Stack to all of this unit's Parts ในเทิร์นถัดไป. Eliminate the Siphoned unit afterward."
+                  "desc": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตร จะดูดซับ HP ที่เหลือทั้งหมดและ [ImperfectEternalLife] มาจากพวกเขา; จากนั้น จะมอบปริมาณทับซ้อน [ImperfectEternalLife] ในปริมาณที่เท่ากัน ให้กับอวัยวะทุกส่วนของตัวละครนี้ในเทิร์นถัดไป; จากนั้นกำจัดพันธมิตรที่ถูกดูดซับ"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 8 [Laceration] and 8 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย และค่า [Burst] 8 หน่วย"
                 }
               ]
             }
@@ -1378,10 +1378,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1395,7 +1395,7 @@
         {
           "level": 1,
           "name": "ผมจะยอมนอบน้อม",
-          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu heals 15 SP. At 0 SP, heal 30 SP instead.",
+          "desc": "[CanDuelGuard]\n[WinDuel] 'เจี่ยมู่' ฟื้นฟู SP 15 หน่วย; เมื่อมี SP 0 หน่วย จะฟื้นฟู SP 30 หน่วยแทน",
           "coinlist": [
             {
               "coindescs": [
@@ -1414,7 +1414,7 @@
         {
           "level": 1,
           "name": "ผมจะยอมเป็นสิ่งบรรเทิงให้แด่ท่าน",
-          "desc": "[CantDuel]\n[EndSkill] Kills this unit and heals Jia Mu's SP up to 45 SP. มอบ 2 [Enhancement] and 5 [AttackDmgUp] to Jia Mu ในเทิร์นถัดไป",
+          "desc": "[CantDuel]\n[EndSkill] กำจัดตัวละครนี้และฟื้นฟู SP ของ 'เจี่ยมู่' ขึ้นเป็น 45 หน่วย จากนั้นมอบ [Enhancement] 2 หน่วย และ [AttackDmgUp] 5 หน่วยให้แก่เจี่ยมู่ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -1422,10 +1422,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage "
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 15 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% ของความเสียหายที่สร้าง"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 50% ของความเสียหายที่สร้าง"
                 }
               ]
             }
@@ -1439,25 +1439,25 @@
         {
           "level": 1,
           "name": "เอาพลังชีวีของเจ้ามาให้ข้า",
-          "desc": "หากเป้าหมายมี 50%+ HP, แต้มเหรียญ +1",
+          "desc": "หากเป้าหมายมี HP 50%+ แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max HP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP 20% ของ HP สูงสุด"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 20% of Max HP"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP 20% ของ HP สูงสุด"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1471,12 +1471,12 @@
         {
           "level": 1,
           "name": "ทำให้ข้าพอใจเสีย",
-          "desc": "หากเป้าหมายมี 50% HP, แต้มแคลชสกิล +2\n[WhenUse] Heal 10 SP for Jia Mu",
+          "desc": "หากเป้าหมายมี HP 50%+ แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ฟื้นฟู SP 10 หน่วยให้แก่ 'เจี่ยมู่'",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 }
               ]
             }
@@ -1490,19 +1490,19 @@
         {
           "level": 1,
           "name": "คำชี้แนะอันชาญฉลาดของเหล่าเซียน",
-          "desc": "[WhenUse] มอบ 1 [Enhancement] and 1 [AttackDmgUp] to Jia Mu ในเทิร์นถัดไป",
+          "desc": "[WhenUse] มอบ [Enhancement] 1 หน่วย และ [AttackDmgUp] 1 หน่วยให้แก่ 'เจี่ยมู่' ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -1516,12 +1516,12 @@
         {
           "level": 1,
           "name": "คำชี้แนะอันท่องแท้ของเหล่าเซียน",
-          "desc": "[WhenUse] มอบ 1 [Endurance] and 1 [Protection] to Jia Mu ในเทิร์นถัดไป",
+          "desc": "[WhenUse] มอบ [Endurance] 1 หน่วย และ [Protection] 1 หน่วยให้แก่ 'เจี่ยมู่' ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             }
@@ -1554,7 +1554,7 @@
         {
           "level": 1,
           "name": "เป็นแค่การดิ้นรนที่เปล่าประโยชน์...!",
-          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 5 (sum of [Laceration] and [Burst] บนตัวเป้าหมาย) (สูงสุด 3)\n[WinDuel] สร้าง +1 จำนวนครั้ง [Burst], สร้าง 2 [DefenseDown]",
+          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Laceration] และค่า [Burst] บนตัวเป้าหมาย) 5 หน่วย (สูงสุด 3 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +1 หน่วย และสร้าง [DefenseDown] 2 หน่วย",
           "coinlist": [
             {}
           ]
