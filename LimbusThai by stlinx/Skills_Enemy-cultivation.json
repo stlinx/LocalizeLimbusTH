@@ -5,16 +5,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Palm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (สูงสุด 2)\n[WhenUse] ได้รับ +2 จำนวนครั้ง [Breath]",
+          "name": "ฝ่ามือยืดหด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Breath] ที่ตนเองมี และค่า [Burst] บนตัวเป้าหมาย) 10 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -27,23 +27,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puncturing Serpent Arm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 3)",
+          "name": "แขนอสรพิษทะลวงกาย",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Burst] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -56,19 +56,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Concealed Puncture",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\nแต้มเหรียญ +1 ตามทุก ๆ 4 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 10)\n[WinDuel] สร้าง +2 จำนวนครั้ง [Burst] และได้รับ +2 จำนวนครั้ง [Breath]",
+          "name": "อสรพิษซ่อนเร้นรอทะลวง",
+          "desc": "หากตัวละครนี้มี [SnakeStance] และเป้าหมายมี [BurstPoison] สกิลนี้จะกลายเป็นสกิลไม่สามารถแคลชได้\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Burst] บนตัวเป้าหมาย) 4 หน่วย (สูงสุด 10 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +2 หน่วย และได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +25% damage ตามทุก ๆ [SnakeStance] on self (สูงสุด 50%)"
+                  "desc": "สร้างความเสียหายเพิ่มขึ้น +25% ตามทุก ๆ [SnakeStance] ที่ตนเองมี (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ผลาญ 3 [BurstPoison] ตามทุก ๆ [SnakeStance] on self (สูงสุด 5 per turn)"
+                  "desc": "[OnSucceedAttack] ผลาญ [BurstPoison] 3 หน่วย ตามทุก ๆ [SnakeStance] ที่ตนเองมี (สูงสุด 5 หน่วย/เทิร์น)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 8 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 8 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [BurstPoison] ในเทิร์นถัดไป"
@@ -84,8 +84,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Eyeing for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] ได้รับ 3 [SnakeStance] (once per Skill)",
+          "name": "เฝ้าจับตาหาโอกาส",
+          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [SnakeStance] 3 หน่วย (มีผลสกิลละครั้ง)",
           "coinlist": [
             {
               "coindescs": [
@@ -103,16 +103,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Arm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (สูงสุด 2)\n[WhenUse] ได้รับ +2 จำนวนครั้ง [Breath]",
+          "name": "แขนยืดหด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Breath] ที่ตนเองมี และค่า [Burst] บนตัวเป้าหมาย) 10 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -125,23 +125,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gnawing Serpent Arm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 3)",
+          "name": "แขนอสรพิษแทะกัด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Burst] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 4 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +1 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 }
               ]
             }
@@ -154,29 +154,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Shadowed Puncture",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (สูงสุด 4)\n[WinDuel] สร้าง +2 จำนวนครั้ง [Burst]\n[WinDuel] ได้รับ +2 จำนวนครั้ง [Breath]",
+          "name": "อสรพิษทะลวงผ่านเงามืด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Burst] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 4 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +2 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [BurstPoison] ในเทิร์นถัดไป (once per Skill)"
+                  "desc": "[OnSucceedAttack] สร้าง [BurstPoison] ในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [SnakeStance], Reuse this Coin once (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [SnakeStance] จะใช้เหรียญนี้ซ้ำหนึ่งครั้ง (มีผลสกิลละครั้ง)"
                 },
                 {
-                  "desc": "- The Reused Coin deals -70% damage"
+                  "desc": "- เหรียญที่ทำการใช้ซ้ำจะสร้างความเสียหายลดลง -70%"
                 }
               ]
             }
@@ -189,8 +189,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Observe for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] ได้รับ 3 [SnakeStance] (once per Skill)",
+          "name": "เฝ้าสังเกตคอยโอกาส",
+          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [SnakeStance] 3 หน่วย (มีผลสกิลละครั้ง)",
           "coinlist": [
             {
               "coindescs": [
@@ -208,22 +208,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutated Elongating Arm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 10 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 2)\n[WinDuel] ได้รับ +3 จำนวนครั้ง [Breath]",
+          "name": "แขนยืดหดกลายพันธุ์",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Breath] ที่ตนเองมี และค่า [Burst] บนตัวเป้าหมาย) 10 หน่วย (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 4 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If this unit has 10+ [Breath], ได้รับ 1 [SnakeStance] and ใช้เหรียญซ้ำหนึ่งครั้ง (once per Skill; can ได้รับ up to 2 [SnakeStance] per turn)"
+                  "desc": "[CriticalOnSucceedAttack] หากตัวละครนี้มีค่า [Breath] 10+ หน่วย จะได้รับ [SnakeStance] 1 หน่วย และใช้เหรียญซ้ำหนึ่งครั้ง (มีผลสกิลละครั้ง; สามารถรับ [SnakeStance] ได้สูงสุด 2 หน่วย/เทิร์น)"
                 }
               ]
             }
@@ -236,36 +236,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Serpent Arm",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 8 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 3)\n[BeforeAttack] If this unit has [SnakeStance], ได้รับ +2 Atk Weight\n- Becomes a [WideAreaRampage] Skill\n- When attacking the same target, หากเป้าหมายมี 2 or fewer จำนวนครั้ง [Burst], สร้าง +1 จำนวนครั้ง [Burst] and ผลาญ 1 [BurstPoison]\n[WinDuel] สร้าง +1 จำนวนครั้ง [Burst] on all targets",
+          "name": "แขนอสรพิษยืดหด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ผลรวมค่า [Breath] ที่ตนเองมี และค่า [Burst] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 3 แต้ม)\n[BeforeAttack] หากตัวละครนี้มี [SnakeStance] น้ำหนักการโจมตีจะเพิ่มขึ้น +2 ช่อง\n- กลายเป็นสกิล [WideAreaRampage]\n- เมื่อโจมตีเป้าหมายเดิมซ้ำ หากเป้าหมายมีจำนวนครั้ง [Burst] เพียง 2 หน่วยหรือต่ำกว่า จะสร้างจำนวนครั้ง [Burst] +1 หน่วย และผลาญ [BurstPoison] 1 หน่วย\n[WinDuel] สร้างจำนวนครั้ง [Burst] +1 หน่วยแก่เป้าหมายทั้งหมด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison], สร้าง +2 จำนวนครั้ง [Burst]"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BurstPoison] จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -278,19 +278,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Keenlance",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 4 ([Breath] on self + [Burst] บนตัวเป้าหมาย) (สูงสุด 10)\n[WinDuel] สร้าง +2 จำนวนครั้ง [Burst] และได้รับ +3 จำนวนครั้ง [Breath]",
+          "name": "หอกแหลมของอสรพิษ",
+          "desc": "หากตัวละครนี้มี [SnakeStance] และเป้าหมายมี [BurstPoison] สกิลนี้จะกลายเป็นสกิลไม่สามารถแคลชได้\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Burst] บนตัวเป้าหมาย) 4 หน่วย (สูงสุด 10 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Burst] +2 หน่วย และได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [SnakeStance], deal +100% damage"
+                  "desc": "หากตัวละครนี้มี [SnakeStance] จะสร้างความเสียหายเพิ่มขึ้น +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ผลาญ 5 [BurstPoison] ตามทุก ๆ [SnakeStance] on self (มีผลเทิร์นละครั้ง)"
+                  "desc": "[OnSucceedAttack] ผลาญ [BurstPoison] 5 หน่วย ตามทุก ๆ [SnakeStance] ที่ตนเองมี (มีผลเทิร์นละครั้ง)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 10 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง [BurstPoison] ในเทิร์นถัดไป"
@@ -306,8 +306,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wait for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ 4 [Burst] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] ได้รับ 3 [SnakeStance] (once per Skill)",
+          "name": "เฝ้ารอโอกาส",
+          "desc": "[CanDuelGuard]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Burst] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] ได้รับ [SnakeStance] 3 หน่วย (มีผลสกิลละครั้ง)",
           "coinlist": [
             {
               "coindescs": [
