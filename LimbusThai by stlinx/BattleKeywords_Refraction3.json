@@ -2,62 +2,62 @@
   "dataList": [
     {
       "id": "MRcAfBa",
-      "name": "Gossypium",
-      "desc": "When the Drenched Gossypium is in a Red-stained Gossypium state, ได้รับ (Gossypium value/2) Bleed and Bleed Count at จบเทิร์น",
-      "summary": "จบเทิร์น: ได้รับ (Gossypium value/2) Bleed and Bleed Count"
+      "name": "ฝ้าย",
+      "desc": "เมื่อ 'ฝ้ายเปียกปอน' อยู่ในสภาวะ 'ฝ้ายเปื้อนสีแดง' จะได้รับค่า <color=#e30000>'เลือดไหล'</color> และจำนวนครั้ง <color=#e30000>'เลือดไหล'</color> อย่างละ (ปริมาณ 'ฝ้าย' / 2) หน่วยเมื่อจบเทิร์น",
+      "summary": "จบเทิร์น: ได้รับค่า <color=#e30000>'เลือดไหล'</color> และจำนวนครั้ง <color=#e30000>'เลือดไหล'</color> อย่างละ (ปริมาณ 'ฝ้าย' / 2) หน่วย"
     },
     {
       "id": "MRcAfBb",
-      "name": "Red-stained Gossypium",
-      "desc": "เริ่มเทิร์น: Double the Bleed and Bleed Count applied by Attack Skills.\nIf the target has Gossypium, ได้รับ แต้มแคลชสกิล +(Gossypium value/2)",
-      "summary": "Gain แต้มแคลชสกิล +(Gossypium value/2)"
+      "name": "ฝ้ายเปื้อนสีแดง",
+      "desc": "เริ่มเทิร์น: สกิลโจมตีจะสร้างค่า <color=#e30000>'เลือดไหล'</color> และจำนวนครั้ง <color=#e30000>'เลือดไหล'</color> เพิ่มเป็นสองเท่า\n- หากเป้าหมายมี 'ฝ้าย' จะทำให้แต้มแคลชสกิลเพิ่มขึ้น +(ปริมาณ 'ฝ้าย' / 2) แต้ม",
+      "summary": "แต้มแคลชสกิลเพิ่มขึ้น +(ปริมาณ 'ฝ้าย' / 2) แต้ม"
     },
     {
       "id": "MRcAiBa",
-      "name": "Ember",
-      "desc": "สูงสุด 5\nUpon gaining Ember, convert a number of non-Wrath Affinity Skills เท่ากับ the value of Ember into Wrath Affinity Skills.\nWhen the Wings Part is broken, inflict Shimmering Ember เท่ากับ the value of Ember upon the last attacker; then, all Ember ที่ตนเองมี expires.",
+      "name": "ไฟคุกรุ่น",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\nเมื่อได้รับ 'ไฟคุกรุ่น' จะแปลงสกิลที่ไม่ใช่ธาตุโทสะ ในจำนวนที่เท่ากับปริมาณ 'ไฟคุกรุ่น' ให้กลายเป็นสกิลธาตุโทสะ\n\nเมื่ออวัยวะ 'ปีก' ถูกทำลาย จะสร้าง 'ไฟคุกรุ่นแวววับ' เท่ากับปริมาณ 'ไฟคุกรุ่น' บนตัวผู้โจมตีคนสุดท้าย; จากนั้น เอฟเฟกต์ 'ไฟคุกรุ่น' ทั้งหมดที่ตนเองมีจะหมดลง",
       "summary": ""
     },
     {
       "id": "MRcAiBb",
-      "name": "Shimmering Ember",
-      "desc": "สูงสุด 5\nGain Spark when hit by a certain Skill. All Shimmering Ember expires.",
+      "name": "ไฟคุกรุ่นแวววับ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- ได้รับ 'ประกายเพลิง' เมื่อถูกโจมตีโดยบางสกิล จากนั้น 'ไฟคุกรุ่นแวววับ' ทั้งหมดจะหมดลง",
       "summary": ""
     },
     {
       "id": "MRcAiBc",
-      "name": "Spark",
-      "desc": "Combat Start: inflict Burn เท่ากับ Burn ที่ตนเองมี against 2 adjacent(based on Speed) units.\nCannot ได้รับ Ember when this unit has Spark.\nจบเทิร์น: reduce the value by 1",
+      "name": "ประกายเพลิง",
+      "desc": "เริ่มการต่อสู้: สร้างค่า <color=#e30000>'เผาไหม้'</color> เท่ากับค่า <color=#e30000>'เผาไหม้'</color> ที่ตนเองมีใส่ตัวละคร 2 ตัวที่อยู่ติดกับตัวเอง (ตามค่าความเร็ว)\n- ไม่สามารถรับ 'ไฟคุกรุ่น' ได้ ในระหว่างที่ตัวละครนี้มี 'ประกายเพลิง'\n\nจบเทิร์น: ลดปริมาณทับซ้อนลง 1 หน่วย",
       "summary": ""
     },
     {
       "id": "MRcAmBa",
       "name": "ปรามาส",
-      "desc": "จบเทิร์น: Lose 3 ทรัพยากร E.G.O of the Affinity corresponding to the selected Skill Affinity.\nจบเทิร์น: ได้รับ 3 Damage Down ในเทิร์นถัดไป.",
+      "desc": "จบเทิร์น: เสียทรัพยากร E.G.O ของธาตุที่สอดคล้องกับธาตุบาปสกิลที่เลือก 3 หน่วย\nจบเทิร์น: ได้รับ <color=#e30000>'ลดความเสียหาย'</color> 3 หน่วย",
       "summary": ""
     },
     {
       "id": "MRcAmBb",
       "name": "ไขว่คว้า",
-      "desc": "สูงสุด 3\nCannot act\nจบเทิร์น: at 2- value, deal damage เท่ากับ half of the target's สูงสุด HP. Then, all Parts of Spiral of ปรามาส heals the same amount of HP as the damage dealt by this effect.\nจบเทิร์น: reduce the value by 1.\nIf this effect brings the target's HP down to 0, the target can no longer be healed.",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\nไม่สามารถขยับได้\nจบเทิร์น: เมื่อมีปริมาณทับซ้อน 2- หน่วย จะสร้างความเสียหายเท่ากับครึ่งหนึ่งของ HP สูงสุดเป้าหมาย; จากนั้น อวัยวะทั้งหมดของ 'เกลียวแห่งความปรามาส' จะฟื้นฟู HP ในปริมาณเท่ากันกับความเสียหาย ที่เอฟเฟกต์นี้สร้าง\n\nจบเทิร์น: ลดปริมาณทับซ้อนลง 1 หน่วย\n- หากเอฟเฟกต์นี้ทำให้ HP ของเป้าหมายลดเหลือ 0 หน่วย เป้าหมายจะไม่สามารถถูกฟื้นฟูได้อีก",
       "summary": ""
     },
     {
       "id": "MRcAmBc",
       "name": "จับจ้อง",
-      "desc": "Deal +10% damage ตามทุก ๆ จับจ้อง value\nจบเทิร์น: at 7 จับจ้อง, ได้รับ 15 Bleed and replace this effect with ปรามาส.",
+      "desc": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ปริมาณ 'จับจ้อง'\nจบเทิร์น: เมื่อมี 'จับจ้อง' 7 หน่วย จะได้รับค่า <color=#e30000>'เลือดไหล'</color> 15 หน่วย และแทนที่เอฟเฟกต์นี้ด้วย 'ปรามาส'",
       "summary": ""
     },
     {
       "id": "MRcAmBd",
-      "name": "All-beholding จับจ้อง",
-      "desc": "Gain 1 at every จบเทิร์น.\nจบเทิร์น: all units with จับจ้อง take (4 x value) fixed HP damage and (4 x value) fixed SP damage.",
+      "name": "การจับจ้องจากผู้เห็นทุกสิ่ง",
+      "desc": "ทุกครั้งที่จบเทิร์น จะได้รับปริมาณทับซ้อน 1 หน่วย\nจบเทิร์น: ตัวละครทั้งหมดที่มี 'จับจ้อง' จะได้รับความเสียหาย HP ตายตัว (4 x ปริมาณเอฟเฟกต์) หน่วย และความเสียหาย SP ตายตัว (4 x ปริมาณเอฟเฟกต์) หน่วย",
       "summary": ""
     },
     {
       "id": "MRcAmBbDisplay",
       "name": "ไขว่คว้า",
-      "desc": "สูงสุด 3\nCannot act\nจบเทิร์น: at 2- value, deal damage เท่ากับ half of the target's สูงสุด HP. Then, all Parts of Spiral of ปรามาส heals the same amount of HP as the damage dealt by this effect.\nจบเทิร์น: reduce the value by 1.\nIf this effect brings the target's HP down to 0, the target can no longer be healed.",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\nไม่สามารถขยับได้\n\nจบเทิร์น: เมื่อมีปริมาณทับซ้อน 2- หน่วย จะสร้างความเสียหายเท่ากับครึ่งหนึ่งของ HP สูงสุดเป้าหมาย; จากนั้น อวัยวะทั้งหมดของ 'เกลียวแห่งความปรามาส' จะฟื้นฟู HP ในปริมาณเท่ากันกับความเสียหาย ที่เอฟเฟกต์นี้สร้าง\n\nจบเทิร์น: ลดปริมาณทับซ้อนลง 1 หน่วย\n- หากเอฟเฟกต์นี้ทำให้ HP ของเป้าหมายลดเหลือ 0 หน่วย เป้าหมายจะไม่สามารถถูกฟื้นฟูได้อีก",
       "summary": ""
     }
   ]

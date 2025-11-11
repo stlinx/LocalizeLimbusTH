@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gossypium Planting",
-          "desc": "[WhenUse] สร้าง 3 [MRcAfBa]",
+          "name": "ปลูกฝ้าย",
+          "desc": "[WhenUse] สร้าง [MRcAfBa] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration] and +1 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             }
@@ -24,16 +24,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wound Planting",
+          "name": "ปลูกฝังแผล",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 4 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Laceration] 4 หน่วย"
                 }
               ]
             }
@@ -46,20 +46,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Draining Roots",
-          "desc": "[CantDuel]\nAmong targets with [MRcAfBa], attack the unit with the slowest Speed;\nDeal +([MRcAfBa] x 10)% damage",
+          "name": "รากระบายน้ำ",
+          "desc": "[CantDuel]\nเล็งเป้าหมายที่มี [MRcAfBa] และมีความเร็วต่ำที่สุด;\nสร้างความเสียหายเพิ่มขึ้น +([MRcAfBa] x 10)%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by ([MRcAfBa] x 5)% ของความเสียหายที่สร้าง"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP เท่ากับ ([MRcAfBa] x 5)% ของความเสียหายที่สร้าง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by ([MRcAfBa] x 5)% ของความเสียหายที่สร้าง"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP เท่ากับ ([MRcAfBa] x 5)% ของความเสียหายที่สร้าง"
                 }
               ]
             }
@@ -72,20 +72,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flourishing Gossypium",
-          "desc": "Attacks the target with the most [Laceration]\n[WhenUse] If the main target is the target with the most [Laceration], แต้มเริ่มต้นสกิล +5, สร้าง x2 the effects",
+          "name": "ฝ้ายงอกงาม",
+          "desc": "โจมตีเป้าหมายที่มีค่า [Laceration] สูงที่สุด\n[WhenUse] หากเป้าหมายหลักเป็นเป้าหมายที่มีค่า [Laceration] สูงที่สุด แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +5 แต้ม และเอฟเฟกต์จะสร้างมากขึ้นเป็นสองเท่า",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] and 2 [ScarletTakeDamageUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วย และ [ScarletTakeDamageUp] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 8 [Laceration] and +4 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 }
               ]
             }
@@ -98,20 +98,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Gossypium",
-          "desc": "Among targets with [MRcAfBa], attack the unit with the least HP\n[WhenUse] If the main target is the target with the most [Laceration], แต้มเริ่มต้นสกิล +5\n[EndBattle] [MRcAfBb] state expires ในเทิร์นถัดไป.",
+          "name": "หว่านฝ้าย",
+          "desc": "เล็งเป้าหมายที่มี [MRcAfBa] และมี HP ต่ำที่สุด\n[WhenUse] หากเป้าหมายหลักเป็นเป้าหมายที่มีค่า [Laceration] สูงที่สุด แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +5 แต้ม\n[EndBattle] สภาวะ [MRcAfBb] จะหมดลงในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -124,8 +124,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Wind",
-          "desc": "[OnSucceedEvade] สร้าง 3 [Laceration] and +1 จำนวนครั้ง [Laceration]",
+          "name": "ลมโปรย",
+          "desc": "[OnSucceedEvade] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -143,14 +143,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Encroaching Gossypium",
-          "desc": "[CantDuel]\nPrioritizes the unit with the slowest Speed\nDamage dealt by this Attack Skill is fixed to 0.\n[StartBattle] Enter [MRcAfBb] state ในเทิร์นถัดไป.",
+          "name": "ฝ้ายรุกราน",
+          "desc": "[CantDuel]\nเล็งตัวละครที่มีความเร็วต่ำที่สุดเป็นหลัก\nความเสียหายที่สกิลโจมตีนี้สร้างจะเป็น 0 หน่วยตายตัว\n[StartBattle] เข้าสู่สภาวะ [MRcAfBb] ในเทิร์นถัดไป",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [MRcAfBa]"
+                  "desc": "[OnSucceedAttack] สร้าง [MRcAfBa] 3 หน่วย"
                 }
               ]
             }
@@ -163,26 +163,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Red-stained Gossypium",
-          "desc": "Prioritizes the target with the most [Laceration]\n[WhenUse] If the main target is the target with the most [Laceration], แต้มเริ่มต้นสกิล +10\nหากเป้าหมายมี 10+ [Laceration], deal +50% damage",
+          "name": "หว่านฝ้ายเปื้อนสีแดง",
+          "desc": "เล็งเป้าหมายที่มีค่า [Laceration] สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายหลักเป็นเป้าหมายที่มีค่า [Laceration] สูงที่สุด แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +10 แต้ม\nหากเป้าหมายมีค่า [Laceration] 10+ หน่วย จะสร้างความเสียหายเพิ่มขึ้น +50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration] and +4 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal HP เท่ากับ [Laceration] บนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP เท่ากับค่า [Laceration] บนตัวเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Laceration] and +4 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal HP เท่ากับ [Laceration] บนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP เท่ากับค่า [Laceration] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -195,13 +195,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flame Strike",
-          "desc": "[WhenUse] ได้รับ 1 [MRcAiBa]",
+          "name": "เพลิงโหมปะทะ",
+          "desc": "[WhenUse] ได้รับ [MRcAiBa] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Combustion] and +2 จำนวนครั้ง [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย และจำนวนครั้ง [Combustion] +2 หน่วย"
                 }
               ]
             }
@@ -214,13 +214,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Pinions",
-          "desc": "[WhenUse] ได้รับ 1 [MRcAiBa]",
+          "name": "ปีกผลิบานอันรุ่มร้อน",
+          "desc": "[WhenUse] ได้รับ [MRcAiBa] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [CrimsonResistDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [CrimsonResistDown] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -233,23 +233,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spark",
-          "desc": "[WinDuel] สร้าง [Combustion] เท่ากับ [Combustion] บนตัวเป้าหมาย.\n[WhenUse] สร้าง +2 จำนวนครั้ง [Combustion].",
+          "name": "ประกายไฟ",
+          "desc": "[WinDuel] สร้างค่า [Combustion] เท่ากับค่า [Combustion] บนตัวเป้าหมาย\n[WhenUse] สร้างจำนวนครั้ง [Combustion] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 3+ [MRcAiBb], สร้าง +2 จำนวนครั้ง [Combustion], 10 [Combustion], and 2 [MRcAiBc]."
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [MRcAiBb] 3+ หน่วย จะสร้างจำนวนครั้ง [Combustion] +2 หน่วย, ค่า [Combustion] 10 หน่วย, และ [MRcAiBc] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 6 [Combustion] and +4 จำนวนครั้ง [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 6 หน่วย และจำนวนครั้ง [Combustion] +4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [CrimsonResistDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [CrimsonResistDown] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -262,26 +262,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dust Explosion",
-          "desc": "[WhenUse] หากเป้าหมายมี 7+ [Combustion], this Skill gains แต้มแคลชสกิล +2",
+          "name": "ระเบิดฝุ่นธุลี",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Combustion] 7+ หน่วย แต้มแคลชสกิลของสกิลนี้จะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง จำนวนครั้ง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, สร้าง จำนวนครั้ง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Combustion] แก่ศัตรูที่มีความเร็วต่ำที่สุด เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, สร้าง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] แก่ศัตรูที่มีความเร็วต่ำที่สุด เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 }
               ]
             }
@@ -294,36 +294,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "desc": "ได้รับ แต้มแคลชสกิล เท่ากับ (# of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] สร้าง (# of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies",
+          "name": "ดาราผลิบานที่รุ่มร้อน",
+          "desc": "แต้มแคลชสกิลเพิ่มขึ้น เท่ากับ (จำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้ x 2) แต้ม\n[WhenUse] สร้างค่า [Combustion] (จำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้ x 2) หน่วยแก่ศัตรูทั้งหมด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, สร้าง [Combustion] and จำนวนครั้ง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] และจำนวนครั้ง [Combustion]  แก่ศัตรูที่มีความเร็วต่ำที่สุด เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, สร้าง [Combustion] and จำนวนครั้ง [Combustion] เท่ากับ the number of Wrath Affinity Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] สร้างค่า [Combustion] และจำนวนครั้ง [Combustion]  แก่ศัตรูที่มีความเร็วต่ำที่สุด เท่ากับจำนวนสกิลธาตุโทสะที่ 'ผีเสื้อกลางคืนอันรุ่มร้อน' เตรียมจะใช้ในเทิร์นนี้"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 10% ของความเสียหายที่สร้าง"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 10% ของความเสียหายที่สร้าง"
                 },
                 {
-                  "desc": "[EndSkill] สร้าง 10 [Combustion] against targets that have been Staggered by this Attack."
+                  "desc": "[EndSkill] สร้างค่า [Combustion] 10 หน่วยแก่เหล่าเป้าหมายที่ติดชะงักเพราะการโจมตีนี้"
                 }
               ]
             }
@@ -337,7 +337,7 @@
         {
           "level": 1,
           "name": "หลบหลีก",
-          "desc": "[WhenUseEvade] สร้าง 4 [Combustion].\n[OnSucceedEvade] ได้รับ 1 [MRcAiBa] ในเทิร์นถัดไป.",
+          "desc": "[WhenUseEvade] สร้างค่า [Combustion] 4 หน่วย\n[OnSucceedEvade] ได้รับ [MRcAiBa] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -355,15 +355,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stoke the Flames",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nDamage dealt by this Attack Skill is fixed to 0.",
+          "name": "เขี่ยเพลิง",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nความเสียหายที่สกิลโจมตีนี้สร้างจะเป็น 0 หน่วยตายตัว",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [MRcAiBb] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [MRcAiBb] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -376,16 +376,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Penetrate",
+          "name": "มันจักทะลวง",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttackHead] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -398,29 +398,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Be Insidious",
-          "desc": "[WinDuel] Double the [Vulnerable] and [Binding] สร้างed by Coin effects.",
+          "name": "มันจักเป็นสิ่งร้ายลับ",
+          "desc": "[WinDuel] เอฟเฟกต์เหรียญของสกิลนี้จะสร้าง [Vulnerable] และ [Binding] เพิ่มเป็นสองเท่า",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -433,26 +433,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Grip",
+          "name": "มันจักกอบกุม",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [AttackDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDown] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] สร้าง 3 [DefenseDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] สร้าง [DefenseDown] 3 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [AttackDmgUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttackHead] ได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -465,26 +465,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Constrict",
+          "name": "มันจักบีบรัด",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [MRcAmBb]"
+                  "desc": "[OnSucceedAttack] สร้าง [MRcAmBb] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [AttackDmgUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [MRcAmBb]"
+                  "desc": "[OnSucceedAttack] สร้าง [MRcAmBb] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 1 [AttackDmgUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] ได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -497,23 +497,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall Shun",
-          "desc": "If there is a surviving 'Grasp' unit, แต้มปิดท้ายสกิล +5",
+          "name": "มันจักหลีกเลี่ยง",
+          "desc": "หากมีตัวละคร 'ไขว่คว้า' ที่รอดชีวิตอยู่ แต้มปิดท้ายสกิลจะเพิ่มขึ้น +5 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 8 [Laceration] and +3 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 10 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 20"
+                  "desc": "[OnSucceedAttackHead] ดึงเกจชะงักขึ้น 20 หน่วย"
                 }
               ]
             }
@@ -526,26 +526,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "And it Shall Contempt All",
-          "desc": "If there is a surviving 'Grasp' unit, แต้มปิดท้ายสกิล +5\n[EndBattle] Remove [MRcAmBc] from all enemies",
+          "name": "และมันจักปรามาสสรรพสิ่ง",
+          "desc": "หากมีตัวละคร 'ไขว่คว้า' ที่รอดชีวิตอยู่ แต้มปิดท้ายสกิลจะเพิ่มขึ้น +5 แต้ม\n[EndBattle] ล้าง [MRcAmBc] จากตัวศัตรูทั้งหมด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 10 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 8 [Laceration] and +2 จำนวนครั้ง [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 15 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Raise Stagger Threshold by 30"
+                  "desc": "[OnSucceedAttackHead] ดึงเกจชะงักขึ้น 30 หน่วย"
                 }
               ]
             }
@@ -559,7 +559,7 @@
         {
           "level": 1,
           "name": "หลบหลีก",
-          "desc": "[OnSucceedEvade] Deal 4 SP damage",
+          "desc": "[OnSucceedEvade] สร้างความเสียหาย SP 4 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -578,25 +578,25 @@
         {
           "level": 1,
           "name": "6:5",
-          "desc": "[CantDuel][CantChangeTarget]\nTake damage in the target's place. Get staggered ในเทิร์นถัดไป.\nสร้าง Marked on a random enemy without [AaCePcBa].\n[EndBattle] All Candles heal to Max HP",
+          "desc": "[CantDuel][CantChangeTarget]\nรับความเสียหายแทนที่เป้าหมาย และติดชะงักในเทิร์นถัดไป\nสร้าง [AaCePcBa] แก่ศัตรู 1 ตัวที่ไม่มี [AaCePcBa] แบบสุ่ม\n[EndBattle] 'เทียน' ทั้งหมดฟื้นฟู HP ถึงจำนวนสูงสุด",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 5%."
+                  "desc": "[OnSucceedAttack] HP สูงสุดของตัวละครนี้ลดลง 5%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 Burn on self"
+                  "desc": "[OnSucceedAttack] ตนเองได้รับค่า [Combustion] 10 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] This unit's max HP decreases by 5%."
+                  "desc": "[OnSucceedAttack] HP สูงสุดของตัวละครนี้ลดลง 5%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 Burn on self"
+                  "desc": "[OnSucceedAttack] ตนเองได้รับค่า [Combustion] 10 หน่วย"
                 }
               ]
             }
@@ -609,16 +609,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scorn Not the Prophecy",
+          "name": "จงอย่าดูถูกคำทำนาย",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Combustion] and +2 จำนวนครั้ง [Combustion] บนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 5 หน่วย และจำนวนครั้ง [Combustion] +2 หน่วยแก่เป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 20 HP on self"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู HP ตนเอง 20 หน่วย"
                 }
               ]
             }
@@ -631,20 +631,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Insidious Pallidification",
-          "desc": "[StartBattle] ได้รับ 10% of Max HP as Shield. ตามทุก ๆ Queequeg's Ego, ได้รับ additional 0.3% of Max HP as additional Shield.\nWhen attacked while Shielded, attacker loses 5 SP\nWhen attacked, use this Skill once ตามทุก ๆ 10 Queequeg's Ego",
+          "name": "การกลายเป็นเผือกแสนร้ายกาจ",
+          "desc": "[StartBattle] ได้รับโล่เท่ากับ 10% ของ HP สูงสุด\n- ได้รับโล่เพิ่มเติมอีก 0.3% ของ HP สูงสุด ตามทุก ๆ [AaCePcBq] ที่มี\nเมื่อถูกโจมตีขณะมีโล่ ผู้โจมตีจะเสีย SP 5 หน่วย\nเมื่อถูกโจมตี จะใช้สกิลนี้ซ้ำอีกครั้งตามทุก ๆ [AaCePcBq] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 Bleed"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 Bleed"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             }
