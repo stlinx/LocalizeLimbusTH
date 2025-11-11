@@ -10,7 +10,9 @@
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -27,22 +29,30 @@
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             },
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             },
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             },
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -379,7 +389,9 @@
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             },
             {
@@ -1165,8 +1177,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gimme Candy.",
-          "desc": "Prioritizes targets with [GiveMeCandy]\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ [GiveMeCandy] บนตัวเป้าหมาย (สูงสุด 5)\n[DefeatDuel] Deal -50% final damage",
+          "name": "เอาลูกกวาดมา",
+          "desc": "เล็งเป้าหมายที่มี [GiveMeCandy] เป็นหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [GiveMeCandy] บนตัวเป้าหมาย (สูงสุด 5 แต้ม)\n[DefeatDuel] สร้างความเสียหายปิดท้ายลดลง -50%",
           "coinlist": [
             {
               "coindescs": [
@@ -1174,13 +1186,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] หากเป้าหมายมี [GiveMeCandy], the target becomes Staggered ในเทิร์นถัดไป."
+                  "desc": "[WinDuelAttack] หากเป้าหมายมี [GiveMeCandy] เป้าหมายจะติดชะงักในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[DefeatDuel] ได้รับ Indulged เท่ากับ [GiveMeCandy] บนตัวเป้าหมาย."
+                  "desc": "[DefeatDuel] ได้รับ [FullCharon] เท่ากับ [GiveMeCandy] บนตัวเป้าหมาย"
                 },
                 {
-                  "desc": "[EndSkill] Completely remove [GiveMeCandy] from the target this unit clashed against"
+                  "desc": "[EndSkill] ล้าง [GiveMeCandy] ทั้งหมดจากตัวเป้าหมายที่ตัวละครนี้แคลชสกิลด้วย"
                 }
               ]
             }
@@ -1193,8 +1205,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "No Candy.",
-          "desc": "[BeforeAttack] ได้รับ +(# of Identities with [GiveMeCandy]) Atk Weight (สูงสุด 3)\n[WhenUse] Deal +10% damage ตามทุก ๆ Identity with [GiveMeCandy] (สูงสุด 50%)\n[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ [GiveMeCandy] on the main target (สูงสุด 5)",
+          "name": "ไม่มีลูกกวาด",
+          "desc": "[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +(จำนวนตัวตนที่มี [GiveMeCandy]) ช่อง (สูงสุด 3 ช่อง)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ตัวตนที่มี [GiveMeCandy] (สูงสุด 50%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [GiveMeCandy] บนตัวเป้าหมายหลัก (สูงสุด 5 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -1212,8 +1224,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "All of you...",
-          "desc": "[WhenUse] แต้มเหรียญ +1 ตามทุก ๆ [GiveMeCandy] บนตัวเป้าหมาย (สูงสุด 5)\n[DefeatDuel] Deal -50% final damage",
+          "name": "พวกคุณทุกคน...",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [GiveMeCandy] บนตัวเป้าหมาย (สูงสุด 5 แต้ม)\n[DefeatDuel] สร้างความเสียหายปิดท้ายลดลง -50%",
           "coinlist": [
             {
               "coindescs": [
@@ -1238,13 +1250,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vroom-Vroom",
-          "desc": "[CantDuel]\n[WhenUse] Deal +20% damage ตามทุก ๆ Identity with [GiveMeCandy] (สูงสุด 100%)",
-          "coindescs": [
-            {
-              "desc": ""
-            }
-          ]
+          "name": "บรึ้น บรึ้น",
+          "desc": "[CantDuel]\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ตัวตนที่มี [GiveMeCandy] (สูงสุด 100%)"
         }
       ]
     },
@@ -1253,8 +1260,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Eat. Together.",
-          "desc": "[WhenUse] มอบ 1 [GiveMeCandy] to 2 random enemies(prioritizes enemies without [GiveMeCandy])",
+          "name": "มากิน ด้วยกัน",
+          "desc": "[WhenUse] มอบ [GiveMeCandy] 1 หน่วยให้แก่ศัตรู 2 ตัวแบบสุ่ม (ให้ความสำคัญกับศัตรูที่ไม่มี [GiveMeCandy] ก่อน)",
           "coinlist": [
             {
               "coindescs": [
@@ -1272,8 +1279,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... Kkomi's angry.",
-          "desc": "[BeforeAttack] ได้รับ +(# of Identities with [GiveMeCandy]) Atk Weight\n[WhenUse] Deal +10% damage ตามทุก ๆ Identity with [GiveMeCandy] (สูงสุด 50%)\n[WhenUse] ได้รับ แต้มแคลชสกิล เท่ากับ the number of Identities with [GiveMeCandy] (สูงสุด 5)\n[DefeatDuel] Deal -80% final damage",
+          "name": "... โคมิโกรธแล้ว",
+          "desc": "[BeforeAttack] น้ำหนักการโจมตีเพิ่มขึ้น +(จำนวนตัวตนที่มี [GiveMeCandy]) ช่อง\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ตัวตนที่มี [GiveMeCandy] (สูงสุด 50%)\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น เท่ากับจำนวนตัวตนที่มี [GiveMeCandy] (สูงสุด 5 แต้ม)\n[DefeatDuel] สร้างความเสียหายปิดท้ายลดลง -80%",
           "coinlist": [
             {
               "coindescs": [
@@ -1298,8 +1305,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You hit Kkomi.",
-          "desc": "[DuelCounter]\n[WhenUse] All Parts ได้รับ 2 แต้มแคลชสกิล Up ในเทิร์นถัดไป\n[WhenUse] All Parts ได้รับ 2 Haste ในเทิร์นถัดไป",
+          "name": "คุณตีโคมิ",
+          "desc": "[DuelCounter]\n[WhenUse] อวัยวะทุกส่วนได้รับ [ParryingResultUp] 2 หน่วยในเทิร์นถัดไป\n[WhenUse] อวัยวะทุกส่วนได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
