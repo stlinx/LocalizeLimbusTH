@@ -2,139 +2,139 @@
   "dataList": [
     {
       "id": "UninvitedGuest",
-      "name": "Interloper",
-      "desc": "When an Identity with Interloper is defeated, move to a different Identity without Interloper.",
+      "name": "แขกไม่ได้รับเชิญ",
+      "desc": "เมื่อใดก็ตามที่ตัวตนซึ่งมี <sprite name=\"UninvitedGuest\"><color=#9f6a3a>'แขกไม่ได้รับเชิญ'</color> ถูกกำจัด เอฟเฟกต์นี้จะย้ายไปที่ตัวตนอื่นซึ่งไม่มี <sprite name=\"UninvitedGuest\"><color=#9f6a3a>'แขกไม่ได้รับเชิญ'</color>",
       "summary": ""
     },
     {
       "id": "ConnectedPlug",
-      "name": "Plugged In",
-      "desc": "จบเทิร์น:\n- สูงสุด 3\n- At 3, become Staggered ในเทิร์นถัดไป.\n- At 3, ผลาญ all Charge ที่ตนเองมี.",
+      "name": "เสียบปลั๊ก",
+      "desc": "จบเทิร์น:\n- ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เมื่อมี 3 หน่วย จะติดชะงักในเทิร์นถัดไป\n- เมื่อมี 3 หน่วย จะผลาญจำนวน <color=#f8c200>'ชาร์จ'</color> ทั้งหมดที่ตนเองมี",
       "summary": ""
     },
     {
       "id": "AntiSheepGround",
-      "name": "Anti-Ovine Grounding Plug",
-      "desc": "- สูงสุด 1\n- When a unit under this effect wins a Clash against the 'Grounding Refusal' Skill, inflict 1 Plugged In against the target\n- Halve the Charge Count บนตัวเป้าหมาย\n- Expires ในเทิร์นถัดไป",
+      "name": "ปลั๊กสายดินต่อต้านแกะ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- เมื่อตัวละครที่อยู่ใต้เอฟเฟกต์นี้แคลชชนะสกิล 'ต่อต้านสายดิน' จะสร้าง <sprite name=\"ConnectedPlug\"><color=#e30000>'เสียบปลั๊ก'</color> 1 หน่วยแก่เป้าหมาย\n- หักจำนวน <color=#f8c200>'ชาร์จ'</color> บนตัวเป้าหมายลงครึ่งหนึ่ง\n- หมดลงในเทิร์นถัดไป",
       "summary": ""
     },
     {
       "id": "ThundercloudFormation",
-      "name": "Gathering Lightning Cloud",
-      "desc": "- สูงสุด 5\n- At 1 value, use a powerful Skill.\n- Reduced by 1 at จบเทิร์น. ได้รับ 1 value when Staggered",
+      "name": "ควบรวมเมฆสายฟ้า",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- เมื่อมีปริมาณ 1 หน่วย จะใช้สกิลทรงพลัง\n- ลดลง 1 หน่วยเมื่อจบเทิร์น; ได้รับ 1 หน่วยเมื่อติดชะงัก",
       "summary": ""
     },
     {
       "id": "BandageOfTheBoundKing",
-      "name": "Bandages of the King in Binds",
-      "desc": "When defeated, inflict 2 Sinking Potency and 1 Count against all enemies.\nApply Bandages of the King in Binds against the target that defeated this unit. If the said target already has that effect, or if the said target does not exist, apply it to a random enemy without that effect",
+      "name": "ผ้าพันแผลของราชันใต้พันธนา",
+      "desc": "เมื่อถูกกำจัด จะสร้างค่า <color=#e30000>'จมดิ่ง'</color> 2 หน่วย และจำนวนครั้ง <color=#e30000>'จมดิ่ง'</color> +1 หน่วยแก่ศัตรูทั้งหมด\n\nมอบ <sprite name=\"BandageOfTheBoundKing\"><color=#f8c200>'ผ้าพันแผลของราชันใต้พันธนา'</color> แก่เป้าหมายที่กำจัดตัวละครนี้ หากเป้าหมายดังกล่าวมีเอฟเฟกต์นั้นอยู่ก่อนแล้ว หรือหากเป้าหมายดังกล่าวไม่อยู่บนสนามอีกต่อไป จะมอบเอฟเฟกต์ดังกล่าวแก่ศัตรูหนึ่งตัว ที่ไม่มีเอฟเฟกต์ข้างต้นแบบสุ่ม",
       "summary": ""
     },
     {
       "id": "ComeForwardToTheKing",
-      "name": "Moment of Audience",
-      "desc": "Gain Atk Weight เท่ากับ the value to all of this unit's Attack Skills. (สูงสุด 2)\nClash Lose: ได้รับ 1 Fragile ในเทิร์นถัดไป",
+      "name": "ถึงเวลาของผู้ชม",
+      "desc": "สกิลโจมตีของตัวละครนี้จะมีน้ำหนักการโจมตีเพิ่มขึ้น เท่ากับปริมาณเอฟเฟกต์นี้ (สูงสุด 2 ช่อง)\nแคลชแพ้: ได้รับ <color=#e30000>'เปราะบาง'</color> 1 หน่วยในเทิร์นถัดไป",
       "summary": ""
     },
     {
       "id": "RefractedWill",
-      "name": "Refracted Determination",
-      "desc": "Halve the amount of SP lost when an ally is defeated as per the Identity's 'Base factors decreasing Sanity(SP)'. (ปัดเศษลง)",
+      "name": "ปณิธานที่ถูกหักเห",
+      "desc": "หักครึ่งปริมาณ SP ที่แต่ละตัวตนจะเสียไปจาก 'ปัจจัยเสียสติพื้นฐาน (SP)' เมื่อพันธมิตรถูกกำจัด (ปัดเศษลง)",
       "summary": ""
     },
     {
       "id": "VioletPeccatulumTwo",
-      "name": "Peccatulum Invidiae Class 2",
-      "desc": "- Damage Dealt +15%\n- Damage Taken -15%\n- Units with this effect are marked by Peccatulum Invidiae - Class 2 aura",
+      "name": "Peccatulum Invidiae ระดับ 2",
+      "desc": "- ความเสียหายที่สร้าง +15%\n- ความเสียหายที่ได้รับ -15%\n- ตัวละครที่มีเอฟเฟกต์นี้จะมีถูกออร่าของ 'Peccatulum Invidiae - ระดับ 2' ตราตรึง",
       "summary": ""
     },
     {
       "id": "BigWelcome",
-      "name": "Grand Welcome",
-      "desc": "After Attack: if the target is Staggered or defeated, ได้รับ +1 Pride ทรัพยากร E.G.O and +1 ทรัพยากร E.G.O for 1 other random Affinity (3 times per turn)",
+      "name": "เปิดโถงต้อนรับอย่างยิ่งใหญ่",
+      "desc": "หลังโจมตี: หากเป้าหมายติดชะงักหรือถูกกำจัด จะได้รับทรัพยากร E.G.O ธาตุอัตตา +1 หน่วย และทรัพยากร E.G.O ของธาตุบาปอื่นหนึ่งธาตุแบบสุ่ม +1 หน่วย (มีผล 3 ครั้ง/เทิร์น)",
       "summary": ""
     },
     {
       "id": "Refraction4A",
-      "name": "#1 Deployment Effect",
-      "desc": "Identity Level +2",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #1",
+      "desc": "เลเวลตัวตน +2 หน่วย",
       "summary": ""
     },
     {
       "id": "Refraction4B",
-      "name": "#2 Deployment Effect",
-      "desc": "SP Heal Efficiency +3\nEntry SP +10",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #2",
+      "desc": "ประสิทธิภาพฟื้นฟู SP +3 หน่วย\nSP เมื่อเข้าสนาม +10 (-10 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4C",
-      "name": "#3 Deployment Effect",
-      "desc": "Offense Level +2",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #3",
+      "desc": "เลเวลจู่โจม +2 หน่วย",
       "summary": ""
     },
     {
       "id": "Refraction4D",
-      "name": "#4 Deployment Effect",
-      "desc": "Defense Level +2",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #4",
+      "desc": "เลเวลตั้งรับ +2 หน่วย",
       "summary": ""
     },
     {
       "id": "Refraction4E",
-      "name": "#5 Deployment Effect",
-      "desc": "สูงสุด Speed +2",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #5",
+      "desc": "เมื่อเริ่มเทิร์นที่ 2 เป็นต้นไป: ความเร็วสูงสุด +2 หน่วย",
       "summary": ""
     },
     {
       "id": "Refraction4F",
-      "name": "#6 Deployment Effect",
-      "desc": "สูงสุด HP +5%",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #6",
+      "desc": "HP สูงสุด +5%",
       "summary": ""
     },
     {
       "id": "Refraction4G",
-      "name": "#7 Deployment Effect",
-      "desc": "แต้มแคลชสกิล +1\nEntry SP +15",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #7",
+      "desc": "แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\nSP เมื่อเข้าสนาม +15 (-15 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4H",
-      "name": "#8 Deployment Effect",
-      "desc": "Damage Taken -10%\nEntry SP +15",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #8",
+      "desc": "ความเสียหายที่ได้รับ -10%\nSP เมื่อเข้าสนาม +15 (-15 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4I",
-      "name": "#9 Deployment Effect",
-      "desc": "Aggro +5\nEntry SP +20",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #9",
+      "desc": "<color=#9f6a3a>'ยั่วยุ'</color> +5 หน่วย\nSP เมื่อเข้าสนาม +20 (-20 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4J",
-      "name": "#10 Deployment Effect",
-      "desc": "Damage Dealt +10%\nEntry SP +20",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #10",
+      "desc": "สร้างความเสียหายเพิ่มขึ้น +10%\nSP เมื่อเข้าสนาม +20 (-10 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4K",
-      "name": "#11 Deployment Effect",
-      "desc": "แต้มปิดท้ายสกิล +1\nEntry SP +30",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #11",
+      "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\nSP เมื่อเข้าสนาม +30 (-30 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "Refraction4L",
-      "name": "#12 Deployment Effect",
-      "desc": "Identity Level +3\nEntry SP +30",
+      "name": "เอฟเฟกต์วางทัพลำดับที่ #12",
+      "desc": "เลเวลตัวตน +3 หน่วย\nSP เมื่อเข้าสนาม +30 (-30 สำหรับตัวตนที่ใช้เหรียญลบ)",
       "summary": ""
     },
     {
       "id": "BreathSupport",
-      "name": "Poised Showdown",
-      "desc": "Wave Start: ได้รับ 4 Poise Potency and Count.",
+      "name": "ตั้งท่าประจัญบาน",
+      "desc": "เริ่มเวฟต่อสู้: ได้รับค่าและจำนวนครั้ง <color=#f8c200>'ตั้งท่า'</color> อย่างละ 4 หน่วย",
       "summary": ""
     },
     {
       "id": "FirmWill",
-      "name": "Resilient Determination",
+      "name": "ปณิธานยืดหยุ่น",
       "desc": "Does not lose SP upon ally defeat.",
       "summary": ""
     }
