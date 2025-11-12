@@ -2,123 +2,123 @@
   "dataList": [
     {
       "id": 863001,
-      "name": "Melee Combat",
-      "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย, deal +10% damage ตามทุก ๆ Speed difference (สูงสุด 30%)\nIf this unit's Speed is slower than the target's deal -10% damage ตามทุก ๆ Speed difference (สูงสุด 30%)"
+      "name": "ต่อสู้ระยะประชิด",
+      "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่าความเร็วที่ต่างกัน (สูงสุด 30%)\n- หากความเร็วของตัวละครนี้ต่ำกว่าเป้าหมาย จะสร้างความเสียหายลดลง -10% ตามทุก ๆ ค่าความเร็วที่ต่างกันแทน (สูงสุด 30%)"
     },
     {
       "id": 863002,
-      "name": "Charge Forth",
-      "desc": "Raise Min & Max Speed values by 1 ตามทุก ๆ 5 [Breath] on self (สูงสุด 4)"
+      "name": "ทะลวงเข้าไป",
+      "desc": "ค่าความเร็วสุดต่ำ & สูงสุดเพิ่มขึ้น 1 หน่วย ตามทุก ๆ ค่า [Breath] 5 หน่วยที่ตนเองมี (สูงสุด 4 แต้ม)"
     },
     {
       "id": 863003,
-      "name": "Summon Targets",
-      "desc": "At 75%- HP, ได้รับ a new pattern\nWhen gaining a new pattern, summon G Corp. Head Manager and Downcast Veteran; then, สร้าง Stigmatized บนตัวเป้าหมาย with the least current HP\n- Change Min & Max Speed values on self to 1.\n- ได้รับ 300 Shield HP."
+      "name": "อัญเชิญเป้าหมาย",
+      "desc": "เมื่อมี HP 75%- จะได้รับรูปแบบการโจมตีใหม่\nเมื่อได้รับรูปแบบการโจมตีใหม่ จะอัญเชิญ 'หัวหน้าผู้จัดการ G คอร์ป.' และ 'ทหารผ่านศึกห่อเหี่ยว' ออกมา; จากนั้น สร้าง [FellBulletMark] บนตัวเป้าหมายที่มี HP ปัจจุบันต่ำที่สุด\n- ทำให้ความเร็วต่ำสุด & สูงสุดของตนเองเป็น 1 หน่วย\n- ได้รับโล่ HP 300 หน่วย"
     },
     {
       "id": 863004,
-      "name": "Designate Target",
-      "desc": "When using Designated Target Fire or Target Readjustment Fire: among targets with the slowest Speed, สร้าง [FellBulletMark] against target with the least current HP"
+      "name": "เป้าหมายที่ระบุ",
+      "desc": "เมื่อใช้สกิล 'ยิงเป้าหมายที่ระบุ' หรือ 'เหนี่ยวไกปรับวิถีเป้าหวังผล': ท่ามกลางเป้าหมายที่มีความเร็วต่ำที่สุด จะสร้าง [FellBulletMark] แก่เป้าหมายที่มี HP ปัจจุบันต่ำที่สุด"
     },
     {
       "id": 863201,
-      "name": "Oxygen Supply",
-      "desc": "At the first เริ่มเทิร์น of the turn Sleeping Bag of a Bygone Day appeared, it gains 10 [Breath] Potency and +10 [Breath] Count\n\nจบเทิร์น: at less than 10 [Breath] Potency or [Breath] Count, ผลาญ HP from the Head Part เท่ากับ 2% of the Core's max HP to ได้รับ 5 [Breath] and +5 [Breath] Count (cannot be Part broken or defeated due to this effect)"
+      "name": "เสบียงออกซิเจน",
+      "desc": "เมื่อเริ่มเทิร์นแรกในตอนที่ 'ถุงนอนของวันที่ล่วงพ้น' ปรากฏกาย มันจะได้รับค่า [Breath] 10 หน่วย และจำนวนครั้ง [Breath] +10 หน่วย\n\nจบเทิร์น: หากมีค่า [Breath] หรือจำนวนครั้ง [Breath] ต่ำกว่า 10 หน่วย จะผลาญ HP จากอวัยวะ 'หัว' เท่ากับ 2% ของ HP สูงสุดแกนหลัก เพื่อทำให้ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +5 หน่วย (เอฟเฟกต์นี้จะไม่ทำให้อวัยวะถูกทำลายหรือถูกกำจัด)"
     },
     {
       "id": 863202,
-      "name": "Deep Breath",
-      "desc": "Multiply Critical Chance from [Breath] effects by x 1.5\n\nOn Crit:\n- At 15+ [Breath] Potency, ผลาญ up to ([Breath] Potency on self / 5) [Breath] Potency to deal +([Breath] Potency consumed x 4)% damage on Crit\n- At 15+ [Breath] Count, ผลาญ up t ([Breath] Count on self / 5) [Breath] Count to deal +([Breath] Count consumed x 8)% damage on Crit"
+      "name": "สูดลมหายใจเข้าลึก",
+      "desc": "คูณโอกาสติดคริติคอลของเอฟเฟกต์ [Breath] เป็น x1.5 เท่า (มีโอกาสติดคริติคอล 7.5% ต่อค่า [Breath] 1 หน่วย)\n\nเมื่อติดคริติคอล:\n- เมื่อมีค่า [Breath] 15+ หน่วย:\nผลาญค่า [Breath] สูงสุด (ค่า [Breath] ที่ตนเองมี / 5) หน่วย เพื่อทำให้สร้างความเสียหายคริติคอลเพิ่มขึ้น +(ค่า [Breath] ที่ผลาญไป x 4)%\n- เมื่อมีจำนวนครั้ง [Breath] 15+ หน่วย:\nผลาญจำนวนครั้ง [Breath] สูงสุด (จำนวนครั้ง [Breath] ที่ตนเองมี / 5) หน่วย เพื่อทำให้สร้างความเสียหายคริติคอลเพิ่มขึ้น +(จำนวนครั้ง [Breath] ที่ผลาญไป x 8)%"
     },
     {
       "id": 863203,
-      "name": "Oxygen-saturated",
-      "desc": "In the turn this unit uses 'That's... Mine!', fix its Speed to 1. เมื่อเริ่มเทิร์น, apply 6 [Breath] Potency and +6 [Breath] Count to all units present on the Stage.\n\nAt the end of the same turn, ผลาญ any excess [Breath] Potency and [Breath] Count past 5 Potency and 5 Count; then, at the ในเทิร์นถัดไป Start, apply the same amount of [Breath] Potency and [Breath] Count consumed to the Head Part"
+      "name": "อิ่มออกซิเจน",
+      "desc": "ในเทิร์นเดียวกับที่ตัวละครนี้ใช้สกิล 'นั่นมัน... ของฉัน!' จะทำให้ความเร็วของมันเป็น 1 หน่วยตายตัว\n\nเมื่อเริ่มเทิร์น จะมอบค่า [Breath] 6 หน่วย และจำนวนครั้ง [Breath] +6 หน่วย ให้กับตัวละครทั้งหมดบนสนาม\n\nเมื่อจบเทิร์นดังกล่าว จะผลาญค่า [Breath] และจำนวนครั้ง [Breath] ทั้งหมดที่เกิน 5 หน่วยมา; จากนั้น เมื่อเริ่มเทิร์นถัดไป จะมอบค่า [Breath] ในจำนวนครั้ง [Breath] ในปริมาณเท่ากับที่ผลาญไปให้กับอวัยวะ 'หัว'"
     },
     {
       "id": 863204,
-      "name": "Shattered Ribcage",
-      "desc": "When the Body Part is broken, remove the Body Part ในเทิร์นถัดไป and replace it with a Person Part"
+      "name": "ซี่โครงแตกหัก",
+      "desc": "เมื่ออวัยวะ 'ลำตัว' ถูกทำลาย จะนำอวัยวะ 'ลำตัว' ออกในเทิร์นถัดไป และแทนที่ด้วยอวัยวะ 'คน'"
     },
     {
       "id": 863205,
-      "name": "Ribcage Regeneration",
-      "desc": "At Combat End, halve the [Breath] Potency and [Breath] Count on the Person Part\nในเทิร์นถัดไป, the Person Part disappears and is replaced by Body Part"
+      "name": "ซี่โครงฟื้นตัว",
+      "desc": "เมื่อจบการต่อสู้ จะหักครึ่งค่า [Breath] และจำนวนครั้ง [Breath] บนอวัยวะ 'คน'\nในเทิร์นถัดไป อวัยวะ 'คน' จะหายไป และถูกแทนที่ด้วยอวัยวะ 'ลำตัว'"
     },
     {
       "id": 863206,
-      "name": "Excruciating Suffering",
-      "desc": "Every time this unit loses a Clash and takes a hit, lose 1 [Breath] Potency\n\nEvery time this unit is hit by an Unopposed Attack, lose 1 [Breath] Count\n\nThis unit's [Breath] Potency and [Breath] Count, regardless of whether an attack hit Critically or whether its Passive activated, does not drop below 5"
+      "name": "ความระทมทุกข์ขั้นรุนแรง",
+      "desc": "ทุกครั้งที่ตัวละครนี้:\n- แคลชแพ้และถูกโจมตี จะเสียค่า [Breath] 1 หน่วย\n- ถูกโจมตีโดยตรง จะเสียจำนวนครั้ง [Breath] 1 หน่วย\n\nแต่ไม่ว่าตัวละครนี้จะโจมตีติดคริติคอล หรือเอฟเฟกต์ข้างต้นของสกิลนี้ทำงานมากเพียงใด ก็จะไม่ทำให้ค่า [Breath] และจำนวนครั้ง [Breath] ของตัวละครนี้ลดต่ำกว่า 5 หน่วย"
     },
     {
       "id": 863207,
-      "name": "Anguished Screaming",
-      "desc": "At 40% or less Core HP, use 'Share the Pain' ในเทิร์นถัดไป"
+      "name": "เสียงกรีดร้องปวดร้าว",
+      "desc": "เมื่อมี HP แกนหลักอยู่ที่ 40% หรือต่ำกว่า จะใช้สกิล 'แบ่งปันความเจ็บปวด' ในเทิร์นถัดไป"
     },
     {
       "id": 863208,
-      "name": "After Effect",
-      "desc": "When the Person dies, both the Body and the Head Parts ได้รับ +0.2 Resistance to Slash, Pierce, and Blunt until ในเทิร์นถัดไป (once per Encounter)"
+      "name": "ผลพวงห้อยตาม",
+      "desc": "เมื่ออวัยวะ 'คน' ตาย จะทำให้ตัวคูณความต้านทานกายภาพ (ฟัน, แทง, ทุบ) ของทั้งอวัยวะ 'ลำตัว' และ 'หัว' เพิ่มขึ้น +0.2 หน่วยจนถึงเทิร์นถัดไป (มีผล 1 ครั้ง/การเผชิญหน้า)"
     },
     {
       "id": 863301,
-      "name": "Indulgent Petals",
-      "desc": "จบเทิร์น: at 20+ [BloodDinner], ผลาญ up to 50 [BloodDinner] and heal the Core and the Head Parts เท่ากับ [BloodDinner] consumed\n- Does not activate if the Head Part is either Staggered or Destroyed"
+      "name": "กลีบปรนเปรอ",
+      "desc": "จบเทิร์น: เมื่อมี [BloodDinner] 20+ หน่วย จะผลาญ [BloodDinner] สูงสุด 50 หน่วย และฟื้นฟู HP แกนหลักและอวัยวะ 'หัว' เท่ากับ [BloodDinner] ที่ผลาญไป\n- ไม่ทำงานหากอวัยวะ 'หัว' ติดชะงักอยู่หรือถูกทำลายไปแล้ว"
     },
     {
       "id": 863302,
-      "name": "A Drop of Nourishment",
-      "desc": "After Attack, heal the Core and the Part เท่ากับ the amount of damage this unit's Attack Skill dealt\n- Does not activate if the Head Part is either Staggered or Destroyed"
+      "name": "หนึ่งหยดแห่งการทำนุบำรุง",
+      "desc": "หลังจากโจมตี จะฟื้นฟู HP แกนหลักและอวัยวะต่าง ๆ เท่ากับปริมาณความเสียหายที่สกิลโจมตีของตัวละครนี้สร้าง\n- ไม่ทำงานหากอวัยวะ 'หัว' ติดชะงักอยู่หรือถูกทำลายไปแล้ว"
     },
     {
       "id": 863303,
-      "name": "Yearning",
-      "desc": "จบเทิร์น: if this unit healed HP, ได้รับ 1 [AttackUp] and 1 [DefenseDown] ในเทิร์นถัดไป ตามทุก ๆ 10 HP healed (สูงสุด 10)"
+      "name": "โหยหา",
+      "desc": "จบเทิร์น: หากตัวละครนี้ได้รับการฟื้นฟู HP จะได้รับ [AttackUp] 1 หน่วย และ [DefenseDown] 1 หน่วย ในเทิร์นถัดไป ตามทุก ๆ HP 10 หน่วยที่ถูกฟื้นฟู (สูงสุด 10 หน่วย)"
     },
     {
       "id": 863304,
-      "name": "Bloodthirsty Stench",
-      "desc": "At 100+ [BloodDinner], use a special Skill\nจบเทิร์น: at 500+ [BloodDinner_Accumulation] by this unit, or if this unit is at less than 60% HP, ได้รับ a new pattern"
+      "name": "กลิ่นสาบกระหายโลหิต",
+      "desc": "เมื่อมี [BloodDinner] 100+ หน่วย จะใช้สกิลพิเศษ\nจบเทิร์น: เมื่อตัวละครนี้มี [BloodDinner_Accumulation] 500+ หน่วย หรือหากตัวละครนี้มี HP ต่ำกว่า 60% จะได้รับรูปแบบการโจมตีใหม่"
     },
     {
       "id": 863305,
-      "name": "Refracted Sin",
-      "desc": "[Combustion], [Laceration], [Vibration], [Burst], and [Sinking] Potency only stacks up to 50 (including the Unique variations of above Keywords)"
+      "name": "บาปหักเห",
+      "desc": "ค่า [Combustion], [Laceration], [Vibration], [Burst], และ [Sinking] จะสามารถสะสมได้มากสุดเพียง 50 หน่วย (รวมถึงเอฟเฟกต์ที่นับเป็น 'เอฟเฟกต์ข้างต้นแบบพิเศษ' ด้วย)"
     },
     {
       "id": 863306,
-      "name": "Sharp Thorn",
-      "desc": "If this unit's Body Part takes damage from an enemy Skill, สร้าง +1 [Laceration] Count on the attacker (once per turn per Identity)"
+      "name": "หนามแหลมคม",
+      "desc": "หากอวัยวะ 'ลำตัว' ของตัวละครนี้ได้รับความเสียหายจากสกิลศัตรู จะสร้างจำนวนครั้ง [Laceration] +1 หน่วยแก่ผู้โจมตี (มีผล 1 ครั้ง/เทิร์น/ตัวตน)"
     },
     {
       "id": 863307,
-      "name": "Endless Thirst",
-      "desc": "เริ่มเทิร์น: ได้รับ 1 [DefenseDown] ตามทุก ๆ 100 [BloodDinner_Accumulation] by this unit (สูงสุด 10)\nเริ่มเทิร์น: ได้รับ 1 [TakeHpHealIncrease] ตามทุก ๆ 200 [BloodDinner_Accumulation] by this unit (สูงสุด 5)"
+      "name": "กระหายไร้สิ้นสุด",
+      "desc": "เริ่มเทิร์น:\n- ได้รับ [DefenseDown] 1 หน่วย ตามทุก ๆ [BloodDinner_Accumulation] 100 หน่วยโดยตัวละครนี้ (สูงสุด 10 หน่วย)\n- ได้รับ [TakeHpHealIncrease] 1 หน่วย ตามทุก ๆ [BloodDinner_Accumulation] 200 หน่วยโดยตัวละครนี้ (สูงสุด 5 หน่วย)"
     },
     {
       "id": 863308,
-      "name": "Endless Yearning",
-      "desc": "Triggers a Choice Event every 'multiple of 3' turns."
+      "name": "โหยหาไม่สิ้นสุด",
+      "desc": "ทำให้เกิดอีเวนต์ทางเลือกทุก ๆ 3 เทิร์น"
     },
     {
       "id": 863309,
-      "name": "Increased Refraction Rate",
-      "desc": "If 9 turns have passed since this unit appeared on the field, starting ในเทิร์นถัดไป, ได้รับ 1 [AttackUp] every turn past the 10th turn (สูงสุด 10)"
+      "name": "เพิ่มอัตราหักเห",
+      "desc": "หากผ่านไปแล้ว 9 เทิร์นนับจากตัวละครนี้ปรากฏตัวบนสนาม นับแต่เริ่มเทิร์นถัดไป จะได้รับ [AttackUp] 1 หน่วย ตามทุก ๆ เทิร์นที่เกินเทิร์นที่ 10 ไป (สูงสุด 10 หน่วย)"
     },
     {
       "id": 863101,
-      "name": "Designated Execution",
-      "desc": "When killed by Der Fluchschütze, apply 1 [Agility], 1 [Enhancement], and 2 [AttackDmgUp] ในเทิร์นถัดไป to Der Fluchschütze"
+      "name": "การประหารที่ระบุไว้แล้ว",
+      "desc": "เมื่อถูกกำจัดโดย 'พลแม่นปืนต้องสาป' จะมอบ [Agility] 1 หน่วย, [Enhancement] 1 หน่วย, และ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไปให้กับ 'พลแม่นปืนต้องสาป'"
     },
     {
       "id": 863102,
-      "name": "First Strike Wins",
-      "desc": "When killed by a Sinner, give 3 ทรัพยากร E.G.O in the affinity of the Skill that killed this unit"
+      "name": "เปิดก่อนได้ก่อน",
+      "desc": "เมื่อถูกซินเนอร์สังหาร จะได้รับทรัพยากร E.G.O ของธาตุสกิลที่ใช้กำจัดตัวละครนี้ 3 หน่วย"
     },
     {
       "id": 863103,
-      "name": "Not Me",
-      "desc": "If this unit doesn't have Stigmatized at Combat Start, ได้รับ 300 Shield."
+      "name": "ไม่ใช่ฉัน",
+      "desc": "เมื่อเริ่มการต่อสู้ หากตัวละครนี้ไม่มี [FellBulletMark] จะได้รับโล่ 300 หน่วย"
     }
   ]
 }
