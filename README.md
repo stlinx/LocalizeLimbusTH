@@ -63,7 +63,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ Canto 5  
 ✘ Canto 6  
 ✘ Canto 7  
-✘ Canto 8  
+✘ Canto 8  JoshWaltz49
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
