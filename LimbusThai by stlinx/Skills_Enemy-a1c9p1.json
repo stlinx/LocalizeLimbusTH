@@ -5,23 +5,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pierce",
+          "name": "แทง",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -31,29 +31,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flesh Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "name": "กระชากกายเนื้อ",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 5+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย\n- หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท จะสร้างจำนวนครั้ง [Laceration] เพิ่มเติมอีก +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย\n- หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท จะสร้างจำนวนครั้ง [Laceration] เพิ่มเติมอีก +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] สร้าง [DefenseDown] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -63,48 +63,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "งานศิลป์: เอกราชของกระดูกที่ขึ้นอยู่กับจังหวะหัวใจ",
+          "desc": "แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ เปอร์เซ็นต์ HP 20% ที่หายไปของ 'แกนหลัก' ตัวละครนี้ (สูงสุด 4 แต้ม)\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Vibration] +2 หน่วย\n[DefeatDuel] ได้รับ [Paralysis] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] เสีย HP 30% ของ HP 'แกนหลัก' ปัจจุบันของตัวละครนี้ (เอฟเฟกต์นี้จะไม่ทำให้ติดชะงัก; ปัดเศษลง)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Laceration] 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [Switch_Vibration] กลายเป็น [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -114,16 +114,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (มีผลเทิร์นละครั้ง)",
+          "name": "กล้ามเนื้อหดตัว",
+          "desc": "[CanDuelGuard]\n[StartBattle] ได้รับ [MuscleContraction] 1 หน่วยในเทิร์นถัดไป เมื่อถูกโจมตีจะได้รับ [MuscleContraction] เพิ่มเติมอีก +1 หน่วย (มีผลเทิร์นละครั้ง)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
@@ -133,23 +133,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Jab",
+          "name": "กระทุ้ง",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 4 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -159,23 +159,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vascular Tear",
-          "desc": "If target has 5+ [Laceration], Base Power +1\nIf target has 3+ types of negative effects, deal +30% damage",
+          "name": "ฉีกหลอดเลือดกระเซ็น",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 5+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\nหากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท จะสร้างความเสียหายเพิ่มขึ้น +30%",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -185,48 +185,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "งานศิลป์: เอกราชของกระดูกที่ขึ้นอยู่กับจังหวะหัวใจ",
+          "desc": "แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ เปอร์เซ็นต์ HP 20% ที่หายไปของ 'แกนหลัก' ตัวละครนี้ (สูงสุด 4 แต้ม)\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Vibration] +2 หน่วย\n[DefeatDuel] ได้รับ [Paralysis] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] เสีย HP 30% ของ HP 'แกนหลัก' ปัจจุบันของตัวละครนี้ (เอฟเฟกต์นี้จะไม่ทำให้ติดชะงัก; ปัดเศษลง)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Laceration] 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [Switch_Vibration] กลายเป็น [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -236,16 +236,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (มีผลเทิร์นละครั้ง)",
+          "name": "กล้ามเนื้อหดตัว",
+          "desc": "[CanDuelGuard]\n[StartBattle] ได้รับ [MuscleContraction] 1 หน่วยในเทิร์นถัดไป เมื่อถูกโจมตีจะได้รับ [MuscleContraction] เพิ่มเติมอีก +1 หน่วย (มีผลเทิร์นละครั้ง)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
@@ -255,26 +255,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bound Muscles",
+          "name": "มัดกล้ามเนื้อ",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] สร้าง [Desire] 1 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -284,29 +284,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear and Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "name": "ฉีกและกระชาก",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 5+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย\n- หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท จะสร้างจำนวนครั้ง [Laceration] เพิ่มเติมอีก +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] สร้าง [Desire] 1 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย\n- หากเป้าหมายมีสถานะผิดปกติ 3+ ประเภท จะสร้างจำนวนครั้ง [Laceration] เพิ่มเติมอีก +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] สร้าง [Desire] 1 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -316,48 +316,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Adorned by Desire",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "งานศิลป์ประดับประดาด้วยความปรารถนา",
+          "desc": "แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ เปอร์เซ็นต์ HP 20% ที่หายไปของ 'แกนหลัก' ตัวละครนี้ (สูงสุด 4 แต้ม)\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] สร้างจำนวนครั้ง [Vibration] +2 หน่วย\n[DefeatDuel] ได้รับ [Paralysis] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 2 [Desire] next turn"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] เสีย HP 30% ของ HP 'แกนหลัก' ปัจจุบันของตัวละครนี้ (เอฟเฟกต์นี้จะไม่ทำให้ติดชะงัก; ปัดเศษลง)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Laceration] 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Desire] 2 หน่วยในเทิร์นถัดไป"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [Switch_Vibration] กลายเป็น [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -367,16 +367,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tightening Ribbons",
-          "desc": "[CanDuelGuard]\nWhen hit, inflict 1 [PinkRibbon_Ishmael] against the attacker (once per Skill)\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (มีผลเทิร์นละครั้ง)",
+          "name": "ริบบิ้นรัดแน่นขึ้นเรื่อย ๆ",
+          "desc": "[CanDuelGuard]\nเมือถูกโจมตี จะสร้าง [PinkRibbon_Ishmael] 1 หน่วยแก่ผู้โจมตี (มีผลสกิลละครั้ง)\n[StartBattle] ได้รับ [MuscleContraction] 1 หน่วยในเทิร์นถัดไป เมื่อถูกโจมตีจะได้รับ [MuscleContraction] เพิ่มเติมอีก +1 หน่วย (มีผลเทิร์นละครั้ง)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
