@@ -2464,30 +2464,30 @@
     },
     {
       "id": "TheUdjatOutis",
-      "name": "The Udjat [Vanguard]",
-      "desc": "- Max Stack: 2\n- Min & Max Speed +3\n- Combat Start: gain 1 Protection\n- Gain the following effects during the Combat Phase (once per Skill, 3 times per turn)\n· When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n· Clash Start: In the first Clash, halve the target's chance to flip Heads for all of its Coins\n· For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\n- Turn End: Reduce 1 Stack",
-      "summary": "",
+      "name": "อัตจัตต์ [แนวหน้า]",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 2 หน่วย\n- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น อย่างละ +3 หน่วย\n- เริ่มการต่อสู้: ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 1 หน่วย\n- ได้รับเอฟเฟกต์ต่าง ๆ ดังต่อไปนี้ในระหว่างเฟสต่อสู้ (มีผลสกิลละครั้ง; มีผล 3 ครั้งต่อเทิร์น)\n· เมื่อตัวละครนี้เป็นเป้าหมายหลักของสกิลโจมตี ที่โจมตีโดยตรง จะทำให้เหรียญแรกของสกิลดังกล่าว มีโอกาสทอยหัวลดลงครึ่งหนึ่ง\n· เริ่มแคลช: ในการแคลชครั้งแรก จะทำให้เหรียญทั้งหมดของสกิลเป้าหมายมีโอกาสทอยหัวลดลงครึ่งหนึ่ง\n· สำหรับเอฟเฟกต์ทั้งสองข้างต้น หากเป้าหมายใช้สกิลเหรียญลบ จะทำให้โอกาสทอยออกก้อยลดลงครึ่งหนึ่งแทน\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
+      "summary": "ต้านทานความเสียหายได้มากขึ้น ลดโอกาสทอยเหรียญสกิลศัตรูเมื่อตรงเงื่อนไข",
       "undefined": "-"
     },
     {
       "id": "BlueSand",
-      "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"\n- Units without SP: Min & Max Speed -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Blue Sand Panic Effects\n- Low Morale: Clash Power -1, Min & Max Speed -1\n- Panic: Clash Power -2, Min & Max Speed -1",
-      "summary": "",
+      "name": "ทรายสีฟ้า",
+      "desc": "- เมื่อแคลชแพ้ จะได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +1 หน่วย (มีผล 3 ครั้ง/เทิร์น)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <sprite name=\"BlueSand\"><color=#e30000>\"ทรายสีฟ้า\"</color>\n- สำหรับตัวละครที่ไม่มี SP: ความเร็วต่ำสุด & สูงสุดลดลง อย่างละ -1 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้ การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่ถูกสร้างแทน\n※ เงื่อนไขของ 'สำหรับตัวละครที่ไม่มี SP' จะส่งผลถึงศัตรูบางตัวที่มี SP แต่ไม่สามารถเปลี่ยนประเภทการแตกตื่นได้\n\n※เอฟเฟกต์แตกตื่นของ <sprite name=\"BlueSand\"><color=#e30000>\"ทรายสีฟ้า\"</color>\n- ขวัญอ่อน: แต้มแคลชสกิลลดลง -1 แต้ม, ความเร็วต่ำสุด & สูงสุดลดลง อย่างละ -1 หน่วย\n- แตกตื่น: แต้มแคลชสกิลลดลง -2 แต้ม, ความเร็วต่ำสุด & สูงสุดลดลง อย่างละ -1 หน่วย",
+      "summary": "ได้รับ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> เมื่อแคลชแพ้ และลดความเร็วกับแต้มแคลชสกิล",
       "undefined": "-"
     },
     {
       "id": "SheutFracture",
-      "name": "Sheut Fracture",
-      "desc": "- Max Stack: 10\n- Unique Sinking\n- For every Stack, take +1% more damage from Sloth and Gloom Skills\n- At max Stack, gain 1 Gloom Fragility (once per turn), take Gloom damage equal to Sinking Potency on self(lose 1 Sinking Count), then expires\n- If the unit with this effect dies, transfer half of its Stack to its ally with the highest SP (rounded down)\n- Turn Start: If there are no LCA Identities on the field, expires",
-      "summary": "",
+      "name": "เงาแตกร้าว",
+      "desc": "[นับเป็น <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> แบบพิเศษ]\n- ปริมาณทับซ้อนสูงสุด: 10 หน่วย\n- เมื่อถูกโจมตีโดยสกิลธาตุเกียจคร้าน หรือธาตุโศกา จะได้รับความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ปริมาณทับซ้อนที่มี\n- เมื่อมีปริมาณทับซ้อนสูงสุด จะได้รับ <sprite name=\"AzureTakeDamageUp\"><color=#e30000>'เปราะบางต่อธาตุโศกา'</color>  1 หน่วย (มีผลเทิร์นละครั้ง) และได้รับความเสียหายธาตุโศกาเท่ากับค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> ที่ตนเองมี (เสียจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> 1 หน่วย) จากนั้นเอฟเฟกต์นี้จะหมดลง\n- เมื่อตัวละครที่มีเอฟเฟกต์นี้ตาย จะโอนย้ายปริมาณทับซ้อนของเอฟเฟกต์นี้ครึ่งหนึ่ง ให้กับพันธมิตรที่มี SP สูงที่สุด\n- เริ่มเทิร์น: หากไม่มีตัวตน <LCA> บนสนาม เอฟเฟกต์นี้จะหมดลง",
+      "summary": "<sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> แบบพิเศษ ที่ทำให้ได้รับความเสียหาย จากสกิลธาตุเกียจคร้านและธาตุโศกาเพิ่มขึ้น",
       "undefined": "-"
     },
     {
       "id": "LCA_Bullet",
-      "name": "LCA Fracture Round",
-      "desc": "- Max Capacity: 16\n- Unique Ammo\n- Spent by certain Skills\n- Some attacks cancel if lacking Ammo",
-      "summary": "",
+      "name": "กระสุนแตกร้าวหน่วย LCA",
+      "desc": "[ นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ ]\n- ความจุสูงสุด: 16 นัด\n- จ่ายโดยบางสกิล\n- บางการโจมตีจะถูกยกเลิก หาก <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> ไม่เพียงพอ",
+      "summary": "<sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ",
       "undefined": "-"
     }
   ]
