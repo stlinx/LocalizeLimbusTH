@@ -6,15 +6,12 @@
 # LocalizeLimbusTH
 addon แปลไทยสำหรับ Limbus Company
 
-[![ดาวน์โหลด](https://img.shields.io/github/downloads/stlinx/LocalizeLimbusTH/total.svg?label=ดาวน์โหลด)](../../releases)
-[![Version](https://img.shields.io/github/release/LocalizeLimbusCompany/LocalizeLimbusCompany.svg?label=最新版)](../../releases/latest)
-[![Localize Limbus Chat Group](https://img.shields.io/badge/加入-QQ频道-blue?logo=tencent-qq)](https://pd.qq.com/s/fpzhrgdwo)
+[![ดาวน์โหลด](https://img.shields.io/github/downloads/stlinx/LocalizeLimbusTH/total.svg?label=Download&style=for-the-badge&color=%23007EC6)](../../releases)
+[![Version](https://img.shields.io/github/release/stlinx/LocalizeLimbusTH.svg?label=Latest&style=for-the-badge&color=%23007EC6)](../../releases/latest)
+[![Discord](https://img.shields.io/discord/701801720040259644?logo=Discord&label=%20Discord&color=%233AAD6F&style=for-the-badge)](https://discord.gg/6H9SHXNGjD)  
+[简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS)
 
-[한국어](https://limbuscompany.kr) | ~~Deutsch~~ | [Español](https://github.com/Dreams-Office/LimbusCompanySpanishTranslationTeam) | [日本語](https://limbuscompany.kr) | [Français](https://github.com/Eden-Office/LimbusCompanyBusFR) | [简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)
-
-[English](./.github/EN_README.md) | ~~American English~~ | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) | ~~Swiss~~ | ~~Ελληνικά~~ | ~~Österreich~~
-
-[繁體中文](https://github.com/SmallYuanSY/LocalizeLimbusCompany) | **ภาษาไทย**  | [Indonesia](https://github.com/ArtefactX1/LocalizeLimbusID)
+[繁體中文](https://github.com/LimbusTraditionalMandarin/storyline) | **ภาษาไทย** | [Español](https://github.com/Dreams-Office/LimbusCompanySpanishTranslationTeam) | [Français](https://github.com/Eden-Office/LimbusCompanyBusFR)
 </div>
 
 # ข้อสงวนสิทธิ์ (Disclaimer)
@@ -46,10 +43,9 @@ addon แปลไทยสำหรับ Limbus Company
 ---
 ## 📝 ประวัติการอัปเดตล่าสุด
 
-• ปรับแก้คำแปลตรงจุดต่างๆ
-• แปลระบบใหม่
-• แปลสกิล/พาซซีฟตัวตนใหม่
-• แปล Canto IV ช่วงที่ 2
+• ปรับแก้คำแปลตรงจุดต่างๆ  
+• แปลสกิล/พาซซีฟตัวตนใหม่  
+• แปลสกิลศัตรูทั้งหมดใน Canto IX part 1  
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
@@ -57,11 +53,12 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 1  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 3  JoshWaltz49  
-✘ Canto 4  
+✘ Canto 4  JoshWaltz49 (WIP)  
 ✘ Canto 5  
 ✘ Canto 6  
 ✘ Canto 7  
-✘ Canto 8  JoshWaltz49
+✔ Canto 8  JoshWaltz49  
+✘ Canto 9  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
@@ -83,7 +80,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ 7.5-2 : Nocturnal Sweeping  JoshWaltz49  
 ✘ พิเศษ : The 6th Walpurgis Night  
 ✘ 8.5 : Spring Cultivation  
-✘ 8.5 : Pilgrimage Of Compassion
+~~✘ 8.5 : Pilgrimage Of Compassion~~  
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
 • ชื่อตัวตน — เสร็จสิ้น  all  
