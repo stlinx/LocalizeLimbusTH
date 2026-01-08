@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "สิ่งกีดขวาง",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] ได้รับ +3 [Breath] จำนวนครั้ง",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] + ค่า [Vibration]) 2 หน่วยบนตัวเป้าหมาย (สูงสุด 5 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย"
                 }
               ]
             }
@@ -31,20 +31,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Double Chaincleave",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] ได้รับ +3 [Breath] จำนวนครั้ง",
+          "name": "ฟาดฟันต่อเนื่องซ้ำสอง",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] + ค่า [Vibration]) 2 หน่วยบนตัวเป้าหมาย (สูงสุด 5 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             }
@@ -57,8 +57,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Throw",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 200%)\n[WhenUse] ได้รับ 2 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
+          "name": "ขว้างฉมวก",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 200%)\n[WhenUse] ได้รับ [CriticalDmgUpVespa] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -69,7 +69,7 @@
                   "desc": "[OnSucceedAttack] สร้าง [BeeSting]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 80% of damage dealt"
+                  "desc": "[OnSucceedAttack] ดึงเกจชะงักขึ้น เท่ากับ 80% ของความเสียหายที่สร้าง"
                 }
               ]
             }
@@ -82,8 +82,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Impalement - There It Is.",
-          "desc": "[CantChangeTarget]\nDeal +50% damage for every type of negative effect on target (max 300%)\n[WhenUse] ได้รับ 5 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
+          "name": "ฉมวกทะลวงกาย - นี่ไงล่ะ",
+          "desc": "[CantChangeTarget]\nสร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 300%)\n[WhenUse] ได้รับ [CriticalDmgUpVespa] 5 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -94,7 +94,7 @@
                   "desc": "[OnSucceedAttack] สร้าง [ArtifactBeeSting]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Stagger target"
+                  "desc": "[OnSucceedAttack] ทำให้เป้าหมายติดชะงัก"
                 }
               ]
             }
@@ -107,13 +107,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Recall",
-          "desc": "[CantDuel]\nDeal +50% damage for every type of negative effect on target (max 200%)",
+          "name": "เรียกคืนฉมวก",
+          "desc": "[CantDuel]\nสร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 200%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove the Nested Harpoon on target"
+                  "desc": "[OnSucceedAttack] ดึง 'ฉมวกฝังราก' กลับจากเป้าหมาย"
                 }
               ]
             }
@@ -126,20 +126,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counterattack.",
-          "desc": "[DuelCounter]\nDeal +50% damage for every type of negative effect on target (max 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] ได้รับ 2 [ResultEnhancement] and 2 [AttackDmgUp] ในเทิร์นถัดไป",
+          "name": "สวนกลับ",
+          "desc": "[DuelCounter]\nสร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>ได้รับ [SupportProtect] 1 หน่วย</color></mark></b></u>\n[WhenUse] ได้รับ [ResultEnhancement] 2 หน่วย และ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             }
@@ -152,8 +152,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Defensive Assist.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill",
+          "name": "สนับสนุนการตั้งรับ",
+          "desc": "[CanDuelGuard]\nสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]",
           "coinlist": [
             {
               "coindescs": [
