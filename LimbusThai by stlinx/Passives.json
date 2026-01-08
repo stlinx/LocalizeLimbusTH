@@ -2627,7 +2627,7 @@
       "id": 1021403,
       "name": "ประสงค์แห่งบทบัญญัติ",
       "desc": "จบเทิร์น: หาก [IndexPrescript_Base] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะฟื้นฟู SP 4 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base] ได้สำเร็จ หากเป้าหมายหลักมี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วยแทน\n\nจบเทิร์น: หาก [IndexPrescript_Base] ไม่ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะได้รับ [KarmaOfIndexAlly] 5 หน่วย\n- เมื่อมี [BlessingOfIndexPrescriptAlly] 9 หน่วย จะไม่ได้รับ [KarmaOfIndexAlly]\n- หากตัวละครนี้พยายามเติมเต็มเงื่อนไขของ [IndexPrescript_Base] แล้วเมื่อเริ่มการต่อสู้ แต่ไม่สามารถเล็งศัตรูตัวดังกล่าวได้ในระหว่างเฟสต่อสู้ จะไม่ได้รับ [KarmaOfIndexAlly]",
-      "summary": "ทำตามคำสั่ง [IndexPrescript_Base] เพื่อรับบัพ หากขัดขืนจะได้รับ [KarmaOfIndexAlly]"
+      "summary": "ทำตามคำสั่ง [IndexPrescript_Base] เพื่อรับบัพ [BlessingOfIndexPrescriptAlly]\nแต่หากขัดขืนจะได้รับ [KarmaOfIndexAlly]"
     },
     {
       "id": 1021401,
@@ -2643,31 +2643,32 @@
     },
     {
       "id": 1031402,
-      "name": "Prescript Delivered on a Device",
-      "desc": "Turn Start:\n- Gain [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] based on [UnlockBuff_Base] stage on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, the Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At [UnlockBuffAlly_2]+, the effect above prioritizes Skill 3\n- All of the effects above and [IndexPrescript_Base_2nd] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]\n\nIf this unit has [UnlockBuffAlly_3] at Turn Start, gain [Blandishment_Shin]",
-      "summary": "Gain Prescript\nInflict The Prescript's Target to random target\nApply Mark of the Prescript on a Base Attack Skill"
+      "name": "บทบัญญัติที่ถูกส่งมาผ่านอุปกรณ์",
+      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] ตามแต่ระดับขั้นของเอฟเฟกต์ [UnlockBuff_Base] ของตนเอง\n- สร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม (ในการเผชิญหน้าเพ่งเล็ง จะมีผลกับอวัยวะหนึ่งส่วน)\n- มอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้ (สูงสุด 1 สกิล/ช่อง; สูงสุด 2 สกิล)\n· เมื่อมี [UnlockBuffAlly_2] ขึ้นไป เอฟเฟกต์ข้างต้นจะให้ความสำคัญกับสกิล 3 เป็นหลัก\n- เอฟเฟกต์ข้างต้นทั้งหมด รวมถึงการตรวจสอบการเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] จะไม่ทำงานหากตัวละครนี้อยู่ในสภาวะติดชะงัก, ไม่สามารถขยับได้, แตกตื่น, หรือถูก <noparse>E.G.O กัดกร่อน</noparse>\n\nหากตัวละครนี้มี [UnlockBuffAlly_3] เมื่อเริ่มเทิร์น จะได้รับ [Blandishment_Shin]",
+      "summary": "ได้รับ [IndexPrescript_Base_2nd] ที่ต้องทำตาม\nสร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม\nมอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้"
     },
     {
       "id": 1031403,
-      "name": "Will of the Prescript",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base_2nd], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At [UnlockBuffAlly_3], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base_2nd] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly] at Turn End",
-      "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
+      "name": "ประสงค์แห่งบทบัญญัติ",
+      "desc": "จบเทิร์น: หาก [IndexPrescript_Base_2nd] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะฟื้นฟู SP 4 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base_2nd] ได้สำเร็จ หากเป้าหมายหลักมี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วยแทน\n\nจบเทิร์น: หาก [IndexPrescript_Base_2nd] ไม่ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะได้รับ [KarmaOfIndexAlly] 5 หน่วย\n- เมื่อเป็น [UnlockBuffAlly_3] จะไม่ได้รับ [KarmaOfIndexAlly]\n- หากตัวละครนี้พยายามเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] แล้วเมื่อเริ่มการต่อสู้ แต่ไม่สามารถเล็งศัตรูตัวดังกล่าวได้ในระหว่างเฟสต่อสู้ จะไม่ได้รับ [KarmaOfIndexAlly]",
+      "summary": "ทำตามคำสั่ง [IndexPrescript_Base_2nd] เพื่อรับบัพ [BlessingOfIndexPrescriptAlly]\nแต่หากขัดขืนจะได้รับ [KarmaOfIndexAlly]"
     },
     {
       "id": 1031404,
-      "name": "Unlock / Effloresced E.G.O::Procuration",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptAlly], gain [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nIf this unit gained [UnlockBuffAlly_1], consume 15 SP to enter <noparse>Effloresced</noparse> E.G.O::Procuration state:\n- Before consuming SP to enter this state, heal SP to 25 and gain [KarmaOfIndexAlly] equal to (SP healed / 5) (rounded up)\n- At Turn Start after the above checks, if this unit has [UnlockBuff_Base] and is at 25+ SP, consume 15 SP to enter this state\n\n- If this unit gets Staggered when entering <noparse>Effloresced</noparse> E.G.O::Procuration state, recover from Stagger (if this unit's Stagger cannot be naturally recovered from, does not enter <noparse>Effloresced</noparse> E.G.O::Procuration state)\n- Gain [Blandishment] while in <noparse>Effloresced</noparse> EGO::Procuration state\n\nTurn Start: At 0 or less SP, this unit exits <noparse>Effloresced</noparse> E.G.O::Procuration state"
+      "name": "ปลดล็อก / E.G.O ผลิบาน:: ผู้แทน",
+      "desc": "จบเทิร์น: เมื่อมี [BlessingOfIndexPrescriptAlly] 3/6/9 หน่วย จะได้รับ [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\n\nหากตัวละครนี้ได้รับ [UnlockBuffAlly_1] จะผลาญ SP 15 หน่วยเพื่อเข้าสู่สภาวะ 'E.G.O ผลิบาน:: ผู้แทน':\n- ก่อนผลาญ SP เพื่อเข้าสู่สภาวะนี้ จะฟื้นฟู SP เป็น 25 หน่วย และได้รับ [KarmaOfIndexAlly] เท่ากับ (SP ที่ฟื้นฟู / 5) ปัดเศษขึ้น\n- เมื่อเริ่มเทิร์นหลังจากเอฟเฟกต์ข้างต้นทำงาน หากตัวละครนี้มี [UnlockBuff_Base] และมี SP 25+ หน่วย จะผลาญ SP 15 หน่วยเพื่อเข้าสู่สภาวะนี้\n\n- หากตัวละครนี้ติดชะงักขณะเข้าสู่สภาวะ 'E.G.O ผลิบาน:: ผู้แทน' จะฟื้นตัวจากการชะงัก (หากการชะงักของตัวละครนี้ไม่สามารถฟื้นตัวได้โดยธรรมชาติ จะไม่เข้าสู่สภาวะ 'E.G.O ผลิบาน:: ผู้แทน')\n- ได้รับ [Blandishment] ขณะอยู่ในสภาวะ 'E.G.O ผลิบาน:: ผู้แทน'\n\nเริ่มเทิร์น: เมื่อมี SP 0 หน่วยหรือต่ำกว่า ตัวละครนี้จะออกจากสภาวะ 'E.G.O ผลิบาน:: ผู้แทน'",
+      "summary": "เมื่อได้รับ [UnlockBuffAlly_1] จะผลาญ SP เพื่อเข้าสู่อีกโหมด และจะคงอยู่ในโหมดดังกล่าวจนกว่า SP จะลดต่ำถึงระดับหนึ่ง"
     },
     {
       "id": 1031401,
-      "name": "The Great Magicked Beeper Knoweth My Desire!",
-      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn hit with Base Skill attacks against targets with [IndexPrescriptTargetToEnemy], heal 3 SP (once per Skill; 2 times per turn)\n- Heal additional SP based on [UnlockBuff_Base] stage",
-      "summary": "Skills marked with Mark of the Prescript deal more damage based on Grace of the Prescript Stack\nOn Hit, heal SP"
+      "name": "เพจเจอร์ลงมนตร์อันยิ่งใหญ่รู้ความปรารถนาของข้าด้วย!",
+      "desc": "สกิลที่ถูกมาร์กโดย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี\n- เมื่อมี [BlessingOfIndexPrescriptAlly] 9 หน่วย สกิลพื้นฐานจะสร้างความเสียหายเพิ่มขึ้น +20% แทน\n\nเมื่อสกิลโจมตีพื้นฐานโจมตีโดนเป้าหมายที่มี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 3 หน่วย (มีผลสกิลละครั้ง; มีผล 2 ครั้ง/เทิร์น)\n- ฟื้นฟู SP เพิ่มตาม ตามระดับขั้น [UnlockBuff_Base]",
+      "summary": "สกิลที่ถูกมาร์กโดย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี\nเมื่อโจมตีโดน จะฟื้นฟู SP"
     },
     {
       "id": 1031421,
-      "name": "This, too, is the Grace of the Great Magicked Beeper!",
-      "desc": "Combat Start: Heal 15 SP for the ally with the lowest SP\n- This effect prioritizes Plus Coin Identities\n- If the affected unit is in The Index faction, they gain 1 [AttackDmgUp] as well\n- This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion[TabExplain], Panic, etc."
+      "name": "และนี่ก็เป็นกรุณาคุณของเพจเจอร์เวทมนตร์อันยิ่งใหญ่ด้วยเช่นกัน",
+      "desc": "เริ่มการต่อสู้: ฟื้นฟู SP 15 หน่วยให้กับพันธมิตรที่มี SP ต่ำที่สุด\n- เอฟเฟกต์นี้จะให้ความสำคัญกับตัวตนเหรียญบวกเป็นหลัก\n- หากตัวละครที่ได้รับผลมาจากฝ่าย <นิ้วชี้> ตัวละครตัวนั้นจะได้รับ [AttackDmgUp] 1 หน่วย ด้วยเช่นกัน\n- เอฟเฟกต์นี้จะไม่มีผลกับตัวละครที่มีเอฟเฟกต์ต้านการฟื้นฟู SP เช่น <noparse>E.G.O กัดกร่อน</noparse>, แตกตื่น และอื่น ๆ"
     }
   ]
 }
