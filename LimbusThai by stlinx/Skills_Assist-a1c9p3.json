@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Obstruction",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 2 ([Laceration] + [Vibration]) on target (สูงสุด5)\n[WhenUse] ได้รับ +3 [Breath] Count",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 2 ([Laceration] + [Vibration]) บนตัวเป้าหมาย (สูงสุด 5)\n[WhenUse] ได้รับ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -32,19 +32,19 @@
         {
           "level": 1,
           "name": "Double Chaincleave",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 2 ([Laceration] + [Vibration]) on target (สูงสุด5)\n[WhenUse] ได้รับ +3 [Breath] Count",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 2 ([Laceration] + [Vibration]) บนตัวเป้าหมาย (สูงสุด 5)\n[WhenUse] ได้รับ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
                 }
               ]
             }
@@ -58,7 +58,7 @@
         {
           "level": 1,
           "name": "Harpoon Throw",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด200%)\n[WhenUse] ได้รับ 2 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 200%)\n[WhenUse] ได้รับ 2 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -83,7 +83,7 @@
         {
           "level": 1,
           "name": "Harpoon Impalement - There It Is.",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด300%)\n[WhenUse] ได้รับ 5 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 300%)\n[WhenUse] ได้รับ 5 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -108,12 +108,12 @@
         {
           "level": 1,
           "name": "Harpoon Recall",
-          "desc": "[CantDuel]\nTargets the unit that has Nested Harpoon (cancel this Skill when there are no available target)\nDeal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด200%)",
+          "desc": "[CantDuel]\nTargets the unit that has Nested Harpoon (cancel this Skill when there are no available target)\nDeal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 200%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove the Nested Harpoon on target"
+                  "desc": "[OnSucceedAttack] Remove the Nested Harpoon บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -126,8 +126,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counterattack.",
-          "desc": "[DuelCounter]\nDeal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] ได้รับ 2 [ResultEnhancement] and 2 [AttackDmgUp] ในเทิร์นถัดไป",
+          "name": "สวนกลับ",
+          "desc": "[DuelCounter]\nDeal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] ได้รับ 2 [ResultEnhancement] และ 2 [AttackDmgUp] ในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -139,7 +139,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] จำนวนครั้ง"
                 }
               ]
             }
@@ -153,7 +153,7 @@
         {
           "level": 1,
           "name": "Defensive Assist.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WinDuel] Heal 4 SP for all allies (including this unit)\n- Heal 8 SP instead for LCD Faction",
+          "desc": "[CanDuelGuard]\nสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[WinDuel] Heal 4 SP for พันธมิตรทั้งหมด (รวมถึงตัวละครนี้)\n- Heal 8 SP instead for LCD Faction",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
         {
           "level": 1,
           "name": "Yellow Apic Stinger [黄蜂針]",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] ได้รับ 3 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] ได้รับ 3 [CriticalDmgUpVespa] ในเทิร์นถัดไป",
           "flavor": "<color=#fde55d>\"Do not even think about resisting.\"</color>",
           "coinlist": [
             {
@@ -201,7 +201,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [BeeSting] on target"
+                  "desc": "[OnSucceedAttack] สร้าง [BeeSting] บนตัวเป้าหมาย"
                 }
               ]
             },
@@ -211,7 +211,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove [BeeSting] on the target"
+                  "desc": "[OnSucceedAttack] Remove [BeeSting] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -225,8 +225,8 @@
         {
           "level": 1,
           "name": "Gungnir",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] Deal +20% damage ตามทุก ๆ 10 [Vibration] Potency on target\n[BeforeAttack] If target is at less than 50% HP, [VibrationExplosion] triggered by this Skill does not consume Tremor Count\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +1, deal +50% damage\n[WhenUse] ได้รับ 3 [CriticalDmgUpVespa] ในเทิร์นถัดไป\n[EndSkill] If this Skill generated Mang (望), lose 2 SP",
-          "flavor": "<color=#fde55d>\"This throw will strike and pierce through without fail.\"</color>",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] Deal +20% damage ตามทุก ๆ 10 [Vibration] Potency บนตัวเป้าหมาย\n[BeforeAttack] หากเป้าหมาย is at less than 50% HP, [VibrationExplosion] ทำให้เกิดed by this Skill does not consume Tremor จำนวนครั้ง\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +1, deal +50% damage\n[WhenUse] ได้รับ 3 [CriticalDmgUpVespa] ในเทิร์นถัดไป\n[EndSkill] หากสกิลนี้สร้าง 'มัง' (望), lose 2 SP",
+          "flavor": "<color=#fde55d>\"This throw will strike และ pierce through without fail.\"</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -234,7 +234,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -244,7 +244,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -254,7 +254,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             },
@@ -264,7 +264,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง [ArtifactBeeSting] on target"
+                  "desc": "[OnSucceedAttack] สร้าง [ArtifactBeeSting] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "Rend Space - Apic Flashburst Blade [空間斬 - 閃蜂光劍]",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] Deal +20% damage ตามทุก ๆ 10 [Laceration] Potency on target\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2, deal +100% damage\n[BeforeAttack] If target is at less than 50% HP, [Laceration] triggered by this Skill does not consume Bleed Count\n[EndSkill] If this Skill generated Mang (望), lose 3 SP",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] Deal +20% damage ตามทุก ๆ 10 [Laceration] Potency บนตัวเป้าหมาย\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2, deal +100% damage\n[BeforeAttack] หากเป้าหมาย is at less than 50% HP, [Laceration] ทำให้เกิดed by this Skill does not consume Bleed จำนวนครั้ง\n[EndSkill] หากสกิลนี้สร้าง 'มัง' (望), lose 3 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -286,7 +286,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -296,7 +296,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -306,7 +306,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -316,7 +316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -340,19 +340,19 @@
         {
           "level": 1,
           "name": "Red Breath: Incision",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] เสีย 3 SP",
+          "desc": "หากเป้าหมายมี a negative effect, deal +50% damage\n[WhenUse] เสีย 3 SP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 bonus damage"
+                  "desc": "[OnSucceedAttack] Deal 5 โบนัสความเสียหาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 bonus damage"
+                  "desc": "[OnSucceedAttack] Deal 5 โบนัสความเสียหาย"
                 }
               ]
             }
@@ -366,7 +366,7 @@
         {
           "level": 1,
           "name": "White Breath: Fog. Dawn. Concealment - Safeguard the Mind",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, และ does not deal damage\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -374,7 +374,7 @@
                   "desc": "[OnSucceedAttack] Target heals 15 SP"
                 },
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [MosesWhiteBreathMental] ที่ตนเองมี and target"
+                  "desc": "[OnSucceedAttack] มอบ 2 [MosesWhiteBreathMental] ที่ตนเองมี และ target"
                 }
               ]
             }
@@ -388,12 +388,12 @@
         {
           "level": 1,
           "name": "Red Breath: Body. Blood. Acceleration. Hardening - Strengthen the Body",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, และ does not deal damage\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 2 [MosesRedBreathBody], 1 [AttackUp], 1 [DefenseUp] ที่ตนเองมี and target"
+                  "desc": "[OnSucceedAttack] มอบ 2 [MosesRedBreathBody], 1 [AttackUp], 1 [DefenseUp] ที่ตนเองมี และ target"
                 }
               ]
             }
@@ -407,7 +407,7 @@
         {
           "level": 1,
           "name": "Purple Breath: Impatience. Aching. Tightening - Oppress",
-          "desc": "This Skill does not trigger the target's Defense Skill\nIf target has a negative effect, deal +50% damage\n[WhenUse] เสีย 8 SP\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "This Skill does not trigger the target's Defense Skill\nหากเป้าหมายมี a negative effect, deal +50% damage\n[WhenUse] เสีย 8 SP\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -435,7 +435,7 @@
         {
           "level": 1,
           "name": "คุมลมหายใจให้มั่น",
-          "desc": "[CantDuel]\nThis Skill does not hit enemies and does not trigger Defense Skills\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nThis Skill does not hit enemies และ does not trigger Defense Skills\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -452,12 +452,12 @@
         {
           "level": 1,
           "name": "Red Breath: Blood. Muscle. Contraction - Protect",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, และ does not deal damage\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [MosesRedBreathShield] and 5 [Protection] ที่ตนเองมี and target"
+                  "desc": "[OnSucceedAttack] มอบ 1 [MosesRedBreathShield] และ 5 [Protection] ที่ตนเองมี และ target"
                 }
               ]
             }
@@ -471,7 +471,7 @@
         {
           "level": 1,
           "name": "'Inhale Deep the Red Breath.'",
-          "desc": "[CantDuel]\nThis Skill does not hit enemies and does not trigger Defense Skills\n[StartBattle] ได้รับ 100 Shield (once per Encounter)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u>Gain 1 [MosesRedBreathCharge]</u></b></mark></color>\n[EndBattle] เสีย 15 SP",
+          "desc": "[CantDuel]\nThis Skill does not hit enemies และ does not trigger Defense Skills\n[StartBattle] ได้รับ 100 Shield (once per Enจำนวนครั้งer)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u>Gain 1 [MosesRedBreathCharge]</u></b></mark></color>\n[EndBattle] เสีย 15 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -488,12 +488,12 @@
         {
           "level": 1,
           "name": "Red Breath: Pulse. Blood. Hardening. Anger. Urge - Push the Body's Limit",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] ได้รับ 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, และ does not deal damage\n[WhenUse] ได้รับ 5 [Breath] และ +3 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] มอบ 1 [MosesRedBreathAttack] and 5 [AttackUp]"
+                  "desc": "[OnSucceedAttack] มอบ 1 [MosesRedBreathAttack] และ 5 [AttackUp]"
                 }
               ]
             }
@@ -512,14 +512,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Deal 3 Blunt โบนัสความเสียหาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Deal 3 Blunt โบนัสความเสียหาย"
                 }
               ]
             }
@@ -533,7 +533,7 @@
         {
           "level": 1,
           "name": "Nester Workshop - One! Two! Diffuse!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] If target has 5+ [Vibration], inflict +1 [Vibration] Count on Coin Hit",
+          "desc": "หากเป้าหมายมี a negative effect, deal +50% damage\n[WhenUse] หากเป้าหมายมี 5+ [Vibration] จะสร้าง +1 [Vibration] จำนวนครั้ง เมื่อเหรียญโจมตีโดน",
           "coinlist": [
             {
               "coindescs": [
@@ -544,7 +544,7 @@
                   "desc": "[OnSucceedAttack] สร้าง 6 [Vibration]"
                 },
                 {
-                  "desc": "- At 6+ Speed, inflict 2 additional [Vibration] Potency"
+                  "desc": "- At 6+ Speed จะสร้าง 2 additional [Vibration] Potency"
                 }
               ]
             },
@@ -575,29 +575,29 @@
         {
           "level": 1,
           "name": "Screw Atelier - Screw! Drill!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] ได้รับ +5 [Charge] Count\n[WhenUse] At 10+ [Charge] Count, convert all Coins of this Skill to [SuperCoin]s",
+          "desc": "หากเป้าหมายมี a negative effect, deal +50% damage\n[WhenUse] ได้รับ +5 [Charge] จำนวนครั้ง\n[WhenUse] At 10+ [Charge] จำนวนครั้ง, convert all Coins of this Skill to [SuperCoin]s",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 6+ [Charge] Count, inflict 3 additional [Vibration]"
+                  "desc": "[OnSucceedAttack] At 6+ [Charge] จำนวนครั้ง จะสร้าง 3 additional [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [Charge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 [Charge] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +3 [Charge] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 [Charge] จำนวนครั้ง"
                 }
               ]
             }
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "Namir Workshop - Five Times the Weight!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] If this unit does not have [Charge] Count, inflict +1 additional [Vibration] Count on target on Skill Hit\n[WhenUse] At 15+ [Charge] Count, consume all [Charge] Count and apply เอฟเฟกต์ดังต่อไปนี้:\n- Trigger an additional [VibrationExplosion]\n- [VibrationExplosion] triggered by this Skill does not consume target's [Vibration] Count",
+          "desc": "หากเป้าหมายมี a negative effect, deal +50% damage\n[WhenUse] If this unit does not have [Charge] จำนวนครั้ง จะสร้าง +1 additional [Vibration] จำนวนครั้ง บนตัวเป้าหมาย on Skill Hit\n[WhenUse] At 15+ [Charge] จำนวนครั้ง, consume all [Charge] จำนวนครั้ง และ apply เอฟเฟกต์ดังต่อไปนี้:\n- Trigger an additional [VibrationExplosion]\n- [VibrationExplosion] ทำให้เกิดed by this Skill does not consume target's [Vibration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -619,10 +619,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] twice; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] twice; then, reduce target's [Vibration] จำนวนครั้ง by 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Vibration] จำนวนครั้ง"
                 }
               ]
             }
@@ -635,8 +635,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Block Them and Keep You Safe!",
-          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WinDuel] สร้าง 2 [Vibration] and +2 [Vibration] Count on target",
+          "name": "I'll Block Them และ Keep You Safe!",
+          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WinDuel] สร้าง 2 [Vibration] และ +2 [Vibration] จำนวนครั้ง บนตัวเป้าหมาย",
           "coinlist": [
             {
               "coindescs": [
@@ -655,7 +655,7 @@
         {
           "level": 1,
           "name": "No Way I'm Letting Our Junior Steal all the Spotlight!",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WinDuel] Heal 4 SP for all allies (including this unit)\n- Heal 8 SP instead for LCD Faction",
+          "desc": "[CanDuelGuard]\nสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[WinDuel] Heal 4 SP for พันธมิตรทั้งหมด (รวมถึงตัวละครนี้)\n- Heal 8 SP instead for LCD Faction",
           "coinlist": [
             {
               "coindescs": [
@@ -674,7 +674,7 @@
         {
           "level": 1,
           "name": "YuRia Atelier - All-out Attack Mode, Mk. 17!",
-          "desc": "Deal +50% damage ตามทุก ๆ type of negative effect on target (สูงสุด100%)\n[WhenUse] If target has 6+ [Vibration], แต้มเริ่มต้นสกิลเพิ่มขึ้น +3\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +2, deal +20% damage\n[EndSkill] If this Skill generated Mang (望), lose 10 SP",
+          "desc": "Deal +50% damage ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] หากเป้าหมายมี 6+ [Vibration], แต้มเริ่มต้นสกิลเพิ่มขึ้น +3\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +2, deal +20% damage\n[EndSkill] หากสกิลนี้สร้าง 'มัง' (望), lose 10 SP",
           "flavor": "Special Handmade Golden Retriever-Exclusive Axe.",
           "coinlist": [
             {
@@ -683,7 +683,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -693,7 +693,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] จำนวนครั้ง"
                 }
               ]
             },
@@ -716,10 +716,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; then, reduce target's [Vibration] จำนวนครั้ง by 1"
                 }
               ]
             }
@@ -733,12 +733,12 @@
         {
           "level": 1,
           "name": "Ignition",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] on target) (สูงสุด2)\n[WhenUse] ได้รับ +1 [Combustion] Count",
+          "desc": "[WhenUse] หากเป้าหมายมี 3+ ประเภทสถานะผิดปกติ, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] ได้รับ +1 [Combustion] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 4 [Combustion] และ +1 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
@@ -762,12 +762,12 @@
         {
           "level": 1,
           "name": "E.G.O - A.B.S Activation",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด2)\n[WhenUse] ได้รับ +3 [Combustion] Count\n[BeforeAttack] At 5+ [Combustion], Atk Weight +1",
+          "desc": "[WhenUse] หากเป้าหมายมี 3+ ประเภทสถานะผิดปกติ, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด 2)\n[WhenUse] ได้รับ +3 [Combustion] จำนวนครั้ง\n[BeforeAttack] At 5+ [Combustion], Atk Weight +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
@@ -798,12 +798,12 @@
         {
           "level": 1,
           "name": "Drawn by Flame",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด2)\n[WhenUse] Deal +1% damage ตามทุก ๆ 1 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด50%)\n[WhenUse] ได้รับ +2 [Combustion] Count\n[BeforeAttack] Atk Weight +1 ตามทุก ๆ 5 [Combustion] ที่ตนเองมี (สูงสุด3)",
+          "desc": "[WhenUse] หากเป้าหมายมี 3+ ประเภทสถานะผิดปกติ, แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด 2)\n[WhenUse] Deal +1% damage ตามทุก ๆ 1 ([Combustion] ที่ตนเองมี + [Combustion] on main target) (สูงสุด 50%)\n[WhenUse] ได้รับ +2 [Combustion] จำนวนครั้ง\n[BeforeAttack] Atk Weight +1 ตามทุก ๆ 5 [Combustion] ที่ตนเองมี (สูงสุด 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +4 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
@@ -852,12 +852,12 @@
         {
           "level": 1,
           "name": "A.B.S Max Attunement 【Degraded Corrosion】",
-          "desc": "[CantDuel]\nThis unit cannot be defeated while using this Skill\n[BeforeAttack] ได้รับ +(total number of all enemies' Slots) Atk Weight\n[WhenUse] Deal +1% damage ตามทุก ๆ 1 ([Combustion] ที่ตนเองมี + [Combustion] on all targets) (สูงสุด100%)\n[EndSkillAll] This unit is defeated",
+          "desc": "[CantDuel]\nThis unit cannot be defeated while using this Skill\n[BeforeAttack] ได้รับ +(total number of all enemies' Slots) Atk Weight\n[WhenUse] Deal +1% damage ตามทุก ๆ 1 ([Combustion] ที่ตนเองมี + [Combustion] on all targets) (สูงสุด 100%)\n[EndSkillAll] This unit is defeated",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 10 [Combustion] และ +2 [Combustion] จำนวนครั้ง"
                 }
               ]
             }
@@ -871,7 +871,7 @@
         {
           "level": 1,
           "name": "Eyes Bright Like Lamps",
-          "desc": "[CanDuelGuard]\nIf the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[StartBattle] ได้รับ 6 [LanternHohenheimBigBird]",
+          "desc": "[CanDuelGuard]\nIf the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด 2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[StartBattle] ได้รับ 6 [LanternHohenheimBigBird]",
           "coinlist": [
             {}
           ]
@@ -884,19 +884,19 @@
         {
           "level": 1,
           "name": "Rapid Fire",
-          "desc": "If the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[WhenUse] ได้รับ 5 [LanternHohenheimBigBird]",
+          "desc": "If the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด 2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[WhenUse] ได้รับ 5 [LanternHohenheimBigBird]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Combustion] และ +1 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Sinking] และ +1 [Sinking] จำนวนครั้ง"
                 }
               ]
             }
@@ -910,7 +910,7 @@
         {
           "level": 1,
           "name": "Intense Stare: Zero-Range",
-          "desc": "If the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[WhenUse] ได้รับ 4 [LanternHohenheimBigBird]",
+          "desc": "If the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 2 Speed difference (สูงสุด 2)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +2 instead\n[WhenUse] ได้รับ 4 [LanternHohenheimBigBird]",
           "coinlist": [
             {
               "coindescs": [
@@ -922,14 +922,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 5 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 5 [Sinking] และ +1 [Sinking] จำนวนครั้ง"
                 }
               ]
             }
@@ -943,7 +943,7 @@
         {
           "level": 1,
           "name": "Salvation for those Enchanted by the Lamp",
-          "desc": "Until the end of the Unopposed Attack, this unit does not take HP damage and does not gain negative effects\nIf the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 1 Speed difference (สูงสุด6)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +6 instead\nIf target has [DelusionHohenheimBigBird], +0.5 to target's Pierce Resist. until Attack End\n[EndSkill] Remove [DelusionHohenheimBigBird] from target",
+          "desc": "Until the end of the Unopposed Attack, this unit does not take HP damage และ does not gain negative effects\nIf the target's Speed is faster than this unit's, แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 1 Speed difference (สูงสุด 6)\n- At 1 Speed, แต้มเหรียญเพิ่มขึ้น +6 instead\nหากเป้าหมายมี [DelusionHohenheimBigBird], +0.5 to target's Pierce Resist. until Attack End\n[EndSkill] Remove [DelusionHohenheimBigBird] from target",
           "coinlist": [
             {
               "coindescs": [
@@ -951,13 +951,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Consume all [LanternHohenheimBigBird] Stack and deal +15% damage ตามทุก ๆ Stack consumed (สูงสุด300%)"
+                  "desc": "[OnStartCoin] Consume all [LanternHohenheimBigBird] Stack และ deal +15% damage ตามทุก ๆ Stack consumed (สูงสุด 300%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 8 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 8 [Sinking] และ +2 [Sinking] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 6 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 6 [Combustion] และ +2 [Combustion] จำนวนครั้ง"
                 }
               ]
             }
@@ -971,7 +971,7 @@
         {
           "level": 1,
           "name": "Heated Puncture",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) on target (สูงสุด2)",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) บนตัวเป้าหมาย (สูงสุด 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -983,7 +983,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Combustion] จำนวนครั้ง"
                 }
               ]
             },
@@ -1004,7 +1004,7 @@
         {
           "level": 1,
           "name": "Scorching Incision",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) on target (สูงสุด2)",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) บนตัวเป้าหมาย (สูงสุด 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "Following the Flow",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) on target (สูงสุด2)",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) บนตัวเป้าหมาย (สูงสุด 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1070,7 +1070,7 @@
         {
           "level": 1,
           "name": "I Shall Open the Path",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) on target (สูงสุด3)\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +1 and deal +30% damage\n[EndSkill] If this Skill generated Mang, consume 1 SP",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +1 และ deal +30% damage\n[EndSkill] หากสกิลนี้สร้าง 'มัง', consume 1 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -1082,7 +1082,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Combustion] จำนวนครั้ง"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง 1 [SlashTakeDamageUp]"
@@ -1106,7 +1106,7 @@
         {
           "level": 1,
           "name": "Silence",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) on target (สูงสุด4)\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2 and deal +60% damage\n[EndSkill] If this Skill generated Mang, consume 3 SP",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Combustion] + [Laceration]) บนตัวเป้าหมาย (สูงสุด 4)\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2 และ deal +60% damage\n[EndSkill] หากสกิลนี้สร้าง 'มัง', consume 3 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -1146,7 +1146,7 @@
         {
           "level": 1,
           "name": "Internal Bleeding",
-          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด20%)\n[WhenUse] ได้รับ 3 [Laceration] and +5 [Laceration] Count",
+          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 20%)\n[WhenUse] ได้รับ 3 [Laceration] และ +5 [Laceration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -1161,10 +1161,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1188,7 +1188,7 @@
         {
           "level": 1,
           "name": "Blinding Bloodcleaver",
-          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด20%)\n[WhenUse] ได้รับ 3 [Laceration] and +5 [Laceration] Count",
+          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 20%)\n[WhenUse] ได้รับ 3 [Laceration] และ +5 [Laceration] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 1,
           "name": "Drown in Blood",
-          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด30%)\n[WhenUse] ได้รับ 6 [Laceration] and +5 [Laceration] Count\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2 and deal +60% damage\n[EndSkill] If this Skill generated Mang, consume 5 SP",
+          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 30%)\n[WhenUse] ได้รับ 6 [Laceration] และ +5 [Laceration] จำนวนครั้ง\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +2 และ deal +60% damage\n[EndSkill] หากสกิลนี้สร้าง 'มัง', consume 5 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -1242,13 +1242,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Combustion] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +4 [Laceration] จำนวนครั้ง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodBranch] ตามทุก ๆ 5 ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด3)"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodBranch] ตามทุก ๆ 5 ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 3)"
                 }
               ]
             },
@@ -1272,19 +1272,19 @@
         {
           "level": 1,
           "name": "Funeral for a Dead Bloodfiend",
-          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด50%)\n[WhenUse] ได้รับ 10 [Laceration] and +5 [Laceration] Count\n[WhenUse] At 0+ SP, generate 3 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +3 and deal +90% damage\n[EndSkill] If this Skill generated Mang, consume 3 SP",
+          "desc": "Deal +1% damage ตามทุก ๆ ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 50%)\n[WhenUse] ได้รับ 10 [Laceration] และ +5 [Laceration] จำนวนครั้ง\n[WhenUse] At 0+ SP, generate 3 Mang (望)\n- แต้มเหรียญเพิ่มขึ้น +3 และ deal +90% damage\n[EndSkill] หากสกิลนี้สร้าง 'มัง', consume 3 SP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1294,7 +1294,7 @@
                   "desc": "[OnSucceedAttack] สร้าง 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodBranch] ตามทุก ๆ 5 ([Laceration] ที่ตนเองมี + [Laceration] on target) (สูงสุด5)"
+                  "desc": "[OnSucceedAttack] สร้าง 1 [BloodBranch] ตามทุก ๆ 5 ([Laceration] ที่ตนเองมี + [Laceration] บนตัวเป้าหมาย) (สูงสุด 5)"
                 }
               ]
             },
@@ -1322,12 +1322,12 @@
         {
           "level": 1,
           "name": "Downward Swing",
-          "desc": "[WhenUse] At 6+ Speed, deal +20% damage\n[WhenUse] ได้รับ 4 [Breath] and +2 [Breath] Count",
+          "desc": "[WhenUse] At 6+ Speed, deal +20% damage\n[WhenUse] ได้รับ 4 [Breath] และ +2 [Breath] จำนวนครั้ง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +1 [Burst] จำนวนครั้ง"
                 }
               ]
             },
@@ -1351,12 +1351,12 @@
         {
           "level": 1,
           "name": "Halberd Combo",
-          "desc": "[WhenUse] At 6+ Speed, deal +30% damage\n[WhenUse] ได้รับ 1 [Breath] and +3 [Breath] Count\n[WinDuel] Deal +30% damage",
+          "desc": "[WhenUse] At 6+ Speed, deal +30% damage\n[WhenUse] ได้รับ 1 [Breath] และ +3 [Breath] จำนวนครั้ง\n[WinDuel] Deal +30% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
                 }
               ]
             },
@@ -1380,7 +1380,7 @@
         {
           "level": 1,
           "name": "Trench-specialized Spear Combat",
-          "desc": "[WhenUse] At 7+ Speed, deal +40% damage\n[WhenUse] ได้รับ +4 [Breath] Count\n[WinDuel] ได้รับ 1 [Enhancement]",
+          "desc": "[WhenUse] At 7+ Speed, deal +40% damage\n[WhenUse] ได้รับ +4 [Breath] จำนวนครั้ง\n[WinDuel] ได้รับ 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -1392,14 +1392,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Burst] จำนวนครั้ง"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1413,7 +1413,7 @@
         {
           "level": 1,
           "name": "True Decapitation Deathblow",
-          "desc": "If this unit has [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 ตามทุก ๆ 5 [Breath] (สูงสุด8)\n[WhenUse] At 5+ SP, generate 1 Mang; แต้มเริ่มต้นสกิลเพิ่มขึ้น +3\n[EndSkill] If this Skill generated Mang, lose 5 SP",
+          "desc": "หากตัวละครนี้มี [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 ตามทุก ๆ 5 [Breath] (สูงสุด 8)\n[WhenUse] At 5+ SP, generate 1 Mang; แต้มเริ่มต้นสกิลเพิ่มขึ้น +3\n[EndSkill] หากสกิลนี้สร้าง 'มัง', lose 5 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -1421,10 +1421,10 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage ตามทุก ๆ ([Burst] + [Burst] Count) on the target (สูงสุด100%)"
+                  "desc": "Deal +1% damage ตามทุก ๆ ([Burst] + [Burst] จำนวนครั้ง) บนตัวเป้าหมาย (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal ([Breath] ที่ตนเองมี x 4) Pride damage (สูงสุด80)"
+                  "desc": "[OnSucceedAttack] Deal ([Breath] ที่ตนเองมี x 4) Pride damage (สูงสุด 80)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Deal +150% damage"
@@ -1441,7 +1441,7 @@
         {
           "level": 1,
           "name": "Plastered Sleep, Unrestrained Ripples",
-          "desc": "If this unit has [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\nCan draw any attack to this unit regardless of Speed\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Breath] (สูงสุด2)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 ตามทุก ๆ type of negative effect on target (สูงสุด4)\n[WhenUse] ได้รับ 5 [Agility] ในเทิร์นถัดไป\n[WhenUse] ได้รับ 10 [Breath] and +2 [Breath] Count\n[WhenUse] At 10+ SP, generate 2 Mang; แต้มเริ่มต้นสกิลเพิ่มขึ้น +6\n[EndSkill] If this Skill generated Mang, lose 10 SP",
+          "desc": "หากตัวละครนี้มี [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\nCan draw any attack to this unit regardless of Speed\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Breath] (สูงสุด 2)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 ตามทุก ๆ ประเภทสถานะผิดปกติ บนตัวเป้าหมาย (สูงสุด 4)\n[WhenUse] ได้รับ 5 [Agility] ในเทิร์นถัดไป\n[WhenUse] ได้รับ 10 [Breath] และ +2 [Breath] จำนวนครั้ง\n[WhenUse] At 10+ SP, generate 2 Mang; แต้มเริ่มต้นสกิลเพิ่มขึ้น +6\n[EndSkill] หากสกิลนี้สร้าง 'มัง' จะเสีย SP 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -1449,7 +1449,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 7 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 7 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
@@ -1488,7 +1488,7 @@
         {
           "level": 1,
           "name": "Sever",
-          "desc": "Cannot change target\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด3)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] on target (สูงสุด3)",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด 3)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)",
           "flavor": "'อารายาต้องได้ใช้ชีวิตห่างจากที่แห่งนี้'",
           "coinlist": [
             {
@@ -1497,7 +1497,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1507,7 +1507,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Laceration] และ +1 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1521,7 +1521,7 @@
         {
           "level": 1,
           "name": "Paint",
-          "desc": "Cannot change target\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด3)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] on target (สูงสุด3)",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด 3)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)",
           "flavor": "'เราจะหนีออกจากบ้านแมงมุมนี่...'\n\n'ก่อนที่อารายาจะได้พบกับชะตากรรมเดียวกับซารุ'",
           "coinlist": [
             {
@@ -1530,7 +1530,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1540,7 +1540,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1554,7 +1554,7 @@
         {
           "level": 1,
           "name": "Splatter",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด5)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] on target (สูงสุด4)",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด 5)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] บนตัวเป้าหมาย (สูงสุด 4)",
           "flavor": "'แต่ฉันไม่สามารถรับประกันความปลอดภัยของอารายาได้ในขณะที่ต้องปะทะกับพ่อทูนหัว'",
           "coinlist": [
             {
@@ -1563,7 +1563,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] และ +1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1573,7 +1573,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1583,7 +1583,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +3 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1597,7 +1597,7 @@
         {
           "level": 1,
           "name": "Brushstroke",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด5)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] on target (สูงสุด4)",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 [CutbondRyoshu] ที่ตนเองมี (สูงสุด 5)\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 [Laceration] บนตัวเป้าหมาย (สูงสุด 4)",
           "flavor": "'ฉันจะซ่อนอารายา ซ่อนเธอไว้ในห้องที่เต็มไปด้วยตู้นิรภัยเก็บเวลาที่พวกพ่อทูนหัวเข้าไปประจำ'\n\n'อารายาจะไม่เป็นอะไรในนั้น ตู้นิรภัยเก็บเวลานั้นปลอดภัย'",
           "coinlist": [
             {
@@ -1606,7 +1606,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +1 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1616,7 +1616,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1626,7 +1626,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1639,8 +1639,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slay the Heavens - Tiansha [天殺]",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [CutbondRyoshu] ที่ตนเองมี (สูงสุด12)",
+          "name": "โค่นสวรรค์วิมาน - เทียนชา [天殺]",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [CutbondRyoshu] ที่ตนเองมี (สูงสุด 12)",
           "flavor": "'จากนั้นฉันจะทำสัญลักษณ์ไว้บนตู้นิรภัยด้วยดาบของฉัน'\n\n'เมื่อฉันกลับมา สัญลักษณ์นั่นก็จะกลับคืนมาเช่นกัน ฉันจะสามารถแยกออกได้เผื่อตู้นิรภัยเกิดการสลับเปลี่ยนขึ้น'\n\n'ยังไงซะ หากต้องการซ่อนต้นไม้ ก็ต้องซ่อนไว้ในป่า'",
           "coinlist": [
             {
@@ -1649,7 +1649,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1659,17 +1659,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             },
@@ -1689,7 +1679,17 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] และ +2 [Laceration] จำนวนครั้ง"
                 }
               ]
             }
@@ -1703,7 +1703,7 @@
         {
           "level": 1,
           "name": "'ลบฉัน ลบเธอ'",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with",
+          "desc": "ไม่สามารถเปลี่ยนเป้าหมายได้\nมีโอกาสลบเหรียญแรก ๆ สุดของสกิลที่ตัวละครนี้แคลชด้วย",
           "flavor": "'แม้เวลาจะผ่านพ้นไปนานเท่าไหร่ ฉันก็หวังแค่ให้เป็นเพียงชั่วครู่หนึ่งสำหรับอารายาเท่านั้น'",
           "coinlist": [
             {
