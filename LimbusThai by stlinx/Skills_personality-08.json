@@ -1972,6 +1972,279 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ท่าเตะก้นสุดเจ๋งแบบตะโกน",
+          "desc": "[WhenUse] ฟื้นฟู SP 5 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ท่าเตะก้นสุดเจ๋งแบบตะโกน",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ฟื้นฟู SP 5 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ท่าเตะก้นสุดเจ๋งแบบตะโกน",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ฟื้นฟู SP 5 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [ReinforcedTattooIshmael] จะสร้างจำนวนครั้ง [Laceration] +1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ครอซซิ่ง เดอร์วิช",
+          "desc": "[StartBattle] เลเวลจู่โจมของสกิลนี้เพิ่มขึ้น (สั่นพ้องสูงสุด / 2) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] +5 หน่วยในเทิร์นถัดไป",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ครอซซิ่ง เดอร์วิช",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] เลเวลจู่โจมของสกิลนี้เพิ่มขึ้น (สั่นพ้องสูงสุด / 2) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] +5 หน่วยในเทิร์นถัดไป\n[WhenUse] หากตัวละครนี้มี [HeatingWireIshmael] เมื่อเหรียญที่ 1 และ 2 โจมตีโดน จะสร้างค่า [Combustion] เท่ากับค่า [Laceration] พื้นฐานที่สกิลนี้สร้าง",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ครอซซิ่ง เดอร์วิช",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] เลเวลจู่โจมของสกิลนี้เพิ่มขึ้น (สั่นพ้องสูงสุด / 2) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n- หากมีสั่นพ้องสมบูรณ์ในโซ่สั่นพ้อง จะคูณปริมาณเลเวลจู่โจมที่ได้รับจากเอฟเฟกต์ข้างต้นขึ้น 2 เท่า\n[WhenUse] ช่องสกิลนี้ได้รับ [Aggro] +5 หน่วยในเทิร์นถัดไป\n[WhenUse] หากตัวละครนี้มี [HeatingWireIshmael] เมื่อเหรียญที่ 1 และ 2 โจมตีโดน จะสร้างค่า [Combustion] เท่ากับค่า [Laceration] พื้นฐานที่สกิลนี้สร้าง",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [ReinforcedTattooIshmael] จะสร้าง [Paralysis] 1 หน่วย และ [Binding] 1 หน่วยในเทิร์นถัดไป (มีผล 2 ครั้ง/เทิร์น)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "ไวโอเล็ต~ เบรคกิ้ง สแลม",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] เลเวลจู่โจมของสกิลนี้เพิ่มขึ้น (สั่นพ้องสูงสุด / 2) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n[WhenUse] หากตัวละครนี้มี [HeatingWireIshmael] เมื่อเหรียญที่ 1, 2, และ 4 โจมตีโดน จะสร้างค่า [Combustion] เท่ากับค่า [Laceration] พื้นฐานที่สกิลนี้สร้าง\n[WhenUse] เมื่อมี [ResentmentIshmael] 5+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[EndSkill] ผลาญ [ResentmentIshmael] ทั้งหมดที่ตนเองมี",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภทฟัน เท่ากับ (สั่นพ้องริษยา x 5)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ไวโอเล็ต~ เบรคกิ้ง สแลม",
+          "desc": "หากเป้าหมายมี (ค่า [Combustion] + ค่า [Laceration]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] เลเวลจู่โจมของสกิลนี้เพิ่มขึ้น (สั่นพ้องสูงสุด / 2) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n- หากมีสั่นพ้องสมบูรณ์ในโซ่สั่นพ้อง จะคูณปริมาณเลเวลจู่โจมที่ได้รับจากเอฟเฟกต์ข้างต้นขึ้น 2 เท่า\n[WhenUse] หากตัวละครนี้มี [HeatingWireIshmael] เมื่อเหรียญที่ 1, 2, และ 4 โจมตีโดน จะสร้างค่า [Combustion] เท่ากับค่า [Laceration] พื้นฐานที่สกิลนี้สร้าง\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ [ResentmentIshmael] 5 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)\n[EndSkill] ผลาญ [ResentmentIshmael] ทั้งหมดที่ตนเองมี\n[EndSkill] หากสกิลนี้ถูกเปิดใช้งานในฐานะสกิลสวนกลับ จะได้รับ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภทฟัน เท่ากับ (สั่นพ้องริษยา x 5)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ฉันเล่นแกคืนแน่ พวก",
+          "desc": "[StartBattle] ได้รับโล่เท่ากับ 25% ของ HP ที่หายไป (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ลดเกจชะงักของผู้ใช้ลง 6 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ฉันเล่นแกคืนแน่ พวก",
+          "desc": "[StartBattle] เมื่อมีผลรวมสั่นพ้องสมบูรณ์ธาตุริษยา 6+ สกิล จะใช้สกิล 'ไวโอเล็ต~ เบรคกิ้ง สแลม' เป็นสกิลสวนกลับ (มีผลกับช่องสกิลซ้ายสุดก่อน; ทำงาน 2 ครั้ง/เทิร์น)\n[StartBattle] ได้รับโล่เท่ากับ 25% ของ HP ที่หายไป (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ลดเกจชะงักของผู้ใช้ลง 6 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
