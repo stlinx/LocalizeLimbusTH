@@ -3167,57 +3167,57 @@
     },
     {
       "id": "LanternGregBigBird",
-      "name": "Lamp",
-      "desc": "- Max Stack: 8\n- Turn End: Gain 1 Bind next turn for every 2 Stack (max 4)\n- Turn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n• Gain +10 Aggro to the leftmost Slot\n• Inflict 3 Dazzle to the enemy(Core) with the most current HP",
+      "name": "ตะเกียง",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 8 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (สูงสุด 4 หน่วย)\n- จบเทิร์น: เมื่อมีปริมาณทับซ้อนสูงสุด หากมีศัตรูบนสนาม จะผลาญปริมาณทับซ้อนทั้งหมด เพื่อเปิดใช้งานเอฟเฟกต์ต่อไปนี้ในเทิร์นถัดไป:\n• ช่องสกิลซ้ายสุดได้รับ <sprite name=\"Aggro\"><color=#9f6a3a>'ยั่วยุ'</color> +10 หน่วย\n• สร้าง <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color> 3 หน่วยแก่ (แกนหลัก) ศัตรูที่มี HP ปัจจุบันมากที่สุด",
       "summary": "Gain Bind next turn",
       "undefined": "-"
     },
     {
       "id": "ObedienceGregBigBird",
-      "name": "Guardians of the Forest",
-      "desc": "Before Attack, activate the following effects:\n- Plus Coin Skills heal 4 SP (if already at max SP, gain 2 Offense Level Up next turn)\n- Minus Coin Skills lose 8 SP (this effect cannot reduce the unit's SP below -40)\n- Lose this effect",
+      "name": "เหล่าผู้พิทักษ์แห่งผืนป่า",
+      "desc": "ก่อนโจมตีจะเปิดใช้งานเอฟเฟกต์ต่อไปนี้:\n- สกิลเหรียญบวกจะฟื้นฟู SP 4 หน่วย (หากมี SP เต็มแล้ว จะได้รับ <sprite name=\"AttackUp\"><color=#f8c200>'เลเวลจู่โจมเพิ่มขึ้น'</color> 2 หน่วยในเทิร์นถัดไป)\n- สกิลเหรียญลบจะเสีย SP 8 หน่วย (เอฟเฟกต์นี้ไม่สามารถลด SP ของตัวละครนี้ให้ต่ำกว่า -40 หน่วยได้)\n- เสียเอฟเฟกต์นี้",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "name": "ตาพร่า",
+      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- สำหรับตัวละครที่ไม่มี SP: เลเวลตั้งรับลดลง -2 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้ การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่ถูกสร้างแทน\n※ เงื่อนไขของ 'สำหรับตัวละครที่ไม่มี SP' จะส่งผลถึงศัตรูบางตัวที่มี SP แต่ไม่สามารถเปลี่ยนประเภทการแตกตื่นได้\n\n※ เอฟเฟกต์ประเภทแตกตื่นของ <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- ขวัญอ่อน: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 2 หน่วยในเทิร์นถัดไป\n- แตกตื่น: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 4 หน่วยในเทิร์นถัดไป",
       "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to \"Dazzle\"\nUnits without SP: Defense Level -2",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Main",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
+      "name": "ตาพร่า",
+      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
       "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Sub",
-      "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack",
+      "name": "ตาพร่า",
+      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่ไม่มี SP: เลเวลตั้งรับลดลง -2 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
       "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_LowMorale",
-      "name": "Dazzle",
-      "desc": "- Low Morale\n- Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
+      "name": "ตาพร่า",
+      "desc": "- ขวัญอ่อน\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 2 หน่วยในเทิร์นถัดไป",
       "summary": "Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Panic",
-      "name": "Dazzle",
-      "desc": "- Panic\n- Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "name": "ตาพร่า",
+      "desc": "- แตกตื่น\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 4 หน่วยในเทิร์นถัดไป",
       "summary": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
       "undefined": "-"
     },
     {
       "id": "LittleFingerID",
-      "name": "Moonlit Azure Blade",
-      "desc": "- Max Stack: 20\n- Turn Start: Gain 2 Shield for every Stack\n- Deal +1% damage on Critical Hit for every Stack",
+      "name": "ดาบแสงจันทร์กรมท่า",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 20 หน่วย\n- เริ่มเทิร์น: ได้รับโล่ 2 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี\n- สร้างความเสียหายคริติคอลเพิ่มขึ้น +1% ตามทุก ๆ ปริมาณทับซ้อนที่มี",
       "summary": "",
       "undefined": "-"
     }
