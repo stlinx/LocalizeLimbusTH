@@ -3168,8 +3168,8 @@
     {
       "id": "LanternGregBigBird",
       "name": "ตะเกียง",
-      "desc": "- ปริมาณทับซ้อนสูงสุด: 8 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (สูงสุด 4 หน่วย)\n- จบเทิร์น: เมื่อมีปริมาณทับซ้อนสูงสุด หากมีศัตรูบนสนาม จะผลาญปริมาณทับซ้อนทั้งหมด เพื่อเปิดใช้งานเอฟเฟกต์ต่อไปนี้ในเทิร์นถัดไป:\n• ช่องสกิลซ้ายสุดได้รับ <sprite name=\"Aggro\"><color=#9f6a3a>'ยั่วยุ'</color> +10 หน่วย\n• สร้าง <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color> 3 หน่วยแก่ (แกนหลัก) ศัตรูที่มี HP ปัจจุบันมากที่สุด",
-      "summary": "Gain Bind next turn",
+      "desc": "- ปริมาณทับซ้อนสูงสุด: 8 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (สูงสุด 4 หน่วย)\n- จบเทิร์น: เมื่อมีปริมาณทับซ้อนสูงสุด หากมีศัตรูบนสนาม จะผลาญปริมาณทับซ้อนทั้งหมด เพื่อเปิดใช้งานเอฟเฟกต์ต่อไปนี้ในเทิร์นถัดไป:\n• ช่องสกิลซ้ายสุดได้รับ <sprite name=\"Aggro\"><color=#9f6a3a>'ยั่วยุ'</color> +10 หน่วย\n• สร้าง <color=#e30000>'ตาพร่า'</color> 3 หน่วยแก่ (แกนหลัก) ศัตรูที่มี HP ปัจจุบันมากที่สุด",
+      "summary": "จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> ในเทิร์นถัดไป",
       "undefined": "-"
     },
     {
@@ -3182,36 +3182,36 @@
     {
       "id": "DelusionGregBigBird",
       "name": "ตาพร่า",
-      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- สำหรับตัวละครที่ไม่มี SP: เลเวลตั้งรับลดลง -2 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้ การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่ถูกสร้างแทน\n※ เงื่อนไขของ 'สำหรับตัวละครที่ไม่มี SP' จะส่งผลถึงศัตรูบางตัวที่มี SP แต่ไม่สามารถเปลี่ยนประเภทการแตกตื่นได้\n\n※ เอฟเฟกต์ประเภทแตกตื่นของ <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- ขวัญอ่อน: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 2 หน่วยในเทิร์นถัดไป\n- แตกตื่น: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 4 หน่วยในเทิร์นถัดไป",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to \"Dazzle\"\nUnits without SP: Defense Level -2",
+      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <color=#e30000>'ตาพร่า'</color>\n- สำหรับตัวละครที่ไม่มี SP: เลเวลตั้งรับลดลง -2 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้ การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่ถูกสร้างแทน\n※ เงื่อนไขของ 'สำหรับตัวละครที่ไม่มี SP' จะส่งผลถึงศัตรูบางตัวที่มี SP แต่ไม่สามารถเปลี่ยนประเภทการแตกตื่นได้\n\n※ เอฟเฟกต์ประเภทแตกตื่นของ <color=#e30000>'ตาพร่า'</color>\n- ขวัญอ่อน: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 2 หน่วยในเทิร์นถัดไป\n- แตกตื่น: จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 4 หน่วยในเทิร์นถัดไป",
+      "summary": "ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น และได้รับดีบัพ",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Main",
       "name": "ตาพร่า",
-      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <sprite name=\"DelusionGregBigBird\"><color=#e30000>'ตาพร่า'</color>\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
+      "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทแตกตื่นเป็น <color=#e30000>'ตาพร่า'</color>\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
+      "summary": "ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น และได้รับดีบัพ",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Sub",
       "name": "ตาพร่า",
       "desc": "- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +0.5% ตามทุก ๆ (ค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> + ค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>) 1 หน่วย (สูงสุด +10%)\n- สำหรับตัวละครที่ไม่มี SP: เลเวลตั้งรับลดลง -2 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
+      "summary": "ได้รับความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น และได้รับดีบัพ",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_LowMorale",
       "name": "ตาพร่า",
       "desc": "- ขวัญอ่อน\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 2 หน่วยในเทิร์นถัดไป",
-      "summary": "Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
+      "summary": "จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> ในเทิร์นถัดไป",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Panic",
       "name": "ตาพร่า",
       "desc": "- แตกตื่น\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> 4 หน่วยในเทิร์นถัดไป",
-      "summary": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "summary": "จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> และ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color> ในเทิร์นถัดไป",
       "undefined": "-"
     },
     {
