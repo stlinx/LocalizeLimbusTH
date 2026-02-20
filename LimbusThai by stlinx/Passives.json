@@ -2644,13 +2644,13 @@
     {
       "id": 1031402,
       "name": "บทบัญญัติที่ถูกส่งมาผ่านอุปกรณ์",
-      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] ตามแต่ระดับขั้นเอฟเฟกต์ [UnlockBuff_Base] ที่ตนเองมี\n- สร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม (ในการเผชิญหน้าเพ่งเล็ง จะมีผลกับอวัยวะหนึ่งส่วน)\n- มอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้ (สูงสุด 1 สกิล/ช่อง; สูงสุด 2 สกิล)\n· เมื่อมี [UnlockBuffAlly_2] ขึ้นไป เอฟเฟกต์ข้างต้นจะให้ความสำคัญกับสกิล 3 เป็นหลัก\n- เอฟเฟกต์ข้างต้นทั้งหมด รวมถึงการตรวจสอบการเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] จะไม่ทำงาน หากตัวละครนี้อยู่ในสภาวะติดชะงัก, ไม่สามารถขยับได้, แตกตื่น, หรือถูก <noparse>E.G.O กัดกร่อน</noparse>\n\nหากตัวละครนี้มี [UnlockBuffAlly_3] เมื่อเริ่มเทิร์น จะได้รับ [Blandishment_Shin]",
+      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] ตามแต่ระดับขั้นเอฟเฟกต์ [UnlockBuff_Base] ที่ตนเองมี\n- สร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม (ในการเผชิญหน้าเพ่งเล็ง จะมีผลกับอวัยวะหนึ่งส่วน)\n- มอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้ (สูงสุด 1 สกิล/ช่อง; สูงสุด 2 สกิล)\n· เมื่อมี [UnlockBuffAlly_2] ขึ้นไป เอฟเฟกต์ข้างต้นจะให้ความสำคัญกับสกิล 3 เป็นหลัก\n- เอฟเฟกต์ข้างต้นทั้งหมด รวมถึงการตรวจสอบการเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] จะไม่ทำงาน หากตัวละครนี้อยู่ในสภาวะติดชะงัก, ไม่สามารถขยับได้, แตกตื่น, หรือถูก <noparse>E.G.O กัดกร่อน</noparse>\n\nหากตัวละครนี้เป็นระดับขั้น [UnlockBuffAlly_3] เมื่อเริ่มเทิร์นจะได้รับ [Blandishment_Shin]",
       "summary": "ได้รับ [IndexPrescript_Base_2nd] ที่ต้องทำตาม\nสร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม\nมอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้"
     },
     {
       "id": 1031403,
       "name": "ประสงค์แห่งบทบัญญัติ",
-      "desc": "จบเทิร์น: หาก [IndexPrescript_Base_2nd] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะฟื้นฟู SP 4 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base_2nd] ได้สำเร็จ หากเป้าหมายหลักมี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วยแทน\n\nจบเทิร์น: หาก [IndexPrescript_Base_2nd] ไม่ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะได้รับ [KarmaOfIndexAlly] 5 หน่วย\n- เมื่อเป็น [UnlockBuffAlly_3] จะไม่ได้รับ [KarmaOfIndexAlly]\n- หากตัวละครนี้พยายามเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] แล้วเมื่อเริ่มการต่อสู้ แต่ไม่สามารถเล็งศัตรูตัวดังกล่าวได้ในระหว่างเฟสต่อสู้ จะไม่ได้รับ [KarmaOfIndexAlly]",
+      "desc": "จบเทิร์น: หาก [IndexPrescript_Base_2nd] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะฟื้นฟู SP 4 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base_2nd] ได้สำเร็จ หากเป้าหมายหลักมี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วยแทน\n\nจบเทิร์น: หาก [IndexPrescript_Base_2nd] ไม่ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะได้รับ [KarmaOfIndexAlly] 5 หน่วย\n- เมื่อเป็นระดับขั้น [UnlockBuffAlly_3] จะไม่ได้รับ [KarmaOfIndexAlly]\n- หากตัวละครนี้พยายามเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] แล้วเมื่อเริ่มการต่อสู้ แต่ไม่สามารถเล็งศัตรูตัวดังกล่าวได้ในระหว่างเฟสต่อสู้ จะไม่ได้รับ [KarmaOfIndexAlly]",
       "summary": "ทำตามคำสั่ง [IndexPrescript_Base_2nd] เพื่อรับบัพ [BlessingOfIndexPrescriptAlly]\nแต่หากขัดขืนจะได้รับ [KarmaOfIndexAlly]"
     },
     {
@@ -2733,51 +2733,51 @@
     },
     {
       "id": 1011502,
-      "name": "Prescript Delivered on a Device",
-      "desc": "Turn Start:\n- Gain [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] based on [UnlockBuff_Base] stage on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, a Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At [UnlockBuffAlly_2]+, the effect above prioritizes Skill 3 (prioritizes empowered Skill)\n- All of the effects above and [IndexPrescript_Base_2nd] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]",
-      "summary": "Upon executing Prescript, heal SP and gain Grace of the Prescript\nUpon failing Prescript, gain Karmic Consequence"
+      "name": "บทบัญญัติที่ถูกส่งมาผ่านอุปกรณ์",
+      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] ตามระดับขั้น [UnlockBuff_Base] ที่ตนเองมี\n- สร้าง [IndexPrescriptTargetToEnemy] แก่ศัตรูหนึ่งตัวแบบสุ่ม (ในการเผชิญหน้าเพ่งเล็ง จะมีผลกับอวัยวะหนึ่งส่วน)\n- มอบ [IndexPrescriptTargetMarkToEnemy] ให้กับสกิลโจมตีพื้นฐานบนกระดานสกิลของตัวละครนี้ (1 สกิล/ช่อง; สูงสุด 2 สกิล)\n· เมื่อมีระดับขั้น [UnlockBuffAlly_2]+ เอฟเฟกต์ข้างต้นจะให้ความสำคัญกับสกิล 3 เป็นหลัก (ให้ความสำคัญกับสกิลเวอร์ชั่นเสริมพลังเป็นหลัก)\n- เอฟเฟกต์ข้างต้นทั้งหมด รวมถึงการตรวจสอบการเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] จะไม่ทำงาน หากตัวละครนี้อยู่ในสภาวะติดชะงัก, ไม่สามารถขยับได้, แตกตื่น, หรือถูก <noparse>E.G.O กัดกร่อน</noparse>",
+      "summary": "เมื่อทำตาม [IndexPrescript_Base_2nd] ฟื้นฟู SP และได้รับ [BlessingOfIndexPrescriptAlly]\nแต่หากล้มเหลว จะได้รับ [KarmaOfIndexAlly]"
     },
     {
       "id": 1011503,
-      "name": "The Oracle's Proxy / Unlock",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn at below [UnlockBuffAlly_2], heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base_2nd], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If this unit is at [UnlockBuffAlly_2] and [IndexPrescriptYi_2] was executed this turn, heal 4 SP (once per turn)\n- When executing [IndexPrescript_Base_2nd], if [StackYisangSpecialSkill] has reached 9 Stacks, heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly]\n\nTurn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At [UnlockBuffAlly_3], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base_2nd] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly] at Turn End (applies at below [UnlockBuffAlly_2])\n\nTurn End: At 3/6/9 [BlessingOfIndexPrescriptAlly], gain [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\nTurn Start: At [UnlockBuffAlly_3], gain [Shin_IndexFingerYisang]",
+      "name": "ผู้แทนฟ้าประทาน / ปลดล็อก",
+      "desc": "จบเทิร์น: หาก [IndexPrescript_Base_2nd] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ ขณะมีระดับขั้นต่ำกว่า [UnlockBuffAlly_2] จะฟื้นฟู SP 4 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base_2nd] ได้สำเร็จ หากเป้าหมายหลักมี [IndexPrescriptTargetToEnemy] จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วยแทน\n\nจบเทิร์น: หากตัวละครนี้เป็นระดับขั้น [UnlockBuffAlly_2] และ [IndexPrescriptYi_2] ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะฟื้นฟู SP 4 หน่วย (มีผลเทิร์นละครั้ง)\n- เมื่อเติมเต็มเงื่อนไข [IndexPrescript_Base_2nd] หากปริมาณ [StackYisangSpecialSkill] เพิ่มขึ้นถึง 9 หน่วย จะฟื้นฟู SP 8 หน่วย และได้รับ [BlessingOfIndexPrescriptAlly] 3 หน่วย\n\nจบเทิร์น: หาก [IndexPrescript_Base_2nd] ไม่ได้รับการเติมเต็มเงื่อนไขในเทิร์นนี้ จะได้รับ [KarmaOfIndexAlly] 5 หน่วย\n- เมื่อเป็นระดับขั้น [UnlockBuffAlly_3] จะไม่ได้รับ [KarmaOfIndexAlly]\n- หากตัวละครนี้พยายามเติมเต็มเงื่อนไขของ [IndexPrescript_Base_2nd] แล้วเมื่อเริ่มการต่อสู้ แต่ไม่สามารถเล็งศัตรูตัวดังกล่าวได้ในระหว่างเฟสต่อสู้ จะไม่ได้รับ [KarmaOfIndexAlly] เมื่อจบเทิร์น (มีผลเมื่อระดับขั้นต่ำกว่า [UnlockBuffAlly_2])\n\nจบเทิร์น: เมื่อมี [BlessingOfIndexPrescriptAlly] 3/6/9 หน่วย จะได้รับ [UnlockBuffAlly_1] / [UnlockBuffAlly_2] / [UnlockBuffAlly_3] ตามลำดับ\nเริ่มเทิร์น: เมื่อเป็นระดับขั้น [UnlockBuffAlly_3] จะได้รับ [Shin_IndexFingerYisang]",
       "summary": ""
     },
     {
       "id": 1011504,
-      "name": "The Index Nursefather",
-      "desc": "Upon entering the Encounter for the first time, gain [BurningWoundYisangMask]\n- Turn End: If this unit was Staggered for the first time in this Encounter while under this effect, recover from Stagger (excluding forced Stagger) and convert [BurningWoundYisangMask] to [BurningWoundYisang]\n\nApply [SatisfyingEsteemNeeds] to The Index Proxy - Effloresced E.G.O::Procuration Don Quixote when both units are on the field",
+      "name": "พ่อทูนหัวนิ้วชี้",
+      "desc": "เมื่อเข้าสู่การเผชิญหน้าเป็นครั้งแรก จะได้รับ [BurningWoundYisangMask]\n- จบเทิร์น: ในขณะที่ยังมีเอฟเฟกต์นี้อยู่ หากตัวละครนี้ติดชะงักเป็นครั้งแรกในการเผชิญหน้า จะฟื้นตัวจากการชะงักดังกล่าว (ยกเว้นเป็นการบังคับชะงัก) และแปลง [BurningWoundYisangMask] ให้เป็น [BurningWoundYisang]\n\nมอบ [SatisfyingEsteemNeeds] ให้กับ 'ตัวแทนแห่งนิ้วชี้ - E.G.O ผลิบาน::ผู้แทนอำนาจ - ดอน กิโฮเต้' หากทั้งสองตัวละครอยู่บนสนาม",
       "summary": ""
     },
     {
       "id": 1011505,
-      "name": "Oracle Device [Caduceus]",
-      "desc": "A random weapon is assigned to every Coin for Base Attack Skills. Each weapon has a unique effect.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nGain 1 [StackYisangSpecialSkill] when using Skills with [IndexPrescriptTargetMarkToEnemy]",
-      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+      "name": "อุปกรณ์ส่งสารจากเทพ [คาดูเซียส]",
+      "desc": "สุ่มมอบอาวุธหนึ่งชิ้นให้กับทุกเหรียญของสกิลโจมตีพื้นฐาน โดยแต่ละอาวุธจะมีเอฟเฟกต์ต่างกันไป\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nได้รับ [StackYisangSpecialSkill] 1 หน่วย เมื่อใช้สกิลที่มี [IndexPrescriptTargetMarkToEnemy]",
+      "summary": "สุ่มมอบอาวุธให้แต่ละเหรียญ\nเมื่อใช้สกิลที่มี [IndexPrescriptTargetMarkToEnemy] จะได้รับ [StackYisangSpecialSkill] เพื่อเปิดใช้สกิล 'Furioso-Replica' (จำเป็นต้องผูกมัดตัวตนนี้ที่ระดับ 3 ก่อน)"
     },
     {
       "id": 1011506,
-      "name": "Oracle Device [Caduceus]",
-      "desc": "A random weapon is assigned to every Coin for Base Attack Skills. Each weapon has a unique effect.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nGain 1 [StackYisangSpecialSkill] when using Skills with [IndexPrescriptTargetMarkToEnemy]\n\n<style=\"highlight\">Convert [BurningWoundYisangMask] to [BurningWoundYisang] at the end of the turn this unit used 'Furioso-Replica' for the first time in this Encounter\n\nTurn Start: If this unit has [BurningWoundYisang] and has 'Furioso-Replica' on the Dashboard, gain [BlackNightmareYisang]</style>",
-      "summary": "A random weapon is assigned\nGain special effect when using 'Furioso-Replica'"
+      "name": "อุปกรณ์ส่งสารจากเทพ [คาดูเซียส]",
+      "desc": "สุ่มมอบอาวุธหนึ่งชิ้นให้กับทุกเหรียญของสกิลโจมตีพื้นฐาน โดยแต่ละอาวุธจะมีเอฟเฟกต์ต่างกันไป\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nได้รับ [StackYisangSpecialSkill] 1 หน่วย เมื่อใช้สกิลที่มี [IndexPrescriptTargetMarkToEnemy]\n\nหลังจากที่ตัวละครนี้ใช้สกิล 'Furioso-Replica' เป็นครั้งแรกในการเผชิญหน้านี้ เมื่อจบเทิร์นจะแปลง [BurningWoundYisangMask] ให้เป็น [BurningWoundYisang]\n\nเริ่มเทิร์น: หากตัวละครนี้มี [BurningWoundYisang] และสกิล 'Furioso-Replica' อยู่บนกระดานสกิล จะได้รับ [BlackNightmareYisang]",
+      "summary": "สุ่มมอบอาวุธให้แต่ละเหรียญ\nเมื่อใช้สกิลที่มี [IndexPrescriptTargetMarkToEnemy] จะได้รับ [StackYisangSpecialSkill] เพื่อเปิดใช้สกิล 'Furioso-Replica'"
     },
     {
       "id": 1011501,
-      "name": "Imitation of a Life",
-      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn Hit with Base Attack Skill's [SuperCoin]s, gain 1 [StackYisangSpecialSkill]\n- Attack End: Gain [StackYisangSpecialSkill] equal to (# of remaining [SuperCoin]s)",
-      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+      "name": "การเลียนแบบชีวิตหนึ่ง",
+      "desc": "สกิลที่ถูกมาร์กด้วย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี (สูงสุด 16%)\n- เมื่อมี [BlessingOfIndexPrescriptAlly] 9 หน่วย สกิลพื้นฐานจะสร้างความเสียหายเพิ่มขึ้น +20% แทน\n\nเมื่อโจมตีโดนด้วย [SuperCoin] ของสกิลโจมตีพื้นฐาน จะได้รับ [StackYisangSpecialSkill] 1 หน่วย\n- หลังการโจมตีจบลง: ได้รับ [StackYisangSpecialSkill] เท่ากับจำนวน [SuperCoin] คงเหลือ",
+      "summary": "สกิลที่ถูกมาร์กด้วย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี\nโจมตีโดน: ฟื้นฟู SP\nได้รับ [StackYisangSpecialSkill] เมื่อทำตามเงื่อนไข"
     },
     {
       "id": 1011511,
-      "name": "Imitation of a Life",
-      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn Hit with Base Attack Skill's [SuperCoin]s, gain 1 [StackYisangSpecialSkill]\n- Attack End: Gain [StackYisangSpecialSkill] equal to (# of remaining [SuperCoin]s)\n<style=\"highlight\">- 'Furioso-Replica' Attack End: Gain [StackYisangSpecialSkill] next turn equal to (# of this Skill's remaining [SuperCoin]s / 2) (rounded down)</style>\n\n<style=\"highlight\">If [StackYisangSpecialSkill] reached 9 Stacks this turn at Turn End, and if this unit does not have a Skill 3 on the Dashboard at the start of the next turn, convert a Base Skill to Skill 3 (prioritizes the Skill on the leftmost Slot's bottom row)</style>",
-      "summary": "Deal more damage with Skills marked with Mark of the Prescript based on Grace of the Prescript on self\nOn Hit: Heal SP\nGain [StackYisangSpecialSkill] when certain conditions are met"
+      "name": "การเลียนแบบชีวิตหนึ่ง",
+      "desc": "สกิลที่ถูกมาร์กด้วย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี (สูงสุด 16%)\n- เมื่อมี [BlessingOfIndexPrescriptAlly] 9 หน่วย สกิลพื้นฐานจะสร้างความเสียหายเพิ่มขึ้น +20% \n\nเมื่อโจมตีโดนด้วย [SuperCoin] ของสกิลโจมตีพื้นฐาน จะได้รับ [StackYisangSpecialSkill] 1 หน่วย\n- หลังการโจมตีจบลง: ได้รับ [StackYisangSpecialSkill] เท่ากับจำนวน [SuperCoin] คงเหลือ\n- หลังการโจมตีของสกิล 'Furioso-Replica' จบลง: ได้รับ [StackYisangSpecialSkill] ในเทิร์นถัดไป เท่ากับ (จำนวน [SuperCoin] คงเหลือของสกิลนี้ / 2) หน่วย\n\nเมื่อจบเทิร์น: หากปริมาณทับซ้อน [StackYisangSpecialSkill] เพิ่มขึ้นถึง 9 หน่วยในเทิร์นนี้ และหากตัวละครนี้ไม่มีสกิล 3 บนกระดานสกิลเมื่อเริ่มเทิร์นถัดไป จะแปลงสกิลพื้นฐานหนึ่งสกิลให้เป็นสกิล 3 (ให้ความสำคัญกับสกิลแถวล่างของช่องสกิลซ้ายสุดเป็นหลัก)",
+      "summary": "สกิลที่ถูกมาร์กด้วย [IndexPrescriptTargetMarkToEnemy] จะสร้างความเสียหายเพิ่มขึ้น ตามทุก ๆ [BlessingOfIndexPrescriptAlly] ที่ตนเองมี\nโจมตีโดน: ฟื้นฟู SP\nได้รับ [StackYisangSpecialSkill] เมื่อทำตามเงื่อนไข"
     },
     {
       "id": 1011521,
-      "name": "Grace of God",
-      "desc": "Deal +5% damage with Slash, Pierce, and Blunt Base Attack Skills that are used for the first time by any ally each turn (once per type across all allies)\n- The Index Identities deal +10% damage instead\n- This effect's application is determined Before Attack",
-      "summary": "Deal more damage with Slash, Pierce, and Blunt Skills used for the first time this turn"
+      "name": "กรุณาคุณของพระเจ้า",
+      "desc": "สกิลโจมตีพื้นฐานประเภทฟัน, ประเภทแทง, และประเภททุบที่ถูกใช้เป็นครั้งแรกโดยพันธมิตรคนใดก็ได้ในแต่ละเทิร์น จะสร้างความเสียหายเพิ่มขึ้น +5% (มีผล 1 ครั้ง/ประเภทการโจมตี สำหรับพันธมิตรทั้งหมด)\n- ตัวตนจาก <นิ้วชี้> จะสร้างความเสียหายเพิ่มขึ้น +10% แทน\n- การใช้งานของเอฟเฟกต์จะถูกคำนวณก่อนเริ่มการโจมตี",
+      "summary": "สกิลโจมตีพื้นฐานประเภทฟัน, ประเภทแทง, และประเภททุบที่ถูกใช้เป็นครั้งแรกในเทิร์นนี้จะสร้างความเสียหายเพิ่มขึ้น"
     }
   ]
 }
