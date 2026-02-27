@@ -2645,21 +2645,21 @@
     {
       "id": "BulletPropellantAlly",
       "name": "กระสุนพยัคฆ์ข่วน",
-      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 12 นัด\n- ขณะที่มี (ผลรวม <sprite name=\"BulletPropellant\"><color=#f8c200>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecial\"><color=#f8c200>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: สกิลติดตัวของตัวละครนี้จะได้รับ <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> แทน <sprite name=\"IrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ [剛氣]'</color>\n\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 12 นัด\n- ขณะที่มี (ผลรวม <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: สกิลติดตัวของตัวละครนี้จะได้รับ <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> แทน <sprite name=\"IrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ [剛氣]'</color>\n\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
       "name": "กระสุนพยัคฆ์ร้ายข่วน",
-      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 8 นัด\n- ทำงานแบบเดียวกับ <sprite name=\"BulletPropellant\"><color=#f8c200>'กระสุนพยัคฆ์ข่วน'</color>\n- ขณะที่มี (ผลรวม <sprite name=\"BulletPropellant\"><color=#f8c200>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecial\"><color=#f8c200>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: สกิลติดตัวของตัวละครนี้จะได้รับ <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> แทน <sprite name=\"IrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ [剛氣]'</color>\n\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 8 นัด\n- ทำงานแบบเดียวกับ <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ข่วน'</color>\n- ขณะที่มี (ผลรวม <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: สกิลติดตัวของตัวละครนี้จะได้รับ <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> แทน <sprite name=\"IrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ [剛氣]'</color>\n\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IrritationAlly",
       "name": "จิตวิญญาณไม่ย่อท้อ [剛氣]",
-      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +1 หน่วย\n- หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วย หรือมากกว่า จะสร้างความเสียหายเพิ่มขึ้น \n+(ค่าความเร็วที่ต่างกัน x 2.5)% (สูงสุด 20%)\n- สกิลตัวละครนี้สร้างค่าและจำนวนครั้ง <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> เพิ่มขึ้น +1 หน่วย\n- หากตัวละครนี้จ่าย (ผลรวม <sprite name=\"BulletPropellant\"><color=#f8c200>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecial\"><color=#f8c200>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: เมื่อจบเทิร์น จะแปลงบัพนี้เป็น <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> ในเทิร์นถัดไป\n- ทับซ้อนสูงสุด: 1 หน่วย",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +1 หน่วย\n- หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วย หรือมากกว่า จะสร้างความเสียหายเพิ่มขึ้น \n+(ค่าความเร็วที่ต่างกัน x 2.5)% (สูงสุด 20%)\n- สกิลตัวละครนี้สร้างค่าและจำนวนครั้ง <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> เพิ่มขึ้น +1 หน่วย\n- หากตัวละครนี้จ่าย (ผลรวม <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม) 8+ นัด: เมื่อจบเทิร์น จะแปลงบัพนี้เป็น <sprite name=\"HugeIrritationAlly\"><color=#f8c200>'จิตวิญญาณไม่ย่อท้อ - ชิน [剛氣-心]'</color> ในเทิร์นถัดไป\n- ทับซ้อนสูงสุด: 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
@@ -2673,7 +2673,7 @@
     {
       "id": "BeastEyesAlly",
       "name": "ร้อนเกินพิกัด",
-      "desc": "- เสียเอฟเฟกต์นี้ไปเมื่อตัวละครนี้ได้รับ <sprite name=\"BulletPropellantSpecial\"><color=#f8c200>'กระสุนพยัคฆ์ร้ายข่วน'</color>\n- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +2 หน่วย\n- สกิลโจมตีพื้นฐานจะเสียแต้มแคลชสกิล (ผลรวม <sprite name=\"BulletPropellant\"><color=#f8c200>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecial\"><color=#f8c200>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม / 2) แต้ม (สูงสุด 10 แต้ม); \n\nอย่างไรก็ดี จะได้รับเอฟเฟกต์ดังต่อไปนี้ด้วยเช่นกัน (สะสมได้):\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>\n· จ่าย 8+ นัด: ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 1 หน่วย ตามทุก ๆ HP 10% ของตนเองที่หายไปเมื่อเริ่มเทิร์น (สูงสุด 5 หน่วย)\n· จ่าย 14+ นัด: เมื่อแคลชสกิลแพ้ <sprite name=\"SuperCoin\"><color=#9f6a3a>'เหรียญทนทาน'</color> ของสกิลโจมตีพื้นฐานตัวละครนี้จะสร้างความเสียหายเพิ่มขึ้น +(75 + เปอร์เซ็นต์ HP ตนเองที่เสียไป)% (สูงสุด 150%)\n· จ่าย 20+ นัด: สร้างความเสียหายแก่เป้าหมายที่มีเปอร์เซ็นต์ HP ปัจจุบันสูงกว่าตนเองเพิ่มขึ้น +(เปอร์เซ็นต์ HP ที่ต่างกัน)% (สูงสุด 50%; ยกเว้นสกิล E.G.O)",
+      "desc": "- เสียเอฟเฟกต์นี้ไปเมื่อตัวละครนี้ได้รับ <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ร้ายข่วน'</color>\n- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +2 หน่วย\n- สกิลโจมตีพื้นฐานจะเสียแต้มแคลชสกิล (ผลรวม <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ข่วน'</color> และ <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a>'กระสุนพยัคฆ์ร้ายข่วน'</color> ที่จ่ายไปสะสม / 2) แต้ม (สูงสุด 10 แต้ม); \n\nอย่างไรก็ดี จะได้รับเอฟเฟกต์ดังต่อไปนี้ด้วยเช่นกัน (สะสมได้):\n<color=#e60000>กระสุนที่จ่ายไปสะสม: {0} นัด</color>\n· จ่าย 8+ นัด: ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 1 หน่วย ตามทุก ๆ HP 10% ของตนเองที่หายไปเมื่อเริ่มเทิร์น (สูงสุด 5 หน่วย)\n· จ่าย 14+ นัด: เมื่อแคลชสกิลแพ้ <sprite name=\"SuperCoin\"><color=#9f6a3a>'เหรียญทนทาน'</color> ของสกิลโจมตีพื้นฐานตัวละครนี้จะสร้างความเสียหายเพิ่มขึ้น +(75 + เปอร์เซ็นต์ HP ตนเองที่เสียไป)% (สูงสุด 150%)\n· จ่าย 20+ นัด: สร้างความเสียหายแก่เป้าหมายที่มีเปอร์เซ็นต์ HP ปัจจุบันสูงกว่าตนเองเพิ่มขึ้น +(เปอร์เซ็นต์ HP ที่ต่างกัน)% (สูงสุด 50%; ยกเว้นสกิล E.G.O)",
       "summary": "",
       "undefined": "-"
     },
