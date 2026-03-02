@@ -237,20 +237,20 @@
     {
       "id": 131409,
       "name": "ชิน (心) - วาเลนซินา",
-      "desc": "เมื่อถูกโจมตี หรือเมื่อ \"ลูกศิษย์นิ้วโป้ง - ลูซิโอ\" ถูกสังหาร จะได้รับ [ObsessionAndGreed] ในเทิร์นถัดไป",
+      "desc": "เมื่อถูกโจมตี หรือเมื่อ \"ลูกศิษย์นิ้วโป้ง - ลูซิโอ\" ถูกกำจัด จะได้รับ [ObsessionAndGreed] ในเทิร์นถัดไป",
       "summary": "",
       "flavor": "\"*sigh* Okay. So, you're saying we can get Ticket back by going in and wrecking the place according to that fanatic's plan... Is this really going to bring Ticket back to us?\""
     },
     {
       "id": 131406,
       "name": "ลูซิโอ ไอ้เวรไร้ประโยชน์!",
-      "desc": "เมื่อ \"ลูกศิษย์นิ้วโป้ง - ลูซิโอ\" ถูกสังหาร จะเปิดใช้งานสกิลติดตัว \"ถึงเวลาออกล่า\"",
+      "desc": "เมื่อ \"ลูกศิษย์นิ้วโป้ง - ลูซิโอ\" ถูกกำจัด จะเปิดใช้งานสกิลติดตัว \"ถึงเวลาออกล่า\"",
       "summary": ""
     },
     {
       "id": 131410,
       "name": "ถึงเวลาออกล่า",
-      "desc": "เริ่มเทิร์น: หากตัวละครนี้ติดชะงัก จะฟื้นตัวจากการชะงัก\n\nสุ่มเลือกซินเนอร์หนึ่งคนแบบสุ่ม และสร้าง [TeachersPrey]\n- เปิดใช้งานทุก ๆ 4 เทิร์น นับแต่การเปิดใช้งานครั้งแรก\n- หากตัวละครนี้สังหารเป้าหมายด้วยสกิล \"สังหาร\" จะเปิดใช้งานเอฟเฟกต์นี้อีกครั้งในเทิร์นถัดไป",
+      "desc": "เริ่มเทิร์น: หากตัวละครนี้ติดชะงัก จะฟื้นตัวจากการชะงัก\n\nสุ่มเลือกซินเนอร์หนึ่งคนแบบสุ่ม และสร้าง [TeachersPrey]\n- เปิดใช้งานทุก ๆ 4 เทิร์น นับแต่การเปิดใช้งานครั้งแรก\n- หากตัวละครนี้กำจัดเป้าหมายด้วยสกิล \"กำจัด\" จะเปิดใช้งานเอฟเฟกต์นี้อีกครั้งในเทิร์นถัดไป",
       "summary": "",
       "flavor": "The Palermitan Style has much in common with the originator of the sword technique—La Famiglia Bognatelli.\nBoth the Famiglia and the sword style are renowned for relentlessly focusing on a single prey during a hunt, which is concluded with a Coup de Grâce that may as well be called a dissection. These executions are not carried out in the shadows, but instead, proudly put on display for all to behold.\nThe spectacular and formidable sword style has granted the Famiglia much honor and prestige, eventually securing them a place among the Sette Famiglie of the Backstreets.\nValencina, a master of the Palermitan Style, used it to hunt and execute many officers and so-called battle-hardened soldiers during the Smoke War, becoming a veritable \"War Hero.\"\nIronically, no one could have imagined her fall would sink as low as her fame once soared."
     },
@@ -431,7 +431,7 @@
     {
       "id": 134703,
       "name": "ประสงค์แห่งบทบัญญัติ",
-      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescript_Base_2nd] ตามระดับขั้น [UnlockBuff_Base] ที่ตนเองมี\n- มอบ [IndexPrescriptTargetToPersonality] แก่ซินเนอร์หนึ่งคนที่ไม่ใช่ 'เรียวชู' และเน้นโจมตีตัวละครดังกล่าวเป็นหลัก\n<color=#ff6000><mark=#ff000040><b><u>- เมื่อใช้สกิลกับ [IndexPrescriptTargetToPersonality] จะแปลงเหรียญทั้งหมดของสกิลนั้นให้เป็น [SuperCoin]</u></b></mark></color>\n· หาก [IndexPrescriptTargetToPersonality] ถูกสังหาร หรือหากตัวละครนี้ไม่สามารถเล็งเป้าหมายนั้นได้อีก <color=#ff6000><mark=#ff000040><b><u>จะสุ่มโจมตีซินเนอร์คนอื่นที่ไม่ใช่ 'เรียวชู' ด้วยสกิลทั้งหมดที่เหลืออยู่ (เน้นเป้าหมายที่มี HP ปัจจุบันต่ำที่สุดเป็นหลัก)</u></b></mark></color>\n· เมื่อซินเนอร์คนอื่นทั้งหมดทุกสังหาร จึงจะมอบ [IndexPrescriptTargetToPersonality] ให้กับ 'เรียวชู'\n\nสร้างความเสียหายต่อ [IndexPrescriptTargetToPersonality] เพิ่มขึ้น +2.5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] (สูงสุด 20%)\n- เมื่อมี [BlessingOfIndexPrescriptEnemy] 9 หน่วย จะสร้างความเสียหายต่อเป้าหมายทั้งหมดเพิ่มขึ้น +30%",
+      "desc": "เริ่มเทิร์น:\n- ได้รับ [IndexPrescript_Base_2nd] ตามระดับขั้น [UnlockBuff_Base] ที่ตนเองมี\n- มอบ [IndexPrescriptTargetToPersonality] แก่ซินเนอร์หนึ่งคนที่ไม่ใช่ 'เรียวชู' และเน้นโจมตีตัวละครดังกล่าวเป็นหลัก\n<color=#ff6000><mark=#ff000040><b><u>- เมื่อใช้สกิลกับ [IndexPrescriptTargetToPersonality] จะแปลงเหรียญทั้งหมดของสกิลนั้นให้เป็น [SuperCoin]</u></b></mark></color>\n· หาก [IndexPrescriptTargetToPersonality] ถูกกำจัด หรือหากตัวละครนี้ไม่สามารถเล็งเป้าหมายนั้นได้อีก <color=#ff6000><mark=#ff000040><b><u>จะสุ่มโจมตีซินเนอร์คนอื่นที่ไม่ใช่ 'เรียวชู' ด้วยสกิลทั้งหมดที่เหลืออยู่ (เน้นเป้าหมายที่มี HP ปัจจุบันต่ำที่สุดเป็นหลัก)</u></b></mark></color>\n· เมื่อซินเนอร์คนอื่นทั้งหมดทุกกำจัด จึงจะมอบ [IndexPrescriptTargetToPersonality] ให้กับ 'เรียวชู'\n\nสร้างความเสียหายต่อ [IndexPrescriptTargetToPersonality] เพิ่มขึ้น +2.5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] (สูงสุด 20%)\n- เมื่อมี [BlessingOfIndexPrescriptEnemy] 9 หน่วย จะสร้างความเสียหายต่อเป้าหมายทั้งหมดเพิ่มขึ้น +30%",
       "flavor": "Do you wish me to raise a family?\n\n\"It must've been fate that brought us together. To think that I'd ever meet a husband like you...\""
     },
     {
@@ -461,7 +461,7 @@
     {
       "id": 134803,
       "name": "ประสงค์แห่งบทบัญญัติ",
-      "desc": "เริ่มเทิร์น:\n- มอบ [IndexPrescriptTargetToPersonality] แก่ซินเนอร์หนึ่งคนที่ไม่ใช่ 'เรียวชู' และเน้นโจมตีตัวละครดังกล่าวเป็นหลัก\n<color=#ff6000><mark=#ff000040><b><u>- เมื่อใช้สกิลกับ [IndexPrescriptTargetToPersonality] จะแปลงเหรียญทั้งหมดของสกิลนั้นให้เป็น [SuperCoin]</u></b></mark></color>\n· หาก [IndexPrescriptTargetToPersonality] ถูกสังหาร หรือหากตัวละครนี้ไม่สามารถเล็งเป้าหมายนั้นได้อีก <color=#ff6000><mark=#ff000040><b><u>จะสุ่มโจมตีซินเนอร์คนอื่นที่ไม่ใช่ 'เรียวชู' ด้วยสกิลทั้งหมดที่เหลืออยู่ (เน้นเป้าหมายที่มี HP ปัจจุบันต่ำที่สุดเป็นหลัก ยกเว้นว่าตัวละครนั้นมี HP 1 หน่วย)</u></b></mark></color>\n· เมื่อซินเนอร์คนอื่นทั้งหมดทุกสังหาร จึงจะมอบ [IndexPrescriptTargetToPersonality] ให้กับ 'เรียวชู'\n- ได้รับ [Protection] เท่ากับ [BlessingOfIndexPrescriptEnemy] (สูงสุด 9 หน่วย)\n<color=#ff6000><mark=#ff000040><b><u>· เสียปริมาณทับซ้อน 1 หน่วย ตามทุก ๆ [KarmaOfIndexRien_2Phase] 20 หน่วย</u></b></mark></color>\n\nสร้างความเสียหายต่อ [IndexPrescriptTargetToPersonality] เพิ่มขึ้น +5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] (สูงสุด 40%)\n- เมื่อมี [BlessingOfIndexPrescriptEnemy] 9 หน่วย จะสร้างความเสียหายต่อเป้าหมายทั้งหมดเพิ่มขึ้น +50% แทน\n\nนับจากเริ่มเทิร์นแรกหลังจากเปลี่ยนเฟสต่อสู้ จะเปิดใช้งานเอฟเฟกต์ดังต่อไปนี้:\n- ได้รับ [BlackNightmare] ในทุก ๆ 2 เทิร์น\n- เมื่อได้รับ [BlackNightmare] หากตัวละครนี้มี [StackRienSpecialSkill] ต่ำกว่า 9 หน่วย จะเปิดใช้งานรูปแบบการโจมตีพิเศษ",
+      "desc": "เริ่มเทิร์น:\n- มอบ [IndexPrescriptTargetToPersonality] แก่ซินเนอร์หนึ่งคนที่ไม่ใช่ 'เรียวชู' และเน้นโจมตีตัวละครดังกล่าวเป็นหลัก\n<color=#ff6000><mark=#ff000040><b><u>- เมื่อใช้สกิลกับ [IndexPrescriptTargetToPersonality] จะแปลงเหรียญทั้งหมดของสกิลนั้นให้เป็น [SuperCoin]</u></b></mark></color>\n· หาก [IndexPrescriptTargetToPersonality] ถูกกำจัด หรือหากตัวละครนี้ไม่สามารถเล็งเป้าหมายนั้นได้อีก <color=#ff6000><mark=#ff000040><b><u>จะสุ่มโจมตีซินเนอร์คนอื่นที่ไม่ใช่ 'เรียวชู' ด้วยสกิลทั้งหมดที่เหลืออยู่ (เน้นเป้าหมายที่มี HP ปัจจุบันต่ำที่สุดเป็นหลัก ยกเว้นว่าตัวละครนั้นมี HP 1 หน่วย)</u></b></mark></color>\n· เมื่อซินเนอร์คนอื่นทั้งหมดทุกกำจัด จึงจะมอบ [IndexPrescriptTargetToPersonality] ให้กับ 'เรียวชู'\n- ได้รับ [Protection] เท่ากับ [BlessingOfIndexPrescriptEnemy] (สูงสุด 9 หน่วย)\n<color=#ff6000><mark=#ff000040><b><u>· เสียปริมาณทับซ้อน 1 หน่วย ตามทุก ๆ [KarmaOfIndexRien_2Phase] 20 หน่วย</u></b></mark></color>\n\nสร้างความเสียหายต่อ [IndexPrescriptTargetToPersonality] เพิ่มขึ้น +5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] (สูงสุด 40%)\n- เมื่อมี [BlessingOfIndexPrescriptEnemy] 9 หน่วย จะสร้างความเสียหายต่อเป้าหมายทั้งหมดเพิ่มขึ้น +50% แทน\n\nนับจากเริ่มเทิร์นแรกหลังจากเปลี่ยนเฟสต่อสู้ จะเปิดใช้งานเอฟเฟกต์ดังต่อไปนี้:\n- ได้รับ [BlackNightmare] ในทุก ๆ 2 เทิร์น\n- เมื่อได้รับ [BlackNightmare] หากตัวละครนี้มี [StackRienSpecialSkill] ต่ำกว่า 9 หน่วย จะเปิดใช้งานรูปแบบการโจมตีพิเศษ",
       "flavor": "I raised a family.\n\n\"You're not supposed to be here right now.\"\n\"My work is still much underway, and I'd like to carve them up in peace so they can attain the most exquisite beauty I can sculpt.\"\n\"... Don't tell me, are you here to defy the Prescript?\""
     },
     {
