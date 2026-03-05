@@ -1,0 +1,313 @@
+{
+  "dataList": [
+    {
+      "id": 136601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "กระโจน",
+          "desc": "เล็งเป้าหมายที่มีเปอร์เซ็นต์ HP สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ขบแทะ",
+          "desc": "เล็งเป้าหมายที่มีเปอร์เซ็นต์ HP สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Laceration] จะสร้าง [PenetrateResistDown] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "อาหารเสริมฟองรสส้ม",
+          "desc": "เล็งเป้าหมายที่มีเปอร์เซ็นต์ HP สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ใส่รสหนึบหนับเพิ่มไปอีกหน่อย",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [Laceration] จะสร้าง [PenetrateResistDown] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ย้ายถิ่นฝูง",
+          "desc": "[OnSucceedEvade] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป\n[EndBattle] [RunHallway] หมดลง; จากนั้น เปิดใช้งาน [NextHallway]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ขบเคี้ยว",
+          "desc": "เล็งเป้าหมายที่มีความเร็วต่ำที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] แต้มเริ่มต้นสกิลลดลง -1 แต้ม ตามทุก ๆ เหรียญที่แตก",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "เติมฟองรสส้มขนาดกลาง",
+          "desc": "เล็งเป้าหมายที่มีความเร็วต่ำที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[BeforeAttack] แต้มเริ่มต้นสกิลลดลง -1 แต้ม ตามทุก ๆ เหรียญที่แตก",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ยิ่งเติม ยิ่งอร่อย",
+          "desc": "เล็งเป้าหมายที่มีความเร็วต่ำที่สุดเป็นหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[BeforeAttack] แต้มเริ่มต้นสกิลลดลง -1 แต้ม ตามทุก ๆ เหรียญที่แตก",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +4 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้าง [PenetrateResistDown] 2 หน่วยในเทิร์นถัดไป"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ผลาญอาหารที่ถูกป้อน เพื่อให้กำเนิดบองบอง",
+          "desc": "เล็งเป้าหมายที่มีความเร็วต่ำที่สุดเป็นหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[BeforeAttack] แต้มเริ่มต้นสกิลลดลง -1 แต้ม ตามทุก ๆ เหรียญที่แตก",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ย้ายถิ่นฝูง",
+          "desc": "[CanDuelGuard]\n[EndBattle] [RunHallway] หมดลง; จากนั้น เปิดใช้งาน [NextHallway] ให้กับ 'ตนเอง' และ 'อาหารสุดเพอร์เฟกต์' ที่ตนเองอัญเชิญมา",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

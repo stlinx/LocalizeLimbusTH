@@ -2741,114 +2741,114 @@
     },
     {
       "id": "ThatIsRhythm",
-      "name": "Rhythm",
-      "desc": "- Max Stack: 5\n- Deal +2% damage for every Stack (max 10%)\n- Offense Level +1 for every Stack (max 5)\n- Defense Level -1 for every Stack (max -5)\n- Turn End: This effect expires",
+      "name": "จังหวะ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด 10%)\n- ได้รับเลเวลจู่โจม +1 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด 5 หน่วย)\n- เสียเลเวลตั้งรับ -1 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด -5 หน่วย)\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultBeeSpore",
-      "name": "Spore",
-      "desc": "- Max Stack: 15\n- Turn End: Gain +1 Burn Count for every 5 Stack\n- Gain 1 Bind next turn",
+      "name": "สปอร์",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 15 หน่วย\n- จบเทิร์น: ได้รับจำนวนครั้ง <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> +1 หน่วย ตามทุก ๆ ปริมาณทับซ้อน 5 หน่วย\n- ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultWorkerBee",
-      "name": "Loyalty Pheromone",
-      "desc": "- Max Stack: 3\n- Gain the following effects next turn based on Stack at Turn End:\n1+ Stack: 1 Protection\n2+ Stack: 1 Haste\n3 Stack: 1 Clash Power Up",
+      "name": "ฟีโรโมนความภักดี",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- ได้รับเอฟเฟกต์ดังต่อไปนี้ในเทิร์นถัดไป ตามปริมาณทับซ้อนที่มีเมื่อจบเทิร์น:\n1+ หน่วย: <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 1 หน่วย\n2+ หน่วย: <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วย\n3 หน่วย: <sprite name=\"ParryingResultUp\"><color=#f8c200>'เพิ่มแต้มแคลชสกิล'</color> 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultSporeBulletLong",
-      "name": "Spore Round [Base]",
-      "desc": "- Unique Ammo\n- Max Stack: 10\n- Spent when using certain Skills\n- Some attacks cancel if lacking Ammo\n- When spent, inflict 2 Spore on target On Hit",
+      "name": "กระสุนสปอร์ [พื้นฐาน]",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ปริมาณทับซ้อนสูงสุด: 10 นัด\n- จ่ายโดยบางสกิล\n- บางการโจมตีจะถูกยกเลิก หาก <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> ไม่เพียงพอ\n- เมื่อจ่ายและโจมตีโดน จะสร้าง <sprite name=\"MeursaultBeeSpore\"><color=#e30000>'สปอร์'</color> 2 หน่วยแก่เป้าหมาย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultSporeBulletShort",
-      "name": "Spore Round [Buckshot]",
-      "desc": "- Unique Ammo\n- Max Stack: 6\n- Spent when using certain Skills\n- Some attacks cancel if lacking Ammo\n- When spent, inflict 3 Spore on target On Hit",
+      "name": "กระสุนสปอร์ [ลูกซอง]",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ปริมาณทับซ้อนสูงสุด: 6 นัด\n- จ่ายโดยบางสกิล\n- บางการโจมตีจะถูกยกเลิก หาก <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> ไม่เพียงพอ\n- เมื่อจ่ายและโจมตีโดน จะสร้าง <sprite name=\"MeursaultBeeSpore\"><color=#e30000>'สปอร์'</color> 3 หน่วยแก่เป้าหมาย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultSporeBulletReloading",
-      "name": "Reload [Germination]",
-      "desc": "- Effect applied to Spore Round (Unique Ammo)\n- Consume ((16 - sum of Spore Round) / 2) SP(rounded down), reset both Spore Round [Base] and Spore Round [Buckshot] to 0 Stacks, and gain them up to max Stacks",
+      "name": "รีโหลด [เพาะตัว]",
+      "desc": "- เอฟเฟกต์มีผลกับ <sprite name=\"MeursaultSporeBulletLong\"><sprite name=\"MeursaultSporeBulletShort\"><color=#9f6a3a>'กระสุนสปอร์'</color> (นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ)\n- ผลาญ SP ((16 - ผลรวม <sprite name=\"MeursaultSporeBulletLong\"><sprite name=\"MeursaultSporeBulletShort\"><color=#9f6a3a>'กระสุนสปอร์'</color>) / 2) หน่วย (ปัดเศษลง); จากนั้นรีเซ็ตปริมาณทับซ้อนของ <sprite name=\"MeursaultSporeBulletLong\"><color=#9f6a3a>'กระสุนสปอร์ [พื้นฐาน]'</color> และ <sprite name=\"MeursaultSporeBulletShort\"><color=#9f6a3a>'กระสุนสปอร์ [ลูกซอง]'</color> เป็น 0 นัด และได้รับ <sprite name=\"MeursaultSporeBulletLong\"><sprite name=\"MeursaultSporeBulletShort\"><color=#9f6a3a>'กระสุนสปอร์'</color> ทั้งสองประเภทจนเต็ม",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultBeeGunLong",
-      "name": "Hornet [Rifle]",
-      "desc": "Current Mode: Hornet [Rifle]",
+      "name": "ต่อ [ไรเฟิล]",
+      "desc": "โหมดปัจจุบัน: ต่อ [ไรเฟิล]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MeursaultBeeGunShort",
-      "name": "Hornet [Shotgun]",
-      "desc": "Current Mode: Hornet [Shotgun]",
+      "name": "ต่อ [ลูกซอง]",
+      "desc": "โหมดปัจจุบัน: ต่อ [ลูกซอง]",
       "summary": "",
       "undefined": "-",
       "flavor": "Instead of deferring the definition to its rifle-form, gaze into the core essence of \"Hornet.\"\nepoché"
     },
     {
       "id": "BulletGodok",
-      "name": "Bullet - Solitude",
-      "desc": "- Unique Ammo\n- Max Capacity: 6\nSpent when using certain Skills\n\n- This Ammo's count cannot be gained or lost due to external effects",
+      "name": "กระสุน - สันโดษ",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 6 นัด\n- จ่ายโดยบางสกิล\n- เอฟเฟกต์ภายนอก ไม่สามารถทำให้รับหรือเพิ่มปริมาณ <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> นี้ได้",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AlriuneEGOThey",
-      "name": "Faint Aroma",
-      "desc": "- Max Stack: 30\n- Gain 1 Stack if this unit takes Sinking damage\n- Upon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies (for Abnormalities, the Part)\n- At max Stack, gain 2 Tremor and trigger Tremor Burst on self; then, take Gloom damage equal to Sinking on self and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn.\n- If this unit is killed, inflict (remaining Faint Aroma on this unit / 2) Faint Aroma randomly between this unit's allies (rounded down)",
+      "name": "กลิ่นหอมเลือนลาง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 30 หน่วย\n- ปริมาณทับซ้อนเพิ่มขึ้น +1 หน่วย หากตัวละครนี้ได้รับความเสียหาย <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color>\n- เมื่อถูกทำให้เกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> จะมอบ <sprite name=\"AlriuneEGOThey\"><color=#e30000>'กลิ่นหอมเลือนลาง'</color> 1~2 หน่วย ให้กับพันธมิตรอื่น 3 คนแบบสุ่ม (สำหรับสิ่งผิดปกติ จะมีผลกับอวัยวะ)\n- เมื่อมีปริมาณทับซ้อนเต็ม จะได้รับค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> 2 หน่วย และทำให้เกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> บนตัวเอง; จากนั้น ได้รับความเสียหายธาตุโศกาเท่ากับค่า <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> ที่ตนเองมี และเสีย <sprite name=\"AlriuneEGOThey\"><color=#e30000>'กลิ่นหอมเลือนลาง'</color> ทั้งหมด และตลอดเทิร์นนั้นจะไม่สามารถรับ <sprite name=\"AlriuneEGOThey\"><color=#e30000>'กลิ่นหอมเลือนลาง'</color> ได้อีก\n- หากตัวละครนี้ถูกกำจัด จะสร้าง <sprite name=\"AlriuneEGOThey\"><color=#e30000>'กลิ่นหอมเลือนลาง'</color> เท่ากับครึ่งหนึ่งของปริมาณคงเหลือ ระหว่างพันธมิตรทั้งหมดของตัวละครนี้แบบสุ่ม (ปัดเศษลง)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AlriuneEGOWe",
-      "name": "Petals",
-      "desc": "- Max Stack: 30\n- Offense Level +1 for every 10 Stack\n- Can be gained up to 15 Stacks per turn",
+      "name": "กลีบดอก",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 30 หน่วย\n- ได้รับเลเวลจู่โจม +1 ตามทุก ๆ ปริมาณทับซ้อน 10 หน่วย\n- สามารถรับได้สูงสุด 15 หน่วยต่อเทิร์น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GodokPanicType",
-      "name": "Solitude",
-      "desc": "- Take +10% damage from Gloom Skills\n- Units with SP: Change their Panic Type to 'Solitude'\n- Units without SP: Gain +2 Sinking Count at Turn End\n\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but cannot change their Panic Types\n\n※ Solitude Panic Effect:\n- Low Morale: Gain +2 Sinking Count at Turn End\n- Panic: Gain +3 Sinking Count at Turn End",
+      "name": "สันโดษ",
+      "desc": "- ได้รับความเสียหายจากสกิลธาตุโศกาเพิ่มขึ้น +10%\n- สำหรับตัวละครที่มี SP: เปลี่ยนประเภทการแตกตื่นเป็น <sprite name=\"GodokPanicType\"><color=#e30000>'สันโดษ'</color>\n- สำหรับตัวละครที่ไม่มี SP: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +2 หน่วยเมื่อจบเทิร์น\n\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้; การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่สร้างทับแทน\n※ เงื่อนไขของ 'สำหรับตัวละครที่ไม่มี SP' จะส่งผลถึงศัตรูบางตัวที่มี SP แต่ไม่สามารถเปลี่ยนประเภทการแตกตื่นได้\n\nเอฟเฟกต์แตกตื่น <sprite name=\"GodokPanicType\"><color=#e30000>'สันโดษ'</color>:\n- ขวัญอ่อน: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +2 หน่วยเมื่อจบเทิร์น\n- แตกตื่น: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +3 หน่วยเมื่อจบเทิร์น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Godok_Lowmorale",
-      "name": "Solitude",
-      "desc": "- Low Morale\n- Turn End: Gain +2 Sinking Count",
+      "name": "สันโดษ",
+      "desc": "- ขวัญอ่อน\n- จบเทิร์น: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +2 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Godok_Panic",
-      "name": "Solitude",
-      "desc": "- Panic\n- Turn End: Gain +3 Sinking Count",
+      "name": "สันโดษ",
+      "desc": "- แตกตื่น\n- จบเทิร์น: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +3 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GodokPanicType_Sub",
-      "name": "Solitude",
-      "desc": "- Take +10% damage from Gloom Skills\n- Turn End: Gain +2 Sinking Count\n\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value",
+      "name": "สันโดษ",
+      "desc": "- ได้รับความเสียหายจากสกิลธาตุโศกาเพิ่มขึ้น +10%\n- จบเทิร์น: ได้รับจำนวนครั้ง <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> +2 หน่วย\n\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้; การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่สร้างทับแทน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GodokPanicType_Main",
-      "name": "Solitude",
-      "desc": "- Take +10% damage from Gloom Skills\n- Change Panic Type to 'Solitude'\n\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value",
+      "name": "สันโดษ",
+      "desc": "- ได้รับความเสียหายจากสกิลธาตุโศกาเพิ่มขึ้น +10%\n- เปลี่ยนประเภทการแตกตื่นเป็น <sprite name=\"GodokPanicType\"><color=#e30000>'สันโดษ'</color>\n\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย\n- เอฟเฟกต์นี้ไม่สามารถทับซ้อนได้; การสร้างสถานะซ้ำจะแทนที่ปริมาณปัจจุบัน ด้วยปริมาณใหม่ที่สร้างทับแทน",
       "summary": "",
       "undefined": "-"
     }
