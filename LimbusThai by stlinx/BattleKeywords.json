@@ -2882,93 +2882,93 @@
     },
     {
       "id": "SelfChargeAlly",
-      "name": "Self-charge",
-      "desc": "- Final Power +2\n- Gain Charge Count equal to Stack lost\n- Lose Stack at:\n· Attack End of Skills that hit this unit (lose 1 Stack)\n· Attack End (lose 3 Stack)\n· Turn End (lose 5 Stack)\n- Max Stack: 20\n- This unit's HP cannot drop below 1 before this effect expires",
-      "summary": "",
+      "name": "ชาร์จพลังด้วยตนเอง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 20 หน่วย\n- แต้มปิดท้ายสกิลเพิมขึ้น +2 แต้ม\n- HP ของตัวละครนี้ไม่สามารถลดต่ำกว่า 1 หน่วยได้ จนกว่าเอฟเฟกต์นี้จะหมดลง\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> เท่ากับปริมาณทับซ้อนที่เสียไป\n- เสียปริมาณทับซ้อนเมื่อ:\n · หลังสกิลที่โจมตีตัวละครนี้โจมตีเสร็จสิ้น (เสีย 1 หน่วย)\n · หลังตัวเองโจมตีเสร็จสิ้น (เสีย 3 หน่วย)\n · จบเทิร์น (เสีย 5 หน่วย)",
+      "summary": "กันตายจนกว่าเอฟเฟกต์จะหมด",
       "undefined": "-"
     },
     {
       "id": "HighVoltageExoshell",
-      "name": "High-voltage Exoskeleton",
-      "desc": "- Gain (Stack x 5) Shield\n- If this unit loses (Stack x 5) Shield, lose 1 Stack\n- Turn End: Gain Charge Count equal to Stack; both High-voltage Exoskeleton and Shield gained from its effect expire\n- Max Stack: 20",
-      "summary": "",
+      "name": "เอ็กซ์โซสเกเลตันแรงดันไฟฟ้าสูง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 20 หน่วย\n- ได้รับโล่ (ปริมาณทับซ้อน x 5) หน่วย\n- หากตัวละครนี้เสียโล่ (ปริมาณทับซ้อน x 5) หน่วย จะเสียปริมาณทับซ้อน <sprite name=\"HighVoltageExoshell\"><color=#f8c200>'เอ็กซ์โซสเกเลตันแรงดันไฟฟ้าสูง'</color> 1 หน่วย\n- จบเทิร์น: ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> เท่ากับปริมาณทับซ้อนที่มี; จากนั้น ทั้ง <sprite name=\"HighVoltageExoshell\"><color=#f8c200>'เอ็กซ์โซสเกเลตันแรงดันไฟฟ้าสูง'</color> และโล่ที่ได้รับจากเอฟเฟกต์ของมันจะหมดลง",
+      "summary": "ได้รับโล่ + จำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color>",
       "undefined": "-"
     },
     {
       "id": "ChargedSting",
-      "name": "Charged Sting",
-      "desc": "- For every Stack, take +4% damage from Skills that gain or consume Charge Count (including 'Unique Charge') (max 20%)\n· For Envy Skills, strengthen this effect and take +8% damage for every Stack instead (max 40%)\n- Max Stack: 5\n- Lose 1 Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (excluding Base Attack Skills that inflict Charged Sting)",
+      "name": "เหล็กในผ่านการชาร์จ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- ได้รับความเสียหายจากสกิล ซึ่งสามารถรับหรือผลาญจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> (รวมถึง '<sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> แบบพิเศษ') ได้เพิ่มขึ้น +4% ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด 20%)\n · สำหรับสกิลธาตุริษยา เสริมแกร่งเอฟเฟกต์นี้ ทำให้ได้รับความเสียหายเพิ่มขึ้น +8% ตามทุก ๆ ปริมาณทับซ้อนแทน (สูงสุด 40%)\n- หลังจากถูกโจมตีโดยสกิล ซึ่งเข้าเงื่อนไขเกิดเอฟเฟกต์ข้างต้น (ยกเว้นสกิลโจมตีพื้นฐานซึ่งสร้าง <sprite name=\"ChargedSting\"><color=#e30000>'เหล็กในผ่านการชาร์จ'</color>) จะเสียปริมาณทับซ้อน 1 หน่วยหลังการโจมตีจบลง หรือเมื่อจบเทิร์น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FaustFlameMothEmber",
-      "name": "Embers",
-      "desc": "- Max Potency: 3\n- Max Count: 6\n- If this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn Potency, Count, or 'Unique Burn' (including E.G.O Skills)\n\n- If this unit does not have Burn, reset Embers Count to 6 when hit (independent of Skills that inflict Burn)\n\n- At 0 Embers Count, activate the following effects:\n· Activate Burn on self once and lose 1 Burn Count\n· Lose 1 Embers Potency\n· If this unit has 1+ remaining Embers Potency, reset Embers Count to 6",
-      "summary": "",
+      "name": "ไฟคุกรุ่น",
+      "desc": "ค่าสูงสุด: 3 หน่วย\nจำนวนครั้งสูงสุด: 6 หน่วย\n\n- หากตัวละครนี้มี <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> จะเสียจำนวนครั้ง <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> 1 หน่วยเมื่อถูกโจมตีโดยสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง, หรือ <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> แบบพิเศษได้ (รวมถึงสกิล E.G.O)\n\n- หากตัวละครนี้ไม่มี <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> จะรีเซ็ตจำนวนครั้ง <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> กลับเป็น 6 หน่วย (ไม่จำเป็นต้องเป็นสกิลซึ่งสามารถสร้าง <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> ได้)\n\n- เมื่อมีจำนวนครั้ง <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> 0 หน่วย จะเกิดเอฟเฟกต์ดังต่อไปนี้:\n · ทำให้ <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> ที่ตนเองมีทำงานหนึ่งครั้ง และเสียจำนวนครั้ง <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> 1 หน่วย\n · ค่า <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> ลดลง 1 หน่วย\n · เมื่อมีค่า <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> เหลืออยู่ 1+ หน่วย จะรีเซ็ตจำนวนครั้ง <sprite name=\"FaustFlameMothEmber\"><color=#e30000>'ไฟคุกรุ่น'</color> กลับเป็น 6 หน่วย",
+      "summary": "ช่วยทำให้ <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> ทำงานบ่อยขึ้น",
       "undefined": "-"
     },
     {
       "id": "ChargeBodyArt",
-      "name": "Corpus Ingredient",
-      "desc": "- Max Count: 20\n- Unique Charge\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
-      "summary": "Consumed or gained when using certain Skills",
+      "name": "ส่วนประกอบหาจากศพ",
+      "desc": "จำนวนสูงสุด: 20 หน่วย\n- นับเป็น <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> แบบพิเศษ\n- จะตอบโต้กับผลของเอฟเฟกต์ที่เพิ่มหรือลดค่า/จำนวนครั้ง <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> เหมือนกับ <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> ธรรมดา\n- จบเทิร์น: เสียจำนวน 1 หน่วย",
+      "summary": "ได้รับหรือผลาญโดยบางสกิล",
       "undefined": "-"
     },
     {
       "id": "TibiaPersonality",
-      "name": "Artwork: Tibia",
-      "desc": "Apply the following effects to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n- 1+ : Base Power +1\n- 2+ : If the enemy has Bleed or 'Unique Bleed', deal +10% damage\n- 3+ : Inflict +1 more Bleed Potency and Count\n- 4+ : Base Power +1\n- 5+ : Base Power +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "name": "งานศิลป์: ทิเบีย",
+      "desc": "มอบเอฟเฟกต์ต่าง ๆ ดังต่อไปนี้ ให้กับสกิลโจมตีพื้นฐานและสกิลสวนกลับแคลชได้ของตัวละครนี้ ตามค่า <sprite name=\"ChargeBodyArt\"><color=#f8c200>'ส่วนประกอบหาจากศพ'</color> ที่มี:\n- 1+ หน่วย: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม\n- 2+ หน่วย: หากศัตรูมี <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> หรือ '<sprite name=\"Laceration\"><color=#e30000>เลือดไหล</color> แบบพิเศษ' จะสร้างความเสียหายเพิ่มขึ้น +10%\n- 3+ หน่วย: สร้างค่าและจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เพิ่มขึ้น +1 หน่วย\n- 4+ หน่วย: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม\n- 5+ หน่วย: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม",
+      "summary": "ได้รับเอฟเฟกต์ตามค่า <sprite name=\"ChargeBodyArt\"><color=#f8c200>'ส่วนประกอบหาจากศพ'</color> ที่มี",
       "undefined": "-"
     },
     {
       "id": "MelodyBodyArt",
-      "name": "Somatic Frisson-inspiring Melody",
-      "desc": "- Min & Max Speed +1\n- Base Attack Skills gain Clash Power +1 and deal +10% damage",
-      "summary": "- Gain Min & Max Speed\n- Base Attack Skills gain Clash Power and deal more damage",
+      "name": "ท่วงทำนองเร้าดลใจจากภายในร่างกาย",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +1 หน่วย\n- สกิลโจมตีพื้นฐานมีแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10%",
+      "summary": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น\n- สกิลโจมตีพื้นฐานมีแต้มแคลชสกิลเพิ่มขึ้น และสร้างความเสียหายเพิ่มขึ้น",
       "undefined": "-"
     },
     {
       "id": "MelodyBodyArtChebello",
-      "name": "Somatic Frisson-inspiring Melody [Empowered]",
-      "desc": "- Min & Max Speed +2\n- Base Attack Skills gain Clash Power +2 and deal +20% damage",
-      "summary": "- Gain Min & Max Speed\n- Base Attack Skills gain Clash Power and deal more damage",
+      "name": "ท่วงทำนองเร้าดลใจจากภายในร่างกาย [เสริมพลัง]",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +2 หน่วย\n- สกิลโจมตีพื้นฐานมีแต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%",
+      "summary": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น\n- สกิลโจมตีพื้นฐานมีแต้มแคลชสกิลเพิ่มขึ้น และสร้างความเสียหายเพิ่มขึ้น",
       "undefined": "-"
     },
     {
       "id": "LivingSpecimenPersonality",
-      "name": "Corpus Theater",
-      "desc": "- Base Stack: 3\n- When this unit gains Bleed from enemy Attack Skills, randomly gain 1 of the following effects next turn and lose 1 Stack of this effect (once per Skill)\n  · 3 Bleed Potency\n  · 1 Bind\n  · 1 Defense Power Down",
-      "summary": "Randomly gain 1 of the following: Bleed Potency, Bind, or Defense Power Down",
+      "name": "โรงละครเรือนร่าง",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- เมื่อตัวละครนี้ได้รับ <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> จากสกิลโจมตีของศัตรู จะสุ่มได้รับเอฟเฟกต์ต่อไปนี้ 1 หน่วยในเทิร์นถัดไป และเสียปริมาณทับซ้อนของเอฟเฟกต์นี้ 1 หน่วย (มีผลสกิลละครั้ง)\n · ค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> 3 หน่วย\n · <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วย\n · <sprite name=\"DefenseDown\"><color=#e30000>'เลเวลตั้งรับลดลง'</color> 1 หน่วย",
+      "summary": "สุ่มได้รับสถานะผิดปกติต่อไปนี้: ค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color>, <sprite name=\"DefenseDown\"><color=#e30000>'เลเวลตั้งรับลดลง'</color>",
       "undefined": "-"
     },
     {
       "id": "GoldenOpportunity",
-      "name": "Viewing the Tableau",
-      "desc": "- If The House of Spiders: The Ring Apprentice Faust is on the field, gain 2 Protection at Turn Start\n- Turn End: Lose 2 Stack",
-      "summary": "Gain Protection when conditions are met",
+      "name": "เชยชมจิตรกรรม",
+      "desc": "- หากมีตัวตน 'บ้านแห่งแมงมุม: ลูกศิษย์นิ้วนาง - เฟาสท์' อยู่บนสนาม จะได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 2 หน่วยเมื่อเริ่มเทิร์น\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 2 หน่วย",
+      "summary": "ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> เมื่อเข้าเงื่อนไข",
       "undefined": "-"
     },
     {
       "id": "IronMaidenPersonality",
-      "name": "Iron Maiden",
-      "desc": "- Gain +4 Aggro to the leftmost Slot\n- Turn Start: Gain 1 Protection, 5 Defense Level Up, and Shield HP equal to 5% of this unit's current HP\n- When hit by the last Coin of an attacker, deal Pierce damage equal to 20% of the said Coin's damage and inflict +2 Bleed Count (max once per Skill, 3 times per turn. Max damage per turn: 60)",
-      "summary": "- Gain Aggro to the leftmost Slot\n- Gain Protection, Defense Level Up, and Shield\n- When conditions are met, deal Pierce damage and inflict Bleed count on the attacker",
+      "name": "สตรีเหล็ก",
+      "desc": "- ช่องสกิลซ้ายสุดได้รับ <sprite name=\"Aggro\"><color=#9f6a3a>'ยั่วยุ'</color> +4 หน่วย\n- เริ่มเทิร์น: ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 1 หน่วย, <sprite name=\"DefenseUp\"><color=#f8c200>'เลเวลตั้งรับเพิ่มขึ้น'</color> 5 หน่วย และ HP โล่เท่ากับ 5% ของ HP ปัจจุบันตัวละคร\n- เมื่อถูกโจมตีโดยเหรียญสุดท้ายของผู้โจมตี จะสร้างความเสียหายประเภทแทงเท่ากับ 20% ของความเสียหายที่เหรียญดังกล่าวสร้าง พร้อมทั้งสร้างจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> +2 หน่วย (มีผลสูงสุดสกิลละครั้ง; สูงสุด 3 ครั้ง/เทิร์น; ปริมาณความเสียหายสูงสุดต่อเทิร์น: 60 หน่วย)",
+      "summary": "- ช่องสกิลซ้ายสุดได้รับ <sprite name=\"Aggro\"><color=#9f6a3a>'ยั่วยุ'</color>\n- ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color>, <sprite name=\"DefenseUp\"><color=#f8c200>'เลเวลตั้งรับเพิ่มขึ้น'</color> และ HP โล่\n- สะท้อนความเสียหายและสร้างจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เมื่อทำตามเงื่อนไข",
       "undefined": "-"
     },
     {
       "id": "SilverOpportunity",
-      "name": "The Self Unbound - Flow State",
-      "desc": "- Min & Max Speed +2\n- Gain a new set of Base Skills\n- Deal +20% damage with Base Attack Skills to enemies whose Speed is slower than this unit",
-      "summary": "Gain Min & Max Speed\nGain a new set of Base Skills\nWhen conditions are met, deal more damage",
+      "name": "ปลดเปลื้องตน - สภาวะพลิ้วไหว",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +2 หน่วย\n- ได้รับสกิลพื้นฐานเซ็ตใหม่\n- สกิลโจมตีพื้นฐานสร้างความเสียหายต่อศัตรู ที่มีความเร็วต่ำกว่าตัวละครนี้เพิ่มขึ้น +20%",
+      "summary": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น\n- ได้รับสกิลพื้นฐานเซ็ตใหม่\n- สร้างความเสียหายเพิ่มขึ้นเมื่อเข้าเงื่อนไข",
       "undefined": "-"
     },
     {
       "id": "FasciaPersonality",
-      "name": "Artwork: Fascia",
-      "desc": "Apply the following effects to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n- 1+ : Base Power +1\n- 2+ : If the enemy has Bleed or 'Unique Bleed', deal +10% damage\n- 3+ : Inflict +1 more Bleed Potency and Count\n- 4+ : Base Power +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "name": "งานศิลป์: ฟาสเซีย",
+      "desc": "มอบเอฟเฟกต์ต่าง ๆ ดังต่อไปนี้ ให้กับสกิลโจมตีพื้นฐานและสกิลสวนกลับแคลชได้ของตัวละครนี้ ตามค่า <sprite name=\"ChargeBodyArt\"><color=#f8c200>'ส่วนประกอบหาจากศพ'</color> ที่มี:\n- 1+ หน่วย: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม\n- 2+ หน่วย: หากศัตรูมี <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> หรือ '<sprite name=\"Laceration\"><color=#e30000>เลือดไหล</color> แบบพิเศษ' จะสร้างความเสียหายเพิ่มขึ้น +10%\n- 3+ หน่วย: สร้างค่าและจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เพิ่มขึ้น +1 หน่วย\n- 4+ หน่วย: แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม",
+      "summary": "ได้รับเอฟเฟกต์ตามค่า <sprite name=\"ChargeBodyArt\"><color=#f8c200>'ส่วนประกอบหาจากศพ'</color> ที่มี",
       "undefined": "-"
     }
   ]
