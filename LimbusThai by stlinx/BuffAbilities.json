@@ -69,8 +69,8 @@
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
       "desc": "เมื่อเริ่มเทิร์น มอบ {0} {1} หน่วย และจำนวน {0} +{2} หน่วยแก่พันธมิตรทั้งหมด",
-      "variation": "เมื่อเริ่มเทิร์น, apply {1} {0} to all allies.",
-      "variation2": "เมื่อเริ่มเทิร์น, apply +{1} {0} Count to all allies"
+      "variation": "เมื่อเริ่มเทิร์น, applyค่า {0} {1} หน่วย to all allies.",
+      "variation2": "เมื่อเริ่มเทิร์น, applyจำนวนครั้ง {0} +{1} หน่วย to all allies"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
@@ -178,7 +178,7 @@
     },
     {
       "id": "MRR525",
-      "desc": "จบเทิร์น: lose {1} {0} Count"
+      "desc": "จบเทิร์น: loseค่า {0} {1} หน่วย Count"
     },
     {
       "id": "CoinScaleAdderByAtkType",
@@ -186,7 +186,7 @@
     },
     {
       "id": "GiveBuffOnReleaseStandBy",
-      "desc": "Gain {1} {0} when Substituting in"
+      "desc": "ได้รับค่า {0} {1} หน่วย when Substituting in"
     },
     {
       "id": "MRR532",
@@ -246,7 +246,7 @@
     },
     {
       "id": "GiveBuffOnFirstRoundStartPerWave",
-      "desc": "First เริ่มเทิร์น of a wave: ได้รับ {1} {0} Potency and +{2} {0} Count"
+      "desc": "First เริ่มเทิร์น of a wave: ได้รับค่า {0} {1} หน่วย Potency และจำนวนครั้ง {0} +{2} หน่วย"
     },
     {
       "id": "GiveBuffOnBattleStartAR",
@@ -294,7 +294,7 @@
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
-      "desc": "On Crit, at more than {1} {0} Potency, ผลาญ up to {1} of the excess {0} Potency to deal +(Poise Potency consumed x {2})% damage on Critical Hit (สูงสุด {3}%)"
+      "desc": "On Crit, at more thanค่า {0} {1} หน่วย Potency, ผลาญ up to {1} of the excess {0} Potency to deal +(Poise Potency consumed x {2})% damage on Critical Hit (สูงสุด {3}%)"
     },
     {
       "id": "GainSinStockOnDieByDefaultSkill",
@@ -310,11 +310,11 @@
     },
     {
       "id": "MRR551",
-      "desc": "เริ่มเทิร์น: at max HP, ได้รับ {1} {0} Potency and +{2} Count (once per enemy per Part per Encounter)"
+      "desc": "เริ่มเทิร์น: at max HP, ได้รับค่า {0} {1} หน่วย Potency and +{2} Count (once per enemy per Part per Encounter)"
     },
     {
       "id": "MRR552",
-      "desc": "On death, 1 ally with the least current HP gains {1} {0} ในเทิร์นถัดไป"
+      "desc": "On death, 1 ally with the least current HP gainsค่า {0} {1} หน่วย ในเทิร์นถัดไป"
     },
     {
       "id": "MRR553",
@@ -430,31 +430,31 @@
     },
     {
       "id": "MD7LimitGiveBuffAllyDie",
-      "desc": "On Ally Death: Gain {1} {0} and +{2} {0} Count next turn ({3} times per turn)",
-      "variation": "On Ally Death: Gain {1} {0} next turn ({2} times per turn)",
-      "variation2": "On Ally Death: Gain +{1} {0} Count next turn ({2} times per turn)"
+      "desc": "เมื่อพันธมิตรตาย: ได้รับค่า {0} {1} หน่วย และจำนวนครั้ง {0} +{2} หน่วยในเทิร์นถัดไป (มีผล {3} ครั้งต่อเทิร์น)",
+      "variation": "เมื่อพันธมิตรตาย: ได้รับค่า {0} {1} หน่วยในเทิร์นถัดไป (มีผล {2} ครั้งต่อเทิร์น)",
+      "variation2": "เมื่อพันธมิตรตาย: ได้รับจำนวนครั้ง {0} +{1} หน่วยในเทิร์นถัดไป (มีผล {2} ครั้งต่อเทิร์น)"
     },
     {
       "id": "MD7LimitGiveBuffAllyDieAlt",
-      "desc": "On Ally Death: Gain {1} {0} and +{2} {0} Count next turn ({3} times per turn)",
-      "variation": "On Ally Death: Gain {1} {0} next turn ({2} times per turn)",
-      "variation2": "On Ally Death: Gain +{1} {0} Count next turn ({2} times per turn)"
+      "desc": "เมื่อพันธมิตรตาย: ได้รับค่า {0} {1} หน่วย และจำนวนครั้ง {0} +{2} หน่วยในเทิร์นถัดไป (มีผล {3} ครั้งต่อเทิร์น)",
+      "variation": "เมื่อพันธมิตรตาย: ได้รับค่า {0} {1} หน่วยในเทิร์นถัดไป (มีผล {2} ครั้งต่อเทิร์น)",
+      "variation2": "เมื่อพันธมิตรตาย: ได้รับจำนวนครั้ง {0} +{1} หน่วยในเทิร์นถัดไป (มีผล {2} ครั้งต่อเทิร์น)"
     },
     {
       "id": "RecoverSelfMpOnRoundStart",
-      "desc": "Turn Start: Heal {0} SP"
+      "desc": "เริ่มเทิร์น: ฟื้นฟู SP {0} หน่วย"
     },
     {
       "id": "MD7LimitGiveShield",
-      "desc": "Gain {0} Shield"
+      "desc": "ได้รับโล่ {0} หน่วย"
     },
     {
       "id": "MD7LimitSinBuffGiveBooster",
-      "desc": "Skills and Coins inflict x{0} more Burn, Bleed, Tremor, Rupture, and Sinking"
+      "desc": "สกิลและเหรียญสร้างค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color>, <sprite name=\"Burst\"><color=#e30000>'ฉีกกระชาก'</color>, และ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> เพิ่มขึ้น x{0} เท่า"
     },
     {
       "id": "GiveRandomNegativeSinbuffOnRoundStart",
-      "desc": "Turn Start: Gain {0} Potency randomly among Burn, Bleed, Tremor, Rupture, and Sinking"
+      "desc": "เริ่มเทิร์น: ได้รับค่าสถานะ {0} หน่วย โดยสุ่มเลือกระหว่าง <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color>, <sprite name=\"Burst\"><color=#e30000>'ฉีกกระชาก'</color> กับ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color>"
     }
   ]
 }
