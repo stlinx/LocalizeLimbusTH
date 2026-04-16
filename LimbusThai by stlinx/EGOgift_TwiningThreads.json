@@ -2,90 +2,112 @@
   "dataList": [
     {
       "id": 9260,
-      "name": "Artwork: Pulsation",
-      "desc": "If an ally consumed 10+ [Charge] Count in a single turn with its Base Skills, the said ally deals +20% damage with Base Skills next turn (excluding 'Unique Charge' with fixed Potency)\n- If the [Charge] consumed was 'Unique Charge', inflict +1 more [Laceration] and [Laceration] Count next turn",
+      "name": "งานศิลป์: จังหวะชีพจร",
+      "desc": "\nหากพันธมิตรผลาญจำนวน [Charge] 10+ หน่วยภายในเทิร์นเดียวด้วยสกิลพื้นฐานของตนเอง พันธมิตรคนดังกล่าวจะสร้างความเสียหายด้วยสกิลพื้นฐานเพิ่มขึ้น +20% ในเทิร์นถัดไป (ยกเว้น '[Charge] แบบพิเศษ' ที่มีค่า [Charge] ตายตัว)\n- หาก [Charge] ที่ผลาญไปเป็น '[Charge] แบบพิเศษ' จะสร้างค่า [Laceration] และจำนวนครั้ง [Laceration] เพิ่มขึ้น +1 หน่วยในเทิร์นถัดไป",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": "พันธมิตรที่ผลาญจำนวน [Charge] สร้างความเสียหายเพิ่มขึ้น"
+        }
       ]
     },
     {
       "id": 9261,
-      "name": "Artwork: Ferity",
-      "desc": "Deal +20% damage with Blunt Skills against enemies that either have 35+ [Sinking] Potency or are at 15 or lower SP ([Sinking] Potency is calculated per-Part)\n- If the said Blunt Skill is either a Gloom Skill or a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', and hit the target, gain 1 [Enhancement] next turn (once per turn per Identity)",
+      "name": "งานศิลป์: สัตว์ป่าเถื่อน",
+      "desc": "\nสร้างความเสียหายด้วยสกิลประเภททุบแก่ศัตรูที่มีค่า [Sinking] 35+ หน่วย หรือมี SP ต่ำกว่า 15 หน่วยเพิ่มขึ้น +20% (ค่า [Sinking] ที่นำมาคำนวณ จะคิดแยกกันในอวัยวะแต่ละส่วน)\n- หากสกิลประเภททุบดังกล่าวที่โจมตีโดนเป้าหมาย เป็นสกิลธาตุโศกา หรือเป็นสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง [Laceration], หรือ '[Laceration] แบบพิเศษ' ได้ จะทำให้ได้รับ [Enhancement] 1 หน่วยในเทิร์นถัดไป (มีผล 1 ครั้ง/เทิร์น/ตัวตน)",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": "สกิลประเภททุบสร้างความเสียหายแก่ศัตรูที่มีค่า [Sinking] หรือ SP ต่ำเพิ่มขึ้น"
+        }
       ]
     },
     {
       "id": 9262,
-      "name": "Universal Skeleton",
-      "desc": "The Ring-faction Identities: At Attack End, inflict 1 Stack of a random Attack Type Resist Down on target (2 times per turn)\n\nThe Ring-faction Identities deal +10% damage",
+      "name": "โครงกระดูกสากล",
+      "desc": "\nตัวตนจากฝ่าย <นิ้วนาง>: เมื่อการโจมตีจบลง จะสร้างปริมาณทับซ้อนของ 'ต้านทานความเสียหายกายภาพลดลง' 1 ประเภทแบบสุ่มจำนวน 1 หน่วยแก่เป้าหมาย (มีผล 2 ครั้ง/เทิร์น)\n- [SlashResistDown]\n- [PenetrateResistDown]\n- [HitResistDown]\n\nตัวตนจากฝ่าย <นิ้วนาง> สร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9263,
-      "name": "Artwork: Evolving Pulsation",
-      "desc": "Turn Start: Activates when there are 2 or more The Ring-faction Identities (only counts Identities on the field)\n\nThe Ring School of Corporism-faction Identities inflict 1 [SlashResistDown] On Hit with Base Skills (once per Skill; 2 times per turn)\n\nThe Ring Identities deal +20% damage\n\nTurn Start: At 99+ total sum of [Laceration] Potency on all enemies, The Ring School of Corporism-faction Identities gain 1 [RingFingerPhysical]",
+      "name": "งานศิลป์: พัฒนาจังหวะชีพจร",
+      "desc": "\nเริ่มเทิร์น: เปิดใช้งานเมื่อมีตัวตนจากฝ่าย <นิ้วนาง> 2 ตัวหรือมากกว่า (นับเฉพาะตัวตนบนสนาม)\n\nสำหรับตัวตน <นิ้วนาง> จาก <โรงเรียนลัทธิศพศาสตร์>: เมื่อสกิลพื้นฐานโจมตีโดน จะสร้าง [SlashResistDown] 1 หน่วย (มีผล 1 ครั้ง/สกิล; มีผล 2 ครั้ง/เทิร์น)\n\nตัวตนจาก <นิ้วนาง> สร้างความเสียหายเพิ่มขึ้น +20%\n\nเริ่มเทิร์น: เมื่อศัตรูทั้งหมดมีผลรวมค่า [Laceration] เท่ากับ 99+ หน่วย จะทำให้ตัวตน <นิ้วนาง> จาก <โรงเรียนลัทธิศพศาสตร์> ได้รับ [RingFingerPhysical] 1 หน่วย",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9264,
-      "name": "Artwork: Taxidermied Ferity",
-      "desc": "Turn Start: Activates when there are 2 or more The Ring-faction Identities (only counts Identities on the field)\n\nThe Ring School of Fauvism-faction Identities inflict 1 [HitResistDown] On Hit with Base Skills (once per Skill; 2 times per turn)\n\nThe Ring Identities deal +20% damage\n\nTurn Start: At 99+ total sum of [Laceration] Potency on all enemies, The Ring School of Fauvism-faction Identities gain 1 [RingFingerFauvism]",
+      "name": "งานศิลป์: สัตว์ป่าเถื่อนที่ถูกสตัฟฟ์",
+      "desc": "\nเริ่มเทิร์น: เปิดใช้งานเมื่อมีตัวตนจากฝ่าย <นิ้วนาง> 2 ตัวหรือมากกว่า (นับเฉพาะตัวตนบนสนาม)\n\nสำหรับตัวตน <นิ้วนาง> จาก <โรงเรียนลัทธิโฟวิสม์>: เมื่อสกิลพื้นฐานโจมตีโดน จะสร้าง [HitResistDown] 1 หน่วย (มีผล 1 ครั้ง/สกิล; มีผล 2 ครั้ง/เทิร์น)\n\nตัวตนจาก <นิ้วนาง> สร้างความเสียหายเพิ่มขึ้น +20%\n\nเริ่มเทิร์น: เมื่อศัตรูทั้งหมดมีผลรวมค่า [Laceration] เท่ากับ 99+ หน่วย จะทำให้ตัวตน <นิ้วนาง> จาก <โรงเรียนลัทธิโฟวิสม์> ได้รับ [RingFingerFauvism] 1 หน่วย",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9265,
-      "name": "The Middle Styled Knuckle-dusters",
-      "desc": "If the target has 1.5 or lower Blunt Resistance, Blunt Resistance +0.3",
+      "name": "สนับมือสไตล์นิ้วกลาง",
+      "desc": "\nหากเป้าหมายมีตัวคูณความเสียหายประเภททุบอยู่ที่ x1.5 หรือต่ำกว่า จะทำให้ตัวคูณความเสียหายประเภททุบเพิ่มขึ้น +0.3 หน่วย",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9266,
-      "name": "Unoccupied Birdcage",
-      "desc": "At Attack End of a Skill that has 2+ Atk Weight, gain +(# of hits on an enemy / 2) E.G.O resource of that Skill's Affinity (rounded down; max 5 per Skill)\n\nOn Crit with a Skill that has 2+ Atk Weight, gain +(# of Coins that hit Critically) E.G.O resource of the least-owned Affinity at Attack End (max 3)",
+      "name": "กรงนกไร้ผู้อยู่",
+      "desc": "\nหลังจากสกิลที่มีน้ำหนักการโจมตี 2+ ช่องโจมตีเสร็จสิ้น: ได้รับทรัพยากร E.G.O ของธาตุบาปสกิลนั้น +(จำนวนฮิตบนตัวศัตรู / 2) หน่วย (ปัดเศษลง; สูงสุด 5 หน่วย/สกิล)\n\nเมื่อโจมตีติดคริติคอลด้วยสกิลที่มีน้ำหนักการโจมตี 2+ ช่อง: หลังจากโจมตีเสร็จ จะได้รับทรัพยากร E.G.O ของธาตุบาปที่ถือครองน้อยที่สุด +(จำนวนเหรียญที่ตีติดคริติคอล) หน่วย (สูงสุด 3 หน่วย)",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9267,
-      "name": "Searing Brass",
-      "desc": "Max [Combustion] Potency +11\n\nTriple the first [Combustion] Potency to be inflicted in the Encounter (once per Encounter)",
+      "name": "เครื่องทองเหลืองไหม้เกรียม",
+      "desc": "\nค่า [Combustion] สูงสุดเพิ่มขึ้น +11 หน่วย\n\nเมื่อสร้างค่า [Combustion] เป็นครั้งแรกในการเผชิญหน้า จะสร้างค่า [Combustion] ดังกล่าวเพิ่มเป็นสามเท่า (มีผล 1 ครั้ง/การเผชิญหน้า)",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 19267,
-      "name": "Searing Brass+",
-      "desc": "Max [Combustion] Potency +<style=\"upgradeHighlight\">21</style>\n\nTriple the first [Combustion] Potency to be inflicted in the Encounter (once per Encounter)",
+      "name": "เครื่องทองเหลืองไหม้เกรียม+",
+      "desc": "\nค่า [Combustion] สูงสุดเพิ่มขึ้น <style=\"upgradeHighlight\">+21 หน่วย</style>\n\nเมื่อสร้างค่า [Combustion] เป็นครั้งแรกในการเผชิญหน้า จะสร้างค่า [Combustion] ดังกล่าวเพิ่มเป็นสามเท่า (มีผล 1 ครั้ง/การเผชิญหน้า)",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 29267,
-      "name": "Searing Brass++",
-      "desc": "Max [Combustion] Potency +21\n\nTriple the first [Combustion] Potency to be inflicted in the Encounter (once per Encounter)\n\n<style=\"upgradeHighlight\">When activating [Combustion], (Wrath Reson. x 10)% chance to deal ([Combustion] Potency x Count / 11) Wrath damage and reduce the target's [Combustion] Count by 1 (max activation chance: 50%; once per turn)</style>",
+      "name": "เครื่องทองเหลืองไหม้เกรียม++",
+      "desc": "\nค่า [Combustion] สูงสุดเพิ่มขึ้น +21 หน่วย\n\nเมื่อสร้างค่า [Combustion] เป็นครั้งแรกในการเผชิญหน้า จะสร้างค่า [Combustion] ดังกล่าวเพิ่มเป็นสามเท่า (มีผล 1 ครั้ง/การเผชิญหน้า)\n\n<style=\"upgradeHighlight\">เมื่อทำให้เอฟเฟกต์ [Combustion] ทำงาน จะมีโอกาส (สั่นพ้องธาตุโทสะ x 10)% ที่จะสร้างความเสียหายธาตุโทสะ (ค่า x จำนวนครั้ง [Combustion] / 11) หน่วย และลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย (โอกาสทำงานสูงสุดของเอฟเฟกต์นี้: 50%; มีผล 1 ครั้ง/เทิร์น)</style>",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     },
     {
       "id": 9268,
-      "name": "Universal Instinct",
-      "desc": "Turn End: Randomly apply 1 Stack of a random Affinity's <noparse>Damage Up</noparse> next turn to (# of enemies with [Laceration]) The Ring-faction Identities (once per Identity per turn; in Focused Encounters, Parts)\n\nThe Ring-faction Identities deal +10% damage",
+      "name": "สัญชาตญาณสากล",
+      "desc": "\nจบเทิร์น: สุ่มมอบ 'ความเสียหาย (ธาตุ) เพิ่มขึ้น' 1 หน่วยในเทิร์นถัดไปให้กับตัวตน <นิ้วนาง> จำนวน (จำนวนศัตรูที่มี [Laceration]) คน (มีผล 1 ครั้ง/ตัวตน/เทิร์น; ในการเผชิญหน้าเพ่งเล็ง จะคำนวณจากชิ้นส่วนอวัยวะ)\n\nตัวตนจาก <นิ้วนาง> สร้างความเสียหายเพิ่มขึ้น +10%",
       "simpleDesc": [
-        {}
+        {
+          "simpleDesc": ""
+        }
       ]
     }
   ]
