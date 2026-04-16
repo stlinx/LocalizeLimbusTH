@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "ตวัดอย่างบ้าคลั่ง",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [BearClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -18,10 +18,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             }
@@ -34,8 +34,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เดสแซง ราพิด (วาดภาพอย่างรวดเร็ว)",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [BearClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมาย 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
@@ -47,17 +47,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -70,26 +70,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เลอโฟวิสม์ - ระบายและคลี่ออก",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ 'สีสันแห่งรอยขย้ำ' 3 หน่วยบนตัวเป้าหมาย (สูงสุด 30%)\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะใช้เหรียญที่ 3 อีกครั้งหนึ่ง และแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
@@ -99,10 +99,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [BearClawWound] 1 หน่วย"
                 }
               ]
             }
@@ -115,8 +115,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "name": "เกสเซ็ต",
+          "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [BearClawWound] แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -141,8 +141,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "ตวัดอย่างบ้าคลั่ง",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [BearClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -154,10 +154,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             }
@@ -170,8 +170,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เดสแซง ราพิด (วาดภาพอย่างรวดเร็ว)",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [BearClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมาย 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
@@ -183,17 +183,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -206,26 +206,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เลอโฟวิสม์ - ระบายและคลี่ออก",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ 'สีสันแห่งรอยขย้ำ' 3 หน่วยบนตัวเป้าหมาย (สูงสุด 30%)\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะใช้เหรียญที่ 3 อีกครั้งหนึ่ง และแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
@@ -235,10 +235,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [BearClawWound] 1 หน่วย"
                 }
               ]
             }
@@ -251,8 +251,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "name": "เกสเซ็ต",
+          "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [BearClawWound] แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "เตรียมงานศิลป์",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -290,10 +290,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -306,8 +306,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "แสดงออกฉับไว",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
@@ -319,13 +319,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Agility] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
                 }
               ]
             }
@@ -338,23 +338,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เติมรายละเอียดปิดงาน",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] + ค่า [Sinking]) 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
@@ -364,13 +364,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Agility] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
                 }
               ]
             }
@@ -383,20 +383,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "ปรับปรุงผลงานบางส่วน",
+          "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [EagleClawWound] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [EagleClawWound] 2 หน่วย"
                 }
               ]
             }
@@ -409,8 +409,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "เตรียมงานศิลป์",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -422,10 +422,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -438,8 +438,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "แสดงออกฉับไว",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Laceration] + ค่า [Sinking]) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
@@ -451,13 +451,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Agility] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
                 }
               ]
             }
@@ -470,23 +470,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "เติมรายละเอียดปิดงาน",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] + ค่า [Sinking]) 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมี 'สีสันแห่งรอยขย้ำ' 5+ หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้เป็น [SuperCoin]\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
@@ -496,13 +496,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Agility] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
                 }
               ]
             }
@@ -515,20 +515,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "ปรับปรุงผลงานบางส่วน",
+          "desc": "[DuelCounter]\n[WhenUse] หากเป้าหมายมี [EagleClawWound] แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [EagleClawWound] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] สร้าง [EagleClawWound] 2 หน่วย"
                 }
               ]
             }
@@ -541,20 +541,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "พบตัวเป้าหมาย",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 2 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
@@ -567,27 +567,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "สู่จุดที่บทบัญญัติชี้นำทาง",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
                 }
               ]
             }
@@ -600,30 +600,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "น้อมรับบทบัญญัติ",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +25%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 3+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 4 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] ที่ตนเองมี (สูงสุด 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -636,20 +636,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 1 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "พบตัวเป้าหมาย",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 1 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -662,27 +662,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "สู่จุดที่บทบัญญัติชี้นำทาง",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 4 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -695,30 +695,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +4 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "น้อมรับบทบัญญัติ",
+          "desc": "หากเป้าหมายมี [IndexPrescriptTargetToPersonality] แต้มแคลชสกิลจะเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +25%\nแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Sinking] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 3+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมี [BlessingOfIndexPrescriptEnemy] 6+ หน่วย หรือหากเป้าหมายมี [IndexPrescriptTargetToPersonality] จะแปลงเหรียญสุดท้ายของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +4 หน่วย\n[DefeatDuel]\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n- เมื่อโจมตีโดน จะไม่ทำให้เอฟเฟกต์ [Sinking] บนตัวเป้าหมายทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ [BlessingOfIndexPrescriptEnemy] ที่ตนเองมี (สูงสุด 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย และจำนวนครั้ง [Sinking] +3 หน่วย"
                 }
               ]
             }
