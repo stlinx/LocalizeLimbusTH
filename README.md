@@ -44,8 +44,7 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาสซีฟตัวตนใหม่  
-• แปลสถานะใหม่  
+• แปลระบบ Refrectrial][lairtcerfeR  
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
@@ -81,6 +80,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ พิเศษ : The 6th Walpurgis Night  
 ✘ 8.5 : Spring Cultivation  
 ~~✘ 8.5 : Pilgrimage Of Compassion~~  
+✘ 9.5 : Twining Threads  
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
 • ชื่อตัวตน — เสร็จสิ้น  all  
