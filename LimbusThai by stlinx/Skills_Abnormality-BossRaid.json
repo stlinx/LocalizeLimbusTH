@@ -1,385 +1,389 @@
 {
     "dataList": [
         {
-      "id": 500101,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Punching",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500101,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                    "level": 1,
+                    "name": "ออกหมัดต่อย",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 3 หน่วย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 3 หน่วย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500102,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Kicking",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500102,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
+                    "level": 1,
+                    "name": "ออกเท้าเตะ",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบ 5 หน่วย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500103,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Payback",
-          "coinlist": [
-            {},
-            {
-              "coindescs": [
+            "id": 500103,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 5 SP"
+                    "level": 1,
+                    "name": "สนองคืน",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] เป้าหมายเสีย SP 5 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500104,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Watch Your Back!",
-          "desc": "If target has less than 0 SP, Coin Power +3",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500104,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP on self"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] and 2 [Reduction] next turn"
+                    "level": 1,
+                    "name": "ระวังหลังให้ดี!",
+                    "desc": "หากเป้าหมายมี SP ต่ำกว่า 0 หน่วย แต้มเหรียญจะเพิ่มขึ้น +3 แต้ม",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] ฟื้นฟู SP ตนเอง 10 หน่วย"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วย และ [Reduction] 2 หน่วยในเทิร์นถัดไป"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] เป้าหมายเสีย SP 20 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
+            ]
+        },
+        {
+            "id": 500105,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 20 SP"
+                    "level": 1,
+                    "name": "รวมพลัง",
+                    "desc": "[StartBattle] อัญเชิญพันธมิตร 2 คนในเทิร์นถัดไป",
+                    "coinlist": [
+                        {}
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500105,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Assemble",
-          "desc": "[StartBattle] Summon 2 allies next turn",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500106,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Make this Memorable",
-          "desc": "",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500107,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "MY HAIR COUPOOOOOOOOOOONS!!!",
-          "desc": "[DefeatDuel] Deal -30% final damage and damage dealt by this Skill cannot Stagger the target",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500106,
+            "levelList": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold by 30"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Paralysis] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 5"
+                    "level": 1,
+                    "name": "มาทำเรื่องนี้ให้น่าจดจำกันดีกว่า",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500108,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Promised Suffering",
-          "desc": "Prioritizes targets that have the highest [RicardoBookRaid] Stack\n[WhenUse] If target has <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> convert all Coins on this Skill to [SuperCoin]s",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500107,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                    "level": 1,
+                    "name": "คูปองทำผมของตูโว้ยยยยยยยยยยยยยยยย!!!",
+                    "desc": "[DefeatDuel] สร้างความเสียหายสุดท้ายลดลง -30% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] ดึงเกจชะงักขึ้น 30 หน่วย"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] ลดปริมาณ [RicardoBookRaid] บนตัวเป้าหมายลง 5 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
+            ]
+        },
+        {
+            "id": 500108,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                    "level": 1,
+                    "name": "ความทุกข์ทรมานที่สัญญาไว้",
+                    "desc": "เล็งเป้าหมายที่มีปริมาณทับซ้อน [RicardoBookRaid] สูงที่สุดเป็นหลัก\n[WhenUse] หากเป้าหมายมี <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid] 3+ หน่วย</u></b></mark></color> จะแปลงเหรียญทั้งหมดบนสกิลนี้ให้เป็น [SuperCoin]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างโบนัสความเสียหายประเภททุบเท่ากับ ([RicardoBookRaid] บนตัวเป้าหมาย x 3) หน่วย"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] ลดปริมาณ [RicardoBookRaid] บนตัวเป้าหมายลง 3 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
+            ]
+        },
+        {
+            "id": 500109,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([RicardoBookRaid] on target x 3) Blunt bonus damage"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 3"
+                    "level": 1,
+                    "name": "เล่นเกมกันพอแล้ว",
+                    "desc": "[StartBattle] ฟื้นฟู SP 20 หน่วย\n[EndBattle] ได้รับ [Enhancement] 5 หน่วยในเทิร์นถัดไป",
+                    "coinlist": [
+                        {}
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500109,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Enough Games",
-          "desc": "[StartBattle] Heal 20 SP\n[EndBattle] Gain 5 [Enhancement] next turn",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500110,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "COMPLETE AND TOTAL EXTERMINATION!!!",
-          "desc": "[DefeatDuel] Deal -30% final damage and damage dealt by this Skill cannot Stagger the target",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500110,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal damage equal to 3% of target's max HP for every [RicardoBookRaid] on target"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 10"
+                    "level": 1,
+                    "name": "กำจัดสิ้นไม่เหลือซาก!!!",
+                    "desc": "[DefeatDuel] สร้างความเสียหายสุดท้ายลดลง -30% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายเท่ากับ 3% ของ HP สูงสุดของเป้าหมาย ตามทุก ๆ ปริมาณ [RicardoBookRaid] บนตัวเป้าหมาย"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] ลดปริมาณ [RicardoBookRaid] บนตัวเป้าหมายลง 10 หน่วย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500111,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Ah, You Were One of the Fam",
-          "desc": "[StartBattle] All of The Middle-faction units heal 10 SP",
-          "coinlist": [
-            {},
-            {},
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500112,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "TRICKED ME, DID YOU??!!",
-          "desc": "[StartBattle] Lose 20 SP\n[StartBattle] Gain 6 [AttackUp]\n[StartBattle] Gain 4 [Vulnerable]",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500111,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
+                    "level": 1,
+                    "name": "อา เป็นคนจากครอบครัวงั้นสินะ",
+                    "desc": "[StartBattle] ตัวละครจากฝ่าย <นิ้วกลาง> ทั้งหมดฟื้นฟู SP 10 หน่วย",
+                    "coinlist": [
+                        {},
+                        {},
+                        {}
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500113,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Swear Vengeance",
-          "desc": "[EndBattle] Gain 3 [AttackUp] next turn\n- If the Slot using this Skill <color=#ff6000><mark=#ff000040><b><u>is a main target of an Attack Skill</u></b></mark></color>, gain 1 less [AttackUp] Stack from this effect",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500114,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500112,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                    "level": 1,
+                    "name": "นี่เอ็งพึ่งหลอกตูใช่ปะ??!!",
+                    "desc": "[StartBattle] เสีย SP 20 หน่วย\n[StartBattle] ได้รับ [AttackUp] 6 หน่วย\n[StartBattle] ได้รับ [Vulnerable] 4 หน่วย",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
+            ]
+        },
+        {
+            "id": 500113,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                    "level": 1,
+                    "name": "ปฏิญาณสะสางแค้น",
+                    "desc": "[EndBattle] ได้รับ [AttackUp] 3 หน่วยในเทิร์นถัดไป\n- หากช่องสกิลที่ใช้สกิลนี้ <color=#ff6000><mark=#ff000040><b><u>ตกเป็นเป้าหมายหลักของสกิลโจมตี</u></b></mark></color> จะทำให้ได้รับ [AttackUp] จากเอฟเฟกต์ข้างต้นลดลง -1 หน่วย",
+                    "coinlist": [
+                        {}
+                    ]
                 }
-              ]
-            },
-            {
-              "coindescs": [
+            ]
+        },
+        {
+            "id": 500114,
+            "levelList": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                    "level": 1,
+                    "name": "กำจัดสิ้นไม่เหลือซากทันทีทันใด!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างความเสียหายเท่ากับ 1% ของ HP สูงสุดของเป้าหมาย ตามทุก ๆ ปริมาณ [RicardoBookRaid] บนตัวเป้าหมาย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างความเสียหายเท่ากับ 1% ของ HP สูงสุดของเป้าหมาย ตามทุก ๆ ปริมาณ [RicardoBookRaid] บนตัวเป้าหมาย"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] สร้างความเสียหายเท่ากับ 1% ของ HP สูงสุดของเป้าหมาย ตามทุก ๆ ปริมาณ [RicardoBookRaid] บนตัวเป้าหมาย"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500115,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "No More Tests",
-          "desc": "[WhenUse] Gain 3 [HitDamageUp] next turn\n[WhenUse] If the main target has <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s",
-          "coinlist": [
-            {},
-            {}
-          ]
-        }
-      ]
-        },
-        {
-      "id": 500116,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Mercy of the Big Brother",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
+            "id": 500115,
+            "levelList": [
                 {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reduce [RicardoBookRaid] on target by 10</u></b></mark></color>"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Stagger target</u></b></mark></color>"
+                    "level": 1,
+                    "name": "ไม่มีทดส่งทดสอบอะไรอีกต่อไปแล้ว",
+                    "desc": "[WhenUse] ได้รับ [HitDamageUp] 3 หน่วยในเทิร์นถัดไป\n[WhenUse] หากเป้าหมายหลักมี <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid] 5+ หน่วย</u></b></mark></color> จะแปลงเหรียญทั้งหมดบนสกิลนี้ให้เป็น [SuperCoin]",
+                    "coinlist": [
+                        {},
+                        {}
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      ]
+            ]
         },
         {
-      "id": 500301,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Seize ya Chance",
-          "desc": "[BeforeHit] Gain 5 Shield for every [MiddleFingerBook] on the target (once per turn; max 50)\n[WhenUse] If target has 5+ [MiddleFingerBook], Base Power +3; inflict 4 [DefenseDown]",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
+            "id": 500116,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "เมตตาจากพี่ชายใหญ่",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ลดปริมาณ [RicardoBookRaid] บนตัวเป้าหมายลง 10 หน่วย</u></b></mark></color>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้เป้าหมายติดชะงัก</u></b></mark></color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
-      "id": 500401,
-      "levelList": [
+            "id": 500301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ขอคว้าโอกาสจากแกไปแล้วกันนะ",
+                    "desc": "[BeforeHit] ได้รับโล่ 5 หน่วย ตามทุก ๆ ปริมาณ [MiddleFingerBook] บนตัวเป้าหมาย (มีผลเทิร์นละครั้ง; สูงสุด 50 หน่วย)\n[WhenUse] หากเป้าหมายมี [MiddleFingerBook] 5+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +3 แต้ม; สร้าง [DefenseDown] 4 หน่วย",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
         {
-          "level": 1,
-          "name": "Multifold Retribution",
-          "desc": "",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
+            "id": 500401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "สนองคืนหลายสิบเท่า",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
         }
     ]
 }
