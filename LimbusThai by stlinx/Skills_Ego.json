@@ -932,6 +932,27 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "เพลิงไม้ขีดไฟก้านที่ 4",
+          "abName": "เด็กหญิงตัวไหม้เกรียม",
+          "desc": "[CantIdentify]\nโจมตีเป้าหมายแบบสุ่ม\nเมื่อโจมตีศัตรูที่มี [Combustion] อยู่ แต้มสกิลจะเพิ่มขึ้น +4 แต้ม\n[BeforeAttack] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ (ผลรวมค่า [Combustion] บนตัวเป้าหมายทั้งหมด) 1 หน่วย (สูงสุด 100%)\n[DefeatDuel] แต้มเริ่มต้นสกิลลดลง -16 แต้ม\n[EnemyKill] ได้รับ [Enhancement] 3 หน่วยในเทิร์นถัดไป\n[EnemyKillFail] ได้รับ [Enhancement] 3 หน่วย และค่า [Combustion] 10 หน่วยในเทิร์นถัดไป",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุโทสะ เท่ากับ ((ค่า [Combustion] บนตัวเป้าหมาย x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง) หน่วย (สูงสุด 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 4 หน่วย"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
