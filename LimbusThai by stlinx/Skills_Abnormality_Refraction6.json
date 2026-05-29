@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "โบกสะบัดหายนะ",
-          "desc": "[WhenUse]\n- Clash Power +1 for every 8 ([Combustion] + [Laceration]) on target (max 3)\n- Deal +5% damage for every 6 [Breath] on self (max 20%)\n- Gain 2 [Breath]",
+          "desc": "[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 8 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 20%)\n- ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
@@ -21,10 +21,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             }
@@ -38,22 +38,22 @@
         {
           "level": 1,
           "name": "บดละเอียดเป็นฝุ่นผง",
-          "desc": "[WhenUse]\n- Clash Power +1 for every 8 ([Combustion] + [Laceration]) on target (max 3)\n- Deal +5% damage for every 6 [Breath] on self (max 20%)\n- Gain +2 [Breath] Count",
+          "desc": "[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 8 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 20%)\n- ได้รับจำนวนครั้ง [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
@@ -70,7 +70,7 @@
         {
           "level": 1,
           "name": "เร่งชีวา",
-          "desc": "[CantDuel], [CantChangeTarget]\nThis Attack Skill deals 0 damage\n[WhenUse] Does not take damage for this turn\n[EndSkill] End the Encounter",
+          "desc": "[CantDuel], [CantChangeTarget]\nสกิลโจมตีนี้จะสร้างความเสียหาย 0 หน่วย\n[WhenUse] ไม่ได้รับความเสียหายใดในเทิร์นนี้\n[EndSkill] จบการเผชิญหน้านี้",
           "coinlist": [
             {
               "coindescs": [
@@ -89,7 +89,7 @@
         {
           "level": 1,
           "name": "ชีวิตพัวพัน - ถดถอย",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Past\n- Enemy units of Stage 2 gain [HeatedWingScalesExplain]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>ประเภทการโจมตีกายภาพและธาตุบาปของสกิลที่แคลชกับสกิลนี้</u></b></mark></color> จะส่งผลต่อ 'อดีต' ที่เตรียมมาเยือน\n- ตัวละครศัตรูในส่วนที่ 2 ได้รับ [HeatedWingScalesExplain]",
           "coinlist": [
             {
               "coindescs": [
@@ -108,7 +108,7 @@
         {
           "level": 1,
           "name": "ชีวิตพัวพัน - สำแดง",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Present\n- Enemy units of Stage 3 gain [TransparentWingScalesExplain]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>ประเภทการโจมตีกายภาพและธาตุบาปของสกิลที่แคลชกับสกิลนี้</u></b></mark></color> จะส่งผลต่อ 'ปัจจุบัน' ที่เตรียมมาเยือน\n- ตัวละครศัตรูในส่วนที่ 3 ได้รับ [TransparentWingScalesExplain]",
           "coinlist": [
             {
               "coindescs": [
@@ -127,7 +127,7 @@
         {
           "level": 1,
           "name": "ชีวิตพัวพัน - ถึงคราวเยือน",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Future\n- Enemy units of Stage 4 gain [RustedWingScalesExplain]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>ประเภทการโจมตีกายภาพและธาตุบาปของสกิลที่แคลชกับสกิลนี้</u></b></mark></color> จะส่งผลต่อ 'อนาคต' ที่เตรียมมาเยือน\n- ตัวละครศัตรูในส่วนที่ 4 ได้รับ [RustedWingScalesExplain]",
           "coinlist": [
             {
               "coindescs": [
@@ -146,7 +146,7 @@
         {
           "level": 1,
           "name": "ลอกคราบ",
-          "desc": "[CantDuel][CantChangeTarget]\nThis Attack Skill deals 0 damage\n[EndSkill] End the Encounter\n- If the Shield is broken, proceed to the next turn instead and <color=#ff6000><mark=#ff000040><b><u>face a unique Choice Event</u></b></mark></color> before the Encounter ends",
+          "desc": "[CantDuel], [CantChangeTarget]\nสกิลโจมตีนี้จะสร้างความเสียหาย 0 หน่วย\n[EndSkill] จบการเผชิญหน้านี้\n- หากโล่ถูกทำลาย จะเข้าสู่เทิร์นถัดไปแทน และ <color=#ff6000><mark=#ff000040><b><u>เผชิญหน้ากับอีเวนต์ทางเลือกพิเศษ</u></b></mark></color> ก่อนจบการเผชิญหน้า",
           "coinlist": [
             {
               "coindescs": [
@@ -165,7 +165,7 @@
         {
           "level": 1,
           "name": "ลอกคราบ",
-          "desc": "[CantDuel][CantChangeTarget]\nThis Attack Skill deals 0 damage\n[EndSkill] End the Encounter\n- If the Shield is broken, proceed to the next turn instead and <color=#ff6000><mark=#ff000040><b><u>face a unique Choice Event</u></b></mark></color> before the Encounter ends",
+          "desc": "[CantDuel], [CantChangeTarget]\nสกิลโจมตีนี้จะสร้างความเสียหาย 0 หน่วย\n[EndSkill] จบการเผชิญหน้านี้\n- หากโล่ถูกทำลาย จะเข้าสู่เทิร์นถัดไปแทน และ <color=#ff6000><mark=#ff000040><b><u>เผชิญหน้ากับอีเวนต์ทางเลือกพิเศษ</u></b></mark></color> ก่อนจบการเผชิญหน้า",
           "coinlist": [
             {
               "coindescs": [
@@ -184,7 +184,7 @@
         {
           "level": 1,
           "name": "ลอกคราบ",
-          "desc": "[CantDuel][CantChangeTarget]\nThis Attack Skill deals 0 damage\n[EndSkill] End the Encounter\n- If the Shield is broken, proceed to the next turn instead and <color=#ff6000><mark=#ff000040><b><u>face a unique Choice Event</u></b></mark></color> before the Encounter ends",
+          "desc": "[CantDuel], [CantChangeTarget]\nสกิลโจมตีนี้จะสร้างความเสียหาย 0 หน่วย\n[EndSkill] จบการเผชิญหน้านี้\n- หากโล่ถูกทำลาย จะเข้าสู่เทิร์นถัดไปแทน และ <color=#ff6000><mark=#ff000040><b><u>เผชิญหน้ากับอีเวนต์ทางเลือกพิเศษ</u></b></mark></color> ก่อนจบการเผชิญหน้า",
           "coinlist": [
             {
               "coindescs": [
@@ -203,12 +203,12 @@
         {
           "level": 1,
           "name": "โบกสะบัดหายนะ",
-          "desc": "[WhenUse]\n- Clash Power +1 for every 8 ([Combustion] on target + [Laceration] on target) (max 3)\n- Deal +10% damage for every 8 [Breath] on self (max 30%)\n- Gain 2 [Breath]\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the final Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s",
+          "desc": "[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] บนตัวเป้าหมาย + ค่า [Laceration] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 3 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Breath] 8 หน่วยที่ตนเองมี (สูงสุด 30%)\n- ได้รับค่า [Breath] 2 หน่วย\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญสุดท้ายให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
@@ -218,10 +218,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             }
@@ -235,22 +235,22 @@
         {
           "level": 1,
           "name": "บดละเอียดเป็นฝุ่นผง",
-          "desc": "[WhenUse]\n- Clash Power +1 for every 8 ([Combustion] + [Laceration]) on target (max 3)\n- Deal +10% damage for every 8 [Breath] on self (max 30%)\n- Gain +2 [Breath] Count\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the final Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s",
+          "desc": "[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] บนตัวเป้าหมาย + ค่า [Laceration] บนตัวเป้าหมาย) 8 หน่วย (สูงสุด 3 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Breath] 8 หน่วยที่ตนเองมี (สูงสุด 30%)\n- ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญสุดท้ายให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
@@ -267,7 +267,7 @@
         {
           "level": 1,
           "name": "โกลาหลวุ่นวาย",
-          "desc": "[WhenUse]\n- Clash Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 6)\n- Clash Power +1 for every 6 [Breath] on self (max 3)\n[DefeatDuel]\nGain <color=#ff6000><mark=#ff000040><b><u>2 [ResultReduction] and 2[AttackDmgDown]</u></b></mark></color>",
+          "desc": "[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 6 หน่วยบนตัวเป้าหมาย (สูงสุด 6 แต้ม)\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)\n[DefeatDuel]\nได้รับ <color=#ff6000><mark=#ff000040><b><u>[ResultReduction] 2 หน่วย และ [AttackDmgDown] 2 หน่วย</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -275,16 +275,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin once for every 33% missing HP (max 2 times)"
+                  "desc": "ใช้เหรียญนี้ซ้ำอีกครั้ง ตามทุก ๆ HP 33% ที่หายไป (สูงสุด 2 ครั้ง)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             }
@@ -298,19 +298,19 @@
         {
           "level": 1,
           "name": "หล่อหลอมอารมณ์ร้อน",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Clash Power +1 for every 6 [Combustion] on target (max 6)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 6 แต้ม)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Combustion] on target once</u></b></mark></color>. Target loses 1 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Combustion] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -324,19 +324,19 @@
         {
           "level": 1,
           "name": "พลีชีพเผา",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Clash Power +1 for every 6 [Combustion] on the main target (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Deal +([StackPastActivate] x 2)% damage</u></b></mark></color> (max 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 6 แต้ม)\n- <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackPastActivate] x 2)%</u></b></mark></color> (สูงสุด 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย"
                 }
               ]
             },
@@ -346,10 +346,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Combustion] on target 2 times</u></b></mark></color>. Target loses 2 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Combustion] บนตัวเป้าหมายทำงาน 2 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, activate [Combustion] on the main target once</u></b></mark></color>. Target loses 1 [Combustion] Count"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะทำให้ [Combustion] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -363,7 +363,7 @@
         {
           "level": 1,
           "name": "กัลป์อัคนี",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Final Power +1 for every 6 [Combustion] on the main target (max 6)\n- <color=#ff6000><mark=#ff000040><b><u>Deal +([StackPastActivate] x 4)% damage</u></b></mark></color> (max 120%)\n[WinDuel] Gain 5 [StackPastActivate]\n[DefeatDuel]\n- Halve [StackPastActivate] (rounded down)\n- Gain 2 [AttackDmgDown] and 4 [Paralysis] \n- Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 6 แต้ม)\n- <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackPastActivate] x 4)%</u></b></mark></color> (สูงสุด 120%)\n[WinDuel] ได้รับ [StackPastActivate] 5 หน่วย\n[DefeatDuel]\n- หักครึ่งปริมาณ [StackPastActivate] ที่มี (ปัดเศษลง)\n- ได้รับ [AttackDmgDown] 2 หน่วย และ [Paralysis] 4 หน่วย\n- เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
                 }
               ]
             },
@@ -381,7 +381,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
                 }
               ]
             },
@@ -391,7 +391,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Combustion] on target once</u></b></mark></color>. Target loses 1 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Combustion] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 1 หน่วย"
                 }
               ]
             },
@@ -401,10 +401,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Combustion] on target 2 times</u></b></mark></color>. Target loses 2 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Combustion] บนตัวเป้าหมายทำงาน 2 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 2 หน่วย"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, activate [Combustion] on target once</u></b></mark></color>. Target loses 1 [Combustion] Count"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะทำให้ [Combustion] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Combustion] 1 หน่วย"
                 }
               ]
             }
@@ -418,19 +418,19 @@
         {
           "level": 1,
           "name": "อนิจจัง",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Clash Power +1 and deal +10% damage for every 6 [Breath] on self (max 6 and 60%, respectively)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[BeforeAttack] Gain 2 [Breath] and +2 [Breath] Count\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 6 แต้มและ 60% ตามลำดับ)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[BeforeAttack] ได้รับค่า [Breath] 2 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath] and +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย และจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal ([Breath] on self / 2) Pride damage on target</u></b></mark></color> and lose 1 [Breath] Count (rounded down)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายธาตุอัตตา เท่ากับ (ค่า [Breath] ที่ตนเองมี / 2) หน่วยแก่เป้าหมาย</u></b></mark></color> และเสียจำนวนครั้ง [Breath] 1 หน่วย (ปัดเศษลง)"
                 }
               ]
             }
@@ -444,32 +444,19 @@
         {
           "level": 1,
           "name": "ทะลวงฟ้านภา",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Clash Power +1 and deal +10% damage for every 6 [Breath] on self (max 6 and 60%, respectively)\n- <color=#ff6000><mark=#ff000040><b><u>Deal +([StackPresentActivate] x 2)% damage</u></b></mark></color> (max 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[BeforeAttack] Gain 3 [Breath] and +2 [Breath] Count\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 6 แต้มและ 60% ตามลำดับ)\n- <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackPresentActivate] x 2)%</u></b></mark></color> (สูงสุด 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[BeforeAttack] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal +([Breath] Count on self)% damage</u></b></mark></color> (max 50%)"
-                },
-                {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, deal +([Breath] Count on self)% damage</u></b></mark></color> (max 30%)"
+                  "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
                 }
               ]
             },
@@ -479,10 +466,23 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Deal +([Breath] on self x 2)% damage</u></b></mark></color> (max 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(จำนวนครั้ง [Breath] ที่ตนเองมี)%</u></b></mark></color> (สูงสุด 50%)"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, deal +([Breath] on self)% damage</u></b></mark></color> (max 50%)"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะสร้างความเสียหายเพิ่มขึ้น +(จำนวนครั้ง [Breath] ที่ตนเองมี)%</u></b></mark></color> (สูงสุด 30%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี x 2)%</u></b></mark></color> (สูงสุด 100%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า จะสร้างความเสียหายเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี)%</u></b></mark></color> (สูงสุด 50%)"
                 }
               ]
             }
@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "ฟาดฟันผู้อัปรีย์",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Final Power +1 and deal +20% damage for every 6 [Breath] on self (max 6 and 120%, respectively)\n- Gain 4 [Breath] and +4 [Breath] Count\n- <color=#ff6000><mark=#ff000040><b><u>Deal +([StackPresentActivate] x 4)% damage (max 120%)</u></b></mark></color>\n[BeforeAttack] If this unit has 20+ [Breath] Potency, consume up to 20 surplus [Breath] Potency past 20 to deal +([Breath] consumed x 5)% damage (max 100%)\n- On Clash Lose, this effect does not activate\n[WinDuel] Gain 5 [StackPresentActivate]\n[DefeatDuel]\n- Halve [StackPresentActivate] (rounded down)\n- Gain 2 [AttackDmgDown] and 1 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End\n[EndSkill] If target is killed, Reuse this Skill on the target that has the highest HP (มีผลเทิร์นละครั้ง)\n- On Clash Lose, this effect does not activate",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ค่า [Breath] 6 หน่วยที่ตนเองมี (สูงสุด 6 แต้มและ 120% ตามลำดับ)\n- ได้รับค่า [Breath] 4 หน่วย และจำนวนครั้ง [Breath] +4 หน่วย\n- <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackPresentActivate] x 4)% (สูงสุด 120%)</u></b></mark></color>\n[BeforeAttack] หากตัวละครนี้มีค่า [Breath] มากกว่า 20+ หน่วย จะผลาญค่า [Breath] ที่เกิน 20 หน่วยมา (สูงสุด 20 หน่วย) เพื่อทำให้สกิลนี้สร้างความเสียหายเพิ่มขึ้น +(ค่า [Breath] ที่ผลาญไป x 5)% (สูงสุด 100%)\n- หากแคลชแพ้ เอฟเฟกต์นี้จะไม่ทำงาน\n[WinDuel] ได้รับ [StackPresentActivate] 5 หน่วย\n[DefeatDuel]\n- หักครึ่งปริมาณ [StackPresentActivate] ที่มี (ปัดเศษลง)\n- ได้รับ [AttackDmgDown] 2 หน่วย และ [Paralysis] 1 หน่วย\n- เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง\n[EndSkill] หากเป้าหมายถูกกำจัด จะใช้สกิลนี้อีกครั้งใส่เป้าหมายที่มี HP สูงที่สุด (มีผลเทิร์นละครั้ง)\n- หากแคลชแพ้ เอฟเฟกต์นี้จะไม่ทำงาน",
           "coinlist": [
             {
               "coindescs": [
@@ -504,10 +504,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>If target's Pierce Resist. is below \"Weak\" (1.5), treat is as Weak (1.5)</u></b></mark></color>\n- On Clash Lose, this effect does not activate"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>หากตัวคูณความต้านประเภทแทงของเป้าหมายต่ำกว่า \"อ่อนแอ (x1.5)\" จะนับว่าเป้าหมายมีตัวคูณดังกล่าวอยู่ที่ระดับ \"อ่อนแอ (x1.5)\"</u></b></mark></color>\n- หากแคลชแพ้ เอฟเฟกต์นี้จะไม่ทำงาน"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, deal +(50% of this Coin's damage)% bonus Pierce damage</u></b></mark></color>"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะสร้างโบนัสความเสียหายประเภทแทงเท่ากับ (50% ของความเสียหายที่เหรียญนี้สร้าง)%</u></b></mark></color>"
                 }
               ]
             }
@@ -521,7 +521,7 @@
         {
           "level": 1,
           "name": "กัดกร่อนแตกสลาย",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Clash Power +1 for every 6 [Laceration] on target (max 6)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 6 แต้ม)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
@@ -533,7 +533,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Laceration] on target once</u></b></mark></color>. Target loses 1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -547,22 +547,22 @@
         {
           "level": 1,
           "name": "การทำลายล้างอันเน่าเฟะ",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's [Laceration] Count does not drop below 1</u></b></mark></color>\n[WhenUse]\n- Clash Power +1 for every 6 [Laceration] on the main target (max 6)\n- Deal +([StackFutureActivate] x 2)% damage (max 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลง the second Coin into [SuperCoin]\n- At less than 33% HP, convert all Coins into [SuperCoin]s\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nเมื่อแคลชกับสกิลนี้ <color=#ff6000><mark=#ff000040><b><u>จำนวนครั้ง [Laceration] บนตัวเป้าหมายหลักที่สกิลนี้แคลชด้วยจะไม่ลดต่ำกว่า 1 หน่วย</u></b></mark></color>\n[WhenUse]\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 6 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackFutureActivate] x 2)% (สูงสุด 60%)\n- เมื่อมี HP ต่ำกว่า 66% จะแปลงเหรียญที่ 2 ให้กลายเป็น [SuperCoin]\n- เมื่อมี HP ต่ำกว่า 33% จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n[DefeatDuel] เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Laceration] on target 2 times</u></b></mark></color>. Target loses 2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 2 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, activate [Laceration] on the main target once</u></b></mark></color>. Target loses 1 [Laceration] Count"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -576,7 +576,7 @@
         {
           "level": 1,
           "name": "บุปผาโลหิต",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's [Laceration] Count does not drop below 1</u></b></mark></color>\n[WhenUse]\n- Final Power +1 for every 6 [Laceration] on the main target (max 6)\n- Deal +([StackFutureActivate] x 4)% damage (max 120%)\n[WinDuel] Gain 5 [StackFutureActivate]\n[DefeatDuel]\n- Halve [StackFutureActivate] (rounded down)\n- Gain 2 [AttackDmgDown] and 2 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nเมื่อแคลชกับสกิลนี้ <color=#ff6000><mark=#ff000040><b><u>จำนวนครั้ง [Laceration] บนตัวเป้าหมายหลักที่สกิลนี้แคลชด้วยจะไม่ลดต่ำกว่า 1 หน่วย</u></b></mark></color>\n[WhenUse]\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 6 แต้ม)\n- สร้างความเสียหายเพิ่มขึ้น +(ปริมาณ [StackFutureActivate] x 4)% (สูงสุด 120%)\n[WinDuel] ได้รับ [StackFutureActivate] 5 หน่วย\n[DefeatDuel]\n- หักครึ่งปริมาณ [StackFutureActivate] ที่มี (ปัดเศษลง)\n- ได้รับ [AttackDmgDown] 2 หน่วย และ [Paralysis] 2 หน่วย\n- เป้าหมายไม่สามารถติดชะงักได้ จนกว่าการโจมตีของสกิลนี้จะจบลง",
           "coinlist": [
             {
               "coindescs": [
@@ -584,7 +584,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
@@ -594,13 +594,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Activate [Laceration] on target 2 times</u></b></mark></color>. Target loses 2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 2 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>At less than 33% HP, activate [Laceration] on target once</u></b></mark></color>. Target loses 1 [Laceration] Count"
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>เมื่อมี HP ต่ำกว่า 33% จะทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง</u></b></mark></color>; จากนั้นเป้าหมายจะเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -614,7 +614,7 @@
         {
           "level": 1,
           "name": "โทสะแห่งเกล็ดกลับด้าน [逆鱗之禍]",
-          "desc": "This Skill activates only when <color=#ff6000><mark=#ff000040><b><u>the \"เกล็ดกลับด้าน\" Part is hit as the main target</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Consume all [YesdragonSelfRefraction]</u></b></mark></color> on self and Reuse the final Coin (# of Stacks consumed) times (max 5 times)",
+          "desc": "สกิลนี้จะทำงานต่อเมื่อ <color=#ff6000><mark=#ff000040><b><u>อวัยวะ \"เกล็ดกลับด้าน\" ถูกโจมตีในฐานะเป้าหมายหลัก</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>ผลาญ [YesdragonSelfRefraction] ทั้งหมด</u></b></mark></color> ที่ตนเองมี และใช้เหรียญสุดท้ายซ้ำ (ปริมาณที่ผลาญ) ครั้ง (สูงสุด 5 ครั้ง)",
           "coinlist": [
             {
               "coindescs": [
@@ -622,10 +622,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 },
                 {
-                  "desc": "[EnemyKill] Upon killing the main target, apply the [WideAreaRampage] effect on this Skill"
+                  "desc": "[EnemyKill] เมื่อกำจัดเป้าหมายหลักได้ จะมอบเอฟเฟกต์ [WideAreaRampage] ให้สกิลนี้"
                 }
               ]
             },
@@ -635,10 +635,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin damages only the main target. If [WideAreaRampage] is applied, this Coin damages all targets"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายหลัก; แต่หากมีเอฟเฟกต์ [WideAreaRampage] อยู่ด้วย เหรียญนี้จะเปลี่ยนไปสร้างความเสียหายกับเป้าหมายทั้งหมดแทน"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -657,14 +657,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -683,17 +683,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -707,12 +707,12 @@
         {
           "level": 1,
           "name": "หมุดตกสวรรค์ [落針]",
-          "desc": "[WhenUse] Base Power +1 <color=#ff6000><mark=#ff000040><b><u>for every 2 [YesdragonSelfRefraction]</u></b></mark></color> on self\n[WhenUse] If target has [Binding] or [Paralysis], Base Power +2\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>Spawn \"หมุดฝังบุปผา\" next turn</u></b></mark></color>\n[DefeatDuel] Heal 5 SP on target\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Does not spawn \"หมุดฝังบุปผา\"</u></b></mark></color>, and the head takes <color=#ff6000><mark=#ff000040><b><u>fixed damage</u></b></mark></color>",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม <color=#ff6000><mark=#ff000040><b><u>ตามทุก ๆ [YesdragonSelfRefraction] 2 หน่วย</u></b></mark></color> ที่ตนเองมี\n[WhenUse] หากเป้าหมายมี [Binding] หรือ [Paralysis] แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>อัญเชิญ \"หมุดฝังบุปผา\" ในเทิร์นถัดไป</u></b></mark></color>\n[DefeatDuel] ฟื้นฟู SP 5 หน่วยให้กับเป้าหมาย\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>ไม่อัญเชิญ \"หมุดฝังบุปผา\"</u></b></mark></color> และอวัยวะส่วน 'หัว' จะได้รับ <color=#ff6000><mark=#ff000040><b><u>ความเสียหายตายตัว</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -725,27 +725,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ลมวนมังกร [龍卷]",
-          "desc": "[WhenUse] If the main target has [Binding] or [Paralysis], Coin Power +1\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Apply [YesdragonWind]</u></b></mark></color> on the main target",
+          "name": "ลมมังกรเวียนวน [龍卷]",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี [Binding] หรือ [Paralysis] แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>มอบ [YesdragonWind] ให้กับเป้าหมายหลัก</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 }
               ]
             }
@@ -759,12 +759,12 @@
         {
           "level": 1,
           "name": "รวบพิรุณ [積雨]",
-          "desc": "[WhenUse] Base Power +1 <color=#ff6000><mark=#ff000040><b><u>for every [YesdragonSelfRefraction]</u></b></mark></color> on self\n[WhenUse] If this unit has <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Coin Power +1 and gain +1 Atk Weight\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม <color=#ff6000><mark=#ff000040><b><u>ตามทุก ๆ [YesdragonSelfRefraction]</u></b></mark></color> ที่ตนเองมี\n[WhenUse] หากตัวละครนี้มี <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] 5+ หน่วย</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม และน้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
@@ -774,7 +774,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
@@ -784,10 +784,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction], Reuse this Coin</u></b></mark></color> (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] 5+ หน่วย จะใช้เหรียญนี้ซ้ำ</u></b></mark></color> (มีผลสกิลละครั้ง)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -801,15 +801,15 @@
         {
           "level": 1,
           "name": "อัสนีผ่า [落雷]",
-          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>Targets \"หมุดฝังบุปผา\"</u></b></mark></color>\nIf \"หมุดฝังบุปผา\" is destroyed, cancel this Skill",
+          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>เล็ง \"หมุดฝังบุปผา\"</u></b></mark></color>\nหาก \"หมุดฝังบุปผา\" ถูกทำลาย จะยกเลิกการใช้สกิลนี้",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst] and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย และจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 50% chance to inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] มีโอกาส 50% ที่จะสร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -823,7 +823,7 @@
         {
           "level": 1,
           "name": "ลิ่มมังกร [龍之櫼]",
-          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Gain 1 [DragonLanceRefraction]</u></b></mark></color> next turn\n[DefeatDuel] Cancel the Combat Start effect. Gain 3 [Endurance] next turn",
+          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>ได้รับ [DragonLanceRefraction] 1 หน่วย</u></b></mark></color> ในเทิร์นถัดไป\n[DefeatDuel] ยกเลิกเอฟเฟกต์ 'เริ่มการต่อสู้' ข้างต้น และได้รับ [Endurance] 3 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
@@ -842,7 +842,7 @@
         {
           "level": 1,
           "name": "โทสะแห่งเกล็ดกลับด้าน [逆鱗之禍]",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Consume all [YesdragonSelfRefraction]</u></b></mark></color> on self and Reuse the final Coin (# of Stacks consumed) times (max 5 times)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>ผลาญ [YesdragonSelfRefraction] ทั้งหมด</u></b></mark></color> ที่ตนเองมี และใช้เหรียญสุดท้ายซ้ำ (ปริมาณที่ผลาญไป) ครั้ง (สูงสุด 5 ครั้ง)\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -850,10 +850,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 },
                 {
-                  "desc": "[EnemyKill] Upon killing the main target, apply the [WideAreaRampage] effect on this Skill"
+                  "desc": "[EnemyKill] เมื่อกำจัดเป้าหมายหลักได้ จะมอบเอฟเฟกต์ [WideAreaRampage] ให้สกิลนี้"
                 }
               ]
             },
@@ -863,13 +863,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin damages only the main target. If [WideAreaRampage] is applied, this Coin damages all targets"
+                  "desc": "เหรียญนี้จะสร้างความเสียหายแค่กับเป้าหมายหลัก; แต่หากมีเอฟเฟกต์ [WideAreaRampage] อยู่ด้วย เหรียญนี้จะเปลี่ยนไปสร้างความเสียหายกับเป้าหมายทั้งหมดแทน"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [CondensedBloodRefraction]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [CondensedBloodRefraction] 1 หน่วย"
                 }
               ]
             }
@@ -883,7 +883,7 @@
         {
           "level": 1,
           "name": "อัสนีฉับพลัน [閃雷]",
-          "desc": "[WhenUse] If the main target has less than 35 SP, Base Power +1\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี SP ต่ำกว่า 35 หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -891,10 +891,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +1 [CondensedBloodRefraction] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +1 หน่วย"
                 }
               ]
             },
@@ -904,10 +904,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Paralysis] ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -921,7 +921,7 @@
         {
           "level": 1,
           "name": "มังกรคำราม [龍聲]",
-          "desc": "[WhenUse] If the main target has less than 35 SP, Coin Power +1\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี SP ต่ำกว่า 35 หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[DefeatDuel] สร้างความเสียหายลดลง -50% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -929,7 +929,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 }
               ]
             },
@@ -939,10 +939,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [CondensedBloodRefraction] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +2 หน่วย"
                 }
               ]
             }
@@ -956,19 +956,19 @@
         {
           "level": 1,
           "name": "หมุดตกสวรรค์ [落針]",
-          "desc": "[WhenUse] Base Power +1 <color=#ff6000><mark=#ff000040><b><u>for every 2 [YesdragonSelfRefraction]</u></b></mark></color> on self\n[WhenUse] If target has [Binding] or [Paralysis], Base Power +2\n[WhenUse] If this unit has <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Coin Power +1\n<color=#ff6000><mark=#ff000040><b><u>Spawn \"หมุดฝังบุปผา\" next turn</u></b></mark></color>\n[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>Does not spawn \"หมุดฝังบุปผา\"</u></b></mark></color>",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม <color=#ff6000><mark=#ff000040><b><u>ตามทุก ๆ [YesdragonSelfRefraction]\n 2 หน่วย</u></b></mark></color> ที่ตนเองมี\n[WhenUse] หากเป้าหมายมี [Binding] หรือ [Paralysis] แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] หากตัวละครนี้มี <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] 5+ หน่วย</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n<color=#ff6000><mark=#ff000040><b><u>อัญเชิญ \"หมุดฝังบุปผา\" ในเทิร์นถัดไป</u></b></mark></color>\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>ไม่อัญเชิญ \"หมุดฝังบุปผา\"</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย และจำนวนครั้ง [Burst] +2 หน่วย"
                 }
               ]
             }
@@ -981,36 +981,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ลมวนมังกร [龍卷]",
-          "desc": "[WhenUse] If the main target has [Binding] or [Paralysis], Coin Power +1",
+          "name": "ลมมังกรเวียนวน [龍卷]",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี [Binding] หรือ [Paralysis] แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [CondensedBloodRefraction] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [CondensedBloodRefraction] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [CondensedBloodRefraction] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +1 หน่วย"
                 }
               ]
             }
@@ -1024,12 +1024,12 @@
         {
           "level": 1,
           "name": "รวบพิรุณ [積雨]",
-          "desc": "[WhenUse] Base Power +1 <color=#ff6000><mark=#ff000040><b><u>for every [YesdragonSelfRefraction]</u></b></mark></color> on self\n[WhenUse] If this unit has <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Coin Power +1 and gain +1 Atk Weight\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม <color=#ff6000><mark=#ff000040><b><u>ตามทุก ๆ [YesdragonSelfRefraction]</u></b></mark></color> ที่ตนเองมี\n[WhenUse] หากตัวละครนี้มี <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] 5+ หน่วย</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม และน้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 }
               ]
             },
@@ -1039,10 +1039,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [CondensedBloodRefraction] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +2 หน่วย"
                 }
               ]
             },
@@ -1052,13 +1052,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction], Reuse this Coin</u></b></mark></color> (once per Skill)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] 5+ หน่วย จะใช้เหรียญนี้ซ้ำ</u></b></mark></color> (มีผลสกิลละครั้ง)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [CondensedBloodRefraction]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [CondensedBloodRefraction] 2 หน่วย"
                 }
               ]
             }
@@ -1072,15 +1072,15 @@
         {
           "level": 1,
           "name": "อัสนีผ่า [落雷]",
-          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>Targets \"หมุดฝังบุปผา\"</u></b></mark></color>\nIf \"หมุดฝังบุปผา\" is destroyed, cancel this Skill",
+          "desc": "[CantDuel][CantChangeTarget] \n<color=#ff6000><mark=#ff000040><b><u>เล็ง \"หมุดฝังบุปผา\"</u></b></mark></color>\nหาก \"หมุดฝังบุปผา\" ถูกทำลาย จะยกเลิกการใช้สกิลนี้",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst] and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 5 หน่วย และจำนวนครั้ง [Burst] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 50% chance to inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] มีโอกาส 50% ที่จะสร้าง [Paralysis] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1094,7 +1094,7 @@
         {
           "level": 1,
           "name": "คลื่นหยาดโศกมังกร [龍淚成濤]",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>For every [DragonLanceRefraction] on self</u></b></mark></color>, Coin Power +1 and gain +1 Atk Weight\n- If [DragonLanceRefraction] is at max Stack, deal +100% additional damage\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] Gain 3 [Vulnerable] until the next Turn End\n[EndSkillAll] Reduce [DragonLanceRefraction] Stack to 1",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse] จนกว่าสกิลนี้จะจบลง ตัวละครนี้จะไม่สามารถติดชะงักเพราะรับความเสียหายได้\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>ตามทุก ๆ [DragonLanceRefraction] ที่ตนเองมี</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม และน้ำหนักการโจมตีจะเพิ่มขึ้น +1 ช่อง\n- หากมีปริมาณ [DragonLanceRefraction] อยู่เติม จะสร้างความเสียหายเพิ่มขึ้นอีก +100%\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[DefeatDuel] ได้รับ [Vulnerable] 3 หน่วย จนกว่าจะจบเทิร์นถัดไป\n[EndSkillAll] ลดปริมาณ [DragonLanceRefraction] เหลือ 1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -1102,7 +1102,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [CondensedBloodRefraction] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +2 หน่วย"
                 }
               ]
             },
@@ -1112,7 +1112,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [CondensedBloodRefraction] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [CondensedBloodRefraction] +2 หน่วย"
                 }
               ]
             },
@@ -1122,7 +1122,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [CondensedBloodRefraction]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [CondensedBloodRefraction] 2 หน่วย"
                 }
               ]
             },
@@ -1132,7 +1132,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [CondensedBloodRefraction]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [CondensedBloodRefraction] 2 หน่วย"
                 }
               ]
             },
@@ -1142,7 +1142,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [CondensedBloodRefraction]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [CondensedBloodRefraction] 2 หน่วย"
                 }
               ]
             }
@@ -1156,33 +1156,33 @@
         {
           "level": 1,
           "name": "ทิ่มแทงตน ล้างบางมลทิน [自穿滅汚]",
-          "desc": "[CantDuel] [CantIdentify]\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If Crimson Jade is at 1 HP, deal 0 damage</u></b></mark></color>, and Coin effects do not trigger\n[EndSkill] This unit dies",
+          "desc": "[CantDuel] [CantIdentify]\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หาก 'หยกเม็ดแดง' มี HP 1 หน่วย จะสร้างความเสียหาย 0 หน่วย</u></b></mark></color> และเอฟเฟกต์เหรียญจะไม่ทำงาน\n[EndSkill] ตัวละครนี้ตาย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 [Burst] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +5 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
                 }
               ]
             }
@@ -1196,7 +1196,7 @@
         {
           "level": 1,
           "name": "หมุดมังกรแบกจิตวิญญาณ",
-          "desc": "[CanDuelGuard]\n[WinDuel] Inflict 1 [Vulnerable] on target",
+          "desc": "[CanDuelGuard]\n[WinDuel] สร้าง [Vulnerable] 1 หน่วยบนตัวเป้าหมาย",
           "coinlist": [
             {
               "coindescs": [
@@ -1215,7 +1215,7 @@
         {
           "level": 1,
           "name": "Furioso-Replica",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Gain 3 [Breath] and +3 [Breath] Count\n- Clash Power +5 (<color=#ff6000><mark=#ff000040><b><u>Clash Power gained is reduced by 1 for every 8 [KarmaOfIndexRien] on self, down to 0</u></b></mark></color>)\n[WhenUse] At 0+ SP, generate 1 Mang\n- Deal +20% damage; Final Power +3\n[WinDuel]\n- Gain 3 [Breath] and +3 [Breath] Count\n- Attack End: Inflict 3 [Laceration], 1 [Binding], and 1 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Gain 4 [AttackDmgDown] and 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 20 SP\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>สกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงานs</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n- แต้มแคลชสกิลเพิ่มขึ้น +5 แต้ม (<color=#ff6000><mark=#ff000040><b><u>แต้มแคลชสกิลที่ได้รับจะลดลง 1 แต้ม ตามทุก ๆ [KarmaOfIndexRien] 8 หน่วยที่ตนเองมี และสามารถลดเหลือ 0 แต้มได้</u></b></mark></color>)\n[WhenUse] เมื่อมี SP 0+ หน่วย จะสร้าง 'มัง' 1 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +20%; แต้มปิดท้ายสกิลเพิ่มขึ้น +3 แต้ม\n[WinDuel]\n- ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n- โจมตีจบลง: สร้างค่า [Laceration] 3 หน่วย, [Binding] 1 หน่วย, และ [Vulnerable] 1 หน่วยในเทิร์นถัดไปแก่เป้าหมายทั้งหมดที่สกิลนี้โจมตีโดน\n[DefeatDuel]\n- ได้รับ [AttackDmgDown] 4 หน่วย และ [Paralysis] 9 หน่วย\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n[EndSkill] หากสกิลนี้สร้าง 'มัง' จะเสีย SP 20 หน่วย\n[EndSkill] จบเทิร์นนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -1230,10 +1230,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (max 7 times)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ใช้เหรียญนี้ซ้ำ (สูงสุด 7 ครั้ง)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             }
@@ -1247,29 +1247,19 @@
         {
           "level": 1,
           "name": "ทำลายเสียง บดขยี้ความคิดให้แบนราบ",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Blunt Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Blunt Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nBlunt weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Blunt weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Blunt weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Blunt weapons deal +60% damage\n- Non-Blunt weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Raise target's Stagger Threshold by 25\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากตัวละครนี้มี [BlackNightmare]:\n- แปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>เมื่อแคลชกับสกิลที่ไม่ใช่ประเภททุบ</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +50%\n- เมื่อแคลชแพ้สกิลประเภททุบ:\n  - แต้มเหรียญลดลง -2 แต้ม และสร้างความเสียหายลดลง -50%\n  - ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n  \n  อาวุธประเภททุบปรากฏบ่อยขึ้น\n- เมื่อมี [KarmaOfIndexRien_2Phase] 75+ หน่วย อาวุธประเภททุบปรากฏน้อยลง\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย อาวุธประเภททุบปรากฏน้อยลงยิ่งกว่าเดิม\n\nเปิดใช้งานเอฟเฟกต์ตามต่อไปนี้ ขึ้นกับประเภทการโจมตีของอาวุธ\n- อาวุธประเภททุบ สร้างความเสียหายเพิ่มขึ้น +60%\n- อาวุธที่ไม่ใช่ประเภททุบ สร้างความเสียหายลดลง -30%\n\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ดึงเกจชะงักของเป้าหมายขึ้น 25 หน่วย\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย เอฟเฟกต์นี้จะไม่ทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             },
@@ -1279,7 +1269,17 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
                 }
               ]
             }
@@ -1293,29 +1293,19 @@
         {
           "level": 1,
           "name": "แทงหัวใจอันเงียบงัน เจาะทะลวงความทรงจำ",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Pierce Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Pierce Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nPierce weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Pierce weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Pierce weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Pierce weapons deal +60% damage\n- Non-Pierce weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Gain 2 [AttackDmgUp] next turn\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากตัวละครนี้มี [BlackNightmare]:\n- แปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>เมื่อแคลชกับสกิลที่ไม่ใช่ประเภทแทง</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +50%\n- เมื่อแคลชแพ้ต่อสกิลประเภทแทง:\n  - แต้มเหรียญลดลง -2 แต้ม และสร้างความเสียหายลดลง -50%\n  - ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n  \nอาวุธประเภทแทงปรากฏบ่อยขึ้น\n- เมื่อมี [KarmaOfIndexRien_2Phase] 75+ หน่วย อาวุธประเภทแทงปรากฏน้อยลง\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย อาวุธประเภทแทงปรากฏน้อยลงยิ่งกว่าเดิม\n\nเปิดใช้งานเอฟเฟกต์ตามต่อไปนี้ ขึ้นกับประเภทการโจมตีของอาวุธ\n- อาวุธประเภทแทง สร้างความเสียหายเพิ่มขึ้น +60%\n- อาวุธที่ไม่ใช่ประเภทแทง สร้างความเสียหายลดลง -30%\n\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ได้รับ [AttackDmgUp] 2 หน่วยในเทิร์นถัดไป\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย เอฟเฟกต์นี้จะไม่ทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 3 [Breath]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
                 }
               ]
             },
@@ -1325,7 +1315,17 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
                 }
               ]
             }
@@ -1339,29 +1339,19 @@
         {
           "level": 1,
           "name": "สะบั้นรูปลักษณ์ ด้วยความลับที่ถูกเจือจาง",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Slash Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Slash Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nSlash weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Slash weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Slash weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Slash weapons deal +60% damage\n- Non-Slash weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Final Power +3\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากตัวละครนี้มี [BlackNightmare]:\n- แปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>เมื่อแคลชกับสกิลที่ไม่ใช่ประเภทฟัน</u></b></mark></color> แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม และสร้างความเสียหายเพิ่มขึ้น +50%\n- เมื่อแคลชแพ้ต่อสกิลประเภทฟัน:\n  - แต้มเหรียญลดลง -2 แต้ม และสร้างความเสียหายลดลง -50%\n  - ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n  \nอาวุธประเภทฟันปรากฏบ่อยขึ้น\n- เมื่อมี [KarmaOfIndexRien_2Phase] 75+ หน่วย อาวุธประเภทฟันปรากฏน้อยลง\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย อาวุธประเภทฟันปรากฏน้อยลงยิ่งกว่าเดิม\n\nเปิดใช้งานเอฟเฟกต์ตามต่อไปนี้ ขึ้นกับประเภทการโจมตีของอาวุธ\n- อาวุธประเภทฟัน สร้างความเสียหายเพิ่มขึ้น +60%\n- อาวุธที่ไม่ใช่ประเภทฟัน สร้างความเสียหายลดลง -30%\n\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] แต้มปิดท้ายสกิลเพิ่มขึ้น +3 แต้ม\n- เมื่อมี [KarmaOfIndexRien_2Phase] 150+ หน่วย เอฟเฟกต์นี้จะไม่ทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับค่า [Breath] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +3 [Breath] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +3 หน่วย"
                 }
               ]
             },
@@ -1371,7 +1361,17 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
                 }
               ]
             }
@@ -1385,7 +1385,7 @@
         {
           "level": 1,
           "name": "Furioso [Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Gain 6 [Breath] and +6 [Breath] Count\n- Clash Power +10 (<color=#ff6000><mark=#ff000040><b><u>Clash Power gained is reduced by 1 for every 8 [KarmaOfIndexRien_2Phase] on self</u></b></mark></color>)\n[WhenUse] At 0+ SP, generate 2 Mangs\n- Deal +40% damage; Final Power +5\n[WinDuel]\n- Attack End: Inflict 4 [Laceration], 2 [Binding], and 2 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Gain 6 [AttackDmgDown] and 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 25 SP\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>สกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงานs</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- ได้รับค่า [Breath] 6 หน่วย และจำนวนครั้ง [Breath] +6 หน่วย\n- แต้มแคลชสกิลเพิ่มขึ้น +10 แต้ม (<color=#ff6000><mark=#ff000040><b><u>แต้มแคลชสกิลที่ได้รับจะลดลง 1 แต้ม ตามทุก ๆ [KarmaOfIndexRien_2Phase] 8 หน่วยที่ตนเองมี</u></b></mark></color>)\n[WhenUse] เมื่อมี SP 0+ หน่วย จะสร้าง 'มัง' 2 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +40%; แต้มปิดท้ายสกิลเพิ่มขึ้น +5 แต้ม\n[WinDuel]\n- โจมตีจบลง: สร้างค่า [Laceration] 4 หน่วย, [Binding] 2 หน่วย, และ [Vulnerable] 2 หน่วยในเทิร์นถัดไปแก่เป้าหมายทั้งหมดที่สกิลนี้โจมตีโดน\n[DefeatDuel]\n- ได้รับ [AttackDmgDown] 6 หน่วย และ [Paralysis] 9 หน่วย\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n[EndSkill] หากสกิลนี้สร้าง 'มัง' จะเสีย SP 25 หน่วย\n[EndSkill] จบเทิร์นนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -1400,10 +1400,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (max 7 times)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ใช้เหรียญนี้ซ้ำ (สูงสุด 7 ครั้ง)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
         {
           "level": 1,
           "name": "Furioso [Lacrimosa-Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- Gain 9 [Breath] and +9 [Breath] Count\n- Clash Power +15 (Clash Power gained is reduced by 1 for every 8 [KarmaOfIndexRien_2Phase] on self)\n[WhenUse] At 0+ SP, generate 3 Mangs\n- Deal +60% damage; Final Power +8\n[WinDuel]\n- Attack End: Inflict 5 [Laceration], 3 [Binding], and 3 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Gain 8 [AttackDmgDown] and 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 30 SP\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>สกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงานs</u></b></mark></color>\nสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse]\n- ได้รับค่า [Breath] 9 หน่วย และจำนวนครั้ง [Breath] +9 หน่วย\n- แต้มแคลชสกิลเพิ่มขึ้น +15 แต้ม (<color=#ff6000><mark=#ff000040><b><u>แต้มแคลชสกิลที่ได้รับจะลดลง 1 แต้ม ตามทุก ๆ [KarmaOfIndexRien_2Phase] 8 หน่วยที่ตนเองมี</u></b></mark></color>)\n[WhenUse] เมื่อมี SP 0+ หน่วย จะสร้าง 'มัง' 3 หน่วย\n- สร้างความเสียหายเพิ่มขึ้น +60%; แต้มปิดท้ายสกิลเพิ่มขึ้น +8 แต้ม\n[WinDuel]\n- โจมตีจบลง: สร้างค่า [Laceration] 5 หน่วย, [Binding] 3 หน่วย, และ [Vulnerable] 3 หน่วยในเทิร์นถัดไปแก่เป้าหมายทั้งหมดที่สกิลนี้โจมตีโดน\n[DefeatDuel]\n- ได้รับ [AttackDmgDown] 8 หน่วย และ [Paralysis] 9 หน่วย\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก; เมื่อโจมตีโดน จะไม่ทำให้ [Sinking] บนตัวเป้าหมายทำงาน\n[EndSkill] หากสกิลนี้สร้าง 'มัง' จะเสีย SP 30 หน่วย\n[EndSkill] จบเทิร์นนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -1432,10 +1432,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (max 7 times)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>ใช้เหรียญนี้ซ้ำ (สูงสุด 7 ครั้ง)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             }
@@ -1449,7 +1449,7 @@
         {
           "level": 1,
           "name": "อย่าปล่อยให้พวกนั้นทำร้ายหนูนะ",
-          "desc": "[CanDuelGuard]\nFinal Power -4 for every ally defeated in this Encounter",
+          "desc": "[CanDuelGuard]\nแต้มปิดท้ายสกิลลดลง -4 แต้ม ตามจำนวนพันธมิตรที่ถูกกำจัดในการเผชิญหน้านี้",
           "coinlist": [
             {
               "coindescs": [
@@ -1468,7 +1468,7 @@
         {
           "level": 1,
           "name": "มาเล่นกับหนูกัน!",
-          "desc": "Final Power +1 and deal +5% damage for every ally defeated in this Encounter\n[DefeatDuel] Base Power -7\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +5% ตามจำนวนพันธมิตรที่ถูกกำจัดในการเผชิญหน้านี้\n[DefeatDuel] แต้มปิดท้ายสกิลลดลง -7 แต้ม\n[DefeatDuel] ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1483,7 +1483,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ResultReduction] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [ResultReduction] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1497,7 +1497,7 @@
         {
           "level": 1,
           "name": "ฮ่า!",
-          "desc": "Final Power +1 and deal +10% damage for every ally defeated in this Encounter\n[DefeatDuel] Base Power -8\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10% ตามจำนวนพันธมิตรที่ถูกกำจัดในการเผชิญหน้านี้\n[DefeatDuel] แต้มปิดท้ายสกิลลดลง -8 แต้ม\n[DefeatDuel] ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1505,7 +1505,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ResultReduction] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [ResultReduction] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1519,7 +1519,7 @@
         {
           "level": 1,
           "name": "คุณชอบตุ๊กตารึเปล่า?",
-          "desc": "Final Power +1 and deal +5% damage for every ally defeated in this Encounter\n[DefeatDuel] Base Power -10\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +5% ตามจำนวนพันธมิตรที่ถูกกำจัดในการเผชิญหน้านี้\n[DefeatDuel] แต้มปิดท้ายสกิลลดลง -10 แต้ม\n[DefeatDuel] ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1534,7 +1534,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [ResultReduction] next turn"
+                  "desc": "[OnSucceedAttack] สร้าง [ResultReduction] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1548,7 +1548,7 @@
         {
           "level": 1,
           "name": "หนูจะออกกรรไกร แล้วคุณล่ะ?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>If this Skill is an Unopposed Attack, or if this Skill loses a Clash, deal +300% damage</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>If target has [ResultReduction], Clash Power +20</u></b></mark></color>\n[WinDuel] This Skill does not trigger the target's Defense Skill\n[WinDuel] End this Skill and use \"คุณชนะแล้ว...\" on the target\n",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>หากสกิลนี้โจมตีโดยตรง หรือหากสกิลนี้แคลชแพ้ จะสร้างความเสียหายเพิ่มขึ้น +300%</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายมี [ResultReduction] แต้มแคลชสกิลจะเพิ่มขึ้น +20 แต้ม</u></b></mark></color>\n[WinDuel] สกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\n[WinDuel] ยุติการใช้สกิลนี้ และใช้สกิล \"คุณชนะแล้ว...\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": [
@@ -1570,7 +1570,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Laceration] and +4 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 }
               ]
             }
@@ -1584,7 +1584,7 @@
         {
           "level": 1,
           "name": "คุณชนะแล้ว...",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- Its attack does not hit\n[WhenUse] Apply 2 [AttackUp] on target next turn\n[EndSkill] Heal (this Coin's Final Power x 5) HP for 2 Sinners that have the lowest current HP",
+          "desc": "[CantDuel]\nสกิลนี้มีคุณสมบัติต่อไปนี้:\n- ไม่ทำให้สกิลตั้งรับทำงาน\n- การโจมตีนี้จะไม่นับว่าโจมตีโดน\n[WhenUse] มอบ [AttackUp] 2 หน่วยให้กับเป้าหมายในเทิร์นถัดไป\n[EndSkill] ฟื้นฟู HP (แต้มปิดท้ายสกิลของเหรียญนี้ x 5) หน่วยให้กับซินเนอร์ 2 คนที่มี HP ปัจจุบันต่ำที่สุด",
           "coinlist": [
             {}
           ]
@@ -1597,7 +1597,7 @@
         {
           "level": 1,
           "name": "มาเล่นด้วยกันไปตลอดกาลเถอะ~!",
-          "desc": "This Skill does not trigger Defense Skills, and can be Clashed with regardless of Speed\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Deal -90% damage against targets that have equipped Defense Skills</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>[StartDuel] Final Power +20</u></b></mark></color>\n[WinDuel] Deal +100% damage\n[DefeatDuel] Deal -90% damage and damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] All Parts become Staggered next turn\n[EndSkill] End this turn",
+          "desc": "สกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และสามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>สร้างความเสียหายใส่เป้าหมายที่สวมใส่สกิลตั้งรับลดลง -90%</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>[StartDuel] แต้มปิดท้ายสกิลเพิ่มขึ้น +20 แต้ม</u></b></mark></color>\n[WinDuel] สร้างความเสียหายเพิ่มขึ้น +100%\n[DefeatDuel] สร้างความเสียหายลดลง -90% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[DefeatDuel] อวัยวะทุกส่วนติดชะงักในเทิร์นถัดไป\n[EndSkill] จบเทิร์นนี้",
           "coinlist": [
             {
               "coindescs": [
@@ -1619,7 +1619,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 6 [Laceration] and +5 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 6 หน่วย และจำนวนครั้ง [Laceration] +5 หน่วย"
                 }
               ]
             }
@@ -1633,18 +1633,18 @@
         {
           "level": 1,
           "name": "ศิลปะจัดวาง ชิ้นที่ 3: ซี่โครงด้นสด",
-          "desc": "[CantDuel]\nPrioritizes enemy with the highest level\nThis Skill does not trigger Defense Skills\n[WhenUse] Coin Power +1 for every 8 [Laceration] on target (max 2)",
+          "desc": "[CantDuel]\nเล็งศัตรูที่มีเลเวลสูงที่สุดเป็นหลัก\nสกิลนี้ไม่ทำให้สกิลตั้งรับทำงาน\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 8 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal SP damage instead of HP damage"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหาย SP แทนความเสียหาย HP"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 15 SP on self"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP ตนเอง 15 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Stagger target and turn target into [LivingSpecimenTheRings] next turn</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>ทำให้เป้าหมายติดชะงัก และกลายเป็น [LivingSpecimenTheRings] ในเทิร์นถัดไป</u></b></mark></color>"
                 }
               ]
             }
@@ -1658,7 +1658,7 @@
         {
           "level": 1,
           "name": "ท่วงทำนองของทิเบีย - ขั้นตอนผ่านชำแหละสิ่งที่ยังไม่ได้รับการผ่า โดยผู้ผ่านประสบการณ์ถูกผ่ามาก่อน",
-          "desc": "During the turn this unit has this Skill equipped, gain 1 [PlusCoinValueDown] and 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: Heal 15 SP for every target killed\n[StartBattle] Gain 4 [Protection]\n[WhenUse] Deal +3% damage for every 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -90% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] [MineTheRings] expires",
+          "desc": "ในเทิร์นที่ตัวละครนี้จัดการสวมใส่สกิลนี้ <color=#ff6000><mark=#ff000040><b><u>เมื่อถูกโจมตีโดยสกิลโจมตีก่อนใช้สกิล</u></b></mark></color> จะได้รับ [PlusCoinValueDown] 1 หน่วย และ [ResultReduction] 1 หน่วย (มีผลสกิลละครั้ง; สูงสูด 3 ครั้ง/เทิร์น)\nไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\nเมื่อสกิลนี้กำจัดได้: ฟื้นฟู SP 15 หน่วย ตามทุก ๆ เป้าหมายที่ถูกกำจัด\n[StartBattle] ได้รับ [Protection] 4 หน่วย\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมายหลัก + ค่า [Laceration] บนตัวเป้าหมายรอง) 6 หน่วย (สูงสุด 30%)\n[DefeatDuel] สร้างความเสียหายสุดท้ายลดลง -90% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] [MineTheRings] หมดลง",
           "coinlist": [
             {
               "coindescs": [
@@ -1666,10 +1666,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP (once per Skill)"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 5 หน่วย (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1679,10 +1679,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] ได้รับ [Protection] 1 หน่วยในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1692,10 +1692,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] ได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1705,7 +1705,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -1719,19 +1719,19 @@
         {
           "level": 1,
           "name": "สิ้นลม [絶命]",
-          "desc": "This Skill does not trigger the target's Defense Skill\nPrioritizes the target with the lowest current HP percentage",
+          "desc": "สกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\nเล็งเป้าหมายที่มีเปอร์เซ็นต์ HP ปัจจุบันต่ำที่สุดเป็นหลัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PhantomIncision] for every 1% missing HP on target"
+                  "desc": "[OnSucceedAttack] สร้าง [PhantomIncision] 1 หน่วย ตามทุก ๆ HP 1% ที่หายไปของเป้าหมาย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consume all [PhantomIncision] on target and deal ([PhantomIncision] consumed)% HP damage"
+                  "desc": "[OnSucceedAttack] ผลาญ [PhantomIncision] ทั้งหมดบนตัวเป้าหมาย และสร้างความเสียหาย HP (ปริมาณ [PhantomIncision] ที่ผลาญ)%"
                 }
               ]
             }
@@ -1745,7 +1745,7 @@
         {
           "level": 1,
           "name": "การปลดปล่อยของกายเนื้อที่ถูกกดทับ",
-          "desc": "During the turn this unit has this Skill equipped, gain 1 [PlusCoinValueDown] and 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: Heal 15 SP for every target killed\n[StartBattle] Gain 4 [Protection]\n[WhenUse] Deal +3% damage for every 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -90% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] [BoneBladeTheRings] expires",
+          "desc": "ในเทิร์นที่ตัวละครนี้จัดการสวมใส่สกิลนี้ <color=#ff6000><mark=#ff000040><b><u>เมื่อถูกโจมตีโดยสกิลโจมตีก่อนใช้สกิล</u></b></mark></color> จะได้รับ [PlusCoinValueDown] 1 หน่วย และ [ResultReduction] 1 หน่วย (มีผลสกิลละครั้ง; สูงสูด 3 ครั้ง/เทิร์น)\nไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\nเมื่อสกิลนี้กำจัดได้: ฟื้นฟู SP 15 หน่วย ตามทุก ๆ เป้าหมายที่ถูกกำจัด\n[StartBattle] ได้รับ [Protection] 4 หน่วย\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมายหลัก + ค่า [Laceration] บนตัวเป้าหมายรอง) 6 หน่วย (สูงสุด 30%)\n[DefeatDuel] สร้างความเสียหายสุดท้ายลดลง -90% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] [BoneBladeTheRings] หมดลง",
           "coinlist": [
             {
               "coindescs": [
@@ -1753,10 +1753,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหาย SP 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP (once per Skill)"
+                  "desc": "[OnSucceedAttack] ฟื้นฟู SP 5 หน่วย (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1766,10 +1766,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] ได้รับ [Protection] 1 หน่วยในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1779,10 +1779,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] ได้รับ [AttackDmgUp] 1 หน่วยในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
                 }
               ]
             },
@@ -1792,7 +1792,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
