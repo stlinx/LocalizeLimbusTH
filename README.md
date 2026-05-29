@@ -47,6 +47,7 @@ addon แปลไทยสำหรับ Limbus Company
 • แปลสกิล/พาซซีฟตัวตนใหม่
 • แปล Refraction Railway 6  
 • แปลสกิล/พาซซีฟบอสใน Refraction Railway 6  
+• แปล Canto IV: The Unchanging จบบริบูรณ์
 • แปลสถานะใหม่   
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -55,12 +56,12 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 1  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 3  JoshWaltz49  
-✘ Canto 4  JoshWaltz49 (WIP)  
-✘ Canto 5  
+✔ Canto 4  JoshWaltz49  
+✘ Canto 5  JoshWaltz49 (WIP)  
 ✘ Canto 6  
 ✘ Canto 7  
 ✔ Canto 8  JoshWaltz49  
-✘ Canto 9  
+✘ Canto 9  JoshWaltz49 (WIP)  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
@@ -84,6 +85,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ 8.5 : Spring Cultivation  
 ~~✘ 8.5 : Pilgrimage Of Compassion~~  
 ✘ 9.5 : Twining Threads  
+✘ 9.5 : Mnestic Experrience  
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
 • ชื่อตัวตน — เสร็จสิ้น  all  
