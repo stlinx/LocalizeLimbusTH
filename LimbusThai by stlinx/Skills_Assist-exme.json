@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "ศิลป์ตัดผ่า",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (สูงสุด 2)\n[WhenUse] At 3+ [Agility], Base Power +2\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [Agility] 3+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "ดาบฝังเข็ม",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (สูงสุด 2)\n[WhenUse] At 3+ [Agility], Base Power +2\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [Agility] 3+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -63,7 +63,7 @@
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ได้รับ 2 [Agility] ในเทิร์นถัดไป"
+                  "desc": "[CriticalOnSucceedAttack] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -77,7 +77,7 @@
         {
           "level": 1,
           "name": "ระลอกเพลิงสกาว",
-          "desc": "Deal +0.5% damage for every 1% missing HP on self (สูงสุด 25%)\nDeal +25% damage on Critical Hit for every [Agility] on self (สูงสุด 150%)\n[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Coin Power +1 (สูงสุด 2)\n[WhenUse] At 5+ [WindBlade], convert into [SuperCoin]\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +0.5% ตามทุก ๆ HP 1% ของตนเองที่หายไป (สูงสุด 25%)\nสร้างความเสียหายคริติคอลเพิ่มขึ้น +25% ตามทุก ๆ [Agility] ที่ตนเองมี (สูงสุด 150%)\n[WhenUse] เมื่อมี (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [WindBlade] 5+ หน่วย จะแปลงเหรียญเป็น [SuperCoin]\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -85,7 +85,7 @@
                   "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +3 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ได้รับ 1 [WindBlade]"
+                  "desc": "[CriticalOnSucceedAttack] ได้รับ [WindBlade] 1 หน่วย"
                 }
               ]
             },
@@ -95,7 +95,7 @@
                   "desc": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ได้รับ 1 [WindBlade]"
+                  "desc": "[CriticalOnSucceedAttack] ได้รับ [WindBlade] 1 หน่วย"
                 }
               ]
             },
@@ -105,7 +105,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] ได้รับ 1 [WindBlade]"
+                  "desc": "[CriticalOnSucceedAttack] ได้รับ [WindBlade] 1 หน่วย"
                 }
               ]
             }
@@ -119,7 +119,7 @@
         {
           "level": 1,
           "name": "ตาต่อตา - ระลอกเพลิงสกาว",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (สูงสุด 25%)\nDeal +20% damage on Critical Hit for every [Agility] on self (สูงสุด 100%)\n[EndSkill] Consume all [WindBlade] on self",
+          "desc": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน\nสร้างความเสียหายเพิ่มขึ้น +0.5% ตามทุก ๆ HP 1% ของตนเองที่หายไป (สูงสุด 25%)\nสร้างความเสียหายคริติคอลเพิ่มขึ้น +20% ตามทุก ๆ [Agility] ที่ตนเองมี (สูงสุด 50%)\n[EndSkill] ผลาญ [WindBlade] ทั้งหมดที่ตนเองมี",
           "coinlist": [
             {
               "coindescs": [
@@ -148,7 +148,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] At 5+ [Agility], Reuse this Coin (มีผลสกิลละครั้ง)"
+                  "desc": "[CriticalOnSucceedAttack] เมื่อมี [Agility] 5+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
                 }
               ]
             }
@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "สะบั้นกระดูก",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (สูงสุด 25%)\nDeal +10% damage on Critical Hit for every [Agility] on self (สูงสุด 50%)\n[WhenUse] Base Power +1 for every 4 ([Breath] on self + [Laceration] on target) (สูงสุด 4)",
+          "desc": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน\nสร้างความเสียหายเพิ่มขึ้น +0.5% ตามทุก ๆ HP 1% ของตนเองที่หายไป (สูงสุด 25%)\nสร้างความเสียหายคริติคอลเพิ่มขึ้น +10% ตามทุก ๆ [Agility] ที่ตนเองมี (สูงสุด 50%)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 4 หน่วย (สูงสุด 4 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -177,7 +177,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -191,7 +191,7 @@
         {
           "level": 1,
           "name": "ข้าจะส่องไฟนำทางตรงหน้าให้เอง",
-          "desc": "[CanDuelGuard]\n[StartBattle] ได้รับ 1 [SupportProtect]\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+          "desc": "[CanDuelGuard]\n[StartBattle] ได้รับ [SupportProtect] 1 หน่วย\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -210,7 +210,7 @@
         {
           "level": 1,
           "name": "เฝ้าสังเกตหินบนกระดาน",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WhenUse] At more than 25 [Breath], consume 5 [Breath] to gain 3 [WindBlade]\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+          "desc": "[CanDuelGuard]\nสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WhenUse] เมื่อมีค่า [Breath] มากกว่า 25 หน่วย จะผลาญค่า [Breath] 5 หน่วยเพื่อรับ [WindBlade] 3 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -228,8 +228,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Draw of the Sword",
-          "desc": "[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย",
+          "name": "ชักคมดาบ",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -258,7 +258,7 @@
         {
           "level": 1,
           "name": "ดาบฝังเข็ม",
-          "desc": "[WhenUse] At 7+ [Breath], Coin Power +1\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 7+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -270,14 +270,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "Deal +20% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +20%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +40% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +40%"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
@@ -293,8 +293,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overthrow",
-          "desc": "[DuelCounter]\n[StartBattle] ได้รับ 2 [SlashDamageUp] this turn and ในเทิร์นถัดไป\n[WhenUse] At 8+ [Breath], Coin Power +1\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 4 หน่วย",
+          "name": "โค่นล้ม",
+          "desc": "[DuelCounter]\n[StartBattle] ได้รับ [SlashDamageUp] 2 หน่วยในเทิร์นนี้และเทิร์นถัดไป\n[WhenUse] เมื่อมีค่า [Breath] 8+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 4 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -313,7 +313,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Deal +80% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +80%"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 8 หน่วย"
@@ -329,19 +329,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Yield My Flesh",
-          "desc": "Targets the Skill Slot that has the highest max Power\n[WhenUse] Until this Skill ends:\n- Take -2% damage from Attacks for every [Breath] on self (ต่ำสุด -80%)\n- Clash Power -1 for every [Breath] on self (ต่ำสุด -30)\n- Cannot be Staggered from taking damage\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n[DefeatDuel] Use \"สะบั้นกระดูก\" after being hit\n[EndBattle] Cannot use \"Yield My Flesh\" until ในเทิร์นถัดไป",
+          "name": "เชือดเฉือนเนื้อ",
+          "desc": "เล็งช่องสกิลที่ใช้สกิลซึ่งมีผลรวมแต้มสกิลสูงสุดมากที่สุด\n[WhenUse] จนกว่าสกิลนี้จะจบลง:\n- ได้รับความเสียหายจากการโจมตีต่าง ๆ ลดลง -2% ตามทุก ๆ ค่า [Breath] ที่ตนเองมี (ต่ำสุด -80%)\n- แต้มแคลชสกิลลดลง -1 แต้ม ตามทุก ๆ ค่า [Breath] ที่ตนเองมี (ต่ำสุด -30 แต้ม)\n- ไม่สามารถติดชะงักเนื่องจากรับความเสียหายได้\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n[DefeatDuel] ใช้สกิล \"สะบั้นกระดูก\" หลังถูกโจมตี\n[EndBattle] ไม่สามารถใช้สกิล \"เชือดเฉือนเนื้อ\" ได้จนกว่าจะถึงเทิร์นถัดไป",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +150% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +150%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [SlashResistDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashResistDown] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 4 [DefenseDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [DefenseDown] 4 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -355,36 +355,36 @@
         {
           "level": 1,
           "name": "สะบั้นกระดูก",
-          "desc": "[WhenUse] At 10+ [Breath], Coin Power +1\n[WhenUse] Deal +40% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +4 หน่วย\n[EndSkill] Consume all [Breath] on self",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +40% ตามทุก ๆ น้ำหนักการโจมตีที่เกินกว่าปริมาณเป้าหมายจริง (ในการเผชิญหน้าเพ่งเล็ง จะนับจากชิ้นส่วนอวัยวะ)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +4 หน่วย\n[EndSkill] ผลาญ [Breath] ทั้งหมดที่ตนเองมี",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Coin Power +2 for the final Coin (มีผลเหรียญละครั้ง))"
+                  "desc": "[CriticalOnSucceedAttack] แต้มเหรียญสุดท้ายเพิ่มขึ้น +2 แต้ม (มีผลเหรียญละครั้ง)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Coin Power +2 for the final Coin (มีผลเหรียญละครั้ง))"
+                  "desc": "[CriticalOnSucceedAttack] แต้มเหรียญสุดท้ายเพิ่มขึ้น +2 แต้ม (มีผลเหรียญละครั้ง)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Coin Power +2 for the final Coin (มีผลเหรียญละครั้ง))"
+                  "desc": "[CriticalOnSucceedAttack] แต้มเหรียญสุดท้ายเพิ่มขึ้น +2 แต้ม (มีผลเหรียญละครั้ง)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 10 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 10 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Paralysis] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -397,8 +397,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "YuRia Atelier - All-out Attack Mode, Mk. 17!",
-          "desc": "Deal +50% damage for every type of negative effect on target (สูงสุด 100%)\n[WhenUse] If target has 6+ [Vibration], Base Power +3",
+          "name": "ยูเรีย อเทลีเอร์ - โหมดรวมพลังประจัญบาน Mk. 17!",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 100%)\n[WhenUse] หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +3 แต้ม",
           "flavor": "Special Handmade Golden Retriever-Exclusive Axe.",
           "coinlist": [
             {
@@ -417,7 +417,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 }
               ]
             },
@@ -430,7 +430,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             },
@@ -440,10 +440,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง; เป้าหมายเสียจำนวนครั้ง [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -456,8 +456,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Cover You! Get Behind Me!",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n[WinDuel] Heal 4 SP for all allies (including this unit)\n- Heal 8 SP instead for LCD Units",
+          "name": "ฉันจะบังให้พวกคุณเอง! มาหลบหลังฉันเร็ว!",
+          "desc": "[CanDuelGuard]\nสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[WinDuel] ฟื้นฟู SP 4 หน่วยให้กับพันธมิตรทั้งหมด (รวมถึงตัวละครนี้)\n- หากเป็นตัวละคร <แผนก LCD> จะฟื้นฟู SP 8 หน่วยแทน",
           "coinlist": [
             {
               "coindescs": [
