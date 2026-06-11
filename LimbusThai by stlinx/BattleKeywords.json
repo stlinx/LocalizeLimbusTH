@@ -3212,88 +3212,88 @@
     },
     {
       "id": "ScratchesHurtID",
-      "name": "Avulsion Wound",
-      "desc": "- Max Stack: 3\n- Turn Start: Gain 2 Bleed\n- Turn End: Gain 1 Bind next turn\n- Turn End: Lose 1 Stack",
+      "name": "แผลฉีกขาด",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เริ่มเทิร์น: ได้รับค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> 2 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "TiedRopeHonglu",
-      "name": "Trussed [Hong Lu]",
-      "desc": "- Base Stack: 3\n- Min & Max Speed -2\n- Take +10% Pride damage\n- Expires when the inflicter Retreats, is killed, or inflicts it on a different target. Replaced when Trussed by another unit\n- Turn End: Lose 1 Stack if the inflicter did not hit this unit this turn",
+      "name": "มัดรั้ง [หงลู่]",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- ความเร็วต่ำสุด & สูงสุดลดลง -2 หน่วย\n- ได้รับความเสียหายธาตุอัตตาเพิ่มขึ้น +10%\n- หมดลงเมื่อผู้สร้างสถานะนี้ถอยทัพ ถูกกำจัด หรือสร้างเอฟเฟกต์นี้ใหม่แก่เป้าหมายอื่น; จะถูกแทนที่หากโดน <sprite name=\"TiedRopeHonglu\"><color=#e30000>'มัดรั้ง'</link></u></color> โดยตัวละครอื่น\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย หากผู้สร้างสถานะไม่สามารถโจมตีโดนตัวละครนี้ได้ในเทิร์นนี้",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "TiedWithRopeID",
-      "name": "Prisoner Transport Arrangements",
-      "desc": "- Base Stack: 1\n- In a Clash against enemies that have Trussed [Hong Lu], Clash Power +1\n- On Hit against enemies that have Trussed [Hong Lu], inflict 1 Bleed and gain 1 Poise (2 Skills per turn)\n- If there are no Trussed targets, expires",
+      "name": "จัดเตรียมขนย้ายนักโทษ",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 1 หน่วย\n- เมื่อแคลชสกิลกับศัตรูที่มี <sprite name=\"TiedRopeHonglu\"><color=#e30000>'มัดรั้ง [หงลู่]'</color> แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n- เมื่อโจมตีโดนศัตรูที่มี <sprite name=\"TiedRopeHonglu\"><color=#e30000>'มัดรั้ง [หงลู่]'</color> จะสร้างค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> 1 หน่วย และได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> 1 หน่วย (มีผล 2 สกิล/เทิร์น)\n- หากไม่มีเป้าหมายที่มี <sprite name=\"TiedRopeHonglu\"><color=#e30000>'มัดรั้ง [หงลู่]'</color> เอฟเฟกต์นี้จะหมดลง",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "AengduNewArmIshmael",
-      "name": "Dokkaebi Arms",
-      "desc": "- Take -15% damage\n- On Skill Use, gain 1 Haste next turn (2 times per turn)\n- Combat End: This effect expires, and gain +2 Poise Count",
+      "name": "แขนโทแกบี",
+      "desc": "- ได้รับความเสียหายลดลง -15%\n- เมื่อใช้สกิล จะได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป (มีผล 2 ครั้ง/เทิร์น)\n- จบการต่อสู้: เอฟเฟกต์นี้หมดลง และได้รับจำนวนครั้ง <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> +2 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BladelineagePride",
-      "name": "Bearing of a Salsu",
-      "desc": "- Max Stack: 3\n- Gain Offense Level for every Stack\n- On Attack Hit using Slash Skills, gain 1 Poise (2 times per turn) \n- Lose 1 Stack when an allied Blade Lineage Identity is defeated",
+      "name": "ภาระแบกรับของซัลซู",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เลเวลจู่โจมเพิ่มขึ้น +1 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี\n- เมื่อโจมตีโดนด้วยสกิลประเภทฟัน จะได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> 1 หน่วย (มีผล 2 ครั้ง/เทิร์น)\n- ปริมาณทับซ้อนลดลง 1 หน่วย เมื่อตัวตนพันธมิตรจาก <ตระกูลดาบ> ถูกกำจัด",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WindBladeIshmael",
-      "name": "Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire",
-      "desc": "- Max Stack: 20\n- Can gain up to 10 Stacks per turn\n- Slash Base Attack Skills deal +1% damage for every Stack (max 10%)\n- Defense Skills lose 1 Clash Power for every 2 Stacks (max 5)\n- Turn End: Gain 1 Haste next turn for every 5 Stacks (max 3)",
+      "name": "มุคเวิร์คช็อป - กระบวนท่าชักดาบรูปแบบที่ 2 'เย่ [鋭]' / แรงจวก: เพลิงโทแกบี",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 20 หน่วย\n- สามารถรับได้สูงสุด 10 หน่วยต่อเทิร์น\n- สกิลโจมตีพื้นฐานประเภทฟัน สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด 10%)\n- แต้มแคลชสกิลของสกิลตั้งรับลดลง -1 แต้ม ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (สูงสุด 5 แต้ม)\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ปริมาณทับซ้อน 5 หน่วย (สูงสุด 3 หน่วย)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AlcoholKimPersonal",
-      "name": "Drink to the Fallen",
-      "desc": "- Max Stack: 4\n- Turn Start: Gain 1 Poise for every Stack\n· Blade Lineage Mentor Meursault gains 2 Poise for every Stack instead\n- Base Skills deal +(Poise on self x 1.5)% damage on Critical Hit (max 15%)\n- Base Skills that gain Poise and Poise Count gain Clash Power +1\n- Turn End: Lose 1 Stack",
+      "name": "ซดดื่มแด่ผู้โรยลับ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 4 แต้ม\n- เริ่มเทิร์น: ได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> 1 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี\n · หากเป็น 'อาจารย์ตระกูลดาบ - เมอร์โซ' จะทำให้ได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> 2 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มีแทน\n - สกิลพื้นฐานสร้างความเสียหายคริติคอลเพิ่มขึ้น + (ค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> ที่ตนเองมี x 1.5)% (สูงสุด 15%)\n - สกิลพื้นฐานซึ่งสามารถรับค่าหรือจำนวนครั้ง <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> ได้ จะมีแต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GrudgePersonal",
-      "name": "Growing Resentment",
-      "desc": "- Max Stack: 999\n- \"To Claim Their Bones\" gains (Stack / 100) Final Power (max 6; rounded down)\n- On Hit using the final Coins of either \"Yield My Flesh\" or \"To Claim Their Bones\", deal +(Stack / 10)% damage; then, this effect expires",
+      "name": "ความแค้นเคืองฟูมฟัก",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 999 หน่วย\n- แต้มปิดท้ายของสกิล \"สะบั้นกระดูก\" เพิ่มขึ้น +(ปริมาณทับซ้อน / 100) แต้ม (สูงสุด 6 แต้ม; ปัดเศษลง)\n- เมื่อโจมตีโดนด้วยเหรียญสุดท้ายของสกิล \"เชือดเฉือนเนื้อ\" หรือสกิล \"สะบั้นกระดูก\" จะสร้างความเสียหายเพิ่มขึ้น +(ปริมาณทับซ้อน / 10)%; จากนั้นเอฟเฟกต์นี้จะหมดลง",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GhostKimPersonal",
-      "name": "Resentment",
-      "desc": "- Min & Max Speed +2\n- On Hit, heal HP by 10% of damage dealt using the Skill (can heal up to 50% of this unit's max HP per Skill)",
+      "name": "ความแค้นเคือง",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +2 หน่วย\n- เมื่อโจมตีโดน จะฟื้นฟู HP เท่ากับ 10% ของความเสียหายที่สกิลดังกล่าวสร้าง (ฟื้นฟูได้สูงสุด 50% ของ HP สูงสุดตัวละครนี้/สกิล)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RootSoupKimPersonal",
-      "name": "Resentful Scabbard",
-      "desc": "- When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\n- In Memoriam Passive now ignores conditionals and activates at max potential\n- When activating Pride Reson., apply Swordplay of the Homeland - The True Essence on all Blade Lineage allies other than this unit\n\n- On Using \"Yield My Flesh\", until Skill End:\n· This unit's HP does not drop below 10 (once per turn)\n· Lose (Poise on self / 2) Clash Power (rounded down)\n- On Using \"To Claim Their Bones\", gain 4 Poise\n\n※ Sword of the Homeland - The True Essence effects:\n- Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (max 2, rounded down)\n- If this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\n- Turn End: Gain 1 Haste next turn and this effect expires",
+      "name": "ฝักดาบแห่งความแค้นเคือง",
+      "desc": "- เมื่อพันธมิตร (ซึ่งรวมถึงตัวละครนี้) ได้รับความเสียหาย HP จะได้รับ <sprite name=\"GrudgePersonal\"><color=#f8c200>'ความแค้นเคืองฟูมฟัก'</color> เท่ากับปริมาณความเสียหายที่ได้รับ\n- เมินเงื่อนไขการทำงานของสกิลติดตัว \"สถิต ณ ความทรงจำ\" ของ 'อาจารย์ตระกูลดาบ - เมอร์โซ' และเปิดใช้งานสกิลติดตัวดังกล่าวขั้นสูงสุดทันที\n- เมื่อเกิดการสั่นพ้องธาตุอัตตา จะมอบ <sprite name=\"RootSoupKimSatgat\"><color=#f8c200>'ดาบจากบ้านเกิด - แก่นแท้'</color> ให้กับพันธมิตร <ตระกูลดาบ> คนอื่นทั้งหมดที่ไม่ใช่ตัวละครนี้\n\n- เมื่อใช้สกิล \"เชือดเฉือนเนื้อ\" จะเกิดเอฟเฟกต์ต่อไปนี้จนกว่าสกิลดังกล่าวจะจบลง:\n · ความเสียหายที่ได้รับจะไม่ทำให้ HP ของตัวละครนี้ลดต่ำกว่า 10 หน่วย (มีผลเทิร์นละครั้ง)\n · แต้มแคลชสกิลลดลง (ค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> ที่ตนเองมี / 2) แต้ม (ปัดเศษลง)\n - เมื่อใช้สกิล \"สะบั้นกระดูก\" จะได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> 4 หน่วย\n\n※ เอฟเฟกต์ <sprite name=\"RootSoupKimSatgat\"><color=#f8c200>'ดาบจากบ้านเกิด - แก่นแท้'</color>:\n- แต้มปิดท้ายสกิลโจมตีพื้นฐานเพิ่มขึ้น +(จำนวนพันธมิตร <ตระกูลดาบ> บนสนาม / 3) แต้ม (สูงสุด 2 แต้ม; ปัดเศษลง)\n- หากตัวละครนี้คือ 'ตระกูลดาบ ซัลซู' จะทำให้สกิลพื้นฐานมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +(120 / จำนวนเหรียญ)%\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป และทำให้เอฟเฟกต์นี้หมดลง",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RootSoupKimSatgat",
-      "name": "Sword of the Homeland - The True Essence",
-      "desc": "- Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (max 2, rounded down)\n- If this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\n- Turn End: Gain 1 Haste next turn and this effect expires",
+      "name": "ดาบจากบ้านเกิด - แก่นแท้",
+      "desc": "- แต้มปิดท้ายสกิลโจมตีพื้นฐานเพิ่มขึ้น +(จำนวนพันธมิตร <ตระกูลดาบ> บนสนาม / 3) แต้ม (สูงสุด 2 แต้ม; ปัดเศษลง)\n- หากตัวละครนี้คือ 'ตระกูลดาบ ซัลซู' จะทำให้สกิลพื้นฐานมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +(120 / จำนวนเหรียญ)%\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป และทำให้เอฟเฟกต์นี้หมดลง",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BongukGiftEnhance",
-      "name": "Sword of the Homeland - Striking",
-      "desc": "- Max Stack: 1\n- Plus Coin Power +1, deal +15% damage on Critical Hit\n- Expires at Turn End",
+      "name": "ดาบจากบ้านเกิด - ฟาดฟัน",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- แต้มเหรียญบวกเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายคริติคอลเพิ่มขึ้น +15%\n- หมดลงเมื่อจบเทิร์น",
       "summary": "",
       "undefined": "-"
     }
