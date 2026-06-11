@@ -2,202 +2,202 @@
   "dataList": [
     {
       "id": "ScratchesHurt",
-      "name": "Avulsion Wound",
-      "desc": "- Max Stack: 3\n- Turn Start: Gain 2 Bleed for every Stack\n• At max Stack, gain +1 Bleed Count\n- Turn End: Gain Bind equal to Stack ในเทิร์นถัดไป\n• At Max Stack, gain 1 Attack Power Down as well ในเทิร์นถัดไป\n- Turn End: If this unit did not take any Critical Hit this turn, lose 1 Stack",
+      "name": "แผลฉีกขาด",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เริ่มเทิร์น: ได้รับค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> 2 หน่วย ตามทุก ๆ ปริมาณทับซ้อนที่มี\n• เมื่อมีปริมาณทับซ้อนเต็ม จะได้รับจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> +1 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> เท่ากับปริมาณทับซ้อนที่มีในเทิร์นถัดไป\n• เมื่อมีปริมาณทับซ้อนเต็ม จะได้รับ <sprite name=\"Reduction\"><color=#e30000>'ลดแต้มสกิลโจมตี'</color> 1 หน่วยในเทิร์นถัดไปด้วยเช่นกัน\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย หากตัวละครนี้ไม่ได้รับความเสียหายคริติคอลใดในเทิร์นนี้",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TiedRope",
-      "name": "Trussed",
-      "desc": "- Base Stack: 3\n- Fix this unit's Speed to 1\n- Fix this unit's Base Skills' Coin Power to 0\n- Turn End: Lose 1 Stack\n- If the \"Prisoner Transport Arrangements\" buff on the inflicter expires, this effect expires as well",
+      "name": "มัดรั้ง",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- ทำให้ความเร็วของตัวละครนี้เป็น 1 หน่วยตายตัว\n- ทำให้แต้มเหรียญของสกิลพื้นฐานตัวละครนี้ เท่ากับ 0 แต้มตายตัว\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- หากเอฟเฟกต์บัพ <sprite name=\"TiedWithRope\"><color=#f8c200>'จัดเตรียมขนย้ายนักโทษ'</color> บนตัวผู้สร้างสถานะนี้หมดลง เอฟเฟกต์นี้ก็จะหมดลงด้วยเช่นกัน",
       "summary": "",
       "undefined": "-",
       "flavor": "Look how the baseborn hunt the other baseborn to serve them up to the powers that be."
     },
     {
       "id": "TiedWithRope",
-      "name": "Prisoner Transport Arrangements",
-      "desc": "- Base Stack: 1\n- Fix this unit's Speed to 1\n- If the Trussed effect this unit inflicted on target expires, or if this unit is defeated or Staggered, lose this effect\n- If the target this unit inflicted \"Trussed\" on is defeated this turn, lose the \"Prisoner Transport Arrangements\" effect",
+      "name": "จัดเตรียมขนย้ายนักโทษ",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 1 หน่วย\n- ทำให้ความเร็วของตัวละครนี้เท่ากับ 1 หน่วยตายตัว\n- ถ้าเอฟเฟกต์ <sprite name=\"TiedRope\"><color=#e30000>'มัดรั้ง'</link></u></color> ที่ตัวละครสร้างต่อเป้าหมายหมดลง หรือหากตัวละครนี้ติดชะงักหรือถูกกำจัด จะทำให้เอฟเฟกต์นี้หมดลง\n- หากเป้าหมายที่ตัวละครนี้สร้างสถานะ <sprite name=\"TiedRope\"><color=#e30000>'มัดรั้ง'</link></u></color> ใส่ถูกกำจัดในเทิร์นนี้ จะทำให้ตนเองเสียเอฟเฟกต์ <sprite name=\"TiedWithRope\"><color=#f8c200>'จัดเตรียมขนย้ายนักโทษ'</color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegretSCorp",
-      "name": "Headsplitting Memory",
-      "desc": "- Max Stack: 1\n- Turn End: Gain 1 Bind ในเทิร์นถัดไป\n- Turn End: Gain (current turn count / 4) Clash Power Up (rounded down, max 3)\n- Expires at Turn End",
+      "name": "ความทรงจำที่ทำหัวฉีก",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 1 หน่วยในเทิร์นถัดไป\n- จบเทิร์น: ได้รับ <sprite name=\"ParryingResultUp\"><color=#f8c200>'เพิ่มแต้มแคลชสกิล'</color> (จำนวนเทิร์นปัจจุบัน / 4) หน่วย (สูงสุด 3 หน่วย; ปัดเศษลง)\n- หมดลงเมื่อจบเทิร์น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakePicture",
-      "name": "Intelligence Gathering",
-      "desc": "- When using a Skill of identical rank to the Skill photographed, Clash Power -5\n(※ Defense Skills and E.G.O Skills are counted separately)\n- Expires at Turn End",
+      "name": "รวบรวมข้อมูล",
+      "desc": "- เมื่อใช้สกิลที่มีระดับสกิลเดียวกัน กับสกิลที่ถูกถ่ายภาพไว้ แต้มแคลชสกิลจะลดลง -5 แต้ม\n(※ สกิลตั้งรับและสกิล E.G.O จะถูกนับแยก)\n- หมดลงเมื่อจบเทิร์น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LensmanNail",
-      "name": "Pinning Nail",
-      "desc": "- Max Stack: 10\n- Turn Start: Gain 1 Offense Level Down for every 2 Bind (สูงสุด 3)\n- Turn Start: Gain Bleed equal to Stack\n- On Tremor Burst, gain Bleed Count equal to Stack (มีผลเทิร์นละครั้ง)\n- Turn End: Gain Bind equal to Stack ในเทิร์นถัดไป (สูงสุด 6), then lose 1 Stack",
+      "name": "ปักตะปู",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 10 หน่วย\n- เริ่มเทิร์น: ได้รับ <sprite name=\"AttackDown\"><color=#e30000>'เลเวลจู่โจมลดลง'</color>  1 หน่วย ตามทุก ๆ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> 2 หน่วย (สูงสุด 3 หน่วย)\n- เริ่มเทิร์น: ได้รับค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เท่ากับปริมาณทับซ้อนที่มี\n- เมื่อเกิดการ <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> จะได้รับจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เท่ากับปริมาณทับซ้อนที่มี (มีผลเทิร์นละครั้ง)\n- จบเทิร์น: ได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> เท่ากับปริมาณทับซ้อนที่มีในเทิร์นถัดไป (สูงสุด 6 หน่วย); จากนั้นเสียปริมาณทับซ้อน 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransition",
-      "name": "Memory Transition",
-      "desc": "- Base Stack: 3\n- Turn End: Lose 1 Stack. If this unit has 0 Stacks of this effect at Turn Start, certain units and effects transform\n(when Staggered, recover from Stagger)\n\n- Once the above effect activates, reset Memory Transition Stack to Base Stack",
+      "name": "เปลี่ยนฉากความทรงจำ",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย; เมื่อเริ่มเทิร์น หากตัวละครนี้ มีปริมาณทับซ้อนของเอฟเฟกต์นี้อยู่ที่ 0 หน่วย จะทำให้ตัวละครบางส่วนและเอฟเฟกต์ เกิดการเปลี่ยนแปลง\n(เมื่อติดชะงัก จะฟื้นตัวจากการชะงัก)\n\n- เมื่อเอฟเฟกต์ข้างต้นทำงานจะแล้ว จะรีเซ็ต <sprite name=\"PhotoTransition\"><color=#9f6a3a>'เปลี่ยนฉากความทรงจำ'</color> กลับเป็นปริมาณทับซ้อนเริ่มต้น",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AengduNewArm",
-      "name": "Dokkaebi Arms",
-      "desc": "- Base Offense Level +4\n- Base Defense Level +4\n- Take -20% damage\n- On Skill Use, gain 1 Haste ในเทิร์นถัดไป (2 times per turn)\n- Combat End: Gain +2 Poise Count",
+      "name": "แขนโทแกบี",
+      "desc": "- เลเวลจู่โจมพื้นฐาน +4 หน่วย\n- เลเวลตั้งรับพื้นฐาน +4 หน่วย\n- ได้รับความเสียหายลดลง -20%\n- เมื่อใช้สกิล จะได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป (มีผล 2 ครั้ง/เทิร์น)\n- จบการต่อสู้: ได้รับจำนวนครั้ง <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> +2 หน่วย",
       "summary": "",
       "undefined": "-",
       "flavor": "\"... Dokkaebi Arms? Do you, perchance, speak of Dokkaebis that often appear in tales of old? Hmm...\"\n\"I can scarcely believe it, yet after all I have witnessed while relying on the hospitality of Limbus Company, the existence of Dokkaebis from folklore may well be within reason.\"\n\"Come to think of it... I do recall hearing of a name called 'Dokkaebi Unit'...\""
     },
     {
       "id": "WindBlade",
-      "name": "Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire",
-      "desc": "- Max Stack: 20\n- Deal +1% Slash damage for every Stack (สูงสุด 10%)\n- Defense Skills lose 1 Clash Power for every 2 Stacks (สูงสุด 5)\n- Turn End: Gain 1 Haste ในเทิร์นถัดไป for every 5 Stacks (สูงสุด 3)",
+      "name": "มุคเวิร์คช็อป - กระบวนท่าชักดาบรูปแบบที่ 2 'เย่ [鋭]' / แรงจวก: เพลิงโทแกบี",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 20 หน่วย\n- สร้างความเสียหายประเภทฟันเพิ่มขึ้น +1% ตามทุก ๆ ปริมาณทับซ้อนที่มี (สูงสุด 10%)\n- แต้มแคลชสกิลของสกิลตั้งรับลดลง -1 แต้ม ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (สูงสุด 5 แต้ม)\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ปริมาณทับซ้อน 5 หน่วย (สูงสุด 3 หน่วย)",
       "summary": "",
       "undefined": "-",
       "flavor": "\"Hm? You like that model? Ooh, new girl's got an eye for quality! Excuse me~! Can we try this model? Oh, c'mon, relax! I know the deal—'You break it, you buy it.' Thanks! Hehe... See? Told ya I'm a regular here~ Okay, so the sword and the scabbard come as a set, so grab 'em both and feel the weight. How's that? Not as heavy as they look, huh?\"\n\"Oho...\"\n\"So there's this particle? Powder? Thingy in that scabbard under patent by Mook Workshop! Every time you sheathe and unsheathe the sword, for a brief moment, its blade comes out way sharper and lighter! And that model you're holding happens to focus on the <i>sharpness</i>! So it's like, *Ding!* and voila, you get a nice buff on your weapon!\"\n\"I think it's one of the Ye [銳] series models—that's Mook Workshop's classic lineup, by the way. Check out the finish here, it's... What the heck?! Hey, this is the Ye [銳] 'Type II' model that went out of production! You know what, this stuff really isn't easy to come by—we're lucky we found one here!\"\n\"If it's such a rarity, Lady Ezra, perhaps you ought to wield it instead...\"\n\"Hnngh... No, it's fine... Well, I can see it's literally made for you! And it'll work real nice with those boosters on your new prosthetic arms. It'll need some getting used to, but you'll be one heck of a fighter once you get the hang of it! Anyway, consider it a gift from yours truly—you're officially one of us now. Officially our new girl! No more temp ID.\"\n\"Then... I shall accept with gratitude.\"\n\"By the way... Remember that 'classic lineup' part? It's super durable, but there <i>are</i> delicate parts that you should watch out not to break—okay, you know what, let 'em break if it really comes to that. Just...\"\n\"Just don't die on us.\"\n\"... I shall take your words to heart.\""
     },
     {
       "id": "Collage_LowMorale",
-      "name": "Jumbled Memories",
-      "desc": "- Turn Start: Gain 1~3 Offense Level Up and 1~3 Defense Level Down",
+      "name": "ความทรงจำสับสนปนเป",
+      "desc": "- ขวัญอ่อน\n- เริ่มเทิร์น: ได้รับ <sprite name=\"AttackUp\"><color=#f8c200>'เลเวลจู่โจมเพิ่มขึ้น'</color> 1~3 หน่วย และ <sprite name=\"DefenseDown\"><color=#e30000>'เลเวลตั้งรับลดลง'</color> 1~3 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Collage_Panic",
-      "name": "Jumbled Memories",
-      "desc": "- Turn Start: Gain 1~5 Offense Level Up and 1~5 Defense Level Down",
+      "name": "ความทรงจำสับสนปนเป",
+      "desc": "- แตกตื่น\n- เริ่มเทิร์น: ได้รับ <sprite name=\"AttackUp\"><color=#f8c200>'เลเวลจู่โจมเพิ่มขึ้น'</color> 1~5 หน่วย และ <sprite name=\"DefenseDown\"><color=#e30000>'เลเวลตั้งรับลดลง'</color> 1~5 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Lensman_LowMorale",
-      "name": "Intelligence Obsession",
-      "desc": "- In a Clash against targets that have Intelligence Gathering, Base Power +1 and deal +10% damage\n- Turn Start: Gain 1 Fragile",
+      "name": "ยึดติดกับข้อมูล",
+      "desc": "- ขวัญอ่อน\n- เมื่อแคลชสกิลกับเป้าหมายที่มี  <sprite name=\"TakePicture\"><color=#e30000>'รวบรวมข้อมูล'</color> แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +10%\n- เริ่มเทิร์น: ได้รับ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> 1 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Lensman_Panic",
-      "name": "Intelligence Obsession",
-      "desc": "- In a Clash against targets that have Intelligence Gathering, Base Power +1 and deal +20% damage\n- Turn Start: Gain 2 Fragile",
+      "name": "ยึดติดกับข้อมูล",
+      "desc": "- แตกตื่น\n- เมื่อแคลชสกิลกับเป้าหมายที่มี  <sprite name=\"TakePicture\"><color=#e30000>'รวบรวมข้อมูล'</color> แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%\n- เริ่มเทิร์น: ได้รับ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> 2 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Aengdu_Lowmorale",
-      "name": "Resentment",
-      "desc": "- Turn Start: Gain 1 Attack Power Up and 1 Defense Power Down\n- Turn End: Gain 2 Haste ในเทิร์นถัดไป",
+      "name": "ขุ่นข้อง",
+      "desc": "- ขวัญอ่อน\n- เริ่มเทิร์น: ได้รับ <sprite name=\"Enhancement\"><color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 1 หน่วย และ <sprite name=\"Disarming\"><color=#e30000>'ลดแต้มสกิลตั้งรับ'</color> 1 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 2 หน่วยในเทิร์นถัดไป",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Aengdu_Panic",
-      "name": "Resentment",
-      "desc": "- Turn Start: Gain 2 Attack Power Up and 2 Defense Power Down\n- Turn End: Gain 2 Haste ในเทิร์นถัดไป",
+      "name": "ขุ่นข้อง",
+      "desc": "- แตกตื่น\n- เริ่มเทิร์น: ได้รับ <sprite name=\"Enhancement\"><color=#f8c200>'เพิ่มแต้มสกิลโจมตี'</color> 2 หน่วย และ <sprite name=\"Disarming\"><color=#e30000>'ลดแต้มสกิลตั้งรับ'</color> 2 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color> 2 หน่วยในเทิร์นถัดไป",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BrandedKimSatgat",
-      "name": "Brand - No [奴]",
-      "desc": "- Base Offense Level -??\n- Base Defense Level -??",
+      "name": "ตีตรา - โน (ทาส) [奴]",
+      "desc": "- เลเวลจู่โจมพื้นฐาน -?? หน่วย\n- เลเวลตั้งรับพื้นฐาน -?? หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DimensionalBagEzraETwo",
-      "name": "Dimensional Bag - YuRia Atelier",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: YuRia Atelier Axe\n- Next Workshop weapon: Allas Workshop Gloves",
+      "name": "กระเป๋ามิติ - ยูเรีย อเทลีเอร์",
+      "desc": "เรียกอาวุธเวิร์คช็อปชิ้นถัดไป ออกมาจากกระเป๋ามิติ\n- อาวุธเวิร์คช็อปปัจจุบัน: ขวานจากยูเรีย อเทลีเอร์\n- อาวุธเวิร์คช็อปถัดไป: ถุงมือจากอัลลาส เวิร์คช็อป",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RestingKimSatgat_LowMorale",
-      "name": "Deep-rooted Regret",
-      "desc": "- Low Morale\n- Turn Start: Gain 2 Damage Down and heal 40 HP",
+      "name": "ความเสียใจฝังรากลึก",
+      "desc": "- ขวัญอ่อน\n- เริ่มเทิร์น: ได้รับ <sprite name=\"AttackDmgDown\"><color=#e30000>'ลดความเสียหาย'</color> 2 หน่วย และฟื้นฟู HP 40 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RestingKimSatgat_Panic",
-      "name": "Deep-rooted Regret",
-      "desc": "- Panic\n- Turn Start: Gain 3 Damage Down and heal 60 HP",
+      "name": "ความเสียใจฝังรากลึก",
+      "desc": "- แตกตื่น\n- เริ่มเทิร์น: ได้รับ <sprite name=\"AttackDmgDown\"><color=#e30000>'ลดความเสียหาย'</color> 3 หน่วย และฟื้นฟู HP 60 หน่วย",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSwordsmanship",
-      "name": "Swordplay of the Homeland [Sal]",
-      "desc": "- Min Stack 1; Max Stack 9\n- On Skill Use, at Min or Max Stacks, convert all Coins this unit uses to <color=#ff6000><mark color=#ff000040><b><u>Unbreakable Coins</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Skill Base Power and Coin Power shift based on Stack</color></mark></b></u>\n· 1 ~ 2 Stack: Base Power -6, Coin Power +4\n· 3 ~ 4 Stack: Base Power -3, Coin Power +2\n· 5 Stack: No effect\n· 6 ~ 7 Stack: Base Power +4, Coin Power -2\n· 8 ~ 9: Base Power +8, Coin Power -3",
+      "name": "วิชาดาบจากบ้านเกิด [ซัล]",
+      "desc": "ปริมาณทับซ้อนต่ำสุด 1 หน่วย; สูงสุด 9 หน่วย\n- เมื่อใช้สกิล หากมีปริมาณทับซ้อน อยู่ที่ปริมาณต่ำสุดหรือสูงสุด จะแปลงเหรียญทั้งหมดที่ตัวละครนี้ใช้ให้เป็น <color=#ff6000><mark color=#ff000040><b><u><sprite name=\"SuperCoin\"><color=#9f6a3a>'เหรียญทนทาน'</color></color></mark></b></u>\n\n- <color=#ff6000><mark color=#ff000040><b><u>แต้มเริ่มต้นสกิลและแต้มเหรียญ จะเปลี่ยนไปมาตามปริมาณทับซ้อนที่มี</color></mark></b></u>\n· 1 ~ 2 หน่วย: แต้มเริ่มต้นสกิล -6 แต้ม, แต้มเหรียญ +4 แต้ม\n· 3 ~ 4 หน่วย: แต้มเริ่มต้นสกิล -3 แต้ม, แต้มเหรียญ +2 แต้ม\n· 5 หน่วย: ไม่มีผล\n· 6 ~ 7 หน่วย: แต้มเริ่มต้นสกิล +4 แต้ม, แต้มเหรียญ -2 แต้ม\n· 8 ~ 9 หน่วย: แต้มเริ่มต้นสกิล +8 แต้ม, แต้มเหรียญ -3 แต้ม",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSwordsmanshipOne",
-      "name": "Battleform of the Homeland - Bearhunt",
-      "desc": "Use a pattern made of <color=#ff6000><mark color=#ff000040><b><u>single-coin</color></mark></b></u> Skills\n\nIm Gyeong-eop gains advantage at <color=#ff6000><mark color=#ff000040><b><u>higher</color></mark></b></u> Swordplay of the Homeland [Sal] Stack",
+      "name": "กระบวนท่ารบจากบ้านเกิด - ล่าหมี",
+      "desc": "ใช้รูปแบบการโจมตีที่เน้นสกิล <color=#ff6000><mark color=#ff000040><b><u>เหรียญเดียว</color></mark></b></u>\n\n'อิมกยองออบ' ในตอนนี้จะได้เปรียบ หากมีปริมาณ <sprite name=\"ChoiSwordsmanship\"><color=#9f6a3a>'วิชาดาบจากบ้านเกิด [ซัล]'</color> <color=#ff6000><mark color=#ff000040><b><u>อยู่มาก</color></mark></b></u>",
       "summary": "",
       "undefined": "-",
       "flavor": "The mountains of S Corp.'s District 19 are home to all manner of beasts.\nAmongst them, the bear, in particular, boasts strength and force akin to boulders falling from the cliff in a landslide. Giving ground to the creature's charge is ill-advised—one must aim to hew it down with the first slash of the blade."
     },
     {
       "id": "ChoiSwordsmanshipMany",
-      "name": "Battleform of the Homeland - Tigerhunt",
-      "desc": "Use a pattern made of <color=#ff6000><mark color=#ff000040><b><u>multi-coin</color></mark></b></u> Skills\n\nIm Gyeong-eop gains advantage at <color=#ff6000><mark color=#ff000040><b><u>lower</color></mark></b></u> Swordplay of the Homeland [Sal] Stack",
+      "name": "กระบวนท่ารบจากบ้านเกิด - ล่าเสือ",
+      "desc": "ใช้รูปแบบการโจมตีที่เน้นสกิล <color=#ff6000><mark color=#ff000040><b><u>หลายเหรียญ</color></mark></b></u>\n\n'อิมกยองออบ' ในตอนนี้จะได้เปรียบ หากมีปริมาณ <sprite name=\"ChoiSwordsmanship\"><color=#9f6a3a>'วิชาดาบจากบ้านเกิด [ซัล]'</color> <color=#ff6000><mark color=#ff000040><b><u>อยู่น้อย</color></mark></b></u>",
       "summary": "",
       "undefined": "-",
       "flavor": "Tigers are cunning and ferocious.\nOne cannot hope to cut through a tiger's flesh with a single stroke. Only a relentless flurry of chained slashes can overwhelm the creature until it is felled at last.\nFail to do so, and the tiger will escape death—or best its opponent to one day grow into a Sangun, a Lord of the Mountain.\nWhether these beings will grant auspicious fortune on men or return as malevolent calamity is impossible to tell."
     },
     {
       "id": "ChoiSwordsmanshipShield",
-      "name": "Dujeong Brigandine [Sal]",
-      "desc": "- Max Stack: 5\n- When gaining this effect, gain Shield equal to 10% of this unit's max HP for every Stack (ต่ำสุด 1, rounded down; Shield gained due to this effect does not expire at Turn End)\n- Combat Start: Gain 1 Defense Level Down for every 2 Stack (rounded up)\n- Deal +(Stack x 2.5)% Slash damage\n- <color=#ff6000><mark color=#ff000040><b><u>Lose 1 Stack when taking Shield damage equal to 10% of this unit's max HP</color></mark></b></u>",
+      "name": "ชุดเกราะเหล็กดูจ็อง [ซัล]",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- เมื่อได้รับเอฟเฟกต์นี้ จะได้รับโล่เท่ากับ 10% ของ HP สูงสุดตัวละครนี้ ตามทุก ๆ ปริมาณทับซ้อนที่มี (ต่ำสุด 1 หน่วย, ปัดเศษลง; โล่ที่ได้รับจากเอฟเฟกต์นี้ จะไม่หมดลงเมื่อจบเทิร์น)\n- เริ่มการต่อสู้: ได้รับ <sprite name=\"DefenseDown\"><color=#e30000>'เลเวลตั้งรับลดลง'</color> 1 หน่วย ตามทุก ๆ ปริมาณทับซ้อน 2 หน่วย (ปัดเศษขึ้น)\n- สร้างความเสียหายประเภทฟันเพิ่มขึ้น +(ปริมาณทับซ้อน x 2.5)%\n- <color=#ff6000><mark color=#ff000040><b><u>ปริมาณทับซ้อนลดลง 1 หน่วย เมื่อได้รับความเสียหายโล่เท่ากับ 10% ของ HP สูงสุดตัวละครนี้</color></mark></b></u>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransitionChoi",
-      "name": "Memory Transition",
-      "desc": "- Base Stack: 3\n- Turn End: Lose 1 Stack\n- <color=#ff6000><mark color=#ff000040><b><u>At 1 Stack, Retreat at Turn End and transition into a different location</color></mark></b></u>\n- When Returning to the field, based on current Battleform of the Homeland, gain or lose (# of turns spent in Retreat) Swordplay of the Homeland [Sal] Stack\n· When in Battleform of the Homeland - Bearhunt: Gain Stack\n· When in Battleform of the Homeland - Tigerhunt: Lose Stack",
+      "name": "เปลี่ยนฉากความทรงจำ",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- <color=#ff6000><mark color=#ff000040><b><u>เมื่อมีปริมาณทับซ้อน 1 หน่วย จะถอยทัพเมื่อจบเทิร์น และเปลี่ยนฉากไปสู่สถานที่อื่น</color></mark></b></u>\n\n- เมื่อกลับสู่สนาม จะเพิ่มหรือลดปริมาณ <sprite name=\"ChoiSwordsmanship\"><color=#9f6a3a>'วิชาดาบจากบ้านเกิด [ซัล]'</color> (จำนวนเทิร์นที่ถอยทัพ) หน่วย โดยอิงตาม <sprite name=\"ChoiSwordsmanshipOne\"><sprite name=\"ChoiSwordsmanshipMany\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด'</color> ปัจจุบัน\n\n· หากอยู่ใน <sprite name=\"ChoiSwordsmanshipOne\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด - ล่าหมี'</color>: ได้รับปริมาณทับซ้อน\n· หากอยู่ใน <sprite name=\"ChoiSwordsmanshipMany\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด - ล่าเสือ'</color>: เสียปริมาณทับซ้อน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransitionChoiCamera",
-      "name": "Memory Transition",
-      "desc": "- Base Stack: 3\n- Turn End: Lose 1 Stack\n- <color=#ff6000><mark color=#ff000040><b><u>At 1 Stack, Retreat at Turn End and transition into a different location</color></mark></b></u>\n- When Returning to the field, based on Im Gyeong-eop's current Battleform of the Homeland, Im Gyeong-eop gains or loses (# of turns Im Gyeong-eop spent in Retreat) Swordplay of the Homeland [Sal] Stack\n· When in Battleform of the Homeland - Bearhunt: Gain Stack\n· When in Battleform of the Homeland - Tigerhunt: Lose Stack",
+      "name": "เปลี่ยนฉากความทรงจำ",
+      "desc": "ปริมาณทับซ้อนเริ่มต้น: 3 หน่วย\n- จบเทิร์น: ปริมาณทับซ้อนลดลง 1 หน่วย\n- <color=#ff6000><mark color=#ff000040><b><u>เมื่อมีปริมาณทับซ้อน 1 หน่วย จะถอยทัพเมื่อจบเทิร์น และเปลี่ยนฉากไปสู่สถานที่อื่น</color></mark></b></u>\n\n- เมื่อกลับสู่สนาม จะเพิ่มหรือลดปริมาณ <sprite name=\"ChoiSwordsmanship\"><color=#9f6a3a>'วิชาดาบจากบ้านเกิด [ซัล]'</color> (จำนวนเทิร์นที่ 'อิมกยองออบ' ถอยทัพ) หน่วย โดยอิงตาม <sprite name=\"ChoiSwordsmanshipOne\"><sprite name=\"ChoiSwordsmanshipMany\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด'</color> ปัจจุบันของ 'อิมกยองออบ'\n\n· หากอยู่ใน <sprite name=\"ChoiSwordsmanshipOne\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด - ล่าหมี'</color>: ได้รับปริมาณทับซ้อน\n· หากอยู่ใน <sprite name=\"ChoiSwordsmanshipMany\"><color=#9f6a3a>'กระบวนท่ารบจากบ้านเกิด - ล่าเสือ'</color>: เสียปริมาณทับซ้อน",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSword_LowMorale",
-      "name": "Developed Memories",
-      "desc": "- Low Morale\n- Gain 1 Fragile, deal +10% damage, and deal +15% damage on Critical Hit",
+      "name": "ความทรงจำที่เกิดจากการล้างฟิล์ม",
+      "desc": "- ขวัญอ่อน\n- ได้รับ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> 1 หน่วย; สร้างความเสียหายเพิ่มขึ้น +10%; สร้างความเสียหายคริติคอลเพิ่มขึ้น +15%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSword_Panic",
-      "name": "Developed Memories",
-      "desc": "- Panic\n- Gain 2 Fragile, deal +10% damage, deal +30% damage on Critical Hit, and double the effects inflicted by the Coins of the \"Bow of the Homeland [Sal] - Arrowloose\" Skill",
+      "name": "ความทรงจำที่เกิดจากการล้างฟิล์ม",
+      "desc": "- แตกตื่น\n- ได้รับ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> 2 หน่วย; สร้างความเสียหายเพิ่มขึ้น +10%; สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%; ปริมาณเอฟเฟกต์ที่เหรียญของสกิล \"ธนุจากบ้านเกิด [ซัล] - ปล่อยศร\" สร้างขึ้นจะเพิ่มเป็นสองเท่า",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DimensionalBagEzraDTwo",
-      "name": "Dimensional Bag - Namir Workshop",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Namir Workshop Gauntlets\n- Next Workshop weapon: YuRia Atelier Axe",
+      "name": "กระเป๋ามิติ - นาเมียร์ เวิร์คช็อป",
+      "desc": "เรียกอาวุธเวิร์คช็อปชิ้นถัดไป ออกมาจากกระเป๋ามิติ\n- อาวุธเวิร์คช็อปปัจจุบัน: ถุงมือเกราะจากนาเมียร์ เวิร์คช็อป\n- อาวุธเวิร์คช็อปถัดไป: ขวานจากยูเรีย อเทลีเอร์",
       "summary": "",
       "undefined": "-",
       "flavor": "\"Now this one's got G Corp.'s Singularity baked in—the Sphere! Here's how it works: You float up, pop the switch midair, and crush down with the weight of the gravity. Land a solid hit, and it's gonna be... brutal.\""
