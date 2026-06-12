@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Constricting Ohra Bonds",
-          "desc": "[WhenUse] At 6+ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย), แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n- If this unit's Speed is faster than the target's, gain an additional +1 [Breath] Count",
+          "name": "โอรัดจุลบีบรัด",
+          "desc": "[WhenUse] เมื่อมี (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n- หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะได้รับจำนวนครั้ง [Breath] เพิ่มเติม +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -21,7 +21,7 @@
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ScratchesHurt] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ScratchesHurt] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -34,8 +34,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hamstringing",
-          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert the final Coin into [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 2 หน่วย and +3 [Breath] Count\n[WhenUse] If this unit's Speed is faster than the target's, ได้รับค่า [Breath] 3 หน่วย",
+          "name": "ตัดเส้นเอ็น",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญสุดท้ายให้เป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 2 หน่วย และจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะได้รับค่า [Breath] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -50,7 +50,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [ScratchesHurt] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ScratchesHurt] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -63,8 +63,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Avulsion Slash",
-          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
+          "name": "ฟาดฟันกายฉีกขาด",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -89,10 +89,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [ScratchesHurt] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ScratchesHurt] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 1 [ScratchesHurt] ในเทิร์นถัดไป"
+                  "desc": "[CriticalOnSucceedAttack] สร้าง [ScratchesHurt] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -105,8 +105,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Branding",
-          "desc": "Prioritizes target that has [TiedRope]\nIf this unit's Speed is faster than the target's, deal +25% damage ตามทุก ๆ Speed difference (สูงสุด 100%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "name": "ตีตรา",
+          "desc": "เล็งเป้าหมายที่มี [TiedRope] เป็นหลัก\nหากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างความเสียหายเพิ่มขึ้น +25% ตามทุก ๆ ค่าความเร็วที่ต่างกัน (สูงสุด 100%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -138,8 +138,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Escape Cutoff",
-          "desc": "[DuelCounter]\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+          "name": "ตัดทางหนี",
+          "desc": "[DuelCounter]\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -147,7 +147,7 @@
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [ScratchesHurt] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [ScratchesHurt] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -160,8 +160,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trammel",
-          "desc": "[WhenUse] At 6+ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย), แต้มเริ่มต้นสกิลเพิ่มขึ้น +1\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n- If this unit's Speed is faster than the target's, gain an additional +1 [Breath] Count",
+          "name": "ดักจับ",
+          "desc": "[WhenUse] เมื่อมี (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n- หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะได้รับจำนวนครั้ง [Breath] เพิ่มเติม +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -176,7 +176,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -189,8 +189,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Choke Hold",
-          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert the final Coin into [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 2 หน่วย and +2 [Breath] Count\n[WhenUse] If this unit's Speed is faster than the target's, ได้รับค่า [Breath] 3 หน่วย",
+          "name": "ล็อกคอ",
+          "desc": "[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญสุดท้ายให้เป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 2 หน่วย และจำนวนครั้ง [Breath] +2 หน่วย\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะได้รับค่า [Breath] 3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -205,7 +205,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -218,8 +218,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hunter's Scouring",
-          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
+          "name": "นักล่าขจัดสิ่งโสมม",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับค่า [Breath] 2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -244,10 +244,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Binding] this turn and ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 3 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ([Binding] x 20)% chance to inflict [TiedRope]\n- If target is Staggered, this effect is inflicted without fail"
+                  "desc": "[OnSucceedAttack] มีโอกาส ([Binding] x 20)% ที่จะสร้าง [TiedRope]\n- หากเป้าหมายติดชะงัก จะสร้างสถานะข้างต้นแน่นอน"
                 }
               ]
             }
@@ -260,8 +260,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Branding",
-          "desc": "Prioritizes target that has [TiedRope]\nIf this unit's Speed is faster than the target's, deal +25% damage ตามทุก ๆ Speed difference (สูงสุด 100%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "name": "ตีตรา",
+          "desc": "เล็งเป้าหมายที่มี [TiedRope] เป็นหลัก\nหากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างความเสียหายเพิ่มขึ้น +25% ตามทุก ๆ ค่าความเร็วที่ต่างกัน (สูงสุด 100%)\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -293,8 +293,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Route Cutoff",
-          "desc": "[DuelCounter]\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 6 (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+          "name": "ตัดทางหนี",
+          "desc": "[DuelCounter]\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Laceration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -302,7 +302,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -315,13 +315,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Briefcase Corner Point",
-          "desc": "[WhenUse] ได้รับ 1 [Agility] ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nIf target has 6+ ([Laceration] + [Vibration]), แต้มเริ่มต้นสกิลเพิ่มขึ้น +1",
+          "name": "ฟาดใส่ด้วยมุมกระเป๋าเอกสาร",
+          "desc": "[WhenUse] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nหากเป้าหมายมี (ค่า [Laceration] + ค่า [Vibration]) 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
@@ -331,7 +331,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
@@ -347,13 +347,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weighted Bash",
-          "desc": "[WhenUse] ได้รับ 2 [Agility] ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nแต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "name": "ทุบอย่างแรง",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมาย + ค่า [Vibration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
@@ -363,7 +363,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
@@ -373,7 +373,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -386,13 +386,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Enframe Subject",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s",
+          "name": "ถ่ายภาพเป้าหมาย",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 2 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
@@ -405,7 +405,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
@@ -415,10 +415,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[EndCoin] สร้าง 1 [TakePicture] ในเทิร์นถัดไป"
+                  "desc": "[EndCoin] สร้าง [TakePicture] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -431,19 +431,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snapshot",
-          "desc": "[DuelCounter]\nแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s",
+          "name": "ถ่ายภาพฉับพลัน",
+          "desc": "[DuelCounter]\nแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมาย + ค่า [Vibration] บนตัวเป้าหมาย) 4 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [AttackDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDown] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[EndCoin] สร้าง 1 [TakePicture] ในเทิร์นถัดไป"
+                  "desc": "[EndCoin] สร้าง [TakePicture] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -456,13 +456,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Steel Plate Slam",
-          "desc": "[WhenUse] ได้รับ 1 [Agility] ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nIf target has 6+ ([Laceration] + [Vibration]), แต้มเริ่มต้นสกิลเพิ่มขึ้น +1",
+          "name": "กระแทกด้วยแผ่นเหล็ก",
+          "desc": "[WhenUse] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nหากเป้าหมายมี (ค่า [Laceration] + ค่า [Vibration]) 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
@@ -472,7 +472,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
@@ -488,13 +488,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nailhead Strike",
-          "desc": "[WhenUse] ได้รับ 2 [Agility] ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nแต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)",
+          "name": "โจมตีด้วยหัวตะปู",
+          "desc": "[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\nแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมาย + ค่า [Vibration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
@@ -504,7 +504,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
@@ -514,7 +514,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -527,13 +527,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Focus Recompose",
-          "desc": "แต้มเหรียญเพิ่มขึ้น +1 ตามทุก ๆ 6 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s",
+          "name": "โฟกัสกับองค์ประกอบใหม่",
+          "desc": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมาย + ค่า [Vibration] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [LensmanNail] 2 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
@@ -546,7 +546,7 @@
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
@@ -556,7 +556,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
                   "desc": "[EndCoin] สร้าง [TakePicture] ในเทิร์นถัดไป"
@@ -572,16 +572,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snapshot",
-          "desc": "[DuelCounter]\nแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 ([Laceration] บนตัวเป้าหมาย + [Vibration] บนตัวเป้าหมาย) (สูงสุด 2)\n[WhenUse] If this unit's Speed is faster than the target's, convert all Coins into [SuperCoin]s",
+          "name": "ถ่ายภาพฉับพลัน",
+          "desc": "[DuelCounter]\nแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Laceration] บนตัวเป้าหมาย + ค่า [Vibration] บนตัวเป้าหมาย) 4 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [AttackDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDown] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Paralysis] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Paralysis] 3 หน่วยในเทิร์นถัดไป"
                 },
                 {
                   "desc": "[EndCoin] สร้าง [TakePicture] ในเทิร์นถัดไป"
@@ -597,8 +597,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oxsplitter",
-          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "วิชาดาบผ่าวัว",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -619,8 +619,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bearsplitter",
-          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] At 6+ [Breath], convert all Coins into [SuperCoin]s\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาดาบผ่าหมี",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -641,16 +641,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bearspine Breaker",
-          "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 7+ [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +20% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาทำลายสันหลังหมี",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 8+ หน่วย จะสร้างความเสียหายคริติคอลเพิ่มขึ้น +40%\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>เมื่อมี [ChoiSwordsmanship] 7+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin] และสร้างความเสียหายคริติคอลเพิ่มขึ้น +20%</color></mark></b></u>\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [SlashResistDown] this turn and ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashResistDown] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -663,8 +663,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swordform of the Homeland - Sal's Sundering",
-          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "กระบวนท่าดาบจากบ้านเกิด - วิชาผ่าแยกของซัล",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -696,8 +696,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tiger Hunt",
-          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] At 6+ [Breath], convert all Coins into [SuperCoin]s\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "ล่าเสือ",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -729,34 +729,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tigersplitter",
-          "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 3 or fewer [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +20% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาดาบผ่าเสือ",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 8+ หน่วย จะสร้างความเสียหายคริติคอลเพิ่มขึ้น +40%\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>เมื่อมี [ChoiSwordsmanship] อยู่ที่ 3 หน่วยหรือต่ำกว่า จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin] และสร้างความเสียหายคริติคอลเพิ่มขึ้น +20%</color></mark></b></u>\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [SlashResistDown] this turn and ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashResistDown] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
                 }
               ]
             }
@@ -769,8 +769,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword of the Homeland [Sal] - Reassume Stance",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[CantDuel] with Assist Units\nPrioritizes Sinners\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Lose 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, gain 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "name": "ดาบจากบ้านเกิด [ซัล] - กลับกระบวนท่าเดิม",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[CantDuel] ด้วยตัวละครสนับสนุน\nเล็งซินเนอร์เป็นหลัก\nหากสกิลของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะแปลงเหรียญสกิลนี้ให้เป็น [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>เสีย [ChoiSwordsmanship] 3 หน่วย</color></mark></b></u>\n- เอฟเฟกต์นี้จะไม่ทำงาน หากสกิลดังกล่าวของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>เมื่อโจมตีโดยตรง หรือโจมตีใส่เป้าหมายที่ใช้สกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะได้รับ [ChoiSwordsmanship] 2 หน่วย</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -782,8 +782,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword of the Homeland [Sal] - Swordhoning",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[CantDuel] with Assist Units\nPrioritizes Sinners\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gain 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, lose 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "name": "ดาบจากบ้านเกิด [ซัล] - ลับคมดาบ",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[CantDuel] ด้วยตัวละครสนับสนุน\nเล็งซินเนอร์เป็นหลัก\nหากสกิลของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะแปลงเหรียญสกิลนี้ให้เป็น [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>ได้รับ [ChoiSwordsmanship] 3 หน่วย</color></mark></b></u>\n- เอฟเฟกต์นี้จะไม่ทำงาน หากสกิลดังกล่าวของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>เมื่อโจมตีโดยตรง หรือโจมตีใส่เป้าหมายที่ใช้สกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะเสีย [ChoiSwordsmanship] 2 หน่วย</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -796,7 +796,7 @@
         {
           "level": 1,
           "name": "ธนูจากบ้านเกิด [ซัล] - ปล่อยศร",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Targets the enemy that has the most [Laceration]</color></mark></b></u>\nUnaffected by [ChoiSwordsmanship]\n[WhenUse] Consume 3 [Breath] Potency ที่ตนเองมี to gain แต้มปิดท้ายสกิลเพิ่มขึ้น +2",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>เล็งศัตรูที่มีค่า [Laceration] มากที่สุด</color></mark></b></u>\nไม่ได้รับผลจาก [ChoiSwordsmanship]\n[WhenUse] ผลาญค่า [Breath] 3 หน่วยที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -804,16 +804,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold by 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ดึงเกจชะงักขึ้น 10 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 3 หน่วย"
                 }
               ]
             }
@@ -826,8 +826,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guardform",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย and +5 [Breath] Count\n[WhenUse] ได้รับ 2 [CriticalDamageUp] ในเทิร์นถัดไป",
+          "name": "กระบวนท่าตั้งการ์ด",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +5 หน่วย\n[WhenUse] ได้รับ [CriticalDamageUp] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -839,8 +839,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counterform",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย and +5 [Breath] Count",
+          "name": "กระบวนท่าสวนกลับ",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
@@ -865,8 +865,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oxsplitter",
-          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "วิชาดาบผ่าวัว",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -887,8 +887,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bearsplitter",
-          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] At 6+ [Breath], convert all Coins into [SuperCoin]s\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาดาบผ่าหมี",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -909,16 +909,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bearspine Breaker",
-          "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] At more than 6 [ChoiSwordsmanship], gain Final Power ตามทุก ๆ excess [ChoiSwordsmanship] Stack (สูงสุด 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 7+ [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +20% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาทำลายสันหลังหมี",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 8+ หน่วย จะสร้างความเสียหายคริติคอลเพิ่มขึ้น +40%\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [ChoiSwordsmanship] มากกว่า 6 หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ปริมาณ [ChoiSwordsmanship] ที่เกินมา (สูงสุด 3 แต้ม)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>เมื่อมี [ChoiSwordsmanship] 7+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin] และสร้างความเสียหายคริติคอลเพิ่มขึ้น +20%</color></mark></b></u>\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [SlashResistDown] this turn and ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashResistDown] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -931,8 +931,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Even Sanguns Shall Be Cleft Under This Sword",
-          "desc": "Targets the enemy that has the most [Laceration]\n[WhenUse] Cannot be Staggered from taking damage until this Skill ends\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)\n[WhenUse] At more than 6 [ChoiSwordsmanship], gain แต้มปิดท้ายสกิลเพิ่มขึ้น +2 ตามทุก ๆ excess [ChoiSwordsmanship] Stack (สูงสุด 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>This Skill always flips Head, hits Critically, and does not consume [Breath] Count</color></mark></b></u>\n[BeforeAttack] Deal +20% damage on Critical Hit ตามทุก ๆ 2 [ChoiSwordsmanship] ที่ตนเองมี (สูงสุด 80%)\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "ต่อให้เป็นพวกซังกุน ก็จะถูกผ่าร่างออกด้วยดาบเล่มนี้",
+          "desc": "เล็งศัตรูที่มีค่า [Laceration] มากที่สุด\n[WhenUse] ไม่สามารถติดชะงักเนื่องจากรับความเสียหายได้ จนกว่าสกิลนี้จะจบลง\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี [ChoiSwordsmanship] มากกว่า 6 หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2 แต้ม ตามทุก ๆ ปริมาณ [ChoiSwordsmanship] ที่เกินมา (สูงสุด 6 แต้ม)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>สกิลนี้จะทอยออกหัวและตีติดคริติคอลเสมอ และการโจมตีจะไม่ผลาญจำนวนครั้ง [Breath]</color></mark></b></u>\n[BeforeAttack] สร้างความเสียหายคริติคอลเพิ่มขึ้น +20% ตามทุก ๆ [ChoiSwordsmanship] 2 หน่วยที่ตนเองมี (สูงสุด 80%)\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -940,13 +940,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal (([Breath] ที่ตนเองมี x 10)% of this Coin's final damage) Slash damage (สูงสุด 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ ((ค่า [Breath] ที่ตนเองมี x 10)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง) หน่วย (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal (([Laceration] บนตัวเป้าหมาย x 10)% of this Coin's final damage) Lust damage (สูงสุด 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายธาตุราคะ เท่ากับ ((ค่า [Laceration] บนตัวเป้าหมาย x 10)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง) หน่วย (สูงสุด 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -959,8 +959,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swordform of the Homeland - Sal's Sundering",
-          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)",
+          "name": "กระบวนท่าดาบจากบ้านเกิด - วิชาผ่าแยกของซัล",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
@@ -992,8 +992,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tiger Hunt",
-          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] At 6+ [Breath], convert all Coins into [SuperCoin]s\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "ล่าเสือ",
+          "desc": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1025,34 +1025,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tigersplitter",
-          "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 3 or fewer [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +20% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "วิชาดาบผ่าเสือ",
+          "desc": "[WhenUse] เมื่อมีค่า [Breath] 8+ หน่วย จะสร้างความเสียหายคริติคอลเพิ่มขึ้น +40%\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>เมื่อมี [ChoiSwordsmanship] อยู่ที่ 3 หน่วยหรือต่ำกว่า จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin] และสร้างความเสียหายคริติคอลเพิ่มขึ้น +20%</color></mark></b></u>\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [SlashResistDown] this turn and ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [SlashResistDown] 1 หน่วยในเทิร์นนี้และเทิร์นถัดไป"
                 }
               ]
             }
@@ -1065,8 +1065,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "No Tiger's Flesh Shall Be Left Uncloven",
-          "desc": "Targets the enemy that has the most [Laceration]\n<color=#ff6000><mark color=#ff000040><b><u>Can Clash with this Skill regardless of Speed</color></mark></b></u>\n[WhenUse] Cannot be Staggered from taking damage until this Skill ends\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมาย (สูงสุด 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>This Skill always flips Head, hits Critically, and does not consume [Breath] Count</color></mark></b></u>\n[BeforeAttack] Deal +20% damage on Critical Hit ตามทุก ๆ 2 [Breath] ที่ตนเองมี (สูงสุด 80%)\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+          "name": "จะไม่มีกายเนื้อของเสือตัวใดที่ไม่ถูกผ่า",
+          "desc": "เล็งศัตรูที่มีค่า [Laceration] มากที่สุด\n<color=#ff6000><mark color=#ff000040><b><u>สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว</color></mark></b></u>\n[WhenUse] ไม่สามารถติดชะงักเนื่องจากรับความเสียหายได้ จนกว่าสกิลนี้จะจบลง\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>สกิลนี้จะทอยออกหัวและตีติดคริติคอลเสมอ และการโจมตีจะไม่ผลาญจำนวนครั้ง [Breath]</color></mark></b></u>\n[BeforeAttack] สร้างความเสียหายคริติคอลเพิ่มขึ้น +20% ตามทุก ๆ [ChoiSwordsmanship] 2 หน่วยที่ตนเองมี (สูงสุด 80%)\n[DefeatDuel]\n- สร้างความเสียหายลดลง -80%\n- การโจมตีนี้ไม่ติดคริติคอล\n- ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1077,7 +1077,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
@@ -1090,7 +1090,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
@@ -1103,7 +1103,7 @@
                   "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] บนตัวเป้าหมาย once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงานหนึ่งครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
@@ -1113,10 +1113,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the main target has 10+ [Laceration], inflict +8 [Laceration] Count บนตัวเป้าหมายs hit by this Coin"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายหลักมีค่า [Laceration] 10+ หน่วย จะสร้างจำนวนครั้ง [Laceration] +8 หน่วยแก่เป้าหมายทั้งหมดที่ถูกเหรียญนี้โจมตี"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง +8 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +8 หน่วย"
                 }
               ]
             }
@@ -1129,8 +1129,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword of the Homeland [Sal] - Reassume Stance",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[CantDuel] with Assist Units\nPrioritizes Sinners\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Lose 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, gain 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "name": "ดาบจากบ้านเกิด [ซัล] - กลับกระบวนท่าเดิม",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[CantDuel] ด้วยตัวละครสนับสนุน\nเล็งซินเนอร์เป็นหลัก\nหากสกิลของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะแปลงเหรียญสกิลนี้ให้เป็น [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>เสีย [ChoiSwordsmanship] 3 หน่วย</color></mark></b></u>\n- เอฟเฟกต์นี้จะไม่ทำงาน หากสกิลดังกล่าวของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>เมื่อโจมตีโดยตรง หรือโจมตีใส่เป้าหมายที่ใช้สกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะได้รับ [ChoiSwordsmanship] 2 หน่วย</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -1142,8 +1142,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword of the Homeland [Sal] - Swordhoning",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[CantDuel] with Assist Units\nPrioritizes Sinners\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gain 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, lose 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "name": "ดาบจากบ้านเกิด [ซัล] - ลับคมดาบ",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[CantDuel] ด้วยตัวละครสนับสนุน\nเล็งซินเนอร์เป็นหลัก\nหากสกิลของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะแปลงเหรียญสกิลนี้ให้เป็น [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>ได้รับ [ChoiSwordsmanship] 3 หน่วย</color></mark></b></u>\n- เอฟเฟกต์นี้จะไม่ทำงาน หากสกิลดังกล่าวของเป้าหมาย คือสกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect]\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>เมื่อโจมตีโดยตรง หรือโจมตีใส่เป้าหมายที่ใช้สกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] จะเสีย [ChoiSwordsmanship] 2 หน่วย</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "ธนูจากบ้านเกิด [ซัล] - ปล่อยศร",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Targets the enemy that has the most [Laceration]</color></mark></b></u>\nUnaffected by [ChoiSwordsmanship]\n[WhenUse] Consume 3 [Breath] Potency ที่ตนเองมี to gain แต้มปิดท้ายสกิลเพิ่มขึ้น +2",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>เล็งศัตรูที่มีค่า [Laceration] มากที่สุด</color></mark></b></u>\nไม่ได้รับผลจาก [ChoiSwordsmanship]\n[WhenUse] ผลาญค่า [Breath] 3 หน่วยที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -1164,16 +1164,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย and +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 5 หน่วย และจำนวนครั้ง [Laceration] +4 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold by 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ดึงเกจชะงักขึ้น 10 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 3 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 3 หน่วย"
                 }
               ]
             }
@@ -1186,8 +1186,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guardform",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย and +5 [Breath] Count\n[WhenUse] ได้รับ 2 [CriticalDamageUp] ในเทิร์นถัดไป",
+          "name": "กระบวนท่าตั้งการ์ด",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +5 หน่วย\n[WhenUse] ได้รับ [CriticalDamageUp] 2 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -1199,8 +1199,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counterform",
-          "desc": "Unaffected by [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย and +5 [Breath] Count",
+          "name": "กระบวนท่าสวนกลับ",
+          "desc": "ไม่ได้รับผลจาก [ChoiSwordsmanship]\n[StartBattle] ได้รับค่า [Breath] 5 หน่วย และจำนวนครั้ง [Breath] +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
