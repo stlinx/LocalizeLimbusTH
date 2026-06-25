@@ -44,9 +44,10 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลบอสใหม่ใน บททดสอบสะท้อน][นอท้ะสบอสดททบ  
-• แปล Canto VII : The Dreamending จบบริบูรณ์  
-• แปลบทพูดในระหว่างการต่อสู้ (ภาคอสูรโลหิตแห่งลามันชาแลนด์และแขกผู้เยี่ยมชม)  
+• แปลสกิล/พาซซีฟของตัวตนใหม่  
+• แปลสถานะใหม่  
+• แปล Intervallo IV: Murder on the WARP Express เสร็จสมบูรณ์  
+• แปลบทพูดในระหว่างการต่อสู้ (ภาคนิ้วโป้งแห่งบ้านแห่งแมงมุม)  
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
@@ -74,7 +75,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ พิเศษ : The 3rd Walpurgis Night  
 ✘ 6.5-1 : Timekilling Time  
 ✘ พิเศษ : A Familiar Siren  
-✘ 6.5-2 : Murder on the WARP Express  
+✔ 6.5-2 : Murder on the WARP Express [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
 ✘ 7.5-1 : LCB Regular Check-up  
