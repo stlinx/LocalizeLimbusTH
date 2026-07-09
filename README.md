@@ -48,6 +48,7 @@ addon แปลไทยสำหรับ Limbus Company
 • แปลของขวัญ E.G.O ใหม่  
 • แปลสถานะใหม่  
 • แปลบทพูดในระหว่างการต่อสู้ (ภาคสำนักงานอรุณ + ผีเสื้ออีซัง)  
+• (HOTFIX) แก้คำผิด + ลืมคำแปล  
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -84,6 +85,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ พิเศษ : The 6th Walpurgis Night  
 ✘ 8.5 : Spring Cultivation  
 ~~✘ 8.5 : Pilgrimage Of Compassion~~  
+✘ พิเศษ : The 8th Walpurgis Night  
 ✘ 9.5 : Twining Threads  
 ✘ 9.5 : Mnestic Experrience  
 **อื่นๆ**  
