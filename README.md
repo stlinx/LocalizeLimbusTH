@@ -44,11 +44,8 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิลพาซซีฟตัวตนใหม่  
-• แปลของขวัญ E.G.O ใหม่  
-• แปลสถานะใหม่  
-• แปลบทพูดในระหว่างการต่อสู้ (ภาคสำนักงานอรุณ + ผีเสื้ออีซัง)  
-• (HOTFIX) แก้คำผิด + ลืมคำแปล  
+• แปล Intervallo V : LCB Regular Check-up จบบริบูรณ์  
+• แปลบทพูดในระหว่างการต่อสู้ (ภาคพนักงานแห่งบริษัทลิมบัส คอมพานียกเว้นเหล่าซินเนอร์)  
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -80,7 +77,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ 6.5-2 : Murder on the WARP Express [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
-✘ 7.5-1 : LCB Regular Check-up  
+✔ 7.5-1 : LCB Regular Check-up  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ 7.5-2 : Nocturnal Sweeping  JoshWaltz49  
 ✘ พิเศษ : The 6th Walpurgis Night  
 ✘ 8.5 : Spring Cultivation  
