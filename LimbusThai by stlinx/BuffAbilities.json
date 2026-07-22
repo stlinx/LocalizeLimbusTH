@@ -102,11 +102,11 @@
     },
     {
       "id": "VibrationDistribution",
-      "desc": "จบเทิร์น: ได้รับ<color=#f8c200>เลเวลจู่โจมเพิ่มขึ้น</color> ((ผลรวมจำนวน 'สั่นเทา - แจกจ่าย' ที่พันธมิตรทั้งหมดมี) / (จำนวนพันธมิตรที่มี 'สั่นเทา - แจกจ่าย')) หน่วยในเทิร์นถัดไป (สูงสุด 5 หน่วย)"
+      "desc": "จบเทิร์น: ได้รับ <sprite name=\"AttackUp\"><color=#f8c200>เลเวลจู่โจมเพิ่มขึ้น</color> ((ผลรวมจำนวน <sprite name=\"VibrationDistribution\"><color=#e30000>'สั่นเทา - แจกจ่าย'</color> ที่พันธมิตรทั้งหมดมี) / (จำนวนพันธมิตรที่มี <sprite name=\"VibrationDistribution\"><color=#e30000>'สั่นเทา - แจกจ่าย'</color>)) หน่วยในเทิร์นถัดไป (สูงสุด 5 หน่วย)"
     },
     {
       "id": "VibrationChain",
-      "desc": "เสียแต้มแคลชสกิลลง 1 หน่วย ตามทุก ๆ ค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> 10 หน่วยที่เป้าหมายมี (สูงสุด 3 แต้ม)"
+      "desc": "เสียแต้มแคลชสกิลลง -1 แต้ม ตามทุก ๆ ค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> 10 หน่วยที่เป้าหมายมี (สูงสุด 3 แต้ม)"
     },
     {
       "id": "VibrationContinue",
@@ -114,12 +114,12 @@
     },
     {
       "id": "TimeSuspend",
-      "desc": "เมื่อทำงาน สร้างความเสียหายธาตุเกียจคร้าน {3} หน่วย และทำให้เกิด<sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> {0} ครั้ง"
+      "desc": "เมื่อทำงาน สร้างความเสียหายธาตุเกียจคร้าน {3} หน่วย และทำให้เกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> {0} ครั้ง"
     },
     {
       "id": "TimeRentalTwoPersonality",
-      "name": "Borrowed Time",
-      "desc": "จบเทิร์น: ได้รับ {1} Haste, แต้มแคลชสกิล Up, and Fragile ในเทิร์นถัดไป\nAt 1 Count, ได้รับ {0} Bind ในเทิร์นถัดไป instead",
+      "name": "เวลาที่หยิบยืม",
+      "desc": "จบเทิร์น: ได้รับ <sprite name=\"Agility\"><color=#f8c200>'ว่องไว'</color>, <sprite name=\"ParryingResultUp\"><color=#f8c200>'เพิ่มแต้มแคลชสกิล'</color> และ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> อย่างละ {1} หน่วยในเทิร์นถัดไป\nเมื่อมีจำนวน 1 หน่วย จะได้รับ <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> {0} หน่วยในเทิร์นถัดไปแทน",
       "summary": ""
     },
     {
