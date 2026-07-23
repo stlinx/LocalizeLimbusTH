@@ -14,7 +14,7 @@
       "id": 133102,
       "name": "ศาสตร์ศิลป์ใช้กายเป็นศูนย์กลาง",
       "desc": "เมื่อตัวละครนี้เข้าสู่การเผชิญหน้า จะฟื้นฟู SP 30 หน่วย\n\nเมื่อโจมตีโดนด้วยสกิลโจมตี: หากตัวละครนี้สร้างสถานะผิดปกติ และได้รับสถานะด้านบวกในเวลาเดียวกัน เมื่อการโจมตีจบลงจะฟื้นฟู SP 4 หน่วย\n- หากตัวละครนี้มี SP เต็มแล้ว เมื่อฟื้นฟู SP ด้วยเอฟเฟกต์ข้างต้น จะได้รับ [ResultEnhancement] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
-      "flavor": "รูปแบบแห่งศิลป์ที่แกะสลักโดยใช้ชิ้นเนื้อและกระดูกของศัตรูเป็นฐาน ทุกชั่วขณะที่ผ่านพ้นแปรเปลี่ยนแม้กระทั่งชิ้นกระดูกอันกระจิดริดให้เป็นอาวุธอันชำนาญการ"
+      "flavor": "ศาสตร์แห่งศิลป์ที่แกะสลักโดยใช้ชิ้นเนื้อและกระดูกของศัตรูเป็นฐาน ทุกชั่วขณะที่ผ่านพ้นแปรเปลี่ยนแม้กระทั่งชิ้นกระดูกอันกระจิดริดให้เป็นอาวุธอันประณีต"
     },
     {
       "id": 133103,
@@ -131,17 +131,17 @@
     },
     {
       "id": 132801,
-      "name": "หนูทำแบบนี้ถูกอ๊ะป่าว ปะป๊า?!",
+      "name": "หนูทำแบบนี้ถูกอ๊ะป่าว ป๊ะป๋า?!",
       "desc": "เริ่มการเผชิญหน้าด้วย [HeatingWireOffSpider]\n\nเริ่มเทิร์น: เมื่อมี [GotACompliment] 3+ หน่วย จะได้รับ [HeatingWireOnSpider] ในเทิร์นนั้น และสกิลที่สามารถสร้าง [Laceration] ได้จะสร้าง [Combustion] เสริมไปด้วย\n\nจบเทิร์น: เมื่อมี [GotACompliment] ต่ำกว่า 3 หน่วย จะแปลงเอฟเฟกต์ [HeatingWireOnSpider] ของตัวละครนี้ให้เป็น [HeatingWireOffSpider]",
       "summary": "",
-      "flavor": "'I like my papa because he always praises me and buys me comic books.'"
+      "flavor": "'ฉันรักป๊ะป๋าเพราะเขาชมฉันและซื้อหนังสือการ์ตูนให้ฉันตลอด'"
     },
     {
       "id": 132802,
       "name": "รอยสักสไตล์นิ้วกลาง",
       "desc": "หากตัวละครนี้โดนโจมตีมากกว่า 2 สกิลในเทิร์นนี้ จะได้รับ [ReinforcedTattooSpiderDaughter] 1 หน่วยในเทิร์นถัดไป ตามจำนวนสกิลโจมตีโดนที่เกินมา",
       "summary": "",
-      "flavor": "'Will the bigger Sisters and Brothers of the Middle accept me as their family one day, so I can continue to live with them?'"
+      "flavor": "'สักวันฉันจะถูกยอมรับว่าเป็นหนึ่งในครอบครัว และได้ใช้ชีวิตร่วมกับพวกพี่ ๆ ด้วยไหม?'"
     },
     {
       "id": 132803,
@@ -166,7 +166,7 @@
       "name": "โห... ไอ้นั่นดูอันตรายเป็นบ้าเลย!",
       "desc": "หาก 'พ่อทูนหัวนิ้วกลาง' มี [MiddleFatherSwordFour] จะไม่เข้าสู่สภาวะ [HeatingWireOffSpider]\n\nเล็งตัวละครที่มี [MosesRedBreathCharge]",
       "summary": "",
-      "flavor": "The combination of her animalistic instincts and battle experience is screaming at her in unison:\nWhatever that red thing is, if she can't stop that attack from going off, it <b>will</b> kill."
+      "flavor": "สัญชาตญาณสัตว์ป่าและประสบการณ์ต่อสู้ของเธอต่างกู่ร้องเป็นเสียงเดียวกัน:\n เธอไม่รู้ว่าสิ่งนั้นคืออะไร แต่หากเธอโดนสิ่งนั้นฟาดเข้าล่ะก็ เธอจะต้องสิ้นใจตายอย่างแน่นอน"
     },
     {
       "id": 132601,
@@ -212,14 +212,14 @@
       "name": "เร่งสู่อนาคต",
       "desc": "ในการแคลช <color=#ff6000><mark=#ff000040><b><u>จะได้รับ [LookingFuture] 1 หน่วย ตามทุก ๆ จำนวนแคลช</u></b></mark></color>\n- สามารถรับ [LookingFuture] ได้สูงสุด (ปริมาณ [FutureEyeOn] เมื่อเริ่มเทิร์น / 3) หน่วยต่อเทิร์น\n\nในขณะที่ตัวละครนี้มี [FutureEyeOn] <color=#ff6000><mark=#ff000040><b><u>เมื่อถูกโจมตีโดยการโจมตีโดยตรง หรือเมื่อแคลชแพ้ จะเปิดใช้งานสกิล \"รับรู้ล่วงหน้า\"</u></b></mark></color>",
       "summary": "",
-      "flavor": "\"The more we clash, the hotter my sword will become... and accelerate to bring us to the future I foresaw.\""
+      "flavor": "\"ยิ่งปะทะกันมากเท่าไหร่ ดาบของฉันก็จะยิ่งร้อนขึ้น... และเร่งสู่อนาคตที่ฉันได้เห็น\""
     },
     {
       "id": 131408,
       "name": "ทำงานเกินพิกัด",
       "desc": "การกระทำเหล่านี้ทำให้ตัวละครนี้สูญสียจำนวน [FutureEyeOn]:\n- หากตัวละครนี้ไม่สามารถได้รับ [LookingFuture] ได้ จะเสีย [FutureEyeOn] 1 หน่วยตามทุก ๆ จำนวนแคลช\n- เมื่อตัวละครนี้ถูกโจมตีโดยตรง สูญเสีย [FutureEyeOn] 1 หน่วย\n- เมื่อแคลชแพ้ สูญเสีย [FutureEyeOn] 3 หน่วย",
       "summary": "",
-      "flavor": "'The eye's heating up, its socket is starting to ache, and my vision is turning red.'"
+      "flavor": "'ตาของฉันปวดแสบและร้อนขึ้น และสิ่งที่เห็นก็เปลี่ยนเป็นสีแดง'"
     },
     {
       "id": 131405,
@@ -232,14 +232,14 @@
       "name": "ความอัปยศของฟามิเกลียโบนาเตลลี",
       "desc": "ได้รับความเสียหาย HP และ SP จาก [Combustion], [Laceration], [Burst] และ [Sinking] ลดลง -30%; ถูกดึงเกจชะงักขึ้นเพราะ [Vibration] ลดลง -30%\n\nเมื่อมี [AccelBullet] 1+ นัด สกิลที่ทำการจ่าย [AccelBullet] จะสร้างความเสียหายเพิ่มขึ้น +30% และสร้างความเสียหายต่อโล่เพิ่มขึ้น +150%\n\nได้รับค่า [Breath] 4 หน่วย ตามทุก ๆ [AccelBullet] ที่จ่ายไป\n\nเมื่อทอยเหรียญที่จ่าย [AccelBullet] จะไม่ยกเลิกการโจมตี แม้ตัวละครนี้จะไม่มี [AccelBullet] เหลือ",
       "summary": "",
-      "flavor": "\"You were an inheritor of the Palermitan style and a wielder of our family heirloom—you had every privilege one could ever hope for. How dare you embarrass yourself like this?\"\n\"We'll let you keep the Relic and the sword, for they have been defiled by your dishonorable stench.\"\n\"To be promoted to the station of a Sottocapo, an Underboss... only to be ousted in a mere 3 days. No one else has suffered such pathetic humiliation apart from you, Valencina.\"\n\"You are the shame of our family. La Famiglia Bognatelli withdraws its love from you.\""
+      "flavor": "\"แกได้ทั้งสืบทอดวิชาดาบปาแลร์โมและสมบัติประจำแฟมิลี่ของเรา แต่แกก็ยังทำเรื่องน่าอับอายแบบนั้นอีก?\"\n\"เราจะไม่ริบเอาสมบัติและดาบของแกคืน เพราะพวกมันได้ถูกทำให้แปดเปื้อนด้วยกลิ่นเหม็นสาบอันไร้เกียรติของแกแล้ว\"\n\"ในการถูกเลื่อนตำแหน่งเป็นซอตโตคาโป... และถูกถอนออกในเวลาเพียงแค่ 3 วัน วาเรนซิน่า ไม่มีใครนอกจากแกแล้วที่สามารถทำเรื่องอย่างนั้นได้\"\n\"แกเป็นความอัปยศของวงศ์ตระกูล โบนาเตลลีแฟมิลี่ขอถอนความรักที่มีให้กับตัวแก\""
     },
     {
       "id": 131409,
       "name": "ชิน (心) - วาเลนซินา",
       "desc": "เมื่อถูกโจมตี หรือเมื่อ \"ลูกศิษย์นิ้วโป้ง - ลูซิโอ\" ถูกกำจัด จะได้รับ [ObsessionAndGreed] ในเทิร์นถัดไป",
       "summary": "",
-      "flavor": "\"*sigh* Okay. So, you're saying we can get Ticket back by going in and wrecking the place according to that fanatic's plan... Is this really going to bring Ticket back to us?\""
+      "flavor": "\"เห้อ แผนก็คือแค่บุกไปสร้างความวุ่นวายที่นั่นตามที่ไอ้คลั่งลัทธินั่นวางไว้สินะ... แต่ทำแบบนั้นแล้วทิคเก็ตจะกลับมาจริง ๆ งั้นเหรอ?\""
     },
     {
       "id": 131406,
@@ -252,13 +252,13 @@
       "name": "ถึงเวลาออกล่า",
       "desc": "เริ่มเทิร์น: หากตัวละครนี้ติดชะงัก จะฟื้นตัวจากการชะงัก\n\nสุ่มเลือกซินเนอร์หนึ่งคนแบบสุ่ม และสร้าง [TeachersPrey]\n- เปิดใช้งานทุก ๆ 4 เทิร์น นับแต่การเปิดใช้งานครั้งแรก\n- หากตัวละครนี้กำจัดเป้าหมายด้วยสกิล \"กำจัดพ้น\" จะเปิดใช้งานเอฟเฟกต์นี้อีกครั้งในเทิร์นถัดไป",
       "summary": "",
-      "flavor": "The Palermitan Style has much in common with the originator of the sword technique—La Famiglia Bognatelli.\nBoth the Famiglia and the sword style are renowned for relentlessly focusing on a single prey during a hunt, which is concluded with a Coup de Grâce that may as well be called a dissection. These executions are not carried out in the shadows, but instead, proudly put on display for all to behold.\nThe spectacular and formidable sword style has granted the Famiglia much honor and prestige, eventually securing them a place among the Sette Famiglie of the Backstreets.\nValencina, a master of the Palermitan Style, used it to hunt and execute many officers and so-called battle-hardened soldiers during the Smoke War, becoming a veritable \"War Hero.\"\nIronically, no one could have imagined her fall would sink as low as her fame once soared."
+      "flavor": "วิชาปาแลร์โมสะท้อนถึงธรรมชาติที่แท้จริงของแหล่งกำเนิดของมัน โบนาเตลลีแฟมิลี่\nมันมุ่งให้ความสนใจอยู่กับเป้าหมายเดียว ไล่ล่าอย่างไม่ลดละ ก่อนที่ชำแหละเป้าหมายจนไม่เหลือชิ้นดี การสังหารเหล่านี้จะไม่ทำในเงามืด แต่จะทำให้ผู้คนได้รับชมอย่างองอาจ\nวิชาดาบอันน่าทึ่งนี้ได้มอบเกียรติยศและชื่อเสียงให้กับแฟมิลี่เป็นอย่างมาก จนสามารถเลื่อนตำแหน่งให้ขึ้นเป็นหนึ่งในเจ็ดแฟมิลี่แห่งแบ็คสตรีทได่ \nวาเรนซิน่า ปรมาจารย์แห่งวิชาดาบปาแลร์โม ได้พรากชีวิตของเจ้าหน้าที่และทหารมากประสบการณ์จนได้กลายเป็นวีรบุรุษสงคราม\nอนิจจา ใครเล่าจะนึกได้ว่าชื่อเสียงนั้นจะกลายมาเป็นโซ่ที่รั้งเธอไว้เสียเอง?"
     },
     {
       "id": 134501,
       "name": "กายเนื้อทั้งหมดที่ผมมี ถูกมอบให้กับทิเบียแล้ว",
       "desc": "ได้รับความเสียหาย HP และ SP จาก [Combustion], [Burst], และ [Sinking] ลดลง -30%; ปริมาณเกจชะงักที่ถูกดึงขั้นเพราะ [Vibration] ลดลง -30%\nได้รับความเสียหายจาก [Laceration] ลดลง -50%\n\nเริ่มเทิร์น: หากตัวละครนี้ติดชะงัก จะฟื้นตัวจากการชะงัก; หลังจากนั้น จะได้รับ [CrimsonTakeDamageUp] 2 หน่วย (มีผล 1 ครั้ง/การเผชิญหน้า)\n\nจบเทิร์น: ได้รับ [DefenseDown] 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ค่า [Combustion] 4 หน่วยที่ตนเองมี (สูงสุด 15 หน่วย)",
-      "flavor": "Soon, the masterpiece shall be completed—the raison d'être of the House of Spiders.\nThe Golden Boughs are... interesting objet, to be sure, but the fact remains that they are not essential to the perfection of the masterpiece.\nI doubt if it was truly necessary to seize them and risk making an enemy out of Limbus Company... although I do admit these sloppy dance steps did, in the end, come together to form a rather acceptable finale.\nIn any case, this series of circumstances we find ourselves in was Rien's desire—or more precisely, the pleasure of the so-called god he puts his faith in.\nOne must wonder, however... Is it a blessing or a curse to be so compellingly <i>loved</i> by such a thing referred to as \"god\"? Fuhuhu..."
+      "flavor": "ดูเหมือนอีกไม่นาน ผลงานชิ้นเอก เหตุผลของการมีอยู่ของบ้านแห่งแมงมุม และสิ่งที่เหล่านิ้วต่างก็หมายปอง ก็จะเสร็จสมบูรณ์ได้แล้วครับ\nกิ่งทองเป็นวัตถุที่... น่าสนใจอยู่ก็จริง แต่สิ่งนั้นไม่ใช่วัตถุดิบที่จำเป็นต่อการขัดเกลาให้ชิ้นงานสมบูรณ์แบบยิ่งขึ้น\nตัวผมยังคงคิดว่ามันเกินความจำเป็นที่จะทำถึงขั้นเป็นปรปักษ์กับลิมบัส คอมพานีเพื่อให้ได้มันมาอยู่... แต่ผลลัพท์ก็ออกมาในเกณฑ์ที่ใช้ได้ จึงทำได้แค่ยอมรับขั้นตอนที่ค่อนข้างยุ่งเหยิงนี้ครับ\nเหตุการณ์ทั้งหมดนี้เกิดขึ้นเพราะความต้องการของเรียน ไม่สิ ความต้องการของพระเจ้าที่เขานับถืออยู่\nหนึ่งใคร่สงสัย... การได้รับความรักที่แสนลึกซึ้งจากสิ่งที่ถูกเรียกว่าพระเจ้านั้น เป็นพรหรือคำสาปกันแน่? ฮุฮุ..."
     },
     {
       "id": 134502,
@@ -274,13 +274,13 @@
       "id": 134509,
       "name": "กายที่สุขภาพดี จะเป็นวัตถุดิบชั้นดี",
       "desc": "ตัวละครนี้สร้างความเสียหายต่อซินเนอร์และตัวละครสนับสนุน ที่มีเลเวลสูงที่สุดเพิ่มขึ้น +150% และจะเน้นโจมตีตัวละครนั้นเป็นหลัก",
-      "flavor": "\"But once you have reached a certain level of mastery, it is best to aim for the most robust corpus among your ingredients.\"\n\"You see, a healthy corpus may provide ample pieces of muscles and bones to broaden the scope and scale of the artwork.\"\n\"Such exciting prospects, yes, dear Albina?\""
+      "flavor": "\"อย่างไรนั้น เมื่อเธอมีความชำนาญถึงระดับหนึ่งแล้ว จะเป็นการดีหากเลือกใช้ร่างที่กำยำที่สุดครับ\"\n\"ด้วยการใช้เนื้อและเศษกระดูกจากร่างกายที่สุขภาพดีเป็นฐาน เธอสามารถขยายขอบเขตระดับของชิ้นงานของตัวเองขึ้นได้\"\n\"เป็นสิ่งที่น่าตื่นเต้นไปเลยใช่ไหมครับ อัลบีน่า?\""
     },
     {
       "id": 134510,
       "name": "ผลงานชิ้นโบว์แดง: ทิเบีย",
       "desc": "จบเทิร์น: เมื่อมี [HumanBoneTheRings] 206 หน่วย และ [HumanBloodTheRings] 5 หน่วย จะลดปริมาณทับซ้อนของแต่ละเอฟเฟกต์เท่ากับตัวเลขแต่ละเอฟเฟกต์ตามลำดับ และได้รับ [MineTheRings] 1 หน่วย\n\nเริ่มเทิร์น: หากตัวละครนี้มี [MineTheRings] จะใช้สกิลทรงพลังในเทิร์นนี้\n\n<color=#ff6000><mark=#ff000040><b><u>เมื่อถูกโจมตีโดยสกิลโจมตีก่อนใช้การโจมตีทรงพลัง จะได้รับ [PlusCoinValueDown] 1 หน่วย และ [ResultReduction] 1 หน่วย</u></b></mark></color> (มีผลสกิลละครั้ง; สูงสุด 3 ครั้ง/เทิร์น)",
-      "flavor": "Tibia, the work of the artist's life, completed by breaking his own corpus and pouring his blood to the last drop—in the most literal sense."
+      "flavor": "ชิ้นงานเอกที่ถูกสร้างขึ้นด้วยการทุ่มเททั้งหยาดเหงื่อและเลือดเนื้อของศิลปิน ทิเบีย"
     },
     {
       "id": 134604,
@@ -448,7 +448,7 @@
     },
     {
       "id": 134801,
-      "name": "ท่านพ่อ เรียน [เลียนแบบ]",
+      "name": "บิดา เรียน [เลียนแบบ]",
       "desc": "<color=#ff6000><mark=#ff000040><b><u>ได้รับความเสียหายจากการโจมตีโดยตรงลดลง -75%</u></b></mark></color>\nได้รับความเสียหายจาก [Vibration], [Burst], และ [Sinking] ลดลง -75%\nเมื่อฟื้นฟู SP จาก [UnlockBuff_Base] หาก SP ของตัวละครนี้ต่ำกว่า 15 หน่วย จะฟื้นฟู SP เป็น 15 หน่วย\n\nเมื่อตัวละครนี้เข้าสู่รูปแบบการโจมตีใหม่ขณะมี HP 55% จะได้รับเอฟเฟกต์ดังต่อไปนี้:\n- ล้างเอฟเฟกต์ทั้งหมด ยกเว้นแต่ทีเป็นเอฟเฟกต์เฉพาะของตัวละครนี้\n- รีเซ็ตปริมาณ [StackRienSpecialSkill] เป็น 0 หน่วย\n- ได้รับ [IndexPrescript_RienSecondPhase]\n- แปลง [BurningWoundRien_Mask] เป็น [BurningWoundRien]\n- แปลง [KarmaOfIndexRien] เป็น [KarmaOfIndexRien_2Phase]; จากนั้นจะได้รับปริมาณทับซ้อนของเอฟเฟกต์ดังกล่าว 10 หน่วย\n- หากตัวละครนี้ไม่มี [Shin_Rien] จะได้รับเอฟเฟกต์ดังกล่าวทันที\n\nเมื่อมี HP 25% หรือต่ำกว่า จะได้รับรูปแบบการโจมตีใหม่ และเสริมความแกร่งของบางสกิลขึ้นอย่างมาก",
       "flavor": "Once, he harbored a suspicion that he was being shaped into an imitation of someone; he doubted the Will and nearly defied it, for he did not know whom he was to mimic. Only when it was too late did he understand its intent and come to accept the Prescript's will.\nOnly then was the false father completed."
     },

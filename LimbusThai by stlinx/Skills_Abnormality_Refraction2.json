@@ -426,7 +426,7 @@
                   "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] ตามจำนวนครั้ง [Vibration] บนตัวเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ผลาญ [Vibration] ทั้งหมดบนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] ผลาญจำนวนครั้ง [Vibration] ทั้งหมดบนตัวเป้าหมาย"
                 }
               ]
             }
@@ -658,7 +658,7 @@
                   "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย จะสร้างค่า [Laceration] 5 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย จะสร้างค่า [Laceration] 1 หน่วย"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมีจำนวนครั้ง [Laceration] 2+ หน่วย จะสร้างค่า [Paralysis] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +4 หน่วย"
@@ -826,7 +826,7 @@
                   "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion] ตามจำนวนครั้ง [Vibration] บนตัวเป้าหมาย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] ผลาญ [Vibration] ทั้งหมดบนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] ผลาญจำนวนครั้ง [Vibration] ทั้งหมดบนตัวเป้าหมาย"
                 }
               ]
             }
@@ -990,7 +990,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ จำนวนครั้ง [Burst] 5 หน่วยบนตัวเป้าหมาย"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ค่า [Burst] บนตัวเป้าหมาย"
                 }
               ]
             }
@@ -1472,7 +1472,7 @@
         {
           "level": 1,
           "name": "สู่สวนแห่งอนันต์",
-          "desc": "[CantDuel]\n[WhenUse] มอบ [PrepareSinRose] และกำจัดเอฟเฟกต์ทั้งหมดที่ตนเองมี\nหากแกนหลักมี HP ต่ำกว่า 40% จะมี 'กุหลาบ' ถูกอัญเชิญมาในสภาวะเสริมพลัง",
+          "desc": "[CantDuel]\n[WhenUse] มอบ [PrepareSinRose] และกำจัดเอฟเฟกต์ทั้งหมดที่ตนเองมี\nหากแกนหลักมี HP ต่ำกว่า 40% จะมี 'กุหลาบ' ถูกอัญเชิญมาในสภาวะเสริมพลัง next turn",
           "coinlist": [
             {}
           ]
@@ -1579,7 +1579,7 @@
         {
           "level": 1,
           "name": "กำแพงแบ่งแยก",
-          "desc": "แต้มสกิลเพิ่มขึ้น +2 แต้ม ตามทุก ๆ 'กุหลาบ' ที่ยังรอดชีวิต\n- หากไม่เหลือกุหลาบอื่นรอดชีวิต ตนเองจะได้รับ [Vulnerable] 2 หน่วย",
+          "desc": "แต้มสกิลเพิ่มขึ้น +2 แต้ม ตามทุก ๆ 'กุหลาบ' ที่ยังรอดชีวิต\n- หากไม่เหลือกุหลาบอื่นรอดชีวิต ตนเองจะได้รับ [Vulnerable] 2 หน่วย next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1794,7 +1794,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
+                  "desc": "[OnSucceedAttack] สร้างจำค่า [Vibration] 8 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] ทำให้เกิด [VibrationExplosion]"
@@ -1868,7 +1868,7 @@
         {
           "level": 1,
           "name": "ตะกละไม่รู้พัก",
-          "desc": "[WhenUse] หากเป้าหมายมี [Burst] จะบูสต์การฟื้นฟู HP ขึ้น +50%",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2017,7 +2017,7 @@
         {
           "level": 1,
           "name": "อัตตาหัวเสีย",
-          "desc": "เมื่อมีค่า [Breath] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +3 แต้ม",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
