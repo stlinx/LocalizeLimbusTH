@@ -3,12 +3,12 @@
     {
       "id": "AtkDamageMultiplier",
       "desc": "สร้างความเสียหาย {0}%",
-      "variation": "{1}% to {0} damage dealt"
+      "variation": "ความเสียหายต่อ {0} {1}%"
     },
     {
       "id": "AtkAndTakeAtkDamageMultiplier",
       "desc": "สร้างและรับความเสียหาย {0}%",
-      "variation": "{1}% to damage dealt & taken with {0} Affinity"
+      "variation": "สร้างและรับความเสียหายด้วยประเภท {0} {1}%"
     },
     {
       "id": "GiveBuffOnSucceedAttack",
@@ -32,7 +32,7 @@
     },
     {
       "id": "AtkAdderIfNotDamagedPrevTurn",
-      "desc": "เลเวลจู่โจม {0} หน่วย หากผู้ใช้ไม่ได้รับความเสียหาย HP ตลอดเทิร์น\n(ไม่นับความเสียหายต่อโล่ HP)"
+      "desc": "เลเวลจู่โจม {0} หน่วย หากผู้ใช้ไม่ได้รับความเสียหาย HP ตลอดเทิร์น\n(ไม่นับความเสียหายต่อโล่)"
     },
     {
       "id": "MaxSpeedAdderAsStack",
@@ -48,7 +48,7 @@
     },
     {
       "id": "TakeHpHealMultiplier",
-      "desc": "ฟื้น HP จากสกิลและเอฟเฟกต์เหรียญเพิ่มขึ้น {0}%"
+      "desc": "ฟื้นฟู HP จากสกิลและเอฟเฟกต์เหรียญ {0}%"
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
@@ -56,11 +56,11 @@
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmgRR2",
-      "desc": "Heal {0}% of Damage dealt"
+      "desc": "ฟื้นฟู HP {0}% ของความเสียหายที่สร้าง"
     },
     {
       "id": "RailEnemyBuffF",
-      "desc": "{0} to amount of ทรัพยากร E.G.O consumed by Sinners when using E.G.O Skills"
+      "desc": "ปริมาณทรัพยากร E.G.O ที่ซินเนอร์ผลาญเมื่อใช้สกิล E.G.O จะ {0} หน่วย"
     },
     {
       "id": "MaxHpMultiplier",
@@ -72,17 +72,17 @@
     },
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
-      "desc": "เมื่อเริ่มเทิร์น มอบ {0} {1} หน่วย และจำนวน {0} +{2} หน่วยแก่พันธมิตรทั้งหมด",
-      "variation": "เมื่อเริ่มเทิร์น, applyค่า {0} {1} หน่วย to all allies.",
-      "variation2": "เมื่อเริ่มเทิร์น, applyจำนวนครั้ง {0} +{1} หน่วย to all allies"
+      "desc": "เริ่มเทิร์น: มอบ {0} {1} หน่วย และจำนวน {0} +{2} หน่วยแก่พันธมิตรทั้งหมด",
+      "variation": "เริ่มเทิร์น: มอบค่า {0} {1} หน่วยแก่พันธมิตรทั้งหมด",
+      "variation2": "เริ่มเทิร์น: มอบจำนวน {0} +{1} หน่วยแก่พันธมิตรทั้งหมด"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
-      "desc": "เมื่อเริ่มเทิร์น มอบ {0} {1} หน่วยแก่พันธมิตรทั้งหมด และจำนวน {0} อีก +{2} หน่วยแก่พันธมิตรทั้งหมดที่มี {0}"
+      "desc": "เริ่มเทิร์น: มอบ {0} {1} หน่วยแก่พันธมิตรทั้งหมด และจำนวน {0} อีก +{2} หน่วยแก่พันธมิตรทั้งหมดที่มี {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
-      "desc": "เมื่อเริ่มเทิร์น มอบ {0} {1} หน่วยแก่ศัตรูทั้งหมด และจำนวน {0} อีก +{2} หน่วยแก่ศัตรูทั้งหมดที่มี {0}"
+      "desc": "เริ่มเทิร์น: มอบ {0} {1} หน่วยแก่ศัตรูทั้งหมด และจำนวน {0} อีก +{2} หน่วยแก่ศัตรูทั้งหมดที่มี {0}"
     },
     {
       "id": "LoseTurnOnRoundEnd",
@@ -114,7 +114,7 @@
     },
     {
       "id": "VibrationContinue",
-      "desc": "- เมื่อเกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> ด้วยเอฟเฟกต์สกิลหรือเหรียญ มีโอกาส {0}% ที่จะทำให้เกิด<sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color>เพิ่มอีกครั้ง (สูงสุด 50%)\n- เมื่อเกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> ด้วยเอฟเฟกต์สกิลหรือเหรียญ มีโอกาส {1}% ที่จะทำให้เกิด<sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color>เพิ่มอีกครั้ง (สูงสุด 50%)"
+      "desc": "- เมื่อเกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> ด้วยเอฟเฟกต์สกิลหรือเหรียญ มีโอกาส {0}% ที่จะทำให้เกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> เพิ่มอีกครั้ง (สูงสุด 50%)\n- เมื่อเกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> ด้วยเอฟเฟกต์สกิลหรือเหรียญ มีโอกาส {1}% ที่จะทำให้เกิด <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> เพิ่มอีกครั้ง (สูงสุด 50%)"
     },
     {
       "id": "TimeSuspend",
@@ -129,7 +129,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "สั่นเทา - โซ่ตรวน",
-      "desc": "เสียแต้มแคลชสกิลลง 1 หน่วย ตามทุก ๆ ค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> 10 หน่วยที่มี (สูงสุด 3 แต้ม)",
+      "desc": "เสียแต้มแคลชสกิลลง -1 หน่วย ตามทุก ๆ ค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> 10 หน่วยที่มี (สูงสุด 3 แต้ม)",
       "summary": ""
     },
     {
