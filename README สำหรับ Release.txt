@@ -12,8 +12,8 @@
 ✘ Canto 4  
 ✘ Canto 5  
 ✘ Canto 6  
-✘ Canto 7  
-✘ Canto 8  
+✔ Canto 7  
+✔ Canto 8  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
@@ -28,10 +28,10 @@
 ✘ พิเศษ : The 3rd Walpurgis Night  
 ✘ 6.5 : Timekilling Time  
 ✘ พิเศษ : A Familiar Siren  
-✘ 6.5 : Murder on the WARP Express  
+✔ 6.5 : Murder on the WARP Express  
 ✘ พิเศษ : The 4th Walpurgis Night  
 ✘ พิเศษ : The 5th Walpurgis Night  
-✘ 7.5 : LCB Regular Check-up  
+✔ 7.5 : LCB Regular Check-up  
 ✔ 7.5 : Nocturnal Sweeping  
 
 **อื่นๆ**  
@@ -42,13 +42,10 @@
 
 ---
 
-## 💬 Discord สำหรับพูดคุยแจ้งปัญหา และช่องทางสนับสนุน
-
+## 💬 Discord คอมมูนิตี้แปลไทย 6k+ พูดคุย สอบถาม เล่นเกม หาเพื่อน และติดตามการอัพเดตของแปลไทย 6k+
+《แนะนำให้เข้าเพื่อติดตามการอัพเดตของ Mod ในอนาคต》 
 🎯 Discord: [https://discord.gg/3MDzwKNBe8](https://discord.gg/3MDzwKNBe8)  
 🎮 หากต้องการสนับสนุน โปรเจกต์แปลไทย:  
 - รับฟาร์มเกม Limbus  
-- MR ตาละ 5 บาท / เหมา 10 ตา 40 บาท  งานไวตาละไม่ถึง 20นาที
-- RR ราคา 80 – 120 บาท (ขึ้นกับตัวละครที่มี)  
-- เคลียร์ด่าน / เควสไม่ผ่าน ราคาประมาณ 20 – 50 บาท  
+- MR ตาละ 5 บาท / เหมา 10 ตา 40 บาท  งานไวตาละไม่ถึง 20นาที  
 📩 ติดต่อจ้างฟามทาง Facebook: [Tinnaphop Phummesri](https://www.facebook.com/jjet.smile)  
-☕ สนับสนุนค่าข้าวเด็กหอ: พร้อมเพย์ / Wallet: **0641095501**
