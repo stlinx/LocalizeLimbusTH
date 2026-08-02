@@ -44,12 +44,8 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาซซีฟของตัวตนใหม่  
-• แปลสถานะใหม่  
-• แปลสกิลศัตรูในรางรถไฟใหม่   
-• แปลหน้าต่าง Refraction Railway Line 2: Möbius ฺbokgak  
-• แปลบทพูดในระหว่างการต่อสู้ (ภาคพนักงาน W คอร์ปและผู้ฉีกมิติอีซัง)  
-
+• แปล Canto IX: The Unsevering เสร็จสมบูรณ์  
+• แปลเสียงประกาศของตัวละครซีซัน 0  
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
 
@@ -62,7 +58,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ Canto 6  
 ✔ Canto 7  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ Canto 8  JoshWaltz49  
-✘ Canto 9  JoshWaltz49 (WIP)  
+✔ Canto 9  JoshWaltz49  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
