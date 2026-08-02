@@ -1,0 +1,2698 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10412",
+  "identity": {
+    "id": "10412",
+    "english_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 212,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "3~7",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 1,
+      "pierce": 0.5,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1041201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSumDivision",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSum",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSum",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSumDivision",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Be Awed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [GazeRyoshu]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSum",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Be Awed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSum",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Be Awed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdder10412",
+          "value": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Be Awed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GivingLacerationAndVibrationStackAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 2,
+            "turn": 0
+          }
+        },
+        {
+          "script_name": "SpecialSkill1041203",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "stack": 7
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSumDivision",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOSTViaLacerationAndVibrationStackTarget_40",
+          "value": 0.01
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUpByBuffStackWithLimit70",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "SwitchVibrationOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "VibrationBleeding",
+                "buffOwner": "Target"
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "Awe, Contempt"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency<style=\"highlight\"></style>\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>Gaze</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)</style>\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max <style=\"highlight\">40</style>%)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "Deal +<style=\"highlight\">10</style>% damage for every 1 [GazeRyoshu] on target (max <style=\"highlight\">70</style>%)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 3 [GazeRyoshu]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GivingLacerationAndVibrationStackAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 2,
+            "turn": 0
+          }
+        },
+        {
+          "script_name": "SpecialSkill1041203",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "stack": 7
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSum",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOSTViaLacerationAndVibrationStackTarget_20",
+          "value": 0.01
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUpByBuffStackWithLimit35",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.05
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "GazeRyoshu",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "SwitchVibrationOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "VibrationBleeding",
+                "buffOwner": "Target"
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "Awe, Contempt"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>Gaze</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "Deal +5% damage for every 1 [GazeRyoshu] on target (max 35%)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 2 [GazeRyoshu]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041205",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 14,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "SubTargetSet1041205",
+          "value": -0.5
+        },
+        {
+          "script_name": "AttackDmgUp1041205",
+          "value": 2
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSumDivision",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 4
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOSTViaLacerationAndVibrationStackTarget_100",
+          "value": 0.02
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheckDivideByStackWithLimitAllTargets",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1,
+            "limit": 70
+          }
+        },
+        {
+          "script_name": "UseBuffAllStackOnEndAttackToEveryAttackedTargets",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "Target"
+          }
+        },
+        {
+          "script_name": "UseBuffAllStackOnEndAttackToEveryAttackedTargets",
+          "buffData": {
+            "buffKeyword": "ContemptRyoshu",
+            "target": "Target"
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "ContemptRyoshu",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 2.35
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "SwitchVibrationOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "VibrationBleeding",
+                "buffOwner": "Target"
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "Cascading Gaze of Awe Underneath Contempt"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies that have [GazeRyoshu] or [ContemptRyoshu] as sub-targets<style=\"highlight\"></style>\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +10% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 70%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "If target has [ContemptRyoshu], deal +<style=\"highlight\">235</style>% damage"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 4 [Vibration] and +2 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 6,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041205",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 12,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "SubTargetSet1041205",
+          "value": -0.5
+        },
+        {
+          "script_name": "AttackDmgUp1041205",
+          "value": 2
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaLacerationAndVibrationStackSumDivision",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOSTViaLacerationAndVibrationStackTarget_50",
+          "value": 0.02
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheckDivideByStackWithLimitAllTargets",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.07,
+            "limit": 49
+          }
+        },
+        {
+          "script_name": "UseBuffAllStackOnEndAttackToEveryAttackedTargets",
+          "buffData": {
+            "buffKeyword": "GazeRyoshu",
+            "target": "Target"
+          }
+        },
+        {
+          "script_name": "UseBuffAllStackOnEndAttackToEveryAttackedTargets",
+          "buffData": {
+            "buffKeyword": "ContemptRyoshu",
+            "target": "Target"
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "ContemptRyoshu",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 1.8
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "SwitchVibrationOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "VibrationBleeding",
+                "buffOwner": "Target"
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "Cascading Gaze of Awe Underneath Contempt"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies that have [GazeRyoshu] or [ContemptRyoshu] as sub-targets\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max 2)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max 50%)\n[WhenUse] Deal +7% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 49%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "If target has [ContemptRyoshu], deal +180% damage"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration] and +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 6,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041206",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 2,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": true,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "1041206Target"
+        },
+        {
+          "script_name": "TagetNumAdder1OnBSPerViaBuffCheckWithLimit2",
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheckDevideByTurnWithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "stack": 0,
+            "turn": 3,
+            "buffOwner": "Self",
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUseByDuplicateStack_BoseProjektil",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0,
+            "limit": 7
+          }
+        },
+        {
+          "script_name": "LoseMp1011303",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "buffOwner": "Self",
+            "value": 0,
+            "limit": 14
+          }
+        },
+        {
+          "script_name": "UseBuff1041206",
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "buffOwner": "Self",
+            "stack": 7,
+            "value": 20
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "CanDealOnlyMainTarget"
+            },
+            {
+              "script_name": "CheckMainTarget1041206"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "CanDealOnlySubTarget1011303"
+            },
+            {
+              "script_name": "CheckMainTargetCriticalPrevCoin1041206"
+            },
+            {
+              "script_name": "DmgUpByBuffStackWithLimit280",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.4
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.05,
+                "limit": 50
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.1,
+                "limit": 70
+              }
+            },
+            {
+              "script_name": "AttackDmgUpByPrevLoseHpRatio1041206_100",
+              "value": 1
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_6_or_special",
+      "name": {
+        "en": "I Shall Fire / Anytime"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)</style>\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)</style>\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "This Coin deals damage only against the main target"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "This Coin deals damage only against the sub-targets"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū survived, 1 random sub-target takes damage\n"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "Deal +<style=\"highlight\">40</style>% damage for every [BoseProjektil] on self (max <style=\"highlight\">280</style>%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "+<style=\"highlight\">5</style>% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">50</style>%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 6,
+            "en": "+<style=\"highlight\">10</style>% Damage on Critical Hit for every [BoseProjektil] on self (max <style=\"highlight\">70</style>%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 7,
+            "en": "Deal +1% damage for every 1% missing HP on the main target (max 100%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 8,
+            "en": "[OnSucceedAttack] Inflict 5 [Laceration] and +2 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041206",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 2,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": true,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "1041206Target"
+        },
+        {
+          "script_name": "TagetNumAdder1OnBSPerViaBuffCheckWithLimit2",
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "stack": 0,
+            "turn": 3,
+            "buffOwner": "Self",
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUseByDuplicateStack_BoseProjektil",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": -1,
+            "turn": 0,
+            "activeRound": 0,
+            "limit": 7
+          }
+        },
+        {
+          "script_name": "LoseMp1011303",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "buffOwner": "Self",
+            "value": 0,
+            "limit": 14
+          }
+        },
+        {
+          "script_name": "UseBuff1041206",
+          "buffData": {
+            "buffKeyword": "BoseProjektil",
+            "buffOwner": "Self",
+            "stack": 7,
+            "value": 20
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "CanDealOnlyMainTarget"
+            },
+            {
+              "script_name": "CheckMainTarget1041206"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "CanDealOnlySubTarget1011303"
+            },
+            {
+              "script_name": "CheckMainTargetCriticalPrevCoin1041206"
+            },
+            {
+              "script_name": "DmgUpByBuffStackWithLimit210",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.3
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.025,
+                "limit": 25
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByBuffStack",
+              "buffData": {
+                "buffKeyword": "BoseProjektil",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.07,
+                "limit": 49
+              }
+            },
+            {
+              "script_name": "AttackDmgUpByPrevLoseHpRatio1041206_100",
+              "value": 1
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_6_or_special",
+      "name": {
+        "en": "I Shall Fire / Anytime"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "This Coin deals damage only against the main target"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "This Coin deals damage only against the sub-targets"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū survived, 1 random sub-target takes damage\n"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "Deal +30% damage for every [BoseProjektil] on self (max 210%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "+2.5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">25%</style>)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 6,
+            "en": "+7% Damage on Critical Hit for every [BoseProjektil] on self (max 49%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 7,
+            "en": "Deal +1% damage for every 1% missing HP on the main target (max 100%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 8,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1041204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnStartBattle1041204",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 7
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderViaOnUseBuffCheck",
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 10
+          }
+        },
+        {
+          "script_name": "GiveBuffOnTakeAttackDamage1041204",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "To Grasp"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +10\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1041204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnStartBattle1041204",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 7
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderViaOnUseBuffCheck",
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnTakeAttackDamage1041204",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "To Grasp"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1041204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnStartBattle1041204",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 7
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderViaOnUseBuffCheck",
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnTakeAttackDamage1041204",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "To Grasp"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1041204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnStartBattle1041204",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 7
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderViaOnUseBuffCheck",
+          "buffData": {
+            "buffKeyword": "ContemptPersonality",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnTakeAttackDamage1041204",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10412",
+      "identity_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "To Grasp"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+        "coin_texts": []
+      }
+    }
+  ]
+}

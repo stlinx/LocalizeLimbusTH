@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10413",
+    "english_name": "Drifting Blade of Hongyuan Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 251,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 62,
+    "stagger_thresholds": [
+      {
+        "percent": 30,
+        "hp": 75
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 2.0,
+      "pierce": 0.5,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041301",
+      "name": {
+        "en": "Hey, Back Off"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [Burst]</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041301",
+      "name": {
+        "en": "Hey, Back Off"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041301",
+      "name": {
+        "en": "Hey, Back Off"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041301",
+      "name": {
+        "en": "Hey, Back Off"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1041302",
+      "name": {
+        "en": "Engraved in Flesh and Bone [銘肌鏤骨]"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + <style=\"highlight\">2</style>) (max 6; rounded down)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1041302",
+      "name": {
+        "en": "Engraved in Flesh and Bone [銘肌鏤骨]"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1041302",
+      "name": {
+        "en": "Engraved in Flesh and Bone [銘肌鏤骨]"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1041302",
+      "name": {
+        "en": "Engraved in Flesh and Bone [銘肌鏤骨]"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041303",
+      "name": {
+        "en": "Aiding Strike [加斥我援]"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) <style=\"highlight\">(max 120%)</style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041303",
+      "name": {
+        "en": "Aiding Strike [加斥我援]"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 100%)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1041304",
+      "name": {
+        "en": "Sentinel"
+      },
+      "affinity": "Pride",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)<style=\"highlight\"></style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1041304",
+      "name": {
+        "en": "Sentinel"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1041304",
+      "name": {
+        "en": "Sentinel"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1041304",
+      "name": {
+        "en": "Sentinel"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1041302",
+        "name": {
+          "en": "I.L.T.L.T.\n(I would've Liked to walk The Lord's path Together)"
+        },
+        "requirement": null,
+        "en": "When another ally's Skill hits an enemy: After that Attack, use \"Hey, Back Off\" as an Unopposed Attack against the enemy (once per turn)\n\nIn the same turn this unit Substituted in or Returned to the battlefield, gain 2 [ProtectStanceRyoshu]\nWhen this unit activates an Unopposed Attack due to The Lord of Hongyuan Hong Lu's \"The Heishou Lord\" Passive, treat this unit as if it has \"Heishou Pack\" or \"Jia Family\" Trait Keywords"
+      },
+      {
+        "source_passive_text_id": "1041301",
+        "name": {
+          "en": "Loyal Warrior"
+        },
+        "requirement": null,
+        "en": "If an ally is killed by enemy attack, or if the attacked ally's HP is at less than 25% after the attack: After that Attack, Drifting Blade of Hongyuan Ryōshū uses \"Aiding Strike\" as an Unopposed Attack against that enemy (once per Encounter)\n- The Lord of Hongyuan Hong Lu may activate this effect 1 more time past its usage limit\n\nIf \"Hey, Back Off\" is activated via the Passive 'I.L.T.L.T', the Skill deals +30% damage on Critical Hit and heals 2~4 SP for 1 other ally with the lowest SP (once per turn; excluding allies at -40 or lower SP)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1041321",
+        "name": {
+          "en": "Drifter"
+        },
+        "requirement": null,
+        "en": "Combat Start: The ally with the earliest Deployment order gains 1 Shield for every [Breath] on self (max 10)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Drifting Blade of Hongyuan Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

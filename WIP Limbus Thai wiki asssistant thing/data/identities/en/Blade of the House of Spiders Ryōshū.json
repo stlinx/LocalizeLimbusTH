@@ -1,0 +1,1259 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10415",
+    "english_name": "Blade of the House of Spiders Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 248,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 62,
+    "stagger_thresholds": [
+      {
+        "percent": 40,
+        "hp": 99
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on the Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy regardless of their level\n\n- If an ally is defeated, increase by 10 regardless of the ally's level\n\nBase factors decreasing Sanity\n\n- Decreases after losing a Clash based on the Clash count\n(Base Value is 5, raised by 10% per Clash count after 1)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on the Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy regardless of their level",
+          "If an ally is defeated, increase by 10 regardless of the ally's level"
+        ],
+        "decrease": [
+          "Decreases after losing a Clash based on the Clash count (Base Value is 5, raised by 10% per Clash count after 1)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041501",
+      "name": {
+        "en": "Tripleslash [三連]"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 6+ [Breath], Coin Power +1\n<style=\"highlight\">[WhenUse] Final Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 2)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041501",
+      "name": {
+        "en": "Tripleslash [三連]"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 2)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041501",
+      "name": {
+        "en": "Tripleslash [三連]"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 2)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041501",
+      "name": {
+        "en": "Tripleslash [三連]"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 2)% of this Coin's final damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041505",
+      "name": {
+        "en": "Slay the Heavens - Tiansha [天殺]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\nDeactivates allies' \"Base factors decreasing Sanity\" while using this Skill\n[WhenUse] For this Encounter, lose 1 Offense Level and gain Base Power +1 for this unit's Attacks (4 times per Encounter)\n[TargetKill] Heal 20 SP\n[TargetKill] Gain [RyoshuEGOPF] equal to damage dealt using this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 20 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target is a The House of Spiders ally, deal 120% HP damage as fixed damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041505",
+      "name": {
+        "en": "Slay the Heavens - Tiansha [天殺]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\nDeactivates allies' \"Base factors decreasing Sanity\" while using this Skill\n[WhenUse] For this Encounter, lose 1 Offense Level and gain Base Power +1 for this unit's Attacks (4 times per Encounter)\n[TargetKill] Heal 20 SP\n[TargetKill] Gain [RyoshuEGOPF] equal to damage dealt using this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 20 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target is a The House of Spiders ally, deal 120% HP damage as fixed damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041505",
+      "name": {
+        "en": "Slay the Heavens - Tiansha [天殺]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\nDeactivates allies' \"Base factors decreasing Sanity\" while using this Skill\n[WhenUse] For this Encounter, lose 1 Offense Level and gain Base Power +1 for this unit's Attacks (4 times per Encounter)\n[TargetKill] Heal 20 SP\n[TargetKill] Gain [RyoshuEGOPF] equal to damage dealt using this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 20 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target is a The House of Spiders ally, deal 120% HP damage as fixed damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041505",
+      "name": {
+        "en": "Slay the Heavens - Tiansha [天殺]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\nDeactivates allies' \"Base factors decreasing Sanity\" while using this Skill\n[WhenUse] For this Encounter, lose 1 Offense Level and gain Base Power +1 for this unit's Attacks (4 times per Encounter)\n[TargetKill] Heal 20 SP\n[TargetKill] Gain [RyoshuEGOPF] equal to damage dealt using this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 20 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target is a The House of Spiders ally, deal 120% HP damage as fixed damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1041502",
+      "name": {
+        "en": "Tripleslash - Echoshear [三連 - 殘]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] At 6+ [Breath], Coin Power +1\n<style=\"highlight\">[WhenUse] Final Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1041502",
+      "name": {
+        "en": "Tripleslash - Echoshear [三連 - 殘]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1041502",
+      "name": {
+        "en": "Tripleslash - Echoshear [三連 - 殘]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1041502",
+      "name": {
+        "en": "Tripleslash - Echoshear [三連 - 殘]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1041506",
+      "name": {
+        "en": "Inevitable Termination [必然殺]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] Gain +1 [Breath] Count\n[BeforeAttack] If this Skill was triggered by Skill 3,\n- Apply this Skill's Atk Weight equal to the number of enemies that have [SojiRyoshuEchoFuture] (min 1)\n- Prioritize enemies that have [SojiRyoshuEchoFuture]\n[EndSkill] Target's [SojiRyoshuEchoFuture] expires",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1041506",
+      "name": {
+        "en": "Inevitable Termination [必然殺]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] Gain +1 [Breath] Count\n[BeforeAttack] If this Skill was triggered by Skill 3,\n- Apply this Skill's Atk Weight equal to the number of enemies that have [SojiRyoshuEchoFuture] (min 1)\n- Prioritize enemies that have [SojiRyoshuEchoFuture]\n[EndSkill] Target's [SojiRyoshuEchoFuture] expires",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1041506",
+      "name": {
+        "en": "Inevitable Termination [必然殺]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] Gain +1 [Breath] Count\n[BeforeAttack] If this Skill was triggered by Skill 3,\n- Apply this Skill's Atk Weight equal to the number of enemies that have [SojiRyoshuEchoFuture] (min 1)\n- Prioritize enemies that have [SojiRyoshuEchoFuture]\n[EndSkill] Target's [SojiRyoshuEchoFuture] expires",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1041506",
+      "name": {
+        "en": "Inevitable Termination [必然殺]"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] Gain +1 [Breath] Count\n[BeforeAttack] If this Skill was triggered by Skill 3,\n- Apply this Skill's Atk Weight equal to the number of enemies that have [SojiRyoshuEchoFuture] (min 1)\n- Prioritize enemies that have [SojiRyoshuEchoFuture]\n[EndSkill] Target's [SojiRyoshuEchoFuture] expires",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041503",
+      "name": {
+        "en": "Rend Space [空間斬]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+12",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WhenUse] Final Power +1 for every 4 [Breath] on self (max 5)\n<style=\"highlight\">[WhenUse] Base Power +1 for every 6 ([Combustion] + [Laceration]) on the main target (max 5)</style>\n[WhenUse] Deal +5% damage for every [SojiRyoshuEchoPast] on self\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain +1 Atk Weight for every 2 [SojiRyoshuEchoPast] on self (max 2)\n[WhenUse] Deal <style=\"highlight\">+30%</style> damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[EndSkill] Randomly inflict ([SojiRyoshuEchoPast] on self + 10) [PhantomIncisionID] between targets hit by this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal <style=\"highlight\">+50%</style> damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x <style=\"highlight\">4</style>)% of this Coin's final damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041503",
+      "name": {
+        "en": "Rend Space [空間斬]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 10,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WhenUse] Final Power +1 for every 4 [Breath] on self (max 5)\n[WhenUse] Deal +5% damage for every [SojiRyoshuEchoPast] on self\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain +1 Atk Weight for every 2 [SojiRyoshuEchoPast] on self (max 2)\n[WhenUse] Deal +15% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[EndSkill] Randomly inflict ([SojiRyoshuEchoPast] on self + 10) [PhantomIncisionID] between targets hit by this Skill",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 1,
+      "source_skill_text_id": "1041507",
+      "name": {
+        "en": "Rend Space - Echoshear [空間斬 - 殘]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WhenUse] For every [SojiRyoshuEntangle] on self, this Skill loses 1 Base Power and gains an extra Coin 1 before using Coin 2\n[WhenUse] The final Coin gains Coin Power +1 for every [SojiRyoshuEchoPast] on self\n[WhenUse] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Parts)\n[EndSkill] Raise [SojiRyoshuEchoPast]'s Min & Max Stack cap by 1 and reset [SojiRyoshuEchoPast] on self to minimum Stack (max 2 times per Encounter)\n[EndSkill] Consume 50 [PhantomIncisionTotalID]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Deal +30% damage on Critical Hit"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume all [PhantomIncisionID] on target and deal Slash damage equal to ([PhantomIncisionID] consumed / 10)% of this Coin's final damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 4)% of this Coin's final damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "[CriticalOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 1,
+      "source_skill_text_id": "1041508",
+      "name": {
+        "en": "Rend Space - String Connection [空間斬 - 緣]"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 14,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger the target's Defense Skills\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain [SojiRyoshuShin]\n[EndSkill] Remove this unit's first Stagger Threshold (once per Encounter)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 5 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Activate [Combustion] on target. Target loses 1 [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1041504",
+      "name": {
+        "en": "Phantom Step [殘像步]"
+      },
+      "affinity": "Pride",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Targets 1 The House of Spiders ally with the lattermost Deployment order (2 times per turn)\n- At 1+ [SojiRyoshuEntangle], target 1 additional ally\n- At Skill End of all of the Skills equipped by target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use \"Slay the Heavens - Tiansha\" against target as an Unopposed Attack (once per Identity)\n - Prioritizes The House of Spiders: The Pinky Apprentice Sinclair last\n[StartBattle] Gain +3 [Breath] Count (once per turn)\n<style=\"highlight\">[OnSucceedEvade] Gain 1 [Breath] (3 times per turn)</style>",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1041504",
+      "name": {
+        "en": "Phantom Step [殘像步]"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Targets 1 The House of Spiders ally with the lattermost Deployment order (2 times per turn)\n- At 1+ [SojiRyoshuEntangle], target 1 additional ally\n- At Skill End of all of the Skills equipped by target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use \"Slay the Heavens - Tiansha\" against target as an Unopposed Attack (once per Identity)\n - Prioritizes The House of Spiders: The Pinky Apprentice Sinclair last\n[StartBattle] Gain +3 [Breath] Count (once per turn)",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1041504",
+      "name": {
+        "en": "Phantom Step [殘像步]"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Targets 1 The House of Spiders ally with the lattermost Deployment order (2 times per turn)\n- At 1+ [SojiRyoshuEntangle], target 1 additional ally\n- At Skill End of all of the Skills equipped by target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use \"Slay the Heavens - Tiansha\" against target as an Unopposed Attack (once per Identity)\n - Prioritizes The House of Spiders: The Pinky Apprentice Sinclair last\n[StartBattle] Gain +3 [Breath] Count (once per turn)",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1041504",
+      "name": {
+        "en": "Phantom Step [殘像步]"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Targets 1 The House of Spiders ally with the lattermost Deployment order (2 times per turn)\n- At 1+ [SojiRyoshuEntangle], target 1 additional ally\n- At Skill End of all of the Skills equipped by target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use \"Slay the Heavens - Tiansha\" against target as an Unopposed Attack (once per Identity)\n - Prioritizes The House of Spiders: The Pinky Apprentice Sinclair last\n[StartBattle] Gain +3 [Breath] Count (once per turn)",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": null,
+        "name": {
+          "en": "Saikai [<b>再会</b>]"
+        },
+        "requirement": null,
+        "en": "Upon entering the Encounter for the first time, gain 0 [img:Afterimage Entanglement.png] Entanglement [img:Afterimage Entanglement.png] Entanglement- Max Stack: 4\n- Skill and Passive effects can increase Min & Max Stack of this effect to 5 and 9, respectively\n\nThe threads of fate are entwined by encounter, and by the length of time surrendered unto another.\nThe myriad moments wherein one's time and another's overlap, be they fair or foul, will bind their strings in pitiless entanglement.\nThe time that has already been shared cannot be undone. and 0 [img:String Severance -絕緣-.png] String Severance [絕緣] [img:String Severance -絕緣-.png] String Severance [絕緣]- Max Stack: 4\n- Gain 1 Stack for every The House of Spiders Nursefather ally death\n- Gain a different unique effect based on which of The House of Spiders ally was defeated\n- Take -7.5% damage for every Stack\n\nAnd so, let it be cut and severed. Even if it strays from what it must be.\n\nUpon entering the Encounter for the first time, for every 3 The House of Spiders Identities in the Loadout (including this unit), raise [img:Afterimage Entanglement.png] Entanglement [img:Afterimage Entanglement.png] Entanglement- Max Stack: 4\n- Skill and Passive effects can increase Min & Max Stack of this effect to 5 and 9, respectively\n\nThe threads of fate are entwined by encounter, and by the length of time surrendered unto another.\nThe myriad moments wherein one's time and another's overlap, be they fair or foul, will bind their strings in pitiless entanglement.\nThe time that has already been shared cannot be undone.'s Min & Max Stack cap by 1 (max 3)\n\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\n\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn (once per Encounter)\n\nApply the following effects based on The House of Spiders ally death:\n- Gain 1 [img:Afterimage Entanglement.png] Entanglement [img:Afterimage Entanglement.png] Entanglement- Max Stack: 4\n- Skill and Passive effects can increase Min & Max Stack of this effect to 5 and 9, respectively\n\nThe threads of fate are entwined by encounter, and by the length of time surrendered unto another.\nThe myriad moments wherein one's time and another's overlap, be they fair or foul, will bind their strings in pitiless entanglement.\nThe time that has already been shared cannot be undone.\n- For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\n· The House of Spiders: The Index Nursefather Yi Sang: On Base Attack Skill Use, convert the final Coin into [img:Unbreakable Coin.png] Unbreakable Coin [img:Unbreakable Coin.png] Unbreakable Coin- This Coin does not break upon Clash Lose.\n- If an Attack Skill has this Coin, attack with this Coin after getting hit.\n- Upon Clash Lose, fix the Coin Power of the unbroken Coin to 1. Deal +10% damage with Base Attack Skills' [img:Unbreakable Coin.png] Unbreakable Coin [img:Unbreakable Coin.png] Unbreakable Coin- This Coin does not break upon Clash Lose.\n- If an Attack Skill has this Coin, attack with this Coin after getting hit.\n- Upon Clash Lose, fix the Coin Power of the unbroken Coin to 1s\n· The Index Proxy - Effloresced E.G.O::Procuration Don Quixote: On Base Attack Skill Use, gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).. On Crit using Base Attack Skills, inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)\n· The House of Spiders: The Middle Apprentice Ishmael: Defense Level +2. Inflict +1 more [img:Burn.png] Burn [img:Burn.png] BurnTurn End: Take X fixed damage. Lasts Y turn(s). Potency using Base Skills\n· The House of Spiders: The Ring Nursefather Hong Lu: Gain [img:Somatic Frisson-inspiring Melody.png] Somatic Frisson-inspiring Melody [img:Somatic Frisson-inspiring Melody.png] Somatic Frisson-inspiring Melody- Min & Max Speed +1\n- Base Attack Skills gain Clash Power +1 and deal +10% damage\n· The House of Spiders: The Ring Apprentice Faust: Gain Shield equal to 10% HP at every Turn Start\n· The House of Spiders: The Pinky Apprentice Sinclair: Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count and 1 [img:Crit DMG Up.png] Crit DMG Up [img:Crit DMG Up.png] Crit DMG UpFor this turn: Deal +10% damage on Critical Hit for every Stack at every Turn Start\n\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains +1 Skill Slot for every 3 The House of Spiders allies that are defeated (max 3 times)\n- This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of this Encounter\n- For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\n\nThis Identity only counts as an \"Identity that applies [img:Burn.png] Burn [img:Burn.png] BurnTurn End: Take X fixed damage. Lasts Y turn(s)., [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage., and [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\"\n\nWhen conditions are met, change battle music for the rest of the Encounter (excluding certain Encounters)\n\n'The things I dread seeing again always come back. The things I ache to see again never do.'\n'That is why I must steel my heart cold in the moment of reunion.'"
+      },
+      {
+        "source_passive_text_id": "1041504",
+        "name": {
+          "en": "Spacetime Afterimage Collapse"
+        },
+        "requirement": null,
+        "en": "Turn Start: Inflict [SojiRyoshuEchoFuture] on a random enemy (in Focused Encounters, the Core)\n- Inflict [SojiRyoshuEchoFuture] on 1 additional random enemy for every 3 defeated The House of Spiders allied Identities (max 3)\n- Combat Start: If an enemy that has [SojiRyoshuEchoFuture] is the main target of this unit's Base Attack Skills, use \"Inevitable Termination\" as an Unopposed Attack before using the said Base Attack Skill (once per turn)\n- On Base Attack Skill Use against target that has [SojiRyoshuEchoFuture],\n · Convert all Coins of the said Skill into [SuperCoin]s and gain Final Power +1\n · Gain 1 [SojiRyoshuEchoPast] (once per turn)"
+      },
+      {
+        "source_passive_text_id": "1041503",
+        "name": {
+          "en": "Dihui Star [地慧星]"
+        },
+        "requirement": null,
+        "en": "At 50+ [PhantomIncisionTotalID], activate \"Rend Space - String Connection\" against a random enemy at the very end of that turn (once per Encounter)\n- After using \"Rend Space - String Connection\" due to this effect, apply the following effects on self:\n· Cannot Retreat for this Encounter\n· Turn End: At 50+ [PhantomIncisionTotalID], replace a Base Skill with \"Rend Space - Echoshear\" at the next Turn Start (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)"
+      },
+      {
+        "source_passive_text_id": "1041501",
+        "name": {
+          "en": "Afterimage Reverberation"
+        },
+        "requirement": null,
+        "en": "Deal +1% damage on Critical Hit using Base Attack Skills for every 1 surplus [Breath] past 20 [Breath] on self (max 10%)\nOn Crit using Base Attack Skills, inflict 1 [PhantomIncisionID]\n\nGreat Trichiliocosm Ryōshū E.G.O Passive can be activated using Attack Skills targeting allies"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1041521",
+        "name": {
+          "en": "The Master's Tutelage [師事]"
+        },
+        "requirement": null,
+        "en": "When the ally with the earliest Deployment order uses a Base Skill, the said ally gains 2 [Breath] Potency (3 times per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Blade of the House of Spiders Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

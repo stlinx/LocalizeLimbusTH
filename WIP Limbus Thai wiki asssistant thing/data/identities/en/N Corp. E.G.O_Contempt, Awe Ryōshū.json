@@ -1,0 +1,957 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10412",
+    "english_name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 212,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "3~7",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 58,
+    "stagger_thresholds": [
+      {
+        "percent": 50,
+        "hp": 106
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 0.5,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041201",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041201",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041201",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041201",
+      "name": {
+        "en": "Contemptuous Thing"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1041202",
+      "name": {
+        "en": "Be Awed"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [GazeRyoshu]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1041202",
+      "name": {
+        "en": "Be Awed"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1041202",
+      "name": {
+        "en": "Be Awed"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] At 6+ ([Laceration] + [Vibration]) on target, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1041202",
+      "name": {
+        "en": "Be Awed"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [GazeRyoshu]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041203",
+      "name": {
+        "en": "Awe, Contempt"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency<style=\"highlight\"></style>\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>Gaze</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)</style>\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max <style=\"highlight\">40</style>%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Deal +<style=\"highlight\">10</style>% damage for every 1 [GazeRyoshu] on target (max <style=\"highlight\">70</style>%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [GazeRyoshu]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041203",
+      "name": {
+        "en": "Awe, Contempt"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>Gaze</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Deal +5% damage for every 1 [GazeRyoshu] on target (max 35%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [GazeRyoshu]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041205",
+      "name": {
+        "en": "Cascading Gaze of Awe Underneath Contempt"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 14,
+      "coin_power": "+14",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies that have [GazeRyoshu] or [ContemptRyoshu] as sub-targets<style=\"highlight\"></style>\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">4</style>)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">100</style>%)\n[WhenUse] Deal +10% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 70%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "If target has [ContemptRyoshu], deal +<style=\"highlight\">235</style>% damage"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 4 [Vibration] and +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041205",
+      "name": {
+        "en": "Cascading Gaze of Awe Underneath Contempt"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 12,
+      "coin_power": "+14",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies that have [GazeRyoshu] or [ContemptRyoshu] as sub-targets\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max 2)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max 50%)\n[WhenUse] Deal +7% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 49%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "If target has [ContemptRyoshu], deal +180% damage"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Vibration] and +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_6_or_special",
+      "uptie": 4,
+      "source_skill_text_id": "1041206",
+      "name": {
+        "en": "I Shall Fire / Anytime"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+7",
+      "coin_count": 2,
+      "deck_count": 0,
+      "attack_weight": 2,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)</style>\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)</style>\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "This Coin deals damage only against the main target"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "This Coin deals damage only against the sub-targets"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū survived, 1 random sub-target takes damage\n"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "Deal +<style=\"highlight\">40</style>% damage for every [BoseProjektil] on self (max <style=\"highlight\">280</style>%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "+<style=\"highlight\">5</style>% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">50</style>%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 6,
+          "en": "+<style=\"highlight\">10</style>% Damage on Critical Hit for every [BoseProjektil] on self (max <style=\"highlight\">70</style>%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 7,
+          "en": "Deal +1% damage for every 1% missing HP on the main target (max 100%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 8,
+          "en": "[OnSucceedAttack] Inflict 5 [Laceration] and +2 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_6_or_special",
+      "uptie": 3,
+      "source_skill_text_id": "1041206",
+      "name": {
+        "en": "I Shall Fire / Anytime"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 2,
+      "deck_count": 0,
+      "attack_weight": 2,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "This Coin deals damage only against the main target"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "This Coin deals damage only against the sub-targets"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū survived, 1 random sub-target takes damage\n"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "en": "Deal +30% damage for every [BoseProjektil] on self (max 210%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "en": "+2.5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">25%</style>)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 6,
+          "en": "+7% Damage on Critical Hit for every [BoseProjektil] on self (max 49%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 7,
+          "en": "Deal +1% damage for every 1% missing HP on the main target (max 100%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 8,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1041204",
+      "name": {
+        "en": "To Grasp"
+      },
+      "affinity": "Sloth",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +10\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1041204",
+      "name": {
+        "en": "To Grasp"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1041204",
+      "name": {
+        "en": "To Grasp"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1041204",
+      "name": {
+        "en": "To Grasp"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[StartBattle] If this unit does not have [ContemptPersonality], and at 7+ (sum of [GazeRyoshu] on all enemies) or 1+ (sum of [ContemptRyoshu] on all enemies), gain [ContemptPersonality] (once per turn)\n[WhenUse] If this unit has [ContemptPersonality], Final Power +5\n[WhenUse] When hit while using this Skill, inflict +1 [Laceration] Count against the attacker (3 times per turn)",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1041202",
+        "name": {
+          "en": "Grasp that Forbids Falling"
+        },
+        "requirement": null,
+        "en": "When Staggered, gain 4 [Protection] and gain [ContemptPersonality] next turn (once per Encounter)\n\nOn death, apply the following effects against 3 enemies that have the most [GazeRyoshu] or [ContemptRyoshu] (in descending order; in Focused Encounters, Parts)\n- Inflict 2 [Binding] next turn\n- Inflict 2 [Laceration] and +1 [Laceration] Count\n- Inflict 2 [Vibration] and +1 [Vibration] Count"
+      },
+      {
+        "source_passive_text_id": "1041203",
+        "name": {
+          "en": "Let me show everyone something very interesting"
+        },
+        "requirement": null,
+        "en": "Combat Start: N Corp. E.G.O::<noparse>Fell Bullet</noparse> Yi Sang's 'Target Readjustment Fire' Skill gains the following effects:\n- Before using the Skill, if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū has [ContemptPersonality] and can use her base Skills, use \"I Shall Fire / Anytime\" against Ryōshū (once per turn; 'I Shall Fire / Anytime' reflects Yi Sang's Uptie Tier)\n- Before using the Skill, if the Skill's main target isn't N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ryōshū, and if she can use her base Skills, Ryōshū uses her Skill 1 as an Unopposed Attack against the main target (once per turn; [CantIdentify]; Skill 1 deals -50% damage; the Skill does not kill the main target)"
+      },
+      {
+        "source_passive_text_id": "1041201",
+        "name": {
+          "en": "@#$'s Hand I Let Slip"
+        },
+        "requirement": null,
+        "en": "On Hit against enemies, inflict 1 [GazeRyoshu] (once per turn per enemy)\n- If this unit has [GazePersonality], inflict +1 more [GazeRyoshu]\n\nWhen hit by an enemy, inflict 1 [GazeRyoshu] against the attacker (once per Skill; 3 times per turn)\n- If this unit has [ContemptPersonality]: when hit by the attacker's final Coin, inflict (10% of the damage dealt by that final Coin) Sloth damage (max 10 per Skill; max 30 per turn)\n\nIf this unit used its Base Attack Skills to consume [GazeRyoshu] or [ContemptRyoshu] on an enemy:\nNext turn, gain ((enemy's [GazeRyoshu] consumed/2) + (enemy's [ContemptRyoshu] consumed x 3)) [GazePersonality] (6 per turn; rounded down)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1041221",
+        "name": {
+          "en": "It flows and cries"
+        },
+        "requirement": null,
+        "en": "If the ally with the earliest Deployment order hits an enemy using its attack, inflict 1 [Laceration] (once per enemy per turn)\n- If target has [Laceration], inflict +1 [Laceration] Count as well\n\nIf the ally with the earliest Deployment order is hit by an enemy, inflict 1 [Vibration] against the attacker (3 times per turn)\n- If the attacker has [Vibration], inflict +1 [Vibration] Count as well"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\N Corp. E.G.O_Contempt, Awe Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

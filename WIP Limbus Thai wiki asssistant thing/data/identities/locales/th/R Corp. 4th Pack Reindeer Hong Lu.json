@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10612",
+  "english_name": "R Corp. 4th Pack Reindeer Hong Lu",
+  "skills": [
+    {
+      "source_skill_text_id": "1061201",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "ฟาดพลังงาน",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 15%)\nหากมีค่า [Charge] 2+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\nหากมีจำนวน [Charge] 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวน [Charge] +(ค่า [Charge] + 1) หน่วย (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061201",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "ฟาดพลังงาน",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 10%)\nหากมีค่า [Charge] 2+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวน [Charge] +(ค่า [Charge] + 1) หน่วย (สูงสุด 3 หน่วย)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061201",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "ฟาดพลังงาน",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 10%)\nหากมีค่า [Charge] 2+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวน [Charge] +(ค่า [Charge] + 1) หน่วย (สูงสุด 3 หน่วย)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061201",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "ฟาดพลังงาน",
+      "description": "หากมีค่า [Charge] 2+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061202",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "แส้พลังจิต",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 20%)\n[WhenUse] หากมีจำนวน [Charge] อยู่ระหว่าง 5~9 หน่วย:\n- ได้รับค่า [Sinking] 10 หน่วย และเพิ่มจำนวน [Charge] ของตัวละครนี้ขึ้นเป็น 10 หน่วย\n- สกิลนี้จะได้รับคุณสมบัติดังต่อไปนี้: [CantIdentify], [WideAreaRampage], และเพิ่มน้ำหนักการโจมตี +1 ช่อง\n- [BeforeUse] หากมีค่า [Charge] 5+ หน่วย สกิลนี้จะไม่รับคุณสมบัติ [CantIdentify]</style>\n[WhenUse] ผลาญจำนวน [Charge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +2 แต้ม\n[BeforeAttack] หากมีจำนวน [Charge] เหลืออยู่ 8+ หน่วย จะผลาญจำนวน [Charge] 8 หน่วย เพื่อสร้างความเสียหายเพิ่มขึ้น +40%",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 10% ของความเสียหายที่ทำได้"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061202",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "แส้พลังจิต",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 10%)\n[WhenUse] หากมีจำนวน [Charge] อยู่ระหว่าง 5~9 หน่วย:\n- ได้รับค่า [Sinking] 15 หน่วย และเพิ่มจำนวน [Charge] ของตัวละครนี้ขึ้นเป็น 10 หน่วย\n- สกิลนี้จะได้รับคุณสมบัติดังต่อไปนี้: [CantIdentify], [WideAreaRampage], และเพิ่มน้ำหนักการโจมตี +1 ช่อง\n[WhenUse] ผลาญจำนวน [Charge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 10% ของความเสียหายที่ทำได้"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061202",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "แส้พลังจิต",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 10%)\n[WhenUse] หากมีจำนวน [Charge] อยู่ระหว่าง 5~9 หน่วย:\n- ได้รับค่า [Sinking] 15 หน่วย และเพิ่มจำนวน [Charge] ของตัวละครนี้ขึ้นเป็น 10 หน่วย\n- สกิลนี้จะได้รับคุณสมบัติดังต่อไปนี้: [CantIdentify], [WideAreaRampage], และเพิ่มน้ำหนักการโจมตี +1 ช่อง\n[WhenUse] ผลาญจำนวน [Charge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 5% ของความเสียหายที่ทำได้"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ดึงเกจชะงักขึ้นเท่ากับ 10% ของความเสียหายที่ทำได้"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061202",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "แส้พลังจิต",
+      "description": "[WhenUse] หากมีจำนวน [Charge] อยู่ระหว่าง 5~9 หน่วย:\n- ได้รับค่า [Sinking] 15 หน่วย และเพิ่มจำนวน [Charge] ของตัวละครนี้ขึ้นเป็น 10 หน่วย\n- สกิลนี้จะได้รับคุณสมบัติดังต่อไปนี้: [CantIdentify], [WideAreaRampage], และเพิ่มน้ำหนักการโจมตี +1 ช่อง\n[WhenUse] ผลาญจำนวน [Charge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061203",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "ตั้งสมาธิจดจ่อ",
+      "description": "แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม และแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุดอย่างละ 5 แต้ม)\nหากมีจำนวน [Charge] 10+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +4 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +7 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายเพิ่มขึ้น +(แต้มของสกิลนี้ x 5)% (สูงสุด 150%)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "หากมีค่า [Charge] 3+ หน่วย จะสร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 100%)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] ได้รับจำนวน [Charge] +(ค่า [Charge] + 3) หน่วย (สูงสุด 8 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย และจำนวนครั้ง [Sinking] +4 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061203",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "ตั้งสมาธิจดจ่อ",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Charge] ที่มี (สูงสุด 5 แต้ม)\nหากมีจำนวน [Charge] 10+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +5 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายเพิ่มขึ้น +(แต้มของสกิลนี้ x 5)% (สูงสุด 100%)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ได้รับจำนวน [Charge] +(ค่า [Charge] + 1) หน่วย (สูงสุด 6 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Sinking] 4 หน่วย และจำนวนครั้ง [Sinking] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061204",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "บีบอัดพลังงาน",
+      "description": "[WhenUse] หากมีจำนวน [Charge] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +4 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย (มีผล 2 ครั้ง/เทิร์น)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061204",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "บีบอัดพลังงาน",
+      "description": "[WhenUse] หากมีจำนวน [Charge] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061204",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "บีบอัดพลังงาน",
+      "description": "[WhenUse] หากมีจำนวน [Charge] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1061204",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "บีบอัดพลังงาน",
+      "description": "[WhenUse] หากมีจำนวน [Charge] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] ได้รับจำนวน [Charge] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1061201",
+        "name": "เขากวางที่เน้นด้านการชาร์จคลื่นสมอง",
+        "description": "ได้รับค่า [Charge] 1 หน่วย ทุก ๆ ครั้งที่ตัวละครนี้ผลาญจำนวน [Charge] สะสมรวม 10 หน่วยในการเผชิญหน้าครั้งนี้\n\nหากมีค่า [Charge] 2+ หน่วย:\n- สกิลโจมตีพื้นฐานสร้างค่า [Sinking] เพิ่มขึ้น +1 หน่วย (ไม่ทำงานหากสร้างแค่จำนวนครั้ง [Sinking] หรือหากสร้างค่า [Sinking] ใส่ตนเอง)\n- ความเสียหายจากสกิลโจมตีพื้นฐานเพิ่มขึ้น +(ค่า [Charge] x 3)% (สูงสุด 15%)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1061221",
+        "name": "ตัวช่วยบดขยี้แบบชาร์จ",
+        "description": "พันธมิตร 1 คนที่มีค่า [Charge] สูงสุด: เมื่อใช้สกิลโจมตีพื้นฐานที่สามารถรับจำนวน [Charge] ได้ เหรียญสุดท้ายจะสร้างความเสียหายเพิ่มขึ้น +10%"
+      }
+    ]
+  }
+}

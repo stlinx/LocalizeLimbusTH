@@ -1,0 +1,1929 @@
+{
+  "schema_version": 1,
+  "source": "manual_fixture",
+  "notes": [
+    "Small hand-authored boss fixtures for simulator development.",
+    "These are not a full enemy import and should be replaced or corrected by admin review.",
+    "Includes wiki_rien_enemy_draft from saved Rien/Enemy HTML as a partial review fixture."
+  ],
+  "bosses": [
+    {
+      "boss_id": "manual_training_clock",
+      "name_en": "Manual Test Boss: Training Clock",
+      "name_th": "บอสทดสอบ: นาฬิกาฝึกซ้อม",
+      "level": 60,
+      "hp": 900,
+      "defense_level": 60,
+      "body_parts": [
+        {
+          "part_id": "body",
+          "name_en": "Body",
+          "name_th": "ลำตัว",
+          "hp": 900,
+          "stagger_thresholds": [
+            70,
+            40
+          ],
+          "resistances": {
+            "slash": 1.0,
+            "pierce": 1.0,
+            "blunt": 1.0,
+            "wrath": 1.0,
+            "lust": 1.0,
+            "sloth": 1.0,
+            "gluttony": 1.0,
+            "gloom": 1.0,
+            "pride": 1.0,
+            "envy": 1.0
+          }
+        }
+      ],
+      "skills": [
+        {
+          "skill_id": "training_clock_s1",
+          "name_en": "Measured Strike",
+          "name_th": "โจมตีวัดผล",
+          "slot": "skill_1",
+          "affinity": "Pride",
+          "damage_type": "Blunt",
+          "base_power": 4,
+          "coin_power": 3,
+          "coin_count": 2,
+          "attack_weight": 1,
+          "effects": [
+            "[On Hit] Inflict 1 [AttackPowerDown] next turn"
+          ]
+        },
+        {
+          "skill_id": "training_clock_s2",
+          "name_en": "Heavy Check",
+          "name_th": "ตรวจสอบอย่างหนัก",
+          "slot": "skill_2",
+          "affinity": "Gloom",
+          "damage_type": "Blunt",
+          "base_power": 5,
+          "coin_power": 4,
+          "coin_count": 2,
+          "attack_weight": 1,
+          "effects": [
+            "[On Hit] Inflict 2 [Paralysis] next turn"
+          ]
+        }
+      ],
+      "starting_statuses": [],
+      "review_status": "manual_test_fixture"
+    },
+    {
+      "boss_id": "manual_status_dummy",
+      "name_en": "Manual Test Boss: Status Dummy",
+      "name_th": "บอสทดสอบ: หุ่นสถานะ",
+      "level": 60,
+      "hp": 1200,
+      "defense_level": 58,
+      "body_parts": [
+        {
+          "part_id": "core",
+          "name_en": "Core",
+          "name_th": "แกนกลาง",
+          "hp": 1200,
+          "stagger_thresholds": [
+            65,
+            35
+          ],
+          "resistances": {
+            "slash": 0.75,
+            "pierce": 1.0,
+            "blunt": 1.5,
+            "wrath": 1.0,
+            "lust": 1.0,
+            "sloth": 0.75,
+            "gluttony": 1.0,
+            "gloom": 1.25,
+            "pride": 1.0,
+            "envy": 1.0
+          }
+        }
+      ],
+      "skills": [
+        {
+          "skill_id": "status_dummy_s1",
+          "name_en": "Bleeding Tap",
+          "name_th": "แต้มเลือดไหล",
+          "slot": "skill_1",
+          "affinity": "Wrath",
+          "damage_type": "Pierce",
+          "base_power": 3,
+          "coin_power": 4,
+          "coin_count": 2,
+          "attack_weight": 1,
+          "effects": [
+            "[On Hit] Inflict 2 [Bleeding]",
+            "[On Hit] Inflict 1 [Bleeding] Count"
+          ]
+        },
+        {
+          "skill_id": "status_dummy_s2",
+          "name_en": "Rupture Probe",
+          "name_th": "ตรวจรอยแยก",
+          "slot": "skill_2",
+          "affinity": "Gluttony",
+          "damage_type": "Slash",
+          "base_power": 4,
+          "coin_power": 5,
+          "coin_count": 1,
+          "attack_weight": 1,
+          "effects": [
+            "[On Hit] Inflict 3 [Rupture]",
+            "[On Hit] Inflict 1 [Rupture] Count"
+          ]
+        }
+      ],
+      "starting_statuses": [
+        {
+          "status_key": "Protection",
+          "potency": 2,
+          "count": 1,
+          "target": "self"
+        }
+      ],
+      "review_status": "manual_test_fixture"
+    },
+    {
+      "boss_id": "wiki_rien_enemy_draft",
+      "name_en": "The Index Nursefather - Rien",
+      "name_th": null,
+      "source": "wiki_html_draft",
+      "source_url": "https://limbuscompany.wiki.gg/wiki/Rien/Enemy",
+      "source_html": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki.html",
+      "level": 85,
+      "hp": 4375,
+      "defense_level": 88,
+      "speed_range": "1~2",
+      "panic_type": {
+        "name_en": "Imitation of a Father",
+        "phase_1_low_morale": "Turn Start: Gain 5 Burn and 5 Bleed; take +10% damage from Sinner Ryoshu.",
+        "phase_1_panic": "Turn Start: Gain 5 Burn, +3 Burn Count, 5 Bleed, and +3 Bleed Count; take +20% damage from Sinner Ryoshu.",
+        "sanity_increase": "After winning a Clash based on Clash count. Base 5, +10% per Clash count after 1.",
+        "sanity_decrease": "After losing a Clash based on Clash count. Base 3, +10% per Clash count after 1."
+      },
+      "body_parts": [
+        {
+          "part_id": "body",
+          "name_en": "Body",
+          "name_th": null,
+          "hp": 4375,
+          "speed_range": "1~2",
+          "defense_level": 88,
+          "stagger_thresholds": [
+            {
+              "percent": 60,
+              "hp": 2625
+            }
+          ],
+          "destructibility": "Indestructible & Unseverable",
+          "slot_weight": 1,
+          "resistance_notes": [
+            "Wiki HTML order needs parser validation before combat math uses it.",
+            "Phase 1 visible labels include Weak x1.2, Endure x0.9, Normal x1."
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_stop": {
+            "percent": 55,
+            "hp": 2406
+          },
+          "notes": [
+            "Stops taking damage at 55% HP, then progresses to Phase 2 at turn end."
+          ]
+        },
+        {
+          "phase": 2,
+          "thresholds": [
+            {
+              "percent": 25,
+              "hp": 1094
+            },
+            {
+              "percent": 1,
+              "hp": 43
+            }
+          ],
+          "notes": [
+            "Below 25% HP, Furioso [Crescendo] becomes Furioso [Lacrimosa-Crescendo].",
+            "At 1% HP, Ryoshu is prompted to clash against Furioso [Lacrimosa-Crescendo]."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skill_id": "rien_slam_down_with_weight",
+          "name_en": "Slam Down with Weight, Topple the Body",
+          "slot": "phase_1_skill",
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 1,
+          "damage_type_hint": "Blunt",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Slam_Down_with_Weight,_Topple_the_Body_Rien.png",
+          "attack_level_text": "79 (85-1)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Blunt weapons deal +20% damage",
+            "- Non-Blunt weapons deal -10% damage",
+            "[On Use] Gain +1 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect2] [On Hit] Gain 2 [Poise]"
+          ]
+        },
+        {
+          "skill_id": "rien_lay_vertical_the_end",
+          "name_en": "Lay Vertical The End, Insert Up to the Wick",
+          "slot": "phase_1_skill",
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 2,
+          "damage_type_hint": "Pierce",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Lay_Vertical_The_End,_Insert_Up_To_The_Wick_Rien.png",
+          "attack_level_text": "79 (85-1)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Pierce weapons deal +20% damage",
+            "- Non-Pierce weapons deal -10% damage",
+            "[On Use] Gain +1 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Gain 1 [Poise]",
+            "[CoinEffect2] [On Hit] Gain 1 [Poise]"
+          ]
+        },
+        {
+          "skill_id": "rien_aim_toward_a_point",
+          "name_en": "Aim Toward a Point, Let it Echo Within",
+          "slot": "phase_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Aim_Toward_a_Point,_Let_it_Echo_Within_Rien.png",
+          "attack_level_text": "80 (85+0)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Pierce weapons deal +30% damage",
+            "- Non-Pierce weapons deal -15% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the final Coin to [Unbreakable Coin]",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, inflict 1 [Power Down] next turn",
+            "[On Use] Gain 2 [Poise]"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict 2 [Sinking]",
+            "[CoinEffect2] [On Hit] Inflict +1 [Sinking] Count",
+            "[CoinEffect3] [On Hit] Gain +1 [Poise] Count [On Hit without Cracking] Inflict +1 [Sinking] Count"
+          ],
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 3,
+          "damage_type_hint": "Pierce"
+        },
+        {
+          "skill_id": "rien_carve_at_low_slant",
+          "name_en": "Carve at Low Slant, Peel What Remains",
+          "slot": "phase_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Carve_at_Low_Slant,_Peel_What_Remains_2_Rien.png",
+          "attack_level_text": "80 (85+0)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Slash weapons deal +30% damage",
+            "- Non-Slash weapons deal -15% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the final Coin to [Unbreakable Coin]",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, gain 1 [Power Up] Power Up next turn",
+            "[On Use] Gain 2 [Poise]"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict 1 [Sinking]",
+            "[CoinEffect2] [On Hit] Inflict 2 [Sinking]",
+            "[CoinEffect3] [On Hit] Gain +1 [Poise] Count [On Hit without Cracking] Inflict +1 [Sinking] Count"
+          ],
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 3,
+          "damage_type_hint": "Slash"
+        },
+        {
+          "skill_id": "rien_destroy_the_sound",
+          "name_en": "Destroy the Sound, Crush Flat the Thought",
+          "slot": "phase_2_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Destroy_the_Sound,_Crush_Flat_the_Thought_Rien.png",
+          "attack_level_text": "83 (85+3)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Can Clash with this skill regardless of Speed",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Blunt weapons deal +50% damage",
+            "- Non-Blunt weapons deal -25% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the 3rd and 4th Coins to [Unbreakable Coin] Unbreakable Coins",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, raise target's Stagger Threshold by 15",
+            "[On Use] Gain 2 [Poise] and +2 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit without Cracking] Inflict 2 [Sinking]",
+            "[CoinEffect2] [On Hit without Cracking] Inflict +2 [Sinking] Count",
+            "[CoinEffect3] [On Hit without Cracking] Gain 2 [Poise]",
+            "[CoinEffect4] [On Hit without Cracking] Gain +2 [Poise] Count"
+          ],
+          "base_power": 3,
+          "coin_power": 3,
+          "coin_count": 4,
+          "damage_type_hint": "Blunt"
+        },
+        {
+          "skill_id": "rien_stab_the_silence",
+          "name_en": "Stab the Silence's Heart, Penetrate the Memory",
+          "slot": "phase_2_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Stab_the_Silence's_Heart,_Penetrate_the_Memory_Rien.png",
+          "attack_level_text": "83 (85+3)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Can Clash with this skill regardless of Speed",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Pierce weapons deal +50% damage",
+            "- Non-Pierce weapons deal -25% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the 3rd and 4th Coins to [Unbreakable Coin] Unbreakable Coins",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, gain 1 [Damage Up] Damage Up next turn",
+            "[On Use] Gain 2 [Poise] and +2 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit without Cracking] Inflict 2 [Sinking]",
+            "[CoinEffect2] [On Hit without Cracking] Gain 2 [Poise]",
+            "[CoinEffect3] [On Hit without Cracking] Inflict +2 [Sinking] Count",
+            "[CoinEffect4] [On Hit without Cracking] Gain +2 [Poise] Count"
+          ],
+          "base_power": 3,
+          "coin_power": 3,
+          "coin_count": 4,
+          "damage_type_hint": "Pierce"
+        },
+        {
+          "skill_id": "rien_with_tempered_secret",
+          "name_en": "With Tempered Secret, Sever the Form",
+          "slot": "phase_2_skill",
+          "base_power": 3,
+          "coin_power": 3,
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-With_Tempered_Secret,_Cut_the_Form_Rien.png",
+          "attack_level_text": "83 (85+3)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Can Clash with this Skill regardless of Speed",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Slash weapons deal +50% damage",
+            "- Non-Slash weapons deal -25% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the final Coin to [Unbreakable Coin]",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, Final Power +2",
+            "[On Use] Gain 2 [Poise] and +2 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit without Cracking] Gain 2 [Poise]",
+            "[CoinEffect2] [On Hit without Cracking] Gain +2 [Poise] Count",
+            "[CoinEffect3] [On Hit without Cracking] Inflict 2 [Sinking]",
+            "[CoinEffect4] [On Hit without Cracking] Inflict +2 [Sinking] Count"
+          ],
+          "coin_count": 4,
+          "damage_type_hint": "Slash"
+        },
+        {
+          "skill_id": "rien_furioso_replica",
+          "name_en": "Furioso-Replica",
+          "slot": "powerful_skill",
+          "base_power": 5,
+          "coin_power": 1,
+          "attack_weight": 7,
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Furioso-Replica_Rien.png",
+          "attack_level_text": "84 (85+4)-5 Atk Weight ⯀⯀⯀⯀⯀⯀⯀",
+          "description_lines": [
+            "[Unfocused Volley] Unfocused Volley",
+            "This Skill does not trigger target's Defense Skills",
+            "Can Clash with this Skill regardless of Speed",
+            "[On Use]",
+            "- Gain 3 [Poise] and +3 [Poise] Count",
+            "- Clash Power +5 (Clash Power gained is reduced by 1 for every 10 [Karmic Consequence] Karmic Consequence on self, down to 0)",
+            "[On Use] At 0+ SP, generate 1 Mang",
+            "- Deal +40% damage; Final Power +4",
+            "[Clash Win]",
+            "- Gain 3 [Poise] and +3 [Poise] Count",
+            "- Attack End: Inflict 3 [Bleed], 1 [Bind] Bind, and 1 [Fragile] Fragile next turn to all targets this unit hit",
+            "[Clash Lose]",
+            "- Gain 4 [Damage Down] Damage Down and 9 [Paralyze]",
+            "- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target",
+            "[Attack End] If this Skill generated Mang, lose 20 SP",
+            "[Attack End] End this turn"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin]",
+            "[CoinEffect2] [Unbreakable Coin] [On Hit] Reuse this Coin (7 times max) [On Hit without Cracking] Inflict 1 [Sinking]"
+          ],
+          "coin_count": 2,
+          "damage_type_hint": "Slash"
+        },
+        {
+          "skill_id": "rien_furioso_crescendo",
+          "name_en": "Furioso [Crescendo]",
+          "slot": "phase_2_powerful_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Furioso_Crescendo_Rien.png",
+          "attack_level_text": "85 (85+5)-5 Atk Weight ⯀⯀⯀⯀⯀⯀⯀",
+          "description_lines": [
+            "[Unfocused Volley] Unfocused Volley",
+            "This Skill does not trigger target's Defense Skills",
+            "Can Clash with this Skill regardless of Speed",
+            "[On Use]",
+            "- Gain 6 [Poise] and +6 [Poise] Count",
+            "- Clash Power +10 (Clash Power gained is reduced by 1 for every 20 [Karmic Consequence -Fortuna-] Karmic Consequence [Fortuna] on self)",
+            "[On Use] At 0+ SP, generate 2 Mangs",
+            "- Deal +70% damage; Final Power +6",
+            "[Clash Win]",
+            "- Attack End: Inflict 4 [Bleed], 2 [Bind] Bind, and 2 [Fragile] Fragile next turn to all targets this unit hit",
+            "[Clash Lose]",
+            "- Gain 6 [Damage Down] Damage Down and 9 [Paralyze]",
+            "- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target",
+            "[Attack End] If this Skill generated Mang, lose 25 SP",
+            "[Attack End] End this turn"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin]",
+            "[CoinEffect2] [Unbreakable Coin] [On Hit] Reuse this Coin (7 times max) [On Hit without Cracking] Inflict 1 [Sinking]"
+          ],
+          "base_power": 5,
+          "coin_power": 1,
+          "coin_count": 2,
+          "damage_type_hint": "Slash"
+        },
+        {
+          "skill_id": "rien_furioso_lacrimosa",
+          "name_en": "Furioso [Lacrimosa-Crescendo]",
+          "slot": "final_sequence_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Furioso_Lacrimosa-Crescendo_Rien.png",
+          "attack_level_text": "86 (85+6)-5 Atk Weight ⯀⯀⯀⯀⯀⯀⯀",
+          "description_lines": [
+            "[Unfocused Volley] Unfocused Volley",
+            "This Skill does not trigger target's Defense Skills",
+            "Can Clash with this Skill regardless of Speed",
+            "- When Clashing against Ryōshū's base E.G.O, Clash Power -20",
+            "[On Use]",
+            "- Gain 9 [Poise] and +9 [Poise] Count",
+            "- Clash Power +15 (Clash Power gained is reduced by 1 for every 20 [Karmic Consequence -Fortuna-] Karmic Consequence [Fortuna] on self)",
+            "[On Use] At 0+ SP, generate 3 Mangs",
+            "- Deal +100% damage; Final Power +12",
+            "[Clash Win]",
+            "- Attack End: Inflict 5 [Bleed], 3 [Bind] Bind, and 3 [Fragile] Fragile next turn to all targets this unit hit",
+            "[Clash Lose]",
+            "- Gain 8 [Damage Down] Damage Down and 9 [Paralyze]",
+            "- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target",
+            "[Attack End] If this Skill generated Mang, lose 30 SP",
+            "[Attack End] End this turn"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin]",
+            "[CoinEffect2] [Unbreakable Coin] [On Hit] Reuse this Coin (7 times max) [On Hit without Cracking] Inflict 1 [Sinking]"
+          ],
+          "base_power": 5,
+          "coin_power": 1,
+          "coin_count": 2,
+          "damage_type_hint": "Slash"
+        },
+        {
+          "skill_id": "rien_remember_this",
+          "name_en": "Remember This, Sweetheart? Only You Can Clash Against This Move.",
+          "slot": "special_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Remember_This,_Sweetheart__Only_You_Can_Clash_Against_This_Move._Rien.png",
+          "attack_level_text": "80 (85+0)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Only Ryōshū can Clash against this Skill",
+            "Ryōshū can Clash with this Skill regardless of Speed",
+            "On Unopposed Attack, Coin Power +2 and deal +50% damage",
+            "[Clash Lose]",
+            "- Coin Power -2 and deal -50% damage",
+            "- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target",
+            "[Turn End] If this unit lost the Clash, gain 1 [Sizzling Wound (Rien)] Sizzling Wound",
+            "- If all 3 Skills with [Indulgence in Prescripts (Rien)] Indulgence in Prescripts-related unique effects lost the Clash this turn, gain 2 [Sizzling Wound (Rien)] Sizzling Wound instead"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin] [On Hit without Cracking] Inflict 3 [Sinking]",
+            "[CoinEffect2] [Unbreakable Coin] [On Hit without Cracking] Inflict 2 [Sinking]",
+            "[CoinEffect3] [Unbreakable Coin] [On Hit without Cracking] Inflict +2 [Sinking] Count"
+          ],
+          "base_power": 5,
+          "coin_power": 5,
+          "coin_count": 3,
+          "damage_type_hint": "Pierce"
+        },
+        {
+          "skill_id": "rien_swing_to_fell",
+          "name_en": "Swing to Fell, Have it Meet the Ground",
+          "slot": "phase_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Swing_to_Fell,_Have_it_Meet_the_Ground_Rien.png",
+          "attack_level_text": "80 (85+0)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Blunt weapons deal +30% damage",
+            "- Non-Blunt weapons deal -15% damage",
+            "[Combat Start] Gain the following effects (effects are cumulative)",
+            "- At [Unlock - II] - II, convert the final Coin to [Unbreakable Coin]",
+            "- At [Unlock - III] - III, on Clash Win with this Skill, lower user's Stagger Threshold by 10",
+            "[On Use] Gain 2 [Poise]"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect2] [On Hit] Inflict 3 [Sinking]",
+            "[CoinEffect3] [On Hit] Gain +1 [Poise] Count [On Hit without Cracking] Inflict +1 [Sinking] Count"
+          ],
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 2,
+          "damage_type_hint": "Blunt"
+        },
+        {
+          "skill_id": "rien_lay_blade_on_side",
+          "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath",
+          "slot": "phase_skill",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\74px-Lay_the_Blade_on_its_Side,_Slice_Like_a_Severed_Breath_Rien.png",
+          "attack_level_text": "79 (85-1)-5 Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every [Unlock - I] stage (max 2)",
+            "The following effects activate depending on the weapon's Attack Type",
+            "- Slash weapons deal +20% damage",
+            "- Non-Slash weapons deal -10% damage",
+            "[On Use] Gain +1 [Poise] Count"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Gain 1 [Poise]",
+            "[CoinEffect2] [On Hit] Gain +1 [Poise] Count"
+          ],
+          "base_power": 2,
+          "coin_power": 2,
+          "coin_count": 2,
+          "damage_type_hint": "Slash"
+        }
+      ],
+      "unique_statuses": [
+        {
+          "status_key": "Rien's Mask",
+          "source_name": "Rien's Mask",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\25px-Rien's_Mask.png"
+        },
+        {
+          "status_key": "Procuration [Hermes]",
+          "source_name": "Procuration [Hermes]",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\26px-Procuration_-Hermes-_(Rien).png"
+        },
+        {
+          "status_key": "Sizzling Wound",
+          "source_name": "Sizzling Wound",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\25px-Sizzling_Wound_(Rien).png"
+        },
+        {
+          "status_key": "Unlock",
+          "source_name": "Unlock"
+        },
+        {
+          "status_key": "Grace of the Prescript",
+          "source_name": "Grace of the Prescript"
+        },
+        {
+          "status_key": "Karmic Consequence",
+          "source_name": "Karmic Consequence"
+        },
+        {
+          "status_key": "Karmic Consequence [Fortuna]",
+          "source_name": "Karmic Consequence [Fortuna]"
+        },
+        {
+          "status_key": "Oracle Device [Caduceus]",
+          "source_name": "Oracle Device [Caduceus]"
+        },
+        {
+          "status_key": "Panic Recovery",
+          "source_name": "Panic Recovery"
+        },
+        {
+          "status_key": "Fixed Panic",
+          "source_name": "Fixed Panic"
+        }
+      ],
+      "mechanics_notes": [
+        "Takes reduced damage from unopposed attacks and from Tremor/Rupture/Sinking depending on phase.",
+        "Encounter Start: gains Rien's Mask.",
+        "At 55% HP, phase transition removes non-exclusive effects and resets Procuration [Hermes].",
+        "Oracle Device [Caduceus]: random weapon assigned to every coin; weapon has unique effects.",
+        "Using an attack skill gains 1 Procuration [Hermes], max 9.",
+        "At 9 Procuration [Hermes], uses a powerful skill and then changes pattern.",
+        "Unlock stages occur by Grace of the Prescript thresholds or HP/turn conditionals.",
+        "Turn End: if Prescript executed, heal SP and gain Grace; if not, gain Karmic Consequence.",
+        "Phase 2 gains stronger status rules and final low-HP Furioso sequence."
+      ],
+      "assets": {
+        "idle_sprite": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\87px-The_Index_Nursefather_-_Rien_Idle_Sprite.png",
+        "moving_sprite": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\120px-The_Index_Nursefather_-_Rien_Moving_Sprite.png",
+        "idle_animation": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki_files\\37px-The_Index_Nursefather_-_Rien_Idle_Animation.gif"
+      },
+      "review_status": "wiki_html_draft_needs_review",
+      "parse_status": "partial_manual_from_saved_html",
+      "warnings": [
+        "Skill coin counts and resistance mapping are not fully verified yet.",
+        "Unique statuses are captured as names/notes first; simulator behavior is not implemented yet.",
+        "This fixture is suitable for UI/profile testing and planning, not accurate combat simulation yet.",
+        "Behavior phases are drafted separately from stat phases; they still need admin/game-data verification before simulation.",
+        "Skill rotation is captured from wiki behavior text, but row selection/order still needs in-game verification.",
+        "Rien skill descriptions were extracted from saved wiki HTML and need admin review before simulation.",
+        "Rien active fixture skill rows were refreshed from work/import_boss_from_wiki_html.py output and still need admin review."
+      ],
+      "behavior_phases": [
+        {
+          "phase": 1,
+          "source": "wiki_behavior_section_draft",
+          "entry_condition": "Battle start until 55% HP stop/phase transition.",
+          "core_loop": [
+            {
+              "step": "encounter_start",
+              "trigger": "Encounter Start",
+              "notes": [
+                "Gain Rien's Mask.",
+                "Start with Prescript / Oracle Device mechanics active."
+              ],
+              "verification": "draft_from_wiki_html"
+            },
+            {
+              "step": "normal_pattern",
+              "trigger": "Turn Start / skill selection",
+              "notes": [
+                "Uses Phase 1 normal attack skills such as Slam Down with Weight and Lay Vertical The End.",
+                "Oracle Device [Caduceus] assigns random weapon instructions/effects to coins.",
+                "Using an attack skill gains 1 Procuration [Hermes], max 9."
+              ],
+              "skill_refs": [
+                "rien_slam_down_with_weight",
+                "rien_lay_vertical_the_end",
+                "rien_aim_toward_a_point",
+                "rien_carve_at_low_slant"
+              ],
+              "verification": "needs_exact_turn_order"
+            },
+            {
+              "step": "hermes_threshold",
+              "trigger": "Turn Start",
+              "condition": "Procuration [Hermes] reaches 9 stacks.",
+              "notes": [
+                "Use powerful skill.",
+                "Certain skill consumes Procuration [Hermes].",
+                "Pattern changes after powerful skill use."
+              ],
+              "skill_refs": [
+                "rien_furioso_replica"
+              ],
+              "verification": "needs_exact_skill_choice_and_reset"
+            },
+            {
+              "step": "prescript_check",
+              "trigger": "Turn End",
+              "notes": [
+                "If Prescript was executed, recover SP and gain Grace of the Prescript.",
+                "If Prescript was not executed, gain Karmic Consequence."
+              ],
+              "verification": "needs_exact_values"
+            },
+            {
+              "step": "phase_transition",
+              "trigger": "HP stop / Turn End",
+              "condition": "HP reaches 55% stop.",
+              "notes": [
+                "Stops taking damage at 55% HP.",
+                "At turn end, transitions to Phase 2.",
+                "Removes non-exclusive effects and resets Procuration [Hermes]."
+              ],
+              "verification": "draft_from_wiki_html"
+            }
+          ],
+          "draft_warnings": [
+            "This is behavior pattern data, not executable simulator code yet.",
+            "Need exact turn order, skill pool counts, Prescript success condition values, and Herm?s reset details from game data or admin review."
+          ],
+          "skill_rotation_ref": "skill_rotation.phase_1"
+        },
+        {
+          "phase": 2,
+          "source": "wiki_behavior_section_draft",
+          "entry_condition": "After 55% HP phase transition.",
+          "core_loop": [
+            {
+              "step": "phase_start",
+              "trigger": "Phase Start",
+              "notes": [
+                "Phase 2 gains stronger status/pattern rules.",
+                "Unlock stages and Grace of the Prescript become central to skill effects."
+              ],
+              "verification": "needs_exact_start_effects"
+            },
+            {
+              "step": "normal_pattern",
+              "trigger": "Turn Start / skill selection",
+              "notes": [
+                "Uses Phase 2 attack skills with stronger weapon/Unlock interactions.",
+                "Skills can clash regardless of Speed on some moves.",
+                "At Unlock II, some skills convert later coins to Unbreakable Coins.",
+                "At Unlock III, skills gain extra Clash Win or damage/stagger effects."
+              ],
+              "skill_refs": [
+                "rien_destroy_the_sound",
+                "rien_stab_the_silence",
+                "rien_with_tempered_secret"
+              ],
+              "verification": "needs_structured_skill_effect_import"
+            },
+            {
+              "step": "hermes_threshold",
+              "trigger": "Turn Start",
+              "condition": "Procuration [Hermes] reaches 9 stacks.",
+              "notes": [
+                "Use Phase 2 powerful skill.",
+                "Powerful skill behavior differs after Phase 2 pattern changes."
+              ],
+              "skill_refs": [
+                "rien_furioso_crescendo"
+              ],
+              "verification": "needs_exact_skill_choice_and_reset"
+            },
+            {
+              "step": "low_hp_upgrade",
+              "trigger": "HP threshold",
+              "condition": "Below 25% HP.",
+              "notes": [
+                "Furioso [Crescendo] becomes Furioso [Lacrimosa-Crescendo]."
+              ],
+              "skill_refs": [
+                "rien_furioso_lacrimosa"
+              ],
+              "verification": "draft_from_wiki_html"
+            },
+            {
+              "step": "final_sequence",
+              "trigger": "HP threshold",
+              "condition": "At 1% HP.",
+              "notes": [
+                "Ryoshu is prompted/forced to clash against Furioso [Lacrimosa-Crescendo].",
+                "Special skill text says only the specified unit can clash against the move."
+              ],
+              "skill_refs": [
+                "rien_furioso_lacrimosa",
+                "rien_remember_this"
+              ],
+              "verification": "needs_exact forced-clash rules"
+            },
+            {
+              "step": "prescript_check",
+              "trigger": "Turn End",
+              "notes": [
+                "If Prescript was executed, recover SP and gain Grace of the Prescript.",
+                "If Prescript was not executed, gain Karmic Consequence.",
+                "Indulgence in Prescripts can convert lost clashes this turn into Karmic Consequence at expiry."
+              ],
+              "verification": "needs_exact_values"
+            }
+          ],
+          "draft_warnings": [
+            "This is behavior pattern data, not executable simulator code yet.",
+            "Need exact skill pattern scheduling, Unlock thresholds, and final Ryoshu forced-clash rules."
+          ],
+          "skill_rotation_ref": "skill_rotation.phase_2"
+        }
+      ],
+      "skill_rotation": {
+        "source": "wiki_behavior_section",
+        "source_html": "C:\\Users\\kimoj\\Downloads\\boss\\The Index Nursefather - Rien - Limbus Company Wiki.html",
+        "scope": "normal_boss_not_refracted",
+        "phase_1": {
+          "rotation_rows": [
+            [
+              {
+                "skill_id": "rien_carve_at_low_slant",
+                "name_en": "Carve at a Low Slant, Peel What Remains"
+              },
+              {
+                "skill_id": "rien_aim_toward_a_point",
+                "name_en": "Aim Toward a Point, Let it Echo Within"
+              },
+              {
+                "skill_id": "rien_swing_to_fell",
+                "name_en": "Swing to Fell, Have it Meet the Ground"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_destroy_the_sound",
+                "name_en": "Destroy the Sound, Crush Flat the Thought"
+              },
+              {
+                "skill_id": "rien_aim_toward_a_point",
+                "name_en": "Aim Toward a Point, Let it Echo Within"
+              },
+              {
+                "skill_id": "rien_swing_to_fell",
+                "name_en": "Swing to Fell, Have it Meet the Ground"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_stab_the_silence",
+                "name_en": "Stab the Silence's Heart, Penetrate the Memory"
+              },
+              {
+                "skill_id": "rien_carve_at_low_slant",
+                "name_en": "Carve at a Low Slant, Peel What Remains"
+              },
+              {
+                "skill_id": "rien_swing_to_fell",
+                "name_en": "Swing to Fell, Have it Meet the Ground"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_with_tempered_secret",
+                "name_en": "With Tempered Secret, Cut the Form"
+              },
+              {
+                "skill_id": "rien_carve_at_low_slant",
+                "name_en": "Carve at a Low Slant, Peel What Remains"
+              },
+              {
+                "skill_id": "rien_aim_toward_a_point",
+                "name_en": "Aim Toward a Point, Let it Echo Within"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ]
+          ],
+          "interrupts": [
+            {
+              "condition": "Procuration [Hermes] reaches 9 stacks",
+              "insert_skill": {
+                "skill_id": "rien_furioso_replica",
+                "name_en": "Furioso-Replica"
+              },
+              "notes": "Interrupts the normal skill rotation."
+            }
+          ],
+          "phase_end": "Stops taking damage at 55% (2406) HP, then progresses to Phase 2 at end of turn."
+        },
+        "phase_2": {
+          "rotation_rows": [
+            [
+              {
+                "skill_id": "rien_destroy_the_sound",
+                "name_en": "Destroy the Sound, Crush Flat the Thought"
+              },
+              {
+                "skill_id": "rien_aim_toward_a_point",
+                "name_en": "Aim Toward a Point, Let it Echo Within"
+              },
+              {
+                "skill_id": "rien_swing_to_fell",
+                "name_en": "Swing to Fell, Have it Meet the Ground"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_stab_the_silence",
+                "name_en": "Stab the Silence's Heart, Penetrate the Memory"
+              },
+              {
+                "skill_id": "rien_carve_at_low_slant",
+                "name_en": "Carve at a Low Slant, Peel What Remains"
+              },
+              {
+                "skill_id": "rien_swing_to_fell",
+                "name_en": "Swing to Fell, Have it Meet the Ground"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_remember_this",
+                "name_en": "Remember This, Sweetheart? Only You Can Clash Against This Move."
+              },
+              {
+                "skill_id": "rien_with_tempered_secret",
+                "name_en": "With Tempered Secret, Sever the Form"
+              },
+              {
+                "skill_id": "rien_stab_the_silence",
+                "name_en": "Stab the Heart of Silence, Penetrate the Memory"
+              },
+              {
+                "skill_id": "rien_destroy_the_sound",
+                "name_en": "Destroy the Sound, Crush Flat the Thought"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ],
+            [
+              {
+                "skill_id": "rien_with_tempered_secret",
+                "name_en": "With Tempered Secret, Cut the Form"
+              },
+              {
+                "skill_id": "rien_carve_at_low_slant",
+                "name_en": "Carve at a Low Slant, Peel What Remains"
+              },
+              {
+                "skill_id": "rien_aim_toward_a_point",
+                "name_en": "Aim Toward a Point, Let it Echo Within"
+              },
+              {
+                "skill_id": "rien_lay_blade_on_side",
+                "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+              },
+              {
+                "skill_id": "rien_lay_vertical_the_end",
+                "name_en": "Lay Vertical The End, Insert Up to the Wick"
+              },
+              {
+                "skill_id": "rien_slam_down_with_weight",
+                "name_en": "Slam Down with Weight, Topple the Body"
+              }
+            ]
+          ],
+          "conditional_patterns": [
+            {
+              "condition": "Has Indulgence in Prescripts and fewer than 9 Procuration [Hermes]",
+              "rotation_rows": [
+                [
+                  {
+                    "skill_id": "rien_remember_this",
+                    "name_en": "Remember This, Sweetheart? Only You Can Clash Against This Move."
+                  },
+                  {
+                    "skill_id": "rien_with_tempered_secret",
+                    "name_en": "With Tempered Secret, Sever the Form"
+                  },
+                  {
+                    "skill_id": "rien_stab_the_silence",
+                    "name_en": "Stab the Heart of Silence, Penetrate the Memory"
+                  },
+                  {
+                    "skill_id": "rien_destroy_the_sound",
+                    "name_en": "Destroy the Sound, Crush Flat the Thought"
+                  },
+                  {
+                    "skill_id": "rien_lay_blade_on_side",
+                    "name_en": "Lay the Blade on its Side, Slice Like a Severed Breath"
+                  },
+                  {
+                    "skill_id": "rien_slam_down_with_weight",
+                    "name_en": "Slam Down with Weight, Topple the Body"
+                  }
+                ]
+              ]
+            }
+          ],
+          "interrupts": [
+            {
+              "condition": "Procuration [Hermes] reaches 9 stacks",
+              "insert_skill": {
+                "skill_id": "rien_furioso_crescendo",
+                "name_en": "Furioso [Crescendo]"
+              },
+              "notes": "Interrupts the normal skill rotation."
+            },
+            {
+              "condition": "Below 25% (1094) HP",
+              "replace_skill": {
+                "from": "rien_furioso_crescendo",
+                "to": "rien_furioso_lacrimosa"
+              },
+              "notes": "All Furioso [Crescendo] instances become Furioso [Lacrimosa-Crescendo]."
+            },
+            {
+              "condition": "At 1% (43) HP",
+              "insert_skill": {
+                "skill_id": "rien_furioso_lacrimosa",
+                "name_en": "Furioso [Lacrimosa-Crescendo]"
+              },
+              "notes": "Turn ends and Ryoshu is prompted to clash with Forest for the Flames, followed by victory cutscene."
+            }
+          ]
+        },
+        "review_status": "wiki_rotation_draft_needs_turn_scheduler_verification",
+        "open_questions": [
+          "How to choose between rotation rows each turn/slot in-game.",
+          "Whether row order maps directly to slots, cycles, or available speed slots.",
+          "Exact reset/resume behavior after a Procuration interrupt."
+        ]
+      }
+    },
+    {
+      "boss_id": "wiki_lei_heng_draft",
+      "name_en": "Lei Heng",
+      "source": "wiki_html_import_draft",
+      "source_html": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki.html",
+      "level": 83,
+      "hp": 4239,
+      "defense_level": 83,
+      "body_parts": [
+        {
+          "part_id": "body",
+          "name_en": "Body",
+          "hp": 4239,
+          "defense_level": 83,
+          "stagger_thresholds": [
+            {
+              "percent": 70,
+              "hp": 2967
+            },
+            {
+              "percent": 0,
+              "hp": 0
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skill_id": "lei_heng_double_slash",
+          "name_en": "Double Slash",
+          "slot": "boss_skill",
+          "base_power": 4,
+          "coin_power": 2,
+          "coin_count": 2,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Double_Slash_Lei_Heng.png",
+          "attack_level_text": "85 (83+2) Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every 4 ( [Burn] + [Tremor]) on target (max 2)"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict 2 [Tremor]",
+            "[CoinEffect2] [On Hit] Inflict 3 [Tremor]"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_triple_slash",
+          "name_en": "Triple Slash",
+          "slot": "boss_skill",
+          "base_power": 3,
+          "coin_power": 2,
+          "coin_count": 3,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Triple_Slash_Lei_Heng.png",
+          "attack_level_text": "86 (83+3) Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every 4 ( [Burn] + [Tremor]) on target (max 2)"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict +2 [Tremor] Count",
+            "[CoinEffect2] [On Hit] Inflict 1 [Tremor] and +2 [Tremor] Count",
+            "[CoinEffect3] [On Hit] Trigger [Tremor Burst]; then, reduce target's [Tremor] Count by 1"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_double_slash_blast",
+          "name_en": "Double Slash - Blast [爆]",
+          "slot": "boss_skill",
+          "base_power": 4,
+          "coin_power": 3,
+          "coin_count": 2,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Double_Slash_Lei_Heng.png",
+          "attack_level_text": "85 (83+2) Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every 4 ( [Burn] + [Tremor]) on target (max 4)",
+            "[Clash Lose] Lose 1 [Tigermark Round]"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict 3 [Tremor]",
+            "[CoinEffect2] Spend 1 [Tigermark Round] [On Hit] Inflict 3 [Burn] and +2 [Burn] Count [On Hit] Inflict 3 [Tremor] and +2 [Tremor] Count"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_triple_slash_blast",
+          "name_en": "Triple Slash - Blast [爆]",
+          "slot": "boss_skill",
+          "base_power": 3,
+          "coin_power": 3,
+          "coin_count": 3,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Triple_Slash_Lei_Heng.png",
+          "attack_level_text": "86 (83+3) Atk Weight ⯀",
+          "description_lines": [
+            "Final Power +1 for every 4 ( [Burn] + [Tremor]) on target (max 4)",
+            "[Clash Lose] Lose 1 [Tigermark Round]"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict +2 [Tremor] Count",
+            "[CoinEffect2] Spend 1 [Tigermark Round] [On Hit] Inflict 3 [Burn] and +2 [Burn] Count [On Hit] Inflict 2 [Tremor] and +2 [Tremor] Count",
+            "[CoinEffect3] Spend 1 [Tigermark Round] [On Hit] Inflict 3 [Burn] and +2 [Burn] Count [On Hit without Cracking] Trigger [Tremor Burst] twice; then, reduce target's [Tremor] Count by 2"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_blasting_shatterslash",
+          "name_en": "Blasting Shatterslash [爆碎斬]",
+          "slot": "boss_skill",
+          "base_power": 4,
+          "coin_power": 3,
+          "coin_count": 3,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Blasting_Shatterslash_爆碎斬_Lei_Heng.png",
+          "attack_level_text": "87 (83+4) Atk Weight ⯀",
+          "description_lines": [
+            "Prioritizes targets with [Prey]",
+            "Can Clash with this Skill regardless of Speed",
+            "Coin Power +1 for every 6 ( [Burn] + [Tremor]) (max 3)",
+            "[Clash Lose] Lose 10 SP"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict 3 [Burn] [On Hit] Inflict 3 [Tremor] [On Hit without Cracking] Inflict 4 [Tremor] and +4 [Tremor] Count",
+            "[CoinEffect2] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict +3 [Burn] Count [On Hit] Inflict +3 [Tremor] Count [On Hit without Cracking] Trigger [Amplitude Conversion] into [Tremor - Scorch]",
+            "[CoinEffect3] [Unbreakable Coin] Spend 1 [Tigermark Round] If this unit spent [Tigermark Round] due to this Coin's effect, deal +50% damage [On Hit] Inflict 3 [Burn] and +3 [Burn] Count [On Hit without Cracking] Trigger [Tremor Burst] twice; then, reduce target's [Tremor] Count by 2"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_tanglecleaver",
+          "name_en": "Tanglecleaver [快刀亂麻]",
+          "slot": "boss_skill",
+          "base_power": 8,
+          "coin_power": 12,
+          "coin_count": 1,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Tanglecleaver_快刀亂麻_Lei_Heng.png",
+          "attack_level_text": "89 (83+6) Atk Weight ⯀",
+          "description_lines": [
+            "Prioritizes targets with [Prey]",
+            "Can clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill",
+            "[On Use] Consume all [Inner Strength -底力-] Inner Strength [底力] Stack on self. If this unit consumed...",
+            "-... 10+ Stack, gain Atk Weight +1 for every 10 Stack consumed (max 2)",
+            "-... 25 Stack, Final Power +1 for every 4 ( [Burn] + [Tremor]) on the main target (max 5)",
+            "[Clash Lose] Gain 4 [Power Down]",
+            "[Clash Lose] Gain 1 [Paralyze]",
+            "[Clash Lose] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Burn] and [Tremor] inflicted by this Skill (unless raised by other effects)",
+            "[Attack End] [Reload] (once per turn)",
+            "- If this unit has [Savage Tigermark Round], [Reload - Tactical] instead (once per turn)",
+            "[Attack End] Ends this turn"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin] Spend all [Tigermark Round] [On Hit] Inflict [Burn], [Burn] Count, [Tremor], and [Tremor] Count by [Tigermark Round] spent [On Hit without Cracking] Trigger [Amplitude Conversion] into [Tremor - Scorch] [On Hit without Cracking] Trigger [Tremor Burst] 3 times; then, reduce target's [Tremor] Count by 3"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_savage_tigerslayer_s_perfected_flurry_of_blades",
+          "name_en": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
+          "slot": "boss_skill",
+          "base_power": 3,
+          "coin_power": 3,
+          "coin_count": 6,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Savage_Tigerslayer's_Perfected_Flurry_of_Blades_超絕猛虎殺擊亂斬_Lei_Heng.png",
+          "attack_level_text": "89 (83+6) Atk Weight ⯀⯀⯀",
+          "description_lines": [
+            "Prioritizes targets with [Prey]",
+            "Can Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill",
+            "[On Use] Consume all [Inner Strength -底力-] Inner Strength [底力] Stack on self. If this unit consumed...",
+            "-... 10+ Stack, gain Atk Weight +1 for every 10 Stack consumed (max 4)",
+            "-... 25 Stack, Final Power +1 for every 4 ( [Burn] + [Tremor]) on the main target (max 6)",
+            "-... 50 Stack, Coin Power +1 and deal +50% damage",
+            "[Clash Lose] Gain 2 [Power Down]",
+            "[Clash Lose] Gain 6 [Paralyze]",
+            "[Clash Lose] Deal -80% damage; this Skill's damage cannot Stagger the target; inflict only half the Potency and Count for both [Burn] and [Tremor] inflicted by this Skill (unless raised by other effects)",
+            "[Attack End] [Reload] (once per turn)",
+            "- If this unit has [Savage Tigermark Round], [Reload - Tactical] instead (once per turn)",
+            "[Attack End] Ends this turn"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict 6 [Burn]",
+            "[CoinEffect2] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict +6 [Burn] Count",
+            "[CoinEffect3] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict 6 [Tremor]",
+            "[CoinEffect4] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit] Inflict +6 [Tremor] Count",
+            "[CoinEffect5] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit without Cracking] Trigger [Amplitude Conversion] into [Tremor - Scorch]",
+            "[CoinEffect6] [Unbreakable Coin] Spend 1 [Tigermark Round] [On Hit without Cracking] Trigger [Tremor Burst] 5 times; then, reduce target's [Tremor] Count by 5"
+          ]
+        },
+        {
+          "skill_id": "lei_heng_reloading_tiantui_star_s_blade",
+          "name_en": "Reloading Tiantui Star's Blade",
+          "slot": "boss_skill",
+          "base_power": 4,
+          "coin_power": 4,
+          "coin_count": 2,
+          "damage_type_hint": "Slash",
+          "asset_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\74px-Reloading_Tiantui_Star's_Blade_Lei_Heng.png",
+          "attack_level_text": "84 (83+1) Atk Weight ⯀",
+          "description_lines": [
+            "[Clashable Counter]",
+            "[Clash Lose] Lose 1 [Tigermark Round]",
+            "[Attack End] [Reload] (once per turn)",
+            "- If this unit has [Savage Tigermark Round], [Reload - Tactical] instead (once per turn)"
+          ],
+          "coin_effect_lines": [
+            "[CoinEffect1] [On Hit] Inflict 2 [Tremor]",
+            "[CoinEffect2] Spend 1 [Tigermark Round] [On Hit] Inflict 3 [Burn] [On Hit] Inflict +3 [Burn] Count"
+          ]
+        }
+      ],
+      "passives": [
+        {
+          "passive_id": "panic_recovery",
+          "name_en": "Panic Recovery",
+          "description_lines": [
+            "Turn End: if this unit is Panicked, reset SP to 0",
+            "When recovering from Panic: at the next Turn Start, heal SP by this unit's missing HP (max 30)"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "fixed_panic",
+          "name_en": "Fixed Panic",
+          "description_lines": [
+            "This unit's Panic Type does not change when inflicted with an effect that changes Panic Types. Instead, this unit is inflicted with an effect that is inflicted against Non-SP Units."
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "the_thumb_s_officer_capo_iiii",
+          "name_en": "The Thumb's Officer, Capo IIII",
+          "description_lines": [
+            "Take -30% damage from [Burn], [Bleed], [Tremor], [Rupture], and [Sinking]",
+            "When flipping a Coin that consumes [Tigermark Round]: while not having [Tigermark Round] does not cancel this unit's attacks, the Coin's \"inflict [Burn]\" and \"inflict [Burn] Count\" effects do not activate",
+            "In a Clash, inflict +(1 + (# of Clashes / 3)) [Tremor] Count",
+            "(max 3; 3 times per turn against the same target)"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "ten_blades_of_the_east",
+          "name_en": "Ten Blades of the East",
+          "description_lines": [
+            "At Encounter Start, and at the Turn Start of gaining a new pattern: - Gain 1 [Severing Slash 切斬]",
+            "- Heal 5 SP for every 10% missing HP on self (max 40)"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "chosen_prey",
+          "name_en": "Chosen Prey",
+          "description_lines": [
+            "Turn Start: inflict 1 [Prey] against the target that dealt the most damage to this unit last turn",
+            "After Lei Heng attacks the target with [Prey], if the target is:",
+            "- Staggered, all enemies lose 10 SP and gain 1 [Clash Power Down] for this turn and next turn (once per turn)",
+            "- Defeated, activate the above effect once more"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "tiantui_star_s_blade",
+          "name_en": "Tiantui Star's Blade [天退星刀]",
+          "description_lines": [
+            "Unopposed Attacks deal +30% damage On Hit and inflict 1 [Fragile] next turn",
+            "Skill Coins that spent [Tigermark Round] deal +20% damage On Hit and inflict 2 [Defense Level Down] next turn",
+            "The above effects do not activate if the target equipped a Defense Skill"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "tiantui_star_s_blade_overheat",
+          "name_en": "Tiantui Star's Blade - Overheat",
+          "description_lines": [
+            "If this unit used a powerful attack ('Tanglecleaver' or 'Savage Tigerslayer's Perfected Flurry of Blades'), gain [Overheat] next turn equal to the number of times those skills were used (max 5)"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "chachihu",
+          "name_en": "Chachihu [揷翅虎]",
+          "description_lines": [
+            "Combat Start: based on this unit's Speed value,",
+            "- Heal SP equal to Speed value. At less than 0 SP, double the heal amount",
+            "- Gain (Speed Value / 3) [Slash DMG Up] (max 5)",
+            "Encounter Start: if this unit has 3+ [Bind], the above effect does not activate; gain [Defense Level Down] equal to [Bind] on self (max 9)"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "tigermark_round_reload",
+          "name_en": "Tigermark Round Reload",
+          "description_lines": [
+            "Turn End: at 90% or less HP, or at the end of the 2nd turn, reload [Tigermark Round] and gain a new pattern next turn",
+            "- If this unit is Staggered, recover from Stagger"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "lei_heng",
+          "name_en": "Lei Heng [雷橫]",
+          "description_lines": [
+            "Turn End: at 80% or less HP, or at the end of the 4th turn, gain a new pattern next turn",
+            "- Use a powerful attack ('Tanglecleaver'), repeat every 3rd turn. +10 to Min & Max Speed for turns in which this unit uses this Skill",
+            "- At the start of that turn, gain 25 [Inner Strength -底力-] Inner Strength [底力]",
+            "- If this unit is Staggered, recover from Stagger"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "tiantui_star",
+          "name_en": "Tiantui Star [天退星]",
+          "description_lines": [
+            "If this unit's HP dropped to 60% or below at Turn End, or if this unit is set to use a powerful attack ('Tanglecleaver') next turn for the second time this Encounter, gain a new pattern next turn",
+            "- When that turn starts, gain 1 [Unrelenting Spirit -剛氣-] Tiantui Star [天退星]",
+            "- When that turn starts, gain 18 [Savage Tigermark Round] and reload immediately",
+            "· If this unit spends all [Savage Tigermark Round], convert the effect to [Tigermark Round] and summon 2 of \"Stern Soldato of the Thumb\" units next turn and have them supply this unit with [Savage Tigermark Round]",
+            "- When Staggered, recover from Stagger"
+          ],
+          "source": "wiki_passive_card"
+        },
+        {
+          "passive_id": "lei_heng_the_pinky_s_tiantui_star",
+          "name_en": "Lei Heng, The Pinky's Tiantui Star",
+          "description_lines": [
+            "Turn End: at 40% or less HP, or if this unit is set to use a powerful attack ('Tanglecleaver') next turn for the third time this Encounter, gain a new pattern next turn",
+            "- Replace the powerful attack 'Tanglecleaver' with 'Savage Tigerslayer's Perfected Flurry of Blades'. +15 to Min & Max Speed for turns in which this unit uses this Skill",
+            "- Convert [Inner Strength -底力-] Inner Strength [底力] to [Extreme Strength -極力-] Extreme Strength [極力]",
+            "- Convert [Unrelenting Spirit -剛氣-] Tiantui Star [天退星] to [Unrelenting Spirit - Shin -剛氣-心-] Shin (心) - Tiantui Star [天退星]",
+            "- If this unit is Staggered, recover from Stagger"
+          ],
+          "source": "wiki_passive_card"
+        }
+      ],
+      "unique_statuses": [
+        {
+          "status_key": "Attack Power Up",
+          "source_name": "Attack Power Up",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Attack_Power_Up.png"
+        },
+        {
+          "status_key": "Burn",
+          "source_name": "Burn",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Burn.png"
+        },
+        {
+          "status_key": "Tremor",
+          "source_name": "Tremor",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Tremor.png"
+        },
+        {
+          "status_key": "Tremor Burst",
+          "source_name": "Tremor Burst",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Tremor_Burst.png"
+        },
+        {
+          "status_key": "Tremor - Scorch",
+          "source_name": "Tremor - Scorch",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Tremor_-_Scorch.png"
+        },
+        {
+          "status_key": "Power Down",
+          "source_name": "Power Down",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Power_Down.png"
+        },
+        {
+          "status_key": "Bleed",
+          "source_name": "Bleed",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Bleed.png"
+        },
+        {
+          "status_key": "Rupture",
+          "source_name": "Rupture",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Rupture.png"
+        },
+        {
+          "status_key": "Sinking",
+          "source_name": "Sinking",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Sinking.png"
+        },
+        {
+          "status_key": "Clash Power Down",
+          "source_name": "Clash Power Down",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Clash_Power_Down.png"
+        },
+        {
+          "status_key": "Bind",
+          "source_name": "Bind",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Bind.png"
+        },
+        {
+          "status_key": "No Matter How Many Must Bleed...",
+          "source_name": "No Matter How Many Must Bleed...",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-No_Matter_How_Many_Must_Bleed....png"
+        },
+        {
+          "status_key": "Power Up",
+          "source_name": "Power Up",
+          "icon_path": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\25px-Power_Up.png"
+        }
+      ],
+      "assets": {
+        "idle_sprite": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\187px-Lei_Heng_Idle_Sprite.png",
+        "moving_sprite": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\120px-Lei_Heng_Moving_Sprite.png",
+        "idle_animation": "C:\\Users\\kimoj\\Downloads\\boss\\Lei Heng - Limbus Company Wiki_files\\81px-Lei_Heng_Idle_Animation.gif"
+      },
+      "skill_rotation": {
+        "source": "wiki_behavior_section_draft",
+        "raw_lines": [
+          "id=\"Behavior\">Behavior",
+          "For the duration of the fight, Hong Lu will have [My Heart, My Own Thoughts…] My Heart, My Own Thoughts… applied to him. If The Lord of Hongyuan Hong Lu is on the field, Hong Lu will gain [No Matter How Many Must Bleed...] No Matter How Many Must Bleed... instead.",
+          "Ryoshu will have [Mutilated Memory] applied to her.",
+          "Attack Pattern",
+          "Lei Heng uses multiple different skill rotations based on his remaining HP.",
+          "On the first Turn of battle, Lei Heng will inflict a hidden -5 Clash Power penalty to all Sinners, but will unable to bring them below 20% HP. He uses the following Skills:",
+          "- Triple Slash, Triple Slash, Double Slash, Double Slash, Double Slash, Double Slash",
+          "At the start of the second Turn, a cutscene will play, after which the Durante - Morositas effect will become active for the rest of the fight and all Sinners will be healed to full HP. Lei Heng continues to use the previous Skills.",
+          "Below 90% HP or automatically at the end of the second Turn, Lei Heng loads his weapon, recovers from Stagger, and gains 6 [Tigermark Round] at the end of every Turn. He will use the following Skills.",
+          "- Blasting Shatterslash [爆碎斬], Triple Slash - Blast [爆], Triple Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Reloading Tiantui Star's Blade",
+          "Below 80% HP or automatically at the end of the fourth Turn, Lei Heng recovers from Stagger and begins using the following Skill rotation:",
+          "- Tanglecleaver [快刀亂麻]",
+          "- Blasting Shatterslash [爆碎斬], Triple Slash - Blast [爆], Triple Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Reloading Tiantui Star's Blade",
+          "- Blasting Shatterslash [爆碎斬], Triple Slash - Blast [爆], Triple Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Double Slash - Blast [爆], Reloading Tiantui Star's Blade",
+          "Below 60% HP or before using 'Tanglecleaver [快刀亂麻]' for the second time in the Encounter, Lei Heng recovers from Stagger and reloads his weapon. From that point on, he will only gain [Tigermark Round] while not having any [Savage Tigermark Round] at the end of the Turn, but whenever Lei Heng runs out of [Savage Tigermark Round], he will summon two special Stern Soldato of the Thumb on the next Turn, which will attempt to reload his ammo before retreating from battle at the end of the Turn.",
+          "Below 40% HP or after using 'Tanglecleaver [快刀亂麻]' for the third time in the Encounter, Lei Heng recovers from Stagger, resets his Skill rotation to the beginning, and replaces all instances of 'Tanglecleaver [快刀亂麻]' with 'Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]'.",
+          "At the end of the Turn after being reduced below 20% HP (847 HP), a cutscene will be triggered, resulting in the player's victory. Lei Heng cannot be reduced below 10% HP (423 HP). The cutscene will activate even if the player would normally lose due to every selected Sinner being dead, assuming Lei Heng hit his HP threshold while there were still living Sinners.",
+          "Dialogue",
+          "Condition",
+          "Dialogue",
+          "When the 'Tigermark Round Reload' Passive activates",
+          "Huh… y'all ain't half bad! Keep makin' it worth my bullet fees!",
+          "While using 'Blasting Shatterslash [爆碎斬]'",
+          "Eyes up here, boys! Don'tcha go losin' yer heads now!",
+          "While using 'Blasting Shatterslash [爆碎斬]' at 0 [Tigermark Round]",
+          "Hwell, what's this? Manageable so far?",
+          "When the 'Lei Heng [雷橫]' Passive activates",
+          "That's more like it. Y'all are firin' me up!",
+          "Having 'Tanglecleaver [快刀亂麻]' or 'Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]' in a Skill Slot at Turn Start",
+          "I'maboutta drop somethin' big on y'all! Don't let it kill y'all now and spoil the fun!",
+          "On Clash Win with 'Tanglecleaver [快刀亂麻]'",
+          "Aw heck, don't tell me ny'all are tuckered out already!",
+          "When the 'Tiantui Star [天退星]' Passive activates",
+          "Can't leave a dance unfinished. Ain't that right?",
+          "While using 'Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]'",
+          "Y'all don't go on huntin' tigers without preparin' yerselves to get chomped 'tween one of them jaws!",
+          "CollapseSummons",
+          "[Thumb-90217 portrait] Stern Soldato of the Thumb"
+        ],
+        "review_status": "needs_admin_rotation_structuring",
+        "open_questions": [
+          "Convert raw behavior text into phase rotation rows before simulator use.",
+          "Verify whether row order maps to turns, speed slots, or conditional pattern selection."
+        ]
+      },
+      "review_status": "wiki_html_import_draft_needs_review",
+      "warnings": [
+        "Imported from saved wiki HTML with heuristic parsing; admin review is required.",
+        "Skill rotation is raw/draft unless manually structured into phase rows.",
+        "Stats and resistance mapping need validation before simulator use.",
+        "Structured boss_behavior is available for turn planner use, but still needs admin/game-data verification."
+      ],
+      "boss_behavior": {
+        "schema_version": 1,
+        "source": "structured_from_wiki_behavior_draft",
+        "review_status": "draft_needs_admin_verification",
+        "notes": [
+          "Structured from the saved wiki Behavior section so the turn planner does not infer from raw text.",
+          "This is boss intent scheduling data, not full status/passive execution yet.",
+          "SP and speed modifiers are represented as draft rules from passives/behavior text until exact game data is verified."
+        ],
+        "state_variables": [
+          {
+            "key": "tigermark_round",
+            "type": "status_stack",
+            "initial": 0,
+            "notes": "Reloads after 90% HP/end of turn 2."
+          },
+          {
+            "key": "savage_tigermark_round",
+            "type": "status_stack",
+            "initial": 0,
+            "notes": "Gained after 60% HP / Tiantui Star pattern."
+          },
+          {
+            "key": "inner_strength",
+            "type": "status_stack",
+            "initial": 0,
+            "notes": "25 stack before powerful attack pattern."
+          },
+          {
+            "key": "powerful_attack_uses",
+            "type": "counter",
+            "initial": 0,
+            "notes": "Tracks Tanglecleaver/Savage replacement thresholds."
+          }
+        ],
+        "global_rules": [
+          {
+            "rule_id": "turn_1_hidden_clash_penalty",
+            "timing": "turn_start",
+            "condition": {
+              "turn_eq": 1
+            },
+            "effects": [
+              {
+                "type": "apply_hidden_modifier",
+                "target": "all_sinners",
+                "stat": "clash_power",
+                "value": -5
+              },
+              {
+                "type": "hp_floor",
+                "target": "all_sinners",
+                "min_hp_percent": 20
+              }
+            ],
+            "notes": "Wiki says first turn applies hidden -5 Clash Power and cannot bring Sinners below 20% HP."
+          },
+          {
+            "rule_id": "turn_2_cutscene_morositas",
+            "timing": "turn_start",
+            "condition": {
+              "turn_eq": 2
+            },
+            "effects": [
+              {
+                "type": "cutscene"
+              },
+              {
+                "type": "activate_effect",
+                "status": "Durante - Morositas"
+              },
+              {
+                "type": "heal_all_sinners",
+                "amount": "full_hp"
+              }
+            ]
+          },
+          {
+            "rule_id": "victory_cutscene",
+            "timing": "turn_end",
+            "condition": {
+              "hp_lte": 20
+            },
+            "effects": [
+              {
+                "type": "victory_cutscene"
+              },
+              {
+                "type": "hp_floor",
+                "target": "boss",
+                "min_hp_percent": 10
+              }
+            ],
+            "notes": "Wiki says victory triggers after the turn below 20% HP, with 10% HP floor."
+          }
+        ],
+        "patterns": [
+          {
+            "pattern_id": "opening",
+            "label": "Opening Pattern",
+            "priority": 100,
+            "active_when": {
+              "turn_lte": 2,
+              "hp_gt": 90
+            },
+            "boss_sp": 0,
+            "speed_bonus": 0,
+            "row_mode": "fixed",
+            "rows": [
+              {
+                "row_id": "opening_row",
+                "skills": [
+                  "lei_heng_triple_slash",
+                  "lei_heng_triple_slash",
+                  "lei_heng_double_slash",
+                  "lei_heng_double_slash",
+                  "lei_heng_double_slash",
+                  "lei_heng_double_slash"
+                ]
+              }
+            ],
+            "notes": [
+              "Used on the first turn and continues on turn 2 before loaded pattern activates."
+            ]
+          },
+          {
+            "pattern_id": "loaded_90",
+            "label": "Loaded Tigermark Pattern",
+            "priority": 90,
+            "active_when": {
+              "all": [
+                {
+                  "any": [
+                    {
+                      "hp_lte": 90
+                    },
+                    {
+                      "turn_gte": 3
+                    }
+                  ]
+                },
+                {
+                  "hp_gt": 80
+                }
+              ]
+            },
+            "boss_sp": 10,
+            "speed_bonus": 0,
+            "row_mode": "fixed",
+            "rows": [
+              {
+                "row_id": "blast_reload_row",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              }
+            ],
+            "turn_end_effects": [
+              {
+                "type": "reload_status",
+                "status": "Tigermark Round",
+                "amount": 6
+              },
+              {
+                "type": "recover_from_stagger"
+              }
+            ],
+            "notes": [
+              "Activates below 90% HP or after the second turn."
+            ]
+          },
+          {
+            "pattern_id": "below_80_rotation",
+            "label": "Below 80% Rotation",
+            "priority": 80,
+            "active_when": {
+              "all": [
+                {
+                  "any": [
+                    {
+                      "hp_lte": 80
+                    },
+                    {
+                      "turn_gte": 5
+                    }
+                  ]
+                },
+                {
+                  "hp_gt": 60
+                }
+              ]
+            },
+            "boss_sp": 20,
+            "row_mode": "cycle",
+            "cycle_start_turn": 5,
+            "rows": [
+              {
+                "row_id": "tanglecleaver_turn",
+                "speed_bonus": 10,
+                "start_effects": [
+                  {
+                    "type": "gain_status",
+                    "status": "Inner Strength",
+                    "amount": 25
+                  }
+                ],
+                "skills": [
+                  "lei_heng_tanglecleaver"
+                ]
+              },
+              {
+                "row_id": "blast_reload_a",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              },
+              {
+                "row_id": "blast_reload_b",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              }
+            ],
+            "notes": [
+              "Wiki passive says powerful attack repeats every 3rd turn and gets +10 Speed."
+            ]
+          },
+          {
+            "pattern_id": "below_60_savage_ammo",
+            "label": "Below 60% Savage Ammo Pattern",
+            "priority": 60,
+            "active_when": {
+              "all": [
+                {
+                  "hp_lte": 60
+                },
+                {
+                  "hp_gt": 40
+                }
+              ]
+            },
+            "boss_sp": 20,
+            "row_mode": "cycle",
+            "cycle_start_turn": 5,
+            "start_effects": [
+              {
+                "type": "gain_status",
+                "status": "Savage Tigermark Round",
+                "amount": 18
+              },
+              {
+                "type": "reload_immediately"
+              }
+            ],
+            "rows": [
+              {
+                "row_id": "tanglecleaver_turn",
+                "speed_bonus": 10,
+                "skills": [
+                  "lei_heng_tanglecleaver"
+                ]
+              },
+              {
+                "row_id": "blast_reload_a",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              },
+              {
+                "row_id": "blast_reload_b",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              }
+            ],
+            "summon_rules": [
+              {
+                "condition": "Savage Tigermark Round reaches 0",
+                "timing": "next_turn_start",
+                "summons": [
+                  {
+                    "enemy_name": "Stern Soldato of the Thumb",
+                    "count": 2,
+                    "purpose": "reload Savage Tigermark Round before retreating"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pattern_id": "below_40_savage_replacement",
+            "label": "Below 40% Savage Replacement",
+            "priority": 40,
+            "active_when": {
+              "hp_lte": 40
+            },
+            "boss_sp": 30,
+            "row_mode": "cycle",
+            "cycle_start_turn": 5,
+            "replacement_rules": [
+              {
+                "replace_skill": "lei_heng_tanglecleaver",
+                "with_skill": "lei_heng_savage_tigerslayer_s_perfected_flurry_of_blades"
+              }
+            ],
+            "rows": [
+              {
+                "row_id": "savage_powerful_turn",
+                "speed_bonus": 15,
+                "skills": [
+                  "lei_heng_savage_tigerslayer_s_perfected_flurry_of_blades"
+                ]
+              },
+              {
+                "row_id": "blast_reload_a",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              },
+              {
+                "row_id": "blast_reload_b",
+                "skills": [
+                  "lei_heng_blasting_shatterslash",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_triple_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_double_slash_blast",
+                  "lei_heng_reloading_tiantui_star_s_blade"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3656 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10614",
+  "identity": {
+    "id": "10614",
+    "english_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+    "sinner": "Hong Lu",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 248,
+    "speed_by_uptie": {
+      "uptie_1": "4~5",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 62,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1061401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp100PerNegativeBuffCountWithLimit300"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 3
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseUp",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "Anatomize"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +<style=\"highlight\">10</style>% damage for every type of negative effect on target (max <style=\"highlight\">30</style>%)\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max <style=\"highlight\">3</style>)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseUp",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "Anatomize"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +5% damage for every type of negative effect on target (max 20%)\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseUp",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "Anatomize"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +5% damage for every type of negative effect on target (max 20%)\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "DefenseUp",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "Anatomize"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Hong Lu Icon.png]\n\n[img:Pride1BG.png]\n\n2 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAnatomize\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Defense Level Down.png] Defense Level Down [img:Defense Level Down.png] Defense Level DownDefense Level -X for this turn. next turn (once per turn)\n[On Hit] Gain 2 [img:Defense Level Up.png] Defense Level Up [img:Defense Level Up.png] Defense Level UpDefense Level +X for this turn. next turn (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061405",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": true,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "DealNoTarget"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "ActionableCheckByOppFaction"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "My, How We Love the Flesh and the Blood"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantIdentify]\n[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Its attack does not hit\n[WhenUse] Apply 6 [AttackUp] on target",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061405",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": true,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "DealNoTarget"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "ActionableCheckByOppFaction"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 2,
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "My, How We Love the Flesh and the Blood"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantIdentify]\n[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Its attack does not hit\n[WhenUse] Apply 4 [AttackUp] on target",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061405",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": true,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "DealNoTarget"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "ActionableCheckByOppFaction"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "My, How We Love the Flesh and the Blood"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantIdentify]\n[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Its attack does not hit\n[WhenUse] Apply 4 [AttackUp] on target",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp100PerNegativeBuffCountWithLimit300"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 4
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "AdditionalActionOnSA1061402",
+              "turnLimit": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Gather Ingredient - Blood-bathed Objet"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +<style=\"highlight\">10</style>% damage for every type of negative effect on target (max <style=\"highlight\">30</style>%)\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max <style=\"highlight\">4</style>)\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +4 [ChargeBodyArt] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 5+ types of negative effects, use \"Installation Art no. 3: Improvised Ribcage\" Skill against the target (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "AdditionalActionOnSA1061402",
+              "turnLimit": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Gather Ingredient - Blood-bathed Objet"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 20%)</style>\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)</style>\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +4 [ChargeBodyArt] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 5+ types of negative effects, use \"Installation Art no. 3: Improvised Ribcage\" Skill against the target (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "AdditionalActionOnSA1061402",
+              "turnLimit": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Gather Ingredient - Blood-bathed Objet"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 20%)</style>\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)</style>\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +4 [ChargeBodyArt] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 5+ types of negative effects, use \"Installation Art no. 3: Improvised Ribcage\" Skill against the target (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "AdditionalActionOnSA1061402",
+              "turnLimit": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Gather Ingredient - Blood-bathed Objet"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +4 [ChargeBodyArt] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 5+ types of negative effects, use \"Installation Art no. 3: Improvised Ribcage\" Skill against the target (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061408",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S7",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "UseBuffSelfOnUseEvenIfLackBuff",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio100ViaNegativeBuffCntWithLimit500"
+            },
+            {
+              "script_name": "GiveMpDmgOnSucceedAttackTarget5"
+            },
+            {
+              "script_name": "HealMpOnSucceedAttackSelf5"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Installation Art no. 3: Improvised Ribcage"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\n[WhenUse] Consume 4 [ChargeBodyArt] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +<style=\"highlight\">10</style>% damage for every type of negative effect on target (max <style=\"highlight\">50</style>%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Deal 5 SP damage<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Heal 5 SP on self<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061408",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S7",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "UseBuffSelfOnUseEvenIfLackBuff",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit200"
+            },
+            {
+              "script_name": "GiveMpDmgOnSucceedAttackTarget5"
+            },
+            {
+              "script_name": "HealMpOnSucceedAttackSelf5"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Installation Art no. 3: Improvised Ribcage"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\n[WhenUse] Consume 4 [ChargeBodyArt] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +5% damage for every type of negative effect on target (max 20%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Deal 5 SP damage<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Heal 5 SP on self<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061408",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S7",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "UseBuffSelfOnUseEvenIfLackBuff",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit200"
+            },
+            {
+              "script_name": "GiveMpDmgOnSucceedAttackTarget5"
+            },
+            {
+              "script_name": "HealMpOnSucceedAttackSelf5"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Installation Art no. 3: Improvised Ribcage"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\n[WhenUse] Consume 4 [ChargeBodyArt] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +5% damage for every type of negative effect on target (max 20%)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Deal 5 SP damage<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Heal 5 SP on self<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061408",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S7",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "UseBuffSelfOnUseEvenIfLackBuff",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveMpDmgOnSucceedAttackTarget5"
+            },
+            {
+              "script_name": "HealMpOnSucceedAttackSelf5"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Installation Art no. 3: Improvised Ribcage"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\n[WhenUse] Consume 4 [ChargeBodyArt] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Deal 5 SP damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Heal 5 SP on self"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 3
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier3Shared",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "limit": 20,
+            "value": 0.01
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOnUseDivideByLessThenTargetNum_1",
+          "value": 0.3
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackDmgDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit300"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] Final Power +1 for every 4 [Laceration] on the main target (max <style=\"highlight\">3</style>)\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume up to 20 [ChargeBodyArt] Count and gain the following effects:\n- Final Power +2\n- Deal +1% damage for every [ChargeBodyArt] Count consumed\n- At 3+/5+ [ChargeBodyArt], gain +1/+2 Atk Weight\n- Convert all Coins on this Skill to [SuperCoin]s",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [SlashDamageUp] next turn (once per turn)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +5% damage for every type of negative effect on target (max 30%)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier3Shared",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "limit": 20,
+            "value": 0.01
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOnUseDivideByLessThenTargetNum_1",
+          "value": 0.3
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackDmgDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit300"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] Final Power +1 for every 4 [Laceration] on the main target (max 2)\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume up to 20 [ChargeBodyArt] Count and gain the following effects:\n- Final Power +2\n- Deal +1% damage for every [ChargeBodyArt] Count consumed\n- At 3+/5+ [ChargeBodyArt], gain +1/+2 Atk Weight\n- Convert all Coins on this Skill to [SuperCoin]s",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain 1 [SlashDamageUp] next turn (once per turn)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +5% damage for every type of negative effect on target (max 30%)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061406",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier3DefaultSuperCoin",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "limit": 20,
+            "value": 0.01
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOnUseByLessThenTargetNumWithSingleBonus_1_100",
+          "value": 0.3
+        },
+        {
+          "script_name": "GiveBuffOnEA1061406",
+          "value": 10,
+          "buffData": {
+            "buffKeyword": "MelodyBodyArt",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackDmgDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 5,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit300"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n- When attacking just 1 target, deal +100% additional damage\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume up to 20 [ChargeBodyArt] Count and gain the following effects:\n- Final Power +2\n- Deal +1% damage for every [ChargeBodyArt] Count consumed\n- At 3+/5+ [ChargeBodyArt], gain +1/+2 Atk Weight\n[EndSkill] For all Identities in The Ring faction, heal 10 SP and apply [MelodyBodyArt]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Gain 1 [SlashDamageUp] next turn (once per turn)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 2,
+            "en": "Deal +5% damage for every type of negative effect on target (max 30%)"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 5 [Combustion]"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061406",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier3DefaultSuperCoin",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "limit": 20,
+            "value": 0.01
+          }
+        },
+        {
+          "script_name": "AttackDmgMultiplierOnUseByLessThenTargetNumWithSingleBonus_1_100",
+          "value": 0.3
+        },
+        {
+          "script_name": "GiveBuffOnEA1061406",
+          "value": 10,
+          "buffData": {
+            "buffKeyword": "MelodyBodyArt",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackDmgDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 5,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "AttackDmgUpByRatio50ViaNegativeBuffCntWithLimit300"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "LivingSpecimenPersonality",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n- When attacking just 1 target, deal +100% additional damage\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume up to 20 [ChargeBodyArt] Count and gain the following effects:\n- Final Power +2\n- Deal +1% damage for every [ChargeBodyArt] Count consumed\n- At 3+/5+ [ChargeBodyArt], gain +1/+2 Atk Weight\n[EndSkill] For all Identities in The Ring faction, heal 10 SP and apply [MelodyBodyArt]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Gain 1 [SlashDamageUp] next turn (once per turn)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 2,
+            "en": "Deal +5% damage for every type of negative effect on target (max 30%)"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 5 [Combustion]"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SupportProtect",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Agility",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Curating the Exhibition"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[OnSucceedEvade] Inflict 1 [Binding] next turn against the attacker (once per turn)\n[OnSucceedEvade] Gain 1 [Agility] next turn (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SupportProtect",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Curating the Exhibition"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[OnSucceedEvade] Inflict 1 [Binding] next turn against the attacker (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SupportProtect",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Curating the Exhibition"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[OnSucceedEvade] Inflict 1 [Binding] next turn against the attacker (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SupportProtect",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Curating the Exhibition"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[OnSucceedEvade] Inflict 1 [Binding] next turn against the attacker (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1061407",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp100PerNegativeBuffCountWithLimit300"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "SupportiveDefense"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Please. Vandalism is Prohibited."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[SupportProtect] exclusive Skill\nDeal +<style=\"highlight\">10</style>% damage for every type of negative effect on target (max <style=\"highlight\">30</style>%)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)</style>\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061407",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "SupportiveDefense"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Please. Vandalism is Prohibited."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[SupportProtect] exclusive Skill\nDeal +5% damage for every type of negative effect on target (max 20%)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061407",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "SupportiveDefense"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Please. Vandalism is Prohibited."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[SupportProtect] exclusive Skill\nDeal +5% damage for every type of negative effect on target (max 20%)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061407",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit200"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "RingFingerBodyOnUseBuffTier2Shared",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "stack": 0,
+            "turn": 10,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "SupportiveDefense"
+        },
+        {
+          "script_name": "MarkGiveChargeBodyArtTurn"
+        },
+        {
+          "script_name": "MarkSubKeywordChargeBodyArt"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10614",
+      "identity_name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Please. Vandalism is Prohibited."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[SupportProtect] exclusive Skill\nDeal +5% damage for every type of negative effect on target (max 20%)\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeBodyArt] Count, consume 5 [ChargeBodyArt] Count to gain the following effects:\n- Clash Power +1\n- Convert the final Coin on this Skill to [SuperCoin]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    }
+  ]
+}

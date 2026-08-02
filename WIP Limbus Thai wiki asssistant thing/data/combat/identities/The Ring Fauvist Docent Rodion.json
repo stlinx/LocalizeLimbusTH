@@ -1,0 +1,3105 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10915",
+  "identity": {
+    "id": "10915",
+    "english_name": "The Ring Fauvist Docent Rodion",
+    "sinner": "Rodion",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 227,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 1,
+      "pierce": 2,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1091501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp50PerNegativeBuffCountWithLimit150"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "ParryingResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Reroll1091501_Upto1",
+              "value": 4
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 15%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n[WhenUse] <style=\"highlight\">Clash Power +1</style> and Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">If target has 4+ types of negative effect, Reuse this Coin (max once)</style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp200PerNegativeBuffCountWithLimit600"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "DmgMulByFauvismClawWound_2",
+          "value": 0.2
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "CoinScaleAdder1OnUseDevideMTNegativeBuffCount2WithLimit3"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAIfTargetNegativeBuffCntNotLessThan5",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Deal +20% damage for every type of negative effect on target (max 60%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">If target has 2+ types of Mauled Color, deal +20% damage</style>\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 2 types of negative effects on target (max 3)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If target has <style=\"highlight\">5</style>+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAIfTargetNegativeBuffCntNotLessThan6",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAIfTargetNegativeBuffCntNotLessThan6",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAIfTargetNegativeBuffCntNotLessThan6",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp200PerNegativeBuffCountWithLimit600"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "ChangeSkillOnBTIfTargetNegativeBuffCntNotLessThan6",
+          "turnLimit": 1,
+          "value": 1091505
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnDivideBySumOfTwoBuffStack_Laceration_Sinking",
+          "value": 1,
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAIfTargetNegativeBuffCntNotLessThan5",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Le Fauvisme - Déchaînement Brutal"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Deal +20% damage for every type of negative effect on target (max 60%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n[BeforeUse] If target has 6+ types of negative effect, activate as \"Burst Forth the Pulsing Crimson under Your Skin\" (once per turn)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If target has 5+ types of negative effect, inflict 1 [BoldBrushstrokesRodion] next turn</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BoldBrushstrokesRodion]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "ChangeSkillOnBTIfTargetNegativeBuffCntNotLessThan6",
+          "turnLimit": 1,
+          "value": 1091505
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnDivideBySumOfTwoBuffStack_Laceration_Sinking",
+          "value": 1,
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Le Fauvisme - Déchaînement Brutal"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n[BeforeUse] If target has 6+ types of negative effect, activate as \"Burst Forth the Pulsing Crimson under Your Skin\" (once per turn)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091505",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 4,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "WideAreaRampageDealAllAtLastCoin"
+        },
+        {
+          "script_name": "AttackDmgUp150PerNegativeBuffCountWithLimit900"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.4
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnDivideBySumOfTwoBuffStack_Laceration_Sinking",
+          "value": 1,
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "ForTrigger"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Burst Forth the Pulsing Crimson under Your Skin"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">Deal +15% damage for every type of negative effect on target (max 90%)</style>\nIf target has [IntenseColorsRodion], deal +40% damage\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on the main target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "This Coin hits all targets of the attack"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 2 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091505",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "WideAreaRampageDealAllAtLastCoin"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.4
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnDivideBySumOfTwoBuffStack_Laceration_Sinking",
+          "value": 1,
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "ForTrigger"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Burst Forth the Pulsing Crimson under Your Skin"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\nIf target has [IntenseColorsRodion], deal +40% damage\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on the main target (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "This Coin hits all targets of the attack"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 2 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SpecialSkill1091504",
+          "value": 3
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackSetStackAsValueIfNotHasStack_BearClawWoundAlly1",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackSetStackAsValueIfNotHasStack_EagleClawWoundAlly1",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 3,
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[BeforeUse] If this unit does not have [TestWaitDocentRodion] and if target has 3+ types of negative effect, activate as \"Critique\"\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">- If target does not have [BearClawWoundAlly], inflict 1 additional [BearClawWoundAlly]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">- If target does not have [EagleClawWoundAlly], inflict 1 additional [EagleClawWoundAlly]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "SpecialSkill1091504",
+          "value": 3
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackSetStackAsValueIfNotHasStack_BearClawWoundAlly1",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackSetStackAsValueIfNotHasStack_EagleClawWoundAlly1",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[BeforeUse] If this unit does not have [TestWaitDocentRodion] and if target has 3+ types of negative effect, activate as \"Critique\"\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">- If target does not have [BearClawWoundAlly], inflict 1 additional [BearClawWoundAlly]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">- If target does not have [EagleClawWoundAlly], inflict 1 additional [EagleClawWoundAlly]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.2
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BearClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "EagleClawWoundAlly",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091506",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp100PerNegativeBuffCountWithLimit400"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUseIfHas_IntenseColorsRodion",
+          "buffData": {
+            "buffKeyword": "ParryingResultUp",
+            "target": "Self",
+            "buffOwner": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStack_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 3
+          }
+        },
+        {
+          "script_name": "ParryingPowerResultAdderOnUseNegativeBuffCountPer_2_2_6"
+        },
+        {
+          "script_name": "GiveBuffOnEndTurn",
+          "buffData": {
+            "buffKeyword": "TestWaitDocentRodion",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Reroll1091506_Upto2",
+              "value": 3
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506_1",
+              "value": 1,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506_2",
+              "value": 1,
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506",
+              "buffData": {
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAOnNthCoin1091506",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Critique"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nDeal <style=\"highlight\">+10%</style> damage for every type of negative effect on target (max 40%)\nIf target has [IntenseColorsRodion], deal +30% damage\n[WhenUse] If target has [IntenseColorsRodion], gain 2 [ParryingResultUp]\n[WhenUse] If target has 4+ ([Laceration] + [Sinking]), Final Power +3\n<style=\"highlight\">[WhenUse] Clash Power +2 for every 2 types of negative effect on target (max 6)</style>\n[EndSkillAll] Gain 2 [TestWaitDocentRodion]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Reuse this Coin once for every 3 types of negative effect on target (max 2 times)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration] (once per Skill)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking] (once per Skill)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] If this Coin is the 3rd Coin used, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091506",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUp80PerNegativeBuffCountWithLimit400"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "IntenseColorsRodion",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUseIfHas_IntenseColorsRodion",
+          "buffData": {
+            "buffKeyword": "ParryingResultUp",
+            "target": "Self",
+            "buffOwner": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStack_Laceration_Sinking",
+          "buffData": {
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnEndTurn",
+          "buffData": {
+            "buffKeyword": "TestWaitDocentRodion",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "RingFingerFavuismTestEffectOnSetTarget"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Reroll1091506_Upto2",
+              "value": 3
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506_1",
+              "value": 1,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506_2",
+              "value": 1,
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSA1091506",
+              "buffData": {
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSAOnNthCoin1091506",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "BoldBrushstrokesRodion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10915",
+      "identity_name": "The Ring Fauvist Docent Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Critique"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-09.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\nDeal +8% damage for every type of negative effect on target (max 40%)\nIf target has [IntenseColorsRodion], deal +30% damage\n[WhenUse] If target has [IntenseColorsRodion], gain 2 [ParryingResultUp]\n[WhenUse] If target has 4+ ([Laceration] + [Sinking]), Final Power +3\n[EndSkillAll] Gain 2 [TestWaitDocentRodion]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Reuse this Coin once for every 3 types of negative effect on target (max 2 times)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration] (once per Skill)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking] (once per Skill)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] If this Coin is the 3rd Coin used, inflict 1 [BoldBrushstrokesRodion]"
+          }
+        ]
+      }
+    }
+  ]
+}

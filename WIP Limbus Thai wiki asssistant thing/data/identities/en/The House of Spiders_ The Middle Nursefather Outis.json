@@ -1,0 +1,1477 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "11115",
+    "english_name": "The House of Spiders: The Middle Nursefather Outis",
+    "sinner": "Outis",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 285,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 65,
+    "stagger_thresholds": [
+      {
+        "percent": 75,
+        "hp": 214
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy regardless of their level\n\n- Increase by 5 after an ally defeats an enemy regardless of their level\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy regardless of their level",
+          "Increase by 5 after an ally defeats an enemy regardless of their level"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 2.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1111501",
+      "name": {
+        "en": "Stomping"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"I'll Gut You Like a Fish\"\n<style=\"highlight\">[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], convert Coin 2 into [SuperCoin]</style>\n[WhenUse] Heal 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Raise Stagger Threshold by 5</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Binding] next turn (once per turn)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1111501",
+      "name": {
+        "en": "Stomping"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n<style=\"highlight\">[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"I'll Gut You Like a Fish\"</style>\n[WhenUse] Heal 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Binding] next turn (once per turn)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1111501",
+      "name": {
+        "en": "Stomping"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)</style>\n[WhenUse] Heal 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1111501",
+      "name": {
+        "en": "Stomping"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Heal 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1111505",
+      "name": {
+        "en": "I'll Gut You Like a Fish"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nCoin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n<style=\"highlight\">[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Laceration] On Coin Hit</style>\n[BeforeAttack] Gain [Combustion] equal to the number of Coins in this Skill\n[EndSkill] Lose 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by <style=\"highlight\">10</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 [Combustion] and +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Binding] <style=\"highlight\">and 1 [Paralysis]</style> next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1111505",
+      "name": {
+        "en": "I'll Gut You Like a Fish"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nCoin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[BeforeAttack] Gain [Combustion] equal to the number of Coins in this Skill\n[EndSkill] Lose 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by 5"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 [Combustion] and +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Binding] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1111502",
+      "name": {
+        "en": "Don't Let Somethin' Like This Break You!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"Gut Stab\"\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n<style=\"highlight\">[WhenUse] Convert this Skill's Coins equal to [ReinforcedTattooSpiderOutis] on this unit into [SuperCoin]s, beginning with Coin 3</style>\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] or [MiddleFatherSwordThreeOutis] stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Paralysis] next turn (once per turn)</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], deal Blunt damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 20%)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1111502",
+      "name": {
+        "en": "Don't Let Somethin' Like This Break You!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)\n<style=\"highlight\">[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"Gut Stab\"</style>\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] <style=\"highlight\">or [MiddleFatherSwordThreeOutis]</style> stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderOutis], deal Blunt damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 20%)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1111502",
+      "name": {
+        "en": "Don't Let Somethin' Like This Break You!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)</style>\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1111502",
+      "name": {
+        "en": "Don't Let Somethin' Like This Break You!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1111506",
+      "name": {
+        "en": "Gut Stab [Lævateinn]"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nIf target has 4+ ([Combustion] + [Laceration]), Final Power +1\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn\n[BeforeAttack] Gain [Combustion] equal to the number of Coins in this Skill\n[EndSkill] Lose 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] <style=\"highlight\">and 1 [Paralysis]</style> next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1111506",
+      "name": {
+        "en": "Gut Stab [Lævateinn]"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nIf target has 4+ ([Combustion] + [Laceration]), Final Power +1\n[WhenUse] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn\n[BeforeAttack] Gain [Combustion] equal to the number of Coins in this Skill\n[EndSkill] Lose 5 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1111503",
+      "name": {
+        "en": "Stamp of Vengeance"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "Final Power +1 for every 4 ([Combustion] + [Laceration]) on target (max 3)\n<style=\"highlight\">At 6+ Envy A-Reson., Coin Power +1</style>\n[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"Complete and Total Extermination\"\n[WhenUse] This Skill gains Offense Level equal to (highest Reson.) (max 6)\n[WhenUse] Final Power +1 for every [ReinforcedTattooSpiderOutis] on self (max 3)\n<style=\"highlight\">[WhenUse] Convert this Skill's Coins into [SuperCoin]s equal to [ReinforcedTattooSpiderOutis] on this unit, beginning with Coin 3</style>\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] or [MiddleFatherSwordThreeOutis] stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[EndSkill] Consume all [ResentmentSpiderOutis] on self\n<style=\"highlight\">[EndSkill] If this Skill was activated as a Counter Skill, gain 1 [HitDamageUp] next turn (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1111503",
+      "name": {
+        "en": "Stamp of Vengeance"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "Final Power +1 for every 4 ([Combustion] + [Laceration]) on target (max 3)\n[BeforeUse] If this unit has [MiddleFatherSwordFourOutis], activate as \"Complete and Total Extermination\"\n[WhenUse] This Skill gains Offense Level equal to (highest Reson.) (max 6)\n[WhenUse] Final Power +1 for every [ReinforcedTattooSpiderOutis] on self (max 3)\n[WhenUse] If this unit's sword is at [MiddleFatherSwordTwoOutis] or [MiddleFatherSwordThreeOutis] stage, inflict [Combustion] by the base amount of [Laceration] the Skill inflicts On Coin Hit\n[EndSkill] Consume all [ResentmentSpiderOutis] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1111507",
+      "name": {
+        "en": "Complete and Total Extermination [Lævateinn]"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on target (max 3)\nDeal +1% damage for every 1 ([Combustion] + [Laceration]) on target (max <style=\"highlight\">40%</style>)\n[WhenUse] This Skill gains Offense Level equal to (highest Reson.) (max 6)\n[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], Coin Power +1\n<style=\"highlight\">[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], inflict 1 [Laceration] Potency On Coin Hit</style>\n[BeforeAttack] Gain [Combustion] equal to the number of Coins of this Skill\n[EndSkill] Lose 5 SP\n[EndSkill] Consume all [ResentmentSpiderOutis] on self\n<style=\"highlight\">[EndSkill] If this Skill was activated as a Counter Skill, gain 1 [HitDamageUp] next turn (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Deal Slash damage equal to (([Combustion] on target + [Laceration] on target) x 2)% of this Coin's final damage (max 50%)</style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Deal Slash damage equal to (([Combustion] on target + [Laceration] on target) x 2)% of this Coin's final damage (max 50%)</style>"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Deal Pierce damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 25%)"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal Blunt damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 25%)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1111507",
+      "name": {
+        "en": "Complete and Total Extermination [Lævateinn]"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on target (max 3)\nDeal +1% damage for every 1 ([Combustion] + [Laceration]) on target (max 20%)\n[WhenUse] This Skill gains Offense Level equal to (highest Reson.) (max 6)\n[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], Coin Power +1\n[BeforeAttack] Gain [Combustion] equal to the number of Coins of this Skill\n[EndSkill] Lose 5 SP\n[EndSkill] Consume all [ResentmentSpiderOutis] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Deal Pierce damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 25%)"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal Blunt damage equal to ([Combustion] on target + [Laceration] on target)% of this Coin's final damage (max 25%)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1111508",
+      "name": {
+        "en": "Time to Unpack!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\n<style=\"highlight\">[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], deal Slash damage equal to (25% of each Coin's final damage) On Coin Hit</style>\n[EndSkill] Remove a seal from the sword",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by 10"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [VioletTakeDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1111508",
+      "name": {
+        "en": "Time to Unpack!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\n<style=\"highlight\">[WhenUse] If this unit has [ReinforcedTattooSpiderOutis], deal Slash damage equal to (25% of each Coin's final damage) On Coin Hit</style>\n[EndSkill] Remove a seal from the sword",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by 10"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [VioletTakeDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 2,
+      "source_skill_text_id": "1111508",
+      "name": {
+        "en": "Time to Unpack!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\n[EndSkill] Remove a seal from the sword",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by 10"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [VioletTakeDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 1,
+      "source_skill_text_id": "1111508",
+      "name": {
+        "en": "Time to Unpack!"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "External effects cannot trigger this Skill to be Reused\n[EndSkill] Remove a seal from the sword",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Raise Stagger Threshold by 10"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [VioletTakeDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1111509",
+      "name": {
+        "en": "Good Girl. Your Sacrifice for the Family Won't Be Forgotten."
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\n[CantDuel]\n[CantChangeTarget]\nExternal effects cannot trigger this Skill to be Reused, and this Skill does not trigger Defense Skills\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\n[WhenUse] Final Power +1 and deal +10% damage for every [ReinforcedTattooSpiderOutis] on self (max 3, max 100%)\n[WhenUse] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[EndSkill] Consume all [ResentmentSpiderOutis] on self and gain 5 [ResentmentSpiderOutis]\n[EndSkill] If a targeted ally is killed, gain 10 [ResentmentSpiderOutis]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "If target's Blunt Res. is below \"Normal\" (1.0), treat it as \"Normal\" (1.0)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Deal Blunt damage equal to (100% of this Coin's final damage)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1111509",
+      "name": {
+        "en": "Good Girl. Your Sacrifice for the Family Won't Be Forgotten."
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 16,
+      "coin_power": "+2",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[MiddleFatherSwordFourOutis] Exclusive Skill\n[CantDuel]\n[CantChangeTarget]\nExternal effects cannot trigger this Skill to be Reused, and this Skill does not trigger Defense Skills\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\n[WhenUse] Final Power +1 and deal +10% damage for every [ReinforcedTattooSpiderOutis] on self (max 3, max 100%)\n[WhenUse] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[EndSkill] Consume all [ResentmentSpiderOutis] on self and gain 5 [ResentmentSpiderOutis]\n[EndSkill] If a targeted ally is killed, gain 10 [ResentmentSpiderOutis]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "If target's Blunt Res. is below \"Normal\" (1.0), treat it as \"Normal\" (1.0)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Deal Blunt damage equal to (100% of this Coin's final damage)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1111504",
+      "name": {
+        "en": "Rule Violation"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[StartBattle] At 6+ sum of Envy A-Reson., use \"Stamp of Vengeance\" or \"Complete and Total Extermination\" as Counter (activates from the leftmost Skill Slot; activates 2 times per turn)</style>\n[StartBattle] Gain <style=\"highlight\">30%</style> of missing HP as Shield (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user's Stagger Threshold by <style=\"highlight\">10</style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1111504",
+      "name": {
+        "en": "Rule Violation"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] Gain 15% of missing HP as Shield (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1111504",
+      "name": {
+        "en": "Rule Violation"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] Gain 15% of missing HP as Shield (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1111504",
+      "name": {
+        "en": "Rule Violation"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] Gain 15% of missing HP as Shield (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1111502",
+        "name": {
+          "en": "Smell of Blood and Fire"
+        },
+        "requirement": null,
+        "en": "This unit is considered as an \"Identity that inflicts [Combustion] and [Laceration]\"\nIf this unit's sword has [MiddleFatherSwordTwoOutis] or [MiddleFatherSwordThreeOutis], Skills that inflict [Laceration] are considered as Skills that inflict both [Combustion] and [Laceration]"
+      },
+      {
+        "source_passive_text_id": "1111503",
+        "name": {
+          "en": "Sealed Sword [Lævateinn]"
+        },
+        "requirement": null,
+        "en": "Upon entering the Encounter for the first time, gain [MiddleFatherSwordOneOutis]\n\nAt less than 80% HP, use \"Time to Unpack!\" as an Unopposed Attack at Skill End, converting [MiddleFatherSwordOneOutis] into [MiddleFatherSwordTwoOutis]"
+      },
+      {
+        "source_passive_text_id": "1111504",
+        "name": {
+          "en": "Parenting"
+        },
+        "requirement": null,
+        "en": "If The House of Spiders: The Middle Apprentice Ishmael is on the field alongside this unit, activate the following effects:\n- On Clash Win, gain 1 [DaughterEducationSpiderOutis] (once per turn; if it was the first Skill this unit used in that turn, gain 1 additional [DaughterEducationSpiderOutis])\n- On Hit using a Skill, gain 1 [DaughterEducationSpiderOutis] (once per turn; does not gain [DaughterEducationSpiderOutis] from using Cracked Coins)\n\n【Effects apply only to The House of Spiders: The Middle Apprentice Ishmael】\n- When Ishmael wins a Clash, Ishmael gains 1 [GotAComplimentIshmael] (once per turn; if it was the first Skill Ishmael used in that turn, Ishmael gains 1 additional [GotAComplimentIshmael])\n- On Hit using Ishmael's Skill, Ishmael gains 1 [GotAComplimentIshmael] (once per turn; does not gain [GotAComplimentIshmael] from using Cracked Coins; if the Skill that hit was Skill 3 activated as a Counter, gain 1 additional [GotAComplimentIshmael])"
+      },
+      {
+        "source_passive_text_id": "1111505",
+        "name": {
+          "en": "Saikai [再会] - The Middle"
+        },
+        "requirement": null,
+        "en": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects:\n- Gain 1 [SojiRyoshuEchoPast]\n- Take -20% damage\n- When hit, gain 1 [AttackUp] (2 times per turn)"
+      },
+      {
+        "source_passive_text_id": "1111506",
+        "name": {
+          "en": "Thanks... Kiddo."
+        },
+        "requirement": null,
+        "en": "When this unit has [MiddleFatherSwordFourOutis]: When an ally that has less than 20% HP loses a Clash against an enemy, use \"Good Girl. Your Sacrifice for the Family Won't Be Forgotten.\" Skill that targets the enemy as the main target and the said ally as the sub-target (once per Encounter)\n- The House of Spiders: The Middle Apprentice Ishmael has a 30% HP conditional instead of 20%\n\nIf this Skill killed an ally in The Middle, gain 1 [VioletDamageUp] next turn\n- If this Skill killed The House of Spiders: The Middle Apprentice Ishmael, gain [MidFamilyOutis] next turn instead"
+      },
+      {
+        "source_passive_text_id": "1111501",
+        "name": {
+          "en": "Book of Vengeance - The House of Spiders Special Clause"
+        },
+        "requirement": null,
+        "en": "Turn End:\n- Apply [RetaliationBook] on the unit that dealt the most Skill damage to an ally\n- Apply [RetaliationBookSpiderOutis] on the unit that dealt the most Skill damage to this unit\n\nCombat Start: Gain 1 [ResentmentSpiderOutis] for every Envy Reson. (max 7)\n\nIf the following conditions are met during the Combat Phase, gain 2 [ResentmentSpiderOutis]\n- When this unit is hit by another unit's Skill (2 times per turn)\n- When The House of Spiders: The Middle Apprentice Ishmael is hit by another unit's Skill (once per turn)\n\nIf the following conditions are met during the Combat Phase, gain 1 [ResentmentSpiderOutis] (this unit and The House of Spiders: The Middle Apprentice Ishmael getting hit do not count toward either conditional below)\n- When a The Middle ally is hit by another unit's Skill (once per turn per Identity)\n- When a The House of Spiders ally is hit by another unit's Skill (once per turn per Identity)\n\nWhen this unit gains [ResentmentSpiderOutis], if the target has [RetaliationBook], gain an additional Stack of [ResentmentSpiderOutis]\n\nGain 1 [ReinforcedTattooSpiderOutis] every time this unit consumes 5 [ResentmentSpiderOutis]\n\n【Effects apply only to The House of Spiders: The Middle Apprentice Ishmael】\nWhen The House of Spiders: The Middle Nursefather Outis is hit by another unit's Skill, Ishmael gains 2 [ResentmentIshmael] (once per turn)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1111521",
+        "name": {
+          "en": "Someone Mess With the Family?"
+        },
+        "requirement": null,
+        "en": "Combat Start: Apply 1 [AttackDmgUp] and 1 [Protection] on allies that equipped Counter Skills (2 times per Encounter; excluding Clashable Counters)\n- If the affected ally is in The Middle, apply 2 [VioletDamageUp] and 2 [Protection] instead"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\The House of Spiders_ The Middle Nursefather Outis - Limbus Company Wiki.html"
+    }
+  }
+}

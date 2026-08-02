@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limbus Boss Turn Planner</title>
+    <link rel="stylesheet" href="/combat.css?v=real-skill-icons-20260711" />
+  </head>
+  <body>
+    <header class="combat-topbar">
+      <div>
+        <h1>Limbus Boss Turn Planner</h1>
+        <p>Boss intent is generated from imported rotation data. Pick sinner skills to answer each slot.</p>
+      </div>
+      <nav>
+        <a href="/">Database</a>
+        <a href="/boss.html">Boss Review</a>
+      </nav>
+    </header>
+
+    <main class="turn-shell">
+      <section class="boss-stage panel">
+        <div class="stage-left">
+          <form id="bossSearch" class="search-row">
+            <input id="bossQuery" autocomplete="off" placeholder="lei, rien, boss id..." />
+            <button type="submit">Search</button>
+          </form>
+          <div id="bossResults" class="search-results"></div>
+        </div>
+
+        <div class="boss-focus">
+          <img id="bossImage" class="boss-image" alt="" />
+          <div>
+            <div id="bossMeta" class="eyebrow">No boss selected</div>
+            <h2 id="bossName">Pick a boss</h2>
+            <p id="bossLocal">The boss will queue skills from its imported attack pattern.</p>
+          </div>
+        </div>
+
+        <div class="turn-controls">
+          <label>Turn <input id="turnNumber" type="number" min="1" value="1" /></label>
+          <label>Boss HP % <input id="bossHpPercent" type="number" min="1" max="100" value="100" /></label>
+          <label>Boss SP <input id="bossSp" type="number" min="-45" max="45" value="0" readonly /></label>
+          <button id="generateIntent" type="button">Generate Intent</button>
+        </div>
+      </section>
+
+
+      <section class="visual-planner">
+        <svg id="connectionLayer" class="connection-layer" aria-hidden="true">
+          <defs>
+            <marker id="arrowHead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z"></path>
+            </marker>
+          </defs>
+        </svg>
+        <div class="planner-hud">
+          <span>Planning Phase</span>
+          <strong class="planner-status">Click a bottom skill card, then click an enemy skill anchor.</strong>
+        </div>
+        <div class="battlefield-view">
+          <div id="allyUnits" class="field-allies"></div>
+          <div id="enemyUnits" class="field-enemy"></div>
+        </div>
+        <div id="visualCommandPanel" class="visual-command-panel"></div>
+      </section>
+
+      <section class="battle-board">
+        <aside class="panel roster-panel">
+          <div class="section-title">
+            <h3>Your Slots</h3>
+            <button id="addSinner" type="button">Add</button>
+          </div>
+          <div id="sinnerSlots" class="sinner-slots"></div>
+        </aside>
+
+        <section class="panel intent-panel">
+          <div class="section-title">
+            <h3>Boss Skill Slots</h3>
+            <span id="intentSource">No intent</span>
+          </div>
+          <div id="bossSlots" class="boss-slots empty">Generate boss intent.</div>
+        </section>
+      </section>
+
+      <section class="panel clash-panel">
+        <div class="section-title">
+          <h3>Clash Assignments</h3>
+          <button id="runAllClashes" type="button">Run Clashes</button>
+        </div>
+        <div id="behaviorNotes" class="behavior-notes empty">Generate boss intent to view behavior rules.</div>
+        <div id="assignmentSummary" class="assignment-summary empty">Pick a sinner slot on each boss skill.</div>
+      </section>
+    </main>
+
+    <script src="/combat.js?v=real-skill-icons-20260711"></script>
+  </body>
+</html>
+

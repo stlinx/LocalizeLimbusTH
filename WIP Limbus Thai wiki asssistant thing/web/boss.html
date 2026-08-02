@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limbus Boss Review</title>
+    <link rel="stylesheet" href="/boss.css" />
+  </head>
+  <body>
+    <header class="boss-topbar">
+      <div>
+        <h1>Limbus Boss Review</h1>
+        <p>Draft enemy data, status notes, and skill rotation review</p>
+      </div>
+      <nav>
+        <a href="/">Database</a>
+        <a href="/combat.html">Turn Planner</a>
+      </nav>
+    </header>
+
+    <main class="boss-shell">
+      <aside class="panel search-panel">
+        <form id="bossSearch" class="search-row">
+          <input id="bossQuery" autocomplete="off" placeholder="lei, rien, nursefather, boss id..." />
+          <button type="submit">Search</button>
+        </form>
+        <div id="bossResults" class="results"></div>
+      </aside>
+
+      <section class="boss-space">
+        <section class="panel boss-hero">
+          <div class="boss-art-frame">
+            <img id="bossImage" alt="" />
+          </div>
+          <div class="boss-title-wrap">
+            <div id="bossMeta" class="eyebrow">No boss selected</div>
+            <h2 id="bossName">Search a boss</h2>
+            <p id="bossSub">Boss fixtures are review data until an admin verifies behavior.</p>
+            <div id="bossWarnings" class="warning-list"></div>
+          </div>
+          <div id="bossStats" class="stat-grid"></div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-title">
+            <h3>Phases</h3>
+          </div>
+          <div id="bossPhases" class="phase-list empty">Select a boss.</div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-title">
+            <h3>Unique Statuses</h3>
+          </div>
+          <div id="bossStatuses" class="status-grid empty">Select a boss.</div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-title">
+            <h3>Passives</h3>
+            <span id="passiveCount"></span>
+          </div>
+          <div id="bossPassives" class="passive-list empty">Select a boss.</div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-title">
+            <h3>Skill Rotation</h3>
+            <span id="rotationSource"></span>
+          </div>
+          <div id="bossRotation" class="rotation-space empty">Select a boss.</div>
+        </section>
+
+        <section class="panel section-block review-panel">
+          <div class="section-title">
+            <h3>Admin Review Export</h3>
+            <span id="reviewSaveStatus">Unsaved</span>
+          </div>
+          <div class="review-toolbar">
+            <label>Reviewer <input id="reviewerName" autocomplete="off" value="local_admin" /></label>
+            <button id="applyReview" type="button">Apply Preview</button>
+            <button id="saveReview" type="button">Save Reviewed JSON</button>
+            <button id="downloadReview" type="button">Download JSON</button>
+          </div>
+          <div class="review-grid">
+            <article class="review-editor">
+              <label>Core / Phases <select id="reviewCoreStatus"><option value="draft">draft</option><option value="needs_fix">needs fix</option><option value="verified">verified</option></select></label>
+              <textarea id="reviewCore" spellcheck="false"></textarea>
+            </article>
+            <article class="review-editor">
+              <label>Skills <select id="reviewSkillsStatus"><option value="draft">draft</option><option value="needs_fix">needs fix</option><option value="verified">verified</option></select></label>
+              <textarea id="reviewSkills" spellcheck="false"></textarea>
+            </article>
+            <article class="review-editor">
+              <label>Statuses <select id="reviewStatusesStatus"><option value="draft">draft</option><option value="needs_fix">needs fix</option><option value="verified">verified</option></select></label>
+              <textarea id="reviewStatuses" spellcheck="false"></textarea>
+            </article>
+            <article class="review-editor">
+              <label>Skill Rotation <select id="reviewRotationStatus"><option value="draft">draft</option><option value="needs_fix">needs fix</option><option value="verified">verified</option></select></label>
+              <textarea id="reviewRotation" spellcheck="false"></textarea>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <aside class="panel skill-panel">
+        <div class="section-title">
+          <h3>Skills</h3>
+          <span id="skillCount"></span>
+        </div>
+        <div id="bossSkills" class="skill-list empty">Select a boss.</div>
+      </aside>
+    </main>
+
+    <script src="/boss.js?v=passives-20260711"></script>
+  </body>
+</html>
+

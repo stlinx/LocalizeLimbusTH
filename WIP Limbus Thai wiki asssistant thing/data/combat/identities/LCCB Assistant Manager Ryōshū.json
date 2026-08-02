@@ -1,0 +1,1309 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10406",
+  "identity": {
+    "id": "10406",
+    "english_name": "LCCB Assistant Manager Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 232,
+    "speed_by_uptie": {
+      "uptie_1": "4~5",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 1,
+      "pierce": 0.5,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1040601",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveMpDmgOnOnSuccessCriticalAttackTarget8"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Shove"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 2 Poise Count\n<style=\"highlight\">At 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></color></link></u>, Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Target loses 8 SP"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040601",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveMpDmgOnOnSuccessCriticalAttackTarget6"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Shove"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 Poise Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Target loses 6 SP"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040601",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveMpDmgOnOnSuccessCriticalAttackTarget6"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Shove"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 Poise Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Target loses 6 SP"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040601",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveMpDmgOnOnSuccessCriticalAttackTarget4"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "Shove"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 Poise Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Target loses 4 SP"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040602",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "T.N."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "At 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></link></u>, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 Poise"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 2 Offense Level Down"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 Poise"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040602",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "T.N."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Ryōshū Skill.png]\n\n[img:Gluttony2BG.png]\n\n4 [img:Blunt.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nT.N.\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.\n\n[img:CoinEffect2.png]\n[On Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 Poise"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 Poise"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040602",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "T.N."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Ryōshū Skill.png]\n\n[img:Gluttony2BG.png]\n\n3 [img:Blunt.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nT.N.\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.\n\n[img:CoinEffect2.png]\n[On Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 Poise"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 Poise"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040602",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "T.N."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Ryōshū Skill.png]\n\n[img:Gluttony2BG.png]\n\n3 [img:Blunt.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nT.N.\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.\n\n[img:CoinEffect2.png]\n[On Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n[On Crit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 Poise"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 Poise"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 Offense Level Down"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040603",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "UseBullet[necessary:Bullet:1]"
+            },
+            {
+              "script_name": "Empty"
+            },
+            {
+              "script_name": "1040603",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 2,
+                "value": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "1040603",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 2,
+                "value": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttack"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "O.O.F."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 4 Poise\nGain +1 Coin Power for every 7 Poise on self (max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Gain +1 Poise Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] Gain +1 Poise Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Double the application of Tremor & Rupture Potency and Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 4 Tremor and +2 Tremor Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 4 Rupture and +2 Rupture Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Trigger Tremor Burst"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040603",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "UseBullet[necessary:Bullet:1]"
+            },
+            {
+              "script_name": "Empty"
+            },
+            {
+              "script_name": "1040603",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 1,
+                "value": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "1040603",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 1,
+                "value": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackHead"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "O.O.F."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 4 Poise\nAt 10+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></link></u>, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Double the application of Tremor & Rupture Potency and Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 3 Tremor and +1 Tremor Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 3 Rupture and +1 Rupture Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 5,
+            "en": "[OnSucceedAttackHead] Trigger Tremor Burst"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040604",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "LCCB Ryōshū Skill.png]\n\n[img:Gluttony1BG.png]\n\n8 [img:Guard.png] + 8\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040604",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "LCCB Ryōshū Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040604",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "LCCB Ryōshū Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040604",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10406",
+      "identity_name": "LCCB Assistant Manager Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "LCCB Ryōshū Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    }
+  ]
+}

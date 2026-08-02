@@ -1,0 +1,1442 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10110",
+  "identity": {
+    "id": "10110",
+    "english_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+    "sinner": "Yi Sang",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "3~7",
+      "uptie_3": "3~8",
+      "uptie_4": "3~8"
+    },
+    "defense_level": 62,
+    "resistances": {
+      "slash": 1,
+      "pierce": 0.5,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1011001",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdderSelfForBulletLament",
+          "buffData": {
+            "buffKeyword": "BulletLament",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit1"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 10+ [BulletLament], Clash Power +1</style>\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011001",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit1"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011001",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit1"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011001",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nCelebration for the Departed\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent\n\n[img:CoinEffect2.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011002",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdderSelfForBulletLament",
+          "buffData": {
+            "buffKeyword": "BulletLament",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit2"
+        },
+        {
+          "script_name": "AddBulletLamentByResonancePlus_basiclimit6_perfectmul2_perfectlimit12_reloadcondition4"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament5]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "At 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Coin Power +1 for every 6 value</style> of the sum of the target's [Sinking] and both [SinkingWhite] <style=\"highlight\">(max 2)</style>\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n<style=\"highlight\"> - If the said Reson. was at 4+ A-Reson., [ReloadLament] instead</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 5 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011002",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit1"
+        },
+        {
+          "script_name": "AddBulletLamentByResonance_basiclimit6_perfectmul2_perfectlimit12"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament5]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 5 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011002",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit1"
+        },
+        {
+          "script_name": "AddBulletLamentByResonance_basiclimit6_perfectmul2_perfectlimit12"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament5]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 5 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011002",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament5]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Gloom2BG.png]\n\n4 [img:Pierce.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nSolemn Lament for the Living\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nSpend 5 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent\n\n[img:CoinEffect2.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 5 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011003",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderSelfForBulletLament",
+          "buffData": {
+            "buffKeyword": "BulletLament",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 4
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderSelfViaTargetSinkingAndWhite_div6_limit2"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "ReserveReloadBulletLament"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament6]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "ConsumeAllBulletLamentWithoutNecessary[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "DamageMultiplierPerConsumeBulletLament_mul4"
+            },
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "ESolemnLamentAdditionalAzureDmg100"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Goodbye Now, a Sorrow in You"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Base Power +1 for every <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(max 4)</style>\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 6 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend all of [BulletLament] on self"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Deal +4% damage for every value of [BulletLament] spent by this Skill"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011003",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderSelfForBulletLament",
+          "buffData": {
+            "buffKeyword": "BulletLament",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "ReserveReloadBulletLament"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget[necessary:BulletLament:::BulletLament6]"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "ConsumeAllBulletLamentWithoutNecessary[necessary:BulletLament:::BulletLament1]"
+            },
+            {
+              "script_name": "DamageMultiplierPerConsumeBulletLament_mul2"
+            },
+            {
+              "script_name": "GiveSinkingWhitePerConsumedBulletLamentToHitedTarget"
+            },
+            {
+              "script_name": "ESolemnLamentBlankSinking"
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "ESolemnLamentAdditionalAzureDmg100"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Goodbye Now, a Sorrow in You"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 [BulletLament]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 6 [BulletLament]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend all of [BulletLament] on self"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Deal +2% damage for every value of [BulletLament] spent by this Skill"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011004",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": null,
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TacticalReloadBulletLamentOnBattleStart",
+          "turnLimit": 1
+        },
+        {
+          "script_name": "AddShieldOnBattleStartSelfViaTotalButterfly",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP (max 20% per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011004",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": null,
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TacticalReloadBulletLamentOnBattleStart",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011004",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": null,
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TacticalReloadBulletLamentOnBattleStart",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1011004",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": null,
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TacticalReloadBulletLamentOnBattleStart",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10110",
+      "identity_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    }
+  ]
+}

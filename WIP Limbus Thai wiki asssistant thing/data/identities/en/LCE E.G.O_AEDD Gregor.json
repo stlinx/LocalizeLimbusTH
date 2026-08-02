@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "11215",
+    "english_name": "LCE E.G.O::AEDD Gregor",
+    "sinner": "Gregor",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 274,
+    "speed_by_uptie": {
+      "uptie_1": "4~6",
+      "uptie_2": "5~6",
+      "uptie_3": "5~7",
+      "uptie_4": "5~7"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 60,
+        "hp": 165
+      },
+      {
+        "percent": 30,
+        "hp": 82
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1121501",
+      "name": {
+        "en": "Electric Release"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Deal +6% damage for every [Charge] on self (max 30%)</style>\n[WhenUse] At 3+<style=\"highlight\">/5+</style> [Charge], Coin Power +1<style=\"highlight\">/+2</style>\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 5 [Charge] Count on self (max 2)</style>\n<style=\"highlight\">[WhenUse] At less than 10 [Charge] Count, gain +2 [Charge] Count</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1121501",
+      "name": {
+        "en": "Electric Release"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1\n<style=\"highlight\">[WhenUse] At 5+ [Charge] Count, Clash Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">2</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1121501",
+      "name": {
+        "en": "Electric Release"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1\n<style=\"highlight\">[WhenUse] At 5+ [Charge] Count, Clash Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">2</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1121501",
+      "name": {
+        "en": "Electric Release"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1121502",
+      "name": {
+        "en": "DC Inversion"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Deal +3% damage for every [Charge] on self (max 15%)</style>\n[WhenUse] At 3+<style=\"highlight\">/5+</style> [Charge], Coin Power +1<style=\"highlight\">/+2</style>\n- At 3+ [Charge], convert the final Coin into [SuperCoin]\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain Base Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">([Charge] + 2)</style> [Charge] Count (max <style=\"highlight\">5</style>)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [PhotoElectricity]\n<style=\"highlight\">- At 3+ [Charge], inflict 3 [PhotoElectricity] instead</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1121502",
+      "name": {
+        "en": "DC Inversion"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1\n<style=\"highlight\">- At 3+ [Charge], convert the final Coin into [SuperCoin]</style>\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain Base Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">([Charge] + 1)</style> [Charge] Count (max <style=\"highlight\">4</style>)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PhotoElectricity]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1121502",
+      "name": {
+        "en": "DC Inversion"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1\n<style=\"highlight\">- At 3+ [Charge], convert the final Coin into [SuperCoin]</style>\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain Base Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">([Charge] + 1)</style> [Charge] Count (max <style=\"highlight\">4</style>)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PhotoElectricity]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1121502",
+      "name": {
+        "en": "DC Inversion"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 3+ [Charge], Coin Power +1\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain Base Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +([Charge]) [Charge] Count (max 3)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [PhotoElectricity]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1121503",
+      "name": {
+        "en": "High-voltage Current Discharge"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] Gain [HighVoltageExoshell] equal to [Charge] (max <style=\"highlight\">5</style>, once per turn)\n[BeforeUse] At 3+ [Charge], activate as 'Maximum Output - Ultra High-voltage Current Discharge' (once per turn)\n[WhenUse] At 3+<style=\"highlight\">/5+</style> [Charge], Coin Power +1<style=\"highlight\">/+2</style>\n- At 3+ [Charge], convert the final Coin into [SuperCoin]\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Gain +2 [Charge] Count</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst] and +2 [Burst] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhotoElectricity]\n- At 3+ [Charge], inflict 3 [PhotoElectricity] instead<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [ChargedSting] equal to [Charge] next turn (max <style=\"highlight\">5</style>)\n- At 5+ [Charge], inflict <style=\"highlight\">5</style> [ChargedSting] this turn and next turn instead (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1121503",
+      "name": {
+        "en": "High-voltage Current Discharge"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] Gain [HighVoltageExoshell] equal to [Charge] (max 3, once per turn)\n[BeforeUse] At 3+ [Charge], activate as 'Maximum Output - Ultra High-voltage Current Discharge' (once per turn)\n[WhenUse] At 3+ [Charge], Coin Power +1\n- At 3+ [Charge], convert the final Coin into [SuperCoin]\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst] and +2 [Burst] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [PhotoElectricity]\n- At 3+ [Charge], inflict 3 [PhotoElectricity] instead"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [ChargedSting] equal to [Charge] next turn (max 3)\n- At 5+ [Charge], inflict 3 [ChargedSting] this turn and next turn instead (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1121505",
+      "name": {
+        "en": "Maximum Output - Ultra High-voltage Current Discharge"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "<style=\"highlight\">Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)</style>\n<style=\"highlight\">[WhenUse] At 5+ [Charge], Coin Power +1</style>\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain Base Power +1 and Coin Power +2\n<style=\"highlight\">- If there are any remaining [Charge] Count, consume up to 10 [Charge] Count to deal +([Charge] Count additionally consumed due to this effect x 1.5)% damage (max 15%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [PhotoElectricity]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [ChargedSting] equal to [Charge] next turn (max <style=\"highlight\">5</style>)\n- At 5+ [Charge], inflict <style=\"highlight\">5</style> [ChargedSting] this turn and next turn instead (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1121505",
+      "name": {
+        "en": "Maximum Output - Ultra High-voltage Current Discharge"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain Base Power +1 and Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [PhotoElectricity]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict [ChargedSting] equal to [Charge] next turn (max 3)\n- At 5+ [Charge], inflict 3 [ChargedSting] this turn and next turn instead (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1121504",
+      "name": {
+        "en": "This E.G.O Gift's Defensive Capability is Uniquely Superior"
+      },
+      "affinity": "Envy",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain <style=\"highlight\">2</style> [HighVoltageExoshell] (once per turn)\n<style=\"highlight\">[WhenUse] Gain Coin Power equal to [Charge] on self (max 5)</style>\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1121504",
+      "name": {
+        "en": "This E.G.O Gift's Defensive Capability is Uniquely Superior"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain 1 [HighVoltageExoshell] (once per turn)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1121504",
+      "name": {
+        "en": "This E.G.O Gift's Defensive Capability is Uniquely Superior"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain 1 [HighVoltageExoshell] (once per turn)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1121504",
+      "name": {
+        "en": "This E.G.O Gift's Defensive Capability is Uniquely Superior"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain 1 [HighVoltageExoshell] (once per turn)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1121502",
+        "name": {
+          "en": "Undying Persistence"
+        },
+        "requirement": null,
+        "en": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAny [ChargeForceField] this unit gains is converted to [HighVoltageExoshell]\n\nAt 3+ [Charge] on self, Min & Max Speed +1\n\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain [SelfChargeAlly] equal to (5 + [Charge] on self x 3) (max 20, once per Encounter)"
+      },
+      {
+        "source_passive_text_id": "1121503",
+        "name": {
+          "en": "Alternating Discharge Support"
+        },
+        "requirement": null,
+        "en": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 [AttackUp]\n\nIf this unit has 12 or less [Charge] Count when consuming [Charge] Count due to AEDD Gregor's E.G.O Passive effect:\nOn Heads Hit, instead of consuming 2 [Charge] Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n- This effect triggers only when this unit is at 25%+ HP"
+      },
+      {
+        "source_passive_text_id": "1121501",
+        "name": {
+          "en": "Take the Lead. I'll Provide You Support."
+        },
+        "requirement": null,
+        "en": "Combat Start: Gain +5 [Charge] Count (once per Encounter)\n\nCombat End: At more than 12 [Charge] Count, consume excess [Charge] Count up to 8 and apply +(half of [Charge] Count consumed due to this effect) [Charge] Count on an ally (min 1, rounded down)\n- This effect prioritizes the ally that has the lowest [Charge] Count among allies with earlier Deployment order than this unit\n- If there are no allies with earlier Deployment order than this unit on the battlefield, or if this unit has 3+ [Charge], deactivate this effect\n\nAt 3+ Gloom or Envy Reson., apply +2 [Charge] Count next turn on allies with earlier Deployment order than this unit\n- Applies on (Higher Reson. between Gloom and Envy - 2) allies, in Deployment order (max 3 allies)\n- At 3+ [Charge], apply +4 [Charge] Count on allies instead\n- If there are no allies with earlier Deployment order than this unit on the battlefield, gain +4 [Charge] Count instead"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1121521",
+        "name": {
+          "en": "Defibrillation"
+        },
+        "requirement": null,
+        "en": "Turn End: 2 allies with the earliest Deployment order each heal HP equal to (the sum of [Charge] Count and 'Unique Charge' consumed by each of their own Attack Skills this turn, respectively) (max 10)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCE E.G.O_AEDD Gregor - Limbus Company Wiki.html"
+    }
+  }
+}
