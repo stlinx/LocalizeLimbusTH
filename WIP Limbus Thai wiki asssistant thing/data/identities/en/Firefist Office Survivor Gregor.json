@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "11211",
+    "english_name": "Firefist Office Survivor Gregor",
+    "sinner": "Gregor",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 259,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~5",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 181
+      },
+      {
+        "percent": 0,
+        "hp": 0
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1121101",
+      "name": {
+        "en": "Flamethrow"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 3 Burn on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +<style=\"highlight\">2</style> [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1121101",
+      "name": {
+        "en": "Flamethrow"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has <style=\"highlight\">3</style>+ [Combustion], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +1 [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1121101",
+      "name": {
+        "en": "Flamethrow"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has <style=\"highlight\">3</style>+ [Combustion], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +1 [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1121101",
+      "name": {
+        "en": "Flamethrow"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has 6+ [Combustion], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Consume 15 [FirePunchFuel] and inflict +1 [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1121102",
+      "name": {
+        "en": "I'll burn away every last drop of your filthy blood"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)</style>\nCoins that consumed [FirePunchFuel] deal +<style=\"highlight\">15</style>% damage\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">30</style>% damage instead",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict <style=\"highlight\">2</style> [Combustion] against 2 enemies that have the least [Combustion] Potency"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against 2 enemies that have the least [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1121102",
+      "name": {
+        "en": "I'll burn away every last drop of your filthy blood"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has 6+ [Combustion], Coin Power +1\nCoins that consumed [FirePunchFuel] deal +10% damage\n<style=\"highlight\">- When in [FirePunchFuelOverheated] state, deal +20% damage instead</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict 1 [Combustion] against 2 enemies that have the least [Combustion] Potency<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against <style=\"highlight\">2 enemies</style> that have the least [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1121102",
+      "name": {
+        "en": "I'll burn away every last drop of your filthy blood"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has 6+ [Combustion], Coin Power +1\nCoins that consumed [FirePunchFuel] deal +10% damage\n<style=\"highlight\">- When in [FirePunchFuelOverheated] state, deal +20% damage instead</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict 1 [Combustion] against 2 enemies that have the least [Combustion] Potency<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against <style=\"highlight\">2 enemies</style> that have the least [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1121102",
+      "name": {
+        "en": "I'll burn away every last drop of your filthy blood"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has 6+ [Combustion], Coin Power +1\nWhen in [FirePunchFuelOverheated] state, deal +10% damage with Coins that consumed [FirePunchFuel]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict 1 [Combustion] against 2 enemies that have the least [Combustion] Potency"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Consume 10 [FirePunchFuel] and inflict +1 [Combustion] Count against 1 enemy that has the least [Combustion] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1121103",
+      "name": {
+        "en": "Firefist"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] Count on target (max 2)</style>\n[WhenUse] Base Power +1 for every 6 [Combustion] on target (max <style=\"highlight\">3</style>)\n[WhenUse] Consume up to 25 [FirePunchFuel] and deal +<style=\"highlight\">2</style>% damage for every [FirePunchFuel] consumed (max <style=\"highlight\">50</style>%)\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">4</style>% damage for every [FirePunchFuel] consumed (max <style=\"highlight\">100</style>%)\n[EndSkill] If target is defeated, or if this Skill consumed [FirePunchFuel], gain <style=\"highlight\">2</style> [HitDamageUp] next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict <style=\"highlight\">2</style> [Combustion] and +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict <style=\"highlight\">2</style> [Combustion] and +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Deal +<style=\"highlight\">2</style>% damage for every [FirePunchFuel] consumed by this Skill (max <style=\"highlight\">50</style>%)\n- When in [FirePunchFuelOverheated] state, deal +<style=\"highlight\">4</style>% damage for every [FirePunchFuel] consumed instead (max <style=\"highlight\">100</style>%)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1121103",
+      "name": {
+        "en": "Firefist"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has 3+ [Combustion] Count, Coin Power +1\n[WhenUse] Base Power +1 for every 6 [Combustion] on target (max 2)\n[WhenUse] Consume up to 25 [FirePunchFuel] and deal +1% damage for every [FirePunchFuel] consumed (max 25%)\n- When in [FirePunchFuelOverheated] state, deal +3% damage for every [FirePunchFuel] consumed instead (max 75%)\n[EndSkill] If target is defeated, or if this Skill consumed [FirePunchFuel], gain 1 [HitDamageUp] next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict 1 [Combustion] and +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this unit consumed [FirePunchFuel], inflict 1 [Combustion] and +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Deal +1% damage for every [FirePunchFuel] consumed by this Skill (max 25%)\n- When in [FirePunchFuelOverheated] state, deal +3% damage for every [FirePunchFuel] consumed instead (max 75%)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1121104",
+      "name": {
+        "en": "I have to keep going for big sis"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1121104",
+      "name": {
+        "en": "I have to keep going for big sis"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1121104",
+      "name": {
+        "en": "I have to keep going for big sis"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1121104",
+      "name": {
+        "en": "I have to keep going for big sis"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1121102",
+        "name": {
+          "en": "District 12 Special Workshop Fuel"
+        },
+        "requirement": null,
+        "en": "Begin Encounters with 100 [FirePunchFuel]\n- At over 50 Stack, become [FirePunchFuel]\n- At 50 or less Stack, any [FirePunchFuel] becomes [FirePunchFuelOverheated]"
+      },
+      {
+        "source_passive_text_id": "1121101",
+        "name": {
+          "en": "I'm the only survivor..."
+        },
+        "requirement": null,
+        "en": "Deal +0.2% damage for every [FirePunchFuel] and [FirePunchFuelOverheated] this unit consumed in this Encounter (max 40%)\n- If the main target is a <Bloodfiend>, <Bloodbag>, or if they have 30+ ([Combustion] + [Combustion] Count), deal +0.3% damage instead (max 60%)\n\nAt 1+ [FirePunchFuel] or [FirePunchFuelOverheated], if this unit Staggers or defeats enemies that have [Combustion], inflict +2 [Combustion] Count against 2 random enemies that do not have [Combustion] or has the least [Combustion] Count (once per turn)\n- For Focused Encounters, on Parts"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1121121",
+        "name": {
+          "en": "I hope they're from our Office..."
+        },
+        "requirement": null,
+        "en": "1 ally with the fastest Speed: On Hit, deal +5% more Wrath Damage for every 6 [Combustion] on the target (max 20%)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Firefist Office Survivor Gregor - Limbus Company Wiki.html"
+    }
+  }
+}

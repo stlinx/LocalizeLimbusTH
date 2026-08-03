@@ -1,0 +1,1917 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11113",
+  "identity": {
+    "id": "11113",
+    "english_name": "T Corp. Class 3 VDCU Staff Outis",
+    "sinner": "Outis",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 216,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 62,
+    "resistances": {
+      "slash": 1,
+      "pierce": 2,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1111301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Prepare To Collect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Prepare To Collect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">2</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Prepare To Collect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">2</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Prepare To Collect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +1 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuff111130202",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Both",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0,
+                "value": 4,
+                "limit": 10
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfTargetVibrationConvertedOrMerged",
+              "value": 0.6
+            },
+            {
+              "script_name": "SwitchVibration1111302",
+              "buffData": {
+                "buffKeyword": "VibrationChain",
+                "value": 3
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "T Corp. Microcavity Module"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">4</style> [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 10+ [Vibration], consume 4 [Vibration] on target to apply +2 [Vibration] Count to both the target and self<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\"> If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +60% damage</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuff111130202",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Both",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0,
+                "value": 4,
+                "limit": 10
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SwitchVibration1111302",
+              "buffData": {
+                "buffKeyword": "VibrationChain",
+                "value": 3
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "T Corp. Microcavity Module"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [Vibration], consume 4 [Vibration] on target to apply +2 [Vibration] Count to both the target and self</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuff111130202",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Both",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0,
+                "value": 4,
+                "limit": 10
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SwitchVibration1111302",
+              "buffData": {
+                "buffKeyword": "VibrationChain",
+                "value": 3
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "T Corp. Microcavity Module"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +<style=\"highlight\">3</style> [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [Vibration], consume 4 [Vibration] on target to apply +2 [Vibration] Count to both the target and self</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "T Corp. Microcavity Module"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion] once; then, reduce target's [Vibration] Count by 1"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpIfTargetVibrationConvertedOrMerged",
+          "value": 0.3
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "TimeSuspend",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Binding",
+            "stack": 1,
+            "turn": 0,
+            "buffOwner": "Target",
+            "value": 1
+          }
+        },
+        {
+          "script_name": "ForceToDestroyBuffOnEndSkill",
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "target": "Self"
+          }
+        },
+        {
+          "script_name": "GiveBuffOnEndSkill1111303",
+          "buffData": {
+            "buffKeyword": "OutisNoHat",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "UseBuff1111303",
+              "value": 2,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 1,
+                "value": -1,
+                "limit": 3
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnStartCoin1111303_1_100",
+              "value": 0.02,
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Self",
+                "turn": 4,
+                "value": 1,
+                "limit": 5
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "TimeRentalTwoPersonality",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasTurn_TimeRentalTwoPersonality1",
+              "buffData": {
+                "buffKeyword": "TimeSuspend",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_3",
+      "name": {
+        "en": "T-3 Collector Mace Max Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">If target is in either [Switch_Vibration] or [FusionVibration] states, deal +30% damage</style>\nIf target has [TimeSuspend], deal +30% damage\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] on target (max 2)</style>\n<style=\"highlight\">[WhenUse] If target has [Binding] Clash Power +1</style>\n[EndSkill] Lose [TimeRentalTwoPersonality] on self\n[EndSkill] Gain [OutisNoHat] (once per Encounter)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Consume up to 3 [Vibration] on target<style=\"highlight\"></style>\n- Gain +([Vibration] consumed x 2) [Vibration] Count<style=\"highlight\"></style>\n- Inflict ([Vibration] consumed - 1) [Binding] next turn<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnStartCoin] Consume all [Vibration] Count on self<style=\"highlight\"></style>\n- Coin Power +1 for every <style=\"highlight\">4</style> [Vibration] Count consumed (max 5)\n- Deal +<style=\"highlight\">2</style>% damage for every 1 [Vibration] Count consumed (max 100%)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], trigger [VibrationExplosion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], inflict 2 [TimeSuspend]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "TimeSuspend",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "ForceToDestroyBuffOnEndSkill",
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "target": "Self"
+          }
+        },
+        {
+          "script_name": "GiveBuffOnEndSkill1111303",
+          "buffData": {
+            "buffKeyword": "OutisNoHat",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "UseBuff1111303",
+              "value": 2,
+              "buffData": {
+                "buffKeyword": "Binding",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 1,
+                "value": -1,
+                "limit": 3
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnStartCoin1111303_1_50",
+              "value": 0.01,
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "",
+                "buffOwner": "Self",
+                "turn": 5,
+                "value": 1,
+                "limit": 5
+              }
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1"
+            },
+            {
+              "script_name": "VibrationExplosionOnSucceedAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "TimeRentalTwoPersonality",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasTurn_TimeRentalTwoPersonality1",
+              "buffData": {
+                "buffKeyword": "TimeSuspend",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "skill_3",
+      "name": {
+        "en": "T-3 Collector Mace Max Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "If target has [TimeSuspend], deal +30% damage\n[WhenUse] If target has 6+ [Vibration], Coin Power +1\n[EndSkill] Lose [TimeRentalTwoPersonality] on self\n[EndSkill] Gain [OutisNoHat] (once per Encounter)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Consume up to 3 [Vibration] on target\n- Gain +([Vibration] consumed x 2) [Vibration] Count\n- Inflict ([Vibration] consumed - 1) [Binding] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnStartCoin] Consume all [Vibration] Count on self\n- Coin Power +1 for every 5 [Vibration] Count consumed (max 5)\n- Deal +1% damage for every 1 [Vibration] Count consumed (max 50%)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], trigger [VibrationExplosion]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] If this unit has [TimeRentalTwoPersonality], inflict 2 [TimeSuspend]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TCorpPersonalityGiveBuffOnRE",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Both",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Borrowed Time - Microcavity"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TCorpPersonalityGiveBuffOnRE",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Both",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Borrowed Time - Microcavity"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TCorpPersonalityGiveBuffOnRE",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Both",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Borrowed Time - Microcavity"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1111304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TCorpPersonalityGiveBuffOnRE",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "TimeRentalTwoPersonality",
+            "buffOwner": "Self",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Both",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11113",
+      "identity_name": "T Corp. Class 3 VDCU Staff Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Borrowed Time - Microcavity"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    }
+  ]
+}

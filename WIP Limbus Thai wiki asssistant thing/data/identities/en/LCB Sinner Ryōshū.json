@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10401",
+    "english_name": "LCB Sinner Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "2~6",
+      "uptie_3": "3~6",
+      "uptie_4": "3~6"
+    },
+    "defense_level": 56,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 142
+      },
+      {
+        "percent": 40,
+        "hp": 81
+      },
+      {
+        "percent": 20,
+        "hp": 41
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1040101",
+      "name": {
+        "en": "Paint"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Gluttony1BG.png]\n\n4 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nPaint\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1040101",
+      "name": {
+        "en": "Paint"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Gluttony1BG.png]\n\n3 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nPaint\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1040101",
+      "name": {
+        "en": "Paint"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nPaint\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1040101",
+      "name": {
+        "en": "Paint"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nPaint\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 1 [Breath] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1040102",
+      "name": {
+        "en": "Splatter"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Lust2BG.png]\n\n4 [img:Slash.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nSplatter\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf target previously took damage this turn, deal +30% damage\n\n[img:CoinEffect2.png]\nIf target previously took damage this turn, deal +30% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1040102",
+      "name": {
+        "en": "Splatter"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Lust2BG.png]\n\n4 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nSplatter\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf target previously took damage this turn, deal +30% damage\n\n[img:CoinEffect2.png]\nIf target previously took damage this turn, deal +30% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1040102",
+      "name": {
+        "en": "Splatter"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Lust2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nSplatter\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf target previously took damage this turn, deal +30% damage\n\n[img:CoinEffect2.png]\nIf target previously took damage this turn, deal +30% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +30% damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1040102",
+      "name": {
+        "en": "Splatter"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Lust2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nSplatter\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf target previously took damage this turn, deal +10% damage\n\n[img:CoinEffect2.png]\nIf target previously took damage this turn, deal +10% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +10% damage"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "If target previously took damage this turn, deal +10% damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1040103",
+      "name": {
+        "en": "Brushstroke"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain 2 Slash DMG Up",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1040103",
+      "name": {
+        "en": "Brushstroke"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] Gain 2 Slash DMG Up",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1040104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": "Gluttony",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1040104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1040104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1040104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1040101",
+        "name": {
+          "en": "Indiscriminate Art"
+        },
+        "requirement": null,
+        "en": "Deal and take +25% damage."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1040121",
+        "name": {
+          "en": "Hustle"
+        },
+        "requirement": null,
+        "en": "1 ally with the lowest Max HP deals and takes +20% damage."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCB Sinner Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

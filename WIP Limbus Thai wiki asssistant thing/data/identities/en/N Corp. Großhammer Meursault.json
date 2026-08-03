@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10504",
+    "english_name": "N Corp. Großhammer Meursault",
+    "sinner": "Meursault",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 304,
+    "speed_by_uptie": {
+      "uptie_1": "2~4",
+      "uptie_2": "2~4",
+      "uptie_3": "3~5",
+      "uptie_4": "3~5"
+    },
+    "defense_level": 65,
+    "stagger_thresholds": [
+      {
+        "percent": 50,
+        "hp": 152
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 0.5,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1050401",
+      "name": {
+        "en": "Drive"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt less than 50% HP, Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1050401",
+      "name": {
+        "en": "Drive"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Sloth1BG.png]\n\n5 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nDrive\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Lower user’s Stagger Threshold by 60% of damage dealt\n\n[img:CoinEffect2.png]\n[On Hit] Lower user’s Stagger Threshold by 60% of damage dealt",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1050401",
+      "name": {
+        "en": "Drive"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Sloth1BG.png]\n\n4 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nDrive\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Lower user’s Stagger Threshold by 60% of damage dealt\n\n[img:CoinEffect2.png]\n[On Hit] Lower user’s Stagger Threshold by 60% of damage dealt",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 60% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1050401",
+      "name": {
+        "en": "Drive"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Sloth1BG.png]\n\n4 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nDrive\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Lower user’s Stagger Threshold by 30% of damage dealt\n\n[img:CoinEffect2.png]\n[On Hit] Lower user’s Stagger Threshold by 30% of damage dealt",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 30% of damage dealt"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Lower user’s Stagger Threshold by 30% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1050402",
+      "name": {
+        "en": "You Are Cleansed of Sin"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Nails"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Bind next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 5+ Nails, inflict 2 Bind and 2 Attack Power Down next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1050402",
+      "name": {
+        "en": "You Are Cleansed of Sin"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Wrath2BG.png]\n\n6 [img:Blunt.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nYou Are Cleansed of Sin\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down)\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 3 [img:Bind.png] Bind [img:Bind.png] BindSpeed -X for this turn. next turn\n[On Hit] If target has 5+ [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down), inflict 2 [img:Bind.png] Bind [img:Bind.png] BindSpeed -X for this turn. and 1 [img:Attack Power Down.png] Attack Power Down [img:Attack Power Down.png] Attack Power DownAttack Skill Final Power -X for this turn. next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Nails"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Bind next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 5+ Nails, inflict 2 Bind and 1 Attack Power Down next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1050402",
+      "name": {
+        "en": "You Are Cleansed of Sin"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Wrath2BG.png]\n\n5 [img:Blunt.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nYou Are Cleansed of Sin\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down)\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 3 [img:Bind.png] Bind [img:Bind.png] BindSpeed -X for this turn. next turn\n[On Hit] If target has 5+ [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down), inflict 2 [img:Bind.png] Bind [img:Bind.png] BindSpeed -X for this turn. and 1 [img:Attack Power Down.png] Attack Power Down [img:Attack Power Down.png] Attack Power DownAttack Skill Final Power -X for this turn. next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Nails"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Bind next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 5+ Nails, inflict 2 Bind and 1 Attack Power Down next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1050402",
+      "name": {
+        "en": "You Are Cleansed of Sin"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Wrath2BG.png]\n\n5 [img:Blunt.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nYou Are Cleansed of Sin\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down)\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 3 [img:Bind.png] Bind [img:Bind.png] BindSpeed -X for this turn. next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Nails"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 Bind next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1050403",
+      "name": {
+        "en": "Annihilate Heretics"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Nails next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Heal 50% of damage dealt\nHP Heal +3% for each of target's Nails"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1050403",
+      "name": {
+        "en": "Annihilate Heretics"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Pride3BG.png]\n\n8 [img:Pierce.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nAnnihilate Heretics\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Nails.png] Nails [img:Nails.png] NailsUnique Bleed\nTurn Start: Gain 1 Bleed and increase the Bleed Count by X.\nTurn End: Halve this effect’s Count. (Rounded down) next turn\n\n[img:CoinEffect2.png]\n[On Hit] Heal 50% of damage dealt",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Nails next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Heal 50% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1050404",
+      "name": {
+        "en": "Foolishness…!"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 15,
+      "coin_power": "-5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Gain 1 Protection\nAt less than 50% HP, Final Power +2",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1050404",
+      "name": {
+        "en": "Foolishness…!"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 15,
+      "coin_power": "-5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Gain 1 Protection\nAt less than 50% HP, Final Power +2",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1050404",
+      "name": {
+        "en": "Foolishness…!"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 15,
+      "coin_power": "-5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Gain 1 Protection\nAt less than 50% HP, Final Power +2",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1050404",
+      "name": {
+        "en": "Foolishness…!"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 15,
+      "coin_power": "-5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] Gain 1 Protection\nAt less than 50% HP, Final Power +2",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1050401",
+        "name": {
+          "en": "Obsessive Hammer"
+        },
+        "requirement": null,
+        "en": "When below 50% HP, remove 1 negative status effect and gain 1 Fanatic, 1 Attack Power Up, and 3 Protection at the start of the combat phase."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1050421",
+        "name": {
+          "en": "Highest Honor"
+        },
+        "requirement": null,
+        "en": "Apply 1 Attack Power Up and 1 Protection to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\N Corp. Großhammer Meursault - Limbus Company Wiki.html"
+    }
+  }
+}

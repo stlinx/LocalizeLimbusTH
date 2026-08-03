@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "11102",
+    "english_name": "Blade Lineage Salsu Outis",
+    "sinner": "Outis",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 251,
+    "speed_by_uptie": {
+      "uptie_1": "1~4",
+      "uptie_2": "1~5",
+      "uptie_3": "2~5",
+      "uptie_4": "2~5"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 65,
+        "hp": 163
+      },
+      {
+        "percent": 35,
+        "hp": 88
+      },
+      {
+        "percent": 15,
+        "hp": 38
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1110201",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At 5+ [Breath], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 4 [Breath]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1110201",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Outis Icon.png]\n\n[img:Wrath1BG.png]\n\n4 [img:Slash.png] + 6\n\n[img:Coin.png]\n\nDraw of the Sword\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain 4 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 4 [Breath]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1110201",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Outis Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Slash.png] + 6\n\n[img:Coin.png]\n\nDraw of the Sword\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain 4 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 4 [Breath]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1110201",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Outis Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Slash.png] + 6\n\n[img:Coin.png]\n\nDraw of the Sword\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 2 [Breath]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1110202",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WinDuel] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 2 Slash DMG Up next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1110202",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WinDuel] Gain +1 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 2 Slash DMG Up next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1110202",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WinDuel] Gain +1 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 2 Slash DMG Up next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1110202",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Outis Icon.png]\n\n[img:Lust2BG.png]\n\n4 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAcupuncture\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[Heads Hit] Gain 1 [img:Slash DMG Up.png] Slash DMG Up [img:Slash DMG Up.png] Slash DMG UpDeal +(X*10)% damage with Slash skills this turn. (Max 100%) next turn",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain 1 Slash DMG Up next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1110203",
+      "name": {
+        "en": "Decisive Dive"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "If target’s HP is below 50%, Final Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[CriticalOnSucceedAttack] Raise first Stagger Threshold by 20% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1110203",
+      "name": {
+        "en": "Decisive Dive"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "If target’s HP is below 25%, Final Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[CriticalOnSucceedAttack] Raise first Stagger Threshold by 20% of damage dealt"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1110204",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": "Pride",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At 6+ [Breath], Coin Power +3",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1110204",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n3 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1110204",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n3 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1110204",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n3 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1110201",
+        "name": {
+          "en": "Levelheaded"
+        },
+        "requirement": null,
+        "en": "Deal +20% damage to targets below 25% HP."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1110221",
+        "name": {
+          "en": "Double Tap"
+        },
+        "requirement": null,
+        "en": "1 ally with the most SP deals +30% damage to enemies below 25% HP."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Blade Lineage Salsu Outis - Limbus Company Wiki.html"
+    }
+  }
+}

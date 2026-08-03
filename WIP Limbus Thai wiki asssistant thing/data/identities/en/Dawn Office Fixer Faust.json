@@ -1,0 +1,947 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10216",
+    "english_name": "Dawn Office Fixer Faust",
+    "sinner": "Faust",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 239,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 55,
+        "hp": 131
+      },
+      {
+        "percent": 25,
+        "hp": 60
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1021601",
+      "name": {
+        "en": "Flash of Sunup"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Gain 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max <style=\"highlight\">3</style>)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion] and <style=\"highlight\">+1 [Combustion] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1021601",
+      "name": {
+        "en": "Flash of Sunup"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1021601",
+      "name": {
+        "en": "Flash of Sunup"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1021601",
+      "name": {
+        "en": "Flash of Sunup"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Clash Power +1 for every 10 [StigmaWorkshopCelloCaseOne] (max 2)\n[WhenUse] At 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1021605",
+      "name": {
+        "en": "Seconded Offensive"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Gain the following effects based on [StigmaWorkshopCelloCaseOne] Stack:\n- Deal +2% damage for every Stack (max 60%)\n- Final Power +1 for every 10 Stacks (max 3)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1021605",
+      "name": {
+        "en": "Seconded Offensive"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Deal +1% damage for every [StigmaWorkshopCelloCaseOne] on self (max 30%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1021605",
+      "name": {
+        "en": "Seconded Offensive"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 0,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Faust Icon.png]\n\n[img:Gluttony1BG.png]\n\n3 [img:Slash.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nSeconded Offensive\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x0\n\n[img:CoinEffect1.png]\n[On Hit] Inflict +1 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count (2 times per turn)\n\n[img:CoinEffect2.png]\n[On Hit] Inflict +1 [img:Burn.png] Burn [img:Burn.png] BurnTurn End: Take X fixed damage. Lasts Y turn(s). Count (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count (2 times per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1021602",
+      "name": {
+        "en": "Butterfly Slash"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max <style=\"highlight\">3</style>)\n[WhenUse] Gain <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] <style=\"highlight\">For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Inflict +1 [Combustion] Count (max 2)\n- Inflict +1 [Vibration] Count (max 2)</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1021602",
+      "name": {
+        "en": "Butterfly Slash"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)\n[WhenUse] Gain 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] At 10+ [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Inflict +1 [Combustion] Count\n- Inflict +1 [Vibration] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1021602",
+      "name": {
+        "en": "Butterfly Slash"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)\n[WhenUse] Gain 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] At 10+ [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Inflict +1 [Combustion] Count\n- Inflict +1 [Vibration] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1021602",
+      "name": {
+        "en": "Butterfly Slash"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1021603",
+      "name": {
+        "en": "Eject"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" instead (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Gain <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max <style=\"highlight\">3</style>)\n- Inflict +1 [Combustion] Count (max <style=\"highlight\">3</style>)\n- Inflict +1 [Vibration] Count (max <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1021603",
+      "name": {
+        "en": "Eject"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" instead (once per turn)\n[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +1\n[WhenUse] Gain 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] For every 10 [StigmaWorkshopCelloCaseOne], gain the following effects:\n- Clash Power +1 (max 2)\n- Inflict +1 [Combustion] Count (max 2)\n- Inflict +1 [Vibration] Count (max 2)\n- Reuse the final Coin once (2 times per Skill)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1021606",
+      "name": {
+        "en": "Eject - High Noon"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WideAreaRampage]\n<style=\"highlight\">Deal +([Combustion] on self + [Combustion] on target)% damage (max 20%, counted per target)</style>\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target has no [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n<style=\"highlight\">- Coin Power +1 and Clash Power +2 for every 6 ([Combustion] + [Vibration]) on the main target (max 2 and 4 respectively)</style>\n- Inflict +<style=\"highlight\">3</style> [Combustion] Count on all targets\n- Inflict +<style=\"highlight\">3</style> [Vibration] Count on all targets\n[EndSkill]\n- Inflict 1 [ResultReduction] next turn on all targets hit (once per turn)\n- Gain 1 [Firstlight]\n- Gain 1 [CaseOverheating]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Reuse this Coin (max 2 times)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">If this unit has [Firstlight], deal +([Combustion] Potency on target / 2)% damage (max 20%)</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1021606",
+      "name": {
+        "en": "Eject - High Noon"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WideAreaRampage]\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target has no [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- If the main target has 6+ ([Combustion] + [Vibration]), Coin Power +1 and Clash Power +2\n- Inflict +2 [Combustion] Count on all targets\n- Inflict +2 [Vibration] Count on all targets\n[EndSkill]\n- Inflict 1 [ResultReduction] next turn on all targets hit (once per turn)\n- Gain 1 [Firstlight]\n- Gain 1 [CaseOverheating]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Reuse this Coin (max 2 times)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1021604",
+      "name": {
+        "en": "Stigmatize"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Gain 6 [StigmaWorkshopCelloCaseOne] (once per Encounter)</style>\n[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment at High Noon[TabExplain]\" instead (once per turn)\n- If this unit has [CaseOverheating], the effect above does not activate\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Combustion] on self (max 2)</style>\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1021604",
+      "name": {
+        "en": "Stigmatize"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] At 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment at High Noon[TabExplain]\" instead (once per turn)\n- If this unit has [CaseOverheating], the effect above does not activate\n[WhenUse] At 5+ [Combustion], Coin Power +1</style>\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1021604",
+      "name": {
+        "en": "Stigmatize"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] At 5+ [Combustion], Coin Power +1\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1021604",
+      "name": {
+        "en": "Stigmatize"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] At 5+ [Combustion], Coin Power +1\n[WhenUse] Lose 5 [Combustion] (once per turn)\n[WinDuel] Lose 3 [Combustion] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1021607",
+      "name": {
+        "en": "Dismemberment at High Noon"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WideAreaRampage]\nDeal +(<style=\"highlight\">missing HP percentage on self</style>)% damage (max <style=\"highlight\">50%</style>)\n<style=\"highlight\">Deal +([Combustion] Potency on target)% damage (max 20%, counted per target)</style>\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target does not have [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- <style=\"highlight\">Coin Power +1 and Clash Power +2 for every 6 ([Combustion] + [Vibration]) on the main target (max 2 and 4 respectively)</style>\n- Inflict +<style=\"highlight\">3</style> [Combustion] Count on all targets\n- Inflict +<style=\"highlight\">3</style> [Vibration] Count on all targets\n[EndSkill]\n- Consume up to 30 [Combustion] on self and heal (<style=\"highlight\">20</style> + [Combustion] consumed)% HP (max <style=\"highlight\">50%</style>)\n- Consume all [StigmaWorkshopCelloCaseOne] on self\n- Gain 3 [Firstlight]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Reuse this Coin (max 2 times)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">If this unit has [Firstlight], deal +([Combustion] Potency on target)% damage (max 20%)</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (<style=\"highlight\">3</style> times per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1021607",
+      "name": {
+        "en": "Dismemberment at High Noon"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WideAreaRampage]\nDeal +(missing HP percentage on self / 2)% damage (max 25%)\nActivate the following effects on target with every hit of this Skill:\n- Inflict 1 [Combustion] or 1 [Vibration]\n- If target does not have [VibrationIgnition], trigger [Switch_Vibration] into [VibrationIgnition] (once per target)\n[WhenUse]\n- Clash Power +3\n- If the main target has 6+ ([Combustion] + [Vibration]), Coin Power +1 and Clash Power +2\n- Inflict +2 [Combustion] Count on all targets\n- Inflict +2 [Vibration] Count on all targets\n[EndSkill]\n- Consume up to 30 [Combustion] on self and heal (5 + [Combustion] consumed)% HP (max 35%)\n- Consume all [StigmaWorkshopCelloCaseOne] on self\n- Gain 3 [Firstlight]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "Reuse this Coin (max 2 times)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per Skill)"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1021602",
+        "name": {
+          "en": "Heatproof Coat"
+        },
+        "requirement": null,
+        "en": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopCelloCaseOne]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)"
+      },
+      {
+        "source_passive_text_id": "1021603",
+        "name": {
+          "en": "Seonbae"
+        },
+        "requirement": null,
+        "en": "If Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnFaust]\n- Turn Start: If Dawn Office[TabExplain] Fixer Faust is defeated, convert [DawnFaust] on Dawn Office[TabExplain] Fixer Sinclair into [DawnFaustDying]"
+      },
+      {
+        "source_passive_text_id": "1021601",
+        "name": {
+          "en": "Feuerfalter [Stigma Workshop]"
+        },
+        "requirement": null,
+        "en": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1021621",
+        "name": {
+          "en": "The Lone Fixer"
+        },
+        "requirement": null,
+        "en": "Combat Start: If there is only 1 surviving Identity, including Backup units, the said Identity gains 3 [AttackUp] and 3 [DefenseUp]"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Dawn Office Fixer Faust - Limbus Company Wiki.html"
+    }
+  }
+}

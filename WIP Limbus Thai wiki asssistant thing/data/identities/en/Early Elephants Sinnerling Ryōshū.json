@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": null,
+    "english_name": "Early Elephants Sinnerling Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 77,
+    "speed_by_uptie": {},
+    "defense_level": 1,
+    "stagger_thresholds": [
+      {
+        "percent": 0,
+        "hp": 0
+      }
+    ],
+    "panic": "Does not act for this turn.\n\n[img:Unique Sanity Factors.png]",
+    "sanity": {},
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": null,
+      "source_skill_text_id": null,
+      "name": {
+        "en": "Heh."
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 7,
+        "base": 5,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Gluttony1BG.png]\n\n4 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nHeh.\n\n[img:SkillAttack.png] 7 (5+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_2",
+      "uptie": null,
+      "source_skill_text_id": null,
+      "name": {
+        "en": "Shotening."
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 7,
+        "base": 5,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Lust2BG.png]\n\n4 [img:Slash.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nShotening.\n\n[img:SkillAttack.png] 7 (5+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf target took damage this turn, deal +30% damage\n\n[img:CoinEffect2.png]\nIf target took damage this turn, deal +30% damage",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_3",
+      "uptie": null,
+      "source_skill_text_id": null,
+      "name": {
+        "en": "S.C.N.C."
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 7,
+        "base": 5,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Pride3BG.png]\n\n5 [img:Slash.png] + 3\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nS.C.N.C.\n\n[img:SkillAttack.png] 7 (5+2) Atk Weight ⯀\nAmt. x1\n[Combat Start] Gain 2 [img:Slash DMG Up.png] Slash DMG Up [img:Slash DMG Up.png] Slash DMG UpDeal +(X*10)% damage with Slash skills this turn. (Max 100%)\n\n[img:CoinEffect2.png]\n[On Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). next turn",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": null,
+      "source_skill_text_id": null,
+      "name": {
+        "en": "F.U."
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 3,
+        "base": 5,
+        "correction": -2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nF.U.\n\n[img:SkillDefense.png] 3 (5-2) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [],
+    "support": [
+      {
+        "source_passive_text_id": null,
+        "name": {
+          "en": "Hustlwe"
+        },
+        "requirement": null,
+        "en": "1 ally with the lowest Max HP deals and takes +20% damage."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Early Elephants Sinnerling Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

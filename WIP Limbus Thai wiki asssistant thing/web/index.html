@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limbus Assistant Database</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Limbus Assistant Database</h1>
+        <p>Shared data layer for Discord bot and future web tools</p>
+      </div>
+      <div class="controls">
+        <a class="nav-link" href="/combat.html">Turn Planner</a>
+        <a class="nav-link" href="/boss.html">Boss Review</a>
+        <label>
+          Lang
+          <select id="lang">
+            <option value="th" selected>TH</option>
+            <option value="en">EN</option>
+          </select>
+        </label>
+        <label>
+          Uptie
+          <select id="uptie">
+            <option value="4" selected>IV</option>
+            <option value="3">III</option>
+            <option value="2">II</option>
+            <option value="1">I</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <main class="shell">
+      <aside class="panel search-panel">
+        <form id="identitySearch" class="search-box">
+          <input id="identityQuery" autocomplete="off" placeholder="regret faust, yi sang, Faust..." />
+          <button type="submit">Search</button>
+        </form>
+        <div id="identityResults" class="results"></div>
+      </aside>
+
+      <section class="identity-space">
+        <div class="identity-head panel">
+          <div class="identity-title-wrap">
+            <div class="portrait-frame">
+              <img id="identityPortrait" alt="" />
+            </div>
+            <div>
+              <div class="eyebrow" id="identityId">No identity selected</div>
+              <h2 id="identityName">Search an identity</h2>
+              <p id="identityLocal">The profile comes from SQLite, not loose JSON.</p>
+            </div>
+          </div>
+          <div class="stats" id="identityStats"></div>
+        </div>
+
+        <div class="profile-grid">
+          <section class="panel card-panel">
+            <div class="section-title">
+              <h3>Discord Card</h3>
+              <button id="refreshCard" type="button">Refresh</button>
+            </div>
+            <div class="card-frame">
+              <img id="identityCard" alt="Rendered identity card" />
+              <div id="cardEmpty" class="empty">Pick an identity to render the bot card.</div>
+            </div>
+          </section>
+
+          <section class="panel data-panel">
+            <div class="section-title">
+              <h3>Skills</h3>
+              <span id="skillCount"></span>
+            </div>
+            <div id="skills" class="skill-list"></div>
+          </section>
+        </div>
+
+      </section>
+
+      <aside class="panel status-panel">
+        <div class="section-title">
+          <h3>Passives</h3>
+        </div>
+        <div id="passives" class="passive-list empty">Select an identity.</div>
+
+        <div class="status-bottom">
+          <div class="section-title">
+            <h3>Status Search</h3>
+          </div>
+          <form id="statusSearch" class="search-box compact">
+            <input id="statusQuery" autocomplete="off" placeholder="Poise / status name" />
+            <button type="submit">Find</button>
+          </form>
+          <div id="statusResult" class="status-result empty">Search a status effect.</div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+

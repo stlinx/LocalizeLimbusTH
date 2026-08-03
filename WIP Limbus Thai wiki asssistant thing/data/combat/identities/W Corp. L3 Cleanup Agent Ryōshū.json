@@ -1,0 +1,1499 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10405",
+  "identity": {
+    "id": "10405",
+    "english_name": "W Corp. L3 Cleanup Agent Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "2~6",
+      "uptie_3": "3~6",
+      "uptie_4": "3~6"
+    },
+    "defense_level": 56,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1040501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 15,
+            "value": 0.1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "E.C."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "At 10+ Charge Count, deal +10% damage\nAt 15+ Charge Count, deal additional +10% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 0.1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "E.C."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "At 10+ Charge Count, deal +10% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 0.1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "E.C."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "At 10+ Charge Count, deal +10% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_1",
+      "name": {
+        "en": "E.C."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Ryōshū Skill.png]\n\n[img:Lust1BG.png]\n\n3 [img:Slash.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nE.C.\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain +2 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count\n\n[img:CoinEffect2.png]\n[On Hit] Gain +2 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 7,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 15,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasTurn_Charge10",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio30IfHpRatioLessThan30"
+            },
+            {
+              "script_name": "GiveBuffOnKillTarget",
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Leap"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +7 Charge Count\nAt 10+ Charge Count, gain +1 Coin Power\nAt 15+ Charge Count, gain additional +1 Coin Power",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 10+ Charge Count, inflict 2 Slash Fragility"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target’s HP is below 30%, deal +30% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[EnemyKill] Gain 3 Haste next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasTurn_Charge10",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio20IfHpRatioLessThan30"
+            },
+            {
+              "script_name": "GiveBuffOnKillTarget",
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Leap"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +6 Charge Count\nAt 10+ Charge Count, gain +1 Coin Power",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 10+ Charge Count, inflict 1 Slash Fragility"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target’s HP is below 30%, deal +20% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[EnemyKill] Gain 1 Haste next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 1,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasTurn_Charge10",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio20IfHpRatioLessThan30"
+            },
+            {
+              "script_name": "GiveBuffOnKillTarget",
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Leap"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +6 Charge Count\nAt 10+ Charge Count, gain +1 Coin Power",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 10+ Charge Count, inflict 1 Slash Fragility"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target’s HP is below 30%, deal +20% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[EnemyKill] Gain 1 Haste next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 1,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 5,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHeadIfHasTurn_Charge10",
+              "buffData": {
+                "buffKeyword": "SlashTakeDamageUp",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio15IfHpRatioLessThan30"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_2",
+      "name": {
+        "en": "Leap"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +5 Charge Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] At 10+ Charge Count, inflict 1 Slash Fragility"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target’s HP is below 30%, deal +15% damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "WCorpRyoshuThirdSkillAbility_ConditionTurnLessThan15",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 7,
+            "activeRound": 0,
+            "value": 5
+          }
+        },
+        {
+          "script_name": "1040503",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 15,
+            "activeRound": 0,
+            "value": 5
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio10"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio10"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio10"
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1040503_4",
+              "buffData": {
+                "buffKeyword": "ChargeForceField",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "1040503_4",
+              "buffData": {
+                "buffKeyword": "ChargeForceField",
+                "target": "RandomAllyExceptSelf",
+                "buffOwner": "",
+                "stack": 7,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "D.D.E.D.R."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 7~14 Charge Count\nConsume all Charge Count,\nAnd consume 3 x (15 - Charge Count Consumed)% HP to gain +5 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +5 Coin Power",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[EnemyKill] If the skill consumed 15 Charge Count upon use, apply 7 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> to self and 1 other ally"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "WCorpRyoshuThirdSkillAbility_ConditionTurnLessThan15",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 7,
+            "activeRound": 0,
+            "value": 3
+          }
+        },
+        {
+          "script_name": "1040503",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 15,
+            "activeRound": 0,
+            "value": 3
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio5"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio5"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "LastCoinDmgUpOnSucceedAttackHeadByRatio5"
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1040503_4",
+              "buffData": {
+                "buffKeyword": "ChargeForceField",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "1040503_4",
+              "buffData": {
+                "buffKeyword": "ChargeForceField",
+                "target": "RandomAllyExceptSelf",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "skill_3",
+      "name": {
+        "en": "D.D.E.D.R."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 7~14 Charge Count\nConsume all Charge Count,\nAnd consume 3 x (15 - Charge Count Consumed)% HP to gain +3 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +3 Coin Power",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +5% damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +5% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +5% damage"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[EnemyKill] If the skill consumed 15 Charge Count upon use, apply 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> to self and 1 other ally"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1040504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderViaBuffCheckDevideByTurnWithLimit3",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Charged Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Base Power +1 per 5 Charge Count (max 3)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": -4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderViaBuffCheckDevideByTurnWithLimit2",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Charged Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Base Power +1 per 5 Charge Count (max 2)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": -4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderViaBuffCheckDevideByTurnWithLimit2",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Charged Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Base Power +1 per 5 Charge Count (max 2)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1040504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": -4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "SkillPowerAdderViaBuffCheckDevideByTurnWithLimit2",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10405",
+      "identity_name": "W Corp. L3 Cleanup Agent Ryōshū",
+      "sinner": "Ryōshū",
+      "slot": "defense",
+      "name": {
+        "en": "Charged Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-04.json",
+      "text_summary": {
+        "english_description": "Base Power +1 per 5 Charge Count (max 2)",
+        "coin_texts": []
+      }
+    }
+  ]
+}

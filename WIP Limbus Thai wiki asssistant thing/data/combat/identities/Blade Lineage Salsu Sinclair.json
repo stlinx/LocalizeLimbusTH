@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11002",
+  "identity": {
+    "id": "11002",
+    "english_name": "Blade Lineage Salsu Sinclair",
+    "sinner": "Sinclair",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 264,
+    "speed_by_uptie": {
+      "uptie_1": "1~4",
+      "uptie_2": "1~5",
+      "uptie_3": "2~5",
+      "uptie_4": "2~5"
+    },
+    "defense_level": 62,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2,
+      "blunt": 1
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1100201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Slice then Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "If at 3+ [Breath] Count, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count "
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Slice then Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gluttony1BG.png]\n\n5 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nSlice then Stab\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Gain +2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Slice then Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gluttony1BG.png]\n\n4 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nSlice then Stab\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Gain +2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Slice then Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gluttony1BG.png]\n\n4 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nSlice then Stab\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[Heads Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "BlockLoseSinBuffByReactWithActionOnWinDuel_Breath"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Slash Series"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DefeatDuel] Gain 2 Attack Power Up next turn\n[WinDuel] Do not spend [Breath] Count with critical attacks landed with this skill",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Slash Series"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DefeatDuel] Gain 2 Attack Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Slash Series"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DefeatDuel] Gain 2 Attack Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Slash Series"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Wrath2BG.png]\n\n5 [img:Slash.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nSlash Series\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain 2 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n\n[img:CoinEffect2.png]\n[Heads Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).\n\n[img:CoinEffect3.png]\n[Heads Hit] Gain 1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s).",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 8,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CriticalDmgUpByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1.5
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 18,
+          "raw_scale": 18,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Paralysis",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "At 10+ [Breath] Count, +150% Critical Damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 5 Paralyze"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 8,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Paralysis",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Pride3BG.png]\n\n8 [img:Slash.png] + 14\n\n[img:Coin.png]\n\nTo Claim Their Bones\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 5 [img:Paralyze.png] Paralyze [img:Paralyze.png] ParalyzeFix the Power of X Coin(s) to 0 for this turn.\n[On Hit] Inflict 3 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 5 Paralyze"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 9,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Newsprung Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Damage Up next turn\n[WhenUse] Gain +3 [Breath] Count",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1100204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 9,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Newsprung Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Damage Up next turn",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1100204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 9,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Newsprung Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Damage Up next turn",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1100204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 9,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11002",
+      "identity_name": "Blade Lineage Salsu Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Newsprung Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Damage Up next turn",
+        "coin_texts": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1250 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10509",
+  "identity": {
+    "id": "10509",
+    "english_name": "Dead Rabbits Boss Meursault",
+    "sinner": "Meursault",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 232,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 62,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2,
+      "blunt": 1
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1050901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "If target has 5+ [Burst], Coin Power +<style=\"highlight\">2</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "If target has 5+ [Burst], Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "If target has 5+ [Burst], Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Meursault Icon.png]\n\n[img:Lust1BG.png]\n\n4 [img:Blunt.png] + 5\n\n[img:Coin.png]\n\nBat Strike\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst4",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ [Burst], Coin Power +1</style>\n[WinDuel] Inflict +2 [Burst] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 4+ [Burst], inflict 2 [AttackDown]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WinDuel] Inflict +2 [Burst] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WinDuel] Inflict +2 [Burst] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Meursault Icon.png]\n\n[img:Wrath2BG.png]\n\n3 [img:Pierce.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nSmackdown\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.\n[On Hit] If target has 6+ [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage., inflict 2 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050903",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "AttackDown",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_3",
+      "name": {
+        "en": "Relentless"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Clash Power +1</style>\n[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+        "coin_texts": [
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 [Burst]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050903",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "AttackDown",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_3",
+      "name": {
+        "en": "Relentless"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+        "coin_texts": [
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 [Burst]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10509",
+      "identity_name": "Dead Rabbits Boss Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    }
+  ]
+}

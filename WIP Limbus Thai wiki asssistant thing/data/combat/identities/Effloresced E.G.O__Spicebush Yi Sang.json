@@ -1,0 +1,1510 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10104",
+  "identity": {
+    "id": "10104",
+    "english_name": "Effloresced E.G.O::Spicebush Yi Sang",
+    "sinner": "Yi Sang",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 56,
+    "resistances": {
+      "slash": 1,
+      "pierce": 0.5,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1010401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Sprouting Bud"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Sprouting Bud"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Sprouting Bud"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Sprouting Bud"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "1010402",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0,
+            "value": 3
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Moment's Floral Breeze"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Consume 6 [Vibration] Count on self to turn this into an AoE skill with 3 Atk Weight\nIf main target has 6+ [Sinking] Count, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "1010402",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0,
+            "value": 3
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Moment's Floral Breeze"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Consume 6 [Vibration] Count on self to turn this into an AoE skill with 3 Atk Weight",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "1010402",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0,
+            "value": 3
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Moment's Floral Breeze"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Consume 6 [Vibration] Count on self to turn this into an AoE skill with 3 Atk Weight",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "1010402",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0,
+            "value": 3
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "Moment's Floral Breeze"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Consume 6 [Vibration] Count on self to turn this into an AoE skill with 3 Atk Weight",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Sinking] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Sinking] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveMpDmgOnLoseDuelSelf20"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SinkingSurgeOnSucceedAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalDmgOnSuccessAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 10,
+                "activeRound": 0,
+                "value": 0.4
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Bloodsteeped Scent"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[DefeatDuel] Lose 20 SP\n[WhenUse] Gain +6 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has 6+ [Sinking], cause [SinkingSurge]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If this unit has 10+ [Vibration] Count, deal 40% of damage dealt as bonus damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveMpDmgOnLoseDuelSelf20"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SinkingSurgeOnSucceedAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalDmgOnSuccessAttackViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 10,
+                "activeRound": 0,
+                "value": 0.3
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Bloodsteeped Scent"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[DefeatDuel] Lose 20 SP\n[WhenUse] Gain +6 [Vibration] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has 6+ [Sinking], cause [SinkingSurge]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If this unit has 10+ [Vibration] Count, deal 30% of damage dealt as bonus damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Scattering Aroma"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[OnSucceedEvade] Inflict 1 [Sinking]",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Scattering Aroma"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[OnSucceedEvade] Inflict 1 [Sinking]",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Scattering Aroma"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[OnSucceedEvade] Inflict 1 [Sinking]",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10104",
+      "identity_name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Scattering Aroma"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "[OnSucceedEvade] Inflict 1 [Sinking]",
+        "coin_texts": []
+      }
+    }
+  ]
+}

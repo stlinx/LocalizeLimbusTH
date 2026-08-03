@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10906",
+    "english_name": "Zwei Assoc. South Section 5 Rodion",
+    "sinner": "Rodion",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 271,
+    "speed_by_uptie": {
+      "uptie_1": "1~3",
+      "uptie_2": "2~3",
+      "uptie_3": "2~4",
+      "uptie_4": "2~4"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 55,
+        "hp": 149
+      },
+      {
+        "percent": 20,
+        "hp": 54
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 2.0,
+      "pierce": 1.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1090601",
+      "name": {
+        "en": "Careful Obstruction"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[WhenUse] Gain +2 Aggro to this Skill Slot next turn\n[DefeatDuel] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1090601",
+      "name": {
+        "en": "Careful Obstruction"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Wrath1BG.png]\n\n4 [img:Blunt.png] + 2\n\n[img:Coin.png] [img:Coin.png]\n\nCareful Obstruction\n\n[img:SkillAttack.png] 58 (60-2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count\n\n[img:CoinEffect2.png]\n[On Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1090601",
+      "name": {
+        "en": "Careful Obstruction"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Blunt.png] + 2\n\n[img:Coin.png] [img:Coin.png]\n\nCareful Obstruction\n\n[img:SkillAttack.png] 58 (60-2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count\n\n[img:CoinEffect2.png]\n[On Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1090601",
+      "name": {
+        "en": "Careful Obstruction"
+      },
+      "affinity": "Wrath",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Blunt.png] + 2\n\n[img:Coin.png] [img:Coin.png]\n\nCareful Obstruction\n\n[img:SkillAttack.png] 58 (60-2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count\n\n[img:CoinEffect2.png]\n[Heads Hit] Gain +1 [img:Poise.png] Poise [img:Poise.png] PoiseBoost critical hit chance by X*5% for the next Y hit(s). Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1090602",
+      "name": {
+        "en": "Focused Defense"
+      },
+      "affinity": "Sloth",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1090602",
+      "name": {
+        "en": "Focused Defense"
+      },
+      "affinity": "Sloth",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1090602",
+      "name": {
+        "en": "Focused Defense"
+      },
+      "affinity": "Sloth",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1090602",
+      "name": {
+        "en": "Focused Defense"
+      },
+      "affinity": "Sloth",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1090603",
+      "name": {
+        "en": "Subdue Threat"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "At 15+ Shield, Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 Fragile next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1090603",
+      "name": {
+        "en": "Subdue Threat"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "At 15+ shield, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 Fragile next turn"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1090604",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": "Wrath",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 15,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n15 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀\n[On Use] Gain +5 [img:Aggro.png] Aggro [img:Aggro.png] AggroIn focused encounters, slots with higher Aggro values are more likely to be targeted by enemies. to this Skill Slot next turn",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[WhenUse] Gain +5 Aggro to this Skill Slot next turn"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1090604",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n10 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1090604",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n10 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1090604",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n10 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 63 (60+3) Atk Weight ⯀",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1090601",
+        "name": {
+          "en": "Defensive Breathing"
+        },
+        "requirement": null,
+        "en": "At the start of the combat phase, gain 2 Shield per 1 Poise Count. (Max 20)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1090621",
+        "name": {
+          "en": "Designated Protection"
+        },
+        "requirement": null,
+        "en": "At the start of the combat phase, 1 ally with the lowest HP percentage gains 1 Shield per 1 Poise Count next turn. (Max 10)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Zwei Assoc. South Section 5 Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

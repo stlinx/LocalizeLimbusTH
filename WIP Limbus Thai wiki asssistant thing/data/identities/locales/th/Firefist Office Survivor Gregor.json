@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "11211",
+  "english_name": "Firefist Office Survivor Gregor",
+  "skills": [
+    {
+      "source_skill_text_id": "1121101",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "พ่นเพลิง",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 15 หน่วย และสร้างจำนวนครั้ง [Combustion] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121101",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "พ่นเพลิง",
+      "description": "หากเป้าหมายมีค่า [Combustion] 3+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 15 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121101",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "พ่นเพลิง",
+      "description": "หากเป้าหมายมีค่า [Combustion] 3+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 15 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121101",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "พ่นเพลิง",
+      "description": "หากเป้าหมายมีค่า [Combustion] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 15 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121102",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ฉันจะเผาเลือดสกปรกทุกหยดของแกให้สลายไป",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\nเหรียญที่ผลาญ [FirePunchFuel] จะสร้างความเสียหายเพิ่มขึ้น +15%\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +30% แทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างค่า [Combustion] 2 หน่วยแก่ศัตรู 2 ตัวที่มีค่า [Combustion] น้อยที่สุด"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วยแก่ศัตรู 2 ตัวที่มีจำนวนครั้ง [Combustion] น้อยที่สุด"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121102",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ฉันจะเผาเลือดสกปรกทุกหยดของแกให้สลายไป",
+      "description": "หากเป้าหมายมีค่า [Combustion] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\nเหรียญที่ผลาญ [FirePunchFuel] จะสร้างความเสียหายเพิ่มขึ้น +10%\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +20% แทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างค่า [Combustion] 1 หน่วยแก่ศัตรู 2 ตัวที่มีค่า [Combustion] น้อยที่สุด"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วยแก่ศัตรู 2 ตัวที่มีจำนวนครั้ง [Combustion] น้อยที่สุด"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121102",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ฉันจะเผาเลือดสกปรกทุกหยดของแกให้สลายไป",
+      "description": "หากเป้าหมายมีค่า [Combustion] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\nเหรียญที่ผลาญ [FirePunchFuel] จะสร้างความเสียหายเพิ่มขึ้น +10%\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +20% แทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างค่า [Combustion] 1 หน่วยแก่ศัตรู 2 ตัวที่มีค่า [Combustion] น้อยที่สุด"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วยแก่ศัตรู 2 ตัวที่มีจำนวนครั้ง [Combustion] น้อยที่สุด"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121102",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ฉันจะเผาเลือดสกปรกทุกหยดของแกให้สลายไป",
+      "description": "หากเป้าหมายมีค่า [Combustion] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\nขณะอยู่ในสภาวะ [FirePunchFuelOverheated] เหรียญที่ผลาญ [FirePunchFuel] จะสร้างความเสียหายเพิ่มขึ้น +10%",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างค่า [Combustion] 1 หน่วยแก่ศัตรู 2 ตัวที่มีค่า [Combustion] น้อยที่สุด"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [FirePunchFuel] 10 หน่วย และสร้างจำนวนครั้ง [Combustion] +1 หน่วยแก่ศัตรู 1 ตัวที่มีจำนวนครั้ง [Combustion] น้อยที่สุด"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121103",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "หมัดเพลิง",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Combustion] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] ผลาญ [FirePunchFuel] สูงสุด 25 หน่วย และสร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ [FirePunchFuel] ที่ผลาญไป (สูงสุด 50%)\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ [FirePunchFuel] ที่ผลาญไปแทน (สูงสุด 100%)\n[EndSkill] หากเป้าหมายถูกกำจัด หรือหากสกิลนี้ผลาญ [FirePunchFuel] จะได้รับ [HitDamageUp] 2 หน่วยในเทิร์นถัดไป",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] หากตัวละครนี้ผลาญ [FirePunchFuel] จะสร้างค่า [Combustion] 2 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] หากตัวละครนี้ผลาญ [FirePunchFuel] จะสร้างค่า [Combustion] 2 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +2% ตามทุก ๆ [FirePunchFuel] ที่สกิลนี้ผลาญไป (สูงสุด 50%)\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ [FirePunchFuel] ที่สกิลนี้ผลาญไปแทน (สูงสุด 100%)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121103",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "หมัดเพลิง",
+      "description": "หากเป้าหมายมีค่า [Combustion] 3+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเริ่มต้นสกิล +1 แต้ม ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ผลาญ [FirePunchFuel] สูงสุด 25 หน่วย และสร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ [FirePunchFuel] ที่ผลาญไป (สูงสุด 25%)\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ [FirePunchFuel] ที่ผลาญไปแทน (สูงสุด 75%)\n[EndSkill] หากเป้าหมายถูกกำจัด หรือหากสกิลนี้ผลาญ [FirePunchFuel] จะได้รับ [HitDamageUp] 1 หน่วยในเทิร์นถัดไป",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] หากตัวละครนี้ผลาญ [FirePunchFuel] จะสร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] หากตัวละครนี้ผลาญ [FirePunchFuel] จะสร้างค่า [Combustion] 1 หน่วย และจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ [FirePunchFuel] ที่สกิลนี้ผลาญไป (สูงสุด 25%)\n- ขณะอยู่ในสภาวะ [FirePunchFuelOverheated] จะสร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ [FirePunchFuel] ที่สกิลนี้ผลาญไปแทน (สูงสุด 75%)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121104",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "ฉันต้องไปต่อเพื่อเจ๊ใหญ่",
+      "description": "[DuelCounter]\n[StartBattle] ได้รับ [FirePunchFuel] 100 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121104",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "ฉันต้องไปต่อเพื่อเจ๊ใหญ่",
+      "description": "[DuelCounter]\n[StartBattle] ได้รับ [FirePunchFuel] 100 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121104",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "ฉันต้องไปต่อเพื่อเจ๊ใหญ่",
+      "description": "[DuelCounter]\n[StartBattle] ได้รับ [FirePunchFuel] 100 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1121104",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "ฉันต้องไปต่อเพื่อเจ๊ใหญ่",
+      "description": "[DuelCounter]\n[StartBattle] ได้รับ [FirePunchFuel] 100 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1121102",
+        "name": "เพลิงจากเวิร์คช็อปพิเศษของเขต 12",
+        "description": "เริ่มการเผชิญหน้าพร้อม [FirePunchFuel] จำนวน 100 หน่วย\n- เมื่อมีปริมาณทับซ้อนมากกว่า 50 หน่วย: กลายเป็น [FirePunchFuel]\n- เมื่อมีปริมาณทับซ้อน 50 หน่วยหรือต่ำกว่า: [FirePunchFuel] จะกลายเป็น [FirePunchFuelOverheated]"
+      },
+      {
+        "source_passive_text_id": "1121101",
+        "name": "ฉันคือผู้เหลือรอดคนสุดท้าย...",
+        "description": "สร้างความเสียหายเพิ่มขึ้น +0.2% ตามทุก ๆ [FirePunchFuel] และ [FirePunchFuelOverheated] ที่ตัวละครนี้ได้ผลาญไปตลอดการเผชิญหน้านี้ (สูงสุด 40%)\n- หากเป้าหมายหลักคือ <อสูรโลหิต>, <ถุงโลหิต>, หรือหากผลรวมค่าและจำนวนครั้ง [Combustion] เท่ากับ 30+ หน่วย จะสร้างความเสียหายเพิ่มขึ้นเป็น +0.3% แทน (สูงสุด 60%)\n\nขณะที่มี [FirePunchFuel] หรือ [FirePunchFuelOverheated] 1+ หน่วย: หากศัตรูที่มี [Combustion] อยู่ถูกตัวละครนี้ทำให้ติดชะงักหรือถูกกำจัด: สร้างจำนวนครั้ง [Combustion] +2 หน่วยแก่ศัตรู 2 ตัวแบบสุ่มที่ไม่มี [Combustion] หรือมีจำนวนครั้ง [Combustion] น้อยที่สุด (มีผลเทิร์นละครั้ง)\n- ในการเผชิญหน้าเพ่งเล็ง จะมีผลกับชิ้นส่วนอวัยวะ"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1121121",
+        "name": "หวังว่าพวกเขาจะมาจากสำนักงานของพวกเรา...",
+        "description": "พันธมิตร 1 คนที่มีความเร็วสูงที่สุด: เมื่อโจมตีโดน จะสร้างความเสียหายธาตุโทสะเพิ่มขึ้น +5% ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 20%)"
+      }
+    ]
+  }
+}

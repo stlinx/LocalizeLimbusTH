@@ -1,0 +1,2238 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10813",
+  "identity": {
+    "id": "10813",
+    "english_name": "Jeong's Office Rep Ishmael",
+    "sinner": "Ishmael",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 225,
+    "speed_by_uptie": {
+      "uptie_1": "2~6",
+      "uptie_2": "2~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~8"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1081301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffDivide",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Tsuru-giri [鶴斬り]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Tsuru-giri [鶴斬り]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Sinking] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Vibration] Count</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Tsuru-giri [鶴斬り]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Sinking] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Vibration] Count</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Tsuru-giri [鶴斬り]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffDivide",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "HealMpOnSucceedAttackSelf5"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Susuki Misdirection"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Heal 5 SP</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Susuki Misdirection"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Sinking]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Vibration]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Susuki Misdirection"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Sinking]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Vibration]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Discard10813"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Susuki Misdirection"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffDivide",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 3
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfTargetVibrationConvertedOrMerged",
+              "value": 0.48
+            },
+            {
+              "script_name": "SwitchVibrationOnSAIfNotConverted",
+              "buffData": {
+                "buffKeyword": "VibrationCollapse",
+                "target": "",
+                "buffOwner": "Target"
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Sakura-sen [桜閃]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "Deal +<style=\"highlight\">10</style>% damage for every [HanafudaCombo] Potency on self\n[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]), on target (max 3)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Sinking]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\"> If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +48% damage</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.05
+          }
+        },
+        {
+          "script_name": "Discard10813"
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaVibrationAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Sinking",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SwitchVibrationOnSAIfNotConverted",
+              "buffData": {
+                "buffKeyword": "VibrationCollapse",
+                "target": "",
+                "buffOwner": "Target"
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Sakura-sen [桜閃]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "Deal +5% damage for every [HanafudaCombo] Potency on self\n[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081305",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "Cancel1081305",
+          "value": 3,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CalculateMaxRollCnt1081305",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": -1,
+            "limit": 4
+          }
+        },
+        {
+          "script_name": "AttackDmgUp1081305",
+          "value": 3,
+          "buffData": {
+            "stack": 1,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "SkillPowerUp1081305",
+          "value": 4,
+          "buffData": {
+            "value": 1
+          }
+        },
+        {
+          "script_name": "VibrationExplosion1081305",
+          "value": 5,
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "buffOwner": "Self",
+            "turn": 1,
+            "value": 2
+          }
+        },
+        {
+          "script_name": "ForceToDestroyBuffOnEndSkill",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "Self"
+          }
+        },
+        {
+          "script_name": "ShuffleHand1081305",
+          "turnLimit": 1
+        },
+        {
+          "script_name": "Payback1081305"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "Reroll1081305"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Kōzan [光斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n\n[WhenUse] At less than 3 [HanafudaCombo] Potency, cancel the Skill and gain 2 [Enhancement] next turn\n[WhenUse] At 3+ [HanafudaCombo] Potency, gain the following effects based on Potency:\n- Per 1 Potency: this Skill deals +10% damage\n- At 4+ Potency: Base Power +1\n- At 5 Potency: On Hit with the final Reuse Coin, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 1\n[EndSkillAll] Lose [HanafudaCombo] on self\n[EndSkillAll] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills (once per turn)\n[EndSkillAll] Gain [HanafudaCombo] Potency next turn equal to the # of Coins that weren't used<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [DefenseDown]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081305",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CannotReusedSkill"
+        },
+        {
+          "script_name": "Cancel1081305",
+          "value": 3,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CalculateMaxRollCnt1081305",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": -1,
+            "limit": 4
+          }
+        },
+        {
+          "script_name": "AttackDmgUp1081305",
+          "value": 3,
+          "buffData": {
+            "stack": 1,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "SkillPowerUp1081305",
+          "value": 4,
+          "buffData": {
+            "value": 1
+          }
+        },
+        {
+          "script_name": "VibrationExplosion1081305",
+          "value": 5,
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "buffOwner": "Self",
+            "turn": 1,
+            "value": 2
+          }
+        },
+        {
+          "script_name": "ForceToDestroyBuffOnEndSkill",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "Self"
+          }
+        },
+        {
+          "script_name": "ShuffleHand1081305",
+          "turnLimit": 1
+        },
+        {
+          "script_name": "Payback1081305"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "Reroll1081305"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Kōzan [光斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n\n[WhenUse] At less than 3 [HanafudaCombo] Potency, cancel the Skill and gain 2 [Enhancement] next turn\n[WhenUse] At 3+ [HanafudaCombo] Potency, gain the following effects based on Potency:\n- Per 1 Potency: this Skill deals +10% damage\n- At 4+ Potency: Base Power +1\n- At 5 Potency: On Hit with the final Reuse Coin, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 1\n[EndSkillAll] Lose [HanafudaCombo] on self\n[EndSkillAll] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills (once per turn)\n[EndSkillAll] Gain [HanafudaCombo] Potency next turn equal to the # of Coins that weren't used",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DiscardLowestSkillOnBattleStart",
+          "turnLimit": 1,
+          "value": 2
+        },
+        {
+          "script_name": "ShuffleHand1081304",
+          "turnLimit": 1
+        },
+        {
+          "script_name": "GiveBuffOnBattleStartByProb",
+          "turnLimit": 1,
+          "value": 0.5,
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "HanafudaCombo",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Shuffle Hands - Floral Deck"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)\n<style=\"highlight\">[StartBattle] 50% chance to gain 1 [HanafudaCombo] Potency (once per turn)</style>\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 2 [HanafudaCombo] Potency on self (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DiscardLowestSkillOnBattleStart",
+          "turnLimit": 1,
+          "value": 2
+        },
+        {
+          "script_name": "ShuffleHand1081304",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Shuffle Hands - Floral Deck"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DiscardLowestSkillOnBattleStart",
+          "turnLimit": 1,
+          "value": 2
+        },
+        {
+          "script_name": "ShuffleHand1081304",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Shuffle Hands - Floral Deck"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DiscardLowestSkillOnBattleStart",
+          "turnLimit": 1,
+          "value": 2
+        },
+        {
+          "script_name": "ShuffleHand1081304",
+          "turnLimit": 1
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10813",
+      "identity_name": "Jeong's Office Rep Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Shuffle Hands - Floral Deck"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+          }
+        ]
+      }
+    }
+  ]
+}

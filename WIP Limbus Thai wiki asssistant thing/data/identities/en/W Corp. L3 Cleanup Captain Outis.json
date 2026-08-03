@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "11110",
+    "english_name": "W Corp. L3 Cleanup Captain Outis",
+    "sinner": "Outis",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 209,
+    "speed_by_uptie": {
+      "uptie_1": "2~6",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 146
+      },
+      {
+        "percent": 40,
+        "hp": 84
+      },
+      {
+        "percent": 20,
+        "hp": 42
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1111001",
+      "name": {
+        "en": "Ripple"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] At 4+ [Charge] Count, Base Power +1\n[WhenUse] Clash Power +1 for every 5 [Charge] Count on self (max 2)\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1111001",
+      "name": {
+        "en": "Ripple"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] At 4+ [Charge] Count, Base Power +1\n[WhenUse] At 6+ [Charge] Count, Clash Power +1\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1111001",
+      "name": {
+        "en": "Ripple"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] At 4+ [Charge] Count, Base Power +1\n[WhenUse] At 6+ [Charge] Count, Clash Power +1\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1111001",
+      "name": {
+        "en": "Ripple"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] At 4+ [Charge] Count, Clash Power +1\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1111002",
+      "name": {
+        "en": "Charged Leap"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Consume 6 [Charge] Count on self to gain Coin Power +1\n- If this unit consumed [Charge] Count, apply ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] to self and 2 other allies that have the least [Charge] Count. (Max <style=\"highlight\">8</style> [ChargeForceField] per ally. Activates <style=\"highlight\">2 times</style> per turn max)\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If this Skill consumed [Charge] Count on use, inflict 2 [Binding] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1111002",
+      "name": {
+        "en": "Charged Leap"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Consume 6 [Charge] Count on self to gain Base Power +1\n- If this unit consumed [Charge] Count, apply ([Charge] + 1) [ChargeForceField] to self and 2 other allies that have the least [Charge] Count. (Max 7 [ChargeForceField] per ally. Activates once per turn max)\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttackHead] If this Skill consumed [Charge] Count on use, inflict 2 [Binding] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1111002",
+      "name": {
+        "en": "Charged Leap"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Consume 6 [Charge] Count on self to gain Base Power +1\n- If this unit consumed [Charge] Count, apply ([Charge] + 1) [ChargeForceField] to self and 2 other allies that have the least [Charge] Count. (Max 7 [ChargeForceField] per ally. Activates once per turn max)\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttackHead] If this Skill consumed [Charge] Count on use, inflict 2 [Binding] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1111002",
+      "name": {
+        "en": "Charged Leap"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Consume 6 [Charge] Count on self to gain Base Power +1\n[WhenUse] Gain +2 [Charge] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1111003",
+      "name": {
+        "en": "Rip Dimension"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[StartBattle] To self and (highest Reson.) allies that have [Charge]: apply [ChargeLoad] equal to [Charge] on self\n(Max 5 other allies)\n[WhenUse] At 2+ [Charge] and 7~14 [Charge] Count, consume all [Charge] Count on self to gain Coin Power +2\n[WhenUse] Consume 15 [Charge] Count to gain Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this Skill consumed 15 [Charge] Count on use, inflict 3 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Gain (5 - [Charge]) [Charge] Count (Min 0)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1111003",
+      "name": {
+        "en": "Rip Dimension"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[StartBattle] To self and (highest Reson.) allies that have [Charge]: apply [ChargeLoad] equal to [Charge] on self\n(Max 5 other allies)\n[WhenUse] At 2+ [Charge] and 7~14 [Charge] Count, consume all [Charge] Count on self to gain Coin Power +1\n[WhenUse] Consume 15 [Charge] Count to gain Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If this Skill consumed 15 [Charge] Count on use, inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Gain (5 - [Charge]) [Charge] Count (Min 0)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1111004",
+      "name": {
+        "en": "Deploy Plasma"
+      },
+      "affinity": "Pride",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Base Power +1 for <style=\"highlight\">every</style> [Charge] Count on self (max <style=\"highlight\">10</style>)\n[WhenUse] Gain +2 [Charge] Count (<style=\"highlight\">3</style> times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1111004",
+      "name": {
+        "en": "Deploy Plasma"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Base Power +1 for every 2 [Charge] Count on self (max 5)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1111004",
+      "name": {
+        "en": "Deploy Plasma"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Base Power +1 for every 2 [Charge] Count on self (max 5)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1111004",
+      "name": {
+        "en": "Deploy Plasma"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "[WhenUse] Base Power +1 for every 2 [Charge] Count on self (max 5)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1111001",
+        "name": {
+          "en": "Overcharge / Cleanup Order"
+        },
+        "requirement": null,
+        "en": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nTurn End: Apply 1 [ParryingResultUp] next turn to ([Charge]) W Corp. employees, including this unit, in reverse Deployment order (max: 5 allies)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1111021",
+        "name": {
+          "en": "Refraction"
+        },
+        "requirement": null,
+        "en": "1 ally who has the most [Charge] Count at Turn Start: deal +10% damage with Skills that consumed 7+ [Charge] Count (once per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\W Corp. L3 Cleanup Captain Outis - Limbus Company Wiki.html"
+    }
+  }
+}

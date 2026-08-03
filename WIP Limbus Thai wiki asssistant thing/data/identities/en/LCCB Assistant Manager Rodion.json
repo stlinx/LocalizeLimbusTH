@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10903",
+    "english_name": "LCCB Assistant Manager Rodion",
+    "sinner": "Rodion",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 193,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 56,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 135
+      },
+      {
+        "percent": 40,
+        "hp": 77
+      },
+      {
+        "percent": 20,
+        "hp": 39
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 2.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1090301",
+      "name": {
+        "en": "Bludgeon"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If the next skill on the Dashboard does Blunt DMG, this skill's Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 3 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1090301",
+      "name": {
+        "en": "Bludgeon"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride1BG.png]\n\n4 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nBludgeon\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 3 [img:Paralyze.png] Paralyze [img:Paralyze.png] ParalyzeFix the Power of X Coin(s) to 0 for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 3 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1090301",
+      "name": {
+        "en": "Bludgeon"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nBludgeon\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 3 [img:Paralyze.png] Paralyze [img:Paralyze.png] ParalyzeFix the Power of X Coin(s) to 0 for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 3 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1090301",
+      "name": {
+        "en": "Bludgeon"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nBludgeon\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 1 [img:Paralyze.png] Paralyze [img:Paralyze.png] ParalyzeFix the Power of X Coin(s) to 0 for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 1 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1090302",
+      "name": {
+        "en": "Thrust"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If the next skill on the Dashboard does Blunt DMG, this skill's Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 4 Defense Power Down"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1090302",
+      "name": {
+        "en": "Thrust"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony2BG.png]\n\n6 [img:Blunt.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nThrust\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 4 [img:Defense Power Down.png] Defense Power Down [img:Defense Power Down.png] Defense Power DownDefense Skill Final Power -X for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 4 Defense Power Down"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1090302",
+      "name": {
+        "en": "Thrust"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony2BG.png]\n\n5 [img:Blunt.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nThrust\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 4 [img:Defense Power Down.png] Defense Power Down [img:Defense Power Down.png] Defense Power DownDefense Skill Final Power -X for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 4 Defense Power Down"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1090302",
+      "name": {
+        "en": "Thrust"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+1",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony2BG.png]\n\n5 [img:Blunt.png] + 1\n\n[img:Coin.png] [img:Coin.png]\n\nThrust\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Defense Power Down.png] Defense Power Down [img:Defense Power Down.png] Defense Power DownDefense Skill Final Power -X for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Defense Power Down"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1090303",
+      "name": {
+        "en": "Suppress"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target took no damage from attacks this turn, Coin Power +3",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 4 Defense Power Down"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 Defense Level Down"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 3 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1090303",
+      "name": {
+        "en": "Suppress"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+2",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target took no damage from attacks this turn, Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 4 Defense Power Down"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 Defense Level Down"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 3 Paralyze"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1090304",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": "Envy",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 8,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Icon.png]\n\n[img:Envy1BG.png]\n\n8 [img:Guard.png] + 8\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1090304",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1090304",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1090304",
+      "name": {
+        "en": "Guard"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n8 [img:Guard.png] + 5\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1090301",
+        "name": {
+          "en": "Breach Defense"
+        },
+        "requirement": null,
+        "en": "Deal +10% damage to enemies that used defense skills this turn."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1090321",
+        "name": {
+          "en": "Breaching"
+        },
+        "requirement": null,
+        "en": "1 ally with the most HP deals +20% damage to enemies that used defense skills this turn."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCCB Assistant Manager Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

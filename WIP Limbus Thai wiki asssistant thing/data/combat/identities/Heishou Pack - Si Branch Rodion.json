@@ -1,0 +1,1719 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10912",
+  "identity": {
+    "id": "10912",
+    "english_name": "Heishou Pack - Si Branch Rodion",
+    "sinner": "Rodion",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 212,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "2~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1091201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_2"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACIfHasStack_SnakeStance1",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Serpent Glint"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict <style=\"highlight\">2</style> [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_1"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACIfHasStack_SnakeStance1",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Serpent Glint"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict 1 [Burst]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_1"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACIfHasStack_SnakeStance1",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Serpent Glint"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict 1 [Burst]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_1",
+      "name": {
+        "en": "Serpent Glint"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +1 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_2"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAViaConditionalBuffCheckAndUseResult",
+              "conditionalData": {
+                "category": "Buff_Stack",
+                "type": "GreaterEqual",
+                "conditionBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 30,
+                  "turn": 0,
+                  "activeRound": 0
+                },
+                "resultBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 10,
+                  "turn": 0,
+                  "activeRound": 0,
+                  "limit": 1
+                }
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "SnakeStance",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Snake Fang"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)</style>\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [SnakeStance]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_1"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAViaConditionalBuffCheckAndUseResult",
+              "conditionalData": {
+                "category": "Buff_Stack",
+                "type": "GreaterEqual",
+                "conditionBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 30,
+                  "turn": 0,
+                  "activeRound": 0
+                },
+                "resultBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 10,
+                  "turn": 0,
+                  "activeRound": 0,
+                  "limit": 1
+                }
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Snake Fang"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +<style=\"highlight\">2</style> [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder11212_10_1_1"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAViaConditionalBuffCheckAndUseResult",
+              "conditionalData": {
+                "category": "Buff_Stack",
+                "type": "GreaterEqual",
+                "conditionBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 30,
+                  "turn": 0,
+                  "activeRound": 0
+                },
+                "resultBuffData": {
+                  "buffKeyword": "Breath",
+                  "buffOwner": "Self",
+                  "stack": 10,
+                  "turn": 0,
+                  "activeRound": 0,
+                  "limit": 1
+                }
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Snake Fang"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1</style>\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +<style=\"highlight\">2</style> [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Target",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_2",
+      "name": {
+        "en": "Snake Fang"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +1 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict [BurstPoison]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "CoinScaleAdder11212_10_1_2"
+        },
+        {
+          "script_name": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel1091203",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "UseBurstPoisonOnSAC",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "RerollOnSACUpto2"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Serpent's Mortal Flurry"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on the main target) (max 2)</style>\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 1<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[CriticalOnSucceedAttack] Reuse this Coin once (2 times per Skill)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "CoinScaleAdder11212_10_1_1"
+        },
+        {
+          "script_name": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "UseBurstPoisonOnSAC",
+              "buffData": {
+                "buffKeyword": "BurstPoison",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "RerollOnSACUpto2"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "skill_3",
+      "name": {
+        "en": "Serpent's Mortal Flurry"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n[WhenUse] At 10+ ([Breath] on self + [Burst] on the main target), Coin Power +1\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count against all targets",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 1"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[CriticalOnSucceedAttack] Reuse this Coin once (2 times per Skill)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Reversal Kick"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\n[StartBattle] Gain 3 [SnakeStance] next turn\n<style=\"highlight\">[WhenUse] At 10+ [Breath] Count, Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Reversal Kick"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard] \n[StartBattle] Gain 3 [SnakeStance] next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Reversal Kick"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard] \n[StartBattle] Gain 3 [SnakeStance] next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1091204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "buffData": {
+            "buffKeyword": "SnakeStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10912",
+      "identity_name": "Heishou Pack - Si Branch Rodion",
+      "sinner": "Rodion",
+      "slot": "defense",
+      "name": {
+        "en": "Reversal Kick"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-a1c8p1.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard] \n[StartBattle] Gain 3 [SnakeStance] next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    }
+  ]
+}

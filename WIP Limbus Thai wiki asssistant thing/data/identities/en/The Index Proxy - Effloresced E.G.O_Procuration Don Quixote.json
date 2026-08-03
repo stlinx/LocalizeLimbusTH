@@ -1,0 +1,1223 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10314",
+    "english_name": "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote",
+    "sinner": "Don Quixote",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 219,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "2~6",
+      "uptie_3": "3~6",
+      "uptie_4": "3~6"
+    },
+    "defense_level": 62,
+    "stagger_thresholds": [
+      {
+        "percent": 65,
+        "hp": 143
+      },
+      {
+        "percent": 35,
+        "hp": 77
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1031401",
+      "name": {
+        "en": "Skull Crushing"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style> and deal <style=\"highlight\">+15%</style> damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1031401",
+      "name": {
+        "en": "Skull Crushing"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1031401",
+      "name": {
+        "en": "Skull Crushing"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1031401",
+      "name": {
+        "en": "Skull Crushing"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1031405",
+      "name": {
+        "en": "Let These Hands be the Proxy with Which..."
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">15</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1031405",
+      "name": {
+        "en": "Let These Hands be the Proxy with Which..."
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1031405",
+      "name": {
+        "en": "Let These Hands be the Proxy with Which..."
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1031405",
+      "name": {
+        "en": "Let These Hands be the Proxy with Which..."
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1031402",
+      "name": {
+        "en": "B-be Thee Silent"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style>\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1031402",
+      "name": {
+        "en": "B-be Thee Silent"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1031402",
+      "name": {
+        "en": "B-be Thee Silent"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1031402",
+      "name": {
+        "en": "B-be Thee Silent"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1031406",
+      "name": {
+        "en": "Procuration: Engrave"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">10</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1031406",
+      "name": {
+        "en": "Procuration: Engrave"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Sinking]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1031406",
+      "name": {
+        "en": "Procuration: Engrave"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Sinking]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1031406",
+      "name": {
+        "en": "Procuration: Engrave"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1031403",
+      "name": {
+        "en": "T-the Prescript Must be Fulfilled Anon..."
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Coin Power +1 and</style> deal +<style=\"highlight\">40</style>% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max <style=\"highlight\">4</style>)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s <style=\"highlight\">and deal +20% damage for every [UnlockBuff_Base] stage (max 60%)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Deal <style=\"highlight\">+40%</style> damage for every [UnlockBuff_Base] stage (max <style=\"highlight\">120%</style>)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Sinking] <style=\"highlight\">and +1 [Sinking] Count</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1031403",
+      "name": {
+        "en": "T-the Prescript Must be Fulfilled Anon..."
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +20% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s\n[WhenUse] Gain +3 [Breath] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Deal +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1031407",
+      "name": {
+        "en": "Procuration: Annihilate"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">25</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage</style>\n[EndSkill] Lose 15 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "This Coin gains <style=\"highlight\">Power +1</style> and deals +<style=\"highlight\">40</style>% damage for every [UnlockBuff_Base] stage <style=\"highlight\">(max 3; max 120%)</style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Sinking] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1031407",
+      "name": {
+        "en": "Procuration: Annihilate"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +15% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Lose 15 SP (2 times per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "This Coin deals +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 4,
+          "en": "[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1031404",
+      "name": {
+        "en": "Prescript-granted, Prescript-woven Fabric"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Final Power +1 <style=\"highlight\">and deal +15% damage</style> for every [UnlockBuff_Base] stage (max 3; <style=\"highlight\">max 45%</style>)\n[StartBattle] Gain Shield equal to <style=\"highlight\">15</style>% of max HP (once per turn)\n- Reduce Shield gained by <style=\"highlight\">1.5</style>% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1031404",
+      "name": {
+        "en": "Prescript-granted, Prescript-woven Fabric"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Final Power +1 for every [UnlockBuff_Base] stage (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1031404",
+      "name": {
+        "en": "Prescript-granted, Prescript-woven Fabric"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Final Power +1 for every [UnlockBuff_Base] stage (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1031404",
+      "name": {
+        "en": "Prescript-granted, Prescript-woven Fabric"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Final Power +1 for every [UnlockBuff_Base] stage (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1031408",
+      "name": {
+        "en": "Compulsory Unlock"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every [UnlockBuff_Base] stage (max 3)</style>\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1031408",
+      "name": {
+        "en": "Compulsory Unlock"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1031408",
+      "name": {
+        "en": "Compulsory Unlock"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1031408",
+      "name": {
+        "en": "Compulsory Unlock"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 3,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1031402",
+        "name": {
+          "en": "Prescript Delivered on a Device"
+        },
+        "requirement": null,
+        "en": "Turn Start:\n- Gain [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] based on [UnlockBuff_Base] stage on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, the Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At [UnlockBuffAlly_2]+, the effect above prioritizes Skill 3\n- All of the effects above and [IndexPrescript_Base_2nd] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]\n\nIf this unit has [UnlockBuffAlly_3] at Turn Start, gain [Blandishment_Shin]"
+      },
+      {
+        "source_passive_text_id": "1031403",
+        "name": {
+          "en": "Will of the Prescript"
+        },
+        "requirement": null,
+        "en": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base_2nd], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At [UnlockBuffAlly_3], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base_2nd] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly] at Turn End"
+      },
+      {
+        "source_passive_text_id": "1031404",
+        "name": {
+          "en": "Unlock / Effloresced E.G.O::Procuration"
+        },
+        "requirement": null,
+        "en": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptAlly], gain [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nIf this unit gained [UnlockBuffAlly_1], consume 15 SP to enter <noparse>Effloresced</noparse> E.G.O::Procuration state:\n- Before consuming SP to enter this state, heal SP to 25 and gain [KarmaOfIndexAlly] equal to (SP healed / 5) (rounded up)\n- At Turn Start after the above checks, if this unit has [UnlockBuff_Base] and is at 25+ SP, consume 15 SP to enter this state\n\n- If this unit gets Staggered when entering <noparse>Effloresced</noparse> E.G.O::Procuration state, recover from Stagger (if this unit's Stagger cannot be naturally recovered from, does not enter <noparse>Effloresced</noparse> E.G.O::Procuration state)\n- Gain [Blandishment] while in <noparse>Effloresced</noparse> EGO::Procuration state\n\nTurn Start: At 0 or less SP, this unit exits <noparse>Effloresced</noparse> E.G.O::Procuration state"
+      },
+      {
+        "source_passive_text_id": "1031401",
+        "name": {
+          "en": "The Great Magicked Beeper Knoweth My Desire!"
+        },
+        "requirement": null,
+        "en": "Deal +2% damage using Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage using Base Skills instead\n\nOn hit using Base Skill attacks against targets that have [IndexPrescriptTargetToEnemy], heal 3 SP (once per Skill; 2 times per turn)\n- Heal additional SP based on [UnlockBuff_Base] stage"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1031421",
+        "name": {
+          "en": "This, too, is the Grace of the Great Magicked Beeper!"
+        },
+        "requirement": null,
+        "en": "Combat Start: Heal 15 SP for the ally that has the lowest SP\n- This effect prioritizes Plus Coin Identities\n- If the affected unit is in The Index faction, they gain 1 [AttackDmgUp] as well\n- This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion[TabExplain], Panic, etc."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\The Index Proxy - Effloresced E.G.O_Procuration Don Quixote - Limbus Company Wiki.html"
+    }
+  }
+}

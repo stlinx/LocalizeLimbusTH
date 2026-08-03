@@ -1,0 +1,700 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10110",
+    "english_name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+    "sinner": "Yi Sang",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "3~7",
+      "uptie_3": "3~8",
+      "uptie_4": "3~8"
+    },
+    "defense_level": 62,
+    "stagger_thresholds": [
+      {
+        "percent": 60,
+        "hp": 122
+      },
+      {
+        "percent": 30,
+        "hp": 61
+      },
+      {
+        "percent": 15,
+        "hp": 30
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 0.5,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1011001",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">At 10+ [BulletLament], Clash Power +1</style>\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1011001",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1011001",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1011001",
+      "name": {
+        "en": "Celebration for the Departed"
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Yi Sang Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nCelebration for the Departed\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent\n\n[img:CoinEffect2.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1011002",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "At 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Coin Power +1 for every 6 value</style> of the sum of the target's [Sinking] and both [SinkingWhite] <style=\"highlight\">(max 2)</style>\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n<style=\"highlight\"> - If the said Reson. was at 4+ A-Reson., [ReloadLament] instead</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 5 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1011002",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 5 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1011002",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 5 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1011002",
+      "name": {
+        "en": "Solemn Lament for the Living"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Yi Sang Icon.png]\n\n[img:Gloom2BG.png]\n\n4 [img:Pierce.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nSolemn Lament for the Living\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nSpend 5 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent\n\n[img:CoinEffect2.png]\nSpend 1 [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo\n[On Hit] Inflict [img:Butterfly.png] Butterfly [img:Butterfly.png] Butterfly- Unique Sinking\n- Base Value: 0, Max Value: 15\n- The Potency and the Count of this effect are called \"The Living\" and \"The Departed\", respectively.\n- When hit, the attacker heals (The Living/4) SP. (min 1; rounded down)\n- When hit, and if this unit's SP is at less than 0, take (Sinking Potency/5) Gloom damage for every value of The Departed. (max Gloom damage 30; rounded down; deals half damage to targets that are Non-SP Units.)\n- Turn End: Reset The Departed of this effect to 0; gain Sinking equal to The Living and convert The Living into The Departed.\n- No external effects can raise the amount of Butterfly inflicted. \"Inflict additional Sinking\" effects inflict additional Sinking instead of additional Butterfly.\n- This effect expires when both The Living and The Departed reach 0. equal to [img:The Living & The Departed.png] The Living & The Departed [img:The Living & The Departed.png] The Living & The Departed- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills\n- Whether The Living (Potency) or The Departed (Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo spent",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 5 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1011003",
+      "name": {
+        "en": "Goodbye Now, a Sorrow in You"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Base Power +1 for every <style=\"highlight\">5</style> value of [BulletLament] <style=\"highlight\">(max 4)</style>\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 6 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Spend all of [BulletLament] on self"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal +4% damage for every value of [BulletLament] spent by this Skill"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1011003",
+      "name": {
+        "en": "Goodbye Now, a Sorrow in You"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletLament]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 6 [BulletLament]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Spend all of [BulletLament] on self"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] spent"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal +2% damage for every value of [BulletLament] spent by this Skill"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1011004",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP (max 20% per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1011004",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1011004",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1011004",
+      "name": {
+        "en": "FromTheCoffinAButterflyTakesFlight"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 10,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] [ReloadLament] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1011002",
+        "name": {
+          "en": "ISeeTheDyingButterfly."
+        },
+        "requirement": null,
+        "en": "Begin encounters with 10 of each of [BulletLament]\n\nWhen spending [BulletLament], select randomly between The Living(Potency) and The Departed(Count) for each [BulletLament] value\n\nWhen inflicting [SinkingWhite], inflict the same amount of The Living and The Departed as they were consumed. Example below:\n- If this unit spent X Living, inflict X Living\n- If this unit spent Y Departed, inflict Y Departed\n\nIf this unit runs out of [BulletLament] midway through Skill use, cancel all subsequent Coins and [ReloadLament]\n\nWhen [ReloadLament]ing, or when gaining [BulletLament], gain either The Living or The Departed based on this unit's current SP\n- At 0 or higher SP: 30% chance to gain The Living; 70% chance to gain The Departed\n- At less than 0 SP: 70% chance to gain The Living; 30% chance to gain The Departed\n- The probabilities are calculated separately for each ammo spent"
+      },
+      {
+        "source_passive_text_id": "1011001",
+        "name": {
+          "en": "Fire.IShallFire."
+        },
+        "requirement": null,
+        "en": "When this unit gains [BulletLament], gain 2 [Agility] next turn (once per turn)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1011021",
+        "name": {
+          "en": "Hand of Salvation"
+        },
+        "requirement": null,
+        "en": "When an ally hits with a Skill, consume 2 [Sinking] on the target to inflict them with 1 [SinkingWhite] (3 times per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Lobotomy E.G.O_Solemn Lament Yi Sang - Limbus Company Wiki.html"
+    }
+  }
+}

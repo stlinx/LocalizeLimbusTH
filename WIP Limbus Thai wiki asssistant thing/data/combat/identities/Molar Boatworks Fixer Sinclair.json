@@ -1,0 +1,1290 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11007",
+  "identity": {
+    "id": "11007",
+    "english_name": "Molar Boatworks Fixer Sinclair",
+    "sinner": "Sinclair",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 212,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~5",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 2,
+      "pierce": 0.5,
+      "blunt": 1
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1100701",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Fierce Assault"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "At 10+ Tremor Count, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 Tremor Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100701",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Fierce Assault"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "At 10+ Tremor Count, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100701",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Fierce Assault"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "At 10+ Tremor Count, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Inflict +1 Tremor Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100701",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Fierce Assault"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gloom1BG.png]\n\n2 [img:Blunt.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nFierce Assault\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Gain +1 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count\n\n[img:CoinEffect4.png]\n[On Hit] Gain +1 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 Tremor Count"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 Tremor Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100702",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 6,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Steady..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +6 Tremor Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 6 Tremor"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100702",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Steady..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +4 Tremor Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 Tremor"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100702",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Steady..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +4 Tremor Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 4 Tremor"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100702",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Steady..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 Tremor Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Tremor"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100703",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
+          "buffData": {
+            "buffKeyword": "Vibration",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1100703_1_gaksung4th"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Gamble"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Coin Power +1 for every 10 Tremor Count on self (Max 2)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 10+ Tremor Count, consume all Tremor Count on self to inflict the same amount of Tremor Count on target\n[OnSucceedAttack] At less than 10 Tremor Count, gain 10 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100703",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1100703_1"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Gamble"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gluttony3BG.png]\n\n4 [img:Pierce.png] + 6\n\n[img:Coin.png] [img:Coin.png]\n\nGamble\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[On Hit] At 10+ [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count, consume all [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count on self to inflict the same amount of [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count on target\n[On Hit] At less than 10 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count, gain 6 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). and trigger [img:Tremor Burst.png] Tremor Burst [img:Tremor Burst.png] Tremor BurstRaise target's Stagger Threshold by Tremor Potency on target on self\nDeal Blunt damage equal to [img:Tremor Burst.png] Tremor Burst [img:Tremor Burst.png] Tremor BurstRaise target's Stagger Threshold by Tremor Potency on target damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] At 10+ Tremor Count, consume all Tremor Count on self to inflict the same amount of Tremor Count on target\n[OnSucceedAttack] At less than 10 Tremor Count, gain 6 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100704",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 3,
+          "buffData": {
+            "buffKeyword": "BurstProtection",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Crab Bastards...!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Rupture Protection (3 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100704",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 3,
+          "buffData": {
+            "buffKeyword": "BurstProtection",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Crab Bastards...!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Rupture Protection (3 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100704",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 3,
+          "buffData": {
+            "buffKeyword": "BurstProtection",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Crab Bastards...!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Rupture Protection (3 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1100704",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 8,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 3,
+          "buffData": {
+            "buffKeyword": "BurstProtection",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11007",
+      "identity_name": "Molar Boatworks Fixer Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Crab Bastards...!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Rupture Protection (3 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    }
+  ]
+}

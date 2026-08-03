@@ -1,0 +1,1742 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10508",
+  "identity": {
+    "id": "10508",
+    "english_name": "Blade Lineage Mentor Meursault",
+    "sinner": "Meursault",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 246,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 63,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1050801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "10508012",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier1",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 5+ [Breath], Coin Power +1</style>\n[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n<style=\"highlight\">- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead</style>\n[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "10508012",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier1",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[StartBattle_Force] <color=#EBCAA2>Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)</color>\n[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "10508012",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier1",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n</style>[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "10508022",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier2",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio60"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 7+ [Breath], Coin Power +1</style>\n[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n<style=\"highlight\">- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead</style>\n[WhenUse] Gain +3 [Breath] Count\n[WinDuel] Gain 1 Slash Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "+60% Damage on Critical Hit"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "10508022",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier2",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio40"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[StartBattle_Force] <color=#EBCAA2>Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)</color>\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 Slash Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "+40% Damage on Critical Hit"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "10508022",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "BladeResultUpTier2",
+            "target": "Custom",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio40"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)</style>\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 Slash Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "+40% Damage on Critical Hit"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio30"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_2",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 Slash Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 3 [Breath]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "+30% Damage on Critical Hit"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050803",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 20,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddTauntOnUse3"
+        },
+        {
+          "script_name": "GetIgnoreNaturalBreakOnUse"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "UseNewCounterFirst_1050805"
+        },
+        {
+          "script_name": "DistoryIgnoreNaturalBreak"
+        },
+        {
+          "script_name": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit75",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.03
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatio30"
+        },
+        {
+          "script_name": "atkmulMeur50And25"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "SUB",
+          "power": -8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_3",
+      "name": {
+        "en": "Yield My Flesh"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1050803",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 20,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddTauntOnUse3"
+        },
+        {
+          "script_name": "GetIgnoreNaturalBreakOnUse"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "UseNewCounterFirst_1050805"
+        },
+        {
+          "script_name": "DistoryIgnoreNaturalBreak"
+        },
+        {
+          "script_name": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit50",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.02
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatio15"
+        },
+        {
+          "script_name": "atkmulMeur50And25"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "SUB",
+          "power": -8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "skill_3",
+      "name": {
+        "en": "Yield My Flesh"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+15% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1050804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "atkmulMeur50And25"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Overthrow"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)\n<style=\"highlight\">Deal +0.5% damage for every 1% missing HP on self (Max 25%)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Overthrow"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Overthrow"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "Overthrow"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Slash Power Up next turn (1 time max)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050805",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdderBBPerViaBuffCheck1WithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.02
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatio30"
+        },
+        {
+          "script_name": "atkmulMeur50And25"
+        },
+        {
+          "script_name": "AttackDmgUpByRatio100IfTargetIsOne"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Paralysis",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)</style>\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+<style=\"highlight\">30</style>% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% damage (In Focused Encounters, a single Part)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 Bleed"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 5 Paralyze next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1050805",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdderBBViaBuffCheck1",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.02
+          }
+        },
+        {
+          "script_name": "CriticalDmgUpByRatio20"
+        },
+        {
+          "script_name": "atkmulMeur50And25"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Paralysis",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10508",
+      "identity_name": "Blade Lineage Mentor Meursault",
+      "sinner": "Meursault",
+      "slot": "defense",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-05.json",
+      "text_summary": {
+        "english_description": "[BeforeAttack] At 10+ [Breath], Atk Weight +1\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every Poise Potency on self (Max 50%)\n+20% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+        "coin_texts": [
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 Bleed"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 5 Paralyze next turn"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11101",
+  "identity": {
+    "id": "11101",
+    "english_name": "LCB Sinner Outis",
+    "sinner": "Outis",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 184,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 56,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1110101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Pulled Blade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Sloth1BG.png]\n\n3 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nPulled Blade\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.\n\n[img:CoinEffect3.png]\n[Heads Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Rupture"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 1 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Pulled Blade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Sloth1BG.png]\n\n3 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nPulled Blade\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Pulled Blade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Sloth1BG.png]\n\n3 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nPulled Blade\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_1",
+      "name": {
+        "en": "Pulled Blade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Sloth1BG.png]\n\n3 [img:Pierce.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nPulled Blade\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[Heads Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "Backslash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Pride2BG.png]\n\n5 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nBackslash\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf user’s speed is faster than target’s, +20% Damage\n\n[img:CoinEffect2.png]\nIf user’s speed is faster than target’s, +20% Damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "Backslash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Pride2BG.png]\n\n4 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nBackslash\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf user’s speed is faster than target’s, +20% Damage\n\n[img:CoinEffect2.png]\nIf user’s speed is faster than target’s, +20% Damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio20"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "Backslash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Pride2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nBackslash\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf user’s speed is faster than target’s, +20% Damage\n\n[img:CoinEffect2.png]\nIf user’s speed is faster than target’s, +20% Damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +20% Damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio10"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpIfFasterThanEachTargetByRatio10"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_2",
+      "name": {
+        "en": "Backslash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Outis Icon.png]\n\n[img:Pride2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nBackslash\n\n[img:SkillAttack.png] 63 (60+3) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nIf user’s speed is faster than target’s, +10% Damage\n\n[img:CoinEffect2.png]\nIf user’s speed is faster than target’s, +10% Damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +10% Damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "If user’s Speed is faster than target’s, +10% Damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 7,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatio20IfHpRatioNotLessThan50"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_3",
+      "name": {
+        "en": "Piercing Thrust"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "If target’s HP is above 50%, deal +20% damage",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 Rupture Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1110103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatio20IfHpRatioNotLessThan50"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "skill_3",
+      "name": {
+        "en": "Piercing Thrust"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "If target’s HP is above 50%, deal +20% damage",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1110104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Sloth1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 57 (60-3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1110104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 57 (60-3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1110104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 57 (60-3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1110104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11101",
+      "identity_name": "LCB Sinner Outis",
+      "sinner": "Outis",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-11.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 57 (60-3) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    }
+  ]
+}

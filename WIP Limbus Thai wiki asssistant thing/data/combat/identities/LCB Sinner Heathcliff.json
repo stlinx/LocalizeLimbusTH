@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10701",
+  "identity": {
+    "id": "10701",
+    "english_name": "LCB Sinner Heathcliff",
+    "sinner": "Heathcliff",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 239,
+    "speed_by_uptie": {
+      "uptie_1": "1~4",
+      "uptie_2": "1~5",
+      "uptie_3": "2~5",
+      "uptie_4": "2~5"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 2,
+      "pierce": 1,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1070101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Bash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Envy1BG.png]\n\n4 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nBat Bash\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s).",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Bash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Envy1BG.png]\n\n3 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nBat Bash\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s).",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Bash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Envy1BG.png]\n\n2 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nBat Bash\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 3 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s).",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Bat Bash"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Envy1BG.png]\n\n2 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nBat Bash\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 3 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s).",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 3 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Attack Power Up and Damage Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Attack Power Up and Damage Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Attack Power Up and Damage Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Smackdown"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 1 Attack Power Up next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1070103_1"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "VibrationExplosionOnSucceedAttack"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Upheaval"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Lust3BG.png]\n\n4 [img:Blunt.png] + 8\n\n[img:Coin.png] [img:Coin.png]\n\nUpheaval\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[Heads Hit] Next Coin has +2 Power\n\n[img:CoinEffect2.png]\n[On Hit] Trigger [img:Tremor Burst.png] Tremor Burst [img:Tremor Burst.png] Tremor BurstRaise target's Stagger Threshold by Tremor Potency on target",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Next Coin has +2 Power"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1070103_1"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "VibrationExplosionOnSucceedAttack"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Upheaval"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Lust3BG.png]\n\n4 [img:Blunt.png] + 6\n\n[img:Coin.png] [img:Coin.png]\n\nUpheaval\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[Heads Hit] Next Coin has +2 Power\n\n[img:CoinEffect2.png]\n[On Hit] Trigger [img:Tremor Burst.png] Tremor Burst [img:Tremor Burst.png] Tremor BurstRaise target's Stagger Threshold by Tremor Potency on target",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Next Coin has +2 Power"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Trigger [VibrationExplosion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Envy1BG.png]\n\n7 [img:Blunt.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Envy1BG.png]\n\n7 [img:Blunt.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Envy1BG.png]\n\n7 [img:Blunt.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 7,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10701",
+      "identity_name": "LCB Sinner Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Counter"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Envy1BG.png]\n\n7 [img:Blunt.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    }
+  ]
+}

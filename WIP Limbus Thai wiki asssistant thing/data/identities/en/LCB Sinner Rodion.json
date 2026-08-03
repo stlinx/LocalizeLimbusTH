@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10901",
+    "english_name": "LCB Sinner Rodion",
+    "sinner": "Rodion",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 239,
+    "speed_by_uptie": {
+      "uptie_1": "1~4",
+      "uptie_2": "1~5",
+      "uptie_3": "2~5",
+      "uptie_4": "2~5"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 65,
+        "hp": 156
+      },
+      {
+        "percent": 35,
+        "hp": 84
+      },
+      {
+        "percent": 15,
+        "hp": 36
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1090101",
+      "name": {
+        "en": "Strike Down"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony1BG.png]\n\n4 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nStrike Down\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1090101",
+      "name": {
+        "en": "Strike Down"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony1BG.png]\n\n3 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nStrike Down\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1090101",
+      "name": {
+        "en": "Strike Down"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nStrike Down\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1090101",
+      "name": {
+        "en": "Strike Down"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nStrike Down\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1090102",
+      "name": {
+        "en": "Axe Combo"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride2BG.png]\n\n4 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAxe Combo\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n[Heads Hit] Inflict +1 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage. Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1090102",
+      "name": {
+        "en": "Axe Combo"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride2BG.png]\n\n4 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAxe Combo\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1090102",
+      "name": {
+        "en": "Axe Combo"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAxe Combo\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1090102",
+      "name": {
+        "en": "Axe Combo"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Rodion Icon.png]\n\n[img:Pride2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nAxe Combo\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[Heads Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Bleed"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1090103",
+      "name": {
+        "en": "Slay"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Skill Power +1 when below 0 SP",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 1 Bleed"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 1 Bleed"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 1 Bleed"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1090103",
+      "name": {
+        "en": "Slay"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Skill Power +1 when below 0 SP",
+      "coin_texts": [
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1090104",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n7 [img:Slash.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1090104",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n7 [img:Slash.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1090104",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n7 [img:Slash.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1090104",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n7 [img:Slash.png] + 4\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1090101",
+        "name": {
+          "en": "Split Evil"
+        },
+        "requirement": null,
+        "en": "On hit, inflict 1 Bleed at a 50% chance."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1090121",
+        "name": {
+          "en": "Gambler"
+        },
+        "requirement": null,
+        "en": "1 ally with the most HP deals +20% damage with Heads Coins."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCB Sinner Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

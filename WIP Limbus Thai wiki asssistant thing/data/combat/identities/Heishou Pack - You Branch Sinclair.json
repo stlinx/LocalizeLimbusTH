@@ -1,0 +1,1999 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11014",
+  "identity": {
+    "id": "11014",
+    "english_name": "Heishou Pack - You Branch Sinclair",
+    "sinner": "Sinclair",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 225,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 56,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1101401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Oh, Let the Smell of Burning Blood..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Combustion]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Oh, Let the Smell of Burning Blood..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Oh, Let the Smell of Burning Blood..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101401",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Lust",
+      "attribute_type": "SCARLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Oh, Let the Smell of Burning Blood..."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Lust1BG.png]\n\n2 [img:Slash.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nOh, Let the Smell of Burning Blood…\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.\n\n[img:CoinEffect3.png]\n[On Hit] Inflict +1 [img:Burn.png] Burn [img:Burn.png] BurnTurn End: Take X fixed damage. Lasts Y turn(s). Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAH1101402",
+              "buffData": {
+                "buffKeyword": "ChickenStance",
+                "stack": 1,
+                "value": 0.5,
+                "limit": 1
+              }
+            },
+            {
+              "script_name": "GiveAdditionalCrimsonDmgOnSAHTargetByRatio",
+              "value": 0.1
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "... Fuel My Rampage."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAH1101402",
+              "buffData": {
+                "buffKeyword": "ChickenStance",
+                "stack": 1,
+                "value": 0.5,
+                "limit": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "... Fuel My Rampage."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAH1101402",
+              "buffData": {
+                "buffKeyword": "ChickenStance",
+                "stack": 1,
+                "value": 0.5,
+                "limit": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "... Fuel My Rampage."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101402",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "RerollOnSAH1101402",
+              "buffData": {
+                "buffKeyword": "ChickenStance",
+                "stack": 1,
+                "value": 0.5,
+                "limit": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "... Fuel My Rampage."
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Sinclair Icon.png]\n\n[img:Gluttony2BG.png]\n\n3 [img:Slash.png] + 3\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\n… Fuel My Rampage.\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Burn.png] Burn [img:Burn.png] BurnTurn End: Take X fixed damage. Lasts Y turn(s).\n\n[img:CoinEffect3.png]\n[Heads Hit] If this unit has [img:Bloodflame -血炎-.png] Bloodflame [血炎] [img:Bloodflame -血炎-.png] Bloodflame [血炎]- Max Stack: 3\n- This unit inflicts +1 more Burn and Rupture potency with its Base Skills\n- While this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n· If this unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\n- Lose 1 Stack at Turn End, or if this unit has less than 50% HP, Reuse this Coin (once per Skill)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioByLostHpRatioSelfAndTargetWithMax_500_20",
+          "value": 0.01
+        },
+        {
+          "script_name": "OverwriteToSuperCoin1101403",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "stack": 1,
+            "value": 0.5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffDivide",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "script_name": "ParryingPowerResultAdder1OnStartTurnSelfDevideByLostHpRatioWithMax2",
+          "value": 0.2
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalShamrockDmgOnSAHTargetByRatio",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalShamrockDmgOnSAHToAllTargetByRatio",
+              "value": 0.2
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Bloodflame Massacre [血炎亂舞]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">Deal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)</style>\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on target (max 2)</style>\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 20% missing HP on self (max 2)</style>\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Gluttony damage</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[OnSucceedAttackHead] Deal (20% of this Coin's final damage) bonus Gluttony damage against all targets</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101403",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "OverwriteToSuperCoin1101403",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "stack": 1,
+            "value": 0.5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Bloodflame Massacre [血炎亂舞]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "SkillPowerAdderOnSTViaBurstAndBuffCheck",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 10,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttckDmgUp1101404_10_300",
+          "value": 0.03
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Rooster's Deathstrike [鷄窮則殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n<style=\"highlight\">[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1</style>\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n<style=\"highlight\">[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)</style>\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Rooster's Deathstrike [鷄窮則殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Rooster's Deathstrike [鷄窮則殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101404",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "ChickenStance",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "Combustion",
+            "target": "Both",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11014",
+      "identity_name": "Heishou Pack - You Branch Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Rooster's Deathstrike [鷄窮則殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2444 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10812",
+  "identity": {
+    "id": "10812",
+    "english_name": "Family Hierarch Candidate Ishmael",
+    "sinner": "Ishmael",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 207,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 60,
+    "resistances": {
+      "slash": 1,
+      "pierce": 2,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1081201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount5"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "turnLimit": 2,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 3 [Burst] on target (max 2)</style>\n[WinDuel] Gain <style=\"highlight\">3</style> [Breath] and +<style=\"highlight\">2</style> [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Gain 1 [AttackUp] next turn (<style=\"highlight\">2 times</style> per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount5"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Clash Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Coin Power +1</style>\n[WinDuel] Gain 2 [Breath] and +1 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Gain 1 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount5"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Clash Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Coin Power +1</style>\n[WinDuel] Gain 2 [Breath] and +1 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Gain 1 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081201",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount5"
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Clash Power +1\n[WinDuel] Gain 1 [Breath] and +1 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Gain 1 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081205",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1081205",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2,
+            "limit": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "value": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike - Launcher [始]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n[WhenUse] At 3+ [WaitingXichun], Coin Power +<style=\"highlight\">2</style>\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081205",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1081205",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2,
+            "limit": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike - Launcher [始]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n<style=\"highlight\">[WhenUse] At 3+ [WaitingXichun], Coin Power +1</style>\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081205",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1081205",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2,
+            "limit": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 2,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "value": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike - Launcher [始]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n<style=\"highlight\">[WhenUse] At 3+ [WaitingXichun], Coin Power +1</style>\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081205",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "RANDOM",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1081205",
+          "buffData": {
+            "buffKeyword": "WaitingXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 2,
+            "limit": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_1",
+      "name": {
+        "en": "Crimson Strike - Launcher [始]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1OnUseNegativeBuffCount5"
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": -1,
+                "turn": 0,
+                "limit": 5,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHeadByDuplicateTurn_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": 0,
+                "turn": -1,
+                "limit": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.2,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 50
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACThenKillEnemyOnEndCoin",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Crimson Phoenix"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 4+ [Burst], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">2</style> [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">2</style> [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain [Breath] equal to [Burst] on target (max 5)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Gain [Breath] Count equal to [Burst] Count on target (max 3)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +(20 + [Breath] on self + [Burst] on target)% damage on Critical Hit (max 50%)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[CriticalEnemyTargetKill] Gain 3 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1OnUseNegativeBuffCount5"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": -1,
+                "turn": 0,
+                "limit": 5,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHeadByDuplicateTurn_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": 0,
+                "turn": -1,
+                "limit": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.2,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 50
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACThenKillEnemyOnEndCoin",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Crimson Phoenix"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain [Breath] equal to [Burst] on target (max 5)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Gain [Breath] Count equal to [Burst] Count on target (max 3)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +(20 + [Breath] on self + [Burst] on target)% damage on Critical Hit (max 50%)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[CriticalEnemyTargetKill] Gain 3 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1OnUseNegativeBuffCount5"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": -1,
+                "turn": 0,
+                "limit": 5,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHeadByDuplicateTurn_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": 0,
+                "turn": -1,
+                "limit": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.2,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 50
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACThenKillEnemyOnEndCoin",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Crimson Phoenix"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] Inflict 1 [DefenseDown] next turn"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain [Breath] equal to [Burst] on target (max 5)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Gain [Breath] Count equal to [Burst] Count on target (max 3)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +(20 + [Breath] on self + [Burst] on target)% damage on Critical Hit (max 50%)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[CriticalEnemyTargetKill] Gain 3 [AttackUp] next turn (once per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081202",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1OnUseNegativeBuffCount5"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": -1,
+                "turn": 0,
+                "limit": 5,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackHeadByDuplicateTurn_Burst",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "buffOwner": "Target",
+                "target": "Self",
+                "stack": 0,
+                "turn": -1,
+                "limit": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.2,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 50
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_2",
+      "name": {
+        "en": "Crimson Phoenix"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If target has 5+ types of negative effects, Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain [Breath] equal to [Burst] on target (max 5)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttackHead] Gain [Breath] Count equal to [Burst] Count on target (max 3)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "Deal +(20 + [Breath] on self + [Burst] on target)% damage on Critical Hit (max 50%)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1BBDevide5NegativeBuffCountWithLimit1"
+        },
+        {
+          "script_name": "TagetNumAdderBBViaBuffCheck1",
+          "buffData": {
+            "buffKeyword": "StartXichun",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdder2OnUseDevideMTNegativeBuffCount3WithLimit6"
+        },
+        {
+          "script_name": "CoinScaleAdder1081203",
+          "value": 7,
+          "buffData": {
+            "buffKeyword": "Burst",
+            "value": 1,
+            "limit": 5
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUp10812",
+              "value": 0.5,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 75
+              }
+            },
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.8,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 105
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByRatioViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "StartXichun",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.05,
+                "limit": 30
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACThenKillEnemyOnEndCoin",
+              "turnLimit": 3,
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Crimson Spring"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[BeforeAttack] If main target has 5+ types of negative effects, Atk Weight +1\n<style=\"highlight\">[BeforeAttack] At 3+ [StartXichun], Atk Weight +1</style>\n[WhenUse] Coin Power +2 for every 3 types of negative effect on the main target (max <style=\"highlight\">6</style>)\n[WhenUse] Coin Power +1 for every 7 ([Burst] + [Burst] Count) on the main target (max <style=\"highlight\">5</style>)\n[WinDuel] Gain 4 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "Deal +(<style=\"highlight\">50</style> + [Breath] on self + [Burst] on the main target)% damage (max <style=\"highlight\">75</style>%)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "Deal +(<style=\"highlight\">80</style> + [Breath] on self + [Burst] on the main target)% damage on Critical Hit (max <style=\"highlight\">105</style>%)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "+5% Damage on Critical Hit for every [StartXichun] on self (max 30%)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Inflict 5 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 6,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Burst] Count</style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 7,
+            "en": "[CriticalOnSucceedAttack] Gain 2 [Breath] and +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 8,
+            "en": "[CriticalEnemyTargetKill] Gain +2 [Breath] Count (3 times per turn)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081203",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "TagetNumAdder1BBDevide6NegativeBuffCountWithLimit1"
+        },
+        {
+          "script_name": "CoinScaleAdder2OnUseDevideMTNegativeBuffCount3WithLimit4"
+        },
+        {
+          "script_name": "CoinScaleAdder1081203",
+          "value": 7,
+          "buffData": {
+            "buffKeyword": "Burst",
+            "value": 1,
+            "limit": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "DmgUp10812",
+              "value": 0.2,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 40
+              }
+            },
+            {
+              "script_name": "CriticalDmgUp10812",
+              "value": 0.45,
+              "buffData": {
+                "buffKeyword": "Burst",
+                "value": 0.01,
+                "limit": 65
+              }
+            },
+            {
+              "script_name": "CriticalDmgUpByRatioViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "StartXichun",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 0.05,
+                "limit": 30
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSuccessCriticalAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACThenKillEnemyOnEndCoin",
+              "turnLimit": 3,
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "skill_3",
+      "name": {
+        "en": "Crimson Spring"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[BeforeAttack] If main target has 6+ types of negative effects, Atk Weight +1\n[WhenUse] Coin Power +2 for every 3 types of negative effect on the main target (max 4)\n[WhenUse] Coin Power +1 for every 7 ([Burst] + [Burst] Count) on the main target (max 3)\n[WinDuel] Gain 4 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "Deal +(20 + [Breath] on self + [Burst] on the main target)% damage (max 40%)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "Deal +(45 + [Breath] on self + [Burst] on the main target)% damage on Critical Hit (max 65%)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 4,
+            "en": "+5% Damage on Critical Hit for every [StartXichun] on self (max 30%)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 5,
+            "en": "[OnSucceedAttack] Inflict 5 [Burst]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 6,
+            "en": "[CriticalOnSucceedAttack] Gain 2 [Breath] and +1 [Breath] Count"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 7,
+            "en": "[CriticalEnemyTargetKill] Gain +2 [Breath] Count (3 times per turn)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Retreat10212",
+          "buffData": {
+            "buffKeyword": "StartXichun",
+            "stack": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Adept Evasion"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n<style=\"highlight\">[WhenUse] Gain +1 [Breath] Count (2 times per turn)</style>\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Retreat10212",
+          "buffData": {
+            "buffKeyword": "StartXichun",
+            "stack": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Adept Evasion"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Retreat10212",
+          "buffData": {
+            "buffKeyword": "StartXichun",
+            "stack": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Adept Evasion"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1081204",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "Retreat10212",
+          "buffData": {
+            "buffKeyword": "StartXichun",
+            "stack": 3
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10812",
+      "identity_name": "Family Hierarch Candidate Ishmael",
+      "sinner": "Ishmael",
+      "slot": "defense",
+      "name": {
+        "en": "Adept Evasion"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-08.json",
+      "text_summary": {
+        "english_description": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    }
+  ]
+}

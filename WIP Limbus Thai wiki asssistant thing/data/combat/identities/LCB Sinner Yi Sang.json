@@ -1,0 +1,952 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10101",
+  "identity": {
+    "id": "10101",
+    "english_name": "LCB Sinner Yi Sang",
+    "sinner": "Yi Sang",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 221,
+    "speed_by_uptie": {
+      "uptie_1": "4~6",
+      "uptie_2": "4~7",
+      "uptie_3": "4~8",
+      "uptie_4": "4~8"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 2,
+      "pierce": 0.5,
+      "blunt": 1
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1010101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Deflect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Gloom1BG.png]\n\n4 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nDeflect\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Deflect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Gloom1BG.png]\n\n3 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nDeflect\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Deflect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Gloom1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nDeflect\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010101",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_1",
+      "name": {
+        "en": "Deflect"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Gloom1BG.png]\n\n2 [img:Slash.png] + 7\n\n[img:Coin.png]\n\nDeflect\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict 1 [Sinking]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "End-stop Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Envy2BG.png]\n\n4 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nEnd-stop Stab\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) and +1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "End-stop Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Envy2BG.png]\n\n4 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nEnd-stop Stab\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) and +1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking] and +1 [Sinking] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "End-stop Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Envy2BG.png]\n\n3 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nEnd-stop Stab\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) and +1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking] and +1 [Sinking] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010102",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_2",
+      "name": {
+        "en": "End-stop Stab"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Envy2BG.png]\n\n3 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nEnd-stop Stab\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[Heads Hit] Inflict +1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1010103_1",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Enjamb"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Sloth3BG.png]\n\n6 [img:Slash.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nEnjamb\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)\n\n[img:CoinEffect3.png]\n[On Hit] If target has less than 0 SP, inflict 1 [img:Fragile.png] Fragile [img:Fragile.png] FragileTake +(X*10)% damage this turn. (Max 100%) next turn",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target has less than 0 SP, inflict 1 [Vulnerable] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010103",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 1,
+          "raw_scale": 1,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1010103_1",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "skill_3",
+      "name": {
+        "en": "Enjamb"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Yi Sang Icon.png]\n\n[img:Sloth3BG.png]\n\n6 [img:Slash.png] + 1\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nEnjamb\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x1\n\n[img:CoinEffect3.png]\n[On Hit] If target’s SP is below 0, inflict 1 [img:Fragile.png] Fragile [img:Fragile.png] FragileTake +(X*10)% damage this turn. (Max 100%) next turn",
+        "coin_texts": [
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 [Vulnerable] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1010104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 7,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Gloom1BG.png]\n\n7 [img:Guard.png] + 3\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 7,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n7 [img:Guard.png] + 3\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 7,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n7 [img:Guard.png] + 3\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1010104",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 7,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10101",
+      "identity_name": "LCB Sinner Yi Sang",
+      "sinner": "Yi Sang",
+      "slot": "defense",
+      "name": {
+        "en": "Guard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-01.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n7 [img:Guard.png] + 3\n\n[img:Coin.png]\n\nGuard\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    }
+  ]
+}

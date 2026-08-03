@@ -1,0 +1,1455 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10916",
+    "english_name": "The House of Spiders: The Thumb Nursefather Rodion",
+    "sinner": "Rodion",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 248,
+    "speed_by_uptie": {
+      "uptie_1": "4~5",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 60,
+        "hp": 149
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy regardless of their level\n\n- Increase by 5 after an ally defeats an enemy regardless of their level\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy regardless of their level",
+          "Increase by 5 after an ally defeats an enemy regardless of their level"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1091601",
+      "name": {
+        "en": "Colpi di Taglio"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1091601",
+      "name": {
+        "en": "Colpi di Taglio"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1091601",
+      "name": {
+        "en": "Colpi di Taglio"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1091601",
+      "name": {
+        "en": "Colpi di Taglio"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1091605",
+      "name": {
+        "en": "Sezionatura di Coniglio"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Base Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1091605",
+      "name": {
+        "en": "Sezionatura di Coniglio"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1091605",
+      "name": {
+        "en": "Sezionatura di Coniglio"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1091605",
+      "name": {
+        "en": "Sezionatura di Coniglio"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1091602",
+      "name": {
+        "en": "I'll Gladly Blast a Hole Through Ya"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1091602",
+      "name": {
+        "en": "I'll Gladly Blast a Hole Through Ya"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1091602",
+      "name": {
+        "en": "I'll Gladly Blast a Hole Through Ya"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1091602",
+      "name": {
+        "en": "I'll Gladly Blast a Hole Through Ya"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1091606",
+      "name": {
+        "en": "Sezionatura di Cervo"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, gain Final Power +2 and convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 5 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1091606",
+      "name": {
+        "en": "Sezionatura di Cervo"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, <style=\"highlight\">gain Final Power +2</style> and convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 5 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1091606",
+      "name": {
+        "en": "Sezionatura di Cervo"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, <style=\"highlight\">gain Final Power +2</style> and convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 5 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1091606",
+      "name": {
+        "en": "Sezionatura di Cervo"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 5 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091603",
+      "name": {
+        "en": "Sezionatura di Elefante"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[BeforeAttack] Lose up to 10 [FutureEyeOnRodion] on self (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n<style=\"highlight\">- Activate the above effect once more for every [AccelBullet] spent by this Skill (max 2 times)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091603",
+      "name": {
+        "en": "Sezionatura di Elefante"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WhenUse] At 6+ [Breath], Final Power +1\n[BeforeAttack] Lose up to 10 [FutureEyeOnRodion] on self (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Spend 1 [AccelBullet]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091607",
+      "name": {
+        "en": "Disposal"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has 50%- current HP, deal +50% damage\nWhen attacking [TeachersPreyRodion], Coin Power +1\n[WhenUse] If this unit has 1+ [AccelBullet], Coin Power +1\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 5)</style>\n[EnemyKill] Upon killing [TeachersPreyRodion], add 1 \"Disposal\" to the list of Skills for the next upcoming turn (killing [TeachersPreyRodion] with the added \"Disposal\" does not trigger this effect again)\n[EnemyKill] [FullReload] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "Spend up to 5 [AccelBullet]\nDeal +10% damage for every [AccelBullet] that will be spent by this Coin effect (max 50%)"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- Activate the above effect once more for every [AccelBullet] spent (max <style=\"highlight\">3</style> times)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091607",
+      "name": {
+        "en": "Disposal"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 5,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has 50%- current HP, deal +50% damage\nWhen attacking [TeachersPreyRodion], Coin Power +1\n[WhenUse] If this unit has 1+ [AccelBullet], Coin Power +1\n[EnemyKill] Upon killing [TeachersPreyRodion], add 1 \"Disposal\" to the list of Skills for the next upcoming turn (killing [TeachersPreyRodion] with the added \"Disposal\" does not trigger this effect again)\n[EnemyKill] [FullReload] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 2,
+          "en": "Spend up to 5 [AccelBullet]"
+        },
+        {
+          "coin_index": 5,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- Activate the above effect once more for every [AccelBullet] spent (max 2 times)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1091604",
+      "name": {
+        "en": "Fuck Off!"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Lose <style=\"highlight\">4</style> [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1091604",
+      "name": {
+        "en": "Fuck Off!"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Lose 3 [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1091604",
+      "name": {
+        "en": "Fuck Off!"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Lose 3 [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1091604",
+      "name": {
+        "en": "Fuck Off!"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Lose 3 [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Combustion]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1091608",
+      "name": {
+        "en": "Precognition"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n<style=\"highlight\">[OnSucceedEvade] Heal 3 SP (2 times per turn)</style>\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1091608",
+      "name": {
+        "en": "Precognition"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1091608",
+      "name": {
+        "en": "Precognition"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1091608",
+      "name": {
+        "en": "Precognition"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1091602",
+        "name": {
+          "en": "The Eye of Precognition"
+        },
+        "requirement": null,
+        "en": "Upon entering the Encounter for the first time, gain 30 [FutureEyeOnRodion]\nAt 0 [FutureEyeOnRodion] Stack, convert [FutureEyeOnRodion] into [FutureEyeOffRodion]\n\nWhile this unit has [FutureEyeOnRodion], activate the following effects:\n- In a Clash, gain 1 [LookingFutureRodion] with every Clash (5 times per Skill)\n- When attacked by an Unopposed Attack, [SuperCoin] Attack, or losing a Clash against an Attack Skill, activate the \"Precognition\" Skill (once per turn)\n\nThe following causes this unit to lose [FutureEyeOnRodion] Stack:\n- Lose 1 [FutureEyeOnRodion] with every Clash\n- When this unit activates the \"Precognition\" Skill via Passive effect due to being attacked by an Unopposed Attack or [SuperCoin] Attack, lose 3 [FutureEyeOnRodion]\n- When this unit activates the \"Precognition\" Skill via Passive effect due to losing a Clash, lose 5 [FutureEyeOnRodion]\n\nThe following causes this unit to gain [ObsessionAndGreedRodion] next turn:\n- If this unit's [FutureEyeOnRodion] Stack drops to 0\n- If this unit is Staggered\n- If The House of Spiders: The Thumb Apprentice Heathcliff is defeated (if the said Identity is already defeated when this unit Substitutes in, gain [ObsessionAndGreedRodion] at Turn Start)\n\nTurn End: When Staggered for the first time in this Encounter, recover from Stagger (excluding forced Staggers)"
+      },
+      {
+        "source_passive_text_id": "1091603",
+        "name": {
+          "en": "The Shame of Famiglia Bognatelli"
+        },
+        "requirement": null,
+        "en": "Gain 2 [Breath] and +2 [Breath] Count for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], the attack does not get canceled even when this unit is out of [AccelBullet]\n\nThis Identity counts only as an \"Identity that inflicts [Combustion] and [Vibration]\"\n\nTurn Start: If this unit has \"Disposal\" on its Dashboard, inflict [TeachersPreyRodion] on the enemy this unit attacked last in the previous turn (in Focused Encounters, the Parts count for this purpose)\n- If there are no targets that satisfy the condition above, inflict [TeachersPreyRodion] on the enemy that has the lowest HP"
+      },
+      {
+        "source_passive_text_id": "1091604",
+        "name": {
+          "en": "Saikai [再会] - The Thumb"
+        },
+        "requirement": null,
+        "en": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects:\n- Gain 1 [SojiRyoshuEchoPast]\n- Defense Skill Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield"
+      },
+      {
+        "source_passive_text_id": "1091601",
+        "name": {
+          "en": "La Spada di Palermo"
+        },
+        "requirement": null,
+        "en": "If this unit has 1+ [AccelBullet], Skill 3 gains Coin Power +1 and deals +25% damage\n\nBase Skills deal +1% damage for every 2 [Combustion] on the main target (max 15%)\n- If the main target has Shield, Base Skills deal +3% damage instead (max 45%)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1091621",
+        "name": {
+          "en": "Weaklings, Not Worth Shit"
+        },
+        "requirement": null,
+        "en": "1 ally with the fastest Speed: When triggering [VibrationExplosion] on the enemy, gain 2 Offense Level Up next turn (once per turn)\n- If the said ally is \"The Thumb\" Identity, gain 1 [Agility] as well (once per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\The House of Spiders_ The Thumb Nursefather Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

@@ -1,0 +1,1365 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10308",
+  "identity": {
+    "id": "10308",
+    "english_name": "Blade Lineage Salsu Don Quixote",
+    "sinner": "Don Quixote",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 217,
+    "speed_by_uptie": {
+      "uptie_1": "4~6",
+      "uptie_2": "4~7",
+      "uptie_3": "4~8",
+      "uptie_4": "4~8"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1030801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 5+ [Breath] on self, Coin Power +1\n</style>[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030801",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_1",
+      "name": {
+        "en": "Draw of the Sword"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 1 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 7,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1030802_2",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 2
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_2",
+      "name": {
+        "en": "Blade Arc"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 7+ [Breath] on self, Coin Power +1\n</style>[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] To 1 ally that either has no [Breath] or has the least [Breath] Potency, apply 2 [Breath]\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath]</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1030802_2",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_2",
+      "name": {
+        "en": "Blade Arc"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] To 1 ally that either has no [Breath] or has the least [Breath] Potency, apply 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1030802_2",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_2",
+      "name": {
+        "en": "Blade Arc"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] To 1 ally that either has no [Breath] or has the least [Breath] Potency, apply 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030802",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackHead",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "1030802_2",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_2",
+      "name": {
+        "en": "Blade Arc"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[CriticalOnSucceedAttack] To 1 ally that either has no [Breath] or has the least [Breath] Potency, apply 2 [Breath]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030803",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnSucceedAttackHead"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnSucceedAttackHead"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "atkDmgMultiplier10donki0to1areHead"
+            },
+            {
+              "script_name": "CriticalDmgUpByRatio30"
+            },
+            {
+              "script_name": "1030803_3_1",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0,
+                "value": 2
+              }
+            },
+            {
+              "script_name": "1030803_3_3",
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_3",
+      "name": {
+        "en": "Fare Thee Well!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">At 10+ [Breath] on self, Coin Power +1\n</style>[WhenUse] Gain 5 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "+30% Damage on Critical Hit"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[CriticalOnSucceedAttack] To 2 allies that either have no [Breath] or have the least [Breath] Count, apply +2 [Breath] Count\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath] Count</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[EndSkill] If target is defeated, <style=\"highlight\">apply 1 [SlashDamageUp] to self and 1 random other ally next turn</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030803",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Sloth",
+      "attribute_type": "AMBER",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 4,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnSucceedAttackHead"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "OnSucceedAttackHead"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "atkDmgMultiplier10donki0to1areHead"
+            },
+            {
+              "script_name": "1030803_3_1",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0,
+                "value": 0
+              }
+            },
+            {
+              "script_name": "1030803_3_2",
+              "buffData": {
+                "buffKeyword": "SlashDamageUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "skill_3",
+      "name": {
+        "en": "Fare Thee Well!"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 5 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttackHead] The final Coin deals +10% damage"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "-"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[CriticalOnSucceedAttack] To 2 allies that either have no [Breath] or have the least [Breath] Count, apply +2 [Breath] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[EndSkill] If target is defeated, gain 1 [SlashDamageUp] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 3,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1030804",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 2,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10308",
+      "identity_name": "Blade Lineage Salsu Don Quixote",
+      "sinner": "Don Quixote",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-03.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n2 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    }
+  ]
+}

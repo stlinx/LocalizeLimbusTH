@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10601",
+    "english_name": "LCB Sinner Hong Lu",
+    "sinner": "Hong Lu",
+    "rarity": 1
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "2~6",
+      "uptie_3": "3~6",
+      "uptie_4": "3~6"
+    },
+    "defense_level": 58,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 142
+      },
+      {
+        "percent": 40,
+        "hp": 81
+      },
+      {
+        "percent": 20,
+        "hp": 41
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 2.0,
+      "pierce": 1.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1060101",
+      "name": {
+        "en": "Downward Cleave"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Hong Lu Icon.png]\n\n[img:Pride1BG.png]\n\n4 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nDownward Cleave\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1060101",
+      "name": {
+        "en": "Downward Cleave"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Hong Lu Icon.png]\n\n[img:Pride1BG.png]\n\n3 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nDownward Cleave\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1060101",
+      "name": {
+        "en": "Downward Cleave"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Hong Lu Icon.png]\n\n[img:Pride1BG.png]\n\n2 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nDownward Cleave\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1060101",
+      "name": {
+        "en": "Downward Cleave"
+      },
+      "affinity": "Pride",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Hong Lu Icon.png]\n\n[img:Pride1BG.png]\n\n2 [img:Blunt.png] + 7\n\n[img:Coin.png]\n\nDownward Cleave\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1060102",
+      "name": {
+        "en": "Dual Strike"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If user took no damage last turn, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Rupture"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1060102",
+      "name": {
+        "en": "Dual Strike"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If user took no damage last turn, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Rupture"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1060102",
+      "name": {
+        "en": "Dual Strike"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If user took no damage last turn, Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 Rupture"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1060102",
+      "name": {
+        "en": "Dual Strike"
+      },
+      "affinity": "Sloth",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Hong Lu Icon.png]\n\n[img:Sloth2BG.png]\n\n3 [img:Slash.png] + 4\n\n[img:Coin.png] [img:Coin.png]\n\nDual Strike\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 1 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.)\n\n[img:CoinEffect2.png]\n[Heads Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Rupture"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1060103",
+      "name": {
+        "en": "Whirlwind"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If user took no damage last turn, Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Attack Power Down"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 2 Rupture"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1060103",
+      "name": {
+        "en": "Whirlwind"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If user took no damage last turn, Coin Power +2",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 Attack Power Down"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1060104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": "Sloth",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": ".png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1060104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": ".png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1060104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": ".png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1060104",
+      "name": {
+        "en": "Evade"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 58,
+        "base": 60,
+        "correction": -2
+      },
+      "english_description": ".png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1060101",
+        "name": {
+          "en": "Entertainment"
+        },
+        "requirement": null,
+        "en": "Heal 6 SP next turn."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1060121",
+        "name": {
+          "en": "Frivolous Jokes"
+        },
+        "requirement": null,
+        "en": "At the start of the combat phase, the ally with the least SP heals 6 SP."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCB Sinner Hong Lu - Limbus Company Wiki.html"
+    }
+  }
+}

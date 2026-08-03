@@ -1,0 +1,1482 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10709",
+  "identity": {
+    "id": "10709",
+    "english_name": "MultiCrack Office Fixer Heathcliff",
+    "sinner": "Heathcliff",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 224,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 59,
+    "resistances": {
+      "slash": 1,
+      "pierce": 2,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1070901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 3,
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "40S-2 Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "40S-2 Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Gain +2 [Charge] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "40S-2 Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Gain +2 [Charge] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070901",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 5,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "40S-2 Activation"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Charge] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "NinthHeathcliffSecondSkillAbility5And10And20",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 2
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOSAIfUsedChargeTurnNotLessThanValueByThisSkill",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "value": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOSAIfUsedChargeTurnNotLessThanValueByThisSkill",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "value": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "TakeHpHealReduce",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 3
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Photoelectric Mark"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [DefenseDown]</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [DefenseDown]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [TakeHpHealReduce]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max 3)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "NinthHeathcliffSecondSkillAbility5And10And20",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOSAIfUsedChargeTurnNotLessThanValueByThisSkill",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "value": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "TakeHpHealReduce",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 3
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Photoelectric Mark"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [DefenseDown]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [TakeHpHealReduce]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max <style=\"highlight\">3</style>)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "NinthHeathcliffSecondSkillAbility5And10And20",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOSAIfUsedChargeTurnNotLessThanValueByThisSkill",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "value": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "TakeHpHealReduce",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 3
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Photoelectric Mark"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [DefenseDown]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [TakeHpHealReduce]</style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max <style=\"highlight\">3</style>)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070902",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "NinthHeathcliffSecondSkillAbility5And10And20",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 2
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Photoelectric Mark"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max 2)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070903",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 2,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 7,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateTurnByStackMultipliedByValue_Charge",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": -1,
+                "activeRound": 0,
+                "value": 3,
+                "limit": 9
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 3
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStackMultipliedByValue_Charge",
+              "buffData": {
+                "buffKeyword": "HitTakeDamageUp",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.5,
+                "limit": 2
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Photoelectric Harpoon"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">Coin Power +1 for every 2 [Charge] on self (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +<style=\"highlight\">7</style> [Charge] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +([Charge] x 3) [Charge] Count (max 9)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max 3)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [HitTakeDamageUp] for every 2 [Charge] (max 2)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070903",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "blunt",
+      "attack_type": "HIT",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 2,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 5,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateTurnByStackMultipliedByValue_Charge",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": -1,
+                "activeRound": 0,
+                "value": 3,
+                "limit": 9
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttackByDuplicateStack_Charge",
+              "buffData": {
+                "buffKeyword": "PhotoElectricity",
+                "target": "Target",
+                "buffOwner": "Self",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0,
+                "limit": 3
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Photoelectric Harpoon"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "At 2+ [Charge], Coin Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +5 [Charge] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +([Charge] x 3) [Charge] Count (max 9)"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict [PhotoElectricity] equal to [Charge] (max 3)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 12,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 6,
+          "raw_scale": 6,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Charge"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Charge] Count (<style=\"highlight\">2 times</style> per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Charge"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Charge] Count (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Charge"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Charge] Count (once per turn)",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070904",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 10,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": false,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10709",
+      "identity_name": "MultiCrack Office Fixer Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Charge"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Charge] Count (once per turn)",
+        "coin_texts": []
+      }
+    }
+  ]
+}

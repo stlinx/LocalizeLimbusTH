@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10511",
+  "english_name": "Cinq Assoc. West Section 3 Meursault",
+  "skills": [
+    {
+      "source_skill_text_id": "1051101",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "เริ่มประลอง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 3 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่า [Burst] ด้วยเช่นกัน\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างค่า [Burst] เท่ากับค่าความเร็วที่ต่างกัน (สูงสุด 3 หน่วย)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051101",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "เริ่มประลอง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่า [Burst] ด้วยเช่นกัน\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051101",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "เริ่มประลอง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่า [Burst] ด้วยเช่นกัน\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051101",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "เริ่มประลอง",
+      "description": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051102",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ทิ่มแทง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่าหรือจำนวนครั้ง [Burst] ด้วยเช่นกัน\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "หากตัวละครนี้ไม่ได้สร้าง [Burst] ความเสียหายคริติคอลจะเพิ่มขึ้น +5% ตามทุก ๆ ค่าและจำนวนครั้ง [Burst] ที่สกิลนี้ควรจะสร้าง"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] ขณะมีความเร็ว 7+ หน่วย จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051102",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ทิ่มแทง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่าหรือจำนวนครั้ง [Burst] ด้วยเช่นกัน\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ขณะมีความเร็ว 7+ หน่วย จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051102",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ทิ่มแทง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย แต่เอฟเฟกต์โจมตีโดนของสกิลนี้ก็จะไม่สร้างค่าหรือจำนวนครั้ง [Burst] ด้วยเช่นกัน\n[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ขณะมีความเร็ว 7+ หน่วย จะสร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051102",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ทิ่มแทง",
+      "description": "[WinDuel] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 4 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051103",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "คารวะ",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 3 แต้ม)\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย \n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n- หากเป้าหมายมี [ConcentratedAttackMeursault] จะได้รับค่า [Breath] เพิ่มเติมอีก 5 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[WinDuelAttack] เหรียญสุดท้ายจะสร้างความเสียหายเพิ่มขึ้น +10%"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[WinDuelAttack] เหรียญสุดท้ายจะสร้างความเสียหายเพิ่มขึ้น +10%"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายเพิ่มขึ้น +20% ตามทุก ๆ [ConcentratedAttackMeursault] บนช่องสกิล"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "- สร้างความเสียหายคริติคอลเพิ่มขึ้น +2% ตามทุก ๆ ค่า [Burst] บนตัวเป้าหมาย (สูงสุด 30%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "text": "[EndSkill] หากเหรียญนี้กำจัดเป้าหมายหรือทำลายชิ้นส่วนอวัยวะได้ จะใช้สกิลนี้ซ้ำอีกครั้งแก่เป้าหมายแบบสุ่ม (เมื่อใช้ซ้ำแล้ว เอฟเฟกต์นี้จะไม่ทำงานอีก)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051103",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "คารวะ",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมีค่า [Burst] 15+ หน่วย และจำนวนครั้ง [Burst] 3 หน่วย: เมื่อสกิลนี้โจมตีโดนจะไม่ผลาญจำนวนครั้ง [Burst] ของเป้าหมาย \n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n- หากเป้าหมายมี [ConcentratedAttackMeursault] จะได้รับค่า [Breath] เพิ่มเติมอีก 5 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[WinDuelAttack] เหรียญสุดท้ายจะสร้างความเสียหายเพิ่มขึ้น +10%"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[WinDuelAttack] เหรียญสุดท้ายจะสร้างความเสียหายเพิ่มขึ้น +10%"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [ConcentratedAttackMeursault] บนช่องสกิล"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051104",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "การตั้งรับ",
+      "description": "[WhenUse] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +2 แต้ม",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051104",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "การตั้งรับ",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051104",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "การตั้งรับ",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1051104",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "การตั้งรับ",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1051101",
+        "name": "ถ่ายทอดสดการท้าประลอง",
+        "description": "ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ค่า [Breath] 3 หน่วยที่ตนเองมี เมื่อจบเทิร์น (สูงสุด 2 หน่วย)\n\nเมื่อโจมตีโดนด้วยสกิลพื้นฐาน: สร้าง [ConcentratedAttackMeursault] ในเทิร์นถัดไป (มีผลสกิลละครั้ง)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1051121",
+        "name": "นำหน้าไปก้าวหนึ่ง",
+        "description": "เมื่อพันธมิตรที่เร็วที่สุดแคลชสกิลชนะ: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (สูงสุด 2 ครั้ง/เทิร์น)"
+      }
+    ]
+  }
+}

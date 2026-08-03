@@ -1,0 +1,2051 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "11015",
+  "identity": {
+    "id": "11015",
+    "english_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+    "sinner": "Sinclair",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2,
+      "blunt": 1
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1101501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSACH",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Chainstrike [連擊]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Breath] on self (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Gain 1 [Agility] next turn (once per turn)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Chainstrike [連擊]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain <style=\"highlight\">+3</style> [Breath] Count\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Chainstrike [連擊]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain <style=\"highlight\">+3</style> [Breath] Count\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [Agility] next turn (once per turn)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101501",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_1",
+      "name": {
+        "en": "Chainstrike [連擊]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +2 [Breath] Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 1 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 2 [Breath]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit2",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio10"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "RerollOnSuccessCriticalAttackHead",
+              "value": 1
+            },
+            {
+              "script_name": "ReRoll1101502",
+              "buffData": {
+                "buffKeyword": "LittleFingerID",
+                "target": "Self",
+                "stack": 10,
+                "turn": 0,
+                "activeRound": 0
+              },
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Nameless Slash [無名斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] Base Power +1 for every 6 [Breath] on self (max 2)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +10% damage on Critical Hit<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Gain +1 [Breath] Count</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[CriticalOnSucceedAttackHead] Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 5,
+            "en": "<style=\"highlight\">[ReUseOnSucceedAttackHead] At 10+ [LittleFingerID], Reuse this Coin (once per Skill)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio10"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "RerollOnSuccessCriticalAttackHead",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Nameless Slash [無名斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Base Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +10% damage on Critical Hit<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Reuse this Coin (once per Skill)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio10"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "RerollOnSuccessCriticalAttackHead",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Nameless Slash [無名斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Base Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +10% damage on Critical Hit<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Reuse this Coin (once per Skill)</style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101502",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 5,
+      "offense_level_correction": 3,
+      "target_num": 3,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "DealRandomTargetAmongTargetsMTFirst"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 5,
+          "raw_scale": 5,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio10"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_2",
+      "name": {
+        "en": "Nameless Slash [無名斬]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[WideAreaRampage]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain 3 [Breath]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Deal +10% damage on Critical Hit"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 8,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AtkDmgUp1101503",
+          "value": 0.5
+        },
+        {
+          "script_name": "OverwriteToSuperCoinViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 20,
+            "turn": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit5",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 4,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit5",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 4,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 7,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "TagetNumAdderBBPerViaBuffCheck1WithLimit2",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "UseBuffOnEAViaTargetNumAdder1101503",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 14,
+          "raw_scale": 14,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio70"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalSlashDmgOnSACHRatio25"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Fallstar Slayer [落星一殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Deal <style=\"highlight\">+50%</style> damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] At 20 [LittleFingerID], convert all Coins of this Skill into [SuperCoin]s\n[WhenUse] Coin Power +1 for every 4 [Breath] on self (max <style=\"highlight\">5</style>)\n[WhenUse] Base Power +1 for every 4 [LittleFingerID] on self (max <style=\"highlight\">5</style>)\n[WhenUse] Gain <style=\"highlight\">7</style> [Breath]\n\n[BeforeAttack] Atk Weight +1 for every 10 [LittleFingerID] on self (max 2)\n[EndSkill] Consume <style=\"highlight\">5</style> [LittleFingerID] for every Atk Weight gained due to this Skill's effect",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Deal <style=\"highlight\">+70%</style> damage on Critical Hit"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">5</style> [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[CriticalOnSucceedAttackHead] Deal (25% of this Coin's final damage) Slash damage<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101503",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AtkDmgUp1101503",
+          "value": 0.3
+        },
+        {
+          "script_name": "OverwriteToSuperCoinViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 20,
+            "turn": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit3",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "buffOwner": "Self",
+            "stack": 4,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "SkillPowerAdderOnUseViaBuffCheckDevideByStackWithLimit3",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 4,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "TagetNumAdderBBPerViaBuffCheck1WithLimit2",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "buffOwner": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "UseBuffOnEAViaTargetNumAdder1101503",
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "stack": 7,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio50"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveAdditionalSlashDmgOnSACHRatio25"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "skill_3",
+      "name": {
+        "en": "Fallstar Slayer [落星一殺]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] At 20 [LittleFingerID], convert all Coins of this Skill into [SuperCoin]s\n[WhenUse] Coin Power +1 for every 4 [Breath] on self (max 3)\n[WhenUse] Base Power +1 for every 4 [LittleFingerID] on self (max 3)\n[WhenUse] Gain 5 [Breath]\n\n[BeforeAttack] Atk Weight +1 for every 10 [LittleFingerID] on self (max 2)\n[EndSkill] Consume 7 [LittleFingerID] for every Atk Weight gained due to this Skill's effect",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Deal +50% damage on Critical Hit"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[CriticalOnSucceedAttackHead] Deal (25% of this Coin's final damage) Slash damage"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 2,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Defend [守]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nTurn Start: At 25+ [Breath], change this Skill to 'Swerve'\n\n[StartBattle] Gain 8 [Breath] (once per turn)\n[StartBattle] Gain <style=\"highlight\">+2</style> [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Defend [守]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nTurn Start: At 25+ [Breath], change this Skill to 'Swerve'\n\n[StartBattle] Gain 6 [Breath] (once per turn)\n[StartBattle] Gain +1 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Defend [守]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nTurn Start: At 25+ [Breath], change this Skill to 'Swerve'\n\n[StartBattle] Gain 6 [Breath] (once per turn)\n[StartBattle] Gain +1 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101504",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 6,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Defend [守]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nTurn Start: At 25+ [Breath], change this Skill to 'Swerve'\n\n[StartBattle] Gain 6 [Breath] (once per turn)\n[StartBattle] Gain +1 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101505",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddShieldOnBattleStartViaBuffStackCheck",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "GiveBuffOnSucceedEvade",
+          "turnLimit": 2,
+          "buffData": {
+            "buffKeyword": "CriticalDamageUp",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Swerve [回]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain Shield equal to [LittleFingerID] Stack (once per turn)\n[StartBattle] Gain +4 [Breath] Count (once per turn)\n<style=\"highlight\">[OnSucceedEvade] Gain 1 [CriticalDamageUp] next turn (max 2 times per turn)</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101505",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddShieldOnBattleStartViaBuffStackCheck",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Swerve [回]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain Shield equal to [LittleFingerID] Stack (once per turn)\n[StartBattle] Gain +4 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101505",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddShieldOnBattleStartViaBuffStackCheck",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Swerve [回]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain Shield equal to [LittleFingerID] Stack (once per turn)\n[StartBattle] Gain +4 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1101505",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AddShieldOnBattleStartViaBuffStackCheck",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "LittleFingerID",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnBattleStart",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "stack": 0,
+            "turn": 4,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "11015",
+      "identity_name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "sinner": "Sinclair",
+      "slot": "defense",
+      "name": {
+        "en": "Swerve [回]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-10.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Gain Shield equal to [LittleFingerID] Stack (once per turn)\n[StartBattle] Gain +4 [Breath] Count (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "-"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10911",
+    "english_name": "The Princess of La Manchaland Rodion",
+    "sinner": "Rodion",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 243,
+    "speed_by_uptie": {
+      "uptie_1": "2~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 170
+      },
+      {
+        "percent": 30,
+        "hp": 73
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 2.0,
+      "pierce": 0.5,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1091101",
+      "name": {
+        "en": "Begone..."
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1091101",
+      "name": {
+        "en": "Begone..."
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1091101",
+      "name": {
+        "en": "Begone..."
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1091101",
+      "name": {
+        "en": "Begone..."
+      },
+      "affinity": "Pride",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1091102",
+      "name": {
+        "en": "In Finely Ground Mistfall"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the lowest max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1091102",
+      "name": {
+        "en": "In Finely Ground Mistfall"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the lowest max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1091102",
+      "name": {
+        "en": "In Finely Ground Mistfall"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the lowest max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1091102",
+      "name": {
+        "en": "In Finely Ground Mistfall"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[StartBattle] On self and 1 ally that has the lowest max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091103",
+      "name": {
+        "en": "The Festival Will End"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[BeforeUse] At 25+ [BloomingThornsRodionFirst], activate 'Ascendant Don Quixote Hardblood[TabExplain] Arts - The Finale' instead\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] To self and (highest Reson.) allies: apply (3 + (1 for every 50 [BloodDinner_Accumulation] by this unit) [FestivalFeverRodion] this turn and next turn (max 10)\n[WhenUse] To self and (highest Reson.) allies: apply 3 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091103",
+      "name": {
+        "en": "The Festival Will End"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[BeforeUse] At 25+ [BloomingThornsRodionFirst], activate 'Ascendant Don Quixote Hardblood[TabExplain] Arts - The Finale' instead\n[WhenUse] To self and (highest Reson.) allies: apply (3 + (1 for every 50 [BloodDinner_Accumulation] by this unit) [FestivalFeverRodion] this turn and next turn (max 10)\n[WhenUse] To self and (highest Reson.) allies: apply 3 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091105",
+      "name": {
+        "en": "Ascendant Don Quixote Hardblood Arts - The Finale"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] To self and (highest Reson.) allies: apply 5 + (1 for every 50 [BloodDinner_Accumulation] by this unit) [FestivalFeverRodion] this turn and next turn (max 10)\n[WhenUse] To self and (highest Reson.) allies: apply 5 [BloomingThornsRodionFirst]\nDeal +1% damage for every 5 [BloodDinner_Accumulation] by this unit (max 50%)\n[EndSkill] Consume all [BloomingThornsRodionFirst] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091105",
+      "name": {
+        "en": "Ascendant Don Quixote Hardblood Arts - The Finale"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+5",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[WhenUse] To self and (highest Reson.) allies: apply 5 + (1 for every 50 [BloodDinner_Accumulation] by this unit) [FestivalFeverRodion] this turn and next turn (max 10)\n[WhenUse] To self and (highest Reson.) allies: apply 5 [BloomingThornsRodionFirst]\nDeal +1% damage for every 5 [BloodDinner_Accumulation] by this unit (max 50%)\n[EndSkill] Consume all [BloomingThornsRodionFirst] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1091104",
+      "name": {
+        "en": "Don Quixote Hardblood Arts 15: Parasol"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies that have the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n<style=\"highlight\">  - If the affected ally is a <Bloodfiend>, reduce their [Laceration] Count by 2 more</style>\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1091104",
+      "name": {
+        "en": "Don Quixote Hardblood Arts 15: Parasol"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies that have the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1091104",
+      "name": {
+        "en": "Don Quixote Hardblood Arts 15: Parasol"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies that have the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1091104",
+      "name": {
+        "en": "Don Quixote Hardblood Arts 15: Parasol"
+      },
+      "affinity": "Lust",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies that have the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1091102",
+        "name": {
+          "en": "Bloodfeast"
+        },
+        "requirement": null,
+        "en": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will fill the surface."
+      },
+      {
+        "source_passive_text_id": "1091101",
+        "name": {
+          "en": "Hardblood Thorn"
+        },
+        "requirement": null,
+        "en": "When another ally takes [Laceration] damage or consumes [BloodDinner], gain 1 [BloomingThornsRodionFirst] (3 times per turn)\nHeal HP on self by 20% of the damage dealt with base Skills (max 10 per Skill)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1091121",
+        "name": {
+          "en": "\"Blossom with Blood...\""
+        },
+        "requirement": null,
+        "en": "To 1 ally that has the highest [Laceration] Potency at Turn End: Reduce the ally's [Laceration] Potency by 6 max, and apply (Bleed Potency reduced / 2) [BloomingThornsRodionFirst] (rounded down)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\The Princess of La Manchaland Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

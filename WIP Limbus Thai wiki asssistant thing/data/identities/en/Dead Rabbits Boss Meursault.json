@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10509",
+    "english_name": "Dead Rabbits Boss Meursault",
+    "sinner": "Meursault",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 232,
+    "speed_by_uptie": {
+      "uptie_1": "3~6",
+      "uptie_2": "4~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 62,
+    "stagger_thresholds": [
+      {
+        "percent": 65,
+        "hp": 151
+      },
+      {
+        "percent": 35,
+        "hp": 81
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1050901",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "If target has 5+ [Burst], Coin Power +<style=\"highlight\">2</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1050901",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "If target has 5+ [Burst], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1050901",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "If target has 5+ [Burst], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1050901",
+      "name": {
+        "en": "Bat Strike"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Lust1BG.png]\n\n4 [img:Blunt.png] + 5\n\n[img:Coin.png]\n\nBat Strike\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[Heads Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Inflict 2 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1050902",
+      "name": {
+        "en": "Smackdown"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] If target has 6+ [Burst], Coin Power +1</style>\n[WinDuel] Inflict +2 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 4+ [Burst], inflict 2 [AttackDown]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1050902",
+      "name": {
+        "en": "Smackdown"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WinDuel] Inflict +2 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1050902",
+      "name": {
+        "en": "Smackdown"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WinDuel] Inflict +2 [Burst] Count",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1050902",
+      "name": {
+        "en": "Smackdown"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Meursault Icon.png]\n\n[img:Wrath2BG.png]\n\n3 [img:Pierce.png] + 5\n\n[img:Coin.png] [img:Coin.png]\n\nSmackdown\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.\n[On Hit] If target has 6+ [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage., inflict 2 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1050903",
+      "name": {
+        "en": "Relentless"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Clash Power +1</style>\n[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+      "coin_texts": [
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 4 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1050903",
+      "name": {
+        "en": "Relentless"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+      "coin_texts": [
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 4 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1050904",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1050904",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1050904",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1050904",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 7,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Gluttony1BG.png]\n\n7 [img:Blunt.png] + 6\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1050901",
+        "name": {
+          "en": "Buy Time"
+        },
+        "requirement": null,
+        "en": "Clash Power +1 in a Clash against targets that have [Burst]"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1050921",
+        "name": {
+          "en": "My Responsibility"
+        },
+        "requirement": null,
+        "en": "When 1 ally with the fastest Speed hits an enemy that has 6+ [Burst], inflict 1 [AttackDown] (3 times per enemy per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Dead Rabbits Boss Meursault - Limbus Company Wiki.html"
+    }
+  }
+}

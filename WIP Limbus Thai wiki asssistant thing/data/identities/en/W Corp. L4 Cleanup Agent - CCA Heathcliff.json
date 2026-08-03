@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10713",
+    "english_name": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+    "sinner": "Heathcliff",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 304,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~5",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 50,
+        "hp": 152
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 2.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1071301",
+      "name": {
+        "en": "Congestion Cleanup"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 3+ [Charge], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Charge] Count on self (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1071301",
+      "name": {
+        "en": "Congestion Cleanup"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Charge] Count, Clash Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1071301",
+      "name": {
+        "en": "Congestion Cleanup"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 6+ [Charge] Count, Clash Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1071301",
+      "name": {
+        "en": "Congestion Cleanup"
+      },
+      "affinity": "Gluttony",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 60,
+        "base": 60,
+        "correction": 0
+      },
+      "english_description": "Heathcliff Icon.png]\n\n[img:Gluttony1BG.png]\n\n2 [img:Blunt.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nCongestion Cleanup\n\n[img:SkillAttack.png] 60 (60+0) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Gain +3 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 1 [img:Rupture.png] Rupture [img:Rupture.png] RuptureThe next Y time(s) the unit is hit, take X fixed damage.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1071302",
+      "name": {
+        "en": "Boost: Elbow Blade"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power\n<style=\"highlight\">[WhenUse] At 3+ [Charge], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">6</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1071302",
+      "name": {
+        "en": "Boost: Elbow Blade"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power<style=\"highlight\"></style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1071302",
+      "name": {
+        "en": "Boost: Elbow Blade"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power<style=\"highlight\"></style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> [Charge] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1071302",
+      "name": {
+        "en": "Boost: Elbow Blade"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +4 [Charge] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1071303",
+      "name": {
+        "en": "Rip Space - CCA Overdrive"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power\n<style=\"highlight\">[WhenUse] Gain Clash Power equal to [Charge] Potency on self (max 5)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [Charge] Count</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [Charge] Count</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +2 [Charge] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x <style=\"highlight\">10</style>)% of this Coin's final damage (max <style=\"highlight\">50%</style>)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1071303",
+      "name": {
+        "en": "Rip Space - CCA Overdrive"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 2,
+      "coin_power": "+2",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": null
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x 5)% of this Coin's final damage (max 25%)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1071304",
+      "name": {
+        "en": "CCA Overcharge"
+      },
+      "affinity": "Envy",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 3,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)\n<style=\"highlight\">- Turn End: Add 1 Rip Space - CCA Overdrive to the list of Skills for the next upcoming turn (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1071304",
+      "name": {
+        "en": "CCA Overcharge"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1071304",
+      "name": {
+        "en": "CCA Overcharge"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1071304",
+      "name": {
+        "en": "CCA Overcharge"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 2,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1071301",
+        "name": {
+          "en": "Defence-Oriented Charge"
+        },
+        "requirement": null,
+        "en": "- Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n- Turn Start: Gain [DefenseUp] equal to [Charge] Potency on self (max 6)"
+      },
+      {
+        "source_passive_text_id": "1071311",
+        "name": {
+          "en": "Congestion Cleaning Armour"
+        },
+        "requirement": null,
+        "en": "- Combat Start: If this unit has less than 50% HP, gain Shield equal to ([Charge] Potency x 5) (max 25)\n- Immediately before getting hit, gain Shield equal to ([Charge] Potency on self) (max 5, 3 times per turn)\n- If this unit gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the Skill deals +3% damage for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 15%)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1071321",
+        "name": {
+          "en": "One day I'll wear me Armour for Cancelled Trains"
+        },
+        "requirement": null,
+        "en": "- Combat Start: If the unit with the earliest Deployment Order gains [Charge] Count past the Max [Charge] Count Cap by using a Skill, the unit gains 1 [ChargeForceField] next turn for every [Charge] Count that exceeds the Max [Charge] Count Cap (max 3, including E.G.O Skills)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\W Corp. L4 Cleanup Agent - CCA Heathcliff - Limbus Company Wiki.html"
+    }
+  }
+}

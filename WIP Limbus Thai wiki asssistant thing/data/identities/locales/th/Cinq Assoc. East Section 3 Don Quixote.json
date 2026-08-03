@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10311",
+  "english_name": "Cinq Assoc. East Section 3 Don Quixote",
+  "skills": [
+    {
+      "source_skill_text_id": "1031101",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "ปลดปล่อยพลัง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้นตามค่าความเร็วที่ต่างกัน (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031101",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "ปลดปล่อยพลัง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031101",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "ปลดปล่อยพลัง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031101",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "ปลดปล่อยพลัง",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031102",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ฝ่ามือเพลิงมรกต",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้นตามค่าความเร็วที่ต่างกัน (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติมเท่ากับปริมาณ [DianxueDonQuixote] บนตัวเป้าหมาย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [DefenseDown] 1 หน่วย ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 5 หน่วย มีผลเทิร์นละครั้ง)\n- สร้าง [DefenseDown] เพิ่มเติมเท่ากับปริมาณ [DianxueDonQuixote] บนตัวเป้าหมาย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031102",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ฝ่ามือเพลิงมรกต",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [DefenseDown] 1 หน่วย ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 3 หน่วย มีผลเทิร์นละครั้ง)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031102",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ฝ่ามือเพลิงมรกต",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [DefenseDown] 1 หน่วย ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 3 หน่วย มีผลเทิร์นละครั้ง)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031102",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ฝ่ามือเพลิงมรกต",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 3 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttackHead] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttackHead] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [DefenseDown] 1 หน่วย ตามทุก ๆ ค่า [Combustion] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 หน่วย มีผลเทิร์นละครั้ง)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031103",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "โปรดให้การประลองนี้ได้เปิดหูเปิดตาท่านเถิด",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +15% ตามทุก ๆ [DianxueDonQuixote] 1 หน่วยบนตัวเป้าหมาย (สูงสุด 45%)\nหากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้นตามค่าความเร็วที่ต่างกัน (แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n- หากเป้าหมายมี [DianxueDonQuixote] จะได้รับค่า [Breath] เพิ่มเติม 3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย)% (สูงสุด 50%)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายมี [DianxueDonQuixote] จะสร้าง [DefenseDown] 3 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031103",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "โปรดให้การประลองนี้ได้เปิดหูเปิดตาท่านเถิด",
+      "description": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ [DianxueDonQuixote] 1 หน่วยบนตัวเป้าหมาย (สูงสุด 30%)\nหากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n- หากเป้าหมายมี [DianxueDonQuixote] จะได้รับค่า [Breath] เพิ่มเติม 3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย)% (สูงสุด 30%)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031104",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "ท่านนั้นจำเป็นต้องได้รับบทเรียนมารยาทบนโต๊ะอาหารประเดี๋ยวนี้!",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031104",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "ท่านนั้นจำเป็นต้องได้รับบทเรียนมารยาทบนโต๊ะอาหารประเดี๋ยวนี้!",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031104",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "ท่านนั้นจำเป็นต้องได้รับบทเรียนมารยาทบนโต๊ะอาหารประเดี๋ยวนี้!",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1031104",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "ท่านนั้นจำเป็นต้องได้รับบทเรียนมารยาทบนโต๊ะอาหารประเดี๋ยวนี้!",
+      "description": null,
+      "coin_texts": [],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1031101",
+        "name": "หยกเพลิงสีเขียวมรกต",
+        "description": "จบเทิร์น: ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป ตามทุก ๆ ค่า [Breath] 5 หน่วย ที่ตนเองมี (สูงสุด 2 หน่วย)\n\nเมื่อสกิลโจมตีพื้นฐานสกิลสุดท้ายโจมตีศัตรู (หรือชิ้นส่วนอวัยวะ) จะสร้าง [DianxueDonQuixote] ในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n\nสร้างความเสียหายคริติคอลเพิ่มขึ้น +(ค่า [Combustion] บนตัวเป้าหมาย)% (สูงสุด 15%)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1031121",
+        "name": "เคล็ดวิชาเยื้องย่างดั่งขนปักษา",
+        "description": "พันธมิตร 1 คนที่มีความเร็วสูงที่สุด: เมื่อแคลชสกิลชนะศัตรูที่มี [Combustion] หรือ '[Combustion] แบบพิเศษ' จะได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)"
+      }
+    ]
+  }
+}

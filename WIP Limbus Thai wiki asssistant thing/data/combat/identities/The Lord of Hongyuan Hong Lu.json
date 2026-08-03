@@ -1,0 +1,2725 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10613",
+  "identity": {
+    "id": "10613",
+    "english_name": "The Lord of Hongyuan Hong Lu",
+    "sinner": "Hong Lu",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 192,
+    "speed_by_uptie": {
+      "uptie_1": "4~6",
+      "uptie_2": "4~7",
+      "uptie_3": "4~8",
+      "uptie_4": "4~8"
+    },
+    "defense_level": 58,
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1061301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130101",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Endurance",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount3"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "I Wish to Open the Path"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses)\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ types of negative effects, Clash Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +<style=\"highlight\">3</style> [Breath] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130101",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Endurance",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "I Wish to Open the Path"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130101",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Endurance",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "I Wish to Open the Path"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gloom",
+      "attribute_type": "AZURE",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 1,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130101",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Endurance",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_1",
+      "name": {
+        "en": "I Wish to Open the Path"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130201",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "ShamrockDamageUp",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckDivideByStackWithLimitAndSelfBreathStack2",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "AttackDmgUpByRatio50"
+            },
+            {
+              "script_name": "CriticalDmgUpByRatio50"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[StartBattle] Apply 1 [ShamrockDamageUp] to all other allies that have Gluttony Skills equipped this turn (once per turn)</style>\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 2)</style>\n[WhenUse] Gain 3 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "Deal +50% damage<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">+50% Damage on Critical Hit</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 4,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "AttackDmgUpByRatio50"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>\n[WhenUse] Gain <style=\"highlight\">3</style> [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">Deal +50% damage</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "AttackDmgUpByRatio50"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>\n[WhenUse] Gain <style=\"highlight\">3</style> [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "<style=\"highlight\">Deal +50% damage</style>"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 2,
+      "offense_level_correction": 2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_2",
+      "name": {
+        "en": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain 2 [Breath]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 [Breath] Count"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 10,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckDivideByStackWithLimitAndSelfBreathStack3",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 5,
+            "turn": 3,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130301",
+          "turnLimit": 1,
+          "value": 0
+        },
+        {
+          "script_name": "106130302"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 12,
+          "raw_scale": 12,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "106130302",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "106130301",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Answer Me, Heishou Packs"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "This Skill does not trigger Defense Skills\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 ([Burst] on target + [Breath] on self) (max 3)</style>\n[WhenUse] Gain <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit that has the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 10,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "IgnoreDefenseSkill"
+        },
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Breath",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 3,
+            "turn": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130301",
+          "turnLimit": 1,
+          "value": 0
+        },
+        {
+          "script_name": "106130302"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            },
+            {
+              "script_name": "106130302",
+              "buffData": {
+                "buffKeyword": "AttackDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "106130301",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": -1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Answer Me, Heishou Packs"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "This Skill does not trigger Defense Skills\n\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit that has the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061305",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130501"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioByLostHpRatioSelfAndTargetWithMax_500_10",
+          "value": 0.01
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckDivideByStackWithLimitAndSelfBreathStack3",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpNegativeBuffCountDivideWithLimit_10_30_2"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit110",
+          "buffData": {
+            "buffKeyword": "HeishouComboCountHonglu",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "CriticalDmgUpByRatio50"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashResistDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "106130501",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "Custom",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "I Carve the Path of a Lord"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n<style=\"highlight\">Deal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)</style>\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Burst] on target + Poise on self) (max 3)</style>\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)</style>\n[WhenUse] Deal <style=\"highlight\">+10%</style> damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Identity activated [HeishouCombo]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "<style=\"highlight\">Deal +50% Damage on Critical Hit</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 3,
+            "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)</style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 4,
+            "en": "[EnemyKill] For 2 ally Heishou Pack Identities that have the least SP, heal 10 SP and apply 1 [Enhancement] next turn<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061305",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S6",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130501"
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit55",
+          "buffData": {
+            "buffKeyword": "HeishouComboCountHonglu",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.05
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "106130501",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "Custom",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "I Carve the Path of a Lord"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Pack Identity activated [HeishouCombo]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 2,
+            "en": "[EnemyKill] For 2 ally Heishou Pack Identities that have the least SP, heal 10 SP and apply 1 [Enhancement] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061306",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "HeishouDeathCount",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpByRatioByLostHpRatioSelfAndTargetWithMax_500_10",
+          "value": 0.01
+        },
+        {
+          "script_name": "TagetNumAdderOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "HeishouDeathCount",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckDivideByStackWithLimitAndSelfBreathStack3",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpNegativeBuffCountDivideWithLimit_10_30_2"
+        },
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit110",
+          "buffData": {
+            "buffKeyword": "HeishouComboCountHonglu",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 4,
+          "raw_scale": 4,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio100ViaNegativeBuffCntWithLimit500"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashResistDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnKillTarget",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Lonesome Stand: Sacrifice to Claim The Garden [孑孑單身, 捨生取园]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 3)</style>\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)</style>\n[WhenUse] Deal <style=\"highlight\">+10%</style> damage for every [HeishouComboCountHonglu]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Deal +10% damage for every type of negative effect on target (max 50%)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)<style=\"highlight\"></style>"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[EnemyKill] Gain <style=\"highlight\">2</style> [Enhancement] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061306",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Pride",
+      "attribute_type": "INDIGO",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 6,
+      "offense_level_correction": 3,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S5",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "HeishouDeathCount",
+            "target": "",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpByRatioByLostHpRatioSelfAndTargetWithMax_500_10",
+          "value": 0.01
+        },
+        {
+          "script_name": "TagetNumAdderOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "HeishouDeathCount",
+            "buffOwner": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "CoinScaleAdderOSTViaBuffCheckAndSelfBreathStack",
+          "buffData": {
+            "buffKeyword": "Burst",
+            "target": "",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "script_name": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit55",
+          "buffData": {
+            "buffKeyword": "HeishouComboCountHonglu",
+            "buffOwner": "Self",
+            "stack": 1,
+            "turn": 0,
+            "value": 0.05
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 3,
+          "raw_scale": 3,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "AttackDmgUpByRatio100ViaNegativeBuffCntWithLimit500"
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "SlashResistDown",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "script_name": "GiveBuffOnKillTarget",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "skill_3",
+      "name": {
+        "en": "Lonesome Stand: Sacrifice to Claim The Garden [孑孑單身, 捨生取园]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Deal +10% damage for every type of negative effect on target (max 50%)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 2,
+            "en": "[OnSucceedAttack] Inflict 1 [Burst]"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 3,
+            "en": "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 4,
+            "en": "[EnemyKill] Gain 1 [Enhancement] next turn"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 6,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130401",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130402",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Custom",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130403"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Heishou Keenclaw [黑獣利爪]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)<style=\"highlight\"></style>",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]<style=\"highlight\"></style>"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130401",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130402",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Custom",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130403"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Heishou Keenclaw [黑獣利爪]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130401",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130402",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Custom",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130403"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Heishou Keenclaw [黑獣利爪]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "counter",
+      "raw_defense_type": "COUNTER",
+      "base_power": 5,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S4",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "106130401",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "SlashResultUp",
+            "target": "Custom",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130402",
+          "turnLimit": 1,
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "Custom",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "script_name": "106130403"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 7,
+          "raw_scale": 7,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Heishou Keenclaw [黑獣利爪]"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061307",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "HeishouSupportiveDefense_10613"
+        },
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount3"
+        },
+        {
+          "script_name": "EmptyBody"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Lordsguard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters that have conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061307",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "HeishouSupportiveDefense_10613"
+        },
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount3"
+        },
+        {
+          "script_name": "EmptyBody"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Lordsguard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters that have conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061307",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "HeishouSupportiveDefense_10613"
+        },
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount3"
+        },
+        {
+          "script_name": "EmptyBody"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Lordsguard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters that have conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1061307",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "slash",
+      "attack_type": "SLASH",
+      "defense_type": "guard",
+      "raw_defense_type": "GUARD",
+      "base_power": 2,
+      "offense_level_correction": 0,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "HeishouSupportiveDefense_10613"
+        },
+        {
+          "script_name": "ParryingResultPowerAdder1OnUseNegativeBuffCount3"
+        },
+        {
+          "script_name": "EmptyBody"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 8,
+          "raw_scale": 8,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "SuperCoin"
+            }
+          ]
+        }
+      ],
+      "identity_id": "10613",
+      "identity_name": "The Lord of Hongyuan Hong Lu",
+      "sinner": "Hong Lu",
+      "slot": "defense",
+      "name": {
+        "en": "Lordsguard"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-06.json",
+      "text_summary": {
+        "english_description": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters that have conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "[SuperCoin]"
+          }
+        ]
+      }
+    }
+  ]
+}

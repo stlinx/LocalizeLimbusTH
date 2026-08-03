@@ -1,0 +1,1472 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_combat",
+  "identity_key": "10703",
+  "identity": {
+    "id": "10703",
+    "english_name": "R Corp. 4th Pack Rabbit Heathcliff",
+    "sinner": "Heathcliff",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 203,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 56,
+    "resistances": {
+      "slash": 1,
+      "pierce": 0.5,
+      "blunt": 2
+    }
+  },
+  "skills": [
+    {
+      "source_skill_id": "1070301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 3,
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Graze the Grass"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Wrath1BG.png]\n\n4 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nGraze the Grass\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect2.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect3.png]\n[On Hit] Gain +3 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +3 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Graze the Grass"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Wrath1BG.png]\n\n4 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nGraze the Grass\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect2.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect3.png]\n[On Hit] Gain +3 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +3 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Graze the Grass"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nGraze the Grass\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect2.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect3.png]\n[On Hit] Gain +3 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 1,
+            "effect_index": 2,
+            "en": "-"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +3 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070301",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S1",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "Empty[necessary:Bullet:1]"
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Charge",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_1",
+      "name": {
+        "en": "Graze the Grass"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Wrath1BG.png]\n\n3 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nGraze the Grass\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect2.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n\n[img:CoinEffect3.png]\n[On Hit] Gain +1 [img:Charge.png] Charge [img:Charge.png] ChargeResource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn. Count",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Gain +1 Charge Count"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 4,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1IfSpeedNotLessThan6"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 3,
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Concentrated Fire"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Coin Power +1 at 6+ Speed",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 3,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 4,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1IfSpeedNotLessThan6"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Concentrated Fire"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Coin Power +1 at 6+ Speed",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 2,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder1IfSpeedNotLessThan6"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Concentrated Fire"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Coin Power +1 at 6+ Speed",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070302",
+      "skill_type": "SKILL",
+      "skill_tier": 2,
+      "uptie": 1,
+      "affinity": "Gluttony",
+      "attribute_type": "SHAMROCK",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S2",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_2",
+      "name": {
+        "en": "Concentrated Fire"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Heathcliff Icon.png]\n\n[img:Gluttony2BG.png]\n\n3 [img:Pierce.png] + 2\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nConcentrated Fire\n\n[img:SkillAttack.png] 65 (60+5) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n[On Hit] Inflict 1 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n[On Hit] Inflict 1 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect3.png]\nSpend 1 [img:Ammo.png] Ammo [img:Ammo.png] AmmoSpent by certain skills. Some attacks cancel if lacking Ammo.\n[On Hit] Inflict 1 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 Bleed"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 4,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder2IfSpeedNotLessThan6"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 5,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "inherited_from_uptie": 3,
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Quick Suppression"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Coin Power +2 at 6+ Speed",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 Fragile"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 Fragile"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 Rupture"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Rupture"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070303",
+      "skill_type": "SKILL",
+      "skill_tier": 3,
+      "uptie": 3,
+      "affinity": "Envy",
+      "attribute_type": "VIOLET",
+      "damage_type": "pierce",
+      "attack_type": "PENETRATE",
+      "defense_type": "attack",
+      "raw_defense_type": "ATTACK",
+      "base_power": 3,
+      "offense_level_correction": 5,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "S3",
+      "view_type": "ENCOUNTER",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "CoinScaleAdder2IfSpeedNotLessThan6"
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 2,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack[necessary:Bullet:1]",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 3,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 4,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "coin_index": 5,
+          "operator": "ADD",
+          "power": 2,
+          "raw_scale": 2,
+          "reuse_count": null,
+          "scripts": [
+            {
+              "script_name": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Burst",
+                "target": "Target",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "skill_3",
+      "name": {
+        "en": "Quick Suppression"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Coin Power +2 at 6+ Speed",
+        "coin_texts": [
+          {
+            "coin_index": 1,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 Fragile"
+          },
+          {
+            "coin_index": 2,
+            "effect_index": 1,
+            "en": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 Fragile"
+          },
+          {
+            "coin_index": 3,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 1 Rupture"
+          },
+          {
+            "coin_index": 4,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 2 Rupture"
+          },
+          {
+            "coin_index": 5,
+            "effect_index": 1,
+            "en": "[OnSucceedAttack] Inflict 3 Rupture"
+          }
+        ]
+      }
+    },
+    {
+      "source_skill_id": "1070304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 4,
+      "affinity": "Wrath",
+      "attribute_type": "CRIMSON",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [
+        {
+          "script_name": "GiveBuffOnUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "",
+            "stack": 0,
+            "turn": 1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "[WhenUse] Gain +1 Charge Count",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 3,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n4 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 2,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "inherited_from_uptie": 1,
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n4 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    },
+    {
+      "source_skill_id": "1070304",
+      "skill_type": "SKILL",
+      "skill_tier": 1,
+      "uptie": 1,
+      "affinity": null,
+      "attribute_type": "NEUTRAL",
+      "damage_type": null,
+      "attack_type": "NONE",
+      "defense_type": "evade",
+      "raw_defense_type": "EVADE",
+      "base_power": 4,
+      "offense_level_correction": -2,
+      "target_num": 1,
+      "mp_usage": 0,
+      "can_duel": true,
+      "can_change_target": true,
+      "can_team_kill": false,
+      "skill_motion": "Default",
+      "view_type": "BATTLE",
+      "parrying_close_type": "NEAR",
+      "target_type": "FRONT",
+      "scripts": [],
+      "coins": [
+        {
+          "coin_index": 1,
+          "operator": "ADD",
+          "power": 10,
+          "raw_scale": 10,
+          "reuse_count": null,
+          "scripts": []
+        }
+      ],
+      "identity_id": "10703",
+      "identity_name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "sinner": "Heathcliff",
+      "slot": "defense",
+      "name": {
+        "en": "Evade"
+      },
+      "source_file": "C:\\Users\\kimoj\\Downloads\\LC.Localization.Interface.1.4.2\\LC Localization Interface 1.4ː2\\[⇲] Assets Directory\\Limbus Images\\Skills\\Skills Data\\personality-skill-07.json",
+      "text_summary": {
+        "english_description": "Def Icon.png]\n\n[img:Def1BG.png]\n\n4 [img:Evade.png] + 10\n\n[img:Coin.png]\n\nEvade\n\n[img:SkillDefense.png] 58 (60-2) Atk Weight ⯀",
+        "coin_texts": []
+      }
+    }
+  ]
+}

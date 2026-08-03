@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10811",
+    "english_name": "Kurokumo Clan Captain Ishmael",
+    "sinner": "Ishmael",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 230,
+    "speed_by_uptie": {
+      "uptie_1": "3~4",
+      "uptie_2": "3~5",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 70,
+        "hp": 161
+      },
+      {
+        "percent": 40,
+        "hp": 92
+      },
+      {
+        "percent": 20,
+        "hp": 46
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1081101",
+      "name": {
+        "en": "Clean Up"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)\nDeal +10% damage for every type of negative effect on target (max 30%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [AttackDown]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1081101",
+      "name": {
+        "en": "Clean Up"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [AttackDown]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1081101",
+      "name": {
+        "en": "Clean Up"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [AttackDown]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1081101",
+      "name": {
+        "en": "Clean Up"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ishmael Icon.png]\n\n[img:Envy1BG.png]\n\n3 [img:Slash.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nClean Up\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\n[On Hit] Inflict 1 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Bleed.png] Bleed [img:Bleed.png] BleedThe next Y time(s) this unit tosses an attack skill Coin, take X fixed damage.\n[On Hit] Inflict 1 [img:Offense Level Down.png] Offense Level Down [img:Offense Level Down.png] Offense Level DownOffense Level -X for this turn.",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [AttackDown]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1081102",
+      "name": {
+        "en": "Sharpened Blade"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)\nDeal +10% damage for every type of negative effect on target (max 50%)</style>\n[StartBattle] On 2 other allied Kurokumo Clan Identities with the fastest Speed: apply 2 [AttackDmgUp] (once per turn)\n- If there are 6+ Kurokumo Clan units, including this unit, apply 4 [AttackDmgUp] to 5 allies instead",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttackHead] Inflict 1 [SlashTakeDamageUp] (once per turn)<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">- If there are 6+ Kurokumo Clan units, including this unit, inflict 2 [Vulnerable] instead</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Gain 1 [SlashResultUp] next turn (<style=\"highlight\">2 times</style> per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1081102",
+      "name": {
+        "en": "Sharpened Blade"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[StartBattle] On 2 other allied Kurokumo Clan Identities with the fastest Speed: apply <style=\"highlight\">2</style> [AttackDmgUp] (once per turn)\n- If there are 6+ Kurokumo Clan units, including this unit, apply <style=\"highlight\">3</style> [AttackDmgUp] to 5 allies instead",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [SlashTakeDamageUp] (once per turn)</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [SlashResultUp] next turn (once per turn)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1081102",
+      "name": {
+        "en": "Sharpened Blade"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">If target has 6+ [Laceration], Coin Power +1</style>\n[StartBattle] On 2 other allied Kurokumo Clan Identities with the fastest Speed: apply <style=\"highlight\">2</style> [AttackDmgUp] (once per turn)\n- If there are 6+ Kurokumo Clan units, including this unit, apply <style=\"highlight\">3</style> [AttackDmgUp] to 5 allies instead",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [SlashTakeDamageUp] (once per turn)</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] Gain 1 [SlashResultUp] next turn (once per turn)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1081102",
+      "name": {
+        "en": "Sharpened Blade"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[StartBattle] On 2 other allied Kurokumo Clan Identities with the fastest Speed: apply 1 [AttackDmgUp] (once per turn)\n- If there are 6+ Kurokumo Clan allies, including this unit, apply 2 [AttackDmgUp] to 5 allies instead",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1081103",
+      "name": {
+        "en": "Ink Over"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "<style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)\n[EnemyKill] Gain 2 [SlashResultUp] next turn (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">Deal +10% damage for every type of negative effect on target (max 100%)</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Activate [Laceration] on target 3 times; then, reduce their [Laceration] Count by 3<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1081103",
+      "name": {
+        "en": "Ink Over"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "If target has 6+ [Laceration], Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Activate [Laceration] on target 3 times; then, reduce their [Laceration] Count by 3"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1081104",
+      "name": {
+        "en": "Scattering Slash"
+      },
+      "affinity": "Lust",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain 1 [Protection] (once per turn)\n<style=\"highlight\">[StartBattle] On (2 + highest Reson.) allied Kurokumo Clan Identities, including this unit, with the fastest Speed: apply 2 [Endurance] (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1081104",
+      "name": {
+        "en": "Scattering Slash"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain 1 [Protection] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1081104",
+      "name": {
+        "en": "Scattering Slash"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain 1 [Protection] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1081104",
+      "name": {
+        "en": "Scattering Slash"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[StartBattle] Gain 1 [Protection] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1081102",
+        "name": {
+          "en": "Battle Ready"
+        },
+        "requirement": null,
+        "en": "When a Kurokumo Clan ally dies, gain 1 [SlashResultUp] for this Encounter\n\nWhen 3 or more Kurokumo Clan allies are defeated, gain [EngageToBattle] for this Encounter"
+      },
+      {
+        "source_passive_text_id": "1081101",
+        "name": {
+          "en": "Gathering Dark Clouds"
+        },
+        "requirement": null,
+        "en": "Combat Start: if there are 2+ allied Kurokumo Clan Identities in this Encounter, including this unit, gain 1 [BlackCloudBlade]\n\nCombat Start: apply 1 [BlackCloud] to Kurokumo Clan Identities adjacent to this unit on the Dashboard"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1081121",
+        "name": {
+          "en": "Cloud Workshop Blade"
+        },
+        "requirement": null,
+        "en": "1 ally with the fastest Speed inflicts +1 more [Laceration] Potency or Count with Skill and Coin effects against enemies"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Kurokumo Clan Captain Ishmael - Limbus Company Wiki.html"
+    }
+  }
+}

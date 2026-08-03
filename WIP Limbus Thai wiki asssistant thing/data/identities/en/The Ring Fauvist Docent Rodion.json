@@ -1,0 +1,1070 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10915",
+    "english_name": "The Ring Fauvist Docent Rodion",
+    "sinner": "Rodion",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 227,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~7",
+      "uptie_4": "4~7"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 60,
+        "hp": 136
+      },
+      {
+        "percent": 30,
+        "hp": 68
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 2.0,
+      "blunt": 0.5
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1091501",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 15%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n[WhenUse] <style=\"highlight\">Clash Power +1</style> and Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "<style=\"highlight\">If target has 4+ types of negative effect, Reuse this Coin (max once)</style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1091501",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 6,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1091501",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1091501",
+      "name": {
+        "en": "Vehement Overpainting"
+      },
+      "affinity": "Gloom",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1091502",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">Deal +20% damage for every type of negative effect on target (max 60%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">If target has 2+ types of Mauled Color, deal +20% damage</style>\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 2 types of negative effects on target (max 3)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If target has <style=\"highlight\">5</style>+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1091502",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+5",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1091502",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1091502",
+      "name": {
+        "en": "Expression of Primary Colors"
+      },
+      "affinity": "Envy",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] If target has 6+ types of negative effect, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091503",
+      "name": {
+        "en": "Le Fauvisme - Déchaînement Brutal"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "<style=\"highlight\">Deal +20% damage for every type of negative effect on target (max 60%)</style>\nIf target has [IntenseColorsRodion], deal +20% damage\n[BeforeUse] If target has 6+ types of negative effect, activate as \"Burst Forth the Pulsing Crimson under Your Skin\" (once per turn)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If target has 5+ types of negative effect, inflict 1 [BoldBrushstrokesRodion] next turn</style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BoldBrushstrokesRodion]<style=\"highlight\"></style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091503",
+      "name": {
+        "en": "Le Fauvisme - Déchaînement Brutal"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "If target has [IntenseColorsRodion], deal +20% damage\n[BeforeUse] If target has 6+ types of negative effect, activate as \"Burst Forth the Pulsing Crimson under Your Skin\" (once per turn)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1091505",
+      "name": {
+        "en": "Burst Forth the Pulsing Crimson under Your Skin"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WideAreaRampage]\n<style=\"highlight\">Deal +15% damage for every type of negative effect on target (max 90%)</style>\nIf target has [IntenseColorsRodion], deal +40% damage\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on the main target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "This Coin hits all targets of the attack"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 2 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1091505",
+      "name": {
+        "en": "Burst Forth the Pulsing Crimson under Your Skin"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[WideAreaRampage]\nIf target has [IntenseColorsRodion], deal +40% damage\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Sinking]) on the main target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "This Coin hits all targets of the attack"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Inflict 2 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1091504",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[BeforeUse] If this unit does not have [TestWaitDocentRodion] and if target has 3+ types of negative effect, activate as \"Critique\"\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">- If target does not have [BearClawWoundAlly], inflict 1 additional [BearClawWoundAlly]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">- If target does not have [EagleClawWoundAlly], inflict 1 additional [EagleClawWoundAlly]</style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1091504",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage\n<style=\"highlight\">[BeforeUse] If this unit does not have [TestWaitDocentRodion] and if target has 3+ types of negative effect, activate as \"Critique\"\n[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">- If target does not have [BearClawWoundAlly], inflict 1 additional [BearClawWoundAlly]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">- If target does not have [EagleClawWoundAlly], inflict 1 additional [EagleClawWoundAlly]</style>"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1091504",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1091504",
+      "name": {
+        "en": "Trimming the Medium"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[DuelCounter]\nIf target has [IntenseColorsRodion], deal +20% damage",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1091506",
+      "name": {
+        "en": "Critique"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[DuelCounter]\nDeal <style=\"highlight\">+10%</style> damage for every type of negative effect on target (max 40%)\nIf target has [IntenseColorsRodion], deal +30% damage\n[WhenUse] If target has [IntenseColorsRodion], gain 2 [ParryingResultUp]\n[WhenUse] If target has 4+ ([Laceration] + [Sinking]), Final Power +3\n<style=\"highlight\">[WhenUse] Clash Power +2 for every 2 types of negative effect on target (max 6)</style>\n[EndSkillAll] Gain 2 [TestWaitDocentRodion]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Reuse this Coin once for every 3 types of negative effect on target (max 2 times)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration] (once per Skill)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking] (once per Skill)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] If this Coin is the 3rd Coin used, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1091506",
+      "name": {
+        "en": "Critique"
+      },
+      "affinity": "Lust",
+      "damage_type": "blunt",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[DuelCounter]\nDeal +8% damage for every type of negative effect on target (max 40%)\nIf target has [IntenseColorsRodion], deal +30% damage\n[WhenUse] If target has [IntenseColorsRodion], gain 2 [ParryingResultUp]\n[WhenUse] If target has 4+ ([Laceration] + [Sinking]), Final Power +3\n[EndSkillAll] Gain 2 [TestWaitDocentRodion]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Reuse this Coin once for every 3 types of negative effect on target (max 2 times)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration] (once per Skill)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [Sinking] (once per Skill)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] If this Coin is the 3rd Coin used, inflict 1 [BoldBrushstrokesRodion]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1091502",
+        "name": {
+          "en": "Mentorship"
+        },
+        "requirement": null,
+        "en": "Turn Start: Gain [ThankyouDocentRodion] equal to the number of The Ring Student Identities on the field (once per Encounter)\n\nTurn Start: Randomly apply (# of The Ring Student Identities on the field) [AttackUp] or [DefenseUp] to any 2 of The Ring Student Identities (max 2, once per Encounter. Prioritizes The Ring Fauvist Students)"
+      },
+      {
+        "source_passive_text_id": "1091503",
+        "name": {
+          "en": "Le Fauvisme - Couleurs Sauvages"
+        },
+        "requirement": null,
+        "en": "Combat End: Inflict 1 [IntenseColorsRodion] next turn to enemies that have [BearClawWoundAlly], [EagleClawWoundAlly], and [BoldBrushstrokesRodion] simultaneously\n- If target has 3+/6+/9+ [BearClawWoundAlly] and [EagleClawWoundAlly] each, inflict 2/3/4 [IntenseColorsRodion] instead (amount inflicted is based on the effect that has the least Stack)\n\nTurn End: Gain 1 [FaubismWolfMaskRodion] if any 1 of the following conditions is met\n- Inflicted [IntenseColorsRodion] 3 times (counts as once per turn regardless of the number of times inflicted during combat)\n- Used \"Critique\" 2 times\n- Used \"Burst Forth the Pulsing Crimson under Your Skin\""
+      },
+      {
+        "source_passive_text_id": "1091501",
+        "name": {
+          "en": "Needs a Rougher Touch for this Part...!"
+        },
+        "requirement": null,
+        "en": "Inflict +1 more [BearClawWoundAlly], [EagleClawWoundAlly], and [BoldBrushstrokesRodion]"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1091521",
+        "name": {
+          "en": "Nice and Slow, Don't Let It Break..."
+        },
+        "requirement": null,
+        "en": "Apply the following effects to the Identity with the earliest Deployment order:\n- If Lust Reson. is of an odd number, inflict +1 more [Laceration] Potency\n- If Lust Reson. is of an even number, inflict +1 more [Sinking] Potency\n- If the said Identity is in The Ring faction, it gains 1 [AttackUp] or 1 [DefenseUp] at Combat Start"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\The Ring Fauvist Docent Rodion - Limbus Company Wiki.html"
+    }
+  }
+}

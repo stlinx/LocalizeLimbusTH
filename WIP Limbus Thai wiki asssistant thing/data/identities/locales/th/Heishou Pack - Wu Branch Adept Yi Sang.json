@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10114",
+  "english_name": "Heishou Pack - Wu Branch Adept Yi Sang",
+  "skills": [
+    {
+      "source_skill_text_id": "1011401",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "โค่นล้มและย่ำซ้ำ",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Burst] + ค่า [Vibration]) 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป (มีผล 2 ครั้ง/เทิร์น)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011401",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "โค่นล้มและย่ำซ้ำ",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Burst] + ค่า [Vibration]) 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011401",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "โค่นล้มและย่ำซ้ำ",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายมี (ค่า [Burst] + ค่า [Vibration]) 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011401",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "โค่นล้มและย่ำซ้ำ",
+      "description": "[WhenUse] หากเป้าหมายมี (ค่า [Burst] + ค่า [Vibration]) 5+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011402",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ง้าวจันทร์เสี้ยวจู่โจม [月刀擊]",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย:\n- แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n- หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า จะสร้างความเสียหายเพิ่มขึ้น +([BreakthroughHorse] ที่ตนเองมี x 20)% (สูงสุด 100%)\n\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายไม่มีพิธีมรณา จะสร้าง [ConcussionYisang] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] หากเป้าหมายมีพิธีมรณา จะสร้างค่า [Burst] 3 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011402",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ง้าวจันทร์เสี้ยวจู่โจม [月刀擊]",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายไม่มีพิธีมรณา จะสร้าง [ConcussionYisang] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011402",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ง้าวจันทร์เสี้ยวจู่โจม [月刀擊]",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายไม่มีพิธีมรณา จะสร้าง [ConcussionYisang] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011402",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ง้าวจันทร์เสี้ยวจู่โจม [月刀擊]",
+      "description": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับ [Agility] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011403",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "พลม้าศึกทัพหน้าโถมทะยาน",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย:\n• แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n• สร้างความเสียหายเพิ่มขึ้น +([BreakthroughHorse] ที่ตนเองมี x 20)% (สูงสุด 80%)\n\nสร้างความเสียหายเพิ่มขึ้น +(โล่ HP ที่ตนเองมี x 2)% (สูงสุด 50%)\n\n[BeforeUse] เมื่อมี [BreakthroughHorse] 5 หน่วย จะผลาญเอฟเฟกต์ดังกล่าวทั้งหมด และเปิดใช้งานสกิล 'กีบอาชาทมิฬตัดจันทร์เสี้ยว' แทน\n[WhenUse] ได้รับ [LegStrengthHorseYisang] 3 หน่วย\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี [BreakthroughHorse] 3+ หน่วย จะแปลงเหรียญทั้งหมดให้เป็น [SuperCoin]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "- หากมี [BreakthroughHorse] 3+ หน่วย จะสร้าง [Binding] เพิ่มเติม 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากมี [LegStrengthHorseYisang] 2+ หน่วย\nจะสร้าง [ConcussionYisang] 2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011403",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "พลม้าศึกทัพหน้าโถมทะยาน",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย:\n• แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n• สร้างความเสียหายเพิ่มขึ้น +([BreakthroughHorse] ที่ตนเองมี x 10)% (สูงสุด 40%)\n\nสร้างความเสียหายเพิ่มขึ้น +(โล่ HP ที่ตนเองมี x 2)% (สูงสุด 50%)\n\n[BeforeUse] เมื่อมี [BreakthroughHorse] 5 หน่วย จะผลาญเอฟเฟกต์ดังกล่าวทั้งหมด และเปิดใช้งานสกิล 'กีบอาชาทมิฬตัดจันทร์เสี้ยว' แทน\n[WhenUse] ได้รับ [LegStrengthHorseYisang] 3 หน่วย\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากมี [LegStrengthHorseYisang] 2+ หน่วย\nจะสร้าง [ConcussionYisang] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011405",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "กีบอาชาทมิฬตัดจันทร์เสี้ยว [黑風馬脚月斬]",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] มอบ [BattlefieldHorse] 1 หน่วยให้กับพันธมิตรคนอื่นทั้งหมดในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n[WhenUse] ได้รับ [LegStrengthHorseYisang] 3 หน่วย\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างความเสียหายเพิ่มขึ้น +50%\n[WinDuel] สร้าง [ConcussionYisang] 1 หน่วยแก่เป้าหมายหลัก",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [ConcussionYisang] 1 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        }
+      ],
+      "attack_weight": 3
+    },
+    {
+      "source_skill_text_id": "1011405",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "กีบอาชาทมิฬตัดจันทร์เสี้ยว [黑風馬脚月斬]",
+      "description": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] มอบ [BattlefieldHorse] 1 หน่วยให้กับพันธมิตรคนอื่นทั้งหมดในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)\n[WhenUse] ได้รับ [LegStrengthHorseYisang] 3 หน่วย\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม\nตามทุก ๆ (ค่า [Burst] + ค่า [Vibration]) 5 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WinDuel] หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย จะสร้างความเสียหายเพิ่มขึ้น +50%",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Burst] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Vibration] 4 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Burst] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [ConcussionYisang] 1 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
+        }
+      ],
+      "attack_weight": 3
+    },
+    {
+      "source_skill_text_id": "1011404",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "เตรียมตัวก่อนการโถม",
+      "description": "[CanDuelGuard]\n[StartBattle] ได้รับ [LegStrengthHorseYisang] 3 หน่วยในเทิร์นถัดไป\n[EndBattle] ล้างสถานะผิดปกติ 1 อย่างที่ตัวเองได้รับและสามารถล้างได้แบบสุ่ม (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011404",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "เตรียมตัวก่อนการโถม",
+      "description": "[CanDuelGuard] \n[StartBattle] ได้รับ [LegStrengthHorseYisang] 3 หน่วยในเทิร์นถัดไป",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011404",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "เตรียมตัวก่อนการโถม",
+      "description": "[CanDuelGuard] \n[StartBattle] ได้รับ [LegStrengthHorseYisang] 3 หน่วยในเทิร์นถัดไป",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1011404",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "เตรียมตัวก่อนการโถม",
+      "description": "[CanDuelGuard] \n[StartBattle] ได้รับ [LegStrengthHorseYisang] 3 หน่วยในเทิร์นถัดไป",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[SuperCoin]"
+        }
+      ],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1011402",
+        "name": "อาชาผู้ภักดีดังสุนัขล่าเนื้อ [狗馬之心]",
+        "description": "เมื่อเปิดใช้งาน [HeishouCombo] จะทำให้ 'นายเหนือหัวแห่งหงหยวน - หงลู่' ได้รับเอฟเฟกต์ดังต่อไปนี้ในฐานะเอฟเฟกต์ของ [HeishouComboCountHonglu]:\n- เมื่อเหรียญสุดท้ายของสกิลพื้นฐานโจมตีโดน จะทำให้เกิด [VibrationExplosion] หนึ่งครั้ง (มีผลเทิร์นละครั้ง)\n\nหาก 'ผู้ท้าชิงประมุขตระกูล - อิชมาเอล' เป็นตัวละครที่กำลังอยู่บนสนาม จะเปิดใช้งานเอฟเฟกต์ต่อไปนี้:\n- เมื่อ 'ผู้ท้าชิงประมุขตระกูล - อิชมาเอล' สร้างค่าหรือจำนวนครั้ง [Burst] ด้วยเอฟเฟกต์สกิลตนเอง ตัวละครดังกล่าวจะได้รับค่า [Breath] 3 หน่วย (มีผล 2 ครั้ง/เทิร์น; ไม่รวมสกิล E.G.O)\n- เริ่มเทิร์น: มอบ [Enhancement] 1 หน่วยให้กับ 'ผู้ท้าชิงประมุขตระกูล - อิชมาเอล' โดยหากอิชมาเอลมีค่า [Breath] 10+ หน่วย จะมอบ [Enhancement] ให้เพิ่มเติมอีก 1 หน่วย\n- หลังจากตัวละครนี้ใช้สกิล 'กีบอาชาทมิฬตัดจันทร์เสี้ยว' จะทำให้ 'ผู้ท้าชิงประมุขตระกูล - อิชมาเอล' ใช้สกิล 'วสันต์สีชาด' ในฐานะการโจมตีสนับสนุน (มีผลเทิร์นละครั้ง)"
+      },
+      {
+        "source_passive_text_id": "1011403",
+        "name": "ปรมาจารย์ทัพหน้า",
+        "description": "เมื่อมอบ [BattlefieldHorse] จะได้รับ [AttackUp] 3 หน่วยในเทิร์นนี้และเทิร์นถัดไป\n(หากตัวละครนี้ได้รับ [AttackUp] จากสกิลติดตัวนี้อยู่ก่อนแล้ว จะได้รับแค่สำหรับเทิร์นถัดไป)"
+      },
+      {
+        "source_passive_text_id": "1011401",
+        "name": "ผู้นำพาวายุทมิฬ [黑風馬脚]",
+        "description": "ได้รับ [BreakthroughHorse] 1 หน่วยเมื่อเกิดหนึ่งในเงื่อนไขดังต่อไปนี้:\n- เริ่มการโจมตี: เมื่อความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า\n- เมื่อตัวละครนี้ทำให้เกิด [VibrationExplosion] สองครั้งด้วยสกิลของตนเอง (รวมถึงสกิล E.G.O)\n- เมื่อตัวละครนี้แคลชชนะขณะที่มี [LegStrengthHorseYisang]\n※ สามารถรับ [BreakthroughHorse] ได้เพียง 3 หน่วย/เทิร์น; ไม่สามารถรับ [BreakthroughHorse] ด้วยสกิล \"กีบอาชาทมิฬตัดจันทร์เสี้ยว\" ได้"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1011421",
+        "name": "เกราะทมิฬนี้จักกระชากและปกปักษ์กายเนื้อข้า",
+        "description": "มอบเอฟเฟกต์ต่าง ๆ ต่อไปนี้ให้กับพันธมิตร 1 คนที่มี HP สูงที่สุด:\n- เริ่มการต่อสู้: ได้รับเลเวลตั้งรับ (ความต่างของค่าความเร็วตัวละครที่ได้รับผล ระหว่างเทิร์นนี้กับเทิร์นก่อนหน้า x 2) หน่วย (สูงสุด 5 หน่วย; หากตัวละครที่ได้รับผลไม่ใช่ตัวละครที่เข้าร่วมสนามในเทิร์นก่อน จะใช้ค่าความเร็วต่ำที่สุดมาคำนวณ)\n- เริ่มการต่อสู้: หากตัวละครที่ได้รับผลมี HP ต่ำกว่า 50% และความต่างของค่าความเร็วระหว่างเทิร์นนี้กับเทิร์นก่อนหน้าอยู่ที่ 3 หน่วยหรือมากกว่า จะฟื้นฟู HP 50 หน่วย (มีผล 1 ครั้ง/การเผชิญหน้า)"
+      }
+    ]
+  }
+}

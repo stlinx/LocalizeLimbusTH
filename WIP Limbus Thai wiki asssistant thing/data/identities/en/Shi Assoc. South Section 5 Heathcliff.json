@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10702",
+    "english_name": "Shi Assoc. South Section 5 Heathcliff",
+    "sinner": "Heathcliff",
+    "rarity": 2
+  },
+  "combat_stats": {
+    "hp": 251,
+    "speed_by_uptie": {
+      "uptie_1": "1~4",
+      "uptie_2": "1~5",
+      "uptie_3": "2~5",
+      "uptie_4": "2~5"
+    },
+    "defense_level": 61,
+    "stagger_thresholds": [
+      {
+        "percent": 80,
+        "hp": 201
+      },
+      {
+        "percent": 60,
+        "hp": 151
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 2.0,
+      "blunt": 1.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1070201",
+      "name": {
+        "en": "Extreme Edge"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 50% HP, Skill Power +2\n[WhenUse] Gain +3 [Breath] Count",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1070201",
+      "name": {
+        "en": "Extreme Edge"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +2 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1070201",
+      "name": {
+        "en": "Extreme Edge"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +2 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1070201",
+      "name": {
+        "en": "Extreme Edge"
+      },
+      "affinity": "Lust",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+6",
+      "coin_count": 1,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +1 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1070202",
+      "name": {
+        "en": "Flying Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 50% HP, +2 Skill Power\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1070202",
+      "name": {
+        "en": "Flying Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +2 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1070202",
+      "name": {
+        "en": "Flying Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +2 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1070202",
+      "name": {
+        "en": "Flying Sword"
+      },
+      "affinity": "Wrath",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +1 Skill Power",
+      "coin_texts": []
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1070203",
+      "name": {
+        "en": "Flashing Strike"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At 10+ [Breath] Count, Skill Power +2\nAt less than 50% HP, Atk Weight +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1070203",
+      "name": {
+        "en": "Flashing Strike"
+      },
+      "affinity": "Envy",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+6",
+      "coin_count": 2,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "At less than 25% HP, +2 Skill Power",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1070204",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "[WhenUse] Lose 5 HP\nAt 3+ [Breath] Count, Damage +50%",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1070204",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n8 [img:Slash.png] + 5\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1070204",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n8 [img:Slash.png] + 5\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1070204",
+      "name": {
+        "en": "Counter"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 8,
+      "coin_power": "+5",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 61,
+        "base": 60,
+        "correction": 1
+      },
+      "english_description": "Icon.png]\n\n[img:Wrath1BG.png]\n\n8 [img:Slash.png] + 5\n\n[img:Coin.png]\n\nCounter\n\n[img:SkillAttack.png] 61 (60+1) Atk Weight ⯀",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1070201",
+        "name": {
+          "en": "Respiration"
+        },
+        "requirement": null,
+        "en": "After taking damage from attacks this turn, deal +10% damage."
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1070221",
+        "name": {
+          "en": "Self-neglect"
+        },
+        "requirement": null,
+        "en": "1 ally with the least HP deals and takes +20% damage."
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Shi Assoc. South Section 5 Heathcliff - Limbus Company Wiki.html"
+    }
+  }
+}

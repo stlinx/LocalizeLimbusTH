@@ -1,0 +1,1045 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10414",
+    "english_name": "Lobotomy E.G.O::Faint Aroma & Solitude Ryōshū",
+    "sinner": "Ryōshū",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 205,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "3~7",
+      "uptie_4": "3~7"
+    },
+    "defense_level": 60,
+    "stagger_thresholds": [
+      {
+        "percent": 65,
+        "hp": 133
+      },
+      {
+        "percent": 35,
+        "hp": 72
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 1.0,
+      "pierce": 0.5,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041401",
+      "name": {
+        "en": "Bang. Bang."
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041401",
+      "name": {
+        "en": "Bang. Bang."
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041401",
+      "name": {
+        "en": "Bang. Bang."
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041401",
+      "name": {
+        "en": "Bang. Bang."
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Sloth1BG.png]\n\n3 [img:Pierce.png] + 3\n\n[img:Coin.png] [img:Coin.png]\n\nBang. Bang.\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x3\n\n[img:CoinEffect1.png]\nSpend 1 [img:Bullet - Solitude.png] Bullet - Solitude [img:Bullet - Solitude.png] Bullet - Solitude- Unique Ammo\n- Max Capacity: 6\nSpent by certain Skills\n\n- This Ammo's count cannot be gained or lost due to external effects\n[On Hit] Inflict +2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count\n\n[img:CoinEffect2.png]\nSpend 1 [img:Bullet - Solitude.png] Bullet - Solitude [img:Bullet - Solitude.png] Bullet - Solitude- Unique Ammo\n- Max Capacity: 6\nSpent by certain Skills\n\n- This Ammo's count cannot be gained or lost due to external effects\n[On Hit] Inflict 2 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s).",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1041405",
+      "name": {
+        "en": "Stories that Never Cease"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+1",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\n[WideAreaRampage]\nWhen this Skill inflicts [GodokPanicType], if the target already has [GodokPanicType] this turn, or will be inflicted with [GodokPanicType] next turn, trigger [VibrationExplosion] instead; then, reduce target's [Vibration] Count by 1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1041405",
+      "name": {
+        "en": "Stories that Never Cease"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+1",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\n[WideAreaRampage]\nWhen this Skill inflicts [GodokPanicType], if the target already has [GodokPanicType] this turn, or will be inflicted with [GodokPanicType] next turn, trigger [VibrationExplosion] instead; then, reduce target's [Vibration] Count by 1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1041405",
+      "name": {
+        "en": "Stories that Never Cease"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+1",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\n[WideAreaRampage]\nWhen this Skill inflicts [GodokPanicType], if the target already has [GodokPanicType] this turn, or will be inflicted with [GodokPanicType] next turn, trigger [VibrationExplosion] instead; then, reduce target's [Vibration] Count by 1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1041405",
+      "name": {
+        "en": "Stories that Never Cease"
+      },
+      "affinity": "Sloth",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 9,
+      "coin_power": "+1",
+      "coin_count": 3,
+      "deck_count": 3,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\n[WideAreaRampage]\nWhen this Skill inflicts [GodokPanicType], if the target already has [GodokPanicType] this turn, or will be inflicted with [GodokPanicType] next turn, trigger [VibrationExplosion] instead; then, reduce target's [Vibration] Count by 1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1041402",
+      "name": {
+        "en": "Blossoming Fragrance in the Void"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)\n[WhenUse] Deal +1% damage for every [AlriuneEGOThey] on target",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1041402",
+      "name": {
+        "en": "Blossoming Fragrance in the Void"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 4,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1041402",
+      "name": {
+        "en": "Blossoming Fragrance in the Void"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 3 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1041402",
+      "name": {
+        "en": "Blossoming Fragrance in the Void"
+      },
+      "affinity": "Envy",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "Ryōshū Icon.png]\n\n[img:Envy2BG.png]\n\n3 [img:Pierce.png] + 4\n\n[img:Coin.png] [img:Coin.png] [img:Coin.png]\n\nBlossoming Fragrance in the Void\n\n[img:SkillAttack.png] 62 (60+2) Atk Weight ⯀\nAmt. x2\n\n[img:CoinEffect1.png]\nSpend 1 [img:Bullet - Solitude.png] Bullet - Solitude [img:Bullet - Solitude.png] Bullet - Solitude- Unique Ammo\n- Max Capacity: 6\nSpent by certain Skills\n\n- This Ammo's count cannot be gained or lost due to external effects\n[On Hit] Inflict +2 [img:Sinking.png] Sinking [img:Sinking.png] SinkingThe next Y time(s) the unit is hit, take X fixed SP damage. (Non-SP Units take Gloom damage.) Count\n\n[img:CoinEffect2.png]\n[On Hit] Inflict 2 [img:Faint Aroma.png] Faint Aroma [img:Faint Aroma.png] Faint Aroma- Max Stack: 30\n- Gain 1 Stack if this unit takes Sinking damage\n- Upon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies (for Abnormalities, the Part)\n- At max Stack, gain 2 Tremor and trigger Tremor Burst on self; then, take Gloom damage equal to Sinking on self and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn.\n- If this unit is killed, inflict (remaining Faint Aroma on this unit / 2) Faint Aroma randomly between this unit's allies (rounded down)\n[On Hit] Inflict +1 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count\n\n[img:CoinEffect3.png]\n[On Hit] Inflict 2 [img:Faint Aroma.png] Faint Aroma [img:Faint Aroma.png] Faint Aroma- Max Stack: 30\n- Gain 1 Stack if this unit takes Sinking damage\n- Upon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies (for Abnormalities, the Part)\n- At max Stack, gain 2 Tremor and trigger Tremor Burst on self; then, take Gloom damage equal to Sinking on self and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn.\n- If this unit is killed, inflict (remaining Faint Aroma on this unit / 2) Faint Aroma randomly between this unit's allies (rounded down)\n[On Hit] Inflict +1 [img:Tremor.png] Tremor [img:Tremor.png] TremorWhen hit by attacks that trigger Tremor Burst, raise the Stagger Threshold by X. Lasts Y turn(s). Count",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "Spend 1 [BulletGodok]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041403",
+      "name": {
+        "en": "Full Bloom"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)\n[WhenUse] Deal +1% damage for every [AlriuneEGOThey] on target",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Deal Gloom damage equal to [Sinking] on target"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041403",
+      "name": {
+        "en": "Full Bloom"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] If target has 6+ ([Vibration] + [Sinking]), Coin Power +1",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 4 [Sinking]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 2 [Vibration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1041406",
+      "name": {
+        "en": "Magnificent End"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 12,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nDeal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\n[WhenUse] Final Power +1 for every 5 (sum of [AlriuneEGOThey] on all targets) (max 6)\n\n[EndSkill] Lose all [AlriuneEGOWe] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 5 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Deal Gloom damage equal to [Sinking] on target"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1041406",
+      "name": {
+        "en": "Magnificent End"
+      },
+      "affinity": "Gloom",
+      "damage_type": "pierce",
+      "skill_type": "attack",
+      "base_power": 12,
+      "coin_power": "+7",
+      "coin_count": 1,
+      "deck_count": 1,
+      "attack_weight": 3,
+      "offense_level": {
+        "total": 65,
+        "base": 60,
+        "correction": 5
+      },
+      "english_description": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nDeal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\n[WhenUse] Final Power +1 for every 5 (sum of [AlriuneEGOThey] on all targets) (max 6)\n\n[EndSkill] Lose all [AlriuneEGOWe] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 5 [AlriuneEGOThey]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 3 [Sinking]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 3 [Vibration]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "en": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "en": "[OnSucceedAttack] Deal Gloom damage equal to [Sinking] on target"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1041404",
+      "name": {
+        "en": "A.A.T."
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[EndBattle] Gain 10 [AlriuneEGOWe] (once per turn)\n[EndBattle] Gain 2 [Vulnerable] and 2 [Enhancement] next turn (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1041404",
+      "name": {
+        "en": "A.A.T."
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[EndBattle] Gain 10 [AlriuneEGOWe] (once per turn)\n[EndBattle] Gain 2 [Vulnerable] and 2 [Enhancement] next turn (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1041404",
+      "name": {
+        "en": "A.A.T."
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[EndBattle] Gain 10 [AlriuneEGOWe] (once per turn)\n[EndBattle] Gain 2 [Vulnerable] and 2 [Enhancement] next turn (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1041404",
+      "name": {
+        "en": "A.A.T."
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+10",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 1,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[EndBattle] Gain 10 [AlriuneEGOWe] (once per turn)\n[EndBattle] Gain 2 [Vulnerable] and 2 [Enhancement] next turn (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": null
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1041402",
+        "name": {
+          "en": "A Void that Cannot be Filled"
+        },
+        "requirement": null,
+        "en": "Always Active: Begin Encounters with 6 [BulletGodok]\n\nAt 1+ [BulletGodok], if the enemy has less than -40 SP or is Staggered at this unit or an ally's Attack End, use 'Bang. Bang.' as an Unopposed Attack (once per turn)\n\nAttack End: At 0 [BulletGodok], use 'Stories that Never Cease' as an Unopposed Attack against the target and consume 10 SP to [FullReload]"
+      },
+      {
+        "source_passive_text_id": "1041401",
+        "name": {
+          "en": "Unwithering Flower"
+        },
+        "requirement": null,
+        "en": "Gain 1 [AlriuneEGOWe] if the enemy takes [Sinking] damage\nGain [AlriuneEGOWe] equal to [AlriuneEGOThey] inflicted every time enemies gain [AlriuneEGOThey]\nGain 2 [AlriuneEGOWe] every time Tremor Burst is triggered regardless of the unit"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1041421",
+        "name": {
+          "en": "Spring's Genesis"
+        },
+        "requirement": null,
+        "en": "When the ally with the fastest Speed hits an enemy using a Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking', inflict 2 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per turn)"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\Lobotomy E.G.O_Faint Aroma & Solitude Ryōshū - Limbus Company Wiki.html"
+    }
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10415",
+  "english_name": "Blade of the House of Spiders Ryōshū",
+  "skills": [
+    {
+      "source_skill_text_id": "1041501",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "สับสามหน [三連]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041501",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "สับสามหน [三連]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041501",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "สับสามหน [三連]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041501",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "สับสามหน [三連]",
+      "description": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041505",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "สังหารฟ้า - เทียนชา [天殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\nขณะใช้งานสกิลนี้ จะปิดการทำงานของ \"ปัจจัยเสียสติพื้นฐาน\" ของพันธมิตรทั้งหมด\n[WhenUse] ในการเผชิญหน้านี้ การโจมตีต่าง ๆ ของตัวละครนี้จะเสียเลเวลจู่โจม -1 หน่วย และมีแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม (ทับซ้อนได้ 4 ครั้ง/การเผชิญหน้า)\n[EnemyKill] ฟื้นฟู SP 20 หน่วย\n[EnemyKill] ได้รับ [RyoshuEGOPF] เท่ากับปริมาณความเสียหายที่สกิลนี้สร้าง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 20 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตรจาก <บ้านแห่งแมงมุม> จะสร้างความเสียหาย HP ตายตัวเท่ากับ 120%"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041505",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "สังหารฟ้า - เทียนชา [天殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\nขณะใช้งานสกิลนี้ จะปิดการทำงานของ \"ปัจจัยเสียสติพื้นฐาน\" ของพันธมิตรทั้งหมด\n[WhenUse] ในการเผชิญหน้านี้ การโจมตีต่าง ๆ ของตัวละครนี้จะเสียเลเวลจู่โจม -1 หน่วย และมีแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม (ทับซ้อนได้ 4 ครั้ง/การเผชิญหน้า)\n[EnemyKill] ฟื้นฟู SP 20 หน่วย\n[EnemyKill] ได้รับ [RyoshuEGOPF] เท่ากับปริมาณความเสียหายที่สกิลนี้สร้าง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 20 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตรจาก <บ้านแห่งแมงมุม> จะสร้างความเสียหาย HP ตายตัวเท่ากับ 120%"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041505",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "สังหารฟ้า - เทียนชา [天殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\nขณะใช้งานสกิลนี้ จะปิดการทำงานของ \"ปัจจัยเสียสติพื้นฐาน\" ของพันธมิตรทั้งหมด\n[WhenUse] ในการเผชิญหน้านี้ การโจมตีต่าง ๆ ของตัวละครนี้จะเสียเลเวลจู่โจม -1 หน่วย และมีแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม (ทับซ้อนได้ 4 ครั้ง/การเผชิญหน้า)\n[EnemyKill] ฟื้นฟู SP 20 หน่วย\n[EnemyKill] ได้รับ [RyoshuEGOPF] เท่ากับปริมาณความเสียหายที่สกิลนี้สร้าง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 20 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตรจาก <บ้านแห่งแมงมุม> จะสร้างความเสียหาย HP ตายตัวเท่ากับ 120%"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041505",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "สังหารฟ้า - เทียนชา [天殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\nขณะใช้งานสกิลนี้ จะปิดการทำงานของ \"ปัจจัยเสียสติพื้นฐาน\" ของพันธมิตรทั้งหมด\n[WhenUse] ในการเผชิญหน้านี้ การโจมตีต่าง ๆ ของตัวละครนี้จะเสียเลเวลจู่โจม -1 หน่วย และมีแต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม (ทับซ้อนได้ 4 ครั้ง/การเผชิญหน้า)\n[EnemyKill] ฟื้นฟู SP 20 หน่วย\n[EnemyKill] ได้รับ [RyoshuEGOPF] เท่ากับปริมาณความเสียหายที่สกิลนี้สร้าง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 20 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตรจาก <บ้านแห่งแมงมุม> จะสร้างความเสียหาย HP ตายตัวเท่ากับ 120%"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041502",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "สับสามหน - เฉือนเสียงก้อง [三連 - 殘]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041502",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "สับสามหน - เฉือนเสียงก้อง [三連 - 殘]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041502",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "สับสามหน - เฉือนเสียงก้อง [三連 - 殘]",
+      "description": "[WhenUse] เมื่อมีค่า [Breath] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041502",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "สับสามหน - เฉือนเสียงก้อง [三連 - 殘]",
+      "description": "[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับค่า [Breath] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041506",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ปลายทางมิอาจเลี่ยง [必然殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย\n[BeforeAttack] หากสกิลนี้ถูกใช้งานเนื่องจากสกิล 3\n- เพิ่มน้ำหนักการโจมตีของสกิลนี้ให้เท่ากับจำนวนศัตรูที่มี [SojiRyoshuEchoFuture] (อย่างน้อย 1 ช่อง)\n- เน้นโจมตีเหล่าศัตรูที่มี [SojiRyoshuEchoFuture] เป็นหลัก\n[EndSkill] [SojiRyoshuEchoFuture] บนตัวเป้าหมายหมดลง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[OnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้าง [SlashTakeDamageUp] 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041506",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ปลายทางมิอาจเลี่ยง [必然殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย\n[BeforeAttack] หากสกิลนี้ถูกใช้งานเนื่องจากสกิล 3\n- เพิ่มน้ำหนักการโจมตีของสกิลนี้ให้เท่ากับจำนวนศัตรูที่มี [SojiRyoshuEchoFuture] (อย่างน้อย 1 ช่อง)\n- เน้นโจมตีเหล่าศัตรูที่มี [SojiRyoshuEchoFuture] เป็นหลัก\n[EndSkill] [SojiRyoshuEchoFuture] บนตัวเป้าหมายหมดลง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[OnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้าง [SlashTakeDamageUp] 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041506",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ปลายทางมิอาจเลี่ยง [必然殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย\n[BeforeAttack] หากสกิลนี้ถูกใช้งานเนื่องจากสกิล 3\n- เพิ่มน้ำหนักการโจมตีของสกิลนี้ให้เท่ากับจำนวนศัตรูที่มี [SojiRyoshuEchoFuture] (อย่างน้อย 1 ช่อง)\n- เน้นโจมตีเหล่าศัตรูที่มี [SojiRyoshuEchoFuture] เป็นหลัก\n[EndSkill] [SojiRyoshuEchoFuture] บนตัวเป้าหมายหมดลง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[OnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้าง [SlashTakeDamageUp] 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041506",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ปลายทางมิอาจเลี่ยง [必然殺]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับทำงาน และเอฟเฟกต์ภายนอกจะไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +1 หน่วย\n[BeforeAttack] หากสกิลนี้ถูกใช้งานเนื่องจากสกิล 3\n- เพิ่มน้ำหนักการโจมตีของสกิลนี้ให้เท่ากับจำนวนศัตรูที่มี [SojiRyoshuEchoFuture] (อย่างน้อย 1 ช่อง)\n- เน้นโจมตีเหล่าศัตรูที่มี [SojiRyoshuEchoFuture] เป็นหลัก\n[EndSkill] [SojiRyoshuEchoFuture] บนตัวเป้าหมายหมดลง",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้าง [PhantomIncisionID] เท่ากับปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี (สูงสุด 4 หน่วย)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[OnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] สร้าง [SlashTakeDamageUp] 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041503",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "ฉีกพื้นที่ [空間斬]",
+      "description": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] 4 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)\n[WhenUse] แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Combustion] + ค่า [Laceration]) 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 5 แต้ม)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WhenUse] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ปริมาณ [SojiRyoshuEchoPast] 2 หน่วยที่ตนเองมี (สูงสุด 2 ช่อง)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +30% ตามทุก ๆ น้ำหนักการโจมตีที่เกินกว่าปริมาณเป้าหมายจริง (ในการเผชิญหน้าเพ่งเล็ง จะนับจากอวัยวะ)\n[EndSkill] สุ่มสร้าง [PhantomIncisionID] (ปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี + 10) หน่วยระหว่างเป้าหมายที่ถูกโจมตีด้วยสกิลนี้",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +50%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 4)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041503",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "ฉีกพื้นที่ [空間斬]",
+      "description": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Breath] 4 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WhenUse] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ปริมาณ [SojiRyoshuEchoPast] 2 หน่วยที่ตนเองมี (สูงสุด 2 ช่อง)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +15% ตามทุก ๆ น้ำหนักการโจมตีที่เกินกว่าปริมาณเป้าหมายจริง (ในการเผชิญหน้าเพ่งเล็ง จะนับจากอวัยวะ)\n[EndSkill] สุ่มสร้าง [PhantomIncisionID] (ปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี + 10) หน่วยระหว่างเป้าหมายที่ถูกโจมตีด้วยสกิลนี้",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 3 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 6,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟัน เท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041507",
+      "slot": "skill_3",
+      "uptie": 1,
+      "name": "ฉีกพื้นที่ - เฉือนเสียงก้อง [空間斬 - 殘]",
+      "description": "[WhenUse] แต้มเริ่มต้นสกิลของสกิลนี้ลดลง -1 แต้ม และใช้เหรียญที่ 1 เพิ่มเติมอีกครั้งก่อนใช้งานเหรียญที่ 2 ตามทุก ๆ ปริมาณ [SojiRyoshuEntangle] ที่ตนเองมี\n[WhenUse] เหรียญสุดท้ายมีแต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมี\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +50% ตามทุก ๆ น้ำหนักการโจมตีที่เกินกว่าปริมาณเป้าหมายจริง (ในการเผชิญหน้าเพ่งเล็ง จะนับจากอวัยวะ)\n[EndSkill] เพิ่มเพดานปริมาณต่ำสุดและสูงสุดของเอฟเฟกต์ [SojiRyoshuEchoPast] ขึ้นอย่างละ 1 หน่วย และรีเซ็ตปริมาณ [SojiRyoshuEchoPast] ที่ตนเองมีกลับเป็นปริมาณต่ำสุด (มีผลสูงสุด 2 ครั้ง/การเผชิญหน้า)\n[EndSkill] ผลาญ [PhantomIncisionTotalID] 50 หน่วย",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายคริติคอลเพิ่มขึ้น +30%"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ผลาญ [PhantomIncisionID] ทั้งหมดบนตัวเป้าหมาย และสร้างความเสียหายประเภทฟันเท่ากับ (ปริมาณ [PhantomIncisionID] ที่ผลาญ / 10)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "text": "[CriticalOnSucceedAttack] สร้างความเสียหายประเภทฟันเท่ากับ (ปริมาณ [SojiRyoshuEchoPast] x 4)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 4,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 5,
+          "text": "[CriticalOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041508",
+      "slot": "skill_3",
+      "uptie": 1,
+      "name": "ฉีกพื้นที่ - สายใยเชื่อม [空間斬-緣]",
+      "description": "[CantDuel]\nสกิลนี้จะไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\n[WhenUse] ได้รับค่า [Breath] 5 หน่วย\n[WhenUse] ได้รับ [SojiRyoshuShin]\n[EndSkill] ล้างเกจชะงักเกจแรกของตัวละครนี้ (มีผล 1 ครั้ง/การเผชิญหน้า)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Combustion] 5 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้ [Combustion] บนตัวเป้าหมายทำงาน; จากนั้นลดจำนวนครั้ง [Combustion] บนตัวเป้าหมายลง 1 หน่วย"
+        }
+      ]
+    },
+    {
+      "source_skill_text_id": "1041504",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "ก้าวย่างลวง [殘像步]",
+      "description": "[StartBattle] เล็งพันธมิตรจาก <บ้านแห่งแมงมุม> 1 คนที่วางทัพเป็นลำดับท้ายสุด (มีผล 2 ครั้ง/เทิร์น)\n- เมื่อมี [SojiRyoshuEntangle] 1+ หน่วย จะเล็งพันธมิตรเพิ่มเติมอีก 1 คน\n- หลังจากที่เป้าหมายใช้งานสกิลทั้งหมดที่สวมใส่ไว้ในเทิร์นนี้แล้ว หรือหากเป้าหมายติดชะงัก หรือหากเป้าหมายไม่เหลือสกิลอื่นใดที่สามารถใช้งานได้แล้ว จะใช้สกิล \"สังหารฟ้า - เทียนชา\" เพื่อโจมตีโดยตรงใส่เป้าหมาย (มีผล 1 ครั้ง/ตัวตน)\n- 'บ้านแห่งแมงมุม: ลูกศิษย์นิ้วก้อย - ซินแคลร์' จะถูกเล็งเป็นคนสุดท้าย\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +3 หน่วย (มีผลเทิร์นละครั้ง)\n[OnSucceedEvade] ได้รับค่า [Breath] 1 หน่วย (มีผล 3 ครั้ง/เทิร์น)",
+      "coin_texts": []
+    },
+    {
+      "source_skill_text_id": "1041504",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "ก้าวย่างลวง [殘像步]",
+      "description": "[StartBattle] เล็งพันธมิตรจาก <บ้านแห่งแมงมุม> 1 คนที่วางทัพเป็นลำดับท้ายสุด (มีผล 2 ครั้ง/เทิร์น)\n- เมื่อมี [SojiRyoshuEntangle] 1+ หน่วย จะเล็งพันธมิตรเพิ่มเติมอีก 1 คน\n- หลังจากที่เป้าหมายใช้งานสกิลทั้งหมดที่สวมใส่ไว้ในเทิร์นนี้แล้ว หรือหากเป้าหมายติดชะงัก หรือหากเป้าหมายไม่เหลือสกิลอื่นใดที่สามารถใช้งานได้แล้ว จะใช้สกิล \"สังหารฟ้า - เทียนชา\" เพื่อโจมตีโดยตรงใส่เป้าหมาย (มีผล 1 ครั้ง/ตัวตน)\n- 'บ้านแห่งแมงมุม: ลูกศิษย์นิ้วก้อย - ซินแคลร์' จะถูกเล็งเป็นคนสุดท้าย\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": []
+    },
+    {
+      "source_skill_text_id": "1041504",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "ก้าวย่างลวง [殘像步]",
+      "description": "[StartBattle] เล็งพันธมิตรจาก <บ้านแห่งแมงมุม> 1 คนที่วางทัพเป็นลำดับท้ายสุด (มีผล 2 ครั้ง/เทิร์น)\n- เมื่อมี [SojiRyoshuEntangle] 1+ หน่วย จะเล็งพันธมิตรเพิ่มเติมอีก 1 คน\n- หลังจากที่เป้าหมายใช้งานสกิลทั้งหมดที่สวมใส่ไว้ในเทิร์นนี้แล้ว หรือหากเป้าหมายติดชะงัก หรือหากเป้าหมายไม่เหลือสกิลอื่นใดที่สามารถใช้งานได้แล้ว จะใช้สกิล \"สังหารฟ้า - เทียนชา\" เพื่อโจมตีโดยตรงใส่เป้าหมาย (มีผล 1 ครั้ง/ตัวตน)\n- 'บ้านแห่งแมงมุม: ลูกศิษย์นิ้วก้อย - ซินแคลร์' จะถูกเล็งเป็นคนสุดท้าย\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": []
+    },
+    {
+      "source_skill_text_id": "1041504",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "ก้าวย่างลวง [殘像步]",
+      "description": "[StartBattle] เล็งพันธมิตรจาก <บ้านแห่งแมงมุม> 1 คนที่วางทัพเป็นลำดับท้ายสุด (มีผล 2 ครั้ง/เทิร์น)\n- เมื่อมี [SojiRyoshuEntangle] 1+ หน่วย จะเล็งพันธมิตรเพิ่มเติมอีก 1 คน\n- หลังจากที่เป้าหมายใช้งานสกิลทั้งหมดที่สวมใส่ไว้ในเทิร์นนี้แล้ว หรือหากเป้าหมายติดชะงัก หรือหากเป้าหมายไม่เหลือสกิลอื่นใดที่สามารถใช้งานได้แล้ว จะใช้สกิล \"สังหารฟ้า - เทียนชา\" เพื่อโจมตีโดยตรงใส่เป้าหมาย (มีผล 1 ครั้ง/ตัวตน)\n- 'บ้านแห่งแมงมุม: ลูกศิษย์นิ้วก้อย - ซินแคลร์' จะถูกเล็งเป็นคนสุดท้าย\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": []
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": null,
+        "name": null,
+        "description": null
+      },
+      {
+        "source_passive_text_id": "1041504",
+        "name": "ภาพติดตาของพื้นที่เวลาพังทลายลง",
+        "description": "เริ่มเทิร์น: สร้าง [SojiRyoshuEchoFuture] แก่ศัตรูหนึ่งตัวแบบสุ่ม (สำหรับสิ่งผิดปกติ จะมีผลกับแกนหลัก)\n- สร้าง [SojiRyoshuEchoFuture] แก่ศัตรูเพิ่มเติมอีก 1 ตัวแบบสุ่ม ตามทุก ๆ ตัวตนพันธมิตรจาก <บ้านแห่งแมงมุม> 3 คนที่ถูกกำจัดไป (สูงสุด 3 ตัว)\n- เริ่มการต่อสู้: หากศัตรูที่มี [SojiRyoshuEchoFuture] เป็นเป้าหมายหลักของสกิลโจมตีพื้นฐานของตัวละครนี้ จะใช้สกิล \"ปลายทางมิอาจเลี่ยง\" เพื่อโจมตีโดยตรงก่อนใช้สกิลโจมตีพื้นฐานดังกล่าว (มีผลเทิร์นละครั้ง)\n- เมื่อใช้สกิลโจมตีใส่เป้าหมายที่มี [SojiRyoshuEchoFuture]:\n · แปลงเหรียญทั้งหมดของสกิลดังกล่าวให้เป็น [SuperCoin] และทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n · ได้รับ [SojiRyoshuEchoPast] 1 หน่วย (มีผลเทิร์นละครั้ง)"
+      },
+      {
+        "source_passive_text_id": "1041503",
+        "name": "ดาวตี้ฮุ่ย [地慧星]",
+        "description": "เมื่อมี [PhantomIncisionTotalID] 50+ หน่วย จะเปิดใช้งานสกิล \"ฉีกพื้นที่ - สายใยเชื่อม\" ใส่ศัตรูหนึ่งตัวแบบสุ่มในตอนท้ายสุดของเทิร์นดังกล่าว (มีผล 1 ครั้ง/การเผชิญหน้า)\n- หลังจากใช้งานสกิล \"ฉีกพื้นที่ - สายใยเชื่อม\" ด้วยเอฟเฟกต์นี้แล้ว จะมอบเอฟเฟกต์ดังต่อไปนี้ให้ตนเอง:\n· ไม่สามารถถอยทัพได้อีกตลอดการเผชิญหน้านี้\n· จบเทิร์น: เมื่อมี [PhantomIncisionTotalID] 50+ หน่วย จะแทนที่สกิลพื้นฐานหนึ่งสกิลด้วยสกิล \"ฉีกพื้นที่ - เฉือนเสียงก้อง\" เมื่อเริ่มเทิร์นถัดไป (ให้ความสำคัญกับสกิลที่อยู่แถวล่างของช่องสกิลซ้ายสุดบนกระดานสกิลเป็นหลัก)"
+      },
+      {
+        "source_passive_text_id": "1041501",
+        "name": "ภาพตกค้างสั่นก้อง",
+        "description": "สกิลโจมตีพื้นฐานสร้างความเสียหายคริติคอลเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Breath] ของตัวเอง 1 หน่วยที่เกินค่า [Breath] 20 หน่วยมา (สูงสุด 10%)\n\nเมื่อสกิลโจมตีพื้นฐานโจมตีติดคริติคอล จะสร้าง [PhantomIncisionID] 1 หน่วย\n\nสกิลติดตัวของ E.G.O 'ตรีสหัสมหาโลกธาตุ - เรียวชู' จะยังสามารถทำงานได้ แม้สกิลโจมตีของตนเองจะเล็งพันธมิตรเป็นเป้าหมาย"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1041521",
+        "name": "การสั่งสอนของนายท่าน [師事]",
+        "description": "เมื่อพันธมิตรที่วางทัพเป็นลำดับแรกสุดใช้สกิลพื้นฐาน จะทำให้พันธมิตรคนดังกล่าวได้รับค่า [Breath] 2 หน่วย (มีผล 3 ครั้ง/เทิร์น)"
+      }
+    ]
+  }
+}

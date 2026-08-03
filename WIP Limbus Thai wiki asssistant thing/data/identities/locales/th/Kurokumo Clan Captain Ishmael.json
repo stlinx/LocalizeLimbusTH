@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity_locale",
+  "identity_id": "10811",
+  "english_name": "Kurokumo Clan Captain Ishmael",
+  "skills": [
+    {
+      "source_skill_text_id": "1081101",
+      "slot": "skill_1",
+      "uptie": 4,
+      "name": "ทำความสะอาด",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 30%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [AttackDown] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081101",
+      "slot": "skill_1",
+      "uptie": 3,
+      "name": "ทำความสะอาด",
+      "description": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [AttackDown] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081101",
+      "slot": "skill_1",
+      "uptie": 2,
+      "name": "ทำความสะอาด",
+      "description": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [AttackDown] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081101",
+      "slot": "skill_1",
+      "uptie": 1,
+      "name": "ทำความสะอาด",
+      "description": null,
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] สร้าง [AttackDown] 1 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081102",
+      "slot": "skill_2",
+      "uptie": 4,
+      "name": "ดาบลับคม",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\nสร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 50%)\n[StartBattle] มีผลกับพันธมิตรแก๊งคุโระคุโมะคนอื่น 2 คนที่มีความเร็วสูงที่สุด: มอบ [AttackDmgUp] 2 หน่วย (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรคุโระคุโมะ (รวมตัวละครนี้) อยู่ 6+ คน จะมอบ [AttackDmgUp] 4 หน่วยให้พันธมิตร 5 คนแทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttackHead] สร้าง [SlashTakeDamageUp] 1 หน่วย (มีผลเทิร์นละครั้ง)"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 3,
+          "text": "- หากมีพันธมิตรคุโระคุโมะ (รวมตัวละครนี้) อยู่ 6+ คน จะสร้าง [Vulnerable] 2 หน่วยแทน"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ได้รับ [SlashResultUp] 1 หน่วยในเทิร์นถัดไป (มีผล 2 ครั้ง/เทิร์น)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081102",
+      "slot": "skill_2",
+      "uptie": 3,
+      "name": "ดาบลับคม",
+      "description": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] มีผลกับพันธมิตรแก๊งคุโระคุโมะคนอื่น 2 คนที่มีความเร็วสูงที่สุด: มอบ [AttackDmgUp] 2 หน่วย (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรคุโระคุโมะ (รวมตัวละครนี้) อยู่ 6+ คน จะมอบ [AttackDmgUp] 3 หน่วยให้พันธมิตร 5 คนแทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttackHead] สร้าง [SlashTakeDamageUp] 1 หน่วย (มีผลเทิร์นละครั้ง)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ได้รับ [SlashResultUp] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081102",
+      "slot": "skill_2",
+      "uptie": 2,
+      "name": "ดาบลับคม",
+      "description": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] มีผลกับพันธมิตรแก๊งคุโระคุโมะคนอื่น 2 คนที่มีความเร็วสูงที่สุด: มอบ [AttackDmgUp] 2 หน่วย (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรคุโระคุโมะ (รวมตัวละครนี้) อยู่ 6+ คน จะมอบ [AttackDmgUp] 3 หน่วยให้พันธมิตร 5 คนแทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "text": "[OnSucceedAttackHead] สร้าง [SlashTakeDamageUp] 1 หน่วย (มีผลเทิร์นละครั้ง)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ได้รับ [SlashResultUp] 1 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081102",
+      "slot": "skill_2",
+      "uptie": 1,
+      "name": "ดาบลับคม",
+      "description": "[StartBattle] มีผลกับพันธมิตรแก๊งคุโระคุโมะคนอื่น 2 คนที่มีความเร็วสูงที่สุด: มอบ [AttackDmgUp] 1 หน่วย (มีผลเทิร์นละครั้ง)\n- หากมีพันธมิตรคุโระคุโมะ (รวมตัวละครนี้) อยู่ 6+ คน จะมอบ [AttackDmgUp] 2 หน่วยให้พันธมิตร 5 คนแทน",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081103",
+      "slot": "skill_3",
+      "uptie": 4,
+      "name": "สะบัดหมึกทั่ว",
+      "description": "แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[EnemyKill] ได้รับ [SlashResultUp] 2 หน่วยในเทิร์นถัดไป (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ ประเภทสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 100%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "text": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 3 ครั้ง จากนั้นลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 3 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081103",
+      "slot": "skill_3",
+      "uptie": 3,
+      "name": "สะบัดหมึกทั่ว",
+      "description": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "text": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 3 ครั้ง จากนั้นลดจำนวนครั้ง [Laceration] ของเป้าหมายลง 3 หน่วย"
+        }
+      ],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081104",
+      "slot": "defense",
+      "uptie": 4,
+      "name": "ฟาดฟันแยกกระจาย",
+      "description": "[StartBattle] ได้รับ [Protection] 1 หน่วย (มีผลเทิร์นละครั้ง)\n[StartBattle] มีผลกับพันธมิตรที่ใช้ตัวตน 'แก๊งคุโระคุโมะ' จำนวน (2 + สั่นพ้องสกิลสูงสุด) คนที่มีความเร็วสูงที่สุด (รวมตัวละครนี้): มอบ [Endurance] 2 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081104",
+      "slot": "defense",
+      "uptie": 3,
+      "name": "ฟาดฟันแยกกระจาย",
+      "description": "[StartBattle] ได้รับ [Protection] 1 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081104",
+      "slot": "defense",
+      "uptie": 2,
+      "name": "ฟาดฟันแยกกระจาย",
+      "description": "[StartBattle] ได้รับ [Protection] 1 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    },
+    {
+      "source_skill_text_id": "1081104",
+      "slot": "defense",
+      "uptie": 1,
+      "name": "ฟาดฟันแยกกระจาย",
+      "description": "[StartBattle] ได้รับ [Protection] 1 หน่วย (มีผลเทิร์นละครั้ง)",
+      "coin_texts": [],
+      "attack_weight": 1
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1081102",
+        "name": "พร้อมรบ",
+        "description": "เมื่อพันธมิตร <แก๊งคุโระคุโมะ> ถูกกำจัด จะได้รับ [SlashResultUp] 1 หน่วย ตลอดการเผชิญหน้านี้\n\nเมื่อพันธมิตร <แก๊งคุโระคุโมะ> จำนวน 3 คนหรือมากกว่าถูกกำจัด จะได้รับ [EngageToBattle] ตลอดการเผชิญหน้านี้"
+      },
+      {
+        "source_passive_text_id": "1081101",
+        "name": "รวบรวมเมฆาทมิฬ",
+        "description": "เริ่มการต่อสู้: หากมีพันธมิตร <แก๊งคุโระคุโมะ> อยู่บนสนาม 2+ คน (รวมตัวละครนี้):\n- ได้รับ [BlackCloudBlade] 1 หน่วย\n\nเริ่มการต่อสู้: มอบ [BlackCloud] 1 หน่วยให้กับตัวตนจาก <แก๊งคุโระคุโมะ> ที่อยู่ติดกับตัวละครนี้บนกระดานสกิล"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1081121",
+        "name": "ดาบเวิร์คช็อปเมฆา",
+        "description": "พันธมิตร 1 คนที่มีความเร็วสูงที่สุด: เอฟเฟกต์สกิลหรือเหรียญจะสร้างค่า/จำนวนครั้ง [Laceration] เพิ่มขึ้น +1 หน่วย เมื่อโจมตีโดนศัตรู"
+      }
+    ]
+  }
+}

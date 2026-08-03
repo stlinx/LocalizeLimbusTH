@@ -1,0 +1,1130 @@
+{
+  "schema_version": 1,
+  "kind": "limbus_identity",
+  "identity": {
+    "id": "10815",
+    "english_name": "LCD OSIR Team Ishmael",
+    "sinner": "Ishmael",
+    "rarity": 3
+  },
+  "combat_stats": {
+    "hp": 263,
+    "speed_by_uptie": {
+      "uptie_1": "3~5",
+      "uptie_2": "3~6",
+      "uptie_3": "4~6",
+      "uptie_4": "4~6"
+    },
+    "defense_level": 63,
+    "stagger_thresholds": [
+      {
+        "percent": 40,
+        "hp": 105
+      }
+    ],
+    "panic": "Does not act for this turn.",
+    "sanity": {
+      "raw_text": "id=\"Sanity-0\" aria-labelledby=\"Sanity-0-label\">\n\n[img:Sanity.png] Panic Type\n\nName\nLow Morale\nPanic\n\n[img:General Panic.png]\nPanic\n\n-\n\nDoes not act for this turn.\n\n[img:Unique Sanity Factors.png] Factors Affecting Sanity\n\nBase factors increasing Sanity\n\n- Increases after winning a Clash based on Clash count\n(Base Value is 10, raised by 20% per Clash count after 1)\n\n- Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's\n\n- Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's\n\nBase factors decreasing Sanity\n\n- If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference\n(Base Value is 10, raised by 10 per level)",
+      "panic_type": {
+        "name": "Panic",
+        "low_morale": null,
+        "panic": "Does not act for this turn."
+      },
+      "factors": {
+        "increase": [
+          "Increases after winning a Clash based on Clash count (Base Value is 10, raised by 20% per Clash count after 1)",
+          "Increase by 10 after this unit defeats an enemy whose level was greater than or equal to this unit's",
+          "Increase by 5 after an ally defeats an enemy whose level was greater than or equal to the unit's"
+        ],
+        "decrease": [
+          "If the level of the defeated ally was higher or equal to the unit's, decrease based on the level difference (Base Value is 10, raised by 10 per level)"
+        ]
+      }
+    },
+    "resistances": {
+      "slash": 0.5,
+      "pierce": 1.0,
+      "blunt": 2.0
+    }
+  },
+  "skills": [
+    {
+      "slot": "skill_1",
+      "uptie": 4,
+      "source_skill_text_id": "1081501",
+      "name": {
+        "en": "Rending Arts"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Clash Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] At 3+ [Agility], Clash Power +1\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 3,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [AengduNewArmIshmael] and 3+ [Agility], Reuse this Coin (once per turn)</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 3,
+      "source_skill_text_id": "1081501",
+      "name": {
+        "en": "Rending Arts"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +1</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 2,
+      "source_skill_text_id": "1081501",
+      "name": {
+        "en": "Rending Arts"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +1</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_1",
+      "uptie": 1,
+      "source_skill_text_id": "1081501",
+      "name": {
+        "en": "Rending Arts"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 2,
+      "deck_count": 3,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 1 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1081502",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Clash Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] At 3+ [Agility], Clash Power +2\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [AengduNewArmIshmael] and 3+ [Agility], Reuse this Coin (once per turn)</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] Gain 2 [Agility] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1081502",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +2</style>\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Gain 2 [Agility] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1081502",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +2</style>\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Gain 2 [Agility] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1081502",
+      "name": {
+        "en": "Acupuncture"
+      },
+      "affinity": "Gloom",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 3,
+      "coin_power": "+3",
+      "coin_count": 3,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[CriticalOnSucceedAttack] Gain 2 [Agility] next turn (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 4,
+      "source_skill_text_id": "1081505",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)\n[WhenUse] Deal +1% damage for every [WindBladeIshmael] on self (max 15%)\n<style=\"highlight\">[WhenUse] Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 3,
+      "source_skill_text_id": "1081505",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)\n<style=\"highlight\">[WhenUse] Deal +1% damage for every [WindBladeIshmael] on self (max 15%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 2,
+      "source_skill_text_id": "1081505",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)\n<style=\"highlight\">[WhenUse] Deal +1% damage for every [WindBladeIshmael] on self (max 15%)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_2",
+      "uptie": 1,
+      "source_skill_text_id": "1081505",
+      "name": {
+        "en": "To Claim Their Bones"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 2,
+      "deck_count": 2,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 63,
+        "base": 60,
+        "correction": 3
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 2 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1081503",
+      "name": {
+        "en": "Lucent Rippling Flame"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Final Power +1 for every 2 [Agility] on self (max 2)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (max 2)</style>\n[WhenUse] At 10+ [WindBladeIshmael], convert all Coins into [SuperCoin]s\n[WhenUse] Gain 3 [Breath]\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 3, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Breath] Count"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Deal +2% damage on Critical Hit for every [WindBladeIshmael] on self (max 20%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 4,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1081503",
+      "name": {
+        "en": "Lucent Rippling Flame"
+      },
+      "affinity": "Pride",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+4",
+      "coin_count": 3,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Final Power +1 for every 2 [Agility] on self (max 2)\n[WhenUse] At 10+ [WindBladeIshmael], convert all Coins into [SuperCoin]s\n[WhenUse] Gain 3 [Breath]\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 3, once per turn)",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain +3 [Breath] Count"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 2 [Breath]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "Deal +2% damage on Critical Hit for every [WindBladeIshmael] on self (max 20%)"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 3,
+          "en": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] (once per turn)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 4,
+      "source_skill_text_id": "1081506",
+      "name": {
+        "en": "Even the Balance - Lucent Rippling Flame"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n<style=\"highlight\">Deal +5% damage on Critical Hit for every [Agility] on self (max 25%)</style>\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Consume all [WindBladeIshmael] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 1,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 2,
+          "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "At more than 15 [WindBladeIshmael], deal +5% damage on Critical Hit for every excess Stack (max 25%)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] At 5+ [Agility], Reuse this Coin (once per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "skill_3",
+      "uptie": 3,
+      "source_skill_text_id": "1081506",
+      "name": {
+        "en": "Even the Balance - Lucent Rippling Flame"
+      },
+      "affinity": "Wrath",
+      "damage_type": "slash",
+      "skill_type": "attack",
+      "base_power": 5,
+      "coin_power": "+3",
+      "coin_count": 4,
+      "deck_count": 1,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 64,
+        "base": 60,
+        "correction": 4
+      },
+      "english_description": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Consume all [WindBladeIshmael] on self",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Gain 3 [Breath]"
+        },
+        {
+          "coin_index": 2,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 3,
+          "effect_index": 1,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 1,
+          "en": "At more than 15 [WindBladeIshmael], deal +5% damage on Critical Hit for every excess Stack (max 25%)"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 2,
+          "en": "[OnSucceedAttack] Inflict 1 [Laceration]"
+        },
+        {
+          "coin_index": 4,
+          "effect_index": 3,
+          "en": "[CriticalOnSucceedAttack] At 5+ [Agility], Reuse this Coin (once per Skill)"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1081504",
+      "name": {
+        "en": "I'll Light the Path Forward"
+      },
+      "affinity": "Pride",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WhenUse] Gain +2 [Breath] Count (once per turn)\n[WinDuel] Gain 3 [Breath]\n<style=\"highlight\">[EndSkillAll] If this unit has [Agility], gain 2 [WindBladeIshmael] (once per turn)</style>",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1081504",
+      "name": {
+        "en": "I'll Light the Path Forward"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WhenUse] Gain +2 [Breath] Count (once per turn)\n[WinDuel] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1081504",
+      "name": {
+        "en": "I'll Light the Path Forward"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WhenUse] Gain +2 [Breath] Count (once per turn)\n[WinDuel] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1081504",
+      "name": {
+        "en": "I'll Light the Path Forward"
+      },
+      "affinity": null,
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 5,
+      "coin_power": "+8",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WhenUse] Gain +2 [Breath] Count (once per turn)\n[WinDuel] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 4,
+      "source_skill_text_id": "1081507",
+      "name": {
+        "en": "Observing the Stones on the Board"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+9",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n<style=\"highlight\">[WhenUse] Heal 5 SP on target this unit guarded using [SupportProtect]</style>\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 3,
+      "source_skill_text_id": "1081507",
+      "name": {
+        "en": "Observing the Stones on the Board"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+9",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 2,
+      "source_skill_text_id": "1081507",
+      "name": {
+        "en": "Observing the Stones on the Board"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+9",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    },
+    {
+      "slot": "defense",
+      "uptie": 1,
+      "source_skill_text_id": "1081507",
+      "name": {
+        "en": "Observing the Stones on the Board"
+      },
+      "affinity": "Gloom",
+      "damage_type": null,
+      "skill_type": "defense",
+      "base_power": 4,
+      "coin_power": "+9",
+      "coin_count": 1,
+      "deck_count": null,
+      "attack_weight": 0,
+      "offense_level": {
+        "total": 62,
+        "base": 60,
+        "correction": 2
+      },
+      "english_description": "[CanDuelGuard]\n[SupportProtect] Exclusive Skill\n\n[WhenUse] Gain 3 [Breath]",
+      "coin_texts": [
+        {
+          "coin_index": 1,
+          "effect_index": 1,
+          "en": "[SuperCoin]"
+        }
+      ]
+    }
+  ],
+  "passives": {
+    "combat": [
+      {
+        "source_passive_text_id": "1081503",
+        "name": {
+          "en": "Demonfire Spinecleaver"
+        },
+        "requirement": null,
+        "en": "On Defense Skill Clash Lose, if this unit has 3+ [Agility], this unit cannot be Staggered from taking damage until Defense Skill End, and activate \"To Claim Their Bones\" after being hit (2 times per turn, excluding forced Staggers)"
+      },
+      {
+        "source_passive_text_id": "1081502",
+        "name": {
+          "en": "To Where I Must Return"
+        },
+        "requirement": null,
+        "en": "Upon entering the Encounter for the first time, this unit gains [BladelineagePride] for every Blade Lineage Identity on the field excluding this unit (max 3)\n\nIf 3 or more Blade Lineage Identities, excluding this unit, are defeated in this Encounter:\n- Before Skill Use, if this unit did not have [SwordPlayOfTheHomeland], gain [SwordPlayOfTheHomeland]\n- When this unit gains [Breath] Potency and [Breath] Count with its Skill or Coin effects, gain 1 additional [Breath] Potency and [Breath] Count\n- If 5 or more Blade Lineage Identities are defeated, gain 2 additional [Breath] Potency and [Breath] Count instead"
+      },
+      {
+        "source_passive_text_id": "1081501",
+        "name": {
+          "en": "Limbus Company Specialized Custom Prosthetic Prototype mk5 - Dokkaebi Arms"
+        },
+        "requirement": null,
+        "en": "Combat Start: Gain [AengduNewArmIshmael] and heal (Pride Reson.) SP for Blade Lineage allied Identities excluding this unit\n\nCombat Start: If there is an allied Identity at less than 50% HP on the field excluding this unit, gain 1 [SupportProtect] (once per turn)\n\nSkill End: Gain 1 [WindBladeIshmael] for every 3 [Breath] Potency on self (max 5, 2 times per turn)"
+      }
+    ],
+    "support": [
+      {
+        "source_passive_text_id": "1081521",
+        "name": {
+          "en": "Cut Down What Must Be Felled"
+        },
+        "requirement": null,
+        "en": "1 ally with the fastest Speed deals +10% damage using Slash Skills\n- If the said ally has [Agility], deal +15% damage using Slash Skills instead"
+      }
+    ]
+  },
+  "admin_strategy_notes": {
+    "playstyle_summary": "",
+    "important_conditions": [],
+    "recommended_teams": [],
+    "boss_notes": [],
+    "rotation_notes": ""
+  },
+  "import_review": {
+    "status": "reviewed_export",
+    "source_html": {
+      "type": "wiki_html",
+      "path": "inputs\\wiki_identity_html\\LCD OSIR Team Ishmael - Limbus Company Wiki.html"
+    }
+  }
+}
