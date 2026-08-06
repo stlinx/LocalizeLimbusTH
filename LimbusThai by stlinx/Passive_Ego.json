@@ -602,6 +602,21 @@
       "name": "ผีเสื้อปีกห้อยโรยราที่หล่อเลี้ยงชีพด้วยหยาดน้ำค้างน้อยนิดน่าอนาถาจากลมหายใจตัวมันเอง",
       "desc": "หากเป้าหมายมี [SinkingWhite] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n\nเมื่อโจมตีโดนเป้าหมายที่มี (ค่า [Sinking] + [SinkingWhite] ทั้งสองแบบ) 15+ หน่วย จะสร้าง [SinkingWhite] (ผู้คงอยู่) 1 หน่วย และ [SinkingWhite] (ผู้วายชนม์) 1 หน่วย (มีผลเทิร์นละครั้ง; สำหรับการเผชิญหน้าเพ่งเล็ง จะนับจากอวัยวะ)\n\n[AlwaysUseEGOPassive2010911]\n\nเมื่อสกิลพื้นฐานโจมตีโดน จะสร้างค่า [Vibration] 2 หน่วยแก่เป้าหมาย (มีผลสกิลละครั้ง)\n\nตัวตนนี้จะนับว่าเป็น 'ตัวตนที่สามารถสร้าง [Vibration] กับ [Sinking] ได้'\n- สกิลพื้นฐานของตัวตนนี้จะนับว่าเป็นสกิลซึ่งสามารถสร้าง [Vibration] และ [Sinking] ได้\n\n[WhenUseEGOPassive2010911]\n\n- ปริมาณสูงสุดของผลรวมค่าและจำนวน [BulletLament] เพิ่มขึ้น +10 นัด\n- หลังจาก [ReloadLament] จะฟื้นฟู SP 10 หน่วย และ [Discard] สกิลโจมตีพื้นฐาน 1 สกิล ที่มีระดับสกิลต่ำที่สุดจากช่องสกิลทั้งหมดของตัวละครตัวนี้ (ยกเว้นสกิล \"ขอลาจากซึ่งสลดในใจท่าน ณ บัดนี้\"; มีผล 2 ครั้ง/เทิร์น)\n- จบเทิร์น: หากตัวละครนี้สวมใส่สกิลตั้งรับในเทิร์นนี้ จะฟื้นฟู SP 10 หน่วย\n- จบเทิร์น: เมื่อติดชะงักจะฟื้นตัวจากการชะงัก จากนั้นทำการ [ReloadLament] (มีผล 1 ครั้ง/การเผชิญหน้า; ยกเว้นบังคับชะงัก)",
       "summary": "แต้มแคลชสกิลเพิ่มขึ้น และสร้าง [SinkingWhite]"
+    },
+    {
+      "id": 2031011,
+      "name": "'Tis Thy Turn to Swallow the Needle!",
+      "desc": "Envy Skills deal +10% damage\n- Said Skills deal +1% more damage for every 1 Envy Reson. (max 7%)\n\nTurn Start: Gain [AttackUp] equal to (cumulative HP damage taken by this unit in this Encounter (including Shield damage) / 20) (max 3)\n\nCombat Start: On Envy A-Reson., inflict 1 [NiddleEGO] to all enemies (in Focused Encounters, all Parts)"
+    },
+    {
+      "id": 2030412,
+      "name": "Cauldron of Gorging",
+      "desc": "Turn Start: Convert <style=\"highlight\">1</style> random non-Lust E.G.O resource into 1 Lust E.G.O resource\n<style=\"highlight\">- At 20+ Lust E.G.O resource, this effect does not activate and this unit gains 1 [ScarletResultUp] instead\n\nLust Base Skills deal +1% damage for every Lust Resource owned Before Attack (max 10%)</style>"
+    },
+    {
+      "id": 2100312,
+      "name": "Stew Spewage",
+      "desc": "On Tails Hit, inflict 1 [Combustion] if target is an enemy\n\n<style=\"highlight\">When using Base Attack Skills that inflict [Combustion] Potency or Count against enemies,\n\n- For Plus Coin Skills:\n· At lower than 40 SP, heal 4 SP\n· At 40 or higher SP, deal +10% damage\n\n- For Minus Coin Skills:\n· At higher than -25 SP, lose 4 SP (this effect cannot reduce this unit's SP below -40)\n· At -25 or lower SP, deal +10% damage</style>"
     }
   ]
 }
