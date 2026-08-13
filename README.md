@@ -44,7 +44,6 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาซซีฟ E.G.O ใหม่  
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -83,7 +82,7 @@ addon แปลไทยสำหรับ Limbus Company
 ~~✘ 8.5 : Pilgrimage Of Compassion~~  
 ✘ พิเศษ : The 8th Walpurgis Night  
 ✘ 9.5 : Twining Threads  
-✘ 9.5 : Mnestic Experrience  
+✘ 9.5 : Mnestic Experrience  (WIP)
 **อื่นๆ**  
 • โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
 • ชื่อตัวตน — เสร็จสิ้น  all  
