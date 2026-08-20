@@ -3390,6 +3390,263 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ฟาจิน (ปลดปล่อยพลัง)",
+          "desc": "[WhenUse] หากเป้าหมายไม่มี [DianxueHongLu] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 3+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ฟาจิน (ปลดปล่อยพลัง)",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] หากเป้าหมายไม่มี [DianxueHongLu] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 3+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ฟาจิน (ปลดปล่อยพลัง)",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ (ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย) 6 หน่วย (สูงสุด 2 แต้ม)\n[WhenUse] หากเป้าหมายไม่มี [DianxueHongLu] แต้มแคลชสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +3 หน่วย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 3+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ฝ่ามือเพลิงมรกต",
+          "desc": "[WinDuel] ได้รับค่า [Breath] 3 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติม เท่ากับปริมาณ [DianxueHongLu] บนตัวเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 2+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ฝ่ามือเพลิงมรกต",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติม เท่ากับปริมาณ [DianxueHongLu] บนตัวเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 2+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้าง [DefenseDown] เท่ากับ [DianxueHongLu] บนตัวเป้าหมาย (มีผลเทิร์นละครั้ง)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "ฝ่ามือเพลิงมรกต",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมาย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่าความเร็ว 2 หน่วยที่ต่างกัน (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมี (ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย) 6+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติม เท่ากับปริมาณ [DianxueHongLu] บนตัวเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] ได้รับจำนวนครั้ง [Breath] +2 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] 2+ หน่วย จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้าง [DefenseDown] เท่ากับ [DianxueHongLu] บนตัวเป้าหมาย (มีผลเทิร์นละครั้ง)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "รับการโจมตีถึงกระบวนท่าสุดท้ายทีนะครับ?",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 3 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติม เท่ากับปริมาณ [DianxueHongLu] บนตัวเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 1 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "สร้างความเสียหายเมื่อคริติคอลเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย)% (สูงสุด 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] สร้าง [DefenseDown] 2 หน่วย (มีผล 2 ครั้ง/เทิร์น)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้างความเสียหายธาตุโทสะ เท่ากับ (ค่า [Combustion] บนตัวเป้าหมาย x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 40%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "รับการโจมตีถึงกระบวนท่าสุดท้ายทีนะครับ?",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าเป้าหมายอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมี (ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย) 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับค่า [Breath] 5 หน่วย\n- ได้รับจำนวนครั้ง [Breath] เพิ่มเติม เท่ากับปริมาณ [DianxueHongLu] บนตัวเป้าหมาย",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] สร้างค่า [Combustion] 2 หน่วย"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "สร้างความเสียหายเมื่อคริติคอลเพิ่มขึ้น +(ค่า [Breath] ที่ตนเองมี + ค่า [Combustion] บนตัวเป้าหมาย)% (สูงสุด 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Combustion] +1 หน่วย"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] สร้าง [DefenseDown] 2 หน่วย (มีผล 2 ครั้ง/เทิร์น)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [DianxueHongLu] จะใช้เหรียญนี้ซ้ำ (มีผลสกิลละครั้ง)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] สร้างความเสียหายธาตุโทสะ เท่ากับ (ค่า [Combustion] บนตัวเป้าหมาย x 2)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 40%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "พริ้วไหวไหลดั่งปุยเมฆ",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าผู้โจมตีอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +2 หน่วย (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "พริ้วไหวไหลดั่งปุยเมฆ",
+          "desc": "หากความเร็วของตัวละครนี้สูงกว่าผู้โจมตีอยู่ 2 หน่วยหรือมากกว่า แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[StartBattle] ได้รับจำนวนครั้ง [Breath] +3 หน่วย (มีผลเทิร์นละครั้ง)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
