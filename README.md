@@ -57,7 +57,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 3  JoshWaltz49  
 ✔ Canto 4  JoshWaltz49  
 ✘ Canto 5  JoshWaltz49 (WIP)  
-✘ Canto 6  
+✘ Canto 6  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 7  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ Canto 8  JoshWaltz49  
 ✔ Canto 9  JoshWaltz49  
@@ -68,9 +68,9 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ 4.5 : S.E.A.  JoshWaltz49  
 ✘ พิเศษ : Rooms Past the Backdoor  
 ✘ พิเศษ : A Notable Change  
-✘ 5.5-1 : Miracle in District 20  
+✔ 5.5-1 : Miracle in District 20  [stlinx](https://www.facebook.com/jjet.smile)  
 ✘ พิเศษ : Back to the Bus  
-✘ 5.5-2 : Yield My Flesh to Claim Their Bones  
+✔ 5.5-2 : Yield My Flesh to Claim Their Bones  [stlinx](https://www.facebook.com/jjet.smile)  
 ✘ พิเศษ : Risk Levels & Classifications  
 ✘ พิเศษ : The 3rd Walpurgis Night  
 ✘ 6.5-1 : Timekilling Time  
@@ -83,7 +83,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ พิเศษ : The 6th Walpurgis Night  
 ✘ 8.5 : Spring Cultivation  
 ~~✘ 8.5 : Pilgrimage Of Compassion~~  
-✘ พิเศษ : The 8th Walpurgis Night  
+✔ พิเศษ : The 8th Walpurgis Night  [stlinx](https://www.facebook.com/jjet.smile)  
 ✘ 9.5 : Twining Threads  
 ✘ 9.5 : Mnestic Experrience  (WIP)
 **อื่นๆ**  
