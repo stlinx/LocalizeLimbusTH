@@ -85,10 +85,11 @@ addon แปลไทยสำหรับ Limbus Company
 ✘ 9.5 : Twining Threads  
 ✔ 9.5 : Mnestic Experrience  Onyx
 **อื่นๆ**  
-• โน้ตของดันเต้ — 60%  [stlinx](https://www.facebook.com/jjet.smile)  
-• ชื่อตัวตน — เสร็จสิ้น  all  
+• โน้ตของดันเต้ — 33%  [stlinx](https://www.facebook.com/jjet.smile)  
+• ชื่อตัวตน — เสร็จสิ้น รอตัวตนใหม่ [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 • สกิลตัวละคร — เสร็จสิ้น รอตัวตนใหม่ [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
-• สถานะต่างๆ - เสร็จสิ้น by [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
+• สถานะต่างๆ — เสร็จสิ้น รอสถานะใหม่ [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
+• อีเว้นท์ตัวเลือกต่างๆ — 23% Delay
 
 ---
 
