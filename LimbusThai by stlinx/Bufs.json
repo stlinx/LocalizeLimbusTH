@@ -4118,6 +4118,50 @@
       "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เลเวลจู่โจม +(ปริมาณทับซ้อน) หน่วย\n- เมื่อมีปริมาณทับซ้อน 2+ หน่วย สกิลพื้นฐานจะได้รับค่า <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> เพิ่มขึ้น +1 หน่วย\n- เมื่อมีปริมาณทับซ้อน 3+ หน่วย สกิลพื้นฐานจะได้รับจำนวนครั้ง <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> เพิ่มขึ้น +1 หน่วย",
       "summary": "เพิ่มเลเวลจู่โจมและช่วยให้ได้รับ <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> มากขึ้น",
       "undefined": "-"
+    },
+    {
+      "id": "NoirSuitAlly",
+      "name": "Le Noir: Gabardine Overcoat",
+      "desc": "- Max Stack: 100\n- Defense Level +1 for every 25 Stacks\n- Gain +5 Aggro to the leftmost Slot\n- When hit while this unit has Shield, gain 5 Stacks (10 per turn)\n- Turn End: If this unit has remaining Shield, gain 10 Stacks\n- Apply the following when this unit gains or consumes Preservation Count due to its Skill or Passive effects:\n · Gain Stack equal to Preservation Count gained (this effect's Stack is gained regardless of Preservation's max Count)\n · Gain Stack equal to (Preservation Count consumed x 2)\n · Can gain up to 30 Stacks per turn via this effect\n- At 100 Stacks, convert this effect into Armure Éveillée next turn",
+      "summary": "Gain Defense Level and Aggro",
+      "flavor": "An overcoat made from twill fabric, a type of weave made by threading several weft threads over fewer warp threads.\nIts characteristic high-density weave protects its wearer from external trauma."
+    },
+    {
+      "id": "ChargeNoirAlly",
+      "name": "Preservation",
+      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count\n\n<color=#1aece7>Cumulative Count consumed: {2}</color>",
+      "summary": "Unique Charge",
+      "flavor": "Force is compressed, gathered, and fixed in place. Sometimes, it takes more force to prevent change than to cause it."
+    },
+    {
+      "id": "RealisationAlly",
+      "name": "Armure Éveillée",
+      "desc": "- Max Stack: 100\n- Min & Max Speed +2\n- Offense Level +1 and Defense Level +1 for every 25 Stacks\n- Convert all Base Attack Skill Coins into Unbreakable Coins\n- Turn Start: Heal 8 SP\n- At 0 Stacks, convert this effect into \"Le Noir: Gabardine Overcoat\"",
+      "summary": "Gain Offense Level, Defense Level, and Speed\nConvert Base Attack Skill Coins into Unbreakable Coins",
+      "flavor": "Le Noir's fabric weave prevents external force from reaching its wearer. The purpose for which it awakens is to eliminate change imposed from the outside.\nThe fabric stores energy from attacks it absorbs, then expels all that force in a single burst to remove the external source of change."
+    },
+    {
+      "id": "ChargeRougeAlly",
+      "name": "Pulsation",
+      "desc": "- Unique Charge\n- Max Count: 20\n- Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\n- Turn End: Lose 1 Count",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RougeIshmaelCocoon",
+      "name": "Changing Room",
+      "desc": "- Max Stack: 2\n- Fix this unit's Speed to 1\n- Take -50% damage from Skills\n- Immediately after gaining this effect, remove Stagger Thresholds; when Staggered, recover from Stagger\n- Turn Start: Gain 10 Aggro\n- When hit, gain +1 Pulsation Count (20 times per turn)\n- Turn End: Lose 1 Stack\n- Cannot Retreat\n- Cannot enter E.G.O Corrosion; instead, enters default Panic state (is affected by Panic-changing effects)\n- While in this state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Though it has become hardier, it has now become passive. When viewed through the lens of Le Rouge, however durable something might have become, what is passive is always fragile.\n\nBut one must first come to a halt in order to usher in change. And that is what makes this process painful."
+    },
+    {
+      "id": "RougeIshmaelEclose",
+      "name": "Full Makeover",
+      "desc": "- Min & Max Speed +1\n- Max HP increased by 25%\n- Take -10% damage from Skills\n- Base Skills inflict +1 more Bleed Potency on enemies",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Though she has emerged from the cocoon, she has failed to truly metamorphose—as that process involves the disintegration of the self. Still, the process has managed to boost her physical abilities."
     }
   ]
 }
