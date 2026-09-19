@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Batter",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "ปะทะ",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             }
@@ -24,23 +24,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Body Slam",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "พุ่งชนกาย",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากตัวละครนี้ has [Laceration], inflict ([Laceration] Potency ที่ตนเองมี / 2) [Laceration] Count on target (สูงสุด 5; once per turn; rounded down)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Laceration] จะสร้างจำนวนครั้ง [Laceration] +(ค่า [Laceration] ที่ตนเองมี / 2) หน่วยบนตัวเป้าหมาย (สูงสุด 5 หน่วย; มีผลเทิร์นละครั้ง; ปัดเศษลง)"
                 }
               ]
             }
@@ -53,8 +53,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slam Down",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n[WhenUse] Deal +1% damage ตามทุก ๆ [Laceration] ที่ตนเองมี (สูงสุด 20%)",
+          "name": "พุ่งให้ล้ม",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Laceration] ที่ตนเองมี (สูงสุด 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -62,13 +62,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] หากตัวละครนี้ has [Laceration], inflict ([Laceration] Potency ที่ตนเองมี) [Laceration] Count on target (สูงสุด 8; once /เทิร์น)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] หากตัวละครนี้มี [Laceration] จะสร้างจำนวนครั้ง [Laceration] +(ค่า [Laceration] ที่ตนเองมี) บนตัวเป้าหมาย (สูงสุด 8 หน่วย; มีผลเทิร์นละครั้ง)"
                 }
               ]
             },
@@ -78,7 +78,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -91,8 +91,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[StartBattle] Heal 5 SP\n[StartBattle] ได้รับ 1 [ResultEnhancement] ในเทิร์นถัดไป",
+          "name": "ตั้งการ์ด",
+          "desc": "[StartBattle] ฟื้นฟู SP 5 หน่วย\n[StartBattle] ได้รับ [ResultEnhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -104,13 +104,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Strike",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "โจมตี",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             }
@@ -123,23 +123,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Body Check",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "ตรวจร่างกาย",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากตัวละครนี้ has [Laceration], inflict ([Laceration] Potency ที่ตนเองมี / 2) [Laceration] Count on target (สูงสุด 5; once per turn; rounded down)"
+                  "desc": "[OnSucceedAttack] หากตัวละครนี้มี [Laceration] จะสร้างจำนวนครั้ง [Laceration] +(ค่า [Laceration] ที่ตนเองมี / 2) หน่วยบนตัวเป้าหมาย (สูงสุด 5 หน่วย; มีผลเทิร์นละครั้ง; ปัดเศษลง)"
                 }
               ]
             }
@@ -152,8 +152,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slam Down",
-          "desc": "If target has 4+ [Vibration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n[WhenUse] Deal +1% damage ตามทุก ๆ [Laceration] ที่ตนเองมี (สูงสุด 20%)",
+          "name": "ทุ่มให้ราบ",
+          "desc": "หากเป้าหมายมีค่า [Vibration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Laceration] ที่ตนเองมี (สูงสุด 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -161,13 +161,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] หากตัวละครนี้ has [Laceration], inflict ([Laceration] Potency ที่ตนเองมี) [Laceration] Count on target (สูงสุด 8; once /เทิร์น)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] หากตัวละครนี้มี [Laceration] จะสร้างจำนวนครั้ง [Laceration] +(ค่า [Laceration] ที่ตนเองมี) หน่วยบนตัวเป้าหมาย (สูงสุด 8 หน่วย; มีผลเทิร์นละครั้ง)"
                 }
               ]
             },
@@ -177,7 +177,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -190,8 +190,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[StartBattle] Heal 5 SP\n[StartBattle] ได้รับ 1 [ResultEnhancement] ในเทิร์นถัดไป",
+          "name": "ตั้งการ์ด",
+          "desc": "[StartBattle] ฟื้นฟู SP 5 หน่วย\n[StartBattle] ได้รับ [ResultEnhancement] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -203,27 +203,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don't touch me...!",
-          "desc": "[WhenUse]\n- If target has 6+ [Vibration], แต้มเหรียญเพิ่มขึ้น +1\n- At 10+ [ChargeNoir] Count, แต้มเหรียญเพิ่มขึ้น +1\n\n[WhenUse] ได้รับ +2 [ChargeNoir] Count",
+          "name": "อย่ามาแตะฉันนะ...!",
+          "desc": "[WhenUse]\n- หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n- เมื่อมีจำนวน [ChargeNoir] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1\n\n[WhenUse] ได้รับจำนวน [ChargeNoir] +2 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [ChargeNoir] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวน [ChargeNoir] +2 หน่วย"
                 }
               ]
             }
@@ -236,27 +236,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Get your hands off me...!",
-          "desc": "[WhenUse]\n- If target has 6+ [Vibration], แต้มเหรียญเพิ่มขึ้น +1\n- At 10+ [ChargeNoir] Count, แต้มเหรียญเพิ่มขึ้น +1\n\n[WhenUse] ได้รับ +4 [ChargeNoir] Count",
+          "name": "เอามือออกไปจากฉันนะ...!",
+          "desc": "[WhenUse]\n- หากเป้าหมายมีค่า [Vibration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n- เมื่อมีจำนวน [ChargeNoir] 10+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1\n\n[WhenUse] ได้รับจำนวน [ChargeNoir] +4 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ +2 [ChargeNoir] Count"
+                  "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeNoir] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +2 หน่วย"
                 }
               ]
             }
@@ -269,34 +269,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "We shouldn't be doing anything...!",
-          "desc": "Deal +4% damage ตามทุก ๆ [ChargeNoir] Potency ที่ตนเองมี (สูงสุด 20%)\n\n[WhenUse] At 10+ [ChargeNoir] Count, ผลาญ 10 [ChargeNoir] Count to gain แต้มเหรียญเพิ่มขึ้น +1 and deal +20% damage",
+          "name": "เราไม่ควรทำอะไรเลย...!",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ ค่า [ChargeNoir] ที่ตนเองมี (สูงสุด 20%)\n\n[WhenUse] เมื่อมีจำนวน [ChargeNoir] 10+ หน่วย จะผลาญจำนวน [ChargeNoir] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -309,14 +309,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rummage",
-          "desc": "If target has 6+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "รื้อค้น",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "flavor": "There has to be something here... something worth finding...",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -329,24 +329,24 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snatch Up",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Laceration] on target (สูงสุด 2)",
+          "name": "รีบคว้า",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "flavor": "This one's mine!",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -359,26 +359,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Got one!",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Laceration] on target (สูงสุด 3)\n[WhenUse] At lower than 50% HP, or if target has 10+ [Laceration], convert all Coins to [SuperCoin]s",
+          "name": "ได้มาอันนึง!",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมีค่า [Laceration] 10+ หน่วย จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +30% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายเมื่อคริติคอลเพิ่มขึ้น +30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -391,20 +391,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nah, man! That one's mine!",
-          "desc": "[WhenUse] ได้รับ 2 [Breath] ตามทุก ๆ 2 types of effect on target (สูงสุด 5)\n[WhenUse] If target has 4+ effects, gain +1 [Breath] Count",
+          "name": "ไม่จริงอะ! นั่นของฉัน!",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 2 หน่วย ตามทุก ๆ เอฟเฟกต์ 2 ประเภทบนตัวเป้าหมาย (สูงสุด 5 หน่วย)\n[WhenUse] หากเป้าหมายมีเอฟเฟกต์ 4+ ประเภท จะได้รับจำนวนครั้ง [Breath] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -417,14 +417,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rummage",
-          "desc": "If target has 6+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+          "name": "รื้อค้น",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "flavor": "There has to be something here... something worth finding...",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             }
@@ -437,24 +437,24 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snatch Up",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Laceration] on target (สูงสุด 2)",
+          "name": "คว้ามา",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)",
           "flavor": "This one's mine!",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -467,26 +467,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Got one!",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 3 [Laceration] on target (สูงสุด 3)\n[WhenUse] At lower than 50% HP, or if target has 10+ [Laceration], convert all Coins to [SuperCoin]s",
+          "name": "ได้มาอันนึง!",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 3 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n[WhenUse] เมื่อมี HP ต่ำกว่า 50% หรือหากเป้าหมายมีค่า [Laceration] 10+ หน่วย จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +30% damage on Critical Hit"
+                  "desc": "สร้างความเสียหายเมื่อคริติคอลเพิ่มขึ้น +30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -499,20 +499,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nah, man! That one's mine!",
-          "desc": "[WhenUse] ได้รับ 2 [Breath] ตามทุก ๆ 2 types of effect on target (สูงสุด 5)\n[WhenUse] If target has 4+ effects, gain +1 [Breath] Count",
+          "name": "ไม่จริงอะ! นั่นของฉัน!",
+          "desc": "[WhenUse] ได้รับค่า [Breath] 2 หน่วย ตามทุก ๆ เอฟเฟกต์ 2 ประเภทบนตัวเป้าหมาย (สูงสุด 5 หน่วย)\n[WhenUse] หากเป้าหมายมีเอฟเฟกต์ 4+ ประเภท จะได้รับจำนวนครั้ง [Breath] +1 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -525,16 +525,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Running Stitch - Warp",
-          "desc": "If target has 4+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n\n[WhenUse] If target has 6+ [Laceration], convert all Coins to [SuperCoin]s",
+          "name": "ตะเข็บเนา - ด้ายยืน",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [PenetrateResistDown] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [PenetrateResistDown] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -547,23 +547,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tacking Stitch - Warp",
-          "desc": "If target has 4+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ",
+          "name": "ตะเข็บตรึง - ด้ายยืน",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [NiddlePin]"
+                  "desc": "[OnSucceedAttack] สร้าง [NiddlePin] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -576,8 +576,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Backstitch - Warp",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] on target (สูงสุด 2)\n\n[WhenUse] Deal +1% damage ตามทุก ๆ [Laceration] on target (สูงสุด 20%)",
+          "name": "ตะเข็บด้นถอยหลัง - ด้ายยืน",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Laceration] บนตัวเป้าหมาย (สูงสุด 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -585,16 +585,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reuse this Coin once (มีผลสกิลละครั้ง"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ใช้เหรียญนี้ซ้ำหนึ่งครั้ง (มีผลสกิลละครั้ง)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Pierce damage equal to [Laceration] Potency on target (สูงสุด 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายประเภทแทง เท่ากับค่า [Laceration] บนตัวเป้าหมาย (สูงสุด 30 หน่วย)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] สร้าง 1 [NiddlePin]"
+                  "desc": "[ReUseOnSucceedAttack] สร้าง [NiddlePin] 1 หน่วย"
                 }
               ]
             }
@@ -607,8 +607,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blind Stitch - Warp",
-          "desc": "[StartBattle] ได้รับ 1 [PenetrateResultUp] ในเทิร์นถัดไป",
+          "name": "เย็บซ่อนตะเข็บ - ด้ายยืน",
+          "desc": "[StartBattle] ได้รับ [PenetrateResultUp] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": []
         }
       ]
@@ -618,16 +618,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Running Stitch - Weft",
-          "desc": "If target has 4+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n\n[WhenUse] If target has 6+ [Laceration], convert all Coins to [SuperCoin]s",
+          "name": "ตะเข็บเนา - ด้ายพุ่ง",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม\n\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย จะแปลงเหรียญทั้งหมดให้กลายเป็น [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [PenetrateTakeDamageUp] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [PenetrateTakeDamageUp] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -640,23 +640,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tacking Stitch - Weft",
-          "desc": "If target has 4+ [Laceration], แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ",
+          "name": "ตะเข็บตรึง - ด้ายพุ่ง",
+          "desc": "หากเป้าหมายมีค่า [Laceration] 4+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [NiddlePin]"
+                  "desc": "[OnSucceedAttack] สร้าง [NiddlePin] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -669,8 +669,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Backstitch - Weft",
-          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ 4 [Laceration] on target (สูงสุด 2)\n\n[WhenUse] Deal +1% damage ตามทุก ๆ [Laceration] on target (สูงสุด 20%)",
+          "name": "ตะเข็บด้นถอยหลัง - ด้ายพุ่ง",
+          "desc": "แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 หน่วย)\n\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +1% ตามทุก ๆ ค่า [Laceration] บนตัวเป้าหมาย (สูงสุด 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -678,16 +678,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย และจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Reuse this Coin once (มีผลสกิลละครั้ง"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ใช้เหรียญนี้ซ้ำหนึ่งครั้ง (มีผลสกิลละครั้ง)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Pierce damage equal to [Laceration] Potency on target (สูงสุด 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายประเภทแทง เท่ากับค่า [Laceration] บนตัวเป้าหมาย (สูงสุด 30 หน่วย)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] สร้าง 1 [NiddlePin]"
+                  "desc": "[ReUseOnSucceedAttack] สร้าง [NiddlePin] 1 หน่วย"
                 }
               ]
             }
@@ -700,8 +700,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blind Stitch - Weft",
-          "desc": "[StartBattle] ได้รับ 1 [PenetrateResultUp] ในเทิร์นถัดไป",
+          "name": "เย็บซ่อนตะเข็บ - ด้ายพุ่ง",
+          "desc": "[StartBattle] ได้รับ [PenetrateResultUp] 1 หน่วยในเทิร์นถัดไป",
           "coinlist": []
         }
       ]
