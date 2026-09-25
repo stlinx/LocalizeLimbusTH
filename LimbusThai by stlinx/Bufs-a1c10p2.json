@@ -78,7 +78,7 @@
     {
       "id": "SpreadingDye",
       "name": "น้ำมันละลายสีมันวาว",
-      "desc": "- หากเป้าหมายมี <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> จะสร้างค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> และจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เพิ่มขึ้น 1 หน่วย\n- เมื่อใช้สกิล หากเป้าหมายหลักมี <sprite name=\"ThreadDye\"><color=#9f6a3a>'ด้ายผ่านการย้อม'</color> หรือ <sprite name=\"StickyDye\"><color=#9f6a3a>'สีย้อมน้ำมันดิน'</color> สกิลดังกล่าวจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%",
+      "desc": "- หากเป้าหมายมี <sprite name=\"Binding\"><color=#e30000>'พันธนา'</color> จะสร้างค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> และจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เพิ่มขึ้น 1 หน่วย\n- เมื่อใช้สกิล หากเป้าหมายหลักมี <sprite name=\"ThreadDye\"><color=#e30000>'ด้ายผ่านการย้อม'</color> หรือ <sprite name=\"StickyDye\"><color=#e30000>'สีย้อมน้ำมันดิน'</color> สกิลดังกล่าวจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม และสร้างความเสียหายเพิ่มขึ้น +20%",
       "summary": "",
       "flavor": "Most dyes are meant to have a color.\nBut this one's dye has none.\n\nApplied in rough, uneven strokes, it reveals a spectrum of colors through nothing but the reflection and refraction of pure light."
     },
@@ -178,153 +178,153 @@
     {
       "id": "NoirField",
       "name": "สถานศักดิ์สิทธิ์แห่งการสงวนคุ้มครอง",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 2\n- เริ่มเทิร์น: Gain 1 Power Up and 1 Damage Up ตามทุก ๆ 20% missing HP (สูงสุด 3 respectively)\n- เริ่มเทิร์น: All \"Le Noir\" allies' Skills gain Final Power equal to Stack\n\n- เริ่มเทิร์น: At 1+ Stack, apply the following effects to all \"Le Noir\" allies, including this unit:\n · SP +10\n · Attack Power +2\n · Defense Level +2\n\n- เริ่มเทิร์น: At 2+ Stacks, apply the following effects to all non-\"Le Noir\" enemies:\n · Max Speed -1\n · Offense Level -6\n · Defense Level -2",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 2 หน่วย\n- เริ่มเทิร์น: ได้รับ <sprite name=\"ResultEnhancement\"><color=#f8c200>'เพิ่มแต้มสกิล'</color> 1 หน่วย และ <sprite name=\"AttackDmgUp\"><color=#f8c200>'เพิ่มความเสียหาย'</color> 1 หน่วย ตามทุก ๆ HP 20% ที่หายไป (สูงสุดอย่างละ 3 หน่วย)\n- เริ่มเทิร์น: สกิลพันธมิตร <เลอ นัวร์> ทั้งหมดมีแต้มปิดท้ายสกิลเพิ่มขึ้น เท่ากับปริมาณทับซ้อน\n\n- เริ่มเทิร์น: เมื่อมีปริมาณทับซ้อน 1+ หน่วย จะมอบเอฟเฟกต์ต่อไปนี้ให้กับพันธมิตร <เลอ นัวร์> (รวมตัวละครนี้):\n · SP +10 หน่วย\n · แต้มสกิลโจมตี +2 แต้ม\n · เลเวลตั้งรับ +2 หน่วย\n \n - เริ่มเทิร์น: เมื่อมีปริมาณทับซ้อน 2+ หน่วย จะมอบเอฟเฟกต์ต่อไปนี้ให้กับศัตรูทั้งหมดที่ไม่ใช่ <เลอ นัวร์>:\n · ความเร็วสูงสุด -1 หน่วย\n · เลเวลจู่โจม -6 หน่วย\n · เลเวลตั้งรับ -2 หน่วย",
       "summary": "",
       "flavor": "A sanctuary in which the value of conservation pursued by Le Noir is preserved. Within it, the Noirs' preservative actions are retained to their benefit. It is a realm of eternal conservation—a place that stirs the drive to infinitely approach death."
     },
     {
       "id": "NoirSquareCollapse",
-      "name": "Formation Collapse",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 10\n- Lose Defense Level equal to Stack",
+      "name": "กระบวนทัพแตกสลาย",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 10 หน่วย\n- เสียเลเวลตั้งรับเท่ากับปริมาณทับซ้อน",
       "summary": "",
       "flavor": "When faith—the faith that each will dutifully carry out their assigned role—begins to crumble, doubt takes root in the cracks."
     },
     {
       "id": "NoirNail",
-      "name": "Promised Nail",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 3\n- When Tremor Burst is triggered on this unit,\n · Take Sloth damage equal to Tremor Potency ที่ตนเองมี\n · Gain 1 Fragile\n · Lose 1 Stack",
+      "name": "ตะปูแห่งพันธสัญญา",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เมื่อเกิดการ <sprite name=\"VibrationExplosion\"><color=#e30000>'ระเบิดสั่นเทา'</color> ขึ้นกับตัวละครนี้\n · ได้รับความเสียหายธาตุเกียจคร้าน เท่ากับค่า <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color> Potency ที่ตนเองมี\n · ได้รับ <sprite name=\"Vulnerable\"><color=#e30000>'เปราะบาง'</color> 1 หน่วย\n · เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": "",
       "flavor": "The promised hammer is bound by promise to drive in a nail. Therefore, whenever the hammer falls, a nail must exist there... even if none was there before."
     },
     {
       "id": "BuffetField",
-      "name": "Le Vomissement",
-      "desc": "- After entering the Encounter, Le Vomissement's influence expands at Turn Start every 2 turns\n· Stage 1: Pwie\n· Stage 2: All allied Sinners\n· Stage 3: All targets",
+      "name": "เลอ วอมิสซอม็อง (การอ้วก)",
+      "desc": "- หลังจากเข้าสู่การเผชิญหน้า ระยะอิทธิพลของ <sprite name=\"BuffetField\"><color=#9f6a3a>'เลอ วอมิสซอม็อง'</color> จะขยายเมื่อเริ่มเทิร์นในทุก ๆ 2 เทิร์น\n· <sprite name=\"BuffetField_0\"> ขั้น 1: ปูฟีว์\n· <sprite name=\"BuffetField_1\"> ขั้น 2: ซินเนอร์พันธมิตรทั้งหมด\n· <sprite name=\"BuffetField_2\"> ขั้น 3: เป้าหมายทั้งหมด",
       "summary": "",
       "flavor": "What is devoured for survival, for growth, incorporates what was outside into what is mine. Then it is expelled once more, and what was mine becomes part of the outside.\n\nIt is cyclical, expansive, and consumptive."
     },
     {
       "id": "BuffetField_0",
-      "name": "Le Vomissement",
-      "desc": "- After entering the Encounter, Le Vomissement's influence expands at Turn Start every 2 turns",
+      "name": "เลอ วอมิสซอม็อง",
+      "desc": "- หลังจากเข้าสู่การเผชิญหน้า ระยะอิทธิพลของ <sprite name=\"BuffetField\"><color=#9f6a3a>'เลอ วอมิสซอม็อง'</color> จะขยายเมื่อเริ่มเทิร์นในทุก ๆ 2 เทิร์น",
       "summary": "",
       "flavor": "What is devoured for survival, for growth, incorporates what was outside into what is mine. Then it is expelled once more, and what was mine becomes part of the outside.\n\nIt is cyclical, expansive, and consumptive."
     },
     {
       "id": "BuffetField_1",
-      "name": "Le Vomissement",
-      "desc": "- After entering the Encounter, Le Vomissement's influence expands at Turn Start every 2 turns",
+      "name": "เลอ วอมิสซอม็อง",
+      "desc": "- หลังจากเข้าสู่การเผชิญหน้า ระยะอิทธิพลของ <sprite name=\"BuffetField\"><color=#9f6a3a>'เลอ วอมิสซอม็อง'</color> จะขยายเมื่อเริ่มเทิร์นในทุก ๆ 2 เทิร์น",
       "summary": "",
       "flavor": "What is devoured for survival, for growth, incorporates what was outside into what is mine. Then it is expelled once more, and what was mine becomes part of the outside.\n\nIt is cyclical, expansive, and consumptive."
     },
     {
       "id": "BuffetField_2",
-      "name": "Le Vomissement",
-      "desc": "- After entering the Encounter, Le Vomissement's influence expands at Turn Start every 2 turns",
+      "name": "เลอ วอมิสซอม็อง",
+      "desc": "- หลังจากเข้าสู่การเผชิญหน้า ระยะอิทธิพลของ <sprite name=\"BuffetField\"><color=#9f6a3a>'เลอ วอมิสซอม็อง'</color> จะขยายเมื่อเริ่มเทิร์นในทุก ๆ 2 เทิร์น",
       "summary": "",
       "flavor": "What is devoured for survival, for growth, incorporates what was outside into what is mine. Then it is expelled once more, and what was mine becomes part of the outside.\n\nIt is cyclical, expansive, and consumptive."
     },
     {
       "id": "GourmandiseAlly",
-      "name": "Uncontrollable Rampage",
-      "desc": "- แต้มเริ่มต้นสกิลเพิ่มขึ้น +1, convert all Coins on all Skills into Unbreakable Coins\n- Deal +5% damage ตามทุก ๆ 3 Bleed ที่ตนเองมี (สูงสุด 30%); heal +10% more HP on target (สูงสุด 100%, ปัดเศษลง)\n- Cannot be Staggered; take -90% damage from Bleed (excluding forced Staggers)\n- จบเทิร์น: Lose 1 Stack",
+      "name": "การอาวะลาดที่ไม่อาจคุมได้",
+      "desc": "- แต้มเริ่มต้นสกิลเพิ่มขึ้น +1 แต้ม แปลงเหรียญทั้งหมดของทุกสกิลให้กลายเป็น <sprite name=\"SuperCoin\"><color=#9f6a3a>'เหรียญทนทาน'</color>\n- สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ค่า <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> 3 หน่วยที่ตนเองมี (สูงสุด 30%); ฟื้นฟู HP เป้าหมายเพิ่มขึ้น +10% (สูงสุด 100%, ปัดเศษลง)\n- ไม่สามารถติดชะงักได้; ได้รับความเสียหายจาก <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> ลดลง -90% (ยกเว้นบังคับติดชะงัก) \n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": "Skills are strengthened"
     },
     {
       "id": "BloodyMucusAlly",
-      "name": "Baptism [Crimson]",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 3\n- On Attack Skill Use, gain Bleed Count equal to Stack (มีผลสกิลละครั้ง)\n- On Defense Skill Use, lose 1 Stack\n- จบเทิร์น: Lose 1 Stack",
+      "name": "ศีลล้างบาป [แดงชาด]",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เมื่อใช้สกิลโจมตี จะได้รับจำนวนครั้ง <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> เท่ากับปริมาณทับซ้อน (มีผลสกิลละครั้ง)\n- เมื่อใช้สกิลตั้งรับ จะเสียปริมาณทับซ้อน 1 หน่วย\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": ""
     },
     {
       "id": "BuffetGold",
-      "name": "Golden Revelation",
-      "desc": "- Max Speed: 5\n- Take +5% damage ตามทุก ๆ Stack\n- At max Stack, take +10% damage if this unit has Bleed",
+      "name": "เผยทองคำ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย\n- ได้รับความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ปริมาณทับซ้อนที่มี\n- เมื่อมีปริมาณทับซ้อนเต็ม หากตัวละครนี้มี <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color> จะได้รับความเสียหายเพิ่มขึ้น +10% แทน",
       "summary": "",
       "flavor": "The golden light guides the child toward whom they should harm next. Even under that guidance, the child believes the judgment to be entirely their own."
     },
     {
       "id": "BuffetShoes",
-      "name": "Pink Mary Janes",
-      "desc": "- Min & Max Speed +3",
+      "name": "รองเท้าแมรี่เจนสีชมพู",
+      "desc": "- ความเร็วต่ำสุด & สูงสุดเพิ่มขึ้น +3 หน่วย",
       "summary": "",
       "flavor": "Thanks... for the shoes. Can I go anywhere if I put these on? I wanna... travel with you."
     },
     {
       "id": "BuffetGoldenClothes",
-      "name": "Golden Shroud",
-      "desc": "- Defense Level +10\n- จบเทิร์น: If this unit is Staggered, recover from Stagger and heal 50% HP (มีผล 1 ครั้ง/การเผชิญหน้า)",
+      "name": "ผ้าห่อศพทองคำ",
+      "desc": "- เลเวลตั้งรับ +10 หน่วย\n- จบเทิร์น: หากตัวละครนี้ติดชะงัก จะฟื้นตัวจากการชะงักและฟื้นฟู HP 50% (มีผล 1 ครั้ง/การเผชิญหน้า)",
       "summary": "",
       "flavor": "The child has donned the clothes of an adult. Not just any clothes, but a hide garment made from another's death. And so, the child takes one step closer to adulthood."
     },
     {
       "id": "Buffet_LowMorale",
-      "name": "Unforgotten Pain",
-      "desc": "- Low Morale\n- Gain 3 Protection",
+      "name": "ความเจ็บปวดที่ไม่อาจลืม",
+      "desc": "ขวัญอ่อน\n- ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 3 หน่วย",
       "summary": ""
     },
     {
       "id": "Buffet_Panic",
-      "name": "Unforgotten Pain",
-      "desc": "- Panic\n- Gain 5 Protection",
+      "name": "ความเจ็บปวดที่ไม่อาจลืม",
+      "desc": "แตกตื่น\n- ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 5 หน่วย",
       "summary": ""
     },
     {
       "id": "RestrictMob",
-      "name": "Rule: Raw Hide Damage Prohibited",
-      "desc": "- Combat Start: When Tanned Prisoner is targeted with an Attack Skill, this effect expires, and the attacker gains 1 Tannery Rule Violation\n- จบเทิร์น: This effect expires",
+      "name": "กฎ: ห้ามก่อความเสียหายต่อหนังสัตว์ดิบ",
+      "desc": "- เริ่มการต่อสู้: เมื่อ <color=#ff6000><mark color=#ff000040><b><u>\"นักโทษผู้ถูกฟอกหนัง\" ตกเป็นเป้าหมายสกิลโจมตี</color></mark></b></u> เอฟเฟกต์นี้จะหมดลง และผู้โจมตีจะได้รับ <sprite name=\"RestrictDenied\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</color> 1 หน่วย\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": ""
     },
     {
       "id": "RestrictBoss",
-      "name": "Rule: Tanning Rush Prohibited",
-      "desc": "- Combat Start: When the Overseer is targeted with an Attack Skill, this effect expires, and the attacker gains 1 Tannery Rule Violation\n- จบเทิร์น: This effect expires",
+      "name": "กฎ: ห้ามรีบเร่งฟอกหนัง",
+      "desc": "- เริ่มการต่อสู้: เมื่อ <color=#ff6000><mark color=#ff000040><b><u>\"ผู้คุมงาน\" ตกเป็นเป้าหมายสกิลโจมตี</color></mark></b></u> เอฟเฟกต์นี้จะหมดลง และผู้โจมตีจะได้รับ <sprite name=\"RestrictDenied\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</color> 1 หน่วย\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": ""
     },
     {
       "id": "RestrictTier1",
-      "name": "Rule: Offensive Behavior Prohibited",
-      "desc": "- Combat Start: When an Attack Skill is equipped, this effect expires and gain 1 Tannery Rule Violation (excluding E.G.O Skills)\n- จบเทิร์น: This effect expires",
+      "name": "กฎ: ห้ามพฤติกรรมจู่โจม",
+      "desc": "- เริ่มการต่อสู้: เมื่อ <color=#ff6000><mark color=#ff000040><b><u>สวมใส่สกิลโจมตี (ยกเว้นสกิล E.G.O)</color></mark></b></u> เอฟเฟกต์นี้จะหมดลง และผู้โจมตีจะได้รับ <sprite name=\"RestrictDenied\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</color> 1 หน่วย\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": ""
     },
     {
       "id": "RestrictDef",
-      "name": "Rule: Defensive Behavior Prohibited",
-      "desc": "- Combat Start: When a Defense Skill is equipped, this effect expires and gain 1 Tannery Rule Violation\n- จบเทิร์น: This effect expires",
+      "name": "กฎ: ห้ามพฤติกรรมตั้งรับ",
+      "desc": "- เริ่มการต่อสู้: เมื่อ <color=#ff6000><mark color=#ff000040><b><u>สวมใส่สกิลตั้งรับ</color></mark></b></u> เอฟเฟกต์นี้จะหมดลง และผู้โจมตีจะได้รับ <sprite name=\"RestrictDenied\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</color> 1 หน่วย\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": ""
     },
     {
       "id": "RestrictDenied",
-      "name": "Tannery Rule Violation",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 1\n- Take +30% damage from the Overseer\n- At this unit's Attack End, the Overseer uses the \"Punishing Burnishing Finishing\" Skill on this unit; then, this effect expires",
+      "name": "ละเมิดกฎโรงฟอกหนัง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- ได้รับความเสียหายจาก \"ผู้คุมงาน\" เพิ่มขึ้น +30%\n- เมื่อการโจมตีของตัวละครนี้เสร็จสิ้น \"ผู้คุมงาน\" จะใช้สกิล \"ลงทัณฑ์ ขัดเงา สำเร็จ\" ใส่ตัวละครนี้ตัวนี้: จากนั้นเอฟเฟกต์นี้จะหมดลง",
       "summary": "",
       "flavor": "The target is a transgressor who has violated the rules by which this world is bound."
     },
     {
       "id": "B3FreshMob",
-      "name": "Uncreased Hide",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 1\n- เริ่มเทิร์น: Gain 20 Shield\n- จบเทิร์น: Gain 2 Protection\n- Expires at Turn End",
+      "name": "หนังสัตว์ไร้รอยยับ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- เริ่มเทิร์น: ได้รับโล่ 20 หน่วย\n- จบเทิร์น: ได้รับ <sprite name=\"Protection\"><color=#f8c200>'คุ้มกัน'</color> 2 หน่วย\n- หมดลงเมื่อจบเทิร์น",
       "summary": "",
       "flavor": "Please handle with care. If you try on a hide garment and bend too much, it will crease... and that lowers its worth."
     },
     {
       "id": "RestrictFailed",
-      "name": "Rule Collapse",
-      "desc": "- Offense Level +3\n- Defense Level -3",
+      "name": "กฎล่มสลาย",
+      "desc": "- เลเวลจู่โจม +3\n- เลเวลตั้งรับ -3",
       "summary": "",
       "flavor": "Do you know the difference between a rule and a law?"
     },
     {
       "id": "targetDye_LowMorale",
-      "name": "Jammed Machine",
-      "desc": "Skills deal -5% damage against targets with slower Speed than this unit's",
+      "name": "เครื่องจักรติดขัด",
+      "desc": "ขวัญอ่อน\n- สกิลสร้างความเสียหายต่อเป้าหมาย ที่มีความเร็วต่ำกว่าตัวละครนี้ลดลง -5%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "targetDye_Panic",
-      "name": "Jammed Machine",
-      "desc": "Skills deal -10% damage against targets with slower Speed than this unit's",
+      "name": "เครื่องจักรติดขัด",
+      "desc": "แตกตื่น\n- สกิลสร้างความเสียหายต่อเป้าหมาย ที่มีความเร็วต่ำกว่าตัวละครนี้ลดลง -10%",
       "summary": "",
       "undefined": "-",
       "flavor": "Can that which moves faster than oneself truly be fixed in place?"
@@ -338,7 +338,7 @@
     },
     {
       "id": "SapsareeGold",
-      "name": "อาบแสงอาทิตย์แสบร้อน [Sous Chef]",
+      "name": "อาบแสงอาทิตย์แสบร้อน [ซูเชฟ]",
       "desc": "- On Skill Use, แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ \"Fiery, Tongue-scorching Sauce\" on target (สูงสุด 3)\n- Gain 15 SP upon killing an ally with this unit's Skill",
       "summary": "",
       "flavor": "\"Sous-chef has a warm, hearty heart, you hear? Sous-chef is stuffed full of confidence, you hear?!\""
