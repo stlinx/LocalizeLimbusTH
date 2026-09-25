@@ -106,7 +106,7 @@
     {
       "id": "LargeTailoringShears",
       "name": "กรรไกรผลิดอก",
-      "desc": "ปริมาณทับซ้อนสูงสุด: 2 หน่วย\n- สร้างความเสียหายแก่ซินเนอร์เพิ่มขึ้น +(5 + ปริมาณทับซ้อน x 5)% (สูงสุด 20%)\n- เมื่อใช้สกิลใส่ซินเนอร์ที่มี <sprite name=\"TailoringTarget\"><color=#9f6a3a>'เป้าหมายตัดแต่ง'</color> แต้มแคลชสกิลจะเพิ่มขึ้นเท่ากับปริมาณทับซ้อน",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- สร้างความเสียหายแก่ซินเนอร์เพิ่มขึ้น +(5 + ปริมาณทับซ้อน x 5)% (สูงสุด 20%)\n- เมื่อใช้สกิลใส่ซินเนอร์ที่มี <sprite name=\"TailoringTarget\"><color=#9f6a3a>'เป้าหมายตัดแต่ง'</color> แต้มแคลชสกิลจะเพิ่มขึ้นเท่ากับปริมาณทับซ้อน",
       "summary": "",
       "flavor": "The scissors used to sever the primordial materials produced underground are larger and more extraordinary still. These scissors have cut and recut the very first cloth ever woven. That flowers should bloom from them is only natural, for they have always cut things at their very roots."
     },
@@ -339,62 +339,62 @@
     {
       "id": "SapsareeGold",
       "name": "อาบแสงอาทิตย์แสบร้อน [ซูเชฟ]",
-      "desc": "- On Skill Use, แต้มปิดท้ายสกิลเพิ่มขึ้น +1 ตามทุก ๆ \"Fiery, Tongue-scorching Sauce\" on target (สูงสุด 3)\n- Gain 15 SP upon killing an ally with this unit's Skill",
+      "desc": "- เมื่อใช้สกิล แต้มปิดท้ายสกิลจะเพิ่มขึ้น +1 แต้ม ตามทุก ๆ <sprite name=\"SapsareeSpices\"><color=#e30000>'ซอสเผาลิ้นเกรียมรุนแรง'</color> บนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n- ได้รับ SP 15 หน่วย เมื่อกำจัดพันธมิตรด้วยสกิลตัวละครนี้",
       "summary": "",
-      "flavor": "\"Sous-chef has a warm, hearty heart, you hear? Sous-chef is stuffed full of confidence, you hear?!\""
+      "flavor": "\"ซูเชฟมีหัวใจอันแสนอบอุ่นจริงใจ ได้ยินแมะ? ซูเชฟนั้นเต็มไปด้วยความมั่นใจ ได้ยินแมะ?!\""
     },
     {
       "id": "GoldenManager",
-      "name": "อาบแสงอาทิตย์แสบร้อน [3F Floor Manager]",
-      "desc": "- Deal +5% damage ตามทุก ๆ Guarded Caution on target (สูงสุด 50%)\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +3 On Skill Use against target that has 0 or less SP",
+      "name": "อาบแสงอาทิตย์แสบร้อน [ผู้จัดการชั้น 3F]",
+      "desc": "- สร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ <sprite name=\"Wariness\"><color=#e30000>'ระมัดระวังรอบคอบ'</color> บนตัวเป้าหมาย (สูงสุด 50%)\n- แต้มเริ่มต้นสกิลเพิ่มขึ้น +3 แต้ม เมื่อใช้สกิลกับเป้าหมายที่มี SP 0 หน่วยหรือต่ำกว่า",
       "summary": "",
-      "flavor": "The sunshine burns hot, yet the cloth cannot be cast aside, and the heart retreats beneath the blankets... deeper beneath the blankets..."
+      "flavor": "แสงอาทิตย์สาดส่องแผดเผาจนร้อน แต่กระนั้นก็ไม่สามารถปัดผ้าออกไปได้ และหัวใจก็ยังคงถอยไปอยู่ใต้ผ้าห่ม... ลึกลงไปใต้ผ้าห่ม..."
     },
     {
       "id": "SisyphusSapphire",
-      "name": "Sapphire",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +2 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +1\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+      "name": "แซฟไฟร์",
+      "desc": "- เมื่อใช้สกิล จะสร้างค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color>, <sprite name=\"Burst\"><color=#e30000>'ฉีกกระชาก'</color>, และ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> แก่ศัตรูเพิ่มขึ้น 1 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> และจำนวน <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> เพิ่มขึ้น +2 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> +10 หน่วยเมื่อได้รับเอฟเฟกต์นี้ (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +1 แต้ม\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม",
       "summary": ""
     },
     {
       "id": "SisyphusOnyx",
-      "name": "Onyx",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +2 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +2\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
+      "name": "โอนิกซ์",
+      "desc": "- เมื่อใช้สกิล จะสร้างค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color>, <sprite name=\"Burst\"><color=#e30000>'ฉีกกระชาก'</color>, และ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> แก่ศัตรูเพิ่มขึ้น 1 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> และจำนวน <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> เพิ่มขึ้น +2 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> +10 หน่วยเมื่อได้รับเอฟเฟกต์นี้ (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม",
       "summary": ""
     },
     {
       "id": "SisyphusDiamond",
-      "name": "Diamond",
-      "desc": "- Skills inflict 1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency against enemies\n- Gain +2 more Count when gaining Charge Count and Poise Count\n- Gain +10 Charge Count when gaining this effect (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +2\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n- Deal +10% damage",
+      "name": "ไดมอนด์",
+      "desc": "- เมื่อใช้สกิล จะสร้างค่า <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, <sprite name=\"Laceration\"><color=#e30000>'เลือดไหล'</color>, <sprite name=\"Vibration\"><color=#e30000>'สั่นเทา'</color>, <sprite name=\"Burst\"><color=#e30000>'ฉีกกระชาก'</color>, และ <sprite name=\"Sinking\"><color=#e30000>'จมดิ่ง'</color> แก่ศัตรูเพิ่มขึ้น 1 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> และจำนวน <sprite name=\"Breath\"><color=#f8c200>'ลมสติ'</color> เพิ่มขึ้น +2 หน่วย\n- ได้รับจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color> +10 หน่วยเมื่อได้รับเอฟเฟกต์นี้ (มีผล 1 ครั้ง/การเผชิญหน้า)\n- แต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n- สร้างความเสียหายเพิ่มขึ้น +10%",
       "summary": ""
     },
     {
       "id": "OutOfControl_LowMorale",
-      "name": "Disabled Overseeing",
-      "desc": "- Low Morale\n- Skill แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n- เริ่มเทิร์น: Apply 1 Attack Power Down to all other allies",
+      "name": "ปิดการคุมงาน",
+      "desc": "ขวัญอ่อน\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n- เริ่มเทิร์น: มอบ <sprite name=\"Reduction\"><color=#e30000>'ลดแต้มสกิลโจมตี'</color> 1 หน่วยแก่พันธมิตรอื่นทั้งหมด",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "OutOfControl_Panic",
-      "name": "Disabled Overseeing",
-      "desc": "- Panic\n- Skill แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n- เริ่มเทิร์น: Apply 1 Attack Power Down and 1 Damage Down to all other allies",
+      "name": "ปิดการคุมงาน",
+      "desc": "แตกตื่น\n- แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม\n- เริ่มเทิร์น: มอบ <sprite name=\"Reduction\"><color=#e30000>'ลดแต้มสกิลโจมตี'</color> 1 หน่วย และ <sprite name=\"AttackDmgDown\"><color=#e30000>'ลดความเสียหาย'</color> 1 หน่วยแก่พันธมิตรอื่นทั้งหมด",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "LaNoirSuperior_LowMorale",
-      "name": "Into the First Shell...",
-      "desc": "- Low Morale\n- Offense Level -2\n- Defense Level +2",
+      "name": "เข้าสู่เปลือกแรก...",
+      "desc": "ขวัญอ่อน\n- เลเวลจู่โจม -2\n- เลเวลตั้งรับ +2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LaNoirSuperior_Panic",
-      "name": "Into the First Shell...",
-      "desc": "- Panic\n- Offense Level -3\n- Defense Level +4",
+      "name": "เข้าสู่เปลือกแรก...",
+      "desc": "ขวัญอ่อน\n- เลเวลจู่โจม -3\n- เลเวลตั้งรับ +4",
       "summary": "",
       "undefined": "-"
     }
