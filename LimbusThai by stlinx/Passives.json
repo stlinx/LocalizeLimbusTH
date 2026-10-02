@@ -1008,12 +1008,12 @@
     {
       "id": 1110701,
       "name": "ไปป์สูบบุหรี่ของพลแม่นปืน",
-      "desc": "หากเลเวลตั้งรับของเป้าหมายหลักนั้นกำลังถูกลดลง 4 หน่วยหรือมากกว่า: ก่อนโจมตีจะได้รับค่า [Breath] จำนวน (ค่า [Combustion] บนตัวเป้าหมาย/2) หน่วย (สูงสุด 20 หน่วย/เทิร์น)"
+      "desc": "หากเลเวลตั้งรับของเป้าหมายหลักนั้นกำลังถูกลดลง 4 หน่วยหรือมากกว่า: ก่อนโจมตีจะได้รับค่า [Breath] (ค่า [Combustion] บนตัวเป้าหมาย / 2) หน่วย (สูงสุด 20 หน่วย/เทิร์น)"
     },
     {
       "id": 1110711,
       "name": "ไปป์สูบบุหรี่ของพลแม่นปืน",
-      "desc": "หากเลเวลตั้งรับของเป้าหมายหลักนั้นกำลังถูกลดลง 4 หน่วยหรือมากกว่า: ก่อนโจมตีจะได้รับค่า [Breath] จำนวน (ค่า [Combustion] บนตัวเป้าหมาย) หน่วย (สูงสุด 20 หน่วย/เทิร์น)"
+      "desc": "หากเลเวลตั้งรับของเป้าหมายหลักนั้นกำลังถูกลดลง 4 หน่วยหรือมากกว่า: ก่อนโจมตีจะได้รับค่า [Breath] (ค่า [Combustion] บนตัวเป้าหมาย) หน่วย (สูงสุด 20 หน่วย/เทิร์น)"
     },
     {
       "id": 1110721,
@@ -3376,21 +3376,21 @@
       "id": 1031504,
       "name": "ขอให้ประสงค์ของพระผู้เป็นเจ้าและค่านิยมนั้นสถิตอยู่กับเรา...",
       "desc": "ก่อนที่ตัวตนพันธมิตร <เลอ นัวร์> คนอื่นจะโจมตีใส่ศัตรู ตัวละครนี้จะใช้สกิล \"พิพากษา!\" เพื่อโจมตีโดยตรงใส่เป้าหมายหลักก่อน (มีผลเทิร์นละครั้ง)\n\nเมื่อเริ่มเหรียญสุดท้ายของสกิลพื้นฐาน เหรียญดังกล่าวจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น +(ค่า [ChargeNoirAlly] ที่ตนเองมี + ([NoirNailDonQuixote] บนตัวเป้าหมาย / 2)) แต้ม (สูงสุด 5 แต้ม)\n\nหากตัวละครนี้มี [OathFieldDonQuixote] สกิลพื้นฐานสกิล 1/2/3 จะมีแต้มแคลชสกิลเพิ่มขึ้น +1/+2/+3 แต้มตามลำดับ\n\nเมื่อทำให้เกิด [VibrationExplosion] กับเป้าหมายที่มี [NoirNailDonQuixote] จะทำให้ตัวละครนี้และพันธมิตร [PersonalityCharge] อื่น 1 คนที่มีจำนวน [Charge] ต่ำที่สุดได้รับจำนวน [Charge] +2 หน่วย (มีผล 2 ครั้ง/เทิร์น)",
-      "summary": "Use \"Judgment!\" Skill before a \"Le Noir\" ally attacks\nBase Skill final Coins gain Final Power\nIf [OathFieldDonQuixote] is active, Base Skills gain Clash Power\nGain [Charge] Count when triggering [VibrationExplosion] on targets that have [NoirNailDonQuixote]",
+      "summary": "ก่อนที่ตัวตนพันธมิตร <เลอ นัวร์> คนอื่นจะโจมตีใส่ศัตรู ตัวละครนี้จะใช้สกิล \"พิพากษา!\"\nเหรียญสุดท้ายของสกิลพื้นฐานจะมีแต้มปิดท้ายสกิลเพิ่มขึ้น\nหาก [OathFieldDonQuixote] กำลังทำงาน สกิลพื้นฐานจะมีแต้มแคลชสกิลเพิ่มขึ้น\nได้รับจำนวน [Charge] เมื่อทำให้เกิด [VibrationExplosion] กับเป้าหมายที่มี [NoirNailDonQuixote]",
       "flavor": "The Obsidian God's words be our guiding light, our armor and shield in this troubled world of uncertainties; becometh His Voice the shining beam of light upon us, thereby bestowing us with meaning so coveted."
     },
     {
       "id": 1031511,
       "name": "พันธสัญญาของท่านเทพออบซิเดียน",
       "desc": "จบการต่อสู้: หากตัวละครนี้มี [OathFieldDonQuixote] จะได้รับ [Agility] 2 หน่วยในเทิร์นถัดไป\n\nสกิลโจมตีพื้นฐานของตัวละครนี้สร้างความเสียหายแก่เป้าหมายหลักเพิ่มขึ้น +(ค่า [ChargeNoirAlly] ที่ตนเองมี x 6)% (สูงสุด 30%)",
-      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
+      "summary": "หากมี [OathFieldDonQuixote] จะได้รับ [Agility] ในเทิร์นถัดไป\nสกิลโจมตีพื้นฐานของตัวละครนี้สร้างความเสียหายแก่เป้าหมายหลักเพิ่มขึ้น",
       "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
     },
     {
       "id": 1031521,
       "name": "สงวนคุ้มครองกระบวนทัพ",
       "desc": "พันธมิตร [PersonalityCharge] ทั้งหมดจะได้รับความเสียหายลดลง -2% ในเทิร์นนี้ ตามจำนวนพันธมิตร [PersonalityCharge] ทั้งหมดบนสนามเมื่อเริ่มการต่อสู้ (สูงสุด -10%)",
-      "summary": "Allied [PersonalityCharge] take less damage"
+      "summary": "พันธมิตร [PersonalityCharge] ได้รับความเสียหายลดลง"
     }
   ]
 }

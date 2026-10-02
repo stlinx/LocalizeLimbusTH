@@ -10,29 +10,29 @@
     {
       "id": 148501,
       "name": "Vicarius Dei",
-      "desc": "Apply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 30\n\nEncounter Start:\n- Begin with 50% HP\n- Gain 2 [UnstableConnection]\n\nOn Turn 3, use a powerful Skill\n- During that turn, when hit by a Sinner, gain 1 [ParryingResultDown] (once per Sinner)\n\nWhen this unit's HP drops to 1 or below, or at the end of the turn 3, enter a new Phase",
+      "desc": "Apply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 30\n\nEncounter Start:\n- Begin with 50% HP\n- Gain 2 [UnstableConnection]\n\nOn Turn 3, use a powerful Skill\n- During that turn, when hit by a Sinner, gain 1 [ParryingResultDown] (มีผล 1 ครั้ง/ซินเนอร์)\n\nWhen this unit's HP drops to 1 or below, or at the end of the turn 3, enter a new Phase",
       "flavor": "The Vicar of the Obsidian God who visits punishment upon those who have gone astray.",
       "summary": "Use a powerful Skill on Turn 3\nChange the phase at the end of Turn 3"
     },
     {
       "id": 148502,
       "name": "Hallowed Candles of Retribution",
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Summon 2 Candle of Retribution</u></b></mark></color>\n- Summon <color=#ff6000><mark=#ff000040><b><u>+1 more Candle of Retribution</u></b></mark></color> at Turn Start with every passing turn\n- Up to 4 Candles of Retribution can exist simultaneously on the field\n\nEvery time a Candle of Retribution is destroyed, the Warden gains 1 [Vulnerable]\n\nOn Skill Use:\n- <color=#ff6000><mark=#ff000040><b><u>If the main target has 1 Speed, convert all Coins on this unit's Skill into [SuperCoin]s, gain Final Power +2, and deal +100% damage</u></b></mark></color>\n- If there are no Candles of Retribution on the field, Clash Power -1",
+      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Summon 2 Candle of Retribution</u></b></mark></color>\n- Summon <color=#ff6000><mark=#ff000040><b><u>+1 more Candle of Retribution</u></b></mark></color> at Turn Start with every passing turn\n- Up to 4 Candles of Retribution can exist simultaneously on the field\n\nEvery time a Candle of Retribution is destroyed, the Warden gains 1 [Vulnerable]\n\nOn Skill Use:\n- <color=#ff6000><mark=#ff000040><b><u>If the main target has 1 Speed, convert all Coins on this unit's Skill into [SuperCoin]s, gain แต้มปิดท้ายสกิลเพิ่มขึ้น +2, and deal +100% damage</u></b></mark></color>\n- If there are no Candles of Retribution on the field, แต้มแคลชสกิลลดลง -1",
       "flavor": "The candle that smites those sinful ones who dare defy the fate allotted by the department store.",
       "summary": "Summon Candle of Retribution every turn, gain [Vulnerable] when Candle is destroyed\nIf the main target has 1 Speed, strengthen the Skill"
     },
     {
       "id": 148503,
       "name": "Tears shall soak the cloth",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, when [Sinking] effects trigger, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 [Sinking] Count (2 per turn per Sinner)",
-      "summary": "Take Gloom damage from [Sinking] instead of losing SP\nWhen hit, the attacker gains [Sinking] Count"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, when [Sinking] effects trigger, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 จำนวนครั้ง [Sinking] (2 per turn per Sinner)",
+      "summary": "Take Gloom damage from [Sinking] instead of losing SP\nWhen hit, the attacker gains จำนวนครั้ง [Sinking]"
     },
     {
       "id": 148504,
       "name": "Perfect Conservation",
-      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n\nTurn Start: At fewer than 3 [ChargeNoir] Potency and fewer than 10 [ChargeNoir] Count, gain +5 [ChargeNoir] Count\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger",
+      "desc": "Gain 1 [ChargeNoir] ค่า ตามทุก ๆ 10 cumulative [ChargeNoir] จำนวน this unit consumes in this Encounter\n\nTurn Start: At fewer than 3 [ChargeNoir] ค่า and fewer than 10 [ChargeNoir] จำนวน, gain +5 [ChargeNoir] จำนวน\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger",
       "flavor": "Within the Sisyphe System, conservation itself is preserved perfectly.",
-      "summary": "Gain [ChargeNoir] Potency when consuming [ChargeNoir] Count cumulatively\n[ChargeNoir] Count is not lost at Turn End"
+      "summary": "Gain [ChargeNoir] ค่า when consuming [ChargeNoir] จำนวน cumulatively\n[ChargeNoir] จำนวน is not lost at Turn End"
     },
     {
       "id": 152001,
@@ -57,14 +57,14 @@
     {
       "id": 148605,
       "name": "Implements of Confession",
-      "desc": "When the Warden inflicts [ConfessionSecondPhase] on Sinners using its Skill effects, apply the following:\n- The following effects are <color=#ff6000><mark=#ff000040><b><u>collectively referred to as [ConfessionSecondPhase]:</u></b></mark></color>\n  · [RestrainingNailSecondPhase]\n  · [ExecutionNailSecondPhase]\n  · [CeremonialNail]\n  · [MarkingNail]\n- When the Warden inflicts Nail[TabExplain] or Hammernail on the Sinners, <color=#ff6000><mark=#ff000040><b><u>only the effect that is inflicted last remains</u></b></mark></color>; however, Stacks between Nail[TabExplain] and Hammernail accumulate\n- <color=#ff6000><mark=#ff000040><b><u>Hammernail does not convert into Nail[TabExplain]</u></b></mark></color>\n\nOn Hit against a Sinner, <color=#ff6000><mark=#ff000040><b><u>deal +3% damage for every [ConfessionSecondPhase] on target</u></b></mark></color> (max 27%, separately for each target)\n\nTurn Start: <color=#ff6000><mark=#ff000040><b><u>If the Warden has 50% or lower HP</u></b></mark></color>, all Skills inflict <color=#ff6000><mark=#ff000040><b><u>+1 more [ConfessionSecondPhase]</u></b></mark></color>",
+      "desc": "When the Warden inflicts [ConfessionSecondPhase] on Sinners using its Skill effects, apply the following:\n- The following effects are <color=#ff6000><mark=#ff000040><b><u>collectively referred to as [ConfessionSecondPhase]:</u></b></mark></color>\n  · [RestrainingNailSecondPhase]\n  · [ExecutionNailSecondPhase]\n  · [CeremonialNail]\n  · [MarkingNail]\n- When the Warden inflicts Nail[TabExplain] or Hammernail on the Sinners, <color=#ff6000><mark=#ff000040><b><u>only the effect that is inflicted last remains</u></b></mark></color>; however, Stacks between Nail[TabExplain] and Hammernail accumulate\n- <color=#ff6000><mark=#ff000040><b><u>Hammernail does not convert into Nail[TabExplain]</u></b></mark></color>\n\nOn Hit against a Sinner, <color=#ff6000><mark=#ff000040><b><u>deal +3% damage ตามทุก ๆ [ConfessionSecondPhase] on target</u></b></mark></color> (สูงสุด 27%, separately for each target)\n\nTurn Start: <color=#ff6000><mark=#ff000040><b><u>If the Warden has 50% or lower HP</u></b></mark></color>, all Skills inflict <color=#ff6000><mark=#ff000040><b><u>+1 more [ConfessionSecondPhase]</u></b></mark></color>",
       "summary": "Deal more damage based on [ConfessionSecondPhase] on target\nAt 50%- HP, inflict more [ConfessionSecondPhase]"
     },
     {
       "id": 148601,
       "name": "As Ordained by the Rule of Conservation",
-      "desc": "Apply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 30\n\nFirst Turn Start after entry:\n- Change SP to 45\n- Gain 0 [EncompassingVoiceSecondPhase] and 1 [LeaderVoiceSecondPhase]\n- [ChargeNoir] Potency and Count carry over from the preceding Phase",
-      "summary": "[PanicChangeLock]\n[ChargeNoir] Potency and Count carry over from the preceding Phase"
+      "desc": "Apply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 30\n\nFirst Turn Start after entry:\n- Change SP to 45\n- Gain 0 [EncompassingVoiceSecondPhase] and 1 [LeaderVoiceSecondPhase]\n- [ChargeNoir] ค่า and Count carry over from the preceding Phase",
+      "summary": "[PanicChangeLock]\n[ChargeNoir] ค่า and Count carry over from the preceding Phase"
     },
     {
       "id": 148602,
@@ -76,15 +76,15 @@
     {
       "id": 148603,
       "name": "Tears shall soak the cloth, cloth shall close about the throat...",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 [Sinking] Count (2 times per turn per Sinner)\n\nThis unit cannot gain [Breath] Potency past 20; <color=#ff6000><mark=#ff000040><b><u>instead, heal SP equal to excess [Breath] Potency gained</u></b></mark></color>",
-      "summary": "Take Gloom damage from [Sinking] instead of losing SP\nWhen hit, the attacker gains [Sinking] Count"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 จำนวนครั้ง [Sinking] (2 times per turn per Sinner)\n\nThis unit cannot gain [Breath] ค่า past 20; <color=#ff6000><mark=#ff000040><b><u>instead, heal SP equal to excess [Breath] ค่า gained</u></b></mark></color>",
+      "summary": "Take Gloom damage from [Sinking] instead of losing SP\nWhen hit, the attacker gains จำนวนครั้ง [Sinking]"
     },
     {
       "id": 148604,
       "name": "Perfect Conservation",
-      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n\nTurn Start: At fewer than 5 [ChargeNoir] Potency and fewer than 10 [ChargeNoir] Count, gain +5 [ChargeNoir] Count\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger\n\nAt 5+/10+ [ChargeNoir] Potency, [ChargeNoir] Count max cap +5/+10",
+      "desc": "Gain 1 [ChargeNoir] ค่า ตามทุก ๆ 10 cumulative [ChargeNoir] จำนวน this unit consumes in this Encounter\n\nTurn Start: At fewer than 5 [ChargeNoir] ค่า and fewer than 10 [ChargeNoir] จำนวน, gain +5 [ChargeNoir] จำนวน\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger\n\nAt 5+/10+ [ChargeNoir] ค่า, [ChargeNoir] จำนวน max cap +5/+10",
       "flavor": "Within the Sisyphe System, conservation itself is preserved perfectly.",
-      "summary": "Gain [ChargeNoir] Potency when consuming [ChargeNoir] Count cumulatively\n[ChargeNoir] Count is not lost at Turn End"
+      "summary": "Gain [ChargeNoir] ค่า when consuming [ChargeNoir] จำนวน cumulatively\n[ChargeNoir] จำนวน is not lost at Turn End"
     },
     {
       "id": 148711,
@@ -96,14 +96,14 @@
     {
       "id": 148705,
       "name": "Sisyphe System Maintenance Tool",
-      "desc": "When the Chaplain inflicts [ConfessionThirdPhase] on Sinners using its Skill effects, apply the following:\n- The following effects are <color=#ff6000><mark=#ff000040><b><u>collectively referred to as [ConfessionThirdPhase]</u></b></mark></color>:\n  · [RestrainingNailThirdPhase]\n  · [ExecutionNailThirdPhase]\n  · [GoldenNail]\n- When the Chaplain inflicts Nail[TabExplain] on the Sinners, <color=#ff6000><mark=#ff000040><b><u>only the effect that is inflicted last remains</u></b></mark></color>; however, Stacks between effects accumulate\n<color=#ff6000><mark=#ff000040><b><u>- [RestrainingNailThirdPhase] and [ExecutionNailThirdPhase] do not convert into [GoldenNail]</u></b></mark></color>\n\nOn Hit against a Sinner, <color=#ff6000><mark=#ff000040><b><u>deal +5% damage for every [ConfessionThirdPhase]</u></b></mark></color> on target (max 45%, separately for each target)\n\nTurn Start: <color=#ff6000><mark=#ff000040><b><u>If the Chaplain has 50% or lower HP</u></b></mark></color>, all Skills inflict <color=#ff6000><mark=#ff000040><b><u>+1 more [ConfessionThirdPhase]</u></b></mark></color>",
+      "desc": "When the Chaplain inflicts [ConfessionThirdPhase] on Sinners using its Skill effects, apply the following:\n- The following effects are <color=#ff6000><mark=#ff000040><b><u>collectively referred to as [ConfessionThirdPhase]</u></b></mark></color>:\n  · [RestrainingNailThirdPhase]\n  · [ExecutionNailThirdPhase]\n  · [GoldenNail]\n- When the Chaplain inflicts Nail[TabExplain] on the Sinners, <color=#ff6000><mark=#ff000040><b><u>only the effect that is inflicted last remains</u></b></mark></color>; however, Stacks between effects accumulate\n<color=#ff6000><mark=#ff000040><b><u>- [RestrainingNailThirdPhase] and [ExecutionNailThirdPhase] do not convert into [GoldenNail]</u></b></mark></color>\n\nOn Hit against a Sinner, <color=#ff6000><mark=#ff000040><b><u>deal +5% damage ตามทุก ๆ [ConfessionThirdPhase]</u></b></mark></color> on target (สูงสุด 45%, separately for each target)\n\nTurn Start: <color=#ff6000><mark=#ff000040><b><u>If the Chaplain has 50% or lower HP</u></b></mark></color>, all Skills inflict <color=#ff6000><mark=#ff000040><b><u>+1 more [ConfessionThirdPhase]</u></b></mark></color>",
       "flavor": "\"According to the manual... when this happens, everything has to be readjusted. It's all been laid out in the regulations already. You can see it right here in the manual... ah. Right. You can't see this from where you are.\"",
       "summary": "Deal more damage based on [ConfessionThirdPhase] on target\nAt 50%- HP, inflict more [ConfessionThirdPhase]"
     },
     {
       "id": 148701,
       "name": "\"As Ordained by the Rule of Conservation\"",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>At 10+ Clashes</u></b></mark></color>, the said Skill <color=#ff6000><mark=#ff000040><b><u>gains Clash Power by (Clash Count)</u></b></mark></color>\n\nFor [Combustion], [Laceration], [Vibration], [Burst], [Sinking]:\n- <color=#ff6000><mark=#ff000040><b><u>Max Potency cap: 50\n- Max Count cap: 15</u></b></mark></color>\n- Take -50% damage from above effects\n\nApply the [PanicChangeLock] effect, and <color=#ff6000><mark=#ff000040><b><u>this unit's SP does not drop below 0</u></b></mark></color>\n\nFirst Turn Start after entry:\n- Change SP to 45\n- Gain 0 [EncompassingVoiceThirdPhase] and 1 [LeaderVoiceThirdPhase]\n- [ChargeNoir] Potency and Count carry over from the preceding Phase",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>At 10+ Clashes</u></b></mark></color>, the said Skill <color=#ff6000><mark=#ff000040><b><u>gains Clash Power by (Clash Count)</u></b></mark></color>\n\nFor [Combustion], [Laceration], [Vibration], [Burst], [Sinking]:\n- <color=#ff6000><mark=#ff000040><b><u>Max Potency cap: 50\n- Max Count cap: 15</u></b></mark></color>\n- Take -50% damage from above effects\n\nApply the [PanicChangeLock] effect, and <color=#ff6000><mark=#ff000040><b><u>this unit's SP does not drop below 0</u></b></mark></color>\n\nFirst Turn Start after entry:\n- Change SP to 45\n- Gain 0 [EncompassingVoiceThirdPhase] and 1 [LeaderVoiceThirdPhase]\n- [ChargeNoir] ค่า and Count carry over from the preceding Phase",
       "summary": "At 10+ Clash Count, gain Clash Power\nTake less damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]"
     },
     {
@@ -116,34 +116,34 @@
     {
       "id": 148703,
       "name": "Tears shall soak the cloth, cloth shall close about the throat... now I can't even remember what's next.",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, when [Sinking] effects trigger, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 [Sinking] Count (2 per turn per Sinner)\n\nThis unit cannot gain [Breath] Potency past 20; <color=#ff6000><mark=#ff000040><b><u>instead, heal SP equal to excess [Breath] Potency gained</u></b></mark></color>\n\nWhen triggering [VibrationExplosion] on Sinners, <color=#ff6000><mark=#ff000040><b><u>if the targeted Sinner does not have a Stagger Threshold</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>deal ([Vibration] Potency on target / 2) Sloth damage</u></b></mark></color> (except Staggered targets; calculated separately for each target)",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>This unit does not lose SP from [Sinking] effects</u></b></mark></color>; instead, when [Sinking] effects trigger, this unit takes Gloom damage equal to Sinking Potency\n\nWhen hit by a Sinner, the said Sinner gains +1 จำนวนครั้ง [Sinking] (2 per turn per Sinner)\n\nThis unit cannot gain [Breath] ค่า past 20; <color=#ff6000><mark=#ff000040><b><u>instead, heal SP equal to excess [Breath] ค่า gained</u></b></mark></color>\n\nWhen triggering [VibrationExplosion] on Sinners, <color=#ff6000><mark=#ff000040><b><u>if the targeted Sinner does not have a Stagger Threshold</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>deal ([Vibration] ค่า on target / 2) Sloth damage</u></b></mark></color> (except Staggered targets; calculated separately for each target)",
       "flavor": "“About time you started 'praying,' don't you think?”",
-      "summary": "When hit, inflict [Sinking] Count on the attacker\nOn [VibrationExplosion], deal Sloth damage if target does not have a Stagger Threshold"
+      "summary": "When hit, inflict จำนวนครั้ง [Sinking] on the attacker\nOn [VibrationExplosion], deal Sloth damage if target does not have a Stagger Threshold"
     },
     {
       "id": 148704,
       "name": "Perfect Conservation",
-      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n\nTurn Start: At fewer than 10 [ChargeNoir] Potency and fewer than 10 [ChargeNoir] Count, gain +5 [ChargeNoir] Count\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger\n\nAt 5+/10+ [ChargeNoir] Potency, [ChargeNoir] Count max cap +5/+10",
+      "desc": "Gain 1 [ChargeNoir] ค่า ตามทุก ๆ 10 cumulative [ChargeNoir] จำนวน this unit consumes in this Encounter\n\nTurn Start: At fewer than 10 [ChargeNoir] ค่า and fewer than 10 [ChargeNoir] จำนวน, gain +5 [ChargeNoir] จำนวน\n\nThe \"Turn End: Lose 1 Count\" effect on [ChargeNoir] does not trigger\n\nAt 5+/10+ [ChargeNoir] ค่า, [ChargeNoir] จำนวน max cap +5/+10",
       "flavor": "Within the Sisyphe System, conservation itself is preserved perfectly.",
-      "summary": "Gain [ChargeNoir] Potency when consuming [ChargeNoir] Count cumulatively\n[ChargeNoir] Count is not lost at Turn End"
+      "summary": "Gain [ChargeNoir] ค่า when consuming [ChargeNoir] จำนวน cumulatively\n[ChargeNoir] จำนวน is not lost at Turn End"
     },
     {
       "id": 148706,
       "name": "All right. Time to clock out.",
-      "desc": "Turn End: At more than 10 [ChargeNoir] Potency, consume excess [ChargeNoir] Potency and gain ([ChargeNoir] Potency consumed) [Dominion]\n- This effect does not trigger again after all [Dominion] has been consumed by the effects of this Passive\n\nWhen this unit's HP drops to <color=#ff6000><mark=#ff000040><b><u>33% or lower for the first time in this Encounter, gain a new pattern</u></b></mark></color>\n- Consume all [Dominion] on self and <color=#ff6000><mark=#ff000040><b><u>gain persistent Shield equal to (25 + [Dominion] Stack)% of this unit's max HP</u></b></mark></color>\n- Permanently lose Defense Level equal to [Dominion] Stack consumed",
+      "desc": "Turn End: At more than 10 [ChargeNoir] ค่า, consume excess [ChargeNoir] ค่า and gain ([ChargeNoir] ค่า consumed) [Dominion]\n- This effect does not trigger again after all [Dominion] has been consumed by the effects of this Passive\n\nWhen this unit's HP drops to <color=#ff6000><mark=#ff000040><b><u>33% or lower for the first time in this Encounter, gain a new pattern</u></b></mark></color>\n- Consume all [Dominion] on self and <color=#ff6000><mark=#ff000040><b><u>gain persistent Shield equal to (25 + [Dominion] Stack)% of this unit's max HP</u></b></mark></color>\n- Permanently lose Defense Level equal to [Dominion] Stack consumed",
       "flavor": "\"Say what you want, the Sisyphe System is something N Corp. absolutely needs. If this system goes down... we're back to barbarism.\"\n\n\"So, just like the manual says, you don't get to leave this department store. No exceptions.\"",
-      "summary": "Convert 10 surplus [ChargeNoir] Potency into [Dominion]\nAt 33% or lower HP, change the pattern and gain Shield"
+      "summary": "Convert 10 surplus [ChargeNoir] ค่า into [Dominion]\nAt 33% or lower HP, change the pattern and gain Shield"
     },
     {
       "id": 152201,
       "name": "โมแวซ ฟัว (Mauvaise Foi)",
-      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n- The \"Turn End: Lose 1 Count\" effect on [ChargeKhaki] does not trigger\n\nTurn End: Gain [Breath] Potency equal to [ChargeKhaki] Count on self (max 10)\nTurn End: Gain [Breath] Count equal to [ChargeKhaki] Potency on self (max 5)\n\nTake -60% damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]\n- Stagger Threshold raised from [Vibration] -60%\n\nAt 10+ Clashes against the same target, gain Clash Power by (Clash Count / 10)",
+      "desc": "Gain 1 [ChargeKhaki] ค่า ตามทุก ๆ 10 cumulative [ChargeKhaki] จำนวน this unit consumes in this Encounter\n- The \"Turn End: Lose 1 Count\" effect on [ChargeKhaki] does not trigger\n\nTurn End: Gain [Breath] ค่า equal to [ChargeKhaki] จำนวน on self (สูงสุด 10)\nTurn End: Gain จำนวนครั้ง [Breath] equal to [ChargeKhaki] ค่า on self (สูงสุด 5)\n\nTake -60% damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]\n- Stagger Threshold raised from [Vibration] -60%\n\nAt 10+ Clashes against the same target, gain Clash Power by (Clash Count / 10)",
       "flavor": "หลอกตน\n\nหนีจากโลก โลกแห่งความกลัวและความวิตกกังวล หนีไปแล้วหนีไปอีกครั้ง \n\nเมื่อการหลบหนีได้ขึ้นพามาบนเวที จากการตอกตัวเองให้อยู่เป็นที่ เหมือนกับนักแสดงที่ยืนบนเวที สวมบทบาทของตนเองอย่างสมบูรณ์ จมดิ่งไปในบทแล้วหลอกตน"
     },
     {
       "id": 152202,
       "name": "ยังคงจำจังหวะของวอลซ์ได้ไหม?",
-      "desc": "At 4+ Clashes in the same Clash:\n- From the 3rd Clash, the winner of the 3rd Clash deals +15% damage for every 4th Clash won (3 times max)\n- If the Skill that won the Clash won the first Clash, Final Power +1",
+      "desc": "At 4+ Clashes in the same Clash:\n- From the 3rd Clash, the winner of the 3rd Clash deals +15% damage ตามทุก ๆ 4th Clash won (3 times max)\n- If the Skill that won the Clash won the first Clash, แต้มปิดท้ายสกิลเพิ่มขึ้น +1",
       "flavor": "เป็นประสบการณ์ที่เรามีร่วมกันนี่นะ"
     },
     {
@@ -161,7 +161,7 @@
     {
       "id": 152301,
       "name": "ยังคงจำประสบการณ์ของวอลซ์ได้ไหม?",
-      "desc": "Does not take any damage for this Phase\n\nTurn Start (once per Encounter): \n- Jeanne gains 1 [JeannePartnerTwo] and 1 [JeannePathos]\n- Meursault gains 1 [JeannePartner] and 1 [JeanneLogos]\n\nWhen attacked by Unopposed Attacks, or when losing a Clash, activate the \"We had our little quarrels, yes.\" Skill\n<color=#ff6000><mark color=#ff000040><b><u>Generate a unique Skill in Meursault's upper Skill Slot</color></mark></b></u>",
+      "desc": "Does not take any damage for this Phase\n\nTurn Start (มีผล 1 ครั้ง/การเผชิญหน้า): \n- Jeanne gains 1 [JeannePartnerTwo] and 1 [JeannePathos]\n- Meursault gains 1 [JeannePartner] and 1 [JeanneLogos]\n\nWhen attacked by Unopposed Attacks, or when losing a Clash, activate the \"We had our little quarrels, yes.\" Skill\n<color=#ff6000><mark color=#ff000040><b><u>Generate a unique Skill in Meursault's upper Skill Slot</color></mark></b></u>",
       "flavor": "วอลซ์ที่อยู่ในความทรงจำ เรามาสัมผัสประสบการณ์นั้นอีกครั้งกันเถอะ"
     },
     {
@@ -185,7 +185,7 @@
     {
       "id": 152501,
       "name": "พิมพ์เขียวเครื่องแต่งกายเต็มยศ",
-      "desc": "During the Encounter, <color=#ff6000><mark color=#ff000040><b><u>immediately before taking a hit for the first time</color></mark></b></u>, <color=#ff6000><mark color=#ff000040><b><u>use the equipped \"Department Store Blueprint\"</color></mark></b></u> regardless of how this unit's Skills are Chained (once per turn)\n\nTake -50% damage from Base Skills\n\n<color=#ff6000><mark color=#ff000040><b><u>Take +100% damage from E.G.O Skills</color></mark></b></u>\n\nThis unit is defeated when hit by the \"Focusing\" Skill of \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\"",
+      "desc": "During the Encounter, <color=#ff6000><mark color=#ff000040><b><u>immediately before taking a hit for the first time</color></mark></b></u>, <color=#ff6000><mark color=#ff000040><b><u>use the equipped \"Department Store Blueprint\"</color></mark></b></u> regardless of how this unit's Skills are Chained (มีผลเทิร์นละครั้ง)\n\nTake -50% damage from Base Skills\n\n<color=#ff6000><mark color=#ff000040><b><u>Take +100% damage from E.G.O Skills</color></mark></b></u>\n\nThis unit is defeated when hit by the \"Focusing\" Skill of \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\"",
       "flavor": "This is the department store's blueprint."
     },
     {
@@ -197,24 +197,24 @@
     {
       "id": 152601,
       "name": "ลวดลาย: พิมพ์เขียวแกรนด์ มากาแซ็ง ซิซีฟัส",
-      "desc": "When Clashing against the same target, Clash Power +1 for every 10 Clashes\n\nStarting from the turn after this unit enters the field, 1 Blueprint unit enters the <color=#ff6000><mark color=#ff000040><b><u>\"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state</color></mark></b></u>\n- Prioritize the Blueprint unit that does not have [Vulnerable]\n- Exclude the Blueprint unit that entered the \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state on the previous turn\n- If Staggered, recover from Stagger\n\nWhen entering the \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state, use the <color=#ff6000><mark color=#ff000040><b><u>\"อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว\" Skill</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>If Meursault's Skill wins the Clash</color></mark></b></u> against \"อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว\", the said Blueprint unit <color=#ff6000><mark color=#ff000040><b><u>gains 5 [Vulnerable] every turn</color></mark></b></u> starting from the next turn\n\nWhen a Blueprint unit is defeated,\n- <color=#ff6000><mark color=#ff000040><b><u>Jeanne loses 5% HP</color></mark></b></u>\n- All other Blueprint units gain 1 [JeanneBlueprint]"
+      "desc": "When Clashing against the same target, แต้มแคลชสกิลเพิ่มขึ้น +1 ตามทุก ๆ 10 Clashes\n\nStarting from the turn after this unit enters the field, 1 Blueprint unit enters the <color=#ff6000><mark color=#ff000040><b><u>\"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state</color></mark></b></u>\n- Prioritize the Blueprint unit that does not have [Vulnerable]\n- Exclude the Blueprint unit that entered the \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state on the previous turn\n- If Staggered, recover from Stagger\n\nWhen entering the \"ช่างตัดเย็บ ฌานน์-มารี ซาทร์\" state, use the <color=#ff6000><mark color=#ff000040><b><u>\"อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว\" Skill</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>If Meursault's Skill wins the Clash</color></mark></b></u> against \"อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว\", the said Blueprint unit <color=#ff6000><mark color=#ff000040><b><u>gains 5 [Vulnerable] every turn</color></mark></b></u> starting from the next turn\n\nWhen a Blueprint unit is defeated,\n- <color=#ff6000><mark color=#ff000040><b><u>Jeanne loses 5% HP</color></mark></b></u>\n- All other Blueprint units gain 1 [JeanneBlueprint]"
     },
     {
       "id": 152602,
       "name": "กระบวนการเผาผลาญ",
-      "desc": "Gain 1 [ChargeRouge] Potency for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter\n\nThis unit's Skill effects cannot drop this unit's HP below 1",
+      "desc": "Gain 1 [ChargeRouge] ค่า ตามทุก ๆ 10 cumulative [ChargeRouge] จำนวน this unit consumes in this Encounter\n\nThis unit's Skill effects cannot drop this unit's HP below 1",
       "flavor": "Consume, replenish, deplete, then consume again.\nSimple repetitions are born of yearning."
     },
     {
       "id": 152701,
       "name": "การคงสภาพ",
-      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter",
+      "desc": "Gain 1 [ChargeNoir] ค่า ตามทุก ๆ 10 cumulative [ChargeNoir] จำนวน this unit consumes in this Encounter",
       "flavor": "Force is compressed, gathered, and fixed in place. Sometimes, it takes more force to prevent change than to cause it."
     },
     {
       "id": 151701,
       "name": "La Jouissance Autre",
-      "desc": "Turn End: Does not lose [ChargeRouge] Count\nGain +1 [ChargeRouge] Count every time [Laceration] effect is activated in an Encounter\nTurn Start: Heal 2 SP for every [ChargeRouge] Count on self",
+      "desc": "Turn End: Does not lose [ChargeRouge] จำนวน\nGain +1 [ChargeRouge] จำนวน every time [Laceration] effect is activated in an Encounter\nTurn Start: Heal 2 SP ตามทุก ๆ [ChargeRouge] จำนวน on self",
       "flavor": "A throbbing felt through the whole body, yet beyond the reach of words—the totality of every pulsation born of one's very nature.",
       "summary": "Gain Pulsation Count"
     },
@@ -234,13 +234,13 @@
     {
       "id": 151704,
       "name": "Pouvoirs de la vie",
-      "desc": "If an ally becomes Staggered due to damage, use the \"Le Manque-à-être\" Skill on the said ally (once per turn)\n\nIf an ally is defeated, summon a Ripped Flesh of the Crimson God that has 3 [BuffetRevival] at the next Turn Start",
+      "desc": "If an ally becomes Staggered due to damage, use the \"Le Manque-à-être\" Skill on the said ally (มีผลเทิร์นละครั้ง)\n\nIf an ally is defeated, summon a Ripped Flesh of the Crimson God that has 3 [BuffetRevival] at the next Turn Start",
       "flavor": "The violence by which things are brought into being. The God of the Rouges possesses the authority of birth.\n\nWhere does consciousness go when we die? And before we are born, from where does it emerge?\n\nTo send it back to that place, or to tear it forth from there... both are workings of the same violent power."
     },
     {
       "id": 151705,
       "name": "La Jouissance phallique",
-      "desc": "Turn Start: If this unit does not have [BuffetRouge] and is at 15+ [ChargeRouge] Count, consume all [ChargeRouge] Count and gain 3 [BuffetRouge]; then, heal 2 SP for every [ChargeRouge] Count consumed\n\nIf this unit does not have [BuffetRouge] and is at 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count on Skill Use to gain Coin Power +2",
+      "desc": "Turn Start: If this unit does not have [BuffetRouge] and is at 15+ [ChargeRouge] จำนวน, consume all [ChargeRouge] จำนวน and gain 3 [BuffetRouge]; then, heal 2 SP ตามทุก ๆ [ChargeRouge] จำนวน consumed\n\nIf this unit does not have [BuffetRouge] and is at 10+ [ChargeRouge] จำนวน, consume 10 [ChargeRouge] จำนวน on Skill Use to gain แต้มเหรียญเพิ่มขึ้น +2",
       "flavor": "There are conditions to tasting the pleasures of life, and as it is with all things conditional, this carnal pleasure is fated to fail.\n\nThe stipulated limits and end have deemed it so.",
       "summary": "Consume Pulsation Count to gain Coin Power"
     },
@@ -253,7 +253,7 @@
     {
       "id": 151707,
       "name": "Le Besoin",
-      "desc": "Gain 1 Pulsation Potency for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter\n\nGain all of the following effects based on [ChargeRouge] Potency on self:\n- 1+: Deal +([ChargeRouge] Potency x 20)% damage if this unit's Speed is faster than the target's\n- 2+: Skill Final Power +1\n- 3+: Skills inflict +1 more [Laceration] Potency\n- 4+: Skill Coin Power +1\n- 5+: Do not lose [BuffetRouge] Stack on self",
+      "desc": "Gain 1 Pulsation Potency ตามทุก ๆ 10 cumulative [ChargeRouge] จำนวน this unit consumes in this Encounter\n\nGain all of the following effects based on [ChargeRouge] ค่า on self:\n- 1+: Deal +([ChargeRouge] ค่า x 20)% damage if this unit's Speed is faster than the target's\n- 2+: Skill แต้มปิดท้ายสกิลเพิ่มขึ้น +1\n- 3+: Skills inflict +1 more [Laceration] ค่า\n- 4+: Skill แต้มเหรียญเพิ่มขึ้น +1\n- 5+: Do not lose [BuffetRouge] Stack on self",
       "flavor": "The destined and inevitable desire of those who live, those who are birthed.\nA curselike need, its inescapability threaded by fate.",
       "summary": "Enhance Skills based on Pulsation Potency"
     },
@@ -266,19 +266,19 @@
     {
       "id": 152101,
       "name": "Emptiness Begets Satiation",
-      "desc": "Gain 1 [ChargeRouge] Potency for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter\n\nOn Skill Use, at 2+/4+ [ChargeRouge] Potency, Coin Power +1/+2\n\nGain 1 Offense Level (max 5) and deal +20% damage (max 100%) for every 10% missing HP",
+      "desc": "Gain 1 [ChargeRouge] ค่า ตามทุก ๆ 10 cumulative [ChargeRouge] จำนวน this unit consumes in this Encounter\n\nOn Skill Use, at 2+/4+ [ChargeRouge] ค่า, แต้มเหรียญเพิ่มขึ้น +1/+2\n\nGain 1 Offense Level (สูงสุด 5) and deal +20% damage (สูงสุด 100%) ตามทุก ๆ 10% missing HP",
       "summary": "Gain Coin Power"
     },
     {
       "id": 152102,
       "name": "The Sickle Seeks the Slow",
-      "desc": "Prioritize targets with slower Speed than self\n\nOn Skill Use, if this unit's Speed is faster than the target's gain Offense Level equal to the Speed difference\n\nTurn Start: At 2+ [ChargeRouge] Potency, use a powerful Skill",
+      "desc": "Prioritize targets with slower Speed than self\n\nOn Skill Use, if this unit's Speed is faster than the target's gain Offense Level equal to the Speed difference\n\nTurn Start: At 2+ [ChargeRouge] ค่า, use a powerful Skill",
       "flavor": "Pulsating predators pursue the slow prey, seeking to sink their fangs into the neck. Their fatality is determined by the speed differential."
     },
     {
       "id": 152103,
       "name": "Persistent Pulsation Beside The Cherished One",
-      "desc": "When The Crimson God 【Adulthood】 is on the field, this unit does not lose [ChargeRouge] Count at Turn End\n\nWhen Staggered due to getting hit: When this unit recovers from Stagger due to The Crimson God 【Adulthood】's Skill, use \"With sickles mine I answer your calling!\" as Unopposed Attack against the attacker",
+      "desc": "When The Crimson God 【Adulthood】 is on the field, this unit does not lose [ChargeRouge] จำนวน at Turn End\n\nWhen Staggered due to getting hit: When this unit recovers from Stagger due to The Crimson God 【Adulthood】's Skill, use \"With sickles mine I answer your calling!\" as Unopposed Attack against the attacker",
       "flavor": "Against their wishes, neither breathing nor the thumping pulse in their hearts would stop."
     },
     {
@@ -290,13 +290,13 @@
     {
       "id": 152105,
       "name": "Blessings Upon the Flesh",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>If this unit has [BuffetRouge]</u></b></mark></color>, apply the following effects:\n- Take -50% damage from Skills\n- Turn Start: Heal SP to max and gain 1 [ChargeRouge]; gain +5 [ChargeRouge] Count",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>If this unit has [BuffetRouge]</u></b></mark></color>, apply the following effects:\n- Take -50% damage from Skills\n- Turn Start: Heal SP to max and gain 1 [ChargeRouge]; gain +5 [ChargeRouge] จำนวน",
       "flavor": "To receive that divinity whole with one's body."
     },
     {
       "id": 151801,
       "name": "Body Forced to Live Again",
-      "desc": "When [BuffetRevival] expires, return to พนักงานซีเนียร์ เลอ รูจย์ form; heal 5 SP for every 10 HP that remained while this unit was in Ripped Flesh of the Crimson God form; gain +2 [ChargeRouge] Count\n- If this unit gained 10+ [ChargeRouge] Count, consume all [ChargeRouge] Count; then, gain 1 [BuffetRouge] next turn for every 5 Stacks consumed"
+      "desc": "When [BuffetRevival] expires, return to พนักงานซีเนียร์ เลอ รูจย์ form; heal 5 SP ตามทุก ๆ 10 HP that remained while this unit was in Ripped Flesh of the Crimson God form; gain +2 [ChargeRouge] จำนวน\n- If this unit gained 10+ [ChargeRouge] จำนวน, consume all [ChargeRouge] จำนวน; then, gain 1 [BuffetRouge] next turn ตามทุก ๆ 5 Stacks consumed"
     },
     {
       "id": 151802,
@@ -306,7 +306,7 @@
     {
       "id": 151709,
       "name": "The hand they could neither push away nor hold",
-      "desc": "Turn Start: Gain 2 [Protection] for every พนักงานซีเนียร์ เลอ รูจย์ on the field\n- Lose 2 [Protection] every time a พนักงานซีเนียร์ เลอ รูจย์ is defeated\n\n<color=#ff6000><mark=#ff000040><b><u>If all พนักงานซีเนียร์ เลอ รูจย์ are defeated</u></b></mark></color>, apply the following effects:\n- Gain 2 [Vulnerable]\n- On Skill Use, if target has [BuffetScruple], Coin Power -1",
+      "desc": "Turn Start: Gain 2 [Protection] ตามทุก ๆ พนักงานซีเนียร์ เลอ รูจย์ on the field\n- Lose 2 [Protection] every time a พนักงานซีเนียร์ เลอ รูจย์ is defeated\n\n<color=#ff6000><mark=#ff000040><b><u>If all พนักงานซีเนียร์ เลอ รูจย์ are defeated</u></b></mark></color>, apply the following effects:\n- Gain 2 [Vulnerable]\n- On Skill Use, if target has [BuffetScruple], แต้มเหรียญลดลง -1",
       "flavor": "Will you still... hold my hand?",
       "summary": "Lose Coin Power"
     }
