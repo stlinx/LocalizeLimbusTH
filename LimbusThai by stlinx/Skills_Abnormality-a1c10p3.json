@@ -590,7 +590,7 @@
         {
           "level": 1,
           "name": "\"พิพากษา\"",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากเป้าหมายหลักมี <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionThirdPhase], แต้มปิดท้ายสกิลเพิ่มขึ้น +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี 5+/9+ [ConfessionThirdPhase] จะได้รับ +1/+3 น้ำหนักการโจมตี</u></b></mark></color>\n[WhenUse] หากตัวละครนี้มี จำนวน [ChargeNoir] จะผลาญ all จำนวน [ChargeNoir] ที่ตนเองมี เพื่อรับ แต้มเหรียญเพิ่มขึ้น +2\n[DefeatDuel] ได้รับ 3 [Paralysis], สร้างความเสียหายลดลง -75% damage, และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nหากเป้าหมายหลักมี <color=#ff6000><mark=#ff000040><b><u>[ConfessionThirdPhase] 3+/6+/9+ หน่วย แต้มปิดท้ายสกิลจะเพิ่มขึ้น +2/+3/+5 แต้ม</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [ConfessionThirdPhase] 5+/9+ หน่วย น้ำหนักการโจมตีจะเพิ่มขึ้น +1/+3 ช่อง</u></b></mark></color>\n[WhenUse] หากตัวละครนี้มีจำนวน [ChargeNoir] จะผลาญจำนวน [ChargeNoir] ทั้งหมดที่ตนเองมี เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +2 แต้ม\n[DefeatDuel] ได้รับ [Paralysis] 3 หน่วย, สร้างความเสียหายลดลง -75%, และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -842,14 +842,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -871,7 +871,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             },
@@ -881,7 +881,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -895,7 +895,7 @@
         {
           "level": 1,
           "name": "ตรึงจุดมอง",
-          "desc": "[WhenUse] ผลาญ all จำนวน [ChargeKhaki] ที่ตนเองมี to สร้างความเสียหายเพิ่มขึ้น +25% damage ตามทุก ๆ 3 จำนวน [ChargeKhaki] ที่ผลาญไป (สูงสุด 50%)\n[WhenUse] ได้รับจำนวน [ChargeKhaki] +3 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "desc": "[WhenUse] ผลาญจำนวน [ChargeKhaki] ทั้งหมดที่ตนเองมี เพื่อทำให้สร้างความเสียหายเพิ่มขึ้น +25% ตามทุก ๆ จำนวน [ChargeKhaki] 3 หน่วยที่ผลาญไป (สูงสุด 50%)\n[WhenUse] ได้รับจำนวน [ChargeKhaki] +3 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -913,7 +913,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             },
@@ -923,7 +923,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้าง [Sinking] 1 หน่วย"
                 }
               ]
             },
@@ -933,7 +933,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Pierce damage เท่ากับ (<color=#ff6000><mark color=#ff000040><b><u>types of negative effects on target</color></mark></b></u> x 15)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 45%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายประเภทแทง เท่ากับ (<color=#ff6000><mark color=#ff000040><b><u>ประเภทสถานะผิดปกติบนตัวเป้าหมาย</color></mark></b></u> x 15)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 45%)"
                 }
               ]
             }
@@ -947,7 +947,7 @@
         {
           "level": 1,
           "name": "ตามที่ได้เห็นจากสายตา",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeKhaki] ที่ตนเองมี (สูงสุด 5)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Heal 2% HP</color></mark></b></u>",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeKhaki] 2 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>ฟื้นฟู HP 2%</color></mark></b></u>",
           "coinlist": [
             {
               "coindescs": []
@@ -962,18 +962,18 @@
         {
           "level": 1,
           "name": "จดจ่อ",
-          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nPrioritizes allies\nThis Skill does not trigger Defense Skills",
+          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nเล็งพันธมิตรเป็นหลัก\nสกิลนี้ไม่ทำให้สกิลตั้งรับทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target is an ally,"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตร"
                 },
                 {
-                  "desc": "- Kill target"
+                  "desc": "- ฆ่าเป้าหมาย"
                 },
                 {
-                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [JeanneDesign]</color></mark></b></u>"
+                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>ได้รับ [JeanneDesign] 1 หน่วย</color></mark></b></u>"
                 }
               ]
             }
@@ -987,7 +987,7 @@
         {
           "level": 1,
           "name": "ก้าวแรก",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 1</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 1</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1002,7 +1002,7 @@
         {
           "level": 1,
           "name": "ย่างเท้าสอง",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 2</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 2</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1020,7 +1020,7 @@
         {
           "level": 1,
           "name": "ท่วงท่าสาม",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 3 or E.G.O Skills</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 3 หรือสกิล E.G.O</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1041,19 +1041,19 @@
         {
           "level": 1,
           "name": "เธอต้องทำตามจังหวะสิ",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads",
+          "desc": "สกิลนี้จะโจมตีคริติคอลแน่นอน\n[StartDuel] เป้าหมายจะ <color=#ff6000><mark color=#ff000040><b><u>มีโอกาสทอยออกก้อย 100%</color></mark></b></u>\n- สกิลเหรียญลบของเป้าหมาย จะมีโอกาสทอยออกหัว 100%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] ได้รับ [JeannePathos] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] ได้รับ [JeannePathos] 3 หน่วย"
                 }
               ]
             }
@@ -1067,7 +1067,7 @@
         {
           "level": 1,
           "name": "ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- Its attack does not hit\n[WhenUse] Both this unit and the target gain 5 [JeannePathos] and 5 [JeanneLogos]",
+          "desc": "[CantDuel]\nสกิลนี้มีคุณสมบัติต่อไปนี้:\n- ไม่ทำให้สกิลตั้งรับทำงาน\n- การโจมตีนี้จะไม่นับว่าโจมตีโดน\n[WhenUse] ทั้งตัวละครนี้และเป้าหมายได้รับ [JeannePathos] 5 หน่วย และ [JeanneLogos] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1082,7 +1082,7 @@
         {
           "level": 1,
           "name": "เหมือนเราจะเคยมีเรื่องทะเลาะกันเล็ก ๆ น้อย ๆ นะ",
-          "desc": "[OnSucceedEvade] Both this unit and the target gain 4 [JeannePathos] and 4 [JeanneLogos]",
+          "desc": "[OnSucceedEvade] ทั้งตัวละครนี้และเป้าหมายได้รับ [JeannePathos] 4 หน่วย และ [JeanneLogos] 4 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1097,7 +1097,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: สร้างใหม่",
-          "desc": "[CantChangeTarget]\nสกิลนี้ไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\nMainly targets Meursault\n[StartDuel] This unit has 100% chance to flip Heads",
+          "desc": "[CantChangeTarget]\nสกิลนี้ไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\nเล็ง 'เมอร์โซ' เป็นหลัก\n[StartDuel] ตัวละครนี้มีโอกาสทอยออกหัว 100%",
           "coinlist": [
             {
               "coindescs": [
@@ -1105,7 +1105,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Target dies"
+                  "desc": "[OnSucceedAttack] เป้าหมายตายทันที"
                 }
               ]
             }
@@ -1119,7 +1119,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: สั่งห้าม",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] สร้าง 1 [JeanneCheat] ในเทิร์นถัดไป</color></mark></b></u>",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] สร้าง [JeanneCheat] 1 หน่วยในเทิร์นถัดไป</color></mark></b></u>",
           "flavor": "เมอร์ ถ้าเธอต้องการละก็ เธอก็ไม่จำเป็นต้องพันตัวเองด้วยโซ่อีกต่อไปแล้ว เธอสามารถตัดสินใจได้ด้วยตัวเอง สามารถพูดออกมาได้ตามที่อยาก โดยไม่ต้องกังวลการจับจ้องจากสายตาของใคร เธอไม่ต้องเกรงใจความคิดของคนอื่น... แค่<i>เป็น</i>ตัวเอง",
           "coinlist": [
             {
@@ -1128,10 +1128,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +20% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +20%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วย"
                 }
               ]
             },
@@ -1141,10 +1141,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +20% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +20%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1158,7 +1158,7 @@
         {
           "level": 1,
           "name": "อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว",
-          "desc": "[BeforeUse] When Clashing against targets <color=#ff6000><mark color=#ff000040><b><u>that are not Meursault, or if this Skill is used as an Unopposed Attack,</color></mark></b></u> change this Skill to \"เธอไม่ได้ไปตามจังหวะนะ\"\n[DefeatDuel] Meursault gains 10 [JeanneLogos]",
+          "desc": "[BeforeUse] เมื่อแคลชสกิลกับเป้าหมาย <color=#ff6000><mark color=#ff000040><b><u>ที่ไม่ใช่ 'เมอร์โซ' หรือหากสกิลนี้ถูกใช้โจมตีโดยตรง</color></mark></b></u> จะเปลี่ยนสกิลนี้เป็น \"เธอไม่ได้ไปตามจังหวะนะ\"\n[DefeatDuel] 'เมอร์โซ' ได้รับ [JeanneLogos] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1176,7 +1176,7 @@
         {
           "level": 1,
           "name": "เธอไม่ได้ไปตามจังหวะนะ",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Heal 50% HP</color></mark></b></u>",
+          "desc": "สกิลนี้จะโจมตีคริติคอลแน่นอน\n[StartDuel] เป้าหมายจะ <color=#ff6000><mark color=#ff000040><b><u>มีโอกาสทอยออกก้อย 100%</color></mark></b></u>\n- สกิลเหรียญลบของเป้าหมาย จะมีโอกาสทอยออกหัว 100%\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>ฟื้นฟู HP 50%</color></mark></b></u>",
           "flavor": "เมอร์ เธอต้องทำตามกิมมิกให้ถูกนะ",
           "coinlist": [
             {
@@ -1203,7 +1203,7 @@
         {
           "level": 1,
           "name": "การออกแบบสิ้นสุดเพียงตรงนี้",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 Unique [Charge] จำนวน ที่ตนเองมี (สูงสุด 5)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [Charge] แบบพิเศษ 2 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)",
           "coinlist": [
             {
               "coindescs": []
@@ -1218,7 +1218,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: จับจ้อง",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 Unique [Charge] (Potency + Count) ที่ตนเองมี (สูงสุด 3)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% damage ตามทุก ๆ 2 types of negative effects on all targets (สูงสุด 50%; overlapping effects between units are counted separately)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] สร้าง 1 [JeanneCheat] ในเทิร์นถัดไป</color></mark></b></u>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [Charge] แบบพิเศษ (ค่า + จำนวน) 4 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สถานะผิดปกติ 2 ประเภทบนตัวเป้าหมายทั้งหมด (สูงสุด 50%; เอฟเฟกต์ระหว่างแต่ละตัวละครที่คาบเกี่ยวกัน จะนับแยกกัน)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] สร้าง [JeanneCheat] 1 หน่วยในเทิร์นถัดไป</color></mark></b></u>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "flavor": "เธอเข้าใจความวิตกกังวลที่แม่ของเธอมี มากกว่าใคร ๆ แต่ว่านะเมอร์... การอยู่ในพื้นที่เดียวกันก็คือการต้องรู้ถึงสายตาของอีกฝ่าย ตราบใดที่ยังอยู่ด้วยกัน เธอก็หลีกเลี่ยงไม่ได้ที่จะต้องแบกรับการจับจ้องจากแม่ของเธอ และเธอเองก็หลีกเลี่ยงไม่ที่จะจ้องมองแม่ของเธอกลับ\n\nนั่นเป็นสาเหตุที่เธอรู้สึกผิดงั้นเหรอ?\nเพราะดูเหมือนเธอกำลังให้สิ่งที่เกิดขึ้นกับแม่ของเธอ เป็นความผิดของตัวเธอ",
           "coinlist": [
             {
@@ -1227,10 +1227,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +50% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1240,10 +1240,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +50% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1257,7 +1257,7 @@
         {
           "level": 1,
           "name": "พิมพ์เขียวห้าง",
-          "desc": "[WhenUse] Take -90% damage from Skills (มีผลเทิร์นละครั้ง)",
+          "desc": "[WhenUse] ได้รับความเสียหายจากสกิลลดลง -90% (มีผลเทิร์นละครั้ง)",
           "flavor": "สิ่งนี้ไม่ใช่พิมพ์เขียวของห้างสรรพสินค้า",
           "coinlist": [
             {
@@ -1273,12 +1273,12 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงปรารถนา",
-          "desc": "[WhenUse] At fewer than max จำนวน [ChargeRouge] จะผลาญ 5% HP เพื่อรับ 10 จำนวน [ChargeRouge]",
+          "desc": "[WhenUse] เมื่อมีจำนวน [ChargeRouge] ไม่เต็ม จะผลาญ HP 5% เพื่อรับจำนวน [ChargeRouge] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -1292,19 +1292,19 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงสวม",
-          "desc": "[WhenUse] At fewer than max จำนวน [ChargeRouge] จะผลาญ 5% HP เพื่อรับ 10 จำนวน [ChargeRouge]\n[WhenUse] ผลาญ 5 จำนวน [ChargeRouge] เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +2",
+          "desc": "[WhenUse] เมื่อมีจำนวน [ChargeRouge] ไม่เต็ม จะผลาญ HP 5% เพื่อรับจำนวน [ChargeRouge] 10 หน่วย\n[WhenUse] ผลาญจำนวน [ChargeRouge] 5 หน่วย เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวน [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวน [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -1318,19 +1318,19 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงบริโภค",
-          "desc": "[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% damage ตามทุก ๆ 2% missing HP ที่ตนเองมี (สูงสุด 60%)\n[WhenUse] ผลาญ all จำนวน [ChargeRouge] ที่ตนเองมี เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeRouge] ที่ผลาญไป (สูงสุด 3)",
+          "desc": "[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ HP 2% ของตนเองที่หายไป (สูงสุด 60%)\n[WhenUse] ผลาญจำนวน [ChargeRouge] ทั้งหมดที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeRouge] 2 หน่วยที่ผลาญไป (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ScarletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] สร้าง [ScarletTakeDamageUp] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Lust damage เท่ากับ (missing HP ที่ตนเองมี)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุราคะ เท่ากับ (HP ของตนเองที่หายไป)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
                 }
               ]
             }
@@ -1344,7 +1344,7 @@
         {
           "level": 1,
           "name": "ลวดลาย: \"จงกวาดและรวม\"",
-          "desc": "[WhenUse] Heal 25% HP\n- At 2+ [ChargeRouge], heal 50% HP instead",
+          "desc": "[WhenUse] ฟื้นฟู HP 25%\n- เมื่อมีค่า [ChargeRouge] 2+ หน่วย จะฟื้นฟู HP 50% แทน",
           "coinlist": [
             {
               "coindescs": []
@@ -1359,12 +1359,12 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงคงสภาพ",
-          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] +5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับ +5 additional จำนวน [ChargeNoir]",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] +5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับจำนวน [ChargeNoir] เพิ่มเติม +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             }
@@ -1378,19 +1378,19 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงประจักษ์โดยไม่เอื้อนเอ่ย",
-          "desc": "[WhenUse] ได้รับ 5 จำนวน [ChargeNoir]\n- หากเป้าหมายมี [Vibration] จะได้รับ 5 additional จำนวน [ChargeNoir]\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeNoir] ที่ตนเองมี (สูงสุด 2)\n[WhenUse] At 10+ จำนวน [ChargeNoir] จะสร้าง 5 ค่า [Vibration] on Coin Hit",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] 5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับจำนวน [ChargeNoir] เพิ่มเติม 5 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeNoir] 2 หน่วยที่ตนเองมี (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีจำนวน [ChargeNoir] 10+ หน่วย เมื่อเหรียญโจมตีโดนจะสร้างค่า [Vibration] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's จำนวนครั้ง [Vibration] by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1404,19 +1404,19 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงตรึงทั้งหมด",
-          "desc": "สร้างความเสียหายเพิ่มขึ้น +4% damage ตามทุก ๆ ค่า [ChargeNoir] ที่ตนเองมี (สูงสุด 20%)\n[WhenUse] ผลาญ all จำนวน [ChargeNoir] ที่ตนเองมี เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeNoir] ที่ผลาญไป (สูงสุด 3)\n- หากตัวละครนี้ ที่ผลาญไป 10+ จำนวน [ChargeNoir] จะสร้าง 5 ค่า [Vibration] on Coin Hit",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ ค่า [ChargeNoir] ที่ตนเองมี (สูงสุด 20%)\n[WhenUse] ผลาญจำนวน [ChargeNoir] ทั้งหมดที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeNoir] 2 หน่วยที่ผลาญไป (สูงสุด 3 แต้ม)\n- หากตัวละครนี้ผลาญจำนวน [ChargeNoir] 10+ หน่วย เมื่อเหรียญโจมตีโดนจะสร้างค่า [Vibration] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Sloth damage เท่ากับ (ค่า [Vibration] on target)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุเกียจคร้าน เท่ากับ (ค่า [Vibration] บนตัวเป้าหมาย)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
                 }
               ]
             }
@@ -1430,7 +1430,7 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงถูกตอก",
-          "desc": "[StartBattle] ในเทิร์นนี้และในเทิร์นถัดไป จะได้รับ Shield เท่ากับ 25% of HP สูงสุดตัวละครนี้ (min 1)\n- At 2+ [ChargeNoir] จะได้รับ Shield เท่ากับ 40% of HP สูงสุดตัวละครนี้ instead",
+          "desc": "[StartBattle] ในเทิร์นนี้และในเทิร์นถัดไป จะได้รับโล่เท่ากับ 25% ของ HP สูงสุดตัวละครนี้ (ต่ำสุด 1 หน่วย)\n- เมื่อมีค่า [ChargeNoir] 2+ หน่วย จะได้รับโล่เท่ากับ 40% ของ HP สูงสุดตัวละครนี้แทน",
           "coinlist": [
             {
               "coindescs": []
@@ -1444,21 +1444,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Je m'expulse",
-          "desc": "[WhenUse] หากเป้าหมายหลักมี 6+ [Laceration], แต้มเหรียญเพิ่มขึ้น +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] หากเป้าหมายหลัก does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
-          "flavor": "Excrete.",
+          "name": "เฌอ เม็กซ์ปุ๊ลส์ (เราขับถ่ายตน)",
+          "desc": "[WhenUse] หากเป้าหมายหลักมี 6+ [Laceration] แต้มเหรียญจะเพิ่มขึ้น +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] หากเป้าหมายหลัก ไม่มี [Laceration] จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "flavor": "ขับถ่าย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             }
@@ -1471,17 +1471,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Je me crache",
-          "desc": "[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเริ่มต้นสกิลเพิ่มขึ้น +2\n[WhenUse] ได้รับ +1 น้ำหนักการโจมตี ตามทุก ๆ 2 ค่า [ChargeRouge] ที่ตนเองมี (สูงสุด 2)",
-          "flavor": "Vomit.",
+          "name": "เฌอ เมอ คราช (เราถ่มน้ำลาย)",
+          "desc": "[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเริ่มต้นสกิลจะเพิ่มขึ้น +2 แต้ม\n[WhenUse] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ค่า [ChargeRouge] 2 หน่วยที่ตนเองมี (สูงสุด 2 ช่อง)",
+          "flavor": "อาเจียน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 3 หน่วย"
                 }
               ]
             }
@@ -1494,27 +1494,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Je m'abjecte",
-          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมายหลัก (สูงสุด 2)\n[WhenUse] ได้รับ +1 น้ำหนักการโจมตี ตามทุก ๆ 2 ค่า [ChargeRouge] ที่ตนเองมี (สูงสุด 2)",
-          "flavor": "And cast it to the world.",
+          "name": "เฌอ มับแฌ็กต์ (เราขยะแขยงตนเอง)",
+          "desc": "[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[WhenUse] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ค่า [ChargeRouge] 2 หน่วยที่ตนเองมี (สูงสุด 2 ช่อง)",
+          "flavor": "และขว้างมันใส่โลก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] หากเป้าหมายมี 3+ [BoneNail] จะสร้าง 2 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายมี [BoneNail] 3+ หน่วย จะสร้าง [Vulnerable] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1527,19 +1527,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Pulsion",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nTargets พนักงานซีเนียร์ เลอ รูจย์\n\n[WhenUse] At 10+ จำนวน [ChargeRouge] จะผลาญ up to 10 จำนวน [ChargeRouge] และได้รับ +2 น้ำหนักการโจมตี",
+          "name": "ลา ปูลซียง (แรงขับ)",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nเล็ง 'พนักงานซีเนียร์ เลอ รูจย์'\n\n[WhenUse] เมื่อมีจำนวน [ChargeRouge] 10+ หน่วย จะผลาญจำนวน [ChargeRouge] มากสุด 10 หน่วย และน้ำหนักการโจมตีจะเพิ่มขึ้น +2 ช่อง",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] มอบ +10 จำนวน [ChargeRouge]"
+                  "desc": "[EndCoin] มอบจำนวน [ChargeRouge] +10 หน่วย"
                 },
                 {
-                  "desc": "[EndCoin] Reduce target's current HP by 50%; then, apply 5 [AttackUp]"
+                  "desc": "[EndCoin] ลด HP ปัจจุบันของเป้าหมายลง 50%; จากนั้นมอบ [AttackUp] 5 หน่วย"
                 },
                 {
-                  "desc": "[EndCoin] มอบ 3 [BuffetRouge]"
+                  "desc": "[EndCoin] มอบ [BuffetRouge] 3 หน่วย"
                 }
               ]
             }
@@ -1558,13 +1558,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Recover target from Stagger"
+                  "desc": "[EndCoin] ทำให้เป้าหมายฟื้นตัวจากการชะงัก"
                 },
                 {
-                  "desc": "[EndCoin] Heal HP on target เท่ากับ this Skill's Final Power"
+                  "desc": "[EndCoin] ฟื้นฟู HP เป้าหมาย เท่ากับแต้มปิดท้ายสกิลของสกิลนี้"
                 },
                 {
-                  "desc": "[EndCoin] มอบ 1 [BuffetRouge]"
+                  "desc": "[EndCoin] มอบ [BuffetRouge] 1 หน่วย"
                 }
               ]
             }
@@ -1577,8 +1577,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Jouissance",
-          "desc": "ไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Heal 15 SP และได้รับ แต้มแคลชสกิลเพิ่มขึ้น +2 ตามทุก ๆ พนักงานซีเนียร์ เลอ รูจย์</u></b></mark></color> on the field\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>all พนักงานซีเนียร์ เลอ รูจย์ are defeated</u></b></mark></color>, แต้มแคลชสกิลลดลง -3\n[DefeatDuel] สร้างความเสียหายลดลง -80% damage, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] บนตัวเป้าหมายหลัก into [BuffetResolve]",
+          "name": "ลา ฌูอิซ็องส์ (สุขปิติสุดขีด)",
+          "desc": "ไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>ฟื้นฟู SP 15 หน่วย และแต้มแคลชสกิลเพิ่มขึ้น +2 แต้ม ตามจำนวน 'พนักงานซีเนียร์ เลอ รูจย์'</u></b></mark></color> บนสนาม\n[WhenUse] หาก <color=#ff6000><mark=#ff000040><b><u>'พนักงานซีเนียร์ เลอ รูจย์' ทั้งหมดถูกกำจัด</u></b></mark></color> แต้มแคลชสกิลจะลดลง -3 แต้ม\n[DefeatDuel] สร้างความเสียหายลดลง -80%, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ [BuffetDream] 1 หน่วย</u></b></mark></color>\n[EndSkill] แปลง [BuffetScruple] บนตัวเป้าหมายหลักให้กลายเป็น [BuffetResolve]",
           "coinlist": [
             {
               "coindescs": [
@@ -1586,7 +1586,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
@@ -1596,10 +1596,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
@@ -1609,10 +1609,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 3 times. Target loses 3 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 3 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 3 หน่วย"
                 }
               ]
             }
@@ -1626,26 +1626,26 @@
         {
           "level": 1,
           "name": "ลา เดอม็องด์ (ความต้องการ)",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nThis Skill does not trigger Defense Skills\n[WhenUse] Remove all [BoneNail] บนตัวเป้าหมายหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมายหลัก (สูงสุด 2)\n[EndSkill] Remove [BuffetScruple] บนตัวเป้าหมายหลัก",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nสกิลนี้ไม่ทำให้สกิลตั้งรับทำงาน\n[WhenUse] ล้าง [BoneNail] ทั้งหมดบนตัวเป้าหมายหลัก\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[EndSkill] ล้าง [BuffetScruple] บนตัวเป้าหมายหลัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1658,8 +1658,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Nom-du-Père",
-          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>หากตัวละครนี้มี [BuffetRouge]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมายหลัก (สูงสุด 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple], lose 2 น้ำหนักการโจมตี</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] Remove [BuffetScruple] บนตัวเป้าหมายหลัก",
+          "name": "เลอ นอมดูแปร์ (นามของบิดา)",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>หากตัวละครนี้มี [BuffetRouge]</u></b></mark></color> จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple] น้ำหนักการโจมตีจะลดลง -2 ช่อง</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก\n[EndSkill] ล้าง [BuffetScruple] บนตัวเป้าหมายหลัก",
           "coinlist": [
             {
               "coindescs": [
@@ -1667,30 +1667,30 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 }
               ]
             }
@@ -1703,46 +1703,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Castration",
-          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากตัวละครนี้มี fewer than 5 [BuffetDream], convert all Coins on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple]</u></b></mark></color>, แต้มเหรียญลดลง -3\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +2 ตามทุก ๆ 6 [Laceration] บนตัวเป้าหมายหลัก (สูงสุด 6)\n[DefeatDuel] สร้างความเสียหายลดลง -80% damage, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ 1 [BuffetDream]</u></b></mark></color>",
+          "name": "ลา กัสตราซียง (การตอน)",
+          "desc": "สามารถแคลชกับสกิลนี้ได้โดยไม่สนความเร็ว\nไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากตัวละครนี้มี [BuffetDream] ต่ำกว่า 5 หน่วย จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple]</u></b></mark></color> แต้มเหรียญจะลดลง -3 แต้ม\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 6 แต้ม)\n[DefeatDuel] สร้างความเสียหายลดลง -80%, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ [BuffetDream] 1 หน่วย</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 2 times. Target loses 2 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 2 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 2 หน่วย"
                 }
               ]
             }
@@ -1755,8 +1755,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Trait Unaire",
-          "desc": "[DuelCounter]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] บนตัวเป้าหมายหลัก (สูงสุด 2)\n[WhenUse] ได้รับ +1 น้ำหนักการโจมตี ตามทุก ๆ 5 total sum of [BoneNail] on all enemies (สูงสุด 4)",
+          "name": "เลอ เตรต์ แอนเนร์ (ลักษณะเอกภาค)",
+          "desc": "[DuelCounter]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมายหลัก (สูงสุด 2 แต้ม)\n[WhenUse] น้ำหนักการโจมตีเพิ่มขึ้น +1 ช่อง ตามทุก ๆ ผลรวม [BoneNail] 5 หน่วยบนตัวศัตรูทั้งหมด (สูงสุด 4 ช่อง)",
           "coinlist": [
             {
               "coindescs": [
@@ -1764,7 +1764,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
@@ -1774,7 +1774,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 }
               ]
             },
@@ -1784,13 +1784,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Consume [BoneNail] on all enemies</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>ผลาญ [BoneNail] บนตัวศัตรูทั้งหมด</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal Lust damage เท่ากับ ([BoneNail] Stack ที่ผลาญไป x 10)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุราคะ เท่ากับ (ปริมาณ [BoneNail] ที่ผลาญไป x 10)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Laceration] จำนวน ตามทุก ๆ 4 [BoneNail] ที่ผลาญไป (สูงสุด 5)"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย ตามทุก ๆ [BoneNail] 4 หน่วยที่ผลาญไป (สูงสุด 5 หน่วย)"
                 }
               ]
             }
@@ -1803,19 +1803,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dégagé",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] on target (สูงสุด 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "name": "เดกาเจ (Dégagé)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] หากเป้าหมายไม่มี [Laceration] จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [BoneNail] 2 หน่วย"
                 }
               ]
             }
@@ -1828,32 +1828,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Point de Capiton",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 [Laceration] on target (สูงสุด 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If target does not have [Laceration], convert all Coins on this Skill to [SuperCoin]s</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "name": "เลอ ปวง เดอ กาปิตง (จุดยึดตรึงความหมาย)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 4 หน่วยบนตัวเป้าหมาย (สูงสุด 3 แต้ม)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] หากเป้าหมายไม่มี [Laceration] จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]</u></b></mark></color>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[OnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [BoneNail]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [BoneNail] 1 หน่วย"
                 }
               ]
             }
@@ -1866,8 +1866,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Jouissance",
-          "desc": "ไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple]</u></b></mark></color>, lose 10 SP, แต้มเหรียญลดลง -2\n[DefeatDuel] สร้างความเสียหายลดลง -80% damage, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] บนตัวเป้าหมายหลัก into [BuffetResolve]",
+          "name": "ลา ฌูอิซ็องส์ (สุขปิติสุดขีด)",
+          "desc": "ไม่สามารถติดชะงักได้ก่อนใช้สกิลนี้\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>หากเป้าหมายหลักมี [BuffetScruple]</u></b></mark></color> จะเสีย SP 10 หน่วย, แต้มเหรียญลดลง -2 แต้ม\n[DefeatDuel] สร้างความเสียหายลดลง -80%, ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก, <color=#ff6000><mark=#ff000040><b><u>และได้รับ [BuffetDream] 1 หน่วย</u></b></mark></color>\n[EndSkill] แปลง [BuffetScruple] บนตัวเป้าหมายหลักให้กลายเป็น [BuffetResolve]",
           "coinlist": [
             {
               "coindescs": [
@@ -1875,7 +1875,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
@@ -1885,10 +1885,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             },
@@ -1898,10 +1898,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target 3 times. Target loses 3 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 3 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 3 หน่วย"
                 }
               ]
             }
@@ -1914,13 +1914,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Métaphore Paternelle",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nThis Skill is used at the very end of the turn\n[EndSkill] Heal 25% HP",
+          "name": "ลา เมตาฟอร์ ปาแตร์แนล (อุปมาแห่งความเป็นพ่อ)",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nสกิลนี้จะถูกใช้เป็นลำดับท้ายสุดของเทิร์น\n[EndSkill] ฟื้นฟู HP 25%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Revive \"Ripped Flesh of the Crimson God\" as 'พนักงานซีเนียร์ เลอ รูจย์' ในเทิร์นถัดไป"
+                  "desc": "[EndCoin] ชุบชีวิต 'กายเนื้อที่ฉีกจากร่างของเทวชาด' ในฐานะ 'พนักงานซีเนียร์ เลอ รูจย์' ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1933,16 +1933,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Take Us In...",
+          "name": "เอาพวกเราเข้าไป...",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lose 1 [BuffetRevival]"
+                  "desc": "[OnSucceedAttack] ได้รับ [BuffetRevival] 1 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1955,8 +1955,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oh... Our Crimson Voice...",
-          "desc": "Inflict +1 [Laceration] จำนวน against the attacker when hit as long as this unit has remaining shield\n[StartBattle] ได้รับ Shield เท่ากับ 25% of HP สูงสุดตัวละครนี้\n[EndBattle] หากตัวละครนี้มี Shield, lose 1 [BuffetRevival]",
+          "name": "โอ้... เสียงสีแดงชาดของเรา...",
+          "desc": "สร้างจำนวนครั้ง [Laceration] +1 หน่วยแก่ผู้โจมตี ตราบใดที่ตัวละครนี้ยังมีโล่เหลืออยู่\n[StartBattle] ได้รับโล่เท่ากับ 25% ของ HP สูงสุดตัวละครนี้\n[EndBattle] หากตัวละครนี้มีโล่ จะเสีย [BuffetRevival] 1 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1971,7 +1971,7 @@
         {
           "level": 1,
           "name": "ด้วยเคียวนี้ของข้า ข้าตอบรับคำเรียกของท่าน!",
-          "desc": "[WhenUse] ได้รับจำนวน [ChargeRouge] +6 หน่วย\n[WhenUse] At 10+ จำนวน [ChargeRouge] จะผลาญ 5 จำนวน [ChargeRouge] เพื่อรับ แต้มเริ่มต้นสกิลเพิ่มขึ้น +2",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeRouge] +6 หน่วย\n[WhenUse] เมื่อมีจำนวน [ChargeRouge] 10+ หน่วย จะผลาญจำนวน [ChargeRouge] 5 หน่วย เพื่อทำให้แต้มเริ่มต้นสกิลเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -1979,7 +1979,7 @@
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -1992,8 +1992,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Accept my offering of flesh!",
-          "desc": "[WhenUse] ได้รับจำนวน [ChargeRouge] +4 หน่วย\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญเพิ่มขึ้น +1\n[WhenUse] At 10+ จำนวน [ChargeRouge] จะผลาญ 10 จำนวน [ChargeRouge] เพื่อรับ แต้มเหรียญเพิ่มขึ้น +1",
+          "name": "ยอมรับกายเนื้อเซ่นไหว้ของข้า!",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeRouge] +4 หน่วย\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม\n[WhenUse] เมื่อมีจำนวน [ChargeRouge]  10+ หน่วย จะผลาญจำนวน [ChargeRouge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -2001,7 +2001,7 @@
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 }
               ]
             },
@@ -2011,7 +2011,7 @@
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -2024,13 +2024,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "An offering from my embrace!",
-          "desc": "[StartBattle] หากตัวละครนี้มี less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 6 [Laceration] on target (สูงสุด 2)\n[WhenUse] At 10+ จำนวน [ChargeRouge] จะผลาญ 10 จำนวน [ChargeRouge] เพื่อรับ แต้มเหรียญเพิ่มขึ้น +1\n[DefeatDuel] ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "name": "เครื่องเซ่นไหว้จากอ้อมกอดข้า!",
+          "desc": "[StartBattle] หากตัวละครนี้มี HP ต่ำกว่า 50% จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีจำนวน [ChargeRouge] 10+ หน่วย จะผลาญจำนวน [ChargeRouge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n[DefeatDuel] ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
@@ -2040,7 +2040,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
@@ -2050,7 +2050,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +2 หน่วย"
                 },
                 {
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
@@ -2066,46 +2066,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "We shall devour it all!",
-          "desc": "[StartBattle] หากตัวละครนี้มี less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 6 [Laceration] on target (สูงสุด 2)\n[WhenUse] At 10+ จำนวน [ChargeRouge] จะผลาญ 10 จำนวน [ChargeRouge] เพื่อรับ แต้มเหรียญเพิ่มขึ้น +1\n[WinDuel] ได้รับจำนวน [ChargeRouge] +10 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80% damage; ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "name": "เราจักกลืนกินมันให้สิ้น!",
+          "desc": "[StartBattle] หากตัวละครนี้มี HP ต่ำกว่า 50% จะแปลงเหรียญทั้งหมดของสกิลนี้ให้กลายเป็น [SuperCoin]\n[WhenUse] แต้มเหรียญเพิ่มขึ้น +1 แต้ม ตามทุก ๆ ค่า [Laceration] 6 หน่วยบนตัวเป้าหมาย (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีจำนวน [ChargeRouge] 10+ หน่วย จะผลาญจำนวน [ChargeRouge] 10 หน่วย เพื่อทำให้แต้มเหรียญเพิ่มขึ้น +1 แต้ม\n[WinDuel] ได้รับจำนวน [ChargeRouge] +10 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80%; ความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Laceration] +3 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญ up to 5 จำนวน [ChargeRouge] to deal Slash damage เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- Heal (จำนวน [ChargeRouge] ที่ผลาญไป)% HP"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญจำนวน [ChargeRouge] มากสุด 5 หน่วย เพื่อสร้างความเสียหายประเภทฟัน เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- ฟื้นฟู HP (จำนวน [ChargeRouge] ที่ผลาญไป)%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญ up to 5 จำนวน [ChargeRouge] to deal Slash damage เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- Heal (จำนวน [ChargeRouge] ที่ผลาญไป)% HP"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญจำนวน [ChargeRouge] มากสุด 5 หน่วย เพื่อสร้างความเสียหายประเภทฟัน เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- ฟื้นฟู HP (จำนวน [ChargeRouge] ที่ผลาญไป)%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญ up to 5 จำนวน [ChargeRouge] to deal Slash damage เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- Heal (จำนวน [ChargeRouge] ที่ผลาญไป)% HP"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ผลาญจำนวน [ChargeRouge] มากสุด 5 หน่วย เพื่อสร้างความเสียหายประเภทฟัน เท่ากับ (จำนวน [ChargeRouge] ที่ผลาญไป x 3)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 15%)\n- ฟื้นฟู HP (จำนวน [ChargeRouge] ที่ผลาญไป)%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างค่า [Laceration] 1 หน่วย"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] จำนวน"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ทำให้ [Laceration] บนตัวเป้าหมายทำงาน 1 ครั้ง; ลดจำนวนครั้ง [Laceration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -2118,8 +2118,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "We shan't yet be laid to rest!",
-          "desc": "[DuelCounter]\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 5 จำนวน [ChargeRouge] ที่ตนเองมี (สูงสุด 3)\n[WhenUse] หากเป้าหมายมี 6+ [Laceration], แต้มเหรียญเพิ่มขึ้น +1",
+          "name": "เรายังไม่ควรพักกายในตอนนี้!",
+          "desc": "[DuelCounter]\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeRouge] 5 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)\n[WhenUse] หากเป้าหมายมีค่า [Laceration] 6+ หน่วย แต้มเหรียญจะเพิ่มขึ้น +1 แต้ม",
           "coinlist": [
             {
               "coindescs": [
@@ -2134,7 +2134,7 @@
                   "desc": "[OnSucceedAttack] ได้รับจำนวน [ChargeRouge] +2 หน่วย"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 2 หน่วย"
                 }
               ]
             }
@@ -2147,8 +2147,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Supplication Toward the Voice",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nTargets The Crimson God 【Adulthood】\n\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- External effects cannot trigger this Skill to be Reused\n- Its attack does not hit\n\n[EndCoin] Target heals 20 SP",
+          "name": "คำวิงวอนต่อเสียง",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nเล็ง 'เทวชาด 【โตเต็มวัย】'\n\nสกิลนี้มีคุณสมบัติต่อไปนี้:\n- ไม่ทำให้สกิลตั้งรับทำงาน\n- เอฟเฟกต์ภายนอกไม่สามารถทำให้สกิลนี้เกิดการใช้ซ้ำได้\n- การโจมตีนี้จะไม่นับว่าโจมตีโดน\n\n[EndCoin] เป้าหมายฟื้นฟู SP 20 หน่วย",
           "coinlist": [
             {
               "coindescs": []
