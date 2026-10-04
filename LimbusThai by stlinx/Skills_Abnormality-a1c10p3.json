@@ -842,14 +842,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Sinking] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[OnSucceedAttack] สร้าง [Binding] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -871,7 +871,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             },
@@ -881,7 +881,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -895,7 +895,7 @@
         {
           "level": 1,
           "name": "ตรึงจุดมอง",
-          "desc": "[WhenUse] ผลาญ all จำนวน [ChargeKhaki] ที่ตนเองมี to สร้างความเสียหายเพิ่มขึ้น +25% damage ตามทุก ๆ 3 จำนวน [ChargeKhaki] ที่ผลาญไป (สูงสุด 50%)\n[WhenUse] ได้รับจำนวน [ChargeKhaki] +3 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "desc": "[WhenUse] ผลาญจำนวน [ChargeKhaki] ทั้งหมดที่ตนเองมี เพื่อทำให้สร้างความเสียหายเพิ่มขึ้น +25% ตามทุก ๆ จำนวน [ChargeKhaki] 3 หน่วยที่ผลาญไป (สูงสุด 50%)\n[WhenUse] ได้รับจำนวน [ChargeKhaki] +3 หน่วย\n[WhenUse] ได้รับจำนวนครั้ง [Breath] +2 หน่วย\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "coinlist": [
             {
               "coindescs": [
@@ -913,7 +913,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +1 จำนวนครั้ง [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Sinking] +1 หน่วย"
                 }
               ]
             },
@@ -923,7 +923,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] สร้าง [Sinking] 1 หน่วย"
                 }
               ]
             },
@@ -933,7 +933,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Pierce damage เท่ากับ (<color=#ff6000><mark color=#ff000040><b><u>types of negative effects on target</color></mark></b></u> x 15)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 45%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้างความเสียหายประเภทแทง เท่ากับ (<color=#ff6000><mark color=#ff000040><b><u>ประเภทสถานะผิดปกติบนตัวเป้าหมาย</color></mark></b></u> x 15)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง (สูงสุด 45%)"
                 }
               ]
             }
@@ -947,7 +947,7 @@
         {
           "level": 1,
           "name": "ตามที่ได้เห็นจากสายตา",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeKhaki] ที่ตนเองมี (สูงสุด 5)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Heal 2% HP</color></mark></b></u>",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeKhaki] 2 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>ฟื้นฟู HP 2%</color></mark></b></u>",
           "coinlist": [
             {
               "coindescs": []
@@ -962,18 +962,18 @@
         {
           "level": 1,
           "name": "จดจ่อ",
-          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nPrioritizes allies\nThis Skill does not trigger Defense Skills",
+          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nเล็งพันธมิตรเป็นหลัก\nสกิลนี้ไม่ทำให้สกิลตั้งรับทำงาน",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target is an ally,"
+                  "desc": "[OnSucceedAttack] หากเป้าหมายคือพันธมิตร"
                 },
                 {
-                  "desc": "- Kill target"
+                  "desc": "- ฆ่าเป้าหมาย"
                 },
                 {
-                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [JeanneDesign]</color></mark></b></u>"
+                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>ได้รับ [JeanneDesign] 1 หน่วย</color></mark></b></u>"
                 }
               ]
             }
@@ -987,7 +987,7 @@
         {
           "level": 1,
           "name": "ก้าวแรก",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 1</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 1</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1002,7 +1002,7 @@
         {
           "level": 1,
           "name": "ย่างเท้าสอง",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 2</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 2</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1020,7 +1020,7 @@
         {
           "level": 1,
           "name": "ท่วงท่าสาม",
-          "desc": "[BeforeUse] When Clashing using Meursault's Skills that are not <color=#ff6000><mark color=#ff000040><b><u>Skill 3 or E.G.O Skills</color></mark></b></u>, change this Skill to \"You've got to keep to the pattern\"\n[WinDuel] End this Skill and use \"Those times when we chatted together at the café\" on the target",
+          "desc": "[BeforeUse] เมื่อแคลชกับสกิลของ 'เมอร์โซ' ที่ไม่ใช่ <color=#ff6000><mark color=#ff000040><b><u>สกิล 3 หรือสกิล E.G.O</color></mark></b></u> จะเปลี่ยนสกิลนี้ให้เป็นสกิล \"เธอต้องทำตามจังหวะสิ\"\n[WinDuel] จบสกิลนี้ และใช้สกิล \"ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่\" ใส่เป้าหมาย",
           "coinlist": [
             {
               "coindescs": []
@@ -1041,19 +1041,19 @@
         {
           "level": 1,
           "name": "เธอต้องทำตามจังหวะสิ",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads",
+          "desc": "สกิลนี้จะโจมตีคริติคอลแน่นอน\n[StartDuel] เป้าหมายจะ <color=#ff6000><mark color=#ff000040><b><u>มีโอกาสทอยออกก้อย 100%</color></mark></b></u>\n- สกิลเหรียญลบของเป้าหมาย จะมีโอกาสทอยออกหัว 100%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] ได้รับ [JeannePathos] 3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] ได้รับ 3 [JeannePathos]"
+                  "desc": "[OnSucceedAttack] ได้รับ [JeannePathos] 3 หน่วย"
                 }
               ]
             }
@@ -1067,7 +1067,7 @@
         {
           "level": 1,
           "name": "ช่วงเวลานั้นที่เราสองคนนั่งคุยกันที่คาเฟ่",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- Its attack does not hit\n[WhenUse] Both this unit and the target gain 5 [JeannePathos] and 5 [JeanneLogos]",
+          "desc": "[CantDuel]\nสกิลนี้มีคุณสมบัติต่อไปนี้:\n- ไม่ทำให้สกิลตั้งรับทำงาน\n- การโจมตีนี้จะไม่นับว่าโจมตีโดน\n[WhenUse] ทั้งตัวละครนี้และเป้าหมายได้รับ [JeannePathos] 5 หน่วย และ [JeanneLogos] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1082,7 +1082,7 @@
         {
           "level": 1,
           "name": "เหมือนเราจะเคยมีเรื่องทะเลาะกันเล็ก ๆ น้อย ๆ นะ",
-          "desc": "[OnSucceedEvade] Both this unit and the target gain 4 [JeannePathos] and 4 [JeanneLogos]",
+          "desc": "[OnSucceedEvade] ทั้งตัวละครนี้และเป้าหมายได้รับ [JeannePathos] 4 หน่วย และ [JeanneLogos] 4 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1097,7 +1097,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: สร้างใหม่",
-          "desc": "[CantChangeTarget]\nสกิลนี้ไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\nMainly targets Meursault\n[StartDuel] This unit has 100% chance to flip Heads",
+          "desc": "[CantChangeTarget]\nสกิลนี้ไม่ทำให้สกิลตั้งรับของเป้าหมายทำงาน\nเล็ง 'เมอร์โซ' เป็นหลัก\n[StartDuel] ตัวละครนี้มีโอกาสทอยออกหัว 100%",
           "coinlist": [
             {
               "coindescs": [
@@ -1105,7 +1105,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Target dies"
+                  "desc": "[OnSucceedAttack] เป้าหมายตายทันที"
                 }
               ]
             }
@@ -1119,7 +1119,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: สั่งห้าม",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] สร้าง 1 [JeanneCheat] ในเทิร์นถัดไป</color></mark></b></u>",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] สร้าง [JeanneCheat] 1 หน่วยในเทิร์นถัดไป</color></mark></b></u>",
           "flavor": "เมอร์ ถ้าเธอต้องการละก็ เธอก็ไม่จำเป็นต้องพันตัวเองด้วยโซ่อีกต่อไปแล้ว เธอสามารถตัดสินใจได้ด้วยตัวเอง สามารถพูดออกมาได้ตามที่อยาก โดยไม่ต้องกังวลการจับจ้องจากสายตาของใคร เธอไม่ต้องเกรงใจความคิดของคนอื่น... แค่<i>เป็น</i>ตัวเอง",
           "coinlist": [
             {
@@ -1128,10 +1128,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +20% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +20%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วย"
                 }
               ]
             },
@@ -1141,10 +1141,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +20% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +20%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 1 [Vulnerable] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Vulnerable] 1 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1158,7 +1158,7 @@
         {
           "level": 1,
           "name": "อย่างน้อยบนเวทีนี้ ทุกอย่างได้ถูกกำหนดเอาไว้แล้ว",
-          "desc": "[BeforeUse] When Clashing against targets <color=#ff6000><mark color=#ff000040><b><u>that are not Meursault, or if this Skill is used as an Unopposed Attack,</color></mark></b></u> change this Skill to \"เธอไม่ได้ไปตามจังหวะนะ\"\n[DefeatDuel] Meursault gains 10 [JeanneLogos]",
+          "desc": "[BeforeUse] เมื่อแคลชสกิลกับเป้าหมาย <color=#ff6000><mark color=#ff000040><b><u>ที่ไม่ใช่ 'เมอร์โซ' หรือหากสกิลนี้ถูกใช้โจมตีโดยตรง</color></mark></b></u> จะเปลี่ยนสกิลนี้เป็น \"เธอไม่ได้ไปตามจังหวะนะ\"\n[DefeatDuel] 'เมอร์โซ' ได้รับ [JeanneLogos] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": []
@@ -1176,7 +1176,7 @@
         {
           "level": 1,
           "name": "เธอไม่ได้ไปตามจังหวะนะ",
-          "desc": "This Skill always hits Critically\n[StartDuel] Target has <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails</color></mark></b></u>\n- Target's Minus Coins have 100% chance to flip Heads\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Heal 50% HP</color></mark></b></u>",
+          "desc": "สกิลนี้จะโจมตีคริติคอลแน่นอน\n[StartDuel] เป้าหมายจะ <color=#ff6000><mark color=#ff000040><b><u>มีโอกาสทอยออกก้อย 100%</color></mark></b></u>\n- สกิลเหรียญลบของเป้าหมาย จะมีโอกาสทอยออกหัว 100%\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>ฟื้นฟู HP 50%</color></mark></b></u>",
           "flavor": "เมอร์ เธอต้องทำตามกิมมิกให้ถูกนะ",
           "coinlist": [
             {
@@ -1203,7 +1203,7 @@
         {
           "level": 1,
           "name": "การออกแบบสิ้นสุดเพียงตรงนี้",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 Unique [Charge] จำนวน ที่ตนเองมี (สูงสุด 5)",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [Charge] แบบพิเศษ 2 หน่วยที่ตนเองมี (สูงสุด 5 แต้ม)",
           "coinlist": [
             {
               "coindescs": []
@@ -1218,7 +1218,7 @@
         {
           "level": 1,
           "name": "สิทธิ์: จับจ้อง",
-          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 4 Unique [Charge] (Potency + Count) ที่ตนเองมี (สูงสุด 3)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% damage ตามทุก ๆ 2 types of negative effects on all targets (สูงสุด 50%; overlapping effects between units are counted separately)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] สร้าง 1 [JeanneCheat] ในเทิร์นถัดไป</color></mark></b></u>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
+          "desc": "[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [Charge] แบบพิเศษ (ค่า + จำนวน) 4 หน่วยที่ตนเองมี (สูงสุด 3 แต้ม)\n[WhenUse] สร้างความเสียหายเพิ่มขึ้น +10% ตามทุก ๆ สถานะผิดปกติ 2 ประเภทบนตัวเป้าหมายทั้งหมด (สูงสุด 50%; เอฟเฟกต์ระหว่างแต่ละตัวละครที่คาบเกี่ยวกัน จะนับแยกกัน)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] สร้าง [JeanneCheat] 1 หน่วยในเทิร์นถัดไป</color></mark></b></u>\n[DefeatDuel] สร้างความเสียหายลดลง -80% และความเสียหายที่สกิลนี้สร้างจะไม่ทำให้เป้าหมายติดชะงัก",
           "flavor": "เธอเข้าใจความวิตกกังวลที่แม่ของเธอมี มากกว่าใคร ๆ แต่ว่านะเมอร์... การอยู่ในพื้นที่เดียวกันก็คือการต้องรู้ถึงสายตาของอีกฝ่าย ตราบใดที่ยังอยู่ด้วยกัน เธอก็หลีกเลี่ยงไม่ได้ที่จะต้องแบกรับการจับจ้องจากแม่ของเธอ และเธอเองก็หลีกเลี่ยงไม่ที่จะจ้องมองแม่ของเธอกลับ\n\nนั่นเป็นสาเหตุที่เธอรู้สึกผิดงั้นเหรอ?\nเพราะดูเหมือนเธอกำลังให้สิ่งที่เกิดขึ้นกับแม่ของเธอ เป็นความผิดของตัวเธอ",
           "coinlist": [
             {
@@ -1227,10 +1227,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +50% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [AttackDmgDown] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [AttackDmgDown] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             },
@@ -1240,10 +1240,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If the Coin is not Cracked, สร้างความเสียหายเพิ่มขึ้น +50% damage"
+                  "desc": "หากเหรียญนี้ไม่แตก จะสร้างความเสียหายเพิ่มขึ้น +50%"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง 2 [Binding] ในเทิร์นถัดไป"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] สร้าง [Binding] 2 หน่วยในเทิร์นถัดไป"
                 }
               ]
             }
@@ -1257,7 +1257,7 @@
         {
           "level": 1,
           "name": "พิมพ์เขียวห้าง",
-          "desc": "[WhenUse] Take -90% damage from Skills (มีผลเทิร์นละครั้ง)",
+          "desc": "[WhenUse] ได้รับความเสียหายจากสกิลลดลง -90% (มีผลเทิร์นละครั้ง)",
           "flavor": "สิ่งนี้ไม่ใช่พิมพ์เขียวของห้างสรรพสินค้า",
           "coinlist": [
             {
@@ -1273,12 +1273,12 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงปรารถนา",
-          "desc": "[WhenUse] At fewer than max จำนวน [ChargeRouge] จะผลาญ 5% HP เพื่อรับ 10 จำนวน [ChargeRouge]",
+          "desc": "[WhenUse] เมื่อมีจำนวน [ChargeRouge] ไม่เต็ม จะผลาญ HP 5% เพื่อรับจำนวน [ChargeRouge] 10 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Laceration] 3 หน่วย"
                 }
               ]
             }
@@ -1292,19 +1292,19 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงสวม",
-          "desc": "[WhenUse] At fewer than max จำนวน [ChargeRouge] จะผลาญ 5% HP เพื่อรับ 10 จำนวน [ChargeRouge]\n[WhenUse] ผลาญ 5 จำนวน [ChargeRouge] เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +2",
+          "desc": "[WhenUse] เมื่อมีจำนวน [ChargeRouge] ไม่เต็ม จะผลาญ HP 5% เพื่อรับจำนวน [ChargeRouge] 10 หน่วย\n[WhenUse] ผลาญจำนวน [ChargeRouge] 5 หน่วย เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +2 แต้ม",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวน [Laceration] +2 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +2 [Laceration] จำนวน"
+                  "desc": "[OnSucceedAttack] สร้างจำนวน [Laceration] +2 หน่วย"
                 }
               ]
             }
@@ -1318,19 +1318,19 @@
         {
           "level": 1,
           "name": "ลวดลาย: จงบริโภค",
-          "desc": "[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% damage ตามทุก ๆ 2% missing HP ที่ตนเองมี (สูงสุด 60%)\n[WhenUse] ผลาญ all จำนวน [ChargeRouge] ที่ตนเองมี เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeRouge] ที่ผลาญไป (สูงสุด 3)",
+          "desc": "[WhenUse] สร้างความเสียหายเพิ่มขึ้น +3% ตามทุก ๆ HP 2% ของตนเองที่หายไป (สูงสุด 60%)\n[WhenUse] ผลาญจำนวน [ChargeRouge] ทั้งหมดที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeRouge] 2 หน่วยที่ผลาญไป (สูงสุด 3 แต้ม)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 1 [ScarletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] สร้าง [ScarletTakeDamageUp] 1 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Lust damage เท่ากับ (missing HP ที่ตนเองมี)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุราคะ เท่ากับ (HP ของตนเองที่หายไป)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
                 }
               ]
             }
@@ -1344,7 +1344,7 @@
         {
           "level": 1,
           "name": "ลวดลาย: \"จงกวาดและรวม\"",
-          "desc": "[WhenUse] Heal 25% HP\n- At 2+ [ChargeRouge], heal 50% HP instead",
+          "desc": "[WhenUse] ฟื้นฟู HP 25%\n- เมื่อมีค่า [ChargeRouge] 2+ หน่วย จะฟื้นฟู HP 50% แทน",
           "coinlist": [
             {
               "coindescs": []
@@ -1359,12 +1359,12 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงคงสภาพ",
-          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] +5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับ +5 additional จำนวน [ChargeNoir]",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] +5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับจำนวน [ChargeNoir] เพิ่มเติม +5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างค่า [Vibration] 3 หน่วย"
                 }
               ]
             }
@@ -1378,19 +1378,19 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงประจักษ์โดยไม่เอื้อนเอ่ย",
-          "desc": "[WhenUse] ได้รับ 5 จำนวน [ChargeNoir]\n- หากเป้าหมายมี [Vibration] จะได้รับ 5 additional จำนวน [ChargeNoir]\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeNoir] ที่ตนเองมี (สูงสุด 2)\n[WhenUse] At 10+ จำนวน [ChargeNoir] จะสร้าง 5 ค่า [Vibration] on Coin Hit",
+          "desc": "[WhenUse] ได้รับจำนวน [ChargeNoir] 5 หน่วย\n- หากเป้าหมายมี [Vibration] จะได้รับจำนวน [ChargeNoir] เพิ่มเติม 5 หน่วย\n[WhenUse] แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeNoir] 2 หน่วยที่ตนเองมี (สูงสุด 2 แต้ม)\n[WhenUse] เมื่อมีจำนวน [ChargeNoir] 10+ หน่วย เมื่อเหรียญโจมตีโดนจะสร้างค่า [Vibration] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's จำนวนครั้ง [Vibration] by 1"
+                  "desc": "[OnSucceedAttack] ทำให้เกิด [VibrationExplosion]; จากนั้นลดจำนวนครั้ง [Vibration] บนตัวเป้าหมายลง 1 หน่วย"
                 }
               ]
             }
@@ -1404,19 +1404,19 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงตรึงทั้งหมด",
-          "desc": "สร้างความเสียหายเพิ่มขึ้น +4% damage ตามทุก ๆ ค่า [ChargeNoir] ที่ตนเองมี (สูงสุด 20%)\n[WhenUse] ผลาญ all จำนวน [ChargeNoir] ที่ตนเองมี เพื่อรับ แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ 2 จำนวน [ChargeNoir] ที่ผลาญไป (สูงสุด 3)\n- หากตัวละครนี้ ที่ผลาญไป 10+ จำนวน [ChargeNoir] จะสร้าง 5 ค่า [Vibration] on Coin Hit",
+          "desc": "สร้างความเสียหายเพิ่มขึ้น +4% ตามทุก ๆ ค่า [ChargeNoir] ที่ตนเองมี (สูงสุด 20%)\n[WhenUse] ผลาญจำนวน [ChargeNoir] ทั้งหมดที่ตนเองมี เพื่อทำให้แต้มปิดท้ายสกิลเพิ่มขึ้น +1 แต้ม ตามทุก ๆ จำนวน [ChargeNoir] 2 หน่วยที่ผลาญไป (สูงสุด 3 แต้ม)\n- หากตัวละครนี้ผลาญจำนวน [ChargeNoir] 10+ หน่วย เมื่อเหรียญโจมตีโดนจะสร้างค่า [Vibration] 5 หน่วย",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] สร้าง +3 จำนวนครั้ง [Vibration]"
+                  "desc": "[OnSucceedAttack] สร้างจำนวนครั้ง [Vibration] +3 หน่วย"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal Sloth damage เท่ากับ (ค่า [Vibration] on target)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
+                  "desc": "[OnSucceedAttack] สร้างความเสียหายธาตุเกียจคร้าน เท่ากับ (ค่า [Vibration] บนตัวเป้าหมาย)% ของความเสียหายสุดท้ายที่เหรียญนี้สร้าง"
                 }
               ]
             }
@@ -1430,7 +1430,7 @@
         {
           "level": 1,
           "name": "การตัดเย็บ: จงถูกตอก",
-          "desc": "[StartBattle] ในเทิร์นนี้และในเทิร์นถัดไป จะได้รับ Shield เท่ากับ 25% of HP สูงสุดตัวละครนี้ (min 1)\n- At 2+ [ChargeNoir] จะได้รับ Shield เท่ากับ 40% of HP สูงสุดตัวละครนี้ instead",
+          "desc": "[StartBattle] ในเทิร์นนี้และในเทิร์นถัดไป จะได้รับโล่เท่ากับ 25% ของ HP สูงสุดตัวละครนี้ (ต่ำสุด 1 หน่วย)\n- เมื่อมีค่า [ChargeNoir] 2+ หน่วย จะได้รับโล่เท่ากับ 40% ของ HP สูงสุดตัวละครนี้แทน",
           "coinlist": [
             {
               "coindescs": []
