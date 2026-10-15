@@ -3884,6 +3884,41 @@
       "id": "battle_special_10315_8",
       "desc": "",
       "dlg": "จงปฏิบัติตามคำสั่ง"
+    },
+    {
+      "id": 1101602,
+      "name": "La Jouissance phallique",
+      "desc": "Gain 1 [ChargeRougeAlly] Count every time [Laceration] is activated in this Encounter (10 times per turn)\n\nCombat End: At 15+ [ChargeRougeAlly] Count, if this unit is not in [BuffetSinclair] state, consume all [ChargeRougeAlly] Count to gain 3 [BuffetSinclair] next turn\n- Heal SP equal to (3 x [ChargeRougeAlly] Count consumed beyond 15) (max 15)\n\nWhen [BuffetSinclair] expires, consume all [ChargeRougeAlly] Count on self to heal HP equal to ([ChargeRougeAlly] Count consumed x 2)\n\nGain 1 [ChargeRougeAlly] Potency for every 10 cumulative [ChargeRougeAlly] Count this unit consumes in this Encounter\n\nThis unit's Base Attack Skills and Clashable Counter Skills are considered as Skills that gain [Charge] Count",
+      "summary": "Gain [ChargeRougeAlly] Count every time [Laceration] is activated"
+    },
+    {
+      "id": 1101603,
+      "name": "La Fin de l'Enfance",
+      "desc": "Gain [HungrySinclair] based on the following conditions (50 per turn):\n- When this unit consumes [ChargeRougeAlly] Count, gain Stack equal to [ChargeRougeAlly] Count consumed\n- When this unit's Base Skills heal other allies' HP, gain Stack equal to actual amount healed\n- Gain 1 Stack for every 10 cumulative HP allies lost\n- On Base Attack Hit by another \"Le Rouge\" allied Identity, gain 2 Stacks\n- Turn End: Gain 5 Stacks for every other \"Le Rouge\" allied Identity on the field\n\nTurn End: At 100+ [HungrySinclair], and if this unit does not have [TransformSinclair], replace the Skill on the leftmost Skill Slot's bottom row with \"La Voracité\" at the next Turn Start\n\nCombat Start: If this unit equipped \"La Voracité\" or \"La Castration\" for the first time in this Encounter, gain [BuffetThirst] and [TransformSinclair]; then, remove this unit's Stagger Threshold\n- Replace equipped Base Skills with [TransformSinclair] exclusive Skills\n- Base Skills that targeted allies activate Unopposed Attack against random enemies\n- At Attack End of the Skill activated by the said effect, consume all [HungrySinclair]\n\nTurn End: At 150 [HungrySinclair], if this unit has [TransformSinclair], and if this unit does not have \"La Voracité\" on its Dashboard at the next Turn Start, replace a Base Skill with \"La Voracité\" (prioritizes the Skill on the leftmost Slot's bottom row)",
+      "summary": "Gain [HungrySinclair] based on conditions",
+      "flavor": "Who decides where childhood ends?\n\nThe crimson child set out on an adventure all on his lonesome.\nTracing memories, longing for what was lost, the child walked on with friendless steps... and in loneliness, bade farewell to childhood."
+    },
+    {
+      "id": 1101604,
+      "name": "La Moisson",
+      "desc": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered by the said effects, and its HP does not drop below 1.\n\nCombat End: At 3+ Lust Reson., apply [BuffetThirst] next turn on (Lust Reson. / 3) other allies (rounded up)\n- Prioritizes \"Le Rouge\" allies, in Deployment order\n\nWhen using a [SupportAlly] Skill on an ally, apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP (once per turn)\nAt Base Attack End by another allied [PersonalityCharge], if the said Skill did not defeat its main target, use \"Je vous aide\" against that enemy (once per turn)",
+      "summary": "When using a [SupportAlly] Skill on an ally, apply [BuffetFriendShield]\nApply [BuffetThirst] on ally next turn based on Lust Reson."
+    },
+    {
+      "id": 1101614,
+      "name": "La Moisson",
+      "desc": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered by the said effects, and its HP does not drop below 1.\n\nCombat End: At 3+ Lust Reson., apply [BuffetThirst] next turn on (Lust Reson. / 3) other allies (rounded up)\n- Prioritizes \"Le Rouge\" allies, in Deployment order\n- If this unit has [TransformSinclair], apply this effect to +1 more ally (max 4 allies)\n\nIf this unit does not have [TransformSinclair],\n- When using a [SupportAlly] Skill on an ally, apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP (once per turn)\n- At Base Attack End by another allied [PersonalityCharge], if the said Skill did not defeat its main target, use \"Je vous aide\" against that enemy (once per turn)\n\nIf this unit has [TransformSinclair],\n- Gain [RougeFamilySinclair]\n- Activate [DinnerField] on the current battlefield\n- Turn End: Gain [BuffetThirst] next turn\n- Combat Start: Apply 1 [BuffetFriendShield] to the non-immobilized \"Le Rouge\" ally with the highest current HP\n- At Attack End of a Base Attack Skill against enemies, if the main target has 5 [BoneNailSinclair], use \"La Demande\" (once per turn)",
+      "summary": "When using a [SupportAlly] Skill on an ally, apply [BuffetFriendShield]\nApply [BuffetThirst] on ally next turn based on Lust Reson."
+    },
+    {
+      "id": 1101611,
+      "name": "Les Pouvoirs de la vie",
+      "desc": "When a \"Le Rouge\" ally becomes Staggered due to damage, use \"Le Manque-à-être\" on the said ally (once per turn, excluding forced Stagger)\n\nIf this unit does not have [TransformSinclair],\n- When a non-\"Le Rouge\" ally becomes Staggered due to damage, use \"Le Manque-à-être\" on the said ally (once per Encounter, excluding forced Stagger)\n\nIf this unit has [TransformSinclair],\n- When another \"Le Rouge\" ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)"
+    },
+    {
+      "id": 1101621,
+      "name": "Voracious Overindulgence",
+      "desc": "Combat Start: Apply 2 [AttackUp] to the ally with the lowest HP\nThe said ally heals 5% HP at Attack Skill End (min 1, once per turn)"
     }
   ]
 }
