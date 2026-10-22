@@ -44,12 +44,6 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาซซีฟตัวตนใหม่  
-• แปลของขวัญ E.G.O ใหม่  
-• แปลสถานะใหม่  
-• แปลเสียงประกาศ (ภาค Pwie)  
-• แปลบทพูดระหว่างการต่อสู้ (ภาคเทวชาดซินแคลร์)
-• แปลเนื้อเรื่อง Canto X: The Gaze Bearing part 2 (ต่อ)(WIP)  
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -64,7 +58,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 7  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ Canto 8  JoshWaltz49  
 ✔ Canto 9  JoshWaltz49  
-✘ Canto 9  Onyx (WIP)  
+✘ Canto 10  Onyx (WIP)  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
