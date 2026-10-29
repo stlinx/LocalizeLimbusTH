@@ -3647,6 +3647,346 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Please Listen to Me",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +2 [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Please Listen to Me",
+          "desc": "<style=\"highlight\">[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">3</style> [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Please Listen to Me",
+          "desc": "<style=\"highlight\">Deal +5% damage for every 2 [ChargeNoirAlly] Potency on self (max 10%)</style>\n[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)\n<style=\"highlight\">[EndSkillAll] At fewer than 10 [ChargeNoirAlly] Count, gain +3 [ChargeNoirAlly] Count</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Repeat on Repeat",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +3 [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal 3 SP damage"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [AmberResistDown] next turn (once per turn)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Repeat on Repeat",
+          "desc": "<style=\"highlight\">[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+3</style> [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal 3 SP damage"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [AmberResistDown] next turn (once per turn)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Repeat on Repeat",
+          "desc": "<style=\"highlight\">Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 20%)</style>\n[WhenUse] Consume 3 [ChargeNoirAlly] Count to gain Coin Power +1 (max 2 times)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">5</style> [ChargeNoirAlly] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal 3 SP damage"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [AmberResistDown] <style=\"highlight\">this turn and</style> next turn (once per turn)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Horribly Infinite Replay",
+          "desc": "Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 30%)\n[WhenUse] Gain ([ChargeNoirAlly] Potency on self x 2) [NoirBindArmorAlly] (max 10 per Skill)\n[WhenUse] Consume 5 [ChargeNoirAlly] Count to gain Coin Power +1 (max 3 times)\n[EndSkill] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal 5 SP damage"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal Sloth Damage equal to 20% of this Coin's final damage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Horribly Infinite Replay",
+          "desc": "Deal +10% damage for every 2 [ChargeNoirAlly] Potency on self (max 30%)\n[WhenUse] Gain ([ChargeNoirAlly] Potency on self x <style=\"highlight\">3</style>) [NoirBindArmorAlly] (max <style=\"highlight\">15</style> per Skill)\n[WhenUse] Consume 5 [ChargeNoirAlly] Count to gain Coin Power +1 (max 3 times)\n[EndSkill] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "If this unit has [TimeToListenHonglu], Reuse this Coin once (once per Skill)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 2+ [ChargeNoirAlly] Potency, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [WarinessHonglu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal 5 SP damage<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Deal Sloth Damage equal to <style=\"highlight\">30</style>% of this Coin's final damage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Customer Announcement",
+          "desc": "[DuelCounter]\n[StartBattle] If this unit does not have [SupportProtect], gain 1 [SupportProtect]\n[WhenUse] Gain [NoirBindArmorAlly] equal to [ChargeNoirAlly] Potency on self (max 5 per Skill)\n[WhenUse] Gain +2 [ChargeNoirAlly] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Customer Announcement",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Deal +25% damage for every 2 [ChargeNoirAlly] Potency on self (max 75%)</style>\n[StartBattle] If this unit does not have [SupportProtect], gain 1 [SupportProtect]\n<style=\"highlight\">[BeforeUse] If this unit has [TimeToListenHonglu], activate \"Horribly Infinite Replay\" instead (once per Encounter)\n[WhenUse] Coin Power +1 for every 3 [ChargeNoirAlly] Potency on self (max 2)</style>\n[WhenUse] <style=\"highlight\">Gain ([ChargeNoirAlly] Potency on self x 3) [NoirBindArmorAlly]</style> (max <style=\"highlight\">15</style> per Skill)\n[WhenUse] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Warning Announcement",
+          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WhenUse] Consume 6 [ChargeNoirAlly] Count to gain 1 [SupportProtect] next turn (once per turn)\n[WhenUse] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)\n[WinDuel] Gain +2 [ChargeNoirAlly] Count\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Warning Announcement",
+          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n<style=\"highlight\">Final Power +1 for every 2 [ChargeNoirAlly] Potency on self (max 3)</style>\n[WhenUse] Consume 6 [ChargeNoirAlly] Count to gain 1 [SupportProtect] next turn (once per turn)\n[WhenUse] If this unit does not have [TimeToListenHonglu], gain 1 [ReadyToListenHonglu] (once per turn)\n[WinDuel] Gain +<style=\"highlight\">4</style> [ChargeNoirAlly] Count\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
