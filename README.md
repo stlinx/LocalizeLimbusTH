@@ -44,6 +44,9 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
+• แปลสกิล/พาสซีฟตัวตนใหม่  
+• แปลสถานะใหม่  
+• 
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -58,7 +61,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 7  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ Canto 8  JoshWaltz49  
 ✔ Canto 9  JoshWaltz49  
-✘ Canto 10  Onyx (WIP)  
+✔ Canto 10  Onyx  
 
 **เนื้อเรื่องเสริม**  
 ✘ 3.5 : Hell's Chicken  
