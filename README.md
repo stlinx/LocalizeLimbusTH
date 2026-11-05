@@ -44,9 +44,9 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาสซีฟตัวตนใหม่  
+• แปลของขวัญ E.G.O ใหม่  
 • แปลสถานะใหม่  
-• แปล Canto X: The Gaze Bearing เสร็จสมบูรณ์  
+• แปลเนื้อเรื่อง Canto V: The Evil Defined จบบริบูรณ์  
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -56,7 +56,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ Canto 2  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 3  JoshWaltz49  
 ✔ Canto 4  JoshWaltz49  
-✘ Canto 5  JoshWaltz49 (WIP)  
+✔ Canto 5  JoshWaltz49  
 ✔ Canto 6  [stlinx](https://www.facebook.com/jjet.smile)  
 ✔ Canto 7  [Asonakun](https://www.facebook.com/share/195Qv39ccg/)  
 ✔ Canto 8  JoshWaltz49  
