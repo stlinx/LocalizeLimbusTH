@@ -1433,7 +1433,7 @@
     {
       "id": 1100902,
       "name": "เปลือกอีโก้ที่ไม่มั่นคง",
-      "desc": "เริ่มเทิร์น: ขณะมี SP 40+ หน่วย จะผลาญ SP 0 หน่วย เพื่อเข้าสู่สภาวะ 'E.G.O ไม่คงที่: ปีกขี้ผึ้ง' (เอฟเฟกต์ 'เริ่มเทิร์น' จะไม่เกิดผลซ้ำต่อเนื่อง)\n\nหากมีพันธมิตร 2+ คนถูกกำจัดภายในเทิร์นเดียว และ SP ของตัวละครนี้ไม่ได้อยู่ที่ -45 หน่วยเมื่อจบเทิร์น:\n- รีเซ็ต SP เป็น 20 หน่วย\n- จากนั้นจะเข้าสู่สภาวะ 'E.G.O ไม่คงที่: ปีกขี้ผึ้ง'\n(หากเงื่อนไขทั้งสองแบบทำงานในเวลาเดียวกัน จะเลือกวิธีแบบที่ทำให้เหลือ SP มากกว่า)\n\nหากตัวละครนี้ติดชะงักจากความเสียหายหรือจากการถูกดึงเกจชะงักขึ้น ขณะกำลังจะเข้าสู่สภาวะ E.G.O ไม่คงที่ จะฟื้นตัวจากการชะงัก\n- แต่หากการชะงักนั้นไม่สามารถฟื้นฟูได้โดยวิธีปกติ ตัวละครนี้จะไม่เข้าสู่สภาวะ E.G.O ไม่คงที่\n\nได้รับ [UnstableFeeling] ขณะอยู่ในสภาวะ E.G.O ไม่คงที่\n\nเริ่มเทิร์น: หากมี SP 0 หน่วยหรือต่ำกว่า จะออกจากสภาวะ 'E.G.O ไม่คงที่: ปีกขี้ผึ้ง'",
+      "desc": "เริ่มเทิร์น: ขณะมี SP 40+ หน่วย จะผลาญ SP 0 หน่วย เพื่อเข้าสู่สภาวะ 'E.G.O ไม่มั่นคง: ปีกขี้ผึ้ง' (เอฟเฟกต์ 'เริ่มเทิร์น' จะไม่เกิดผลซ้ำต่อเนื่อง)\n\nหากมีพันธมิตร 2+ คนถูกกำจัดภายในเทิร์นเดียว และ SP ของตัวละครนี้ไม่ได้อยู่ที่ -45 หน่วยเมื่อจบเทิร์น:\n- รีเซ็ต SP เป็น 20 หน่วย\n- จากนั้นจะเข้าสู่สภาวะ 'E.G.O ไม่มั่นคง: ปีกขี้ผึ้ง'\n(หากเงื่อนไขทั้งสองแบบทำงานในเวลาเดียวกัน จะเลือกวิธีแบบที่ทำให้เหลือ SP มากกว่า)\n\nหากตัวละครนี้ติดชะงักจากความเสียหายหรือจากการถูกดึงเกจชะงักขึ้น ขณะกำลังจะเข้าสู่สภาวะ E.G.O ไม่คงที่ จะฟื้นตัวจากการชะงัก\n- แต่หากการชะงักนั้นไม่สามารถฟื้นฟูได้โดยวิธีปกติ ตัวละครนี้จะไม่เข้าสู่สภาวะ E.G.O ไม่คงที่\n\nได้รับ [UnstableFeeling] ขณะอยู่ในสภาวะ E.G.O ไม่คงที่\n\nเริ่มเทิร์น: หากมี SP 0 หน่วยหรือต่ำกว่า จะออกจากสภาวะ 'E.G.O ไม่มั่นคง: ปีกขี้ผึ้ง'",
       "summary": " "
     },
     {
@@ -3180,14 +3180,14 @@
     {
       "id": 1121601,
       "name": "มอร์เกินฟอยเออร์ (อรุณเพลิง) [สติกมาเวิร์คช็อป]",
-      "desc": "เมื่อตัวตนอื่นจาก <สำนักงานอรุณ[TabExplain]> ทำตามเงื่อนไขต่อไปนี้ จะทำให้ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' ใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูที่ตกเป็นเป้าหมาย (มีผล 1 ครั้ง/เทิร์น/ตัวตน)\n- เมื่อสกิลโจมตีพื้นฐานจบลง: หากศัตรูที่ถูกโจมตีติดชะงัก จะใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูตัวดังกล่าว (จะไม่ทำงานหากศัตรูตัวดังกล่าวติดชะงักอยู่แล้วก่อนที่สกิลดังกล่าวจะโจมตี)\n- หลังจากสกิลดังต่อไปนี้โจมตีเสร็จสิ้น จะใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูที่ถูกโจมตี (เน้นเป้าหมายที่ติดชะงักก่อน):\n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - เฟาสท์: สกิล \"ดีดพุ่ง\", สกิล \"ดีดพุ่ง - ตะวันเที่ยง\", และสกิล \"กายแยกขาด ณ ตะวันเที่ยง\" \n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์: สกิล \"ตราแผลเป็น\" และสกิล \"เพลิงอัคคีลุกโชนจู่โจม\"\n\nหาก 'ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์' อยู่บนสนาม: เมื่อสกิลพื้นฐานของ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' โจมตีโดนด้วยเหรียญที่ถูกเพิ่มเข้ามา จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย (สูงสุด 10 หน่วย; สูงสุด 20 หน่วย/เทิร์น)\n- นับว่าทำให้ [Combustion] ทำงาน",
+      "desc": "เมื่อตัวตนอื่นจาก <สำนักงานอรุณ[TabExplain]> ทำตามเงื่อนไขต่อไปนี้ จะทำให้ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' ใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูที่ตกเป็นเป้าหมาย (มีผล 1 ครั้ง/เทิร์น/ตัวตน)\n- เมื่อสกิลโจมตีพื้นฐานจบลง: หากศัตรูที่ถูกโจมตีติดชะงัก จะใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูตัวดังกล่าว (จะไม่ทำงานหากศัตรูตัวดังกล่าวติดชะงักอยู่แล้วก่อนที่สกิลดังกล่าวจะโจมตี)\n- หลังจากสกิลดังต่อไปนี้โจมตีเสร็จสิ้น จะใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูที่ถูกโจมตี (เน้นเป้าหมายที่ติดชะงักก่อน):\n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - เฟาสท์: สกิล \"ดีดพุ่ง\", สกิล \"ดีดพุ่ง - ตะวันเที่ยง\", และสกิล \"กายแยกขาด ณ ตะวันเที่ยง\" \n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์: สกิล \"ตราแผลเป็น\" และสกิล \"เพลิงอัคคีลุกโชนจู่โจม\"\n\nหาก 'ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์' อยู่บนสนาม: เมื่อสกิลพื้นฐานของ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' โจมตีโดนด้วยเหรียญที่ถูกเพิ่มเข้ามา จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย (สูงสุด 10 หน่วย; สูงสุด 20 หน่วย/เทิร์น)\n- นับว่าทำให้ [Combustion] ทำงาน",
       "summary": "หากเงื่อนไขครบ จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย",
       "flavor": "อาวุธเวิร์คช็อประดับ A+ คลาสที่เป็นสหายคู่กายของผู้ใช้มันอย่าง 'ฟิกเซอร์ผู้ยืนอยู่ ณ แย้มอรุณ' มาโดยตลอด นับตั้งแต่วันแรกที่เขาเป็นฟิกเซอร์ในสงครามควันจวบจนวันที่มันจบลง\n\nสัญญาทุกฉบับที่ฟิกเซอร์คนนั้นดำเนินการสำเร็จ ล้วนแล้วแต่จะเพิ่มชื่อเสียงให้กับสติกมาเวิร์คช็อป และเพื่อแสดงความขอบคุณ พวกเขาเลยอัปเกรดและขยายความสามารถให้กับอาวุธเล่มนั้นอยู่เสมอ ในขณะที่ชื่อเสียงขจรของฟิกเซอร์คนนั้นได้รับการสั่งสมอย่างยาวนานนั้น ดาบเล่มนี้ก็ถูกตีหลอม ถูกสร้างใหม่ และผ่านการลับคมมาตลอดหลายปีด้วยเช่นกัน\n\nมอร์เกินฟอยเออร์ อาวุธที่ครั้งหนึ่งถูกยกย่องในฐานะอาวุธระดับ S คลาส บัดนี้ได้เสียความเร่าร้อนและคมดาบไปในช่วงบั้นปลายชีวิตของฟิกเซอร์แย้มอรุณอย่างเลี่ยงไม่ได้ ในตอนที่เขาถอนตัวจากแนวหน้าธุรกิจฟิกเซอร์เพื่ออบรมสั่งสอนคนรุ่นถัดไป"
     },
     {
       "id": 1121611,
       "name": "มอร์เกินฟอยเออร์ (อรุณเพลิง) [สติกมาเวิร์คช็อป]",
-      "desc": "เมื่อตัวละครนี้มี [DawnLight] จะได้รับ [StigmaWorkshopHandStep1] 2 หน่วยเมื่อโจมตีโดนด้วยสกิลโจมตีพื้นฐาน\n\nเมื่อตัวตนอื่นจาก <สำนักงานอรุณ[TabExplain]> ทำตามเงื่อนไขต่อไปนี้ จะทำให้ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' ใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูที่ตกเป็นเป้าหมาย (มีผล 1 ครั้ง/เทิร์น/ตัวตน)\n- เมื่อสกิลโจมตีพื้นฐานจบลง: หากศัตรูที่ถูกโจมตีติดชะงัก จะใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูตัวดังกล่าว (จะไม่ทำงานหากศัตรูตัวดังกล่าวติดชะงักอยู่แล้วก่อนที่สกิลดังกล่าวจะโจมตี)\n- หลังจากสกิลดังต่อไปนี้โจมตีเสร็จสิ้น จะใช้สกิล \"แสงแวบตะวันโผล่\" ใส่ศัตรูที่ถูกโจมตี (เน้นเป้าหมายที่ติดชะงักก่อน):\n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - เฟาสท์: สกิล \"ดีดพุ่ง\", สกิล \"ดีดพุ่ง - ตะวันเที่ยง\", และสกิล \"กายแยกขาด ณ ตะวันเที่ยง\" \n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์: สกิล \"ตราแผลเป็น\" และสกิล \"เพลิงอัคคีลุกโชนจู่โจม\"\n\nหาก 'ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์' อยู่บนสนาม: เมื่อสกิลพื้นฐานของ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' โจมตีโดนด้วยเหรียญที่ถูกเพิ่มเข้ามา จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย (สูงสุด 10 หน่วย; สูงสุด 20 หน่วย/เทิร์น)\n- นับว่าทำให้ [Combustion] ทำงาน",
+      "desc": "เมื่อตัวละครนี้มี [DawnLight] จะได้รับ [StigmaWorkshopHandStep1] 2 หน่วยเมื่อโจมตีโดนด้วยสกิลโจมตีพื้นฐาน\n\nเมื่อตัวตนอื่นจาก <สำนักงานอรุณ[TabExplain]> ทำตามเงื่อนไขต่อไปนี้ จะทำให้ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' ใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูที่ตกเป็นเป้าหมาย (มีผล 1 ครั้ง/เทิร์น/ตัวตน)\n- เมื่อสกิลโจมตีพื้นฐานจบลง: หากศัตรูที่ถูกโจมตีติดชะงัก จะใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูตัวดังกล่าว (จะไม่ทำงานหากศัตรูตัวดังกล่าวติดชะงักอยู่แล้วก่อนที่สกิลดังกล่าวจะโจมตี)\n- หลังจากสกิลดังต่อไปนี้โจมตีเสร็จสิ้น จะใช้สกิล \"แวบแสงตะวันโผล่\" ใส่ศัตรูที่ถูกโจมตี (เน้นเป้าหมายที่ติดชะงักก่อน):\n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - เฟาสท์: สกิล \"ดีดพุ่ง\", สกิล \"ดีดพุ่ง - ตะวันเที่ยง\", และสกิล \"กายแยกขาด ณ ตะวันเที่ยง\" \n  · ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์: สกิล \"ตราแผลเป็น\" และสกิล \"เพลิงอัคคีลุกโชนจู่โจม\"\n\nหาก 'ฟิกเซอร์สำนักงานอรุณ[TabExplain] - ซินแคลร์' อยู่บนสนาม: เมื่อสกิลพื้นฐานของ 'ตัวแทนสำนักงานอรุณ[TabExplain] - เกรกอร์' โจมตีโดนด้วยเหรียญที่ถูกเพิ่มเข้ามา จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย (สูงสุด 10 หน่วย; สูงสุด 20 หน่วย/เทิร์น)\n- นับว่าทำให้ [Combustion] ทำงาน",
       "summary": "ได้รับ [StigmaWorkshopHandStep1]\nหากเงื่อนไขครบ จะสร้างความเสียหายธาตุโทสะเพิ่มเติมเท่ากับค่า [Combustion] บนตัวเป้าหมาย",
       "flavor": "อาวุธเวิร์คช็อประดับ A+ คลาสที่เป็นสหายคู่กายของผู้ใช้มันอย่าง 'ฟิกเซอร์ผู้ยืนอยู่ ณ แย้มอรุณ' มาโดยตลอด นับตั้งแต่วันแรกที่เขาเป็นฟิกเซอร์ในสงครามควันจวบจนวันที่มันจบลง\n\nสัญญาทุกฉบับที่ฟิกเซอร์คนนั้นดำเนินการสำเร็จ ล้วนแล้วแต่จะเพิ่มชื่อเสียงให้กับสติกมาเวิร์คช็อป และเพื่อแสดงความขอบคุณ พวกเขาเลยอัปเกรดและขยายความสามารถให้กับอาวุธเล่มนั้นอยู่เสมอ ในขณะที่ชื่อเสียงขจรของฟิกเซอร์คนนั้นได้รับการสั่งสมอย่างยาวนานนั้น ดาบเล่มนี้ก็ถูกตีหลอม ถูกสร้างใหม่ และผ่านการลับคมมาตลอดหลายปีด้วยเช่นกัน\n\nมอร์เกินฟอยเออร์ อาวุธที่ครั้งหนึ่งถูกยกย่องในฐานะอาวุธระดับ S คลาส บัดนี้ได้เสียความเร่าร้อนและคมดาบไปในช่วงบั้นปลายชีวิตของฟิกเซอร์แย้มอรุณอย่างเลี่ยงไม่ได้ ในตอนที่เขาถอนตัวจากแนวหน้าธุรกิจฟิกเซอร์เพื่ออบรมสั่งสอนคนรุ่นถัดไป"
     },
@@ -3471,6 +3471,118 @@
       "id": 1061721,
       "name": "ห่มเอาไว้ใต้ผ้าห่ม",
       "desc": "ตัวตนแรกที่ใช้สกิลเฉพาะสำหรับเอฟเฟกต์ [SupportProtect] ในเทิร์นนี้ จะได้รับ [Protection] 1 หน่วยเมื่อใช้สกิลดังกล่าว (มีผลเทิร์นละครั้ง)"
+    },
+    {
+      "id": 1111601,
+      "name": "ศาสตร์วิชาหอกสไตล์ลิ่ม",
+      "desc": "Increase the Stagger Threshold raise by +10% for [VibrationExplosion] triggered by this unit's Skills\nCombat Start: Gain 1 [PenetrateResultUp] and 1 [PenetrateDamageUp]",
+      "flavor": "There is only so much piercing power to be gained from sharpening a spearhead. Spears forged from Patented alloys or rare materials recovered from the Ruins may offer greater results, but their price can rival several years' worth of an ordinary Fixer Office's budget. A far more economical approach is to harness the surrounding currents of wind and coil them around the weapon, granting it formidable piercing power at a fraction of the cost. The technique is well-established, with many Workshops offering their own implementations.\nWedge Office's spears are the handiwork of one such Workshop. Combined with the Office's distinctive spearwork, which makes masterful use of twisting and rotational movements, these weapons have run countless foes through."
+    },
+    {
+      "id": 1111602,
+      "name": "ไม่ย่อท้อ",
+      "desc": "In this Encounter, when this unit takes damage that brings its HP down to 0, apply the following effects (1 ครั้ง/การเผชิญหน้า):\n- Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n- Turn End: Heal 50% HP\n- Take -20% damage for this Encounter",
+      "summary": "When this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1"
+    },
+    {
+      "id": 1111603,
+      "name": "สำนักงานลิ่ม",
+      "desc": "Turn Start: If there are 2+ allied \"Wedge Office[TabExplain]\" Identities (including this unit) on the field, apply [WedgeOffice] Stack on all allied \"Wedge Office[TabExplain]\" Identities equal to the number of the said Identities on the field",
+      "summary": "Apply [WedgeOffice]"
+    },
+    {
+      "id": 1111604,
+      "name": "ลิ่มช่วยเหลือ",
+      "desc": "On Skill Use by an allied Identity (including this unit), gain 1 [ComboWedge] (once per turn per Identity)\nOn Clash Win by an allied \"Wedge Office[TabExplain]\" or \"Dawn Office[TabExplain]\" Identity, gain 2 [ComboWedge] (once per turn per Identity)\n\nAt this unit's Attack End, if this unit has 25+ [ComboWedge], use \"Assume Wedge Formation\" (มีผลเทิร์นละครั้ง)",
+      "summary": "At 25+ [ComboWedge], use \"Assume Wedge Formation\"",
+      "flavor": "Most Fixer Offices work together to make up for one another's shortcomings.\n\nSome Offices, however, find themselves so perfectly in sync that their partnership grows into something more. As they exchange information and forge deeper bonds of trust, they may eventually come to regard one another as siblings."
+    },
+    {
+      "id": 1111605,
+      "name": "Dawn - Wedge",
+      "desc": "Apply the following when allied Dawn Office[TabExplain] Rep Gregor Identity uses the \"Crack of Dawn\" Skill:\n- [ComboSkill]: Wedge Office[TabExplain] Rep Outis\n · [WhenUse] Deal +30% damage\n · [WhenUse] Allied Wedge Office[TabExplain] Rep Outis gains 1 [ComboWedgeDawn]\n\nTurn Start: Convert one of this unit's Base Skills based on [ComboWedgeDawn] Stack on self\n · At 4 [ComboWedgeDawn], convert the said Skill into \"... All units, engage for collision.\"\n · At 5 [ComboWedgeDawn], convert the said Skill into \"ลิ่มยามอรุณฉาย\"\n(prioritizes the Skill on the leftmost Slot's bottom row on this unit's Dashboard. If this unit already has one of the Skills above, the said Skill will not be duplicated; instead, the said Skill will be replaced by the Skill corresponding to the [ComboWedgeDawn] Stack condition)",
+      "summary": "Empower Dawn Office[TabExplain] Rep Gregor's \"Crack of Dawn\" Skill"
+    },
+    {
+      "id": 1111621,
+      "name": "Acceleration Lance",
+      "desc": "All allies' Pierce Skills deal +5% damage"
+    },
+    {
+      "id": 1031601,
+      "name": "นักล่าแห่งนคร",
+      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (สูงสุด 15%)",
+      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
+    },
+    {
+      "id": 1031602,
+      "name": "Ho, Young Sinclair! Thou Must Keep Apace!!",
+      "desc": "In the Team Loadout menu:\n- Equipping <noparse>Wedge Office</noparse> Fixer Don Quixote automatically equips Sinclair's Identity as <noparse>Wedge Office</noparse> Fixer Sinclair\n- When <noparse>Wedge Office</noparse> Fixer Sinclair is unequipped, automatically equip the most recently equipped Identity that isn't <noparse>Wedge Office</noparse> Fixer Don Quixote (If <noparse>Wedge Office</noparse> Fixer Don Quixote Identity was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Don Quixote Identity instead)\n\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied <noparse>Wedge Office</noparse> Fixer Sinclair Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities is at -45 SP, or is under an effect that fixes their Speed)",
+      "summary": "When Deployed, automatically Deploy the counterpart Identity for Sinclair\nIf this unit's Speed is slower than Sinclair's, become faster until their Speed values are equal\n"
+    },
+    {
+      "id": 1031603,
+      "name": "ลิ่มต้อน",
+      "desc": "Turn Start: Gain 1 [BattleFieldKnow]\n\nIf any of the following conditions are met, inflict 1 [WedgeMarkYellow] on the main target (มีผลเทิร์นละครั้ง)\n- On final Coin Hit using an Attack Skill against the main target\n- Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+      "summary": "Turn Start: Gain [BattleFieldKnow]\nWhen conditions are met, inflict [WedgeMarkYellow] on the main target"
+    },
+    {
+      "id": 1031604,
+      "name": "Back-to-back in Dawnbreak's Light",
+      "desc": "When the allied <noparse>Dawn Office</noparse> Fixer Faust Identity uses the \"Dismemberment at ตะวันเที่ยง\" Skill, the Skill's Coin 1 gains the following effects (มีผลเทิร์นละครั้ง):\n- [ComboSkill]: <noparse>Wedge Office</noparse> Fixer Don Quixote\n  · [OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count\n  · [OnSucceedAttack] Inflict 2 [Vibration]\n  · [OnSucceedAttack] Inflict 1 [WedgeMarkYellow]\n  · [OnSucceedAttack] Allied <noparse>Wedge Office</noparse> Rep Outis Identity gains 1 [ComboWedgeDawn]",
+      "summary": "On Combo Attack, On Hit using the \"Dismemberment at ตะวันเที่ยง\" Skill's Coin 1, inflict [Combustion], [Vibration], [WedgeMarkYellow], and [Combustion] Count; Outis gains [ComboWedgeDawn]"
+    },
+    {
+      "id": 1031611,
+      "name": "นักล่าแห่งนคร",
+      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (สูงสุด 25%)",
+      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
+    },
+    {
+      "id": 1031621,
+      "name": "Reconnaissance",
+      "desc": "When 1 ally with the fastest Speed uses a Skill to Clash, inflict 3 [Vibration] Potency on the target of the Clash (once per turn; for Focused Encounters, the Part)",
+      "summary": "The fastest ally inflicts [Vibration] Potency against the target it's Clashing against"
+    },
+    {
+      "id": 1101701,
+      "name": "นักล่าแห่งนคร",
+      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (สูงสุด 15%)",
+      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
+    },
+    {
+      "id": 1101702,
+      "name": "Don Quixote... Please focus on the task at hand.",
+      "desc": "In the Team Loadout menu:\n- Equipping <noparse>Wedge Office</noparse> Fixer Sinclair automatically equips Don Quixote's Identity as <noparse>Wedge Office</noparse> Fixer Don Quixote\n- When <noparse>Wedge Office</noparse> Fixer Don Quixote is unequipped, automatically equip the most recently equipped Identity that isn't <noparse>Wedge Office</noparse> Fixer Sinclair (If <noparse>Wedge Office</noparse> Fixer Sinclair Identity was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Sinclair Identity instead)\n\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied <noparse>Wedge Office</noparse> Fixer Don Quixote Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities is at -45 SP, or is under an effect that fixes their Speed)",
+      "summary": "When Deployed, automatically Deploy the counterpart Identity for Don Quixote\nIf this unit's Speed is slower than Don Quixote's, become faster until their Speed values are equal"
+    },
+    {
+      "id": 1101703,
+      "name": "ลิ่มต้อน",
+      "desc": "Turn Start: Gain 1 [BattleFieldKnow]\n\nIf any of the following conditions are met, inflict 1 [WedgeMarkGreen] on the main target (มีผลเทิร์นละครั้ง)\n- On final Coin Hit using an Attack Skill against the main target\n- Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+      "summary": "Turn Start: Gain [BattleFieldKnow]\nWhen conditions are met, inflict [WedgeMarkGreen] on the main target"
+    },
+    {
+      "id": 1101704,
+      "name": "Back-to-back in Dawnbreak's Light",
+      "desc": "When the allied <noparse>Dawn Office</noparse> Fixer Faust Identity uses the \"Dismemberment at ตะวันเที่ยง\" Skill, the Skill's Coin 2 gains the following effects (มีผลเทิร์นละครั้ง):\n- [ComboSkill]: <noparse>Wedge Office</noparse> Fixer Sinclair\n  · [OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count\n  · [OnSucceedAttack] Inflict 2 [Vibration]\n  · [OnSucceedAttack] Inflict 1 [WedgeMarkGreen]\n  · [OnSucceedAttack] Allied <noparse>Wedge Office</noparse> Rep Outis Identity gains 1 [ComboWedgeDawn]",
+      "summary": "On Combo Attack, On Hit using the \"Dismemberment at ตะวันเที่ยง\" Skill's Coin 2, inflict [Combustion], [Vibration], [WedgeMarkGreen], and [Combustion] Count; Outis gains [ComboWedgeDawn]"
+    },
+    {
+      "id": 1101711,
+      "name": "นักล่าแห่งนคร",
+      "desc": "Combat End: At 10+ [Breath] Potency, gain 1 [Agility] next turn\n\nAt more than 20 [Breath] Potency, Base Skills deal +(excess Potency)% damage on Critical Hit (สูงสุด 25%)",
+      "summary": "At sufficient [Breath] Potency, gain [Agility] next turn\nAt excess [Breath] Potency, Base Skills deal more damage on Critical Hit",
+      "flavor": "The streets of the City are never short of vile and savage company after dark. Rats desperate to turn their lives around, denizens of the Backstreets harboring dreams of revenge, Syndicates and Fingers embroiled in struggles over their interests... and, of course, the Sweepers.\n\nFor all the fortunes to be made from working after sundown, few Fixers are eager to accept such contracts. There are, however, those who find their greatest opportunities precisely where others dare not tread.\n\nThe discernment to read any situation with remarkable precision. The swiftness and thoroughness to bring a job to its conclusion without inviting further trouble. With these two qualities as its greatest assets, Wedge Office has weathered every contract and walked away with the handsome compensation that follows."
+    },
+    {
+      "id": 1101721,
+      "name": "Keeping Pace",
+      "desc": "Turn End: Apply 1 [Agility] next turn on the allied Identity with the slowest Speed (prioritize \"Fixer\" Identities)\n- If the said Identity is a \"Fixer\", apply 1 [AttackUp] and 1 [Agility] next turn instead",
+      "summary": "Apply [Agility] next turn for the slowest ally\nIf the said ally is a \"Fixer\", apply [Agility] and [AttackUp] next turn"
     }
   ]
 }
