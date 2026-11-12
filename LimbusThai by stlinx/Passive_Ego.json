@@ -657,6 +657,24 @@
       "desc": "[AlwaysUseEGOPassive]\nหากตัวละครนี้มี [BulletHole] 5 หน่วย เมื่อใช้สกิล E.G.O \"กลวง\" (ทั้งแบบปลุกพลังและแบบกัดกร่อน) จะไม่ผลาญทรัพยากร E.G.O\n\nเริ่มเทิร์น: ได้รับ [BulletHole] 1 หน่วย\n\n[WhenUseEGOPassive]\nเริ่มเทิร์น: ได้รับ [BlackWingHole] 1 หน่วย\n\nฟื้นฟู SP 5 หน่วย ทุกครั้งที่ตัวละครนี้ผลาญหรือเสีย [Bullet] สะสม 3 นัด และได้รับ [ResultEnhancement] 1 หน่วยในเทิร์นถัดไป (รวมถึง [Bullet] แบบพิเศษ; เอฟเฟกต์นี้นับ [Bullet] สูงสุด 9 นัด/เทิร์น)",
       "summary": "ฟื้นฟู SP ทุกครั้งที่ตัวละครนี้ผลาญหรือเสีย [Bullet] ประมาณหนึ่ง พร้อมทั้งได้รับ [ResultEnhancement] ในเทิร์นถัดไป",
       "flavor": "The gaze of another nails into me, driving a hollow from which multitudes spill forth.\nThe discharge is then forged into a bullet that punches a hollow into you."
+    },
+    {
+      "id": 2061111,
+      "name": "From the Depths of Despair",
+      "desc": "This unit's Attack Type Resist. that are higher than 1.5 are adjusted to 1.5 (except while Staggered)\nIf this unit is Staggered, take -30% damage (including forced Staggers)\n\nAt 999 [DespairKnightEGOMind], does not consume E.G.O resource when using the \"The Sword Sharpened with Tears\" E.G.O Skill (both Awakening and Corrosion)\n\nGain [DespairKnightEGOMind] equal to damage taken by allies (including this unit; including Shield damage)\nOn Ally Death, gain 1 [DespairKnightEGOSword] (once per turn)\nWhen an ally that has [DespairKnightEGOProtect] is defeated, gain 1 [DespairKnightEGOSword] (once per turn)\n\nOffense Level +1 and Defense Level -1 for every 2 defeated allies (max 5)",
+      "summary": "Strengthen Resist., take less damage"
+    },
+    {
+      "id": 50001,
+      "name": "Magical Arcana",
+      "desc": "Activate the following effects based on the number of \"Magical Girl\" Identities or \"Magical Girl\" E.G.O on the field (Identities and E.G.O are counted together)\n(2) Allied \"Magical Girl\" Identity's or allied \"Magical Girl\" E.G.O's Skills deal +10% damage",
+      "summary": "(2) Magical Girl Identities / E.G.O deal +10% damage using Skills"
+    },
+    {
+      "id": 50002,
+      "name": "Magical Arkscana",
+      "desc": "(3) All allies' Minus Coin Skills deal +10% damage\nAt Attack End against the enemy main target of \"The Sword Sharpened with Tears\" E.G.O Skill, inflict 1 [DespairKnightEGOAlly] (once per turn)",
+      "summary": "(3) All allies' Minus Coin Skills deal +10% damage\nAttack End of \"The Sword Sharpened with Tears\": Inflict 1 [DespairKnightEGOAlly]"
     }
   ]
 }
