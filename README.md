@@ -44,11 +44,7 @@ addon แปลไทยสำหรับ Limbus Company
 ## 📝 ประวัติการอัปเดตล่าสุด
 
 • ปรับแก้คำแปลตรงจุดต่างๆ  
-• แปลสกิล/พาซซีฟตัวตนใหม่  
-• แปลสกิล/พาซซีฟศัตรูใหม่  
-• แปลของขวัญ E.G.O ใหม่  
-• แปลสถานะใหม่  
-• แปลภารกิจอีเว้นท์ใหม่  
+• แปลเนื้อเรื่องคืนวัลเพอร์กิสใหม่    
 
 
 ## 📘 ภาษาไทยที่ซัพพอร์ตแล้ว
@@ -89,7 +85,7 @@ addon แปลไทยสำหรับ Limbus Company
 ✔ พิเศษ : The 8th Walpurgis Night  [stlinx](https://www.facebook.com/jjet.smile)  
 ✘ 9.5 : Twining Threads  (WIP)  
 ✔ 9.5 : Mnestic Experrience  Onyx  
-✘ พิเศษ : The 10th Walpurgis Night  
+✔ พิเศษ : The 10th Walpurgis Night  
 
 **อื่นๆ**  
 • โน้ตของดันเต้ — 33%  [stlinx](https://www.facebook.com/jjet.smile)  
