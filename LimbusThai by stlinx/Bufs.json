@@ -4555,117 +4555,117 @@
     },
     {
       "id": "BurningMatch",
-      "name": "4th Match Flame",
-      "excludeAutoLink": true,
-      "desc": "- Max Potency/Count cap: 100/4\n- When hit by Skills that inflict Burn Potency, Count, or Unique Burn: At Attack End of the said Skills, gain 5 Potency (once per Skill)\n- Turn End: Gain +1 Count\n- At 4 Count, take (Potency x Count + 44) Wrath damage; then, this effect expires",
+      "name": "เพลิงไม้ขีดไฟก้านที่ 4",
+      "desc": "- เพดานค่า/จำนวนสูงสุด: 100/4 หน่วย (ตามลำดับ)\n- เมื่อถูกโจมตีโดยสกิลซึ่งสามารถสร้างค่า, จำนวนครั้ง <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color>, หรือ <sprite name=\"Combustion\"><color=#e30000>'เผาไหม้'</color> แบบพิเศษได้: เมื่อสกิลดังกล่าวโจมตีเสร็จสิ้น จะได้รับค่า <sprite name=\"BurningMatch\"><color=#e30000>'เพลิงไม้ขีดไฟก้านที่ 4'</color> 5 หน่วย (มีผลสกิลละครั้ง)\n- จบเทิร์น: ได้รับจำนวน +1 หน่วย\n- เมื่อมีจำนวน 4 หน่วย จะได้รับความเสียหายธาตุโทสะ (ค่า x จำนวน + 44) หน่วย; จากนั้น เอฟเฟกต์นี้จะหมดลง",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"When the light of the third match goes out, and the fourth bursts into flame...\""
+      "flavor": "\"ยามเมื่อแสงจากไม้ขีดก้านที่สามดับลง และก้านที่สี่ปะทุเป็นเพลิงไฟ...\"",
+      "excludeAutoLink": true
     },
     {
       "id": "BulletJoesu",
-      "name": "Ammo - Prisoner",
-      "excludeAutoLink": true,
-      "desc": "- Unique Ammo\n- Max Capacity: 6\n- On Hit, if Ammo - Prisoner was spent, inflict (Ammo - Prisoner spent) Tanned Prisoner Stacks on the main target\n- This Ammo's count cannot be gained or raised due to external effects other than \"Replenish Personnel\"\n- Does not expire at 0 Stacks",
+      "name": "กระสุน - นักโทษ",
+      "desc": "นับเป็น <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> แบบพิเศษ\n- ความจุสูงสุด: 6 นัด\n- เมื่อโจมตีโดน หากจ่าย <sprite name=\"BulletJoesu\"><color=#9f6a3a>'กระสุน - นักโทษ'</color> จะสร้าง <sprite name=\"MoodooJoesu\"><color=#e30000>'นักโทษผู้ถูกฟอกหนัง'</color> (ปริมาณ <sprite name=\"BulletJoesu\"><color=#9f6a3a>'กระสุน - นักโทษ'</color> ที่จ่าย) หน่วยแก่เป้าหมายหลัก\n- ปริมาณ <sprite name=\"Bullet\"><color=#9f6a3a>'กระสุน'</color> นี้จะไม่สามารถถูกเอฟเฟกต์ภายนอก ทำให้ได้รับเพิ่มหรือเสียไปได้ นอกเสียจากเอฟเฟกต์ <sprite name=\"MoreJoesu\"><color=#9f6a3a>'เติมบุคลากร'</color>\n- ไม่หมดลงเมื่อมีปริมาณทับซ้อน 0 หน่วย",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "MoodooJoesu",
-      "name": "Tanned Prisoner",
-      "excludeAutoLink": true,
-      "desc": "- Max Stack: 6\n- Offense Level -(Stack / 3) (rounded up)\n- Defense Level -(Stack / 2) (rounded up)\n- Turn End: Lose 1 Stack",
+      "name": "นักโทษผู้ถูกฟอกหนัง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 6 หน่วย\n- เสียเลเวลจู่โจม -(ปริมาณทับซ้อน / 3) หน่วย (ปัดเศษขึ้น)\n- เสียเลเวลตั้งรับ -(ปริมาณทับซ้อน / 2) หน่วย (ปัดเศษขึ้น)\n- จบเทิร์น: เสียปริมาณทับซ้อน 1 หน่วย",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RuleDontA",
-      "name": "Rule: Targeting Le Noir Prohibited",
-      "excludeAutoLink": true,
-      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is a \"Le Noir\" enemy,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "name": "กฎ: ห้ามเล็งเลอนัวร์",
+      "desc": "- <color=#ff0000>เริ่มการต่อสู้</color>: <color=#ff6000><mark color=#ff000040><b><u>หากเป้าหมายหลัก</color></mark></b></u>ของสกิลโจมตีซ้ายสุด บนกระดานสกิลของตัวละครนี้ <color=#ff6000><mark color=#ff000040><b><u>คือศัตรูจาก <เลอ นัวร์></color></mark></b></u> จะเปิดใช้งานเอฟเฟกต์ต่อไปนี้ (รวมถึงตัวละครสนับสนุน):\n · ได้รับ <sprite name=\"RuleViolation\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</u></color> 1 หน่วย\n · เอฟเฟกต์นี้หมดลง\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RuleDontB",
-      "name": "Rule: Targeting Attack Skills Prohibited",
-      "excludeAutoLink": true,
-      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Attack Skill,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "name": "กฎ: ห้ามเล็งสกิลโจมตี",
+      "desc": "- <color=#ff0000>เริ่มการต่อสู้</color>: <color=#ff6000><mark color=#ff000040><b><u>หากเป้าหมายหลัก</color></mark></b></u>ของสกิลโจมตีซ้ายสุด บนกระดานสกิลของตัวละครนี้ <color=#ff6000><mark color=#ff000040><b><u>คือสกิลโจมตีของศัตรู</color></mark></b></u> จะเปิดใช้งานเอฟเฟกต์ต่อไปนี้ (รวมถึงตัวละครสนับสนุน):\n · ได้รับ <sprite name=\"RuleViolation\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</u></color> 1 หน่วย\n · เอฟเฟกต์นี้หมดลง\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RuleDontC",
-      "name": "Rule: Targeting Defense Skills Prohibited",
-      "excludeAutoLink": true,
-      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Defense Skill,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "name": "กฎ: ห้ามเล็งสกิลตั้งรับ",
+      "desc": "- <color=#ff0000>เริ่มการต่อสู้</color>: <color=#ff6000><mark color=#ff000040><b><u>หากเป้าหมายหลัก</color></mark></b></u>ของสกิลโจมตีซ้ายสุด บนกระดานสกิลของตัวละครนี้ <color=#ff6000><mark color=#ff000040><b><u>คือสกิลตั้งรับของศัตรู</color></mark></b></u> จะเปิดใช้งานเอฟเฟกต์ต่อไปนี้ (รวมถึงตัวละครสนับสนุน):\n · ได้รับ <sprite name=\"RuleViolation\"><color=#e30000>'ละเมิดกฎโรงฟอกหนัง'</u></color> 1 หน่วย\n · เอฟเฟกต์นี้หมดลง\n- จบเทิร์น: เอฟเฟกต์นี้หมดลง",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RuleViolation",
-      "name": "Tannery Rule Violation",
-      "excludeAutoLink": true,
-      "desc": "- Max Stack: 3\n- Take +(Stack x 5)% damage from Haute Couture::Le Noir B3F Drying Room Yi Sang's Base Attack Skills\n- Take +(Stack x 20)% damage from Haute Couture::Le Noir B3F Drying Room Yi Sang's \"Punishing Burnishing Finishing\" Skill\n- If this unit is defeated, at the next Turn Start, inflict this effect on the ally (Part) that has the highest Core HP (Stack carries over; excluding untargetable allies; does not carry over to the next wave)\n- Turn Start: If there is no enemy Haute Couture::Le Noir B3F Drying Room Yi Sang, expires",
+      "name": "ละเมิดกฎโรงฟอกหนัง",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- ได้รับความเสียหายจากสกิลโจมตีพื้นฐานของ \"โอต์กูตูร์::เลอ นัวร์ ห้องอบแห้ง ชั้น B3 - อีซัง\" เพิ่มขึ้น +(ปริมาณทับซ้อน x 5)%\n- ได้รับความเสียหายจากสกิล \"ลงทัณฑ์ ขัดเงา สำเร็จ\" ของ \"โอต์กูตูร์::เลอ นัวร์ ห้องอบแห้ง ชั้น B3 - อีซัง\" เพิ่มขึ้น +(ปริมาณทับซ้อน x 20)%\n- หากตัวละครนี้ถูกกำจัด เมื่อเริ่มเทิร์นถัดไป จะสร้างเอฟเฟกต์นี้แก่พันธมิตร (หรืออวัยวะ) ที่มี HP แกนหลักมากที่สุด (ปริมาณทับซ้อนจะถูกโอนย้ายด้วย; ยกเว้นพันธมิตรที่ไม่สามารถเล็งได้; ไม่โอนย้ายปริมาณไปเวฟการต่อสู้ถัดไป)\n- เริ่มเทิร์น: หากไม่มีศัตรูที่ใช้ตัวตน \"โอต์กูตูร์::เลอ นัวร์ ห้องอบแห้ง ชั้น B3 - อีซัง\" เอฟเฟกต์นี้จะหมดลง",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RuleSanction",
-      "name": "<size=120%>V</size>IOLENCE<size=120%>F</size>OR<size=120%>R</size>ULES<size=120%>V</size>IOLATED",
-      "excludeAutoLink": true,
-      "desc": "- Max Stack: 5",
+      "name": "<size=120%>ค</size>วามรุนแรง<size=120%>สํ</size>าหรับการ<size=120%>ล</size>ะเมิด<size=120%>ก</size>ฎ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 5 หน่วย",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "MoreJoesu",
-      "name": "Replenish Personnel",
-      "excludeAutoLink": true,
-      "desc": "- Effect applied to Ammo - Prisoner\n- Consume Preservation Count until this unit has max Ammo - Prisoner Stacks. (Gain 1 Ammo - Prisoner for every 2 Preservation Count consumed)\n- If this unit has fewer than 2 Preservation Count, does not activate",
+      "name": "เติมบุคลากร",
+      "desc": "- เอฟเฟกต์มีผลกับ <sprite name=\"BulletJoesu\"><color=#9f6a3a>'กระสุน - นักโทษ'</color>\n- ผลาญจำนวน <sprite name=\"ChargeNoir\"><color=#f8c200>'อนุรักษ์'</color> จนกว่าตัวละครนี้จะมีปริมาณ <sprite name=\"BulletJoesu\"><color=#9f6a3a>'กระสุน - นักโทษ'</color> เต็ม (ได้รับ <sprite name=\"BulletJoesu\"><color=#9f6a3a>'กระสุน - นักโทษ'</color> 1 นัด ตามทุก ๆ จำนวน <sprite name=\"ChargeNoir\"><color=#f8c200>'อนุรักษ์'</color> 2 หน่วยที่ผลาญไป)\n- หากตัวละครนี้มีจำนวน <sprite name=\"ChargeNoir\"><color=#f8c200>'อนุรักษ์'</color> ต่ำกว่า 2 หน่วย เอฟเฟกต์นี้จะไม่ทำงาน",
       "summary": "",
-      "undefined": "-"
+      "undefined": "-",
+      "excludeAutoLink": true
     },
     {
       "id": "RougeGregRed",
-      "name": "Ruby Thread of Desire",
-      "desc": "- If this unit gained Pulsation Count past its max cap, apply Charge Count equal to surplus Pulsation Count to allies that have Thread Tether (max 10 per turn)",
+      "name": "ด้ายแห่งความปรารถนาสีทับทิม",
+      "desc": "- หากตัวละครนี้ได้รับจำนวน <sprite name=\"ChargeRouge\"><color=#f8c200>'ชีพจร'</color> เกินเพดานสูงสุด จะมอบจำนวน <sprite name=\"Charge\"><color=#f8c200>'ชาร์จ'</color>  ในปริมาณที่เท่ากับจำนวน <sprite name=\"ChargeRouge\"><color=#f8c200>'ชีพจร'</color> ส่วนเกินให้กับพันธมิตรที่มี <sprite name=\"RougeGregLink\"><color=#a16a3b>'ด้ายผูกยึด'</color> (สูงสุด 10 หน่วย/เทิร์น)",
       "summary": ""
     },
     {
       "id": "RougeGregYellow",
-      "name": "Golden Thread of Yearning",
-      "desc": "- Allies that have Thread Tether deal +(Lust Reson. x 5)% damage using Skills (max 20%)",
+      "name": "ด้ายแห่งความโหยหาสีทองคำ",
+      "desc": "- พันธมิตรที่มี <sprite name=\"RougeGregLink\"><color=#a16a3b>'ด้ายผูกยึด'</color> จะสร้างความเสียหายเมื่อใช้สกิลเพิ่มขึ้น +(สั่นพ้องธาตุราคะ x 5)% (สูงสุด 20%)",
       "summary": ""
     },
     {
       "id": "RougeGregBlue",
-      "name": "Sapphire Thread of Comfort",
-      "desc": "- When healing HP on self, heal HP on the ally that has Thread Tether by an equal amount (including surplus healing amount)",
+      "name": "ด้ายแห่งความปลอบโยนสีไพลิน",
+      "desc": "- เมื่อฟื้นฟู HP ตนเอง จะฟื้นฟู HP พันธมิตรที่มี <sprite name=\"RougeGregLink\"><color=#a16a3b>'ด้ายผูกยึด'</color> ในปริมาณที่เท่ากัน (รวมถึงปริมาณฟื้นฟูส่วนที่เกินมา)",
       "summary": ""
     },
     {
       "id": "RougeGregWarmUp",
-      "name": "Bound in Crimson",
-      "desc": "- Max Stack: 2\n- Skills deal +5% damage for every Stack (including E.G.O Skills)",
+      "name": "ผูกมัดในสีแดงเข้ม",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 2 หน่วย\n- สกิลสร้างความเสียหายเพิ่มขึ้น +5% ตามทุก ๆ ปริมาณทับซ้อนที่มี (รวมถึงสกิล E.G.O)",
       "summary": ""
     },
     {
       "id": "RougeGregLink",
-      "name": "Thread Tether",
-      "desc": "- Expires when the character that applied this effect retreats, is defeated, or applies this effect on another target",
+      "name": "ด้ายผูกยึด",
+      "desc": "- หมดลงเมื่อตัวละครที่มอบเอฟเฟกต์นี้ทำการ <sprite name=\"Retreat\"><color=#9f6a3a>'ถอยทัพ'</color>, ถูกกำจัด, หรือมอบเอฟเฟกต์นี้แก่เป้าหมายอื่น",
       "summary": ""
     },
     {
       "id": "RougeGregAutoHeal",
-      "name": "Stitched",
-      "desc": "- Max Stack: 3\n- Upon losing HP, heal 6% HP and lose 1 Stack",
+      "name": "ปักเย็บ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 3 หน่วย\n- เมื่อเสีย HP จะฟื้นฟู HP 6% และเสียปริมาณทับซ้อน 1 หน่วย",
       "summary": ""
     },
     {
       "id": "GoldBuffet",
-      "name": "Golden Shroud",
-      "desc": "- Max Stack: 1\n- Defense Level +3\n- Turn End: If this unit was Staggered for the first time in this Encounter, recover from Stagger (excluding forced Stagger; once per Encounter)",
+      "name": "ผ้าห่อศพทองคำ",
+      "desc": "ปริมาณทับซ้อนสูงสุด: 1 หน่วย\n- เลเวลตั้งรับ +3 หน่วย\n- จบเทิร์น: หากตัวละครนี้ติดชะงักเป็นครั้งแรก ในการเผชิญหน้านี้ จะฟื้นตัวจากการชะงัก (ยกเว้นบังคับชะงัก; มีผล 1 ครั้ง/การเผชิญหน้า)",
       "summary": ""
     }
   ]
