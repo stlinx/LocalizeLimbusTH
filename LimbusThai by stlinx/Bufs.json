@@ -4552,6 +4552,121 @@
       "summary": "",
       "undefined": "-",
       "excludeAutoLink": true
+    },
+    {
+      "id": "BurningMatch",
+      "name": "4th Match Flame",
+      "excludeAutoLink": true,
+      "desc": "- Max Potency/Count cap: 100/4\n- When hit by Skills that inflict Burn Potency, Count, or Unique Burn: At Attack End of the said Skills, gain 5 Potency (once per Skill)\n- Turn End: Gain +1 Count\n- At 4 Count, take (Potency x Count + 44) Wrath damage; then, this effect expires",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"When the light of the third match goes out, and the fourth bursts into flame...\""
+    },
+    {
+      "id": "BulletJoesu",
+      "name": "Ammo - Prisoner",
+      "excludeAutoLink": true,
+      "desc": "- Unique Ammo\n- Max Capacity: 6\n- On Hit, if Ammo - Prisoner was spent, inflict (Ammo - Prisoner spent) Tanned Prisoner Stacks on the main target\n- This Ammo's count cannot be gained or raised due to external effects other than \"Replenish Personnel\"\n- Does not expire at 0 Stacks",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MoodooJoesu",
+      "name": "Tanned Prisoner",
+      "excludeAutoLink": true,
+      "desc": "- Max Stack: 6\n- Offense Level -(Stack / 3) (rounded up)\n- Defense Level -(Stack / 2) (rounded up)\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RuleDontA",
+      "name": "Rule: Targeting Le Noir Prohibited",
+      "excludeAutoLink": true,
+      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is a \"Le Noir\" enemy,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RuleDontB",
+      "name": "Rule: Targeting Attack Skills Prohibited",
+      "excludeAutoLink": true,
+      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Attack Skill,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RuleDontC",
+      "name": "Rule: Targeting Defense Skills Prohibited",
+      "excludeAutoLink": true,
+      "desc": "- <color=#ff0000>Combat Start:</color> If the main target of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Defense Skill,</color> activate the following (including Assist Units):\n  · Gain 1 Tannery Rule Violation\n  · This effect expires\n- Turn End: This effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RuleViolation",
+      "name": "Tannery Rule Violation",
+      "excludeAutoLink": true,
+      "desc": "- Max Stack: 3\n- Take +(Stack x 5)% damage from Haute Couture::Le Noir B3F Drying Room Yi Sang's Base Attack Skills\n- Take +(Stack x 20)% damage from Haute Couture::Le Noir B3F Drying Room Yi Sang's \"Punishing Burnishing Finishing\" Skill\n- If this unit is defeated, at the next Turn Start, inflict this effect on the ally (Part) that has the highest Core HP (Stack carries over; excluding untargetable allies; does not carry over to the next wave)\n- Turn Start: If there is no enemy Haute Couture::Le Noir B3F Drying Room Yi Sang, expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RuleSanction",
+      "name": "<size=120%>V</size>IOLENCE<size=120%>F</size>OR<size=120%>R</size>ULES<size=120%>V</size>IOLATED",
+      "excludeAutoLink": true,
+      "desc": "- Max Stack: 5",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MoreJoesu",
+      "name": "Replenish Personnel",
+      "excludeAutoLink": true,
+      "desc": "- Effect applied to Ammo - Prisoner\n- Consume Preservation Count until this unit has max Ammo - Prisoner Stacks. (Gain 1 Ammo - Prisoner for every 2 Preservation Count consumed)\n- If this unit has fewer than 2 Preservation Count, does not activate",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RougeGregRed",
+      "name": "Ruby Thread of Desire",
+      "desc": "- If this unit gained Pulsation Count past its max cap, apply Charge Count equal to surplus Pulsation Count to allies that have Thread Tether (max 10 per turn)",
+      "summary": ""
+    },
+    {
+      "id": "RougeGregYellow",
+      "name": "Golden Thread of Yearning",
+      "desc": "- Allies that have Thread Tether deal +(Lust Reson. x 5)% damage using Skills (max 20%)",
+      "summary": ""
+    },
+    {
+      "id": "RougeGregBlue",
+      "name": "Sapphire Thread of Comfort",
+      "desc": "- When healing HP on self, heal HP on the ally that has Thread Tether by an equal amount (including surplus healing amount)",
+      "summary": ""
+    },
+    {
+      "id": "RougeGregWarmUp",
+      "name": "Bound in Crimson",
+      "desc": "- Max Stack: 2\n- Skills deal +5% damage for every Stack (including E.G.O Skills)",
+      "summary": ""
+    },
+    {
+      "id": "RougeGregLink",
+      "name": "Thread Tether",
+      "desc": "- Expires when the character that applied this effect retreats, is defeated, or applies this effect on another target",
+      "summary": ""
+    },
+    {
+      "id": "RougeGregAutoHeal",
+      "name": "Stitched",
+      "desc": "- Max Stack: 3\n- Upon losing HP, heal 6% HP and lose 1 Stack",
+      "summary": ""
+    },
+    {
+      "id": "GoldBuffet",
+      "name": "Golden Shroud",
+      "desc": "- Max Stack: 1\n- Defense Level +3\n- Turn End: If this unit was Staggered for the first time in this Encounter, recover from Stagger (excluding forced Stagger; once per Encounter)",
+      "summary": ""
     }
   ]
 }
